@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="podnaslov">Les maths dans ta poche</string>
+    <string name="pretraga_hint">Rechercher des formules… (ex. cône, intégrale)</string>
+    <string name="obrisi_pretragu">Effacer la recherche</string>
+    <string name="oblasti">Domaines</string>
+    <string name="nema_rezultata">Aucun résultat</string>
+    <string name="oblast_aritmetika">Arithmétique</string>
+    <string name="opis_aritmetika">Pourcentages, fractions</string>
+    <string name="oblast_algebra">Algèbre</string>
+    <string name="opis_algebra">Équations, logarithmes</string>
+    <string name="oblast_planimetrija">Géométrie plane</string>
+    <string name="opis_planimetrija">Périmètre et aire</string>
+    <string name="oblast_stereometrija">Géométrie dans l\'espace</string>
+    <string name="opis_stereometrija">Aire, volume</string>
+    <string name="oblast_trigonometrija">Trigonométrie</string>
+    <string name="opis_trigonometrija">Théorèmes, identités</string>
+    <string name="oblast_analiza">Analyse</string>
+    <string name="opis_analiza">Dérivées, intégrales</string>
+    <string name="oblast_analiticka_geometrija">Géométrie analytique</string>
+    <string name="opis_analiticka_geometrija">Droites, coniques</string>
+    <string name="oblast_kombinatorika">Dénombrement</string>
+    <string name="opis_kombinatorika">Probabilités, suites</string>
+    <string name="rezultati">Résultats</string>
+    <string name="nazad">Retour</string>
+    <string name="uskoro_oblast">Les formules de ce domaine arrivent bientôt.</string>
+</resources>

@@ -1,0 +1,2329 @@
+{
+ "oblast": "planimetrija",
+ "teme": [
+  {
+   "id": "trougao",
+   "simbol": "",
+   "ikona": "ic_f_trougao",
+   "naziv": {
+    "sr": "Trougao",
+    "en": "Triangle",
+    "it": "Triangolo",
+    "fr": "Triangle",
+    "es": "Triángulo",
+    "de": "Dreieck",
+    "pt": "Triângulo",
+    "ru": "Треугольник"
+   },
+   "opis": {
+    "sr": "Obim, površina, Heronov obrazac",
+    "en": "Perimeter, area, Heron’s formula",
+    "it": "Perimetro, area, formula di Erone",
+    "fr": "Périmètre, aire, formule de Héron",
+    "es": "Perímetro, área, fórmula de Herón",
+    "de": "Umfang, Fläche, Satz des Heron",
+    "pt": "Perímetro, área, fórmula de Herão",
+    "ru": "Периметр, площадь, формула Герона"
+   },
+   "kljucne_reci": {
+    "sr": "trougao obim povrsina visina heronov obrazac stranice",
+    "en": "triangle perimeter area height heron formula sides",
+    "it": "triangolo perimetro area altezza formula di erone",
+    "fr": "triangle perimetre aire hauteur formule de heron",
+    "es": "triangulo perimetro area altura formula de heron",
+    "de": "dreieck umfang flacheninhalt hohe heron",
+    "pt": "triangulo perimetro area altura formula de herao heron",
+    "ru": "треугольник периметр площадь высота формула герона"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik\" points=\"30.0,175.0 270.0,175.0 110.0,30.0\"/><line class=\"pom\" x1=\"110.0\" y1=\"30.0\" x2=\"110.0\" y2=\"175.0\"/><path class=\"ugao\" d=\"M122.0,175.0 L122.0,163.0 L110.0,163.0\"/><text class=\"oz\" x=\"145.0\" y=\"199.0\">c</text><text class=\"oz\" x=\"200.0\" y=\"98.0\">a</text><text class=\"oz\" x=\"48.0\" y=\"98.0\">b</text><text class=\"oz\" x=\"116.0\" y=\"120.0\">h<tspan class=\"sub\" dy=\"5\">c</tspan></text><text class=\"tem\" x=\"14.0\" y=\"190.0\">A</text><text class=\"tem\" x=\"276.0\" y=\"190.0\">B</text><text class=\"tem\" x=\"104.0\" y=\"22.0\">C</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Obim",
+      "en": "Perimeter",
+      "it": "Perimetro",
+      "fr": "Périmètre",
+      "es": "Perímetro",
+      "de": "Umfang",
+      "pt": "Perímetro",
+      "ru": "Периметр"
+     },
+     "latex": {
+      "sr": "O = a + b + c",
+      "en": "P = a + b + c",
+      "it": "2p = a + b + c",
+      "fr": "P = a + b + c",
+      "es": "P = a + b + c",
+      "de": "u = a + b + c",
+      "pt": "P = a + b + c",
+      "ru": "P = a + b + c"
+     },
+     "objasnjenje": {
+      "sr": "Zbir dužina sve tri stranice.",
+      "en": "The sum of the three sides.",
+      "it": "La somma dei tre lati.",
+      "fr": "La somme des trois côtés.",
+      "es": "La suma de los tres lados.",
+      "de": "Summe der drei Seiten.",
+      "pt": "A soma dos três lados.",
+      "ru": "Сумма длин трёх сторон."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Area",
+      "it": "Area",
+      "fr": "Aire",
+      "es": "Área",
+      "de": "Flächeninhalt",
+      "pt": "Área",
+      "ru": "Площадь"
+     },
+     "latex": {
+      "sr": "P = \\frac{c \\cdot h_c}{2}",
+      "en": "A = \\frac{c \\cdot h_c}{2}",
+      "it": "A = \\frac{c \\cdot h_c}{2}",
+      "fr": "A = \\frac{c \\cdot h_c}{2}",
+      "es": "A = \\frac{c \\cdot h_c}{2}",
+      "de": "A = \\frac{c \\cdot h_c}{2}",
+      "pt": "A = \\frac{c \\cdot h_c}{2}",
+      "ru": "S = \\frac{c \\cdot h_c}{2}"
+     },
+     "objasnjenje": {
+      "sr": "Polovina proizvoda stranice i visine na tu stranicu.",
+      "en": "Half the product of a side and the height to that side.",
+      "it": "Metà del prodotto di un lato per l’altezza relativa.",
+      "fr": "La moitié du produit d’un côté par la hauteur correspondante.",
+      "es": "La mitad del producto de un lado por su altura.",
+      "de": "Halbes Produkt aus Seite und zugehöriger Höhe.",
+      "pt": "Metade do produto de um lado pela altura relativa.",
+      "ru": "Половина произведения стороны на проведённую к ней высоту."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Heronov obrazac",
+      "en": "Heron’s formula",
+      "it": "Formula di Erone",
+      "fr": "Formule de Héron",
+      "es": "Fórmula de Herón",
+      "de": "Satz des Heron",
+      "pt": "Fórmula de Herão",
+      "ru": "Формула Герона"
+     },
+     "latex": {
+      "sr": "P = \\sqrt{s (s - a)(s - b)(s - c)}, \\quad s = \\frac{a + b + c}{2}",
+      "en": "A = \\sqrt{s (s - a)(s - b)(s - c)}, \\quad s = \\frac{a + b + c}{2}",
+      "it": "A = \\sqrt{s (s - a)(s - b)(s - c)}, \\quad s = \\frac{a + b + c}{2}",
+      "fr": "A = \\sqrt{s (s - a)(s - b)(s - c)}, \\quad s = \\frac{a + b + c}{2}",
+      "es": "A = \\sqrt{s (s - a)(s - b)(s - c)}, \\quad s = \\frac{a + b + c}{2}",
+      "de": "A = \\sqrt{s (s - a)(s - b)(s - c)}, \\quad s = \\frac{a + b + c}{2}",
+      "pt": "A = \\sqrt{s (s - a)(s - b)(s - c)}, \\quad s = \\frac{a + b + c}{2}",
+      "ru": "S = \\sqrt{s (s - a)(s - b)(s - c)}, \\quad s = \\frac{a + b + c}{2}"
+     },
+     "objasnjenje": {
+      "sr": "Površina samo iz dužina stranica; s je poluobim.",
+      "en": "Area from the three sides only; s is the semi-perimeter.",
+      "it": "Area dai soli tre lati; s è il semiperimetro.",
+      "fr": "Aire à partir des trois côtés ; s est le demi-périmètre.",
+      "es": "Área a partir de los tres lados; s es el semiperímetro.",
+      "de": "Fläche nur aus den drei Seiten; s ist der halbe Umfang.",
+      "pt": "Área apenas com os três lados; s é o semiperímetro.",
+      "ru": "Площадь только по трём сторонам; s — полупериметр."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Preko dve stranice i ugla",
+      "en": "Two sides and the angle",
+      "it": "Due lati e l’angolo compreso",
+      "fr": "Deux côtés et l’angle",
+      "es": "Dos lados y el ángulo",
+      "de": "Zwei Seiten und Winkel",
+      "pt": "Dois lados e o ângulo",
+      "ru": "Две стороны и угол"
+     },
+     "latex": {
+      "sr": "P = \\frac{1}{2} a b \\sin\\gamma",
+      "en": "A = \\frac{1}{2} a b \\sin\\gamma",
+      "it": "A = \\frac{1}{2} a b \\operatorname{sen}\\gamma",
+      "fr": "A = \\frac{1}{2} a b \\sin\\gamma",
+      "es": "A = \\frac{1}{2} a b \\operatorname{sen}\\gamma",
+      "de": "A = \\frac{1}{2} a b \\sin\\gamma",
+      "pt": "A = \\frac{1}{2} a b \\operatorname{sen}\\gamma",
+      "ru": "S = \\frac{1}{2} a b \\sin\\gamma"
+     },
+     "objasnjenje": {
+      "sr": "γ je ugao između stranica a i b.",
+      "en": "γ is the angle between sides a and b.",
+      "it": "γ è l’angolo compreso tra a e b.",
+      "fr": "γ est l’angle entre les côtés a et b.",
+      "es": "γ es el ángulo entre los lados a y b.",
+      "de": "γ ist der Winkel zwischen a und b.",
+      "pt": "γ é o ângulo entre os lados a e b.",
+      "ru": "γ — угол между сторонами a и b."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 5
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 6
+     },
+     {
+      "id": "c",
+      "oznaka": "c",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 7
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Obim O",
+       "en": "Perimeter P",
+       "it": "Perimetro 2p",
+       "fr": "Périmètre P",
+       "es": "Perímetro P",
+       "de": "Umfang u",
+       "pt": "Perímetro P",
+       "ru": "Периметр P"
+      },
+      "izraz": "a+b+c"
+     },
+     {
+      "naziv": {
+       "sr": "Površina P",
+       "en": "Area A",
+       "it": "Area A",
+       "fr": "Aire A",
+       "es": "Área A",
+       "de": "Flächeninhalt A",
+       "pt": "Área A",
+       "ru": "Площадь S"
+      },
+      "izraz": "heron(a,b,c)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "pravougli_trougao",
+   "simbol": "",
+   "ikona": "ic_f_pravougli",
+   "naziv": {
+    "sr": "Pravougli trougao",
+    "en": "Right triangle",
+    "it": "Triangolo rettangolo",
+    "fr": "Triangle rectangle",
+    "es": "Triángulo rectángulo",
+    "de": "Rechtwinkliges Dreieck",
+    "pt": "Triângulo retângulo",
+    "ru": "Прямоугольный треугольник"
+   },
+   "opis": {
+    "sr": "Pitagorina teorema",
+    "en": "Pythagorean theorem",
+    "it": "Teorema di Pitagora",
+    "fr": "Théorème de Pythagore",
+    "es": "Teorema de Pitágoras",
+    "de": "Satz des Pythagoras",
+    "pt": "Teorema de Pitágoras",
+    "ru": "Теорема Пифагора"
+   },
+   "kljucne_reci": {
+    "sr": "pravougli trougao pitagorina teorema hipotenuza kateta",
+    "en": "right triangle pythagorean theorem pythagoras hypotenuse leg",
+    "it": "triangolo rettangolo teorema di pitagora ipotenusa cateto",
+    "fr": "triangle rectangle theoreme de pythagore hypotenuse cote",
+    "es": "triangulo rectangulo teorema de pitagoras hipotenusa cateto",
+    "de": "rechtwinkliges dreieck satz des pythagoras hypotenuse kathete",
+    "pt": "triangulo retangulo teorema de pitagoras hipotenusa cateto",
+    "ru": "прямоугольный треугольник теорема пифагора гипотенуза катет"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik\" points=\"50.0,175.0 265.0,175.0 50.0,35.0\"/><path class=\"ugao\" d=\"M64.0,175.0 L64.0,161.0 L50.0,161.0\"/><text class=\"oz\" x=\"30.0\" y=\"112.0\">a</text><text class=\"oz\" x=\"152.0\" y=\"198.0\">b</text><text class=\"oz\" x=\"165.0\" y=\"98.0\">c</text><text class=\"tem\" x=\"34.0\" y=\"192.0\">C</text><text class=\"tem\" x=\"270.0\" y=\"192.0\">A</text><text class=\"tem\" x=\"44.0\" y=\"27.0\">B</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Pitagorina teorema",
+      "en": "Pythagorean theorem",
+      "it": "Teorema di Pitagora",
+      "fr": "Théorème de Pythagore",
+      "es": "Teorema de Pitágoras",
+      "de": "Satz des Pythagoras",
+      "pt": "Teorema de Pitágoras",
+      "ru": "Теорема Пифагора"
+     },
+     "latex": {
+      "sr": "c^2 = a^2 + b^2",
+      "en": "c^2 = a^2 + b^2",
+      "it": "c^2 = a^2 + b^2",
+      "fr": "c^2 = a^2 + b^2",
+      "es": "c^2 = a^2 + b^2",
+      "de": "c^2 = a^2 + b^2",
+      "pt": "c^2 = a^2 + b^2",
+      "ru": "c^2 = a^2 + b^2"
+     },
+     "objasnjenje": {
+      "sr": "Kvadrat hipotenuze jednak je zbiru kvadrata kateta.",
+      "en": "The square of the hypotenuse equals the sum of the squares of the legs.",
+      "it": "Il quadrato dell’ipotenusa è uguale alla somma dei quadrati dei cateti.",
+      "fr": "Le carré de l’hypoténuse est égal à la somme des carrés des deux autres côtés.",
+      "es": "El cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos.",
+      "de": "Das Hypotenusenquadrat ist gleich der Summe der Kathetenquadrate.",
+      "pt": "O quadrado da hipotenusa é igual à soma dos quadrados dos catetos.",
+      "ru": "Квадрат гипотенузы равен сумме квадратов катетов."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Area",
+      "it": "Area",
+      "fr": "Aire",
+      "es": "Área",
+      "de": "Flächeninhalt",
+      "pt": "Área",
+      "ru": "Площадь"
+     },
+     "latex": {
+      "sr": "P = \\frac{a \\cdot b}{2}",
+      "en": "A = \\frac{a \\cdot b}{2}",
+      "it": "A = \\frac{a \\cdot b}{2}",
+      "fr": "A = \\frac{a \\cdot b}{2}",
+      "es": "A = \\frac{a \\cdot b}{2}",
+      "de": "A = \\frac{a \\cdot b}{2}",
+      "pt": "A = \\frac{a \\cdot b}{2}",
+      "ru": "S = \\frac{a \\cdot b}{2}"
+     },
+     "objasnjenje": {
+      "sr": "Polovina proizvoda kateta.",
+      "en": "Half the product of the legs.",
+      "it": "Metà del prodotto dei cateti.",
+      "fr": "La moitié du produit des côtés de l’angle droit.",
+      "es": "La mitad del producto de los catetos.",
+      "de": "Halbes Produkt der Katheten.",
+      "pt": "Metade do produto dos catetos.",
+      "ru": "Половина произведения катетов."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Visina na hipotenuzu",
+      "en": "Height to the hypotenuse",
+      "it": "Altezza relativa all’ipotenusa",
+      "fr": "Hauteur sur l’hypoténuse",
+      "es": "Altura sobre la hipotenusa",
+      "de": "Höhe auf die Hypotenuse",
+      "pt": "Altura relativa à hipotenusa",
+      "ru": "Высота к гипотенузе"
+     },
+     "latex": {
+      "sr": "h_c = \\frac{a \\cdot b}{c}",
+      "en": "h_c = \\frac{a \\cdot b}{c}",
+      "it": "h_c = \\frac{a \\cdot b}{c}",
+      "fr": "h_c = \\frac{a \\cdot b}{c}",
+      "es": "h_c = \\frac{a \\cdot b}{c}",
+      "de": "h_c = \\frac{a \\cdot b}{c}",
+      "pt": "h_c = \\frac{a \\cdot b}{c}",
+      "ru": "h_c = \\frac{a \\cdot b}{c}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Poluprečnik opisanog kruga",
+      "en": "Circumradius",
+      "it": "Raggio della circonferenza circoscritta",
+      "fr": "Rayon du cercle circonscrit",
+      "es": "Radio de la circunferencia circunscrita",
+      "de": "Umkreisradius",
+      "pt": "Raio da circunferência circunscrita",
+      "ru": "Радиус описанной окружности"
+     },
+     "latex": {
+      "sr": "R = \\frac{c}{2}",
+      "en": "R = \\frac{c}{2}",
+      "it": "R = \\frac{c}{2}",
+      "fr": "R = \\frac{c}{2}",
+      "es": "R = \\frac{c}{2}",
+      "de": "R = \\frac{c}{2}",
+      "pt": "R = \\frac{c}{2}",
+      "ru": "R = \\frac{c}{2}"
+     },
+     "objasnjenje": {
+      "sr": "Centar opisanog kruga je sredina hipotenuze.",
+      "en": "The circumcentre is the midpoint of the hypotenuse.",
+      "it": "Il circocentro è il punto medio dell’ipotenusa.",
+      "fr": "Le centre du cercle circonscrit est le milieu de l’hypoténuse.",
+      "es": "El circuncentro es el punto medio de la hipotenusa.",
+      "de": "Der Umkreismittelpunkt ist die Mitte der Hypotenuse.",
+      "pt": "O circuncentro é o ponto médio da hipotenusa.",
+      "ru": "Центр описанной окружности — середина гипотенузы."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Hipotenuza c",
+       "en": "Hypotenuse c",
+       "it": "Ipotenusa c",
+       "fr": "Hypoténuse c",
+       "es": "Hipotenusa c",
+       "de": "Hypotenuse c",
+       "pt": "Hipotenusa c",
+       "ru": "Гипотенуза c"
+      },
+      "izraz": "sqrt(a*a+b*b)"
+     },
+     {
+      "naziv": {
+       "sr": "Obim O",
+       "en": "Perimeter P",
+       "it": "Perimetro 2p",
+       "fr": "Périmètre P",
+       "es": "Perímetro P",
+       "de": "Umfang u",
+       "pt": "Perímetro P",
+       "ru": "Периметр P"
+      },
+      "izraz": "a+b+sqrt(a*a+b*b)"
+     },
+     {
+      "naziv": {
+       "sr": "Površina P",
+       "en": "Area A",
+       "it": "Area A",
+       "fr": "Aire A",
+       "es": "Área A",
+       "de": "Flächeninhalt A",
+       "pt": "Área A",
+       "ru": "Площадь S"
+      },
+      "izraz": "a*b/2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kvadrat",
+   "simbol": "",
+   "ikona": "ic_f_kvadrat",
+   "naziv": {
+    "sr": "Kvadrat",
+    "en": "Square",
+    "it": "Quadrato",
+    "fr": "Carré",
+    "es": "Cuadrado",
+    "de": "Quadrat",
+    "pt": "Quadrado",
+    "ru": "Квадрат"
+   },
+   "opis": {
+    "sr": "Obim, površina, dijagonala",
+    "en": "Perimeter, area, diagonal",
+    "it": "Perimetro, area, diagonale",
+    "fr": "Périmètre, aire, diagonale",
+    "es": "Perímetro, área, diagonal",
+    "de": "Umfang, Fläche, Diagonale",
+    "pt": "Perímetro, área, diagonal",
+    "ru": "Периметр, площадь, диагональ"
+   },
+   "kljucne_reci": {
+    "sr": "kvadrat obim povrsina dijagonala",
+    "en": "square perimeter area diagonal",
+    "it": "quadrato perimetro area diagonale",
+    "fr": "carre perimetre aire diagonale",
+    "es": "cuadrado perimetro area diagonal",
+    "de": "quadrat umfang flacheninhalt diagonale",
+    "pt": "quadrado perimetro area diagonal",
+    "ru": "квадрат периметр площадь диагональ"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 215\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik\" points=\"75.0,25.0 235.0,25.0 235.0,185.0 75.0,185.0\"/><line class=\"pom\" x1=\"75.0\" y1=\"185.0\" x2=\"235.0\" y2=\"25.0\"/><path class=\"ugao\" d=\"M87.0,185.0 L87.0,173.0 L75.0,173.0\"/><text class=\"oz\" x=\"150.0\" y=\"205.0\">a</text><text class=\"oz\" x=\"246.0\" y=\"110.0\">a</text><text class=\"oz\" x=\"136.0\" y=\"96.0\">d</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Obim",
+      "en": "Perimeter",
+      "it": "Perimetro",
+      "fr": "Périmètre",
+      "es": "Perímetro",
+      "de": "Umfang",
+      "pt": "Perímetro",
+      "ru": "Периметр"
+     },
+     "latex": {
+      "sr": "O = 4a",
+      "en": "P = 4a",
+      "it": "2p = 4a",
+      "fr": "P = 4a",
+      "es": "P = 4a",
+      "de": "u = 4a",
+      "pt": "P = 4a",
+      "ru": "P = 4a"
+     },
+     "objasnjenje": {
+      "sr": "Kvadrat ima četiri jednake stranice.",
+      "en": "A square has four equal sides.",
+      "it": "Il quadrato ha quattro lati uguali.",
+      "fr": "Le carré a quatre côtés égaux.",
+      "es": "El cuadrado tiene cuatro lados iguales.",
+      "de": "Ein Quadrat hat vier gleich lange Seiten.",
+      "pt": "O quadrado tem quatro lados iguais.",
+      "ru": "У квадрата четыре равные стороны."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Area",
+      "it": "Area",
+      "fr": "Aire",
+      "es": "Área",
+      "de": "Flächeninhalt",
+      "pt": "Área",
+      "ru": "Площадь"
+     },
+     "latex": {
+      "sr": "P = a^2",
+      "en": "A = a^2",
+      "it": "A = a^2",
+      "fr": "A = a^2",
+      "es": "A = a^2",
+      "de": "A = a^2",
+      "pt": "A = a^2",
+      "ru": "S = a^2"
+     },
+     "objasnjenje": {
+      "sr": "Stranica pomnožena sama sobom; jedinica je kvadratna (cm², m²).",
+      "en": "The side times itself; the unit is squared (cm², m²).",
+      "it": "Il lato per se stesso; l’unità è al quadrato (cm², m²).",
+      "fr": "Le côté multiplié par lui-même ; l’unité est au carré (cm², m²).",
+      "es": "El lado por sí mismo; la unidad es cuadrada (cm², m²).",
+      "de": "Seite mal Seite; die Einheit ist quadratisch (cm², m²).",
+      "pt": "O lado vezes ele mesmo; a unidade é quadrada (cm², m²).",
+      "ru": "Сторона, умноженная сама на себя; единицы квадратные (см², м²)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Dijagonala",
+      "en": "Diagonal",
+      "it": "Diagonale",
+      "fr": "Diagonale",
+      "es": "Diagonal",
+      "de": "Diagonale",
+      "pt": "Diagonal",
+      "ru": "Диагональ"
+     },
+     "latex": {
+      "sr": "d = a\\sqrt{2}",
+      "en": "d = a\\sqrt{2}",
+      "it": "d = a\\sqrt{2}",
+      "fr": "d = a\\sqrt{2}",
+      "es": "d = a\\sqrt{2}",
+      "de": "d = a\\sqrt{2}",
+      "pt": "d = a\\sqrt{2}",
+      "ru": "d = a\\sqrt{2}"
+     },
+     "objasnjenje": {
+      "sr": "Iz Pitagorine teoreme: d² = a² + a² = 2a².",
+      "en": "From Pythagoras: d² = a² + a² = 2a².",
+      "it": "Dal teorema di Pitagora: d² = a² + a² = 2a².",
+      "fr": "Par Pythagore : d² = a² + a² = 2a².",
+      "es": "Por Pitágoras: d² = a² + a² = 2a².",
+      "de": "Nach Pythagoras: d² = a² + a² = 2a².",
+      "pt": "Por Pitágoras: d² = a² + a² = 2a².",
+      "ru": "По теореме Пифагора: d² = a² + a² = 2a²."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 5
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Obim O",
+       "en": "Perimeter P",
+       "it": "Perimetro 2p",
+       "fr": "Périmètre P",
+       "es": "Perímetro P",
+       "de": "Umfang u",
+       "pt": "Perímetro P",
+       "ru": "Периметр P"
+      },
+      "izraz": "4*a"
+     },
+     {
+      "naziv": {
+       "sr": "Površina P",
+       "en": "Area A",
+       "it": "Area A",
+       "fr": "Aire A",
+       "es": "Área A",
+       "de": "Flächeninhalt A",
+       "pt": "Área A",
+       "ru": "Площадь S"
+      },
+      "izraz": "a*a"
+     },
+     {
+      "naziv": {
+       "sr": "Dijagonala d",
+       "en": "Diagonal d",
+       "it": "Diagonale d",
+       "fr": "Diagonale d",
+       "es": "Diagonal d",
+       "de": "Diagonale d",
+       "pt": "Diagonal d",
+       "ru": "Диагональ d"
+      },
+      "izraz": "a*Math.SQRT2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "pravougaonik",
+   "simbol": "",
+   "ikona": "ic_f_pravougaonik",
+   "naziv": {
+    "sr": "Pravougaonik",
+    "en": "Rectangle",
+    "it": "Rettangolo",
+    "fr": "Rectangle",
+    "es": "Rectángulo",
+    "de": "Rechteck",
+    "pt": "Retângulo",
+    "ru": "Прямоугольник"
+   },
+   "opis": {
+    "sr": "Obim, površina, dijagonala",
+    "en": "Perimeter, area, diagonal",
+    "it": "Perimetro, area, diagonale",
+    "fr": "Périmètre, aire, diagonale",
+    "es": "Perímetro, área, diagonal",
+    "de": "Umfang, Fläche, Diagonale",
+    "pt": "Perímetro, área, diagonal",
+    "ru": "Периметр, площадь, диагональ"
+   },
+   "kljucne_reci": {
+    "sr": "pravougaonik obim povrsina dijagonala",
+    "en": "rectangle perimeter area diagonal",
+    "it": "rettangolo perimetro area diagonale",
+    "fr": "rectangle perimetre aire diagonale",
+    "es": "rectangulo perimetro area diagonal",
+    "de": "rechteck umfang flacheninhalt diagonale",
+    "pt": "retangulo perimetro area diagonal",
+    "ru": "прямоугольник периметр площадь диагональ"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik\" points=\"40.0,40.0 260.0,40.0 260.0,170.0 40.0,170.0\"/><line class=\"pom\" x1=\"40.0\" y1=\"170.0\" x2=\"260.0\" y2=\"40.0\"/><path class=\"ugao\" d=\"M52.0,170.0 L52.0,158.0 L40.0,158.0\"/><text class=\"oz\" x=\"146.0\" y=\"194.0\">a</text><text class=\"oz\" x=\"270.0\" y=\"110.0\">b</text><text class=\"oz\" x=\"126.0\" y=\"100.0\">d</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Obim",
+      "en": "Perimeter",
+      "it": "Perimetro",
+      "fr": "Périmètre",
+      "es": "Perímetro",
+      "de": "Umfang",
+      "pt": "Perímetro",
+      "ru": "Периметр"
+     },
+     "latex": {
+      "sr": "O = 2(a + b)",
+      "en": "P = 2(a + b)",
+      "it": "2p = 2(a + b)",
+      "fr": "P = 2(a + b)",
+      "es": "P = 2(a + b)",
+      "de": "u = 2(a + b)",
+      "pt": "P = 2(a + b)",
+      "ru": "P = 2(a + b)"
+     },
+     "objasnjenje": {
+      "sr": "Dve dužine i dve širine.",
+      "en": "Two lengths and two widths.",
+      "it": "Due basi e due altezze.",
+      "fr": "Deux longueurs et deux largeurs.",
+      "es": "Dos bases y dos alturas.",
+      "de": "Zwei Längen und zwei Breiten.",
+      "pt": "Duas bases e duas alturas.",
+      "ru": "Две длины и две ширины."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Area",
+      "it": "Area",
+      "fr": "Aire",
+      "es": "Área",
+      "de": "Flächeninhalt",
+      "pt": "Área",
+      "ru": "Площадь"
+     },
+     "latex": {
+      "sr": "P = a \\cdot b",
+      "en": "A = a \\cdot b",
+      "it": "A = a \\cdot b",
+      "fr": "A = a \\cdot b",
+      "es": "A = a \\cdot b",
+      "de": "A = a \\cdot b",
+      "pt": "A = a \\cdot b",
+      "ru": "S = a \\cdot b"
+     },
+     "objasnjenje": {
+      "sr": "Dužina puta širina.",
+      "en": "Length times width.",
+      "it": "Base per altezza.",
+      "fr": "Longueur fois largeur.",
+      "es": "Base por altura.",
+      "de": "Länge mal Breite.",
+      "pt": "Base vezes altura.",
+      "ru": "Длина, умноженная на ширину."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Dijagonala",
+      "en": "Diagonal",
+      "it": "Diagonale",
+      "fr": "Diagonale",
+      "es": "Diagonal",
+      "de": "Diagonale",
+      "pt": "Diagonal",
+      "ru": "Диагональ"
+     },
+     "latex": {
+      "sr": "d = \\sqrt{a^2 + b^2}",
+      "en": "d = \\sqrt{a^2 + b^2}",
+      "it": "d = \\sqrt{a^2 + b^2}",
+      "fr": "d = \\sqrt{a^2 + b^2}",
+      "es": "d = \\sqrt{a^2 + b^2}",
+      "de": "d = \\sqrt{a^2 + b^2}",
+      "pt": "d = \\sqrt{a^2 + b^2}",
+      "ru": "d = \\sqrt{a^2 + b^2}"
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 8
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 6
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Obim O",
+       "en": "Perimeter P",
+       "it": "Perimetro 2p",
+       "fr": "Périmètre P",
+       "es": "Perímetro P",
+       "de": "Umfang u",
+       "pt": "Perímetro P",
+       "ru": "Периметр P"
+      },
+      "izraz": "2*(a+b)"
+     },
+     {
+      "naziv": {
+       "sr": "Površina P",
+       "en": "Area A",
+       "it": "Area A",
+       "fr": "Aire A",
+       "es": "Área A",
+       "de": "Flächeninhalt A",
+       "pt": "Área A",
+       "ru": "Площадь S"
+      },
+      "izraz": "a*b"
+     },
+     {
+      "naziv": {
+       "sr": "Dijagonala d",
+       "en": "Diagonal d",
+       "it": "Diagonale d",
+       "fr": "Diagonale d",
+       "es": "Diagonal d",
+       "de": "Diagonale d",
+       "pt": "Diagonal d",
+       "ru": "Диагональ d"
+      },
+      "izraz": "sqrt(a*a+b*b)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "paralelogram",
+   "simbol": "",
+   "ikona": "ic_f_paralelogram",
+   "naziv": {
+    "sr": "Paralelogram",
+    "en": "Parallelogram",
+    "it": "Parallelogramma",
+    "fr": "Parallélogramme",
+    "es": "Paralelogramo",
+    "de": "Parallelogramm",
+    "pt": "Paralelogramo",
+    "ru": "Параллелограмм"
+   },
+   "opis": {
+    "sr": "Obim i površina",
+    "en": "Perimeter and area",
+    "it": "Perimetro e area",
+    "fr": "Périmètre et aire",
+    "es": "Perímetro y área",
+    "de": "Umfang und Fläche",
+    "pt": "Perímetro e área",
+    "ru": "Периметр и площадь"
+   },
+   "kljucne_reci": {
+    "sr": "paralelogram obim povrsina visina",
+    "en": "parallelogram perimeter area height",
+    "it": "parallelogramma perimetro area altezza",
+    "fr": "parallelogramme perimetre aire hauteur",
+    "es": "paralelogramo perimetro area altura",
+    "de": "parallelogramm umfang flacheninhalt hohe",
+    "pt": "paralelogramo perimetro area altura",
+    "ru": "параллелограмм периметр площадь высота"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik\" points=\"30.0,165.0 205.0,165.0 270.0,45.0 95.0,45.0\"/><line class=\"pom\" x1=\"95.0\" y1=\"45.0\" x2=\"95.0\" y2=\"165.0\"/><path class=\"ugao\" d=\"M107.0,165.0 L107.0,153.0 L95.0,153.0\"/><text class=\"oz\" x=\"140.0\" y=\"189.0\">a</text><text class=\"oz\" x=\"45.0\" y=\"102.0\">b</text><text class=\"oz\" x=\"101.0\" y=\"115.0\">h<tspan class=\"sub\" dy=\"5\">a</tspan></text><text class=\"oz\" x=\"250.0\" y=\"118.0\">b</text><text class=\"oz\" x=\"176.0\" y=\"36.0\">a</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Obim",
+      "en": "Perimeter",
+      "it": "Perimetro",
+      "fr": "Périmètre",
+      "es": "Perímetro",
+      "de": "Umfang",
+      "pt": "Perímetro",
+      "ru": "Периметр"
+     },
+     "latex": {
+      "sr": "O = 2(a + b)",
+      "en": "P = 2(a + b)",
+      "it": "2p = 2(a + b)",
+      "fr": "P = 2(a + b)",
+      "es": "P = 2(a + b)",
+      "de": "u = 2(a + b)",
+      "pt": "P = 2(a + b)",
+      "ru": "P = 2(a + b)"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Area",
+      "it": "Area",
+      "fr": "Aire",
+      "es": "Área",
+      "de": "Flächeninhalt",
+      "pt": "Área",
+      "ru": "Площадь"
+     },
+     "latex": {
+      "sr": "P = a \\cdot h_a",
+      "en": "A = a \\cdot h_a",
+      "it": "A = a \\cdot h_a",
+      "fr": "A = a \\cdot h_a",
+      "es": "A = a \\cdot h_a",
+      "de": "A = a \\cdot h_a",
+      "pt": "A = a \\cdot h_a",
+      "ru": "S = a \\cdot h_a"
+     },
+     "objasnjenje": {
+      "sr": "Stranica puta visina na tu stranicu (ne kosa stranica!).",
+      "en": "A side times the height to that side (not the slanted side!).",
+      "it": "Un lato per l’altezza relativa (non il lato obliquo!).",
+      "fr": "Un côté fois la hauteur correspondante (pas le côté oblique !).",
+      "es": "Un lado por su altura (¡no el lado inclinado!).",
+      "de": "Seite mal zugehörige Höhe (nicht die schräge Seite!).",
+      "pt": "Um lado vezes a altura relativa (não o lado inclinado!).",
+      "ru": "Сторона, умноженная на высоту к ней (не на боковую сторону!)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Preko ugla",
+      "en": "Using the angle",
+      "it": "Con l’angolo",
+      "fr": "Avec l’angle",
+      "es": "Con el ángulo",
+      "de": "Mit dem Winkel",
+      "pt": "Com o ângulo",
+      "ru": "Через угол"
+     },
+     "latex": {
+      "sr": "P = a b \\sin\\alpha",
+      "en": "A = a b \\sin\\alpha",
+      "it": "A = a b \\operatorname{sen}\\alpha",
+      "fr": "A = a b \\sin\\alpha",
+      "es": "A = a b \\operatorname{sen}\\alpha",
+      "de": "A = a b \\sin\\alpha",
+      "pt": "A = a b \\operatorname{sen}\\alpha",
+      "ru": "S = a b \\sin\\alpha"
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 8
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 5
+     },
+     {
+      "id": "h",
+      "oznaka": "h_a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Obim O",
+       "en": "Perimeter P",
+       "it": "Perimetro 2p",
+       "fr": "Périmètre P",
+       "es": "Perímetro P",
+       "de": "Umfang u",
+       "pt": "Perímetro P",
+       "ru": "Периметр P"
+      },
+      "izraz": "2*(a+b)"
+     },
+     {
+      "naziv": {
+       "sr": "Površina P",
+       "en": "Area A",
+       "it": "Area A",
+       "fr": "Aire A",
+       "es": "Área A",
+       "de": "Flächeninhalt A",
+       "pt": "Área A",
+       "ru": "Площадь S"
+      },
+      "izraz": "a*h"
+     }
+    ]
+   }
+  },
+  {
+   "id": "romb",
+   "simbol": "",
+   "ikona": "ic_f_romb",
+   "naziv": {
+    "sr": "Romb",
+    "en": "Rhombus",
+    "it": "Rombo",
+    "fr": "Losange",
+    "es": "Rombo",
+    "de": "Raute",
+    "pt": "Losango",
+    "ru": "Ромб"
+   },
+   "opis": {
+    "sr": "Obim, površina preko dijagonala",
+    "en": "Perimeter, area from diagonals",
+    "it": "Perimetro, area con le diagonali",
+    "fr": "Périmètre, aire avec les diagonales",
+    "es": "Perímetro, área con diagonales",
+    "de": "Umfang, Fläche aus Diagonalen",
+    "pt": "Perímetro, área pelas diagonais",
+    "ru": "Периметр, площадь через диагонали"
+   },
+   "kljucne_reci": {
+    "sr": "romb obim povrsina dijagonale",
+    "en": "rhombus diamond perimeter area diagonals",
+    "it": "rombo perimetro area diagonali",
+    "fr": "losange perimetre aire diagonales",
+    "es": "rombo perimetro area diagonales",
+    "de": "raute rhombus umfang flacheninhalt diagonalen",
+    "pt": "losango perimetro area diagonais",
+    "ru": "ромб периметр площадь диагонали"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik\" points=\"40.0,105.0 150.0,25.0 260.0,105.0 150.0,185.0\"/><line class=\"pom\" x1=\"40.0\" y1=\"105.0\" x2=\"260.0\" y2=\"105.0\"/><line class=\"pom\" x1=\"150.0\" y1=\"25.0\" x2=\"150.0\" y2=\"185.0\"/><text class=\"oz\" x=\"212.0\" y=\"55.0\">a</text><text class=\"oz\" x=\"196.0\" y=\"98.0\">d<tspan class=\"sub\" dy=\"5\">1</tspan></text><text class=\"oz\" x=\"157.0\" y=\"152.0\">d<tspan class=\"sub\" dy=\"5\">2</tspan></text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Obim",
+      "en": "Perimeter",
+      "it": "Perimetro",
+      "fr": "Périmètre",
+      "es": "Perímetro",
+      "de": "Umfang",
+      "pt": "Perímetro",
+      "ru": "Периметр"
+     },
+     "latex": {
+      "sr": "O = 4a",
+      "en": "P = 4a",
+      "it": "2p = 4a",
+      "fr": "P = 4a",
+      "es": "P = 4a",
+      "de": "u = 4a",
+      "pt": "P = 4a",
+      "ru": "P = 4a"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Area",
+      "it": "Area",
+      "fr": "Aire",
+      "es": "Área",
+      "de": "Flächeninhalt",
+      "pt": "Área",
+      "ru": "Площадь"
+     },
+     "latex": {
+      "sr": "P = \\frac{d_1 \\cdot d_2}{2}",
+      "en": "A = \\frac{d_1 \\cdot d_2}{2}",
+      "it": "A = \\frac{d_1 \\cdot d_2}{2}",
+      "fr": "A = \\frac{d_1 \\cdot d_2}{2}",
+      "es": "A = \\frac{d_1 \\cdot d_2}{2}",
+      "de": "A = \\frac{d_1 \\cdot d_2}{2}",
+      "pt": "A = \\frac{d_1 \\cdot d_2}{2}",
+      "ru": "S = \\frac{d_1 \\cdot d_2}{2}"
+     },
+     "objasnjenje": {
+      "sr": "Dijagonale romba su normalne jedna na drugu i polove se.",
+      "en": "The diagonals of a rhombus are perpendicular and bisect each other.",
+      "it": "Le diagonali del rombo sono perpendicolari e si dimezzano.",
+      "fr": "Les diagonales du losange sont perpendiculaires et se coupent en leur milieu.",
+      "es": "Las diagonales del rombo son perpendiculares y se cortan en su punto medio.",
+      "de": "Die Diagonalen der Raute stehen senkrecht und halbieren sich.",
+      "pt": "As diagonais do losango são perpendiculares e cortam-se ao meio.",
+      "ru": "Диагонали ромба перпендикулярны и делятся точкой пересечения пополам."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Stranica preko dijagonala",
+      "en": "Side from diagonals",
+      "it": "Lato dalle diagonali",
+      "fr": "Côté à partir des diagonales",
+      "es": "Lado a partir de las diagonales",
+      "de": "Seite aus den Diagonalen",
+      "pt": "Lado pelas diagonais",
+      "ru": "Сторона через диагонали"
+     },
+     "latex": {
+      "sr": "a = \\sqrt{\\left(\\frac{d_1}{2}\\right)^2 + \\left(\\frac{d_2}{2}\\right)^2}",
+      "en": "a = \\sqrt{\\left(\\frac{d_1}{2}\\right)^2 + \\left(\\frac{d_2}{2}\\right)^2}",
+      "it": "a = \\sqrt{\\left(\\frac{d_1}{2}\\right)^2 + \\left(\\frac{d_2}{2}\\right)^2}",
+      "fr": "a = \\sqrt{\\left(\\frac{d_1}{2}\\right)^2 + \\left(\\frac{d_2}{2}\\right)^2}",
+      "es": "a = \\sqrt{\\left(\\frac{d_1}{2}\\right)^2 + \\left(\\frac{d_2}{2}\\right)^2}",
+      "de": "a = \\sqrt{\\left(\\frac{d_1}{2}\\right)^2 + \\left(\\frac{d_2}{2}\\right)^2}",
+      "pt": "a = \\sqrt{\\left(\\frac{d_1}{2}\\right)^2 + \\left(\\frac{d_2}{2}\\right)^2}",
+      "ru": "a = \\sqrt{\\left(\\frac{d_1}{2}\\right)^2 + \\left(\\frac{d_2}{2}\\right)^2}"
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "d1",
+      "oznaka": "d_1",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 8
+     },
+     {
+      "id": "d2",
+      "oznaka": "d_2",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 6
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Stranica a",
+       "en": "Side a",
+       "it": "Lato a",
+       "fr": "Côté a",
+       "es": "Lado a",
+       "de": "Seite a",
+       "pt": "Lado a",
+       "ru": "Сторона a"
+      },
+      "izraz": "sqrt(d1*d1/4+d2*d2/4)"
+     },
+     {
+      "naziv": {
+       "sr": "Obim O",
+       "en": "Perimeter P",
+       "it": "Perimetro 2p",
+       "fr": "Périmètre P",
+       "es": "Perímetro P",
+       "de": "Umfang u",
+       "pt": "Perímetro P",
+       "ru": "Периметр P"
+      },
+      "izraz": "4*sqrt(d1*d1/4+d2*d2/4)"
+     },
+     {
+      "naziv": {
+       "sr": "Površina P",
+       "en": "Area A",
+       "it": "Area A",
+       "fr": "Aire A",
+       "es": "Área A",
+       "de": "Flächeninhalt A",
+       "pt": "Área A",
+       "ru": "Площадь S"
+      },
+      "izraz": "d1*d2/2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "trapez",
+   "simbol": "",
+   "ikona": "ic_f_trapez",
+   "naziv": {
+    "sr": "Trapez",
+    "en": "Trapezoid",
+    "it": "Trapezio",
+    "fr": "Trapèze",
+    "es": "Trapecio",
+    "de": "Trapez",
+    "pt": "Trapézio",
+    "ru": "Трапеция"
+   },
+   "opis": {
+    "sr": "Obim, površina, srednja linija",
+    "en": "Perimeter, area, midsegment",
+    "it": "Perimetro, area, base media",
+    "fr": "Périmètre, aire, base moyenne",
+    "es": "Perímetro, área, base media",
+    "de": "Umfang, Fläche, Mittellinie",
+    "pt": "Perímetro, área, base média",
+    "ru": "Периметр, площадь, средняя линия"
+   },
+   "kljucne_reci": {
+    "sr": "trapez obim povrsina srednja linija osnovice krak",
+    "en": "trapezoid trapezium perimeter area midsegment bases",
+    "it": "trapezio perimetro area basi base media",
+    "fr": "trapeze perimetre aire bases",
+    "es": "trapecio perimetro area bases",
+    "de": "trapez umfang flacheninhalt mittellinie grundseiten",
+    "pt": "trapezio perimetro area bases base media",
+    "ru": "трапеция периметр площадь средняя линия основания"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik\" points=\"25.0,170.0 275.0,170.0 210.0,45.0 95.0,45.0\"/><line class=\"pom\" x1=\"95.0\" y1=\"45.0\" x2=\"95.0\" y2=\"170.0\"/><path class=\"ugao\" d=\"M107.0,170.0 L107.0,158.0 L95.0,158.0\"/><text class=\"oz\" x=\"146.0\" y=\"194.0\">a</text><text class=\"oz\" x=\"146.0\" y=\"36.0\">b</text><text class=\"oz\" x=\"252.0\" y=\"105.0\">c</text><text class=\"oz\" x=\"38.0\" y=\"105.0\">d</text><text class=\"oz\" x=\"101.0\" y=\"115.0\">h</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Obim",
+      "en": "Perimeter",
+      "it": "Perimetro",
+      "fr": "Périmètre",
+      "es": "Perímetro",
+      "de": "Umfang",
+      "pt": "Perímetro",
+      "ru": "Периметр"
+     },
+     "latex": {
+      "sr": "O = a + b + c + d",
+      "en": "P = a + b + c + d",
+      "it": "2p = a + b + c + d",
+      "fr": "P = a + b + c + d",
+      "es": "P = a + b + c + d",
+      "de": "u = a + b + c + d",
+      "pt": "P = a + b + c + d",
+      "ru": "P = a + b + c + d"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Area",
+      "it": "Area",
+      "fr": "Aire",
+      "es": "Área",
+      "de": "Flächeninhalt",
+      "pt": "Área",
+      "ru": "Площадь"
+     },
+     "latex": {
+      "sr": "P = \\frac{a + b}{2} \\cdot h",
+      "en": "A = \\frac{a + b}{2} \\cdot h",
+      "it": "A = \\frac{a + b}{2} \\cdot h",
+      "fr": "A = \\frac{a + b}{2} \\cdot h",
+      "es": "A = \\frac{a + b}{2} \\cdot h",
+      "de": "A = \\frac{a + b}{2} \\cdot h",
+      "pt": "A = \\frac{a + b}{2} \\cdot h",
+      "ru": "S = \\frac{a + b}{2} \\cdot h"
+     },
+     "objasnjenje": {
+      "sr": "Polovina zbira osnovica puta visina.",
+      "en": "Half the sum of the parallel sides times the height.",
+      "it": "Semisomma delle basi per l’altezza.",
+      "fr": "Demi-somme des bases fois la hauteur.",
+      "es": "Semisuma de las bases por la altura.",
+      "de": "Halbe Summe der parallelen Seiten mal Höhe.",
+      "pt": "Semissoma das bases vezes a altura.",
+      "ru": "Полусумма оснований, умноженная на высоту."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Srednja linija",
+      "en": "Midsegment",
+      "it": "Base media",
+      "fr": "Base moyenne",
+      "es": "Base media",
+      "de": "Mittellinie",
+      "pt": "Base média",
+      "ru": "Средняя линия"
+     },
+     "latex": {
+      "sr": "m = \\frac{a + b}{2}, \\quad P = m \\cdot h",
+      "en": "m = \\frac{a + b}{2}, \\quad A = m \\cdot h",
+      "it": "m = \\frac{a + b}{2}, \\quad A = m \\cdot h",
+      "fr": "m = \\frac{a + b}{2}, \\quad A = m \\cdot h",
+      "es": "m = \\frac{a + b}{2}, \\quad A = m \\cdot h",
+      "de": "m = \\frac{a + b}{2}, \\quad A = m \\cdot h",
+      "pt": "m = \\frac{a + b}{2}, \\quad A = m \\cdot h",
+      "ru": "m = \\frac{a + b}{2}, \\quad S = m \\cdot h"
+     },
+     "objasnjenje": {
+      "sr": "Duž koja spaja sredine krakova; paralelna je osnovicama.",
+      "en": "The segment joining the midpoints of the legs; parallel to the bases.",
+      "it": "Il segmento che unisce i punti medi dei lati obliqui; è parallelo alle basi.",
+      "fr": "Le segment qui joint les milieux des côtés non parallèles ; il est parallèle aux bases.",
+      "es": "El segmento que une los puntos medios de los lados no paralelos.",
+      "de": "Verbindet die Mitten der Schenkel und ist parallel zu den Grundseiten.",
+      "pt": "O segmento que une os pontos médios dos lados não paralelos.",
+      "ru": "Отрезок, соединяющий середины боковых сторон; параллелен основаниям."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 10
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 6
+     },
+     {
+      "id": "h",
+      "oznaka": "h",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Površina P",
+       "en": "Area A",
+       "it": "Area A",
+       "fr": "Aire A",
+       "es": "Área A",
+       "de": "Flächeninhalt A",
+       "pt": "Área A",
+       "ru": "Площадь S"
+      },
+      "izraz": "(a+b)/2*h"
+     },
+     {
+      "naziv": {
+       "sr": "Srednja linija m",
+       "en": "Midsegment m",
+       "it": "Base media m",
+       "fr": "Base moyenne m",
+       "es": "Base media m",
+       "de": "Mittellinie m",
+       "pt": "Base média m",
+       "ru": "Средняя линия m"
+      },
+      "izraz": "(a+b)/2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "deltoid",
+   "simbol": "",
+   "ikona": "ic_f_deltoid",
+   "naziv": {
+    "sr": "Deltoid",
+    "en": "Kite",
+    "it": "Aquilone (deltoide)",
+    "fr": "Cerf-volant",
+    "es": "Romboide (cometa)",
+    "de": "Drachenviereck",
+    "pt": "Pipa (deltoide)",
+    "ru": "Дельтоид"
+   },
+   "opis": {
+    "sr": "Obim i površina",
+    "en": "Perimeter and area",
+    "it": "Perimetro e area",
+    "fr": "Périmètre et aire",
+    "es": "Perímetro y área",
+    "de": "Umfang und Fläche",
+    "pt": "Perímetro e área",
+    "ru": "Периметр и площадь"
+   },
+   "kljucne_reci": {
+    "sr": "deltoid obim povrsina dijagonale",
+    "en": "kite perimeter area diagonals",
+    "it": "aquilone deltoide perimetro area diagonali",
+    "fr": "cerf volant perimetre aire diagonales",
+    "es": "deltoide cometa romboide perimetro area diagonales",
+    "de": "drachenviereck drachen umfang flacheninhalt diagonalen",
+    "pt": "pipa deltoide papagaio perimetro area diagonais",
+    "ru": "дельтоид периметр площадь диагонали"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik\" points=\"150.0,18.0 235.0,82.0 150.0,195.0 65.0,82.0\"/><line class=\"pom\" x1=\"65.0\" y1=\"82.0\" x2=\"235.0\" y2=\"82.0\"/><line class=\"pom\" x1=\"150.0\" y1=\"18.0\" x2=\"150.0\" y2=\"195.0\"/><text class=\"oz\" x=\"92.0\" y=\"44.0\">a</text><text class=\"oz\" x=\"198.0\" y=\"44.0\">a</text><text class=\"oz\" x=\"88.0\" y=\"150.0\">b</text><text class=\"oz\" x=\"204.0\" y=\"150.0\">b</text><text class=\"oz\" x=\"184.0\" y=\"76.0\">d<tspan class=\"sub\" dy=\"5\">1</tspan></text><text class=\"oz\" x=\"157.0\" y=\"140.0\">d<tspan class=\"sub\" dy=\"5\">2</tspan></text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Obim",
+      "en": "Perimeter",
+      "it": "Perimetro",
+      "fr": "Périmètre",
+      "es": "Perímetro",
+      "de": "Umfang",
+      "pt": "Perímetro",
+      "ru": "Периметр"
+     },
+     "latex": {
+      "sr": "O = 2(a + b)",
+      "en": "P = 2(a + b)",
+      "it": "2p = 2(a + b)",
+      "fr": "P = 2(a + b)",
+      "es": "P = 2(a + b)",
+      "de": "u = 2(a + b)",
+      "pt": "P = 2(a + b)",
+      "ru": "P = 2(a + b)"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Area",
+      "it": "Area",
+      "fr": "Aire",
+      "es": "Área",
+      "de": "Flächeninhalt",
+      "pt": "Área",
+      "ru": "Площадь"
+     },
+     "latex": {
+      "sr": "P = \\frac{d_1 \\cdot d_2}{2}",
+      "en": "A = \\frac{d_1 \\cdot d_2}{2}",
+      "it": "A = \\frac{d_1 \\cdot d_2}{2}",
+      "fr": "A = \\frac{d_1 \\cdot d_2}{2}",
+      "es": "A = \\frac{d_1 \\cdot d_2}{2}",
+      "de": "A = \\frac{d_1 \\cdot d_2}{2}",
+      "pt": "A = \\frac{d_1 \\cdot d_2}{2}",
+      "ru": "S = \\frac{d_1 \\cdot d_2}{2}"
+     },
+     "objasnjenje": {
+      "sr": "Dijagonale deltoida su normalne, pa je površina polovina njihovog proizvoda.",
+      "en": "The diagonals of a kite are perpendicular, so the area is half their product.",
+      "it": "Le diagonali sono perpendicolari: l’area è metà del loro prodotto.",
+      "fr": "Les diagonales sont perpendiculaires : l’aire vaut la moitié de leur produit.",
+      "es": "Las diagonales son perpendiculares: el área es la mitad de su producto.",
+      "de": "Die Diagonalen stehen senkrecht: Fläche = halbes Produkt.",
+      "pt": "As diagonais são perpendiculares: a área é metade do seu produto.",
+      "ru": "Диагонали перпендикулярны, поэтому площадь — половина их произведения."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 5
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 8
+     },
+     {
+      "id": "d1",
+      "oznaka": "d_1",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 8
+     },
+     {
+      "id": "d2",
+      "oznaka": "d_2",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 10
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Obim O",
+       "en": "Perimeter P",
+       "it": "Perimetro 2p",
+       "fr": "Périmètre P",
+       "es": "Perímetro P",
+       "de": "Umfang u",
+       "pt": "Perímetro P",
+       "ru": "Периметр P"
+      },
+      "izraz": "2*(a+b)"
+     },
+     {
+      "naziv": {
+       "sr": "Površina P",
+       "en": "Area A",
+       "it": "Area A",
+       "fr": "Aire A",
+       "es": "Área A",
+       "de": "Flächeninhalt A",
+       "pt": "Área A",
+       "ru": "Площадь S"
+      },
+      "izraz": "d1*d2/2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "krug",
+   "simbol": "",
+   "ikona": "ic_f_krug",
+   "naziv": {
+    "sr": "Krug",
+    "en": "Circle",
+    "it": "Cerchio",
+    "fr": "Cercle et disque",
+    "es": "Círculo",
+    "de": "Kreis",
+    "pt": "Círculo",
+    "ru": "Круг"
+   },
+   "opis": {
+    "sr": "Obim i površina kruga",
+    "en": "Circumference and area",
+    "it": "Circonferenza e area",
+    "fr": "Périmètre et aire",
+    "es": "Longitud y área",
+    "de": "Umfang und Fläche",
+    "pt": "Comprimento e área",
+    "ru": "Длина окружности и площадь"
+   },
+   "kljucne_reci": {
+    "sr": "krug kruznica obim povrsina poluprecnik precnik pi",
+    "en": "circle circumference area radius diameter pi",
+    "it": "cerchio circonferenza area raggio diametro pi greco",
+    "fr": "cercle disque perimetre aire rayon diametre pi",
+    "es": "circulo circunferencia longitud area radio diametro pi",
+    "de": "kreis umfang flacheninhalt radius durchmesser pi",
+    "pt": "circulo circunferencia comprimento area raio diametro pi",
+    "ru": "круг окружность длина площадь радиус диаметр пи"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><circle class=\"lik\" cx=\"150\" cy=\"105\" r=\"85\"/><line class=\"lik-l\" x1=\"150.0\" y1=\"105.0\" x2=\"235.0\" y2=\"105.0\"/><line class=\"pom\" x1=\"65.0\" y1=\"105.0\" x2=\"150.0\" y2=\"105.0\"/><circle class=\"tac\" cx=\"150\" cy=\"105\" r=\"3.5\"/><text class=\"oz\" x=\"188.0\" y=\"97.0\">r</text><text class=\"oz\" x=\"100.0\" y=\"97.0\">r</text><text class=\"tem\" x=\"140.0\" y=\"125.0\">S</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Obim kruga",
+      "en": "Circumference",
+      "it": "Circonferenza",
+      "fr": "Périmètre du cercle",
+      "es": "Longitud de la circunferencia",
+      "de": "Kreisumfang",
+      "pt": "Comprimento da circunferência",
+      "ru": "Длина окружности"
+     },
+     "latex": {
+      "sr": "O = 2 r \\pi = d \\pi",
+      "en": "C = 2 \\pi r = \\pi d",
+      "it": "C = 2 \\pi r = \\pi d",
+      "fr": "P = 2 \\pi r = \\pi d",
+      "es": "L = 2 \\pi r = \\pi d",
+      "de": "u = 2 \\pi r = \\pi d",
+      "pt": "C = 2 \\pi r = \\pi d",
+      "ru": "C = 2 \\pi r = \\pi d"
+     },
+     "objasnjenje": {
+      "sr": "Prečnik je dvostruki poluprečnik: d = 2r. π ≈ 3,14159.",
+      "en": "The diameter is twice the radius: d = 2r. π ≈ 3.14159.",
+      "it": "Il diametro è il doppio del raggio: d = 2r. π ≈ 3,14159.",
+      "fr": "Le diamètre vaut deux rayons : d = 2r. π ≈ 3,14159.",
+      "es": "El diámetro es el doble del radio: d = 2r. π ≈ 3,14159.",
+      "de": "Der Durchmesser ist der doppelte Radius: d = 2r. π ≈ 3,14159.",
+      "pt": "O diâmetro é o dobro do raio: d = 2r. π ≈ 3,14159.",
+      "ru": "Диаметр равен двум радиусам: d = 2r. π ≈ 3,14159."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Area",
+      "it": "Area",
+      "fr": "Aire",
+      "es": "Área",
+      "de": "Flächeninhalt",
+      "pt": "Área",
+      "ru": "Площадь"
+     },
+     "latex": {
+      "sr": "P = r^2 \\pi",
+      "en": "A = \\pi r^2",
+      "it": "A = \\pi r^2",
+      "fr": "A = \\pi r^2",
+      "es": "A = \\pi r^2",
+      "de": "A = \\pi r^2",
+      "pt": "A = \\pi r^2",
+      "ru": "S = \\pi r^2"
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "r",
+      "oznaka": "r",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 5
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Obim kruga O",
+       "en": "Circumference C",
+       "it": "Circonferenza C",
+       "fr": "Périmètre du cercle P",
+       "es": "Longitud de la circunferencia L",
+       "de": "Kreisumfang u",
+       "pt": "Comprimento da circunferência C",
+       "ru": "Длина окружности C"
+      },
+      "izraz": "2*PI*r"
+     },
+     {
+      "naziv": {
+       "sr": "Površina P",
+       "en": "Area A",
+       "it": "Area A",
+       "fr": "Aire A",
+       "es": "Área A",
+       "de": "Flächeninhalt A",
+       "pt": "Área A",
+       "ru": "Площадь S"
+      },
+      "izraz": "PI*r*r"
+     },
+     {
+      "naziv": {
+       "sr": "Prečnik d",
+       "en": "Diameter d",
+       "it": "Diametro d",
+       "fr": "Diamètre d",
+       "es": "Diámetro d",
+       "de": "Durchmesser d",
+       "pt": "Diâmetro d",
+       "ru": "Диаметр d"
+      },
+      "izraz": "2*r"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kruzni_isecak",
+   "simbol": "",
+   "ikona": "ic_f_isecak",
+   "naziv": {
+    "sr": "Kružni isečak",
+    "en": "Circular sector",
+    "it": "Settore circolare",
+    "fr": "Secteur circulaire",
+    "es": "Sector circular",
+    "de": "Kreisausschnitt",
+    "pt": "Setor circular",
+    "ru": "Круговой сектор"
+   },
+   "opis": {
+    "sr": "Dužina luka i površina isečka",
+    "en": "Arc length and sector area",
+    "it": "Lunghezza dell’arco e area",
+    "fr": "Longueur d’arc et aire",
+    "es": "Longitud de arco y área",
+    "de": "Bogenlänge und Fläche",
+    "pt": "Comprimento do arco e área",
+    "ru": "Длина дуги и площадь сектора"
+   },
+   "kljucne_reci": {
+    "sr": "kruzni isecak luk duzina luka centralni ugao povrsina",
+    "en": "sector arc length central angle area",
+    "it": "settore circolare arco lunghezza angolo al centro area",
+    "fr": "secteur circulaire arc longueur angle au centre aire",
+    "es": "sector circular arco longitud angulo central area",
+    "de": "kreisausschnitt sektor kreisbogen bogenlange mittelpunktswinkel",
+    "pt": "setor circular arco comprimento angulo central area",
+    "ru": "круговой сектор дуга длина дуги центральный угол площадь"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M70,180 L245,180 A175,175 0 0 0 170.4,36.6 Z\"/><path class=\"ugao\" d=\"M100,180 A30,30 0 0 0 87.2,155.4\"/><text class=\"oz\" x=\"160.0\" y=\"200.0\">r</text><text class=\"oz\" x=\"98.0\" y=\"102.0\">r</text><text class=\"oz\" x=\"106.0\" y=\"168.0\">α</text><text class=\"oz\" x=\"222.0\" y=\"92.0\">l</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Dužina luka",
+      "en": "Arc length",
+      "it": "Lunghezza dell’arco",
+      "fr": "Longueur de l’arc",
+      "es": "Longitud del arco",
+      "de": "Bogenlänge",
+      "pt": "Comprimento do arco",
+      "ru": "Длина дуги"
+     },
+     "latex": {
+      "sr": "l = \\frac{r \\pi \\alpha}{180^\\circ}",
+      "en": "l = \\frac{\\pi r \\alpha}{180^\\circ}",
+      "it": "l = \\frac{\\pi r \\alpha}{180^\\circ}",
+      "fr": "l = \\frac{\\pi r \\alpha}{180^\\circ}",
+      "es": "l = \\frac{\\pi r \\alpha}{180^\\circ}",
+      "de": "l = \\frac{\\pi r \\alpha}{180^\\circ}",
+      "pt": "l = \\frac{\\pi r \\alpha}{180^\\circ}",
+      "ru": "l = \\frac{\\pi r \\alpha}{180^\\circ}"
+     },
+     "objasnjenje": {
+      "sr": "α je centralni ugao u stepenima.",
+      "en": "α is the central angle in degrees.",
+      "it": "α è l’angolo al centro in gradi.",
+      "fr": "α est l’angle au centre en degrés.",
+      "es": "α es el ángulo central en grados.",
+      "de": "α ist der Mittelpunktswinkel in Grad.",
+      "pt": "α é o ângulo central em graus.",
+      "ru": "α — центральный угол в градусах."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Area",
+      "it": "Area",
+      "fr": "Aire",
+      "es": "Área",
+      "de": "Flächeninhalt",
+      "pt": "Área",
+      "ru": "Площадь"
+     },
+     "latex": {
+      "sr": "P = \\frac{r^2 \\pi \\alpha}{360^\\circ} = \\frac{l \\cdot r}{2}",
+      "en": "A = \\frac{\\pi r^2 \\alpha}{360^\\circ} = \\frac{l \\cdot r}{2}",
+      "it": "A = \\frac{\\pi r^2 \\alpha}{360^\\circ} = \\frac{l \\cdot r}{2}",
+      "fr": "A = \\frac{\\pi r^2 \\alpha}{360^\\circ} = \\frac{l \\cdot r}{2}",
+      "es": "A = \\frac{\\pi r^2 \\alpha}{360^\\circ} = \\frac{l \\cdot r}{2}",
+      "de": "A = \\frac{\\pi r^2 \\alpha}{360^\\circ} = \\frac{l \\cdot r}{2}",
+      "pt": "A = \\frac{\\pi r^2 \\alpha}{360^\\circ} = \\frac{l \\cdot r}{2}",
+      "ru": "S = \\frac{\\pi r^2 \\alpha}{360^\\circ} = \\frac{l \\cdot r}{2}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "U radijanima",
+      "en": "In radians",
+      "it": "In radianti",
+      "fr": "En radians",
+      "es": "En radianes",
+      "de": "Im Bogenmaß",
+      "pt": "Em radianos",
+      "ru": "В радианах"
+     },
+     "latex": {
+      "sr": "l = r \\varphi, \\quad P = \\frac{r^2 \\varphi}{2}",
+      "en": "l = r \\varphi, \\quad A = \\frac{r^2 \\varphi}{2}",
+      "it": "l = r \\varphi, \\quad A = \\frac{r^2 \\varphi}{2}",
+      "fr": "l = r \\varphi, \\quad A = \\frac{r^2 \\varphi}{2}",
+      "es": "l = r \\varphi, \\quad A = \\frac{r^2 \\varphi}{2}",
+      "de": "l = r \\varphi, \\quad A = \\frac{r^2 \\varphi}{2}",
+      "pt": "l = r \\varphi, \\quad A = \\frac{r^2 \\varphi}{2}",
+      "ru": "l = r \\varphi, \\quad S = \\frac{r^2 \\varphi}{2}"
+     },
+     "objasnjenje": {
+      "sr": "φ je ugao u radijanima (360° = 2π).",
+      "en": "φ is the angle in radians (360° = 2π).",
+      "it": "φ è l’angolo in radianti (360° = 2π).",
+      "fr": "φ est l’angle en radians (360° = 2π).",
+      "es": "φ es el ángulo en radianes (360° = 2π).",
+      "de": "φ ist der Winkel im Bogenmaß (360° = 2π).",
+      "pt": "φ é o ângulo em radianos (360° = 2π).",
+      "ru": "φ — угол в радианах (360° = 2π)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "r",
+      "oznaka": "r",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 6
+     },
+     {
+      "id": "al",
+      "oznaka": "\\alpha",
+      "naziv": {
+       "sr": "u stepenima",
+       "en": "degrees",
+       "it": "gradi",
+       "fr": "degrés",
+       "es": "grados",
+       "de": "Grad",
+       "pt": "graus",
+       "ru": "градусы"
+      },
+      "pocetna": 60
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Luk l",
+       "en": "Arc l",
+       "it": "Arco l",
+       "fr": "Arc l",
+       "es": "Arco l",
+       "de": "Bogen l",
+       "pt": "Arco l",
+       "ru": "Дуга l"
+      },
+      "izraz": "PI*r*al/180"
+     },
+     {
+      "naziv": {
+       "sr": "Površina P",
+       "en": "Area A",
+       "it": "Area A",
+       "fr": "Aire A",
+       "es": "Área A",
+       "de": "Flächeninhalt A",
+       "pt": "Área A",
+       "ru": "Площадь S"
+      },
+      "izraz": "PI*r*r*al/360"
+     }
+    ]
+   }
+  },
+  {
+   "id": "pravilni_sestougao",
+   "simbol": "",
+   "ikona": "ic_f_sestougao",
+   "naziv": {
+    "sr": "Pravilni šestougao",
+    "en": "Regular hexagon",
+    "it": "Esagono regolare",
+    "fr": "Hexagone régulier",
+    "es": "Hexágono regular",
+    "de": "Regelmäßiges Sechseck",
+    "pt": "Hexágono regular",
+    "ru": "Правильный шестиугольник"
+   },
+   "opis": {
+    "sr": "Šest jednakostraničnih trouglova",
+    "en": "Six equilateral triangles",
+    "it": "Sei triangoli equilateri",
+    "fr": "Six triangles équilatéraux",
+    "es": "Seis triángulos equiláteros",
+    "de": "Sechs gleichseitige Dreiecke",
+    "pt": "Seis triângulos equiláteros",
+    "ru": "Шесть равносторонних треугольников"
+   },
+   "kljucne_reci": {
+    "sr": "pravilni sestougao sestougao obim povrsina",
+    "en": "regular hexagon perimeter area",
+    "it": "esagono regolare perimetro area apotema",
+    "fr": "hexagone regulier perimetre aire",
+    "es": "hexagono regular perimetro area apotema",
+    "de": "regelmassiges sechseck umfang flacheninhalt",
+    "pt": "hexagono regular perimetro area apotema",
+    "ru": "правильный шестиугольник периметр площадь"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 215\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik\" points=\"238.0,105.0 194.0,28.8 106.0,28.8 62.0,105.0 106.0,181.2 194.0,181.2\"/><line class=\"pom\" x1=\"150.0\" y1=\"105.0\" x2=\"238.0\" y2=\"105.0\"/><line class=\"pom\" x1=\"150.0\" y1=\"105.0\" x2=\"194.0\" y2=\"28.8\"/><line class=\"pom\" x1=\"150.0\" y1=\"105.0\" x2=\"106.0\" y2=\"28.8\"/><line class=\"pom\" x1=\"150.0\" y1=\"105.0\" x2=\"62.0\" y2=\"105.0\"/><line class=\"pom\" x1=\"150.0\" y1=\"105.0\" x2=\"106.0\" y2=\"181.2\"/><line class=\"pom\" x1=\"150.0\" y1=\"105.0\" x2=\"194.0\" y2=\"181.2\"/><circle class=\"tac\" cx=\"150\" cy=\"105\" r=\"3\"/><text class=\"oz\" x=\"146.0\" y=\"207.0\">a</text><text class=\"oz\" x=\"196.0\" y=\"99.0\">a</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Obim",
+      "en": "Perimeter",
+      "it": "Perimetro",
+      "fr": "Périmètre",
+      "es": "Perímetro",
+      "de": "Umfang",
+      "pt": "Perímetro",
+      "ru": "Периметр"
+     },
+     "latex": {
+      "sr": "O = 6a",
+      "en": "P = 6a",
+      "it": "2p = 6a",
+      "fr": "P = 6a",
+      "es": "P = 6a",
+      "de": "u = 6a",
+      "pt": "P = 6a",
+      "ru": "P = 6a"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Area",
+      "it": "Area",
+      "fr": "Aire",
+      "es": "Área",
+      "de": "Flächeninhalt",
+      "pt": "Área",
+      "ru": "Площадь"
+     },
+     "latex": {
+      "sr": "P = \\frac{3 a^2 \\sqrt{3}}{2}",
+      "en": "A = \\frac{3 a^2 \\sqrt{3}}{2}",
+      "it": "A = \\frac{3 a^2 \\sqrt{3}}{2}",
+      "fr": "A = \\frac{3 a^2 \\sqrt{3}}{2}",
+      "es": "A = \\frac{3 a^2 \\sqrt{3}}{2}",
+      "de": "A = \\frac{3 a^2 \\sqrt{3}}{2}",
+      "pt": "A = \\frac{3 a^2 \\sqrt{3}}{2}",
+      "ru": "S = \\frac{3 a^2 \\sqrt{3}}{2}"
+     },
+     "objasnjenje": {
+      "sr": "Šestougao se sastoji od 6 jednakostraničnih trouglova površine a²√3/4.",
+      "en": "The hexagon consists of 6 equilateral triangles of area a²√3/4.",
+      "it": "L’esagono è formato da 6 triangoli equilateri di area a²√3/4.",
+      "fr": "L’hexagone est formé de 6 triangles équilatéraux d’aire a²√3/4.",
+      "es": "El hexágono está formado por 6 triángulos equiláteros de área a²√3/4.",
+      "de": "Das Sechseck besteht aus 6 gleichseitigen Dreiecken mit Fläche a²√3/4.",
+      "pt": "O hexágono é formado por 6 triângulos equiláteros de área a²√3/4.",
+      "ru": "Шестиугольник состоит из 6 равносторонних треугольников площадью a²√3/4."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Poluprečnici",
+      "en": "Radii",
+      "it": "Raggi",
+      "fr": "Rayons",
+      "es": "Radios",
+      "de": "Radien",
+      "pt": "Raios",
+      "ru": "Радиусы"
+     },
+     "latex": {
+      "sr": "R = a, \\quad r = \\frac{a\\sqrt{3}}{2}",
+      "en": "R = a, \\quad r = \\frac{a\\sqrt{3}}{2}",
+      "it": "R = a, \\quad r = \\frac{a\\sqrt{3}}{2}",
+      "fr": "R = a, \\quad r = \\frac{a\\sqrt{3}}{2}",
+      "es": "R = a, \\quad r = \\frac{a\\sqrt{3}}{2}",
+      "de": "R = a, \\quad r = \\frac{a\\sqrt{3}}{2}",
+      "pt": "R = a, \\quad r = \\frac{a\\sqrt{3}}{2}",
+      "ru": "R = a, \\quad r = \\frac{a\\sqrt{3}}{2}"
+     },
+     "objasnjenje": {
+      "sr": "R je poluprečnik opisanog, a r upisanog kruga.",
+      "en": "R is the circumradius and r the inradius (apothem).",
+      "it": "R è il raggio della circonferenza circoscritta, r l’apotema.",
+      "fr": "R est le rayon du cercle circonscrit, r celui du cercle inscrit (apothème).",
+      "es": "R es el radio de la circunferencia circunscrita y r la apotema.",
+      "de": "R ist der Umkreis-, r der Inkreisradius.",
+      "pt": "R é o raio da circunferência circunscrita e r o apótema.",
+      "ru": "R — радиус описанной, r — вписанной окружности."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Obim O",
+       "en": "Perimeter P",
+       "it": "Perimetro 2p",
+       "fr": "Périmètre P",
+       "es": "Perímetro P",
+       "de": "Umfang u",
+       "pt": "Perímetro P",
+       "ru": "Периметр P"
+      },
+      "izraz": "6*a"
+     },
+     {
+      "naziv": {
+       "sr": "Površina P",
+       "en": "Area A",
+       "it": "Area A",
+       "fr": "Aire A",
+       "es": "Área A",
+       "de": "Flächeninhalt A",
+       "pt": "Área A",
+       "ru": "Площадь S"
+      },
+      "izraz": "3*a*a*sqrt(3)/2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "pravilni_osmougao",
+   "simbol": "",
+   "ikona": "ic_f_osmougao",
+   "naziv": {
+    "sr": "Pravilni osmougao",
+    "en": "Regular octagon",
+    "it": "Ottagono regolare",
+    "fr": "Octogone régulier",
+    "es": "Octógono regular",
+    "de": "Regelmäßiges Achteck",
+    "pt": "Octógono regular",
+    "ru": "Правильный восьмиугольник"
+   },
+   "opis": {
+    "sr": "Obim i površina",
+    "en": "Perimeter and area",
+    "it": "Perimetro e area",
+    "fr": "Périmètre et aire",
+    "es": "Perímetro y área",
+    "de": "Umfang und Fläche",
+    "pt": "Perímetro e área",
+    "ru": "Периметр и площадь"
+   },
+   "kljucne_reci": {
+    "sr": "pravilni osmougao osmougao obim povrsina",
+    "en": "regular octagon perimeter area",
+    "it": "ottagono regolare perimetro area",
+    "fr": "octogone regulier perimetre aire",
+    "es": "octogono regular perimetro area",
+    "de": "regelmassiges achteck umfang flacheninhalt",
+    "pt": "octogono regular perimetro area",
+    "ru": "правильный восьмиугольник периметр площадь"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 215\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik\" points=\"235.0,69.8 185.2,20.0 114.8,20.0 65.0,69.8 65.0,140.2 114.8,190.0 185.2,190.0 235.0,140.2\"/><circle class=\"tac\" cx=\"150\" cy=\"105\" r=\"3\"/><line class=\"pom\" x1=\"150.0\" y1=\"105.0\" x2=\"150.0\" y2=\"190.0\"/><text class=\"oz\" x=\"146.0\" y=\"212.0\">a</text><text class=\"oz\" x=\"156.0\" y=\"150.0\">ρ</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Obim",
+      "en": "Perimeter",
+      "it": "Perimetro",
+      "fr": "Périmètre",
+      "es": "Perímetro",
+      "de": "Umfang",
+      "pt": "Perímetro",
+      "ru": "Периметр"
+     },
+     "latex": {
+      "sr": "O = 8a",
+      "en": "P = 8a",
+      "it": "2p = 8a",
+      "fr": "P = 8a",
+      "es": "P = 8a",
+      "de": "u = 8a",
+      "pt": "P = 8a",
+      "ru": "P = 8a"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Area",
+      "it": "Area",
+      "fr": "Aire",
+      "es": "Área",
+      "de": "Flächeninhalt",
+      "pt": "Área",
+      "ru": "Площадь"
+     },
+     "latex": {
+      "sr": "P = 2\\left(1 + \\sqrt{2}\\right) a^2",
+      "en": "A = 2\\left(1 + \\sqrt{2}\\right) a^2",
+      "it": "A = 2\\left(1 + \\sqrt{2}\\right) a^2",
+      "fr": "A = 2\\left(1 + \\sqrt{2}\\right) a^2",
+      "es": "A = 2\\left(1 + \\sqrt{2}\\right) a^2",
+      "de": "A = 2\\left(1 + \\sqrt{2}\\right) a^2",
+      "pt": "A = 2\\left(1 + \\sqrt{2}\\right) a^2",
+      "ru": "S = 2\\left(1 + \\sqrt{2}\\right) a^2"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Poluprečnik upisanog kruga",
+      "en": "Inradius (apothem)",
+      "it": "Apotema",
+      "fr": "Apothème",
+      "es": "Apotema",
+      "de": "Inkreisradius",
+      "pt": "Apótema",
+      "ru": "Радиус вписанной окружности"
+     },
+     "latex": {
+      "sr": "\\rho = \\frac{a}{2}\\left(1 + \\sqrt{2}\\right)",
+      "en": "\\rho = \\frac{a}{2}\\left(1 + \\sqrt{2}\\right)",
+      "it": "\\rho = \\frac{a}{2}\\left(1 + \\sqrt{2}\\right)",
+      "fr": "\\rho = \\frac{a}{2}\\left(1 + \\sqrt{2}\\right)",
+      "es": "\\rho = \\frac{a}{2}\\left(1 + \\sqrt{2}\\right)",
+      "de": "\\rho = \\frac{a}{2}\\left(1 + \\sqrt{2}\\right)",
+      "pt": "\\rho = \\frac{a}{2}\\left(1 + \\sqrt{2}\\right)",
+      "ru": "\\rho = \\frac{a}{2}\\left(1 + \\sqrt{2}\\right)"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Pravilni n-tougao",
+      "en": "Regular n-gon",
+      "it": "Poligono regolare",
+      "fr": "Polygone régulier",
+      "es": "Polígono regular",
+      "de": "Regelmäßiges n-Eck",
+      "pt": "Polígono regular",
+      "ru": "Правильный n-угольник"
+     },
+     "latex": {
+      "sr": "P = \\frac{n \\cdot a \\cdot \\rho}{2}",
+      "en": "A = \\frac{n \\cdot a \\cdot \\rho}{2}",
+      "it": "A = \\frac{n \\cdot a \\cdot \\rho}{2}",
+      "fr": "A = \\frac{n \\cdot a \\cdot \\rho}{2}",
+      "es": "A = \\frac{n \\cdot a \\cdot \\rho}{2}",
+      "de": "A = \\frac{n \\cdot a \\cdot \\rho}{2}",
+      "pt": "A = \\frac{n \\cdot a \\cdot \\rho}{2}",
+      "ru": "S = \\frac{n \\cdot a \\cdot \\rho}{2}"
+     },
+     "objasnjenje": {
+      "sr": "Za svaki pravilni mnogougao: polovina obima puta poluprečnik upisanog kruga.",
+      "en": "For any regular polygon: half the perimeter times the apothem.",
+      "it": "Per ogni poligono regolare: semiperimetro per apotema.",
+      "fr": "Pour tout polygone régulier : demi-périmètre fois apothème.",
+      "es": "Para todo polígono regular: semiperímetro por apotema.",
+      "de": "Für jedes regelmäßige Vieleck: halber Umfang mal Inkreisradius.",
+      "pt": "Para todo polígono regular: semiperímetro vezes apótema.",
+      "ru": "Для любого правильного многоугольника: полупериметр, умноженный на радиус вписанной окружности."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Obim O",
+       "en": "Perimeter P",
+       "it": "Perimetro 2p",
+       "fr": "Périmètre P",
+       "es": "Perímetro P",
+       "de": "Umfang u",
+       "pt": "Perímetro P",
+       "ru": "Периметр P"
+      },
+      "izraz": "8*a"
+     },
+     {
+      "naziv": {
+       "sr": "Površina P",
+       "en": "Area A",
+       "it": "Area A",
+       "fr": "Aire A",
+       "es": "Área A",
+       "de": "Flächeninhalt A",
+       "pt": "Área A",
+       "ru": "Площадь S"
+      },
+      "izraz": "2*(1+Math.SQRT2)*a*a"
+     }
+    ]
+   }
+  }
+ ]
+}

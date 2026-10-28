@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ikonica tela "lopta" (boja se postavlja iz koda) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp" android:height="64dp"
+    android:viewportWidth="64" android:viewportHeight="64">
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="3.5"
+        android:strokeLineJoin="round" android:strokeLineCap="round" android:pathData="M32,6 A26,26 0 1,1 31.99,6 Z"/>
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="3.5"
+        android:strokeLineJoin="round" android:strokeLineCap="round" android:pathData="M6,32 A26,8 0 0,0 58,32"/>
+</vector>

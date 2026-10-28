@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Formulix – prednji sloj ikonice aplikacije (108dp, sigurna zona 66dp) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#2E5BBA" android:pathData="M35.6,31 H48.1 A4.6,4.6 0 0 1 52.7,35.6 V48.1 A4.6,4.6 0 0 1 48.1,52.7 H35.6 A4.6,4.6 0 0 1 31,48.1 V35.6 A4.6,4.6 0 0 1 35.6,31 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M36.43 37.4H47.28V39.37H45.77V43.22Q45.77 44.21 45.96 44.45Q46.15 44.69 46.58 44.69Q47.01 44.69 47.26 44.66V46.11Q46.78 46.3 45.16 46.3Q44.64 46.3 44.14 46.15Q43.34 45.92 43.12 45.22Q43.02 44.89 43.02 44.21V39.37H40.68V46H37.93V39.37H36.43Z"/>
+    <path android:fillColor="#0F7A6B" android:pathData="M59.9,31 H72.4 A4.6,4.6 0 0 1 77,35.6 V48.1 A4.6,4.6 0 0 1 72.4,52.7 H59.9 A4.6,4.6 0 0 1 55.3,48.1 V35.6 A4.6,4.6 0 0 1 59.9,31 Z"/>
+    <path android:fillColor="#FFFFFF" android:fillType="evenOdd" android:pathData="M66.15,36.59 L72.23,47.11 L60.07,47.11 Z M66.15,40.06 L69.22,45.38 L63.08,45.38 Z"/>
+    <path android:fillColor="#B5400F" android:pathData="M35.6,55.3 H48.1 A4.6,4.6 0 0 1 52.7,59.9 V72.4 A4.6,4.6 0 0 1 48.1,77 H35.6 A4.6,4.6 0 0 1 31,72.4 V59.9 A4.6,4.6 0 0 1 35.6,55.3 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M38.9 67.05 36.96 64.42H38.78L39.88 66.02L41 64.42H42.83L40.88 67.04L42.92 69.81H41.1L39.88 68.11L38.68 69.81H36.86Z M45.06 65.78H46.84V66.59H43.6V65.86L45.11 64.57Q45.4 64.32 45.53 64.13Q45.65 63.93 45.65 63.74Q45.65 63.5 45.48 63.35Q45.3 63.2 45.02 63.2Q44.72 63.2 44.37 63.31Q44.03 63.42 43.63 63.64V62.75Q44.05 62.62 44.44 62.55Q44.83 62.49 45.19 62.49Q45.95 62.49 46.39 62.8Q46.82 63.11 46.82 63.64Q46.82 63.99 46.65 64.28Q46.48 64.57 45.99 64.99Z"/>
+    <path android:fillColor="#2F6B2F" android:pathData="M59.9,55.3 H72.4 A4.6,4.6 0 0 1 77,59.9 V72.4 A4.6,4.6 0 0 1 72.4,77 H59.9 A4.6,4.6 0 0 1 55.3,72.4 V59.9 A4.6,4.6 0 0 1 59.9,55.3 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M66.56 69.98Q66.5 70.81 65.91 71.28Q65.54 71.57 64.85 71.57Q64 71.57 63.59 71.15Q63.3 70.85 63.2 70.09L64.4 69.97Q64.5 70.28 64.82 70.28Q65.17 70.28 65.21 69.78Q65.21 69.78 65.74 62.32Q65.8 61.49 66.39 61.02Q66.76 60.72 67.45 60.72Q68.3 60.72 68.71 61.15Q69 61.45 69.1 62.21L67.9 62.33Q67.8 62.02 67.48 62.02Q67.13 62.02 67.09 62.52Q67.09 62.52 66.56 69.98Z"/>
+</vector>

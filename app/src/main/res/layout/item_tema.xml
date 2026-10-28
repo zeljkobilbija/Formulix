@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Kartica teme: bela, kvadratna, simbol u obojenom kvadratiću -->
+<com.zeljkobilbija001.formulix.KvadratnaKartica xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:stateListAnimator="@animator/kartica_pritisak"
+    app:cardBackgroundColor="@color/povrsina"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <FrameLayout
+            android:id="@+id/simbolPozadina"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/simbol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:includeFontPadding="false"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:text="%" />
+
+            <ImageView
+                android:id="@+id/simbolSlika"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:importantForAccessibility="no"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/naziv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:lineSpacingMultiplier="0.95"
+            android:maxLines="2"
+            android:textColor="@color/tekst"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="Procenti" />
+
+        <TextView
+            android:id="@+id/opis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/tekst_sekundarni"
+            android:textSize="13sp"
+            tools:text="Procenat, osnovica, iznos" />
+    </LinearLayout>
+</com.zeljkobilbija001.formulix.KvadratnaKartica>

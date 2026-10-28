@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/koren"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pozadina"
+    android:orientation="vertical"
+    tools:context=".OblastActivity">
+
+    <include layout="@layout/zaglavlje" />
+
+    <!-- Teme oblasti, 2 kolone -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listaTema"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:layoutAnimation="@anim/layout_ulaz"
+        android:paddingStart="14dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/uskoro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:paddingStart="32dp"
+        android:paddingTop="48dp"
+        android:paddingEnd="32dp"
+        android:text="@string/uskoro_oblast"
+        android:textAlignment="center"
+        android:textColor="@color/tekst_sekundarni"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <!-- Mesto za AdMob baner -->
+    <FrameLayout
+        android:id="@+id/reklamaKontejner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

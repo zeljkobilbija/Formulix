@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ikonica figure "pravougli" (boja se postavlja iz koda) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp" android:height="64dp"
+    android:viewportWidth="64" android:viewportHeight="64">
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="3.5"
+        android:strokeLineJoin="round" android:strokeLineCap="round" android:pathData="M10,8 L10,54 L56,54 Z"/>
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="3.5"
+        android:strokeLineJoin="round" android:strokeLineCap="round" android:pathData="M10,45 L19,45 L19,54"/>
+</vector>

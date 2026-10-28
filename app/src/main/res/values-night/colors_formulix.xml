@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tamna tema: menjaju se samo opšte boje, boje oblasti ostaju iste -->
+    <color name="pozadina">#121317</color>
+    <color name="tekst">#EEF0F4</color>
+    <color name="tekst_sekundarni">#A9AFBA</color>
+    <color name="povrsina">#1E2026</color>
+    <color name="ivica">#33363E</color>
+</resources>

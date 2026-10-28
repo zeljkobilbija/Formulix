@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Glavna tema aplikacije -->
+    <style name="Base.Theme.Formulix" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/aritmetika</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:colorBackground">@color/pozadina</item>
+        <item name="android:windowBackground">@color/pozadina</item>
+        <item name="android:textColorPrimary">@color/tekst</item>
+        <item name="android:textColorSecondary">@color/tekst_sekundarni</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+    </style>
+
+    <style name="Theme.Formulix" parent="Base.Theme.Formulix" />
+</resources>

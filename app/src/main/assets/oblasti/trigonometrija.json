@@ -1,0 +1,1685 @@
+{
+ "oblast": "trigonometrija",
+ "teme": [
+  {
+   "id": "definicije",
+   "simbol": "",
+   "ikona": "ic_f_pravougli",
+   "naziv": {
+    "sr": "Pravougli trougao",
+    "en": "Right-triangle ratios",
+    "it": "Triangolo rettangolo",
+    "fr": "Triangle rectangle",
+    "es": "Triángulo rectángulo",
+    "de": "Rechtwinkliges Dreieck",
+    "pt": "Triângulo retângulo",
+    "ru": "Прямоугольный треугольник"
+   },
+   "opis": {
+    "sr": "sin, cos, tg, ctg",
+    "en": "sin, cos, tan, cot",
+    "it": "sen, cos, tg, cotg",
+    "fr": "sin, cos, tan, cotan",
+    "es": "sen, cos, tg, cotg",
+    "de": "sin, cos, tan, cot",
+    "pt": "sen, cos, tg, cotg",
+    "ru": "sin, cos, tg, ctg"
+   },
+   "kljucne_reci": {
+    "sr": "trigonometrija definicije sinus kosinus tangens kotangens pravougli trougao naspramna nalegla kateta hipotenuza",
+    "en": "trigonometry sine cosine tangent cotangent right triangle opposite adjacent hypotenuse soh cah toa",
+    "it": "trigonometria seno coseno tangente cotangente triangolo rettangolo cateto opposto adiacente ipotenusa",
+    "fr": "trigonometrie sinus cosinus tangente cotangente triangle rectangle cote oppose adjacent hypotenuse",
+    "es": "trigonometria seno coseno tangente cotangente triangulo rectangulo cateto opuesto contiguo hipotenusa",
+    "de": "trigonometrie sinus kosinus tangens kotangens rechtwinkliges dreieck gegenkathete ankathete hypotenuse",
+    "pt": "trigonometria seno cosseno tangente cotangente triangulo retangulo cateto oposto adjacente hipotenusa",
+    "ru": "тригонометрия синус косинус тангенс котангенс прямоугольный треугольник противолежащий прилежащий катет гипотенуза"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "sin",
+      "en": "sin",
+      "it": "sen",
+      "fr": "sin",
+      "es": "sen",
+      "de": "sin",
+      "pt": "sen",
+      "ru": "sin"
+     },
+     "latex": {
+      "sr": "\\sin \\alpha = \\frac{a}{c}",
+      "en": "\\sin \\alpha = \\frac{a}{c}",
+      "it": "\\operatorname{sen} \\alpha = \\frac{a}{c}",
+      "fr": "\\sin \\alpha = \\frac{a}{c}",
+      "es": "\\operatorname{sen} \\alpha = \\frac{a}{c}",
+      "de": "\\sin \\alpha = \\frac{a}{c}",
+      "pt": "\\operatorname{sen} \\alpha = \\frac{a}{c}",
+      "ru": "\\sin \\alpha = \\frac{a}{c}"
+     },
+     "objasnjenje": {
+      "sr": "Naspramna kateta kroz hipotenuzu.",
+      "en": "Opposite side over hypotenuse.",
+      "it": "Cateto opposto diviso ipotenusa.",
+      "fr": "Côté opposé sur hypoténuse.",
+      "es": "Cateto opuesto entre hipotenusa.",
+      "de": "Gegenkathete durch Hypotenuse.",
+      "pt": "Cateto oposto sobre hipotenusa.",
+      "ru": "Противолежащий катет, делённый на гипотенузу."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "cos",
+      "en": "cos",
+      "it": "cos",
+      "fr": "cos",
+      "es": "cos",
+      "de": "cos",
+      "pt": "cos",
+      "ru": "cos"
+     },
+     "latex": {
+      "sr": "\\cos \\alpha = \\frac{b}{c}",
+      "en": "\\cos \\alpha = \\frac{b}{c}",
+      "it": "\\cos \\alpha = \\frac{b}{c}",
+      "fr": "\\cos \\alpha = \\frac{b}{c}",
+      "es": "\\cos \\alpha = \\frac{b}{c}",
+      "de": "\\cos \\alpha = \\frac{b}{c}",
+      "pt": "\\cos \\alpha = \\frac{b}{c}",
+      "ru": "\\cos \\alpha = \\frac{b}{c}"
+     },
+     "objasnjenje": {
+      "sr": "Nalegla kateta kroz hipotenuzu.",
+      "en": "Adjacent side over hypotenuse.",
+      "it": "Cateto adiacente diviso ipotenusa.",
+      "fr": "Côté adjacent sur hypoténuse.",
+      "es": "Cateto contiguo entre hipotenusa.",
+      "de": "Ankathete durch Hypotenuse.",
+      "pt": "Cateto adjacente sobre hipotenusa.",
+      "ru": "Прилежащий катет, делённый на гипотенузу."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "tg",
+      "en": "tan",
+      "it": "tg",
+      "fr": "tan",
+      "es": "tg",
+      "de": "tan",
+      "pt": "tg",
+      "ru": "tg"
+     },
+     "latex": {
+      "sr": "\\operatorname{tg} \\alpha = \\frac{a}{b}",
+      "en": "\\tan \\alpha = \\frac{a}{b}",
+      "it": "\\operatorname{tg} \\alpha = \\frac{a}{b}",
+      "fr": "\\tan \\alpha = \\frac{a}{b}",
+      "es": "\\operatorname{tg} \\alpha = \\frac{a}{b}",
+      "de": "\\tan \\alpha = \\frac{a}{b}",
+      "pt": "\\operatorname{tg} \\alpha = \\frac{a}{b}",
+      "ru": "\\operatorname{tg} \\alpha = \\frac{a}{b}"
+     },
+     "objasnjenje": {
+      "sr": "Naspramna kroz naleglu katetu.",
+      "en": "Opposite over adjacent.",
+      "it": "Cateto opposto diviso cateto adiacente.",
+      "fr": "Côté opposé sur côté adjacent.",
+      "es": "Cateto opuesto entre contiguo.",
+      "de": "Gegenkathete durch Ankathete.",
+      "pt": "Cateto oposto sobre adjacente.",
+      "ru": "Противолежащий катет, делённый на прилежащий."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "ctg",
+      "en": "cot",
+      "it": "cotg",
+      "fr": "cotan",
+      "es": "cotg",
+      "de": "cot",
+      "pt": "cotg",
+      "ru": "ctg"
+     },
+     "latex": {
+      "sr": "\\operatorname{ctg} \\alpha = \\frac{b}{a}",
+      "en": "\\cot \\alpha = \\frac{b}{a}",
+      "it": "\\operatorname{cotg} \\alpha = \\frac{b}{a}",
+      "fr": "\\operatorname{cotan} \\alpha = \\frac{b}{a}",
+      "es": "\\operatorname{cotg} \\alpha = \\frac{b}{a}",
+      "de": "\\cot \\alpha = \\frac{b}{a}",
+      "pt": "\\operatorname{cotg} \\alpha = \\frac{b}{a}",
+      "ru": "\\operatorname{ctg} \\alpha = \\frac{b}{a}"
+     },
+     "objasnjenje": {
+      "sr": "Nalegla kroz naspramnu katetu.",
+      "en": "Adjacent over opposite.",
+      "it": "Cateto adiacente diviso cateto opposto.",
+      "fr": "Côté adjacent sur côté opposé.",
+      "es": "Cateto contiguo entre opuesto.",
+      "de": "Ankathete durch Gegenkathete.",
+      "pt": "Cateto adjacente sobre oposto.",
+      "ru": "Прилежащий катет, делённый на противолежащий."
+     }
+    }
+   ],
+   "crtez": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik\" points=\"35,185 255,185 255,45\"/><path class=\"ugao\" d=\"M241,185 L241,171 L255,171\"/><path class=\"ugao\" d=\"M77.0,185.0 A42,42 0 0 0 70.4,162.5\"/><text class=\"oz\" x=\"84\" y=\"176\">α</text><text class=\"oz\" x=\"266\" y=\"120\">a</text><text class=\"oz\" x=\"140\" y=\"207\">b</text><text class=\"oz\" x=\"132\" y=\"104\">c</text><text class=\"tem\" x=\"18\" y=\"200\">A</text><text class=\"tem\" x=\"262\" y=\"200\">C</text><text class=\"tem\" x=\"260\" y=\"38\">B</text></svg>",
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Hipotenuza c",
+       "en": "Hypotenuse c",
+       "it": "Ipotenusa c",
+       "fr": "Hypoténuse c",
+       "es": "Hipotenusa c",
+       "de": "Hypotenuse c",
+       "pt": "Hipotenusa c",
+       "ru": "Гипотенуза c"
+      },
+      "izraz": "sqrt(a*a+b*b)"
+     },
+     {
+      "naziv": {
+       "sr": "Ugao α",
+       "en": "Angle α",
+       "it": "Angolo α",
+       "fr": "Angle α",
+       "es": "Ángulo α",
+       "de": "Winkel α",
+       "pt": "Ângulo α",
+       "ru": "Угол α"
+      },
+      "izraz": "stepeni(Math.atan2(a,b))",
+      "tip": "stepen"
+     },
+     {
+      "naziv": {
+       "sr": "sin α",
+       "en": "sin α",
+       "it": "sen α",
+       "fr": "sin α",
+       "es": "sen α",
+       "de": "sin α",
+       "pt": "sen α",
+       "ru": "sin α"
+      },
+      "izraz": "a/sqrt(a*a+b*b)"
+     },
+     {
+      "naziv": {
+       "sr": "cos α",
+       "en": "cos α",
+       "it": "cos α",
+       "fr": "cos α",
+       "es": "cos α",
+       "de": "cos α",
+       "pt": "cos α",
+       "ru": "cos α"
+      },
+      "izraz": "b/sqrt(a*a+b*b)"
+     },
+     {
+      "naziv": {
+       "sr": "tg α",
+       "en": "tan α",
+       "it": "tg α",
+       "fr": "tan α",
+       "es": "tg α",
+       "de": "tan α",
+       "pt": "tg α",
+       "ru": "tg α"
+      },
+      "izraz": "a/b"
+     },
+     {
+      "naziv": {
+       "sr": "ctg α",
+       "en": "cot α",
+       "it": "cotg α",
+       "fr": "cotan α",
+       "es": "cotg α",
+       "de": "cot α",
+       "pt": "cotg α",
+       "ru": "ctg α"
+      },
+      "izraz": "b/a"
+     }
+    ]
+   }
+  },
+  {
+   "id": "jedinicni_krug",
+   "simbol": "",
+   "ikona": "ic_f_krug",
+   "naziv": {
+    "sr": "Trigonometrijski krug",
+    "en": "Unit circle",
+    "it": "Circonferenza goniometrica",
+    "fr": "Cercle trigonométrique",
+    "es": "Circunferencia goniométrica",
+    "de": "Einheitskreis",
+    "pt": "Círculo trigonométrico",
+    "ru": "Единичная окружность"
+   },
+   "opis": {
+    "sr": "Znaci, parnost, periodičnost",
+    "en": "Signs, symmetry, periodicity",
+    "it": "Segni, parità, periodicità",
+    "fr": "Signes, parité, périodicité",
+    "es": "Signos, paridad, periodicidad",
+    "de": "Vorzeichen, Symmetrie, Periode",
+    "pt": "Sinais, paridade, periodicidade",
+    "ru": "Знаки, чётность, периодичность"
+   },
+   "kljucne_reci": {
+    "sr": "trigonometrijski krug jedinicni krug kvadranti znaci periodicnost parnost",
+    "en": "unit circle quadrants signs periodic even odd",
+    "it": "circonferenza goniometrica quadranti segni periodicita",
+    "fr": "cercle trigonometrique quadrants signes periodicite parite",
+    "es": "circunferencia goniometrica cuadrantes signos periodicidad",
+    "de": "einheitskreis quadranten vorzeichen periode symmetrie",
+    "pt": "circulo trigonometrico quadrantes sinais periodicidade",
+    "ru": "единичная окружность четверти знаки периодичность четность"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Tačka na krugu",
+      "en": "Point on the circle",
+      "it": "Punto sulla circonferenza",
+      "fr": "Point du cercle",
+      "es": "Punto de la circunferencia",
+      "de": "Punkt auf dem Kreis",
+      "pt": "Ponto do círculo",
+      "ru": "Точка на окружности"
+     },
+     "latex": {
+      "sr": "P(\\cos \\alpha,\\ \\sin \\alpha), \\quad \\sin ^2\\alpha + \\cos ^2\\alpha = 1",
+      "en": "P(\\cos \\alpha,\\ \\sin \\alpha), \\quad \\sin ^2\\alpha + \\cos ^2\\alpha = 1",
+      "it": "P(\\cos \\alpha,\\ \\operatorname{sen} \\alpha), \\quad \\operatorname{sen} ^2\\alpha + \\cos ^2\\alpha = 1",
+      "fr": "P(\\cos \\alpha,\\ \\sin \\alpha), \\quad \\sin ^2\\alpha + \\cos ^2\\alpha = 1",
+      "es": "P(\\cos \\alpha,\\ \\operatorname{sen} \\alpha), \\quad \\operatorname{sen} ^2\\alpha + \\cos ^2\\alpha = 1",
+      "de": "P(\\cos \\alpha,\\ \\sin \\alpha), \\quad \\sin ^2\\alpha + \\cos ^2\\alpha = 1",
+      "pt": "P(\\cos \\alpha,\\ \\operatorname{sen} \\alpha), \\quad \\operatorname{sen} ^2\\alpha + \\cos ^2\\alpha = 1",
+      "ru": "P(\\cos \\alpha,\\ \\sin \\alpha), \\quad \\sin ^2\\alpha + \\cos ^2\\alpha = 1"
+     },
+     "objasnjenje": {
+      "sr": "Kosinus je x-koordinata, a sinus y-koordinata tačke na krugu poluprečnika 1.",
+      "en": "Cosine is the x-coordinate and sine the y-coordinate of the point on the circle of radius 1.",
+      "it": "Il coseno è l’ascissa e il seno l’ordinata del punto sulla circonferenza di raggio 1.",
+      "fr": "Le cosinus est l’abscisse et le sinus l’ordonnée du point sur le cercle de rayon 1.",
+      "es": "El coseno es la abscisa y el seno la ordenada del punto en la circunferencia de radio 1.",
+      "de": "Der Kosinus ist die x-, der Sinus die y-Koordinate des Punktes auf dem Kreis mit Radius 1.",
+      "pt": "O cosseno é a abscissa e o seno a ordenada do ponto no círculo de raio 1.",
+      "ru": "Косинус — абсцисса, синус — ордината точки на окружности радиуса 1."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Parnost",
+      "en": "Even and odd",
+      "it": "Parità",
+      "fr": "Parité",
+      "es": "Paridad",
+      "de": "Symmetrie",
+      "pt": "Paridade",
+      "ru": "Чётность"
+     },
+     "latex": {
+      "sr": "\\cos (-\\alpha) = \\cos \\alpha, \\quad \\sin (-\\alpha) = -\\sin \\alpha, \\quad \\operatorname{tg} (-\\alpha) = -\\operatorname{tg} \\alpha",
+      "en": "\\cos (-\\alpha) = \\cos \\alpha, \\quad \\sin (-\\alpha) = -\\sin \\alpha, \\quad \\tan (-\\alpha) = -\\tan \\alpha",
+      "it": "\\cos (-\\alpha) = \\cos \\alpha, \\quad \\operatorname{sen} (-\\alpha) = -\\operatorname{sen} \\alpha, \\quad \\operatorname{tg} (-\\alpha) = -\\operatorname{tg} \\alpha",
+      "fr": "\\cos (-\\alpha) = \\cos \\alpha, \\quad \\sin (-\\alpha) = -\\sin \\alpha, \\quad \\tan (-\\alpha) = -\\tan \\alpha",
+      "es": "\\cos (-\\alpha) = \\cos \\alpha, \\quad \\operatorname{sen} (-\\alpha) = -\\operatorname{sen} \\alpha, \\quad \\operatorname{tg} (-\\alpha) = -\\operatorname{tg} \\alpha",
+      "de": "\\cos (-\\alpha) = \\cos \\alpha, \\quad \\sin (-\\alpha) = -\\sin \\alpha, \\quad \\tan (-\\alpha) = -\\tan \\alpha",
+      "pt": "\\cos (-\\alpha) = \\cos \\alpha, \\quad \\operatorname{sen} (-\\alpha) = -\\operatorname{sen} \\alpha, \\quad \\operatorname{tg} (-\\alpha) = -\\operatorname{tg} \\alpha",
+      "ru": "\\cos (-\\alpha) = \\cos \\alpha, \\quad \\sin (-\\alpha) = -\\sin \\alpha, \\quad \\operatorname{tg} (-\\alpha) = -\\operatorname{tg} \\alpha"
+     },
+     "objasnjenje": {
+      "sr": "Kosinus je parna, a sinus i tangens neparne funkcije.",
+      "en": "Cosine is even; sine and tangent are odd.",
+      "it": "Il coseno è pari, seno e tangente sono dispari.",
+      "fr": "Le cosinus est pair, le sinus et la tangente sont impairs.",
+      "es": "El coseno es par; seno y tangente son impares.",
+      "de": "Kosinus ist gerade, Sinus und Tangens sind ungerade.",
+      "pt": "O cosseno é par; seno e tangente são ímpares.",
+      "ru": "Косинус — чётная функция, синус и тангенс — нечётные."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Periodičnost",
+      "en": "Periodicity",
+      "it": "Periodicità",
+      "fr": "Périodicité",
+      "es": "Periodicidad",
+      "de": "Periodizität",
+      "pt": "Periodicidade",
+      "ru": "Периодичность"
+     },
+     "latex": {
+      "sr": "\\sin (\\alpha + 2k\\pi) = \\sin \\alpha, \\quad \\cos (\\alpha + 2k\\pi) = \\cos \\alpha, \\quad \\operatorname{tg} (\\alpha + k\\pi) = \\operatorname{tg} \\alpha",
+      "en": "\\sin (\\alpha + 2k\\pi) = \\sin \\alpha, \\quad \\cos (\\alpha + 2k\\pi) = \\cos \\alpha, \\quad \\tan (\\alpha + k\\pi) = \\tan \\alpha",
+      "it": "\\operatorname{sen} (\\alpha + 2k\\pi) = \\operatorname{sen} \\alpha, \\quad \\cos (\\alpha + 2k\\pi) = \\cos \\alpha, \\quad \\operatorname{tg} (\\alpha + k\\pi) = \\operatorname{tg} \\alpha",
+      "fr": "\\sin (\\alpha + 2k\\pi) = \\sin \\alpha, \\quad \\cos (\\alpha + 2k\\pi) = \\cos \\alpha, \\quad \\tan (\\alpha + k\\pi) = \\tan \\alpha",
+      "es": "\\operatorname{sen} (\\alpha + 2k\\pi) = \\operatorname{sen} \\alpha, \\quad \\cos (\\alpha + 2k\\pi) = \\cos \\alpha, \\quad \\operatorname{tg} (\\alpha + k\\pi) = \\operatorname{tg} \\alpha",
+      "de": "\\sin (\\alpha + 2k\\pi) = \\sin \\alpha, \\quad \\cos (\\alpha + 2k\\pi) = \\cos \\alpha, \\quad \\tan (\\alpha + k\\pi) = \\tan \\alpha",
+      "pt": "\\operatorname{sen} (\\alpha + 2k\\pi) = \\operatorname{sen} \\alpha, \\quad \\cos (\\alpha + 2k\\pi) = \\cos \\alpha, \\quad \\operatorname{tg} (\\alpha + k\\pi) = \\operatorname{tg} \\alpha",
+      "ru": "\\sin (\\alpha + 2k\\pi) = \\sin \\alpha, \\quad \\cos (\\alpha + 2k\\pi) = \\cos \\alpha, \\quad \\operatorname{tg} (\\alpha + k\\pi) = \\operatorname{tg} \\alpha"
+     },
+     "objasnjenje": {
+      "sr": "Sinus i kosinus imaju period 2π (360°), a tangens π (180°).",
+      "en": "Sine and cosine have period 2π (360°), tangent π (180°).",
+      "it": "Seno e coseno hanno periodo 2π (360°), la tangente π (180°).",
+      "fr": "Sinus et cosinus ont pour période 2π (360°), la tangente π (180°).",
+      "es": "Seno y coseno tienen periodo 2π (360°); la tangente, π (180°).",
+      "de": "Sinus und Kosinus haben Periode 2π (360°), Tangens π (180°).",
+      "pt": "Seno e cosseno têm período 2π (360°); a tangente, π (180°).",
+      "ru": "Период синуса и косинуса 2π (360°), тангенса — π (180°)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Komplementni uglovi",
+      "en": "Complementary angles",
+      "it": "Angoli complementari",
+      "fr": "Angles complémentaires",
+      "es": "Ángulos complementarios",
+      "de": "Komplementwinkel",
+      "pt": "Ângulos complementares",
+      "ru": "Дополнительные углы"
+     },
+     "latex": {
+      "sr": "\\sin (90^\\circ - \\alpha) = \\cos \\alpha, \\quad \\cos (90^\\circ - \\alpha) = \\sin \\alpha",
+      "en": "\\sin (90^\\circ - \\alpha) = \\cos \\alpha, \\quad \\cos (90^\\circ - \\alpha) = \\sin \\alpha",
+      "it": "\\operatorname{sen} (90^\\circ - \\alpha) = \\cos \\alpha, \\quad \\cos (90^\\circ - \\alpha) = \\operatorname{sen} \\alpha",
+      "fr": "\\sin (90^\\circ - \\alpha) = \\cos \\alpha, \\quad \\cos (90^\\circ - \\alpha) = \\sin \\alpha",
+      "es": "\\operatorname{sen} (90^\\circ - \\alpha) = \\cos \\alpha, \\quad \\cos (90^\\circ - \\alpha) = \\operatorname{sen} \\alpha",
+      "de": "\\sin (90^\\circ - \\alpha) = \\cos \\alpha, \\quad \\cos (90^\\circ - \\alpha) = \\sin \\alpha",
+      "pt": "\\operatorname{sen} (90^\\circ - \\alpha) = \\cos \\alpha, \\quad \\cos (90^\\circ - \\alpha) = \\operatorname{sen} \\alpha",
+      "ru": "\\sin (90^\\circ - \\alpha) = \\cos \\alpha, \\quad \\cos (90^\\circ - \\alpha) = \\sin \\alpha"
+     }
+    }
+   ],
+   "crtez": {
+    "sr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"40.0\" y1=\"115.0\" x2=\"262.0\" y2=\"115.0\"/><line class=\"osa\" x1=\"150.0\" y1=\"12.0\" x2=\"150.0\" y2=\"218.0\"/><circle class=\"lik2\" cx=\"150\" cy=\"115\" r=\"90\"/><line class=\"lik-l\" x1=\"150.0\" y1=\"115.0\" x2=\"207.9\" y2=\"46.1\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115.0\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"150.0\" y2=\"46.1\"/><line class=\"istaknuto\" x1=\"150\" y1=\"115\" x2=\"207.9\" y2=\"115\"/><line class=\"istaknuto2\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115\"/><path class=\"ugao\" d=\"M176.0,115.0 A26,26 0 0 0 166.7,95.1\"/><circle class=\"tac\" cx=\"207.9\" cy=\"46.1\" r=\"4\"/><text class=\"oz\" x=\"172\" y=\"106\">α</text><text class=\"tem\" x=\"215.85088487178854\" y=\"40.05600011929198\">P</text><text class=\"tem\" x=\"262\" y=\"109\">x</text><text class=\"tem\" x=\"156\" y=\"20\">y</text><text class=\"tem\" x=\"244\" y=\"133\">1</text><text class=\"tem\" x=\"156\" y=\"21\">1</text><text class=\"fun\" x=\"163\" y=\"135\">cos α</text><text class=\"fun\" x=\"216\" y=\"87\">sin α</text></svg>",
+    "en": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"40.0\" y1=\"115.0\" x2=\"262.0\" y2=\"115.0\"/><line class=\"osa\" x1=\"150.0\" y1=\"12.0\" x2=\"150.0\" y2=\"218.0\"/><circle class=\"lik2\" cx=\"150\" cy=\"115\" r=\"90\"/><line class=\"lik-l\" x1=\"150.0\" y1=\"115.0\" x2=\"207.9\" y2=\"46.1\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115.0\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"150.0\" y2=\"46.1\"/><line class=\"istaknuto\" x1=\"150\" y1=\"115\" x2=\"207.9\" y2=\"115\"/><line class=\"istaknuto2\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115\"/><path class=\"ugao\" d=\"M176.0,115.0 A26,26 0 0 0 166.7,95.1\"/><circle class=\"tac\" cx=\"207.9\" cy=\"46.1\" r=\"4\"/><text class=\"oz\" x=\"172\" y=\"106\">α</text><text class=\"tem\" x=\"215.85088487178854\" y=\"40.05600011929198\">P</text><text class=\"tem\" x=\"262\" y=\"109\">x</text><text class=\"tem\" x=\"156\" y=\"20\">y</text><text class=\"tem\" x=\"244\" y=\"133\">1</text><text class=\"tem\" x=\"156\" y=\"21\">1</text><text class=\"fun\" x=\"163\" y=\"135\">cos α</text><text class=\"fun\" x=\"216\" y=\"87\">sin α</text></svg>",
+    "it": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"40.0\" y1=\"115.0\" x2=\"262.0\" y2=\"115.0\"/><line class=\"osa\" x1=\"150.0\" y1=\"12.0\" x2=\"150.0\" y2=\"218.0\"/><circle class=\"lik2\" cx=\"150\" cy=\"115\" r=\"90\"/><line class=\"lik-l\" x1=\"150.0\" y1=\"115.0\" x2=\"207.9\" y2=\"46.1\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115.0\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"150.0\" y2=\"46.1\"/><line class=\"istaknuto\" x1=\"150\" y1=\"115\" x2=\"207.9\" y2=\"115\"/><line class=\"istaknuto2\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115\"/><path class=\"ugao\" d=\"M176.0,115.0 A26,26 0 0 0 166.7,95.1\"/><circle class=\"tac\" cx=\"207.9\" cy=\"46.1\" r=\"4\"/><text class=\"oz\" x=\"172\" y=\"106\">α</text><text class=\"tem\" x=\"215.85088487178854\" y=\"40.05600011929198\">P</text><text class=\"tem\" x=\"262\" y=\"109\">x</text><text class=\"tem\" x=\"156\" y=\"20\">y</text><text class=\"tem\" x=\"244\" y=\"133\">1</text><text class=\"tem\" x=\"156\" y=\"21\">1</text><text class=\"fun\" x=\"163\" y=\"135\">cos α</text><text class=\"fun\" x=\"216\" y=\"87\">sen α</text></svg>",
+    "fr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"40.0\" y1=\"115.0\" x2=\"262.0\" y2=\"115.0\"/><line class=\"osa\" x1=\"150.0\" y1=\"12.0\" x2=\"150.0\" y2=\"218.0\"/><circle class=\"lik2\" cx=\"150\" cy=\"115\" r=\"90\"/><line class=\"lik-l\" x1=\"150.0\" y1=\"115.0\" x2=\"207.9\" y2=\"46.1\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115.0\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"150.0\" y2=\"46.1\"/><line class=\"istaknuto\" x1=\"150\" y1=\"115\" x2=\"207.9\" y2=\"115\"/><line class=\"istaknuto2\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115\"/><path class=\"ugao\" d=\"M176.0,115.0 A26,26 0 0 0 166.7,95.1\"/><circle class=\"tac\" cx=\"207.9\" cy=\"46.1\" r=\"4\"/><text class=\"oz\" x=\"172\" y=\"106\">α</text><text class=\"tem\" x=\"215.85088487178854\" y=\"40.05600011929198\">P</text><text class=\"tem\" x=\"262\" y=\"109\">x</text><text class=\"tem\" x=\"156\" y=\"20\">y</text><text class=\"tem\" x=\"244\" y=\"133\">1</text><text class=\"tem\" x=\"156\" y=\"21\">1</text><text class=\"fun\" x=\"163\" y=\"135\">cos α</text><text class=\"fun\" x=\"216\" y=\"87\">sin α</text></svg>",
+    "es": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"40.0\" y1=\"115.0\" x2=\"262.0\" y2=\"115.0\"/><line class=\"osa\" x1=\"150.0\" y1=\"12.0\" x2=\"150.0\" y2=\"218.0\"/><circle class=\"lik2\" cx=\"150\" cy=\"115\" r=\"90\"/><line class=\"lik-l\" x1=\"150.0\" y1=\"115.0\" x2=\"207.9\" y2=\"46.1\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115.0\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"150.0\" y2=\"46.1\"/><line class=\"istaknuto\" x1=\"150\" y1=\"115\" x2=\"207.9\" y2=\"115\"/><line class=\"istaknuto2\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115\"/><path class=\"ugao\" d=\"M176.0,115.0 A26,26 0 0 0 166.7,95.1\"/><circle class=\"tac\" cx=\"207.9\" cy=\"46.1\" r=\"4\"/><text class=\"oz\" x=\"172\" y=\"106\">α</text><text class=\"tem\" x=\"215.85088487178854\" y=\"40.05600011929198\">P</text><text class=\"tem\" x=\"262\" y=\"109\">x</text><text class=\"tem\" x=\"156\" y=\"20\">y</text><text class=\"tem\" x=\"244\" y=\"133\">1</text><text class=\"tem\" x=\"156\" y=\"21\">1</text><text class=\"fun\" x=\"163\" y=\"135\">cos α</text><text class=\"fun\" x=\"216\" y=\"87\">sen α</text></svg>",
+    "de": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"40.0\" y1=\"115.0\" x2=\"262.0\" y2=\"115.0\"/><line class=\"osa\" x1=\"150.0\" y1=\"12.0\" x2=\"150.0\" y2=\"218.0\"/><circle class=\"lik2\" cx=\"150\" cy=\"115\" r=\"90\"/><line class=\"lik-l\" x1=\"150.0\" y1=\"115.0\" x2=\"207.9\" y2=\"46.1\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115.0\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"150.0\" y2=\"46.1\"/><line class=\"istaknuto\" x1=\"150\" y1=\"115\" x2=\"207.9\" y2=\"115\"/><line class=\"istaknuto2\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115\"/><path class=\"ugao\" d=\"M176.0,115.0 A26,26 0 0 0 166.7,95.1\"/><circle class=\"tac\" cx=\"207.9\" cy=\"46.1\" r=\"4\"/><text class=\"oz\" x=\"172\" y=\"106\">α</text><text class=\"tem\" x=\"215.85088487178854\" y=\"40.05600011929198\">P</text><text class=\"tem\" x=\"262\" y=\"109\">x</text><text class=\"tem\" x=\"156\" y=\"20\">y</text><text class=\"tem\" x=\"244\" y=\"133\">1</text><text class=\"tem\" x=\"156\" y=\"21\">1</text><text class=\"fun\" x=\"163\" y=\"135\">cos α</text><text class=\"fun\" x=\"216\" y=\"87\">sin α</text></svg>",
+    "pt": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"40.0\" y1=\"115.0\" x2=\"262.0\" y2=\"115.0\"/><line class=\"osa\" x1=\"150.0\" y1=\"12.0\" x2=\"150.0\" y2=\"218.0\"/><circle class=\"lik2\" cx=\"150\" cy=\"115\" r=\"90\"/><line class=\"lik-l\" x1=\"150.0\" y1=\"115.0\" x2=\"207.9\" y2=\"46.1\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115.0\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"150.0\" y2=\"46.1\"/><line class=\"istaknuto\" x1=\"150\" y1=\"115\" x2=\"207.9\" y2=\"115\"/><line class=\"istaknuto2\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115\"/><path class=\"ugao\" d=\"M176.0,115.0 A26,26 0 0 0 166.7,95.1\"/><circle class=\"tac\" cx=\"207.9\" cy=\"46.1\" r=\"4\"/><text class=\"oz\" x=\"172\" y=\"106\">α</text><text class=\"tem\" x=\"215.85088487178854\" y=\"40.05600011929198\">P</text><text class=\"tem\" x=\"262\" y=\"109\">x</text><text class=\"tem\" x=\"156\" y=\"20\">y</text><text class=\"tem\" x=\"244\" y=\"133\">1</text><text class=\"tem\" x=\"156\" y=\"21\">1</text><text class=\"fun\" x=\"163\" y=\"135\">cos α</text><text class=\"fun\" x=\"216\" y=\"87\">sen α</text></svg>",
+    "ru": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"40.0\" y1=\"115.0\" x2=\"262.0\" y2=\"115.0\"/><line class=\"osa\" x1=\"150.0\" y1=\"12.0\" x2=\"150.0\" y2=\"218.0\"/><circle class=\"lik2\" cx=\"150\" cy=\"115\" r=\"90\"/><line class=\"lik-l\" x1=\"150.0\" y1=\"115.0\" x2=\"207.9\" y2=\"46.1\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115.0\"/><line class=\"pom\" x1=\"207.9\" y1=\"46.1\" x2=\"150.0\" y2=\"46.1\"/><line class=\"istaknuto\" x1=\"150\" y1=\"115\" x2=\"207.9\" y2=\"115\"/><line class=\"istaknuto2\" x1=\"207.9\" y1=\"46.1\" x2=\"207.9\" y2=\"115\"/><path class=\"ugao\" d=\"M176.0,115.0 A26,26 0 0 0 166.7,95.1\"/><circle class=\"tac\" cx=\"207.9\" cy=\"46.1\" r=\"4\"/><text class=\"oz\" x=\"172\" y=\"106\">α</text><text class=\"tem\" x=\"215.85088487178854\" y=\"40.05600011929198\">P</text><text class=\"tem\" x=\"262\" y=\"109\">x</text><text class=\"tem\" x=\"156\" y=\"20\">y</text><text class=\"tem\" x=\"244\" y=\"133\">1</text><text class=\"tem\" x=\"156\" y=\"21\">1</text><text class=\"fun\" x=\"163\" y=\"135\">cos α</text><text class=\"fun\" x=\"216\" y=\"87\">sin α</text></svg>"
+   },
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "al",
+      "oznaka": "\\alpha",
+      "naziv": {
+       "sr": "u stepenima",
+       "en": "in degrees",
+       "it": "in gradi",
+       "fr": "en degrés",
+       "es": "en grados",
+       "de": "in Grad",
+       "pt": "em graus",
+       "ru": "в градусах"
+      },
+      "pocetna": 150
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "sin α",
+       "en": "sin α",
+       "it": "sen α",
+       "fr": "sin α",
+       "es": "sen α",
+       "de": "sin α",
+       "pt": "sen α",
+       "ru": "sin α"
+      },
+      "izraz": "sinS(al)"
+     },
+     {
+      "naziv": {
+       "sr": "cos α",
+       "en": "cos α",
+       "it": "cos α",
+       "fr": "cos α",
+       "es": "cos α",
+       "de": "cos α",
+       "pt": "cos α",
+       "ru": "cos α"
+      },
+      "izraz": "cosS(al)"
+     },
+     {
+      "naziv": {
+       "sr": "Kvadrant",
+       "en": "Quadrant",
+       "it": "Quadrante",
+       "fr": "Quadrant",
+       "es": "Cuadrante",
+       "de": "Quadrant",
+       "pt": "Quadrante",
+       "ru": "Четверть"
+      },
+      "izraz": "kvadrant(al)",
+      "tip": "tekst"
+     }
+    ]
+   }
+  },
+  {
+   "id": "identiteti",
+   "simbol": "=1",
+   "ikona": "",
+   "naziv": {
+    "sr": "Osnovni identiteti",
+    "en": "Basic identities",
+    "it": "Relazioni fondamentali",
+    "fr": "Relations fondamentales",
+    "es": "Identidades fundamentales",
+    "de": "Grundbeziehungen",
+    "pt": "Relações fundamentais",
+    "ru": "Основные тождества"
+   },
+   "opis": {
+    "sr": "sin² + cos² = 1",
+    "en": "sin² + cos² = 1",
+    "it": "sen² + cos² = 1",
+    "fr": "sin² + cos² = 1",
+    "es": "sen² + cos² = 1",
+    "de": "sin² + cos² = 1",
+    "pt": "sen² + cos² = 1",
+    "ru": "sin² + cos² = 1"
+   },
+   "kljucne_reci": {
+    "sr": "trigonometrijski identiteti osnovni sin kvadrat cos kvadrat",
+    "en": "trigonometric identities pythagorean identity",
+    "it": "relazioni fondamentali goniometria identita",
+    "fr": "relations fondamentales trigonometrie identites",
+    "es": "identidades trigonometricas fundamentales",
+    "de": "trigonometrische grundbeziehungen identitaten trigonometrischer pythagoras",
+    "pt": "relacoes fundamentais trigonometria identidades",
+    "ru": "основные тригонометрические тождества"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Osnovni identitet",
+      "en": "Pythagorean identity",
+      "it": "Relazione fondamentale",
+      "fr": "Relation fondamentale",
+      "es": "Identidad fundamental",
+      "de": "Trigonometrischer Pythagoras",
+      "pt": "Relação fundamental",
+      "ru": "Основное тождество"
+     },
+     "latex": {
+      "sr": "\\sin ^2\\alpha + \\cos ^2\\alpha = 1",
+      "en": "\\sin ^2\\alpha + \\cos ^2\\alpha = 1",
+      "it": "\\operatorname{sen} ^2\\alpha + \\cos ^2\\alpha = 1",
+      "fr": "\\sin ^2\\alpha + \\cos ^2\\alpha = 1",
+      "es": "\\operatorname{sen} ^2\\alpha + \\cos ^2\\alpha = 1",
+      "de": "\\sin ^2\\alpha + \\cos ^2\\alpha = 1",
+      "pt": "\\operatorname{sen} ^2\\alpha + \\cos ^2\\alpha = 1",
+      "ru": "\\sin ^2\\alpha + \\cos ^2\\alpha = 1"
+     },
+     "objasnjenje": {
+      "sr": "Važi za svaki ugao; to je Pitagorina teorema na jediničnom krugu.",
+      "en": "Holds for every angle: Pythagoras on the unit circle.",
+      "it": "Vale per ogni angolo: è il teorema di Pitagora sulla circonferenza goniometrica.",
+      "fr": "Vraie pour tout angle : c’est Pythagore sur le cercle trigonométrique.",
+      "es": "Se cumple para todo ángulo: es Pitágoras en la circunferencia unitaria.",
+      "de": "Gilt für jeden Winkel: Pythagoras am Einheitskreis.",
+      "pt": "Vale para todo ângulo: é Pitágoras no círculo trigonométrico.",
+      "ru": "Верно для любого угла — это теорема Пифагора на единичной окружности."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "tg, ctg",
+      "en": "tan, cot",
+      "it": "tg, cotg",
+      "fr": "tan, cotan",
+      "es": "tg, cotg",
+      "de": "tan, cot",
+      "pt": "tg, cotg",
+      "ru": "tg, ctg"
+     },
+     "latex": {
+      "sr": "\\operatorname{tg} \\alpha = \\frac{\\sin \\alpha}{\\cos \\alpha}, \\quad \\operatorname{ctg} \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha}, \\quad \\operatorname{tg} \\alpha \\cdot \\operatorname{ctg} \\alpha = 1",
+      "en": "\\tan \\alpha = \\frac{\\sin \\alpha}{\\cos \\alpha}, \\quad \\cot \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha}, \\quad \\tan \\alpha \\cdot \\cot \\alpha = 1",
+      "it": "\\operatorname{tg} \\alpha = \\frac{\\operatorname{sen} \\alpha}{\\cos \\alpha}, \\quad \\operatorname{cotg} \\alpha = \\frac{\\cos \\alpha}{\\operatorname{sen} \\alpha}, \\quad \\operatorname{tg} \\alpha \\cdot \\operatorname{cotg} \\alpha = 1",
+      "fr": "\\tan \\alpha = \\frac{\\sin \\alpha}{\\cos \\alpha}, \\quad \\operatorname{cotan} \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha}, \\quad \\tan \\alpha \\cdot \\operatorname{cotan} \\alpha = 1",
+      "es": "\\operatorname{tg} \\alpha = \\frac{\\operatorname{sen} \\alpha}{\\cos \\alpha}, \\quad \\operatorname{cotg} \\alpha = \\frac{\\cos \\alpha}{\\operatorname{sen} \\alpha}, \\quad \\operatorname{tg} \\alpha \\cdot \\operatorname{cotg} \\alpha = 1",
+      "de": "\\tan \\alpha = \\frac{\\sin \\alpha}{\\cos \\alpha}, \\quad \\cot \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha}, \\quad \\tan \\alpha \\cdot \\cot \\alpha = 1",
+      "pt": "\\operatorname{tg} \\alpha = \\frac{\\operatorname{sen} \\alpha}{\\cos \\alpha}, \\quad \\operatorname{cotg} \\alpha = \\frac{\\cos \\alpha}{\\operatorname{sen} \\alpha}, \\quad \\operatorname{tg} \\alpha \\cdot \\operatorname{cotg} \\alpha = 1",
+      "ru": "\\operatorname{tg} \\alpha = \\frac{\\sin \\alpha}{\\cos \\alpha}, \\quad \\operatorname{ctg} \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha}, \\quad \\operatorname{tg} \\alpha \\cdot \\operatorname{ctg} \\alpha = 1"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Veza sa tangensom",
+      "en": "In terms of tangent",
+      "it": "In funzione della tangente",
+      "fr": "Avec la tangente",
+      "es": "Con la tangente",
+      "de": "Mit dem Tangens",
+      "pt": "Com a tangente",
+      "ru": "Через тангенс"
+     },
+     "latex": {
+      "sr": "1 + \\operatorname{tg} ^2\\alpha = \\frac{1}{\\cos ^2\\alpha}, \\quad 1 + \\operatorname{ctg} ^2\\alpha = \\frac{1}{\\sin ^2\\alpha}",
+      "en": "1 + \\tan ^2\\alpha = \\frac{1}{\\cos ^2\\alpha}, \\quad 1 + \\cot ^2\\alpha = \\frac{1}{\\sin ^2\\alpha}",
+      "it": "1 + \\operatorname{tg} ^2\\alpha = \\frac{1}{\\cos ^2\\alpha}, \\quad 1 + \\operatorname{cotg} ^2\\alpha = \\frac{1}{\\operatorname{sen} ^2\\alpha}",
+      "fr": "1 + \\tan ^2\\alpha = \\frac{1}{\\cos ^2\\alpha}, \\quad 1 + \\operatorname{cotan} ^2\\alpha = \\frac{1}{\\sin ^2\\alpha}",
+      "es": "1 + \\operatorname{tg} ^2\\alpha = \\frac{1}{\\cos ^2\\alpha}, \\quad 1 + \\operatorname{cotg} ^2\\alpha = \\frac{1}{\\operatorname{sen} ^2\\alpha}",
+      "de": "1 + \\tan ^2\\alpha = \\frac{1}{\\cos ^2\\alpha}, \\quad 1 + \\cot ^2\\alpha = \\frac{1}{\\sin ^2\\alpha}",
+      "pt": "1 + \\operatorname{tg} ^2\\alpha = \\frac{1}{\\cos ^2\\alpha}, \\quad 1 + \\operatorname{cotg} ^2\\alpha = \\frac{1}{\\operatorname{sen} ^2\\alpha}",
+      "ru": "1 + \\operatorname{tg} ^2\\alpha = \\frac{1}{\\cos ^2\\alpha}, \\quad 1 + \\operatorname{ctg} ^2\\alpha = \\frac{1}{\\sin ^2\\alpha}"
+     }
+    }
+   ]
+  },
+  {
+   "id": "vrednosti",
+   "simbol": "30°",
+   "ikona": "",
+   "naziv": {
+    "sr": "Tablica vrednosti",
+    "en": "Table of values",
+    "it": "Valori notevoli",
+    "fr": "Valeurs remarquables",
+    "es": "Valores notables",
+    "de": "Wertetabelle",
+    "pt": "Ângulos notáveis",
+    "ru": "Таблица значений"
+   },
+   "opis": {
+    "sr": "Uglovi 0°, 30°, 45°, 60°, 90°",
+    "en": "Angles 0°, 30°, 45°, 60°, 90°",
+    "it": "Angoli 0°, 30°, 45°, 60°, 90°",
+    "fr": "Angles 0°, 30°, 45°, 60°, 90°",
+    "es": "Ángulos 0°, 30°, 45°, 60°, 90°",
+    "de": "Winkel 0°, 30°, 45°, 60°, 90°",
+    "pt": "Ângulos 0°, 30°, 45°, 60°, 90°",
+    "ru": "Углы 0°, 30°, 45°, 60°, 90°"
+   },
+   "kljucne_reci": {
+    "sr": "tablica vrednosti trigonometrijskih funkcija 30 45 60 stepeni",
+    "en": "table values special angles 30 45 60 degrees",
+    "it": "valori notevoli angoli 30 45 60 gradi tabella",
+    "fr": "valeurs remarquables angles 30 45 60 tableau",
+    "es": "valores notables angulos 30 45 60 tabla",
+    "de": "wertetabelle besondere winkel 30 45 60 grad",
+    "pt": "angulos notaveis tabela 30 45 60 graus",
+    "ru": "таблица значений тригонометрических функций 30 45 60 градусов"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Tablica",
+      "en": "Table",
+      "it": "Tabella",
+      "fr": "Tableau",
+      "es": "Tabla",
+      "de": "Tabelle",
+      "pt": "Tabela",
+      "ru": "Таблица"
+     },
+     "latex": {
+      "sr": "\\begin{array}{c|ccccc} \\alpha & 0^\\circ & 30^\\circ & 45^\\circ & 60^\\circ & 90^\\circ \\\\ \\hline \\sin & 0 & \\frac{1}{2} & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{3}}{2} & 1 \\\\[4pt] \\cos & 1 & \\frac{\\sqrt{3}}{2} & \\frac{\\sqrt{2}}{2} & \\frac{1}{2} & 0 \\\\[4pt] \\operatorname{tg} & 0 & \\frac{\\sqrt{3}}{3} & 1 & \\sqrt{3} & - \\\\[4pt] \\operatorname{ctg} & - & \\sqrt{3} & 1 & \\frac{\\sqrt{3}}{3} & 0 \\end{array}",
+      "en": "\\begin{array}{c|ccccc} \\alpha & 0^\\circ & 30^\\circ & 45^\\circ & 60^\\circ & 90^\\circ \\\\ \\hline \\sin & 0 & \\frac{1}{2} & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{3}}{2} & 1 \\\\[4pt] \\cos & 1 & \\frac{\\sqrt{3}}{2} & \\frac{\\sqrt{2}}{2} & \\frac{1}{2} & 0 \\\\[4pt] \\tan & 0 & \\frac{\\sqrt{3}}{3} & 1 & \\sqrt{3} & - \\\\[4pt] \\cot & - & \\sqrt{3} & 1 & \\frac{\\sqrt{3}}{3} & 0 \\end{array}",
+      "it": "\\begin{array}{c|ccccc} \\alpha & 0^\\circ & 30^\\circ & 45^\\circ & 60^\\circ & 90^\\circ \\\\ \\hline \\operatorname{sen} & 0 & \\frac{1}{2} & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{3}}{2} & 1 \\\\[4pt] \\cos & 1 & \\frac{\\sqrt{3}}{2} & \\frac{\\sqrt{2}}{2} & \\frac{1}{2} & 0 \\\\[4pt] \\operatorname{tg} & 0 & \\frac{\\sqrt{3}}{3} & 1 & \\sqrt{3} & - \\\\[4pt] \\operatorname{cotg} & - & \\sqrt{3} & 1 & \\frac{\\sqrt{3}}{3} & 0 \\end{array}",
+      "fr": "\\begin{array}{c|ccccc} \\alpha & 0^\\circ & 30^\\circ & 45^\\circ & 60^\\circ & 90^\\circ \\\\ \\hline \\sin & 0 & \\frac{1}{2} & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{3}}{2} & 1 \\\\[4pt] \\cos & 1 & \\frac{\\sqrt{3}}{2} & \\frac{\\sqrt{2}}{2} & \\frac{1}{2} & 0 \\\\[4pt] \\tan & 0 & \\frac{\\sqrt{3}}{3} & 1 & \\sqrt{3} & - \\\\[4pt] \\operatorname{cotan} & - & \\sqrt{3} & 1 & \\frac{\\sqrt{3}}{3} & 0 \\end{array}",
+      "es": "\\begin{array}{c|ccccc} \\alpha & 0^\\circ & 30^\\circ & 45^\\circ & 60^\\circ & 90^\\circ \\\\ \\hline \\operatorname{sen} & 0 & \\frac{1}{2} & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{3}}{2} & 1 \\\\[4pt] \\cos & 1 & \\frac{\\sqrt{3}}{2} & \\frac{\\sqrt{2}}{2} & \\frac{1}{2} & 0 \\\\[4pt] \\operatorname{tg} & 0 & \\frac{\\sqrt{3}}{3} & 1 & \\sqrt{3} & - \\\\[4pt] \\operatorname{cotg} & - & \\sqrt{3} & 1 & \\frac{\\sqrt{3}}{3} & 0 \\end{array}",
+      "de": "\\begin{array}{c|ccccc} \\alpha & 0^\\circ & 30^\\circ & 45^\\circ & 60^\\circ & 90^\\circ \\\\ \\hline \\sin & 0 & \\frac{1}{2} & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{3}}{2} & 1 \\\\[4pt] \\cos & 1 & \\frac{\\sqrt{3}}{2} & \\frac{\\sqrt{2}}{2} & \\frac{1}{2} & 0 \\\\[4pt] \\tan & 0 & \\frac{\\sqrt{3}}{3} & 1 & \\sqrt{3} & - \\\\[4pt] \\cot & - & \\sqrt{3} & 1 & \\frac{\\sqrt{3}}{3} & 0 \\end{array}",
+      "pt": "\\begin{array}{c|ccccc} \\alpha & 0^\\circ & 30^\\circ & 45^\\circ & 60^\\circ & 90^\\circ \\\\ \\hline \\operatorname{sen} & 0 & \\frac{1}{2} & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{3}}{2} & 1 \\\\[4pt] \\cos & 1 & \\frac{\\sqrt{3}}{2} & \\frac{\\sqrt{2}}{2} & \\frac{1}{2} & 0 \\\\[4pt] \\operatorname{tg} & 0 & \\frac{\\sqrt{3}}{3} & 1 & \\sqrt{3} & - \\\\[4pt] \\operatorname{cotg} & - & \\sqrt{3} & 1 & \\frac{\\sqrt{3}}{3} & 0 \\end{array}",
+      "ru": "\\begin{array}{c|ccccc} \\alpha & 0^\\circ & 30^\\circ & 45^\\circ & 60^\\circ & 90^\\circ \\\\ \\hline \\sin & 0 & \\frac{1}{2} & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{3}}{2} & 1 \\\\[4pt] \\cos & 1 & \\frac{\\sqrt{3}}{2} & \\frac{\\sqrt{2}}{2} & \\frac{1}{2} & 0 \\\\[4pt] \\operatorname{tg} & 0 & \\frac{\\sqrt{3}}{3} & 1 & \\sqrt{3} & - \\\\[4pt] \\operatorname{ctg} & - & \\sqrt{3} & 1 & \\frac{\\sqrt{3}}{3} & 0 \\end{array}"
+     },
+     "objasnjenje": {
+      "sr": "Crtica znači da vrednost nije definisana.",
+      "en": "A dash means the value is undefined.",
+      "it": "Il trattino indica che il valore non esiste.",
+      "fr": "Le tiret signifie que la valeur n’est pas définie.",
+      "es": "El guion indica que el valor no está definido.",
+      "de": "Ein Strich bedeutet: nicht definiert.",
+      "pt": "O traço indica que o valor não está definido.",
+      "ru": "Прочерк означает, что значение не определено."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "al",
+      "oznaka": "\\alpha",
+      "naziv": {
+       "sr": "u stepenima",
+       "en": "in degrees",
+       "it": "in gradi",
+       "fr": "en degrés",
+       "es": "en grados",
+       "de": "in Grad",
+       "pt": "em graus",
+       "ru": "в градусах"
+      },
+      "pocetna": 30
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "sin α",
+       "en": "sin α",
+       "it": "sen α",
+       "fr": "sin α",
+       "es": "sen α",
+       "de": "sin α",
+       "pt": "sen α",
+       "ru": "sin α"
+      },
+      "izraz": "sinS(al)"
+     },
+     {
+      "naziv": {
+       "sr": "cos α",
+       "en": "cos α",
+       "it": "cos α",
+       "fr": "cos α",
+       "es": "cos α",
+       "de": "cos α",
+       "pt": "cos α",
+       "ru": "cos α"
+      },
+      "izraz": "cosS(al)"
+     },
+     {
+      "naziv": {
+       "sr": "tg α",
+       "en": "tan α",
+       "it": "tg α",
+       "fr": "tan α",
+       "es": "tg α",
+       "de": "tan α",
+       "pt": "tg α",
+       "ru": "tg α"
+      },
+      "izraz": "tgS(al)"
+     },
+     {
+      "naziv": {
+       "sr": "ctg α",
+       "en": "cot α",
+       "it": "cotg α",
+       "fr": "cotan α",
+       "es": "cotg α",
+       "de": "cot α",
+       "pt": "cotg α",
+       "ru": "ctg α"
+      },
+      "izraz": "ctgS(al)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "radijani",
+   "simbol": "rad",
+   "ikona": "",
+   "naziv": {
+    "sr": "Stepeni i radijani",
+    "en": "Degrees and radians",
+    "it": "Gradi e radianti",
+    "fr": "Degrés et radians",
+    "es": "Grados y radianes",
+    "de": "Grad- und Bogenmaß",
+    "pt": "Graus e radianos",
+    "ru": "Градусы и радианы"
+   },
+   "opis": {
+    "sr": "Pretvaranje mera ugla",
+    "en": "Converting angle measures",
+    "it": "Conversione delle misure",
+    "fr": "Conversion des mesures",
+    "es": "Conversión de medidas",
+    "de": "Umrechnung von Winkeln",
+    "pt": "Conversão de medidas",
+    "ru": "Перевод мер угла"
+   },
+   "kljucne_reci": {
+    "sr": "radijan stepen pretvaranje mera ugla pi",
+    "en": "radian degree convert angle measure pi",
+    "it": "radiante grado conversione misura angolo",
+    "fr": "radian degre conversion mesure angle",
+    "es": "radian grado conversion medida angulo",
+    "de": "bogenmass gradmass umrechnen radiant",
+    "pt": "radiano grau conversao medida angulo",
+    "ru": "радиан градус перевод мера угла"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Pretvaranje",
+      "en": "Conversion",
+      "it": "Conversione",
+      "fr": "Conversion",
+      "es": "Conversión",
+      "de": "Umrechnung",
+      "pt": "Conversão",
+      "ru": "Перевод"
+     },
+     "latex": {
+      "sr": "\\alpha_{\\text{rad}} = \\frac{\\pi}{180^\\circ} \\cdot \\alpha^\\circ, \\quad \\alpha^\\circ = \\frac{180^\\circ}{\\pi} \\cdot \\alpha_{\\text{rad}}",
+      "en": "\\alpha_{\\text{rad}} = \\frac{\\pi}{180^\\circ} \\cdot \\alpha^\\circ, \\quad \\alpha^\\circ = \\frac{180^\\circ}{\\pi} \\cdot \\alpha_{\\text{rad}}",
+      "it": "\\alpha_{\\text{rad}} = \\frac{\\pi}{180^\\circ} \\cdot \\alpha^\\circ, \\quad \\alpha^\\circ = \\frac{180^\\circ}{\\pi} \\cdot \\alpha_{\\text{rad}}",
+      "fr": "\\alpha_{\\text{rad}} = \\frac{\\pi}{180^\\circ} \\cdot \\alpha^\\circ, \\quad \\alpha^\\circ = \\frac{180^\\circ}{\\pi} \\cdot \\alpha_{\\text{rad}}",
+      "es": "\\alpha_{\\text{rad}} = \\frac{\\pi}{180^\\circ} \\cdot \\alpha^\\circ, \\quad \\alpha^\\circ = \\frac{180^\\circ}{\\pi} \\cdot \\alpha_{\\text{rad}}",
+      "de": "\\alpha_{\\text{rad}} = \\frac{\\pi}{180^\\circ} \\cdot \\alpha^\\circ, \\quad \\alpha^\\circ = \\frac{180^\\circ}{\\pi} \\cdot \\alpha_{\\text{rad}}",
+      "pt": "\\alpha_{\\text{rad}} = \\frac{\\pi}{180^\\circ} \\cdot \\alpha^\\circ, \\quad \\alpha^\\circ = \\frac{180^\\circ}{\\pi} \\cdot \\alpha_{\\text{rad}}",
+      "ru": "\\alpha_{\\text{rad}} = \\frac{\\pi}{180^\\circ} \\cdot \\alpha^\\circ, \\quad \\alpha^\\circ = \\frac{180^\\circ}{\\pi} \\cdot \\alpha_{\\text{rad}}"
+     },
+     "objasnjenje": {
+      "sr": "Pun ugao je 360° = 2π radijana, pa je 1 rad ≈ 57,3°.",
+      "en": "A full turn is 360° = 2π radians, so 1 rad ≈ 57.3°.",
+      "it": "Un angolo giro è 360° = 2π radianti, quindi 1 rad ≈ 57,3°.",
+      "fr": "Un tour complet vaut 360° = 2π radians, donc 1 rad ≈ 57,3°.",
+      "es": "Una vuelta completa son 360° = 2π radianes, así que 1 rad ≈ 57,3°.",
+      "de": "Ein Vollwinkel ist 360° = 2π, also 1 rad ≈ 57,3°.",
+      "pt": "Uma volta completa é 360° = 2π radianos, logo 1 rad ≈ 57,3°.",
+      "ru": "Полный угол 360° = 2π радиан, поэтому 1 рад ≈ 57,3°."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Česte vrednosti",
+      "en": "Common values",
+      "it": "Valori frequenti",
+      "fr": "Valeurs usuelles",
+      "es": "Valores frecuentes",
+      "de": "Häufige Werte",
+      "pt": "Valores comuns",
+      "ru": "Частые значения"
+     },
+     "latex": {
+      "sr": "30^\\circ = \\frac{\\pi}{6}, \\quad 45^\\circ = \\frac{\\pi}{4}, \\quad 60^\\circ = \\frac{\\pi}{3}, \\quad 90^\\circ = \\frac{\\pi}{2}, \\quad 180^\\circ = \\pi",
+      "en": "30^\\circ = \\frac{\\pi}{6}, \\quad 45^\\circ = \\frac{\\pi}{4}, \\quad 60^\\circ = \\frac{\\pi}{3}, \\quad 90^\\circ = \\frac{\\pi}{2}, \\quad 180^\\circ = \\pi",
+      "it": "30^\\circ = \\frac{\\pi}{6}, \\quad 45^\\circ = \\frac{\\pi}{4}, \\quad 60^\\circ = \\frac{\\pi}{3}, \\quad 90^\\circ = \\frac{\\pi}{2}, \\quad 180^\\circ = \\pi",
+      "fr": "30^\\circ = \\frac{\\pi}{6}, \\quad 45^\\circ = \\frac{\\pi}{4}, \\quad 60^\\circ = \\frac{\\pi}{3}, \\quad 90^\\circ = \\frac{\\pi}{2}, \\quad 180^\\circ = \\pi",
+      "es": "30^\\circ = \\frac{\\pi}{6}, \\quad 45^\\circ = \\frac{\\pi}{4}, \\quad 60^\\circ = \\frac{\\pi}{3}, \\quad 90^\\circ = \\frac{\\pi}{2}, \\quad 180^\\circ = \\pi",
+      "de": "30^\\circ = \\frac{\\pi}{6}, \\quad 45^\\circ = \\frac{\\pi}{4}, \\quad 60^\\circ = \\frac{\\pi}{3}, \\quad 90^\\circ = \\frac{\\pi}{2}, \\quad 180^\\circ = \\pi",
+      "pt": "30^\\circ = \\frac{\\pi}{6}, \\quad 45^\\circ = \\frac{\\pi}{4}, \\quad 60^\\circ = \\frac{\\pi}{3}, \\quad 90^\\circ = \\frac{\\pi}{2}, \\quad 180^\\circ = \\pi",
+      "ru": "30^\\circ = \\frac{\\pi}{6}, \\quad 45^\\circ = \\frac{\\pi}{4}, \\quad 60^\\circ = \\frac{\\pi}{3}, \\quad 90^\\circ = \\frac{\\pi}{2}, \\quad 180^\\circ = \\pi"
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "al",
+      "oznaka": "\\alpha",
+      "naziv": {
+       "sr": "u stepenima",
+       "en": "in degrees",
+       "it": "in gradi",
+       "fr": "en degrés",
+       "es": "en grados",
+       "de": "in Grad",
+       "pt": "em graus",
+       "ru": "в градусах"
+      },
+      "pocetna": 45
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Radijani",
+       "en": "Radians",
+       "it": "Radianti",
+       "fr": "Radians",
+       "es": "Radianes",
+       "de": "Bogenmaß",
+       "pt": "Radianos",
+       "ru": "Радианы"
+      },
+      "izraz": "al*PI/180"
+     },
+     {
+      "naziv": {
+       "sr": "Razlomak od π",
+       "en": "Multiple of π",
+       "it": "Multiplo di π",
+       "fr": "Multiple de π",
+       "es": "Múltiplo de π",
+       "de": "Vielfaches von π",
+       "pt": "Múltiplo de π",
+       "ru": "Доля π"
+      },
+      "izraz": "al/180",
+      "tip": "pi"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sinusna_teorema",
+   "simbol": {
+    "sr": "sin",
+    "en": "sin",
+    "it": "sen",
+    "fr": "sin",
+    "es": "sen",
+    "de": "sin",
+    "pt": "sen",
+    "ru": "sin"
+   },
+   "ikona": "",
+   "naziv": {
+    "sr": "Sinusna teorema",
+    "en": "Law of sines",
+    "it": "Teorema dei seni",
+    "fr": "Loi des sinus",
+    "es": "Teorema del seno",
+    "de": "Sinussatz",
+    "pt": "Lei dos senos",
+    "ru": "Теорема синусов"
+   },
+   "opis": {
+    "sr": "Stranice i naspramni uglovi",
+    "en": "Sides and opposite angles",
+    "it": "Lati e angoli opposti",
+    "fr": "Côtés et angles opposés",
+    "es": "Lados y ángulos opuestos",
+    "de": "Seiten und Gegenwinkel",
+    "pt": "Lados e ângulos opostos",
+    "ru": "Стороны и противолежащие углы"
+   },
+   "kljucne_reci": {
+    "sr": "sinusna teorema trougao opisani krug resavanje trougla",
+    "en": "law of sines sine rule triangle circumradius solve triangle",
+    "it": "teorema dei seni triangolo circonferenza circoscritta",
+    "fr": "loi des sinus triangle cercle circonscrit",
+    "es": "teorema del seno ley de senos triangulo",
+    "de": "sinussatz dreieck umkreis",
+    "pt": "lei dos senos triangulo circunferencia circunscrita",
+    "ru": "теорема синусов треугольник описанная окружность"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Sinusna teorema",
+      "en": "Law of sines",
+      "it": "Teorema dei seni",
+      "fr": "Loi des sinus",
+      "es": "Teorema del seno",
+      "de": "Sinussatz",
+      "pt": "Lei dos senos",
+      "ru": "Теорема синусов"
+     },
+     "latex": {
+      "sr": "\\frac{a}{\\sin \\alpha} = \\frac{b}{\\sin \\beta} = \\frac{c}{\\sin \\gamma} = 2R",
+      "en": "\\frac{a}{\\sin \\alpha} = \\frac{b}{\\sin \\beta} = \\frac{c}{\\sin \\gamma} = 2R",
+      "it": "\\frac{a}{\\operatorname{sen} \\alpha} = \\frac{b}{\\operatorname{sen} \\beta} = \\frac{c}{\\operatorname{sen} \\gamma} = 2R",
+      "fr": "\\frac{a}{\\sin \\alpha} = \\frac{b}{\\sin \\beta} = \\frac{c}{\\sin \\gamma} = 2R",
+      "es": "\\frac{a}{\\operatorname{sen} \\alpha} = \\frac{b}{\\operatorname{sen} \\beta} = \\frac{c}{\\operatorname{sen} \\gamma} = 2R",
+      "de": "\\frac{a}{\\sin \\alpha} = \\frac{b}{\\sin \\beta} = \\frac{c}{\\sin \\gamma} = 2R",
+      "pt": "\\frac{a}{\\operatorname{sen} \\alpha} = \\frac{b}{\\operatorname{sen} \\beta} = \\frac{c}{\\operatorname{sen} \\gamma} = 2R",
+      "ru": "\\frac{a}{\\sin \\alpha} = \\frac{b}{\\sin \\beta} = \\frac{c}{\\sin \\gamma} = 2R"
+     },
+     "objasnjenje": {
+      "sr": "Stranice su srazmerne sinusima naspramnih uglova; R je poluprečnik opisanog kruga.",
+      "en": "Sides are proportional to the sines of the opposite angles; R is the circumradius.",
+      "it": "I lati sono proporzionali ai seni degli angoli opposti; R è il raggio della circonferenza circoscritta.",
+      "fr": "Les côtés sont proportionnels aux sinus des angles opposés ; R est le rayon du cercle circonscrit.",
+      "es": "Los lados son proporcionales a los senos de los ángulos opuestos; R es el radio de la circunferencia circunscrita.",
+      "de": "Die Seiten verhalten sich wie die Sinuswerte der Gegenwinkel; R ist der Umkreisradius.",
+      "pt": "Os lados são proporcionais aos senos dos ângulos opostos; R é o raio da circunferência circunscrita.",
+      "ru": "Стороны пропорциональны синусам противолежащих углов; R — радиус описанной окружности."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zbir uglova",
+      "en": "Angle sum",
+      "it": "Somma degli angoli",
+      "fr": "Somme des angles",
+      "es": "Suma de ángulos",
+      "de": "Winkelsumme",
+      "pt": "Soma dos ângulos",
+      "ru": "Сумма углов"
+     },
+     "latex": {
+      "sr": "\\alpha + \\beta + \\gamma = 180^\\circ",
+      "en": "\\alpha + \\beta + \\gamma = 180^\\circ",
+      "it": "\\alpha + \\beta + \\gamma = 180^\\circ",
+      "fr": "\\alpha + \\beta + \\gamma = 180^\\circ",
+      "es": "\\alpha + \\beta + \\gamma = 180^\\circ",
+      "de": "\\alpha + \\beta + \\gamma = 180^\\circ",
+      "pt": "\\alpha + \\beta + \\gamma = 180^\\circ",
+      "ru": "\\alpha + \\beta + \\gamma = 180^\\circ"
+     }
+    }
+   ],
+   "crtez": "<svg viewBox=\"18 24 263 263\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><circle class=\"pom\" cx=\"150.0\" cy=\"155.6\" r=\"123.5\"/><polygon class=\"lik\" points=\"30,185 270,185 95,45\"/><path class=\"ugao\" d=\"M64.0,185.0 A34,34 0 0 0 44.3,154.2\"/><path class=\"ugao\" d=\"M243.5,163.8 A34,34 0 0 0 236.0,185.0\"/><path class=\"ugao\" d=\"M83.2,70.4 A28,28 0 0 0 116.9,62.5\"/><text class=\"oz\" x=\"68\" y=\"177\">α</text><text class=\"oz\" x=\"222\" y=\"177\">β</text><text class=\"oz\" x=\"92\" y=\"88\">γ</text><text class=\"oz\" x=\"146\" y=\"207\">c</text><text class=\"oz\" x=\"190\" y=\"108\">a</text><text class=\"oz\" x=\"44\" y=\"108\">b</text><text class=\"tem\" x=\"14\" y=\"200\">A</text><text class=\"tem\" x=\"276\" y=\"200\">B</text><text class=\"tem\" x=\"88\" y=\"36\">C</text><line class=\"lik-l\" x1=\"150.0\" y1=\"155.6\" x2=\"270.0\" y2=\"185.0\"/><circle class=\"tac\" cx=\"150.0\" cy=\"155.6\" r=\"3\"/><text class=\"oz\" x=\"196\" y=\"156\">R</text></svg>",
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 10
+     },
+     {
+      "id": "al",
+      "oznaka": "\\alpha",
+      "naziv": {
+       "sr": "u stepenima",
+       "en": "in degrees",
+       "it": "in gradi",
+       "fr": "en degrés",
+       "es": "en grados",
+       "de": "in Grad",
+       "pt": "em graus",
+       "ru": "в градусах"
+      },
+      "pocetna": 40
+     },
+     {
+      "id": "be",
+      "oznaka": "\\beta",
+      "naziv": {
+       "sr": "u stepenima",
+       "en": "in degrees",
+       "it": "in gradi",
+       "fr": "en degrés",
+       "es": "en grados",
+       "de": "in Grad",
+       "pt": "em graus",
+       "ru": "в градусах"
+      },
+      "pocetna": 60
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Ugao γ",
+       "en": "Angle γ",
+       "it": "Angolo γ",
+       "fr": "Angle γ",
+       "es": "Ángulo γ",
+       "de": "Winkel γ",
+       "pt": "Ângulo γ",
+       "ru": "Угол γ"
+      },
+      "izraz": "180-al-be",
+      "tip": "stepen"
+     },
+     {
+      "naziv": {
+       "sr": "Stranica b",
+       "en": "Side b",
+       "it": "Lato b",
+       "fr": "Côté b",
+       "es": "Lado b",
+       "de": "Seite b",
+       "pt": "Lado b",
+       "ru": "Сторона b"
+      },
+      "izraz": "a*sinS(be)/sinS(al)"
+     },
+     {
+      "naziv": {
+       "sr": "Stranica c",
+       "en": "Side c",
+       "it": "Lato c",
+       "fr": "Côté c",
+       "es": "Lado c",
+       "de": "Seite c",
+       "pt": "Lado c",
+       "ru": "Сторона c"
+      },
+      "izraz": "a*sinS(180-al-be)/sinS(al)"
+     },
+     {
+      "naziv": {
+       "sr": "Poluprečnik R",
+       "en": "Circumradius R",
+       "it": "Raggio R",
+       "fr": "Rayon R",
+       "es": "Radio R",
+       "de": "Umkreisradius R",
+       "pt": "Raio R",
+       "ru": "Радиус R"
+      },
+      "izraz": "a/(2*sinS(al))"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kosinusna_teorema",
+   "simbol": {
+    "sr": "cos",
+    "en": "cos",
+    "it": "cos",
+    "fr": "cos",
+    "es": "cos",
+    "de": "cos",
+    "pt": "cos",
+    "ru": "cos"
+   },
+   "ikona": "",
+   "naziv": {
+    "sr": "Kosinusna teorema",
+    "en": "Law of cosines",
+    "it": "Teorema del coseno (di Carnot)",
+    "fr": "Loi des cosinus (Al-Kashi)",
+    "es": "Teorema del coseno",
+    "de": "Kosinussatz",
+    "pt": "Lei dos cossenos",
+    "ru": "Теорема косинусов"
+   },
+   "opis": {
+    "sr": "Uopštena Pitagorina teorema",
+    "en": "Generalised Pythagoras",
+    "it": "Pitagora generalizzato",
+    "fr": "Pythagore généralisé",
+    "es": "Pitágoras generalizado",
+    "de": "Verallgemeinerter Pythagoras",
+    "pt": "Pitágoras generalizado",
+    "ru": "Обобщённая теорема Пифагора"
+   },
+   "kljucne_reci": {
+    "sr": "kosinusna teorema trougao stranica ugao",
+    "en": "law of cosines cosine rule triangle side angle",
+    "it": "teorema del coseno carnot triangolo",
+    "fr": "loi des cosinus al kashi triangle",
+    "es": "teorema del coseno ley de cosenos triangulo",
+    "de": "kosinussatz dreieck",
+    "pt": "lei dos cossenos triangulo",
+    "ru": "теорема косинусов треугольник"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Kosinusna teorema",
+      "en": "Law of cosines",
+      "it": "Teorema del coseno",
+      "fr": "Loi des cosinus",
+      "es": "Teorema del coseno",
+      "de": "Kosinussatz",
+      "pt": "Lei dos cossenos",
+      "ru": "Теорема косинусов"
+     },
+     "latex": {
+      "sr": "c^2 = a^2 + b^2 - 2ab\\,\\cos \\gamma",
+      "en": "c^2 = a^2 + b^2 - 2ab\\,\\cos \\gamma",
+      "it": "c^2 = a^2 + b^2 - 2ab\\,\\cos \\gamma",
+      "fr": "c^2 = a^2 + b^2 - 2ab\\,\\cos \\gamma",
+      "es": "c^2 = a^2 + b^2 - 2ab\\,\\cos \\gamma",
+      "de": "c^2 = a^2 + b^2 - 2ab\\,\\cos \\gamma",
+      "pt": "c^2 = a^2 + b^2 - 2ab\\,\\cos \\gamma",
+      "ru": "c^2 = a^2 + b^2 - 2ab\\,\\cos \\gamma"
+     },
+     "objasnjenje": {
+      "sr": "Ako je γ = 90°, cos γ = 0 i dobija se Pitagorina teorema.",
+      "en": "For γ = 90°, cos γ = 0 and we get Pythagoras.",
+      "it": "Se γ = 90°, cos γ = 0 e si ottiene Pitagora.",
+      "fr": "Si γ = 90°, cos γ = 0 et on retrouve Pythagore.",
+      "es": "Si γ = 90°, cos γ = 0 y se obtiene Pitágoras.",
+      "de": "Für γ = 90° ist cos γ = 0: Satz des Pythagoras.",
+      "pt": "Se γ = 90°, cos γ = 0 e obtém-se Pitágoras.",
+      "ru": "При γ = 90° cos γ = 0, и получаем теорему Пифагора."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Ugao iz stranica",
+      "en": "Angle from the sides",
+      "it": "Angolo dai lati",
+      "fr": "Angle à partir des côtés",
+      "es": "Ángulo a partir de los lados",
+      "de": "Winkel aus den Seiten",
+      "pt": "Ângulo a partir dos lados",
+      "ru": "Угол по сторонам"
+     },
+     "latex": {
+      "sr": "\\cos \\gamma = \\frac{a^2 + b^2 - c^2}{2ab}",
+      "en": "\\cos \\gamma = \\frac{a^2 + b^2 - c^2}{2ab}",
+      "it": "\\cos \\gamma = \\frac{a^2 + b^2 - c^2}{2ab}",
+      "fr": "\\cos \\gamma = \\frac{a^2 + b^2 - c^2}{2ab}",
+      "es": "\\cos \\gamma = \\frac{a^2 + b^2 - c^2}{2ab}",
+      "de": "\\cos \\gamma = \\frac{a^2 + b^2 - c^2}{2ab}",
+      "pt": "\\cos \\gamma = \\frac{a^2 + b^2 - c^2}{2ab}",
+      "ru": "\\cos \\gamma = \\frac{a^2 + b^2 - c^2}{2ab}"
+     }
+    }
+   ],
+   "crtez": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik\" points=\"30,185 270,185 95,45\"/><path class=\"ugao\" d=\"M64.0,185.0 A34,34 0 0 0 44.3,154.2\"/><path class=\"ugao\" d=\"M243.5,163.8 A34,34 0 0 0 236.0,185.0\"/><path class=\"ugao\" d=\"M83.2,70.4 A28,28 0 0 0 116.9,62.5\"/><text class=\"oz\" x=\"68\" y=\"177\">α</text><text class=\"oz\" x=\"222\" y=\"177\">β</text><text class=\"oz\" x=\"92\" y=\"88\">γ</text><text class=\"oz\" x=\"146\" y=\"207\">c</text><text class=\"oz\" x=\"190\" y=\"108\">a</text><text class=\"oz\" x=\"44\" y=\"108\">b</text><text class=\"tem\" x=\"14\" y=\"200\">A</text><text class=\"tem\" x=\"276\" y=\"200\">B</text><text class=\"tem\" x=\"88\" y=\"36\">C</text></svg>",
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 5
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 7
+     },
+     {
+      "id": "ga",
+      "oznaka": "\\gamma",
+      "naziv": {
+       "sr": "u stepenima",
+       "en": "in degrees",
+       "it": "in gradi",
+       "fr": "en degrés",
+       "es": "en grados",
+       "de": "in Grad",
+       "pt": "em graus",
+       "ru": "в градусах"
+      },
+      "pocetna": 60
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Stranica c",
+       "en": "Side c",
+       "it": "Lato c",
+       "fr": "Côté c",
+       "es": "Lado c",
+       "de": "Seite c",
+       "pt": "Lado c",
+       "ru": "Сторона c"
+      },
+      "izraz": "sqrt(a*a+b*b-2*a*b*cosS(ga))"
+     },
+     {
+      "naziv": {
+       "sr": "Površina",
+       "en": "Area",
+       "it": "Area",
+       "fr": "Aire",
+       "es": "Área",
+       "de": "Flächeninhalt",
+       "pt": "Área",
+       "ru": "Площадь"
+      },
+      "izraz": "a*b*sinS(ga)/2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "adicione",
+   "simbol": "α±β",
+   "ikona": "",
+   "naziv": {
+    "sr": "Adicione formule",
+    "en": "Sum and difference",
+    "it": "Formule di addizione",
+    "fr": "Formules d’addition",
+    "es": "Suma y diferencia de ángulos",
+    "de": "Additionstheoreme",
+    "pt": "Adição de arcos",
+    "ru": "Формулы сложения"
+   },
+   "opis": {
+    "sr": "Zbir i razlika uglova",
+    "en": "Angle sum and difference",
+    "it": "Somma e differenza di angoli",
+    "fr": "Somme et différence d’angles",
+    "es": "Suma y resta de ángulos",
+    "de": "Summe und Differenz von Winkeln",
+    "pt": "Soma e diferença de ângulos",
+    "ru": "Сумма и разность углов"
+   },
+   "kljucne_reci": {
+    "sr": "adicione formule zbir razlika uglova sin cos tg",
+    "en": "addition formulas sum difference angles compound",
+    "it": "formule di addizione sottrazione angoli",
+    "fr": "formules d addition somme difference angles",
+    "es": "formulas suma diferencia angulos adicion",
+    "de": "additionstheoreme summe differenz winkel",
+    "pt": "adicao subtracao de arcos formulas",
+    "ru": "формулы сложения сумма разность углов"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "sin(α ± β)",
+      "en": "sin(α ± β)",
+      "it": "sen(α ± β)",
+      "fr": "sin(α ± β)",
+      "es": "sen(α ± β)",
+      "de": "sin(α ± β)",
+      "pt": "sen(α ± β)",
+      "ru": "sin(α ± β)"
+     },
+     "latex": {
+      "sr": "\\sin (\\alpha \\pm \\beta) = \\sin \\alpha\\,\\cos \\beta \\pm \\cos \\alpha\\,\\sin \\beta",
+      "en": "\\sin (\\alpha \\pm \\beta) = \\sin \\alpha\\,\\cos \\beta \\pm \\cos \\alpha\\,\\sin \\beta",
+      "it": "\\operatorname{sen} (\\alpha \\pm \\beta) = \\operatorname{sen} \\alpha\\,\\cos \\beta \\pm \\cos \\alpha\\,\\operatorname{sen} \\beta",
+      "fr": "\\sin (\\alpha \\pm \\beta) = \\sin \\alpha\\,\\cos \\beta \\pm \\cos \\alpha\\,\\sin \\beta",
+      "es": "\\operatorname{sen} (\\alpha \\pm \\beta) = \\operatorname{sen} \\alpha\\,\\cos \\beta \\pm \\cos \\alpha\\,\\operatorname{sen} \\beta",
+      "de": "\\sin (\\alpha \\pm \\beta) = \\sin \\alpha\\,\\cos \\beta \\pm \\cos \\alpha\\,\\sin \\beta",
+      "pt": "\\operatorname{sen} (\\alpha \\pm \\beta) = \\operatorname{sen} \\alpha\\,\\cos \\beta \\pm \\cos \\alpha\\,\\operatorname{sen} \\beta",
+      "ru": "\\sin (\\alpha \\pm \\beta) = \\sin \\alpha\\,\\cos \\beta \\pm \\cos \\alpha\\,\\sin \\beta"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "cos(α ± β)",
+      "en": "cos(α ± β)",
+      "it": "cos(α ± β)",
+      "fr": "cos(α ± β)",
+      "es": "cos(α ± β)",
+      "de": "cos(α ± β)",
+      "pt": "cos(α ± β)",
+      "ru": "cos(α ± β)"
+     },
+     "latex": {
+      "sr": "\\cos (\\alpha \\pm \\beta) = \\cos \\alpha\\,\\cos \\beta \\mp \\sin \\alpha\\,\\sin \\beta",
+      "en": "\\cos (\\alpha \\pm \\beta) = \\cos \\alpha\\,\\cos \\beta \\mp \\sin \\alpha\\,\\sin \\beta",
+      "it": "\\cos (\\alpha \\pm \\beta) = \\cos \\alpha\\,\\cos \\beta \\mp \\operatorname{sen} \\alpha\\,\\operatorname{sen} \\beta",
+      "fr": "\\cos (\\alpha \\pm \\beta) = \\cos \\alpha\\,\\cos \\beta \\mp \\sin \\alpha\\,\\sin \\beta",
+      "es": "\\cos (\\alpha \\pm \\beta) = \\cos \\alpha\\,\\cos \\beta \\mp \\operatorname{sen} \\alpha\\,\\operatorname{sen} \\beta",
+      "de": "\\cos (\\alpha \\pm \\beta) = \\cos \\alpha\\,\\cos \\beta \\mp \\sin \\alpha\\,\\sin \\beta",
+      "pt": "\\cos (\\alpha \\pm \\beta) = \\cos \\alpha\\,\\cos \\beta \\mp \\operatorname{sen} \\alpha\\,\\operatorname{sen} \\beta",
+      "ru": "\\cos (\\alpha \\pm \\beta) = \\cos \\alpha\\,\\cos \\beta \\mp \\sin \\alpha\\,\\sin \\beta"
+     },
+     "objasnjenje": {
+      "sr": "Kod kosinusa se znak menja: plus postaje minus i obrnuto.",
+      "en": "For cosine the sign flips: plus becomes minus and vice versa.",
+      "it": "Nel coseno il segno si inverte.",
+      "fr": "Pour le cosinus, le signe s’inverse.",
+      "es": "En el coseno el signo se invierte.",
+      "de": "Beim Kosinus kehrt sich das Vorzeichen um.",
+      "pt": "No cosseno o sinal se inverte.",
+      "ru": "У косинуса знак меняется на противоположный."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "tg(α ± β)",
+      "en": "tan(α ± β)",
+      "it": "tg(α ± β)",
+      "fr": "tan(α ± β)",
+      "es": "tg(α ± β)",
+      "de": "tan(α ± β)",
+      "pt": "tg(α ± β)",
+      "ru": "tg(α ± β)"
+     },
+     "latex": {
+      "sr": "\\operatorname{tg} (\\alpha \\pm \\beta) = \\frac{\\operatorname{tg} \\alpha \\pm \\operatorname{tg} \\beta}{1 \\mp \\operatorname{tg} \\alpha\\,\\operatorname{tg} \\beta}",
+      "en": "\\tan (\\alpha \\pm \\beta) = \\frac{\\tan \\alpha \\pm \\tan \\beta}{1 \\mp \\tan \\alpha\\,\\tan \\beta}",
+      "it": "\\operatorname{tg} (\\alpha \\pm \\beta) = \\frac{\\operatorname{tg} \\alpha \\pm \\operatorname{tg} \\beta}{1 \\mp \\operatorname{tg} \\alpha\\,\\operatorname{tg} \\beta}",
+      "fr": "\\tan (\\alpha \\pm \\beta) = \\frac{\\tan \\alpha \\pm \\tan \\beta}{1 \\mp \\tan \\alpha\\,\\tan \\beta}",
+      "es": "\\operatorname{tg} (\\alpha \\pm \\beta) = \\frac{\\operatorname{tg} \\alpha \\pm \\operatorname{tg} \\beta}{1 \\mp \\operatorname{tg} \\alpha\\,\\operatorname{tg} \\beta}",
+      "de": "\\tan (\\alpha \\pm \\beta) = \\frac{\\tan \\alpha \\pm \\tan \\beta}{1 \\mp \\tan \\alpha\\,\\tan \\beta}",
+      "pt": "\\operatorname{tg} (\\alpha \\pm \\beta) = \\frac{\\operatorname{tg} \\alpha \\pm \\operatorname{tg} \\beta}{1 \\mp \\operatorname{tg} \\alpha\\,\\operatorname{tg} \\beta}",
+      "ru": "\\operatorname{tg} (\\alpha \\pm \\beta) = \\frac{\\operatorname{tg} \\alpha \\pm \\operatorname{tg} \\beta}{1 \\mp \\operatorname{tg} \\alpha\\,\\operatorname{tg} \\beta}"
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "al",
+      "oznaka": "\\alpha",
+      "naziv": {
+       "sr": "u stepenima",
+       "en": "in degrees",
+       "it": "in gradi",
+       "fr": "en degrés",
+       "es": "en grados",
+       "de": "in Grad",
+       "pt": "em graus",
+       "ru": "в градусах"
+      },
+      "pocetna": 45
+     },
+     {
+      "id": "be",
+      "oznaka": "\\beta",
+      "naziv": {
+       "sr": "u stepenima",
+       "en": "in degrees",
+       "it": "in gradi",
+       "fr": "en degrés",
+       "es": "en grados",
+       "de": "in Grad",
+       "pt": "em graus",
+       "ru": "в градусах"
+      },
+      "pocetna": 30
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "sin(α + β)",
+       "en": "sin(α + β)",
+       "it": "sen(α + β)",
+       "fr": "sin(α + β)",
+       "es": "sen(α + β)",
+       "de": "sin(α + β)",
+       "pt": "sen(α + β)",
+       "ru": "sin(α + β)"
+      },
+      "izraz": "sinS(al+be)"
+     },
+     {
+      "naziv": {
+       "sr": "cos(α + β)",
+       "en": "cos(α + β)",
+       "it": "cos(α + β)",
+       "fr": "cos(α + β)",
+       "es": "cos(α + β)",
+       "de": "cos(α + β)",
+       "pt": "cos(α + β)",
+       "ru": "cos(α + β)"
+      },
+      "izraz": "cosS(al+be)"
+     },
+     {
+      "naziv": {
+       "sr": "sin(α − β)",
+       "en": "sin(α − β)",
+       "it": "sen(α − β)",
+       "fr": "sin(α − β)",
+       "es": "sen(α − β)",
+       "de": "sin(α − β)",
+       "pt": "sen(α − β)",
+       "ru": "sin(α − β)"
+      },
+      "izraz": "sinS(al-be)"
+     },
+     {
+      "naziv": {
+       "sr": "cos(α − β)",
+       "en": "cos(α − β)",
+       "it": "cos(α − β)",
+       "fr": "cos(α − β)",
+       "es": "cos(α − β)",
+       "de": "cos(α − β)",
+       "pt": "cos(α − β)",
+       "ru": "cos(α − β)"
+      },
+      "izraz": "cosS(al-be)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "dvostruki_ugao",
+   "simbol": "2α",
+   "ikona": "",
+   "naziv": {
+    "sr": "Dvostruki i polovični ugao",
+    "en": "Double and half angle",
+    "it": "Duplicazione e bisezione",
+    "fr": "Angle double et moitié",
+    "es": "Ángulo doble y mitad",
+    "de": "Doppelter und halber Winkel",
+    "pt": "Arco duplo e arco metade",
+    "ru": "Двойной и половинный угол"
+   },
+   "opis": {
+    "sr": "sin 2α, cos 2α, tg 2α",
+    "en": "sin 2α, cos 2α, tan 2α",
+    "it": "sen 2α, cos 2α, tg 2α",
+    "fr": "sin 2α, cos 2α, tan 2α",
+    "es": "sen 2α, cos 2α, tg 2α",
+    "de": "sin 2α, cos 2α, tan 2α",
+    "pt": "sen 2α, cos 2α, tg 2α",
+    "ru": "sin 2α, cos 2α, tg 2α"
+   },
+   "kljucne_reci": {
+    "sr": "dvostruki ugao polovicni ugao sin 2x cos 2x",
+    "en": "double angle half angle formulas",
+    "it": "formule di duplicazione bisezione",
+    "fr": "formules angle double moitie",
+    "es": "angulo doble mitad formulas",
+    "de": "doppelwinkel halbwinkel formeln",
+    "pt": "arco duplo arco metade formulas",
+    "ru": "формулы двойного половинного угла"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "sin 2α",
+      "en": "sin 2α",
+      "it": "sen 2α",
+      "fr": "sin 2α",
+      "es": "sen 2α",
+      "de": "sin 2α",
+      "pt": "sen 2α",
+      "ru": "sin 2α"
+     },
+     "latex": {
+      "sr": "\\sin 2\\alpha = 2\\,\\sin \\alpha\\,\\cos \\alpha",
+      "en": "\\sin 2\\alpha = 2\\,\\sin \\alpha\\,\\cos \\alpha",
+      "it": "\\operatorname{sen} 2\\alpha = 2\\,\\operatorname{sen} \\alpha\\,\\cos \\alpha",
+      "fr": "\\sin 2\\alpha = 2\\,\\sin \\alpha\\,\\cos \\alpha",
+      "es": "\\operatorname{sen} 2\\alpha = 2\\,\\operatorname{sen} \\alpha\\,\\cos \\alpha",
+      "de": "\\sin 2\\alpha = 2\\,\\sin \\alpha\\,\\cos \\alpha",
+      "pt": "\\operatorname{sen} 2\\alpha = 2\\,\\operatorname{sen} \\alpha\\,\\cos \\alpha",
+      "ru": "\\sin 2\\alpha = 2\\,\\sin \\alpha\\,\\cos \\alpha"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "cos 2α",
+      "en": "cos 2α",
+      "it": "cos 2α",
+      "fr": "cos 2α",
+      "es": "cos 2α",
+      "de": "cos 2α",
+      "pt": "cos 2α",
+      "ru": "cos 2α"
+     },
+     "latex": {
+      "sr": "\\cos 2\\alpha = \\cos ^2\\alpha - \\sin ^2\\alpha, \\quad \\cos 2\\alpha = 1 - 2\\sin ^2\\alpha, \\quad \\cos 2\\alpha = 2\\cos ^2\\alpha - 1",
+      "en": "\\cos 2\\alpha = \\cos ^2\\alpha - \\sin ^2\\alpha, \\quad \\cos 2\\alpha = 1 - 2\\sin ^2\\alpha, \\quad \\cos 2\\alpha = 2\\cos ^2\\alpha - 1",
+      "it": "\\cos 2\\alpha = \\cos ^2\\alpha - \\operatorname{sen} ^2\\alpha, \\quad \\cos 2\\alpha = 1 - 2\\operatorname{sen} ^2\\alpha, \\quad \\cos 2\\alpha = 2\\cos ^2\\alpha - 1",
+      "fr": "\\cos 2\\alpha = \\cos ^2\\alpha - \\sin ^2\\alpha, \\quad \\cos 2\\alpha = 1 - 2\\sin ^2\\alpha, \\quad \\cos 2\\alpha = 2\\cos ^2\\alpha - 1",
+      "es": "\\cos 2\\alpha = \\cos ^2\\alpha - \\operatorname{sen} ^2\\alpha, \\quad \\cos 2\\alpha = 1 - 2\\operatorname{sen} ^2\\alpha, \\quad \\cos 2\\alpha = 2\\cos ^2\\alpha - 1",
+      "de": "\\cos 2\\alpha = \\cos ^2\\alpha - \\sin ^2\\alpha, \\quad \\cos 2\\alpha = 1 - 2\\sin ^2\\alpha, \\quad \\cos 2\\alpha = 2\\cos ^2\\alpha - 1",
+      "pt": "\\cos 2\\alpha = \\cos ^2\\alpha - \\operatorname{sen} ^2\\alpha, \\quad \\cos 2\\alpha = 1 - 2\\operatorname{sen} ^2\\alpha, \\quad \\cos 2\\alpha = 2\\cos ^2\\alpha - 1",
+      "ru": "\\cos 2\\alpha = \\cos ^2\\alpha - \\sin ^2\\alpha, \\quad \\cos 2\\alpha = 1 - 2\\sin ^2\\alpha, \\quad \\cos 2\\alpha = 2\\cos ^2\\alpha - 1"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "tg 2α",
+      "en": "tan 2α",
+      "it": "tg 2α",
+      "fr": "tan 2α",
+      "es": "tg 2α",
+      "de": "tan 2α",
+      "pt": "tg 2α",
+      "ru": "tg 2α"
+     },
+     "latex": {
+      "sr": "\\operatorname{tg} 2\\alpha = \\frac{2\\,\\operatorname{tg} \\alpha}{1 - \\operatorname{tg} ^2\\alpha}",
+      "en": "\\tan 2\\alpha = \\frac{2\\,\\tan \\alpha}{1 - \\tan ^2\\alpha}",
+      "it": "\\operatorname{tg} 2\\alpha = \\frac{2\\,\\operatorname{tg} \\alpha}{1 - \\operatorname{tg} ^2\\alpha}",
+      "fr": "\\tan 2\\alpha = \\frac{2\\,\\tan \\alpha}{1 - \\tan ^2\\alpha}",
+      "es": "\\operatorname{tg} 2\\alpha = \\frac{2\\,\\operatorname{tg} \\alpha}{1 - \\operatorname{tg} ^2\\alpha}",
+      "de": "\\tan 2\\alpha = \\frac{2\\,\\tan \\alpha}{1 - \\tan ^2\\alpha}",
+      "pt": "\\operatorname{tg} 2\\alpha = \\frac{2\\,\\operatorname{tg} \\alpha}{1 - \\operatorname{tg} ^2\\alpha}",
+      "ru": "\\operatorname{tg} 2\\alpha = \\frac{2\\,\\operatorname{tg} \\alpha}{1 - \\operatorname{tg} ^2\\alpha}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Polovični ugao",
+      "en": "Half angle",
+      "it": "Bisezione",
+      "fr": "Angle moitié",
+      "es": "Ángulo mitad",
+      "de": "Halber Winkel",
+      "pt": "Arco metade",
+      "ru": "Половинный угол"
+     },
+     "latex": {
+      "sr": "\\sin ^2\\frac{\\alpha}{2} = \\frac{1 - \\cos \\alpha}{2}, \\quad \\cos ^2\\frac{\\alpha}{2} = \\frac{1 + \\cos \\alpha}{2}",
+      "en": "\\sin ^2\\frac{\\alpha}{2} = \\frac{1 - \\cos \\alpha}{2}, \\quad \\cos ^2\\frac{\\alpha}{2} = \\frac{1 + \\cos \\alpha}{2}",
+      "it": "\\operatorname{sen} ^2\\frac{\\alpha}{2} = \\frac{1 - \\cos \\alpha}{2}, \\quad \\cos ^2\\frac{\\alpha}{2} = \\frac{1 + \\cos \\alpha}{2}",
+      "fr": "\\sin ^2\\frac{\\alpha}{2} = \\frac{1 - \\cos \\alpha}{2}, \\quad \\cos ^2\\frac{\\alpha}{2} = \\frac{1 + \\cos \\alpha}{2}",
+      "es": "\\operatorname{sen} ^2\\frac{\\alpha}{2} = \\frac{1 - \\cos \\alpha}{2}, \\quad \\cos ^2\\frac{\\alpha}{2} = \\frac{1 + \\cos \\alpha}{2}",
+      "de": "\\sin ^2\\frac{\\alpha}{2} = \\frac{1 - \\cos \\alpha}{2}, \\quad \\cos ^2\\frac{\\alpha}{2} = \\frac{1 + \\cos \\alpha}{2}",
+      "pt": "\\operatorname{sen} ^2\\frac{\\alpha}{2} = \\frac{1 - \\cos \\alpha}{2}, \\quad \\cos ^2\\frac{\\alpha}{2} = \\frac{1 + \\cos \\alpha}{2}",
+      "ru": "\\sin ^2\\frac{\\alpha}{2} = \\frac{1 - \\cos \\alpha}{2}, \\quad \\cos ^2\\frac{\\alpha}{2} = \\frac{1 + \\cos \\alpha}{2}"
+     },
+     "objasnjenje": {
+      "sr": "Ove formule služe i za snižavanje stepena (sin², cos²).",
+      "en": "These also lower powers of sine and cosine.",
+      "it": "Servono anche ad abbassare il grado (sen², cos²).",
+      "fr": "Elles servent aussi à linéariser sin² et cos².",
+      "es": "También sirven para reducir potencias (sen², cos²).",
+      "de": "Sie dienen auch zum Senken des Grades (sin², cos²).",
+      "pt": "Também servem para reduzir potências (sen², cos²).",
+      "ru": "Они же — формулы понижения степени."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "al",
+      "oznaka": "\\alpha",
+      "naziv": {
+       "sr": "u stepenima",
+       "en": "in degrees",
+       "it": "in gradi",
+       "fr": "en degrés",
+       "es": "en grados",
+       "de": "in Grad",
+       "pt": "em graus",
+       "ru": "в градусах"
+      },
+      "pocetna": 30
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "sin 2α",
+       "en": "sin 2α",
+       "it": "sen 2α",
+       "fr": "sin 2α",
+       "es": "sen 2α",
+       "de": "sin 2α",
+       "pt": "sen 2α",
+       "ru": "sin 2α"
+      },
+      "izraz": "sinS(2*al)"
+     },
+     {
+      "naziv": {
+       "sr": "cos 2α",
+       "en": "cos 2α",
+       "it": "cos 2α",
+       "fr": "cos 2α",
+       "es": "cos 2α",
+       "de": "cos 2α",
+       "pt": "cos 2α",
+       "ru": "cos 2α"
+      },
+      "izraz": "cosS(2*al)"
+     },
+     {
+      "naziv": {
+       "sr": "tg 2α",
+       "en": "tan 2α",
+       "it": "tg 2α",
+       "fr": "tan 2α",
+       "es": "tg 2α",
+       "de": "tan 2α",
+       "pt": "tg 2α",
+       "ru": "tg 2α"
+      },
+      "izraz": "tgS(2*al)"
+     }
+    ]
+   }
+  }
+ ]
+}

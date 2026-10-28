@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="podnaslov">Matematika na dlanu</string>
+    <string name="pretraga_hint">Pretraži formule… (npr. kupa, integral)</string>
+    <string name="obrisi_pretragu">Obriši pretragu</string>
+    <string name="oblasti">Oblasti</string>
+    <string name="nema_rezultata">Nema rezultata</string>
+    <string name="oblast_aritmetika">Aritmetika</string>
+    <string name="opis_aritmetika">Procenti, razlomci</string>
+    <string name="oblast_algebra">Algebra</string>
+    <string name="opis_algebra">Jednačine, logaritmi</string>
+    <string name="oblast_planimetrija">Planimetrija</string>
+    <string name="opis_planimetrija">Obim i površina</string>
+    <string name="oblast_stereometrija">Stereometrija</string>
+    <string name="opis_stereometrija">Površina, zapremina</string>
+    <string name="oblast_trigonometrija">Trigonometrija</string>
+    <string name="opis_trigonometrija">Teoreme, identiteti</string>
+    <string name="oblast_analiza">Analiza</string>
+    <string name="opis_analiza">Izvodi, integrali</string>
+    <string name="oblast_analiticka_geometrija">Analitička geometrija</string>
+    <string name="opis_analiticka_geometrija">Prava, krive 2. reda</string>
+    <string name="oblast_kombinatorika">Kombinatorika</string>
+    <string name="opis_kombinatorika">Verovatnoća, nizovi</string>
+    <string name="rezultati">Rezultati</string>
+    <string name="nazad">Nazad</string>
+    <string name="uskoro_oblast">Formule za ovu oblast stižu uskoro.</string>
+</resources>

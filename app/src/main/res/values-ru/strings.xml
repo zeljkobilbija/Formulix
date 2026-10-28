@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="podnaslov">Математика в кармане</string>
+    <string name="pretraga_hint">Поиск формул… (напр. конус, интеграл)</string>
+    <string name="obrisi_pretragu">Очистить поиск</string>
+    <string name="oblasti">Разделы</string>
+    <string name="nema_rezultata">Ничего не найдено</string>
+    <string name="oblast_aritmetika">Арифметика</string>
+    <string name="opis_aritmetika">Проценты, дроби</string>
+    <string name="oblast_algebra">Алгебра</string>
+    <string name="opis_algebra">Уравнения, логарифмы</string>
+    <string name="oblast_planimetrija">Планиметрия</string>
+    <string name="opis_planimetrija">Периметр и площадь</string>
+    <string name="oblast_stereometrija">Стереометрия</string>
+    <string name="opis_stereometrija">Площадь поверхности, объём</string>
+    <string name="oblast_trigonometrija">Тригонометрия</string>
+    <string name="opis_trigonometrija">Теоремы, тождества</string>
+    <string name="oblast_analiza">Анализ</string>
+    <string name="opis_analiza">Производные, интегралы</string>
+    <string name="oblast_analiticka_geometrija">Аналитическая геометрия</string>
+    <string name="opis_analiticka_geometrija">Прямые, кривые 2-го порядка</string>
+    <string name="oblast_kombinatorika">Комбинаторика</string>
+    <string name="opis_kombinatorika">Вероятность, последовательности</string>
+    <string name="rezultati">Результаты</string>
+    <string name="nazad">Назад</string>
+    <string name="uskoro_oblast">Формулы этого раздела скоро появятся.</string>
+</resources>

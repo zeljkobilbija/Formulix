@@ -1,0 +1,1872 @@
+{
+ "oblast": "stereometrija",
+ "teme": [
+  {
+   "id": "kocka",
+   "simbol": "",
+   "ikona": "ic_t_kocka",
+   "naziv": {
+    "sr": "Kocka",
+    "en": "Cube",
+    "it": "Cubo",
+    "fr": "Cube",
+    "es": "Cubo",
+    "de": "Würfel",
+    "pt": "Cubo",
+    "ru": "Куб"
+   },
+   "opis": {
+    "sr": "Površina, zapremina, dijagonala",
+    "en": "Surface area, volume, diagonal",
+    "it": "Superficie, volume, diagonale",
+    "fr": "Aire, volume, diagonale",
+    "es": "Área, volumen, diagonal",
+    "de": "Oberfläche, Volumen, Diagonale",
+    "pt": "Área, volume, diagonal",
+    "ru": "Площадь, объём, диагональ"
+   },
+   "kljucne_reci": {
+    "sr": "kocka povrsina zapremina dijagonala ivica",
+    "en": "cube surface area volume diagonal edge",
+    "it": "cubo superficie volume diagonale spigolo",
+    "fr": "cube aire volume diagonale arete",
+    "es": "cubo area volumen diagonal arista",
+    "de": "wurfel oberflache volumen raumdiagonale kante",
+    "pt": "cubo area volume diagonal aresta",
+    "ru": "куб площадь поверхности объем диагональ ребро"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"55.0,85.0 110.0,45.0 220.0,45.0 165.0,85.0\"/><polygon class=\"lik2\" points=\"165.0,85.0 220.0,45.0 220.0,155.0 165.0,195.0\"/><polygon class=\"lik\" points=\"55.0,85.0 165.0,85.0 165.0,195.0 55.0,195.0\"/><line class=\"pom\" x1=\"110\" y1=\"155\" x2=\"55\" y2=\"195\"/><line class=\"pom\" x1=\"110\" y1=\"155\" x2=\"220\" y2=\"155\"/><line class=\"pom\" x1=\"110\" y1=\"155\" x2=\"110\" y2=\"45\"/><line class=\"pom\" x1=\"55\" y1=\"195\" x2=\"220\" y2=\"45\"/><text class=\"oz\" x=\"104\" y=\"216\">a</text><text class=\"oz\" x=\"36\" y=\"146\">a</text><text class=\"oz\" x=\"200\" y=\"190\">a</text><text class=\"oz\" x=\"124\" y=\"108\">D</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Surface area",
+      "it": "Superficie totale",
+      "fr": "Aire totale",
+      "es": "Área total",
+      "de": "Oberfläche",
+      "pt": "Área total",
+      "ru": "Площадь полной поверхности"
+     },
+     "latex": {
+      "sr": "P = 6a^2",
+      "en": "SA = 6a^2",
+      "it": "S_t = 6a^2",
+      "fr": "A_t = 6a^2",
+      "es": "A_T = 6a^2",
+      "de": "O = 6a^2",
+      "pt": "A_t = 6a^2",
+      "ru": "S_{\\text{полн}} = 6a^2"
+     },
+     "objasnjenje": {
+      "sr": "Kocka ima 6 podudarnih kvadrata.",
+      "en": "A cube has 6 equal square faces.",
+      "it": "Il cubo ha 6 facce quadrate uguali.",
+      "fr": "Le cube a 6 faces carrées identiques.",
+      "es": "El cubo tiene 6 caras cuadradas iguales.",
+      "de": "Der Würfel hat 6 gleiche Quadrate als Flächen.",
+      "pt": "O cubo tem 6 faces quadradas iguais.",
+      "ru": "У куба 6 одинаковых квадратных граней."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zapremina",
+      "en": "Volume",
+      "it": "Volume",
+      "fr": "Volume",
+      "es": "Volumen",
+      "de": "Volumen",
+      "pt": "Volume",
+      "ru": "Объём"
+     },
+     "latex": {
+      "sr": "V = a^3",
+      "en": "V = a^3",
+      "it": "V = a^3",
+      "fr": "V = a^3",
+      "es": "V = a^3",
+      "de": "V = a^3",
+      "pt": "V = a^3",
+      "ru": "V = a^3"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Prostorna dijagonala",
+      "en": "Space diagonal",
+      "it": "Diagonale",
+      "fr": "Diagonale",
+      "es": "Diagonal",
+      "de": "Raumdiagonale",
+      "pt": "Diagonal",
+      "ru": "Диагональ"
+     },
+     "latex": {
+      "sr": "D = a\\sqrt{3}, \\quad d = a\\sqrt{2}",
+      "en": "D = a\\sqrt{3}, \\quad d = a\\sqrt{2}",
+      "it": "D = a\\sqrt{3}, \\quad d = a\\sqrt{2}",
+      "fr": "D = a\\sqrt{3}, \\quad d = a\\sqrt{2}",
+      "es": "D = a\\sqrt{3}, \\quad d = a\\sqrt{2}",
+      "de": "D = a\\sqrt{3}, \\quad d = a\\sqrt{2}",
+      "pt": "D = a\\sqrt{3}, \\quad d = a\\sqrt{2}",
+      "ru": "D = a\\sqrt{3}, \\quad d = a\\sqrt{2}"
+     },
+     "objasnjenje": {
+      "sr": "D je dijagonala kocke, a d dijagonala strane.",
+      "en": "D is the space diagonal, d the face diagonal.",
+      "it": "D è la diagonale del cubo, d quella di una faccia.",
+      "fr": "D est la grande diagonale, d la diagonale d’une face.",
+      "es": "D es la diagonal del cubo y d la de una cara.",
+      "de": "D ist die Raumdiagonale, d die Flächendiagonale.",
+      "pt": "D é a diagonal do cubo e d a de uma face.",
+      "ru": "D — диагональ куба, d — диагональ грани."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Površina",
+       "en": "Surface area",
+       "it": "Superficie totale",
+       "fr": "Aire totale",
+       "es": "Área total",
+       "de": "Oberfläche",
+       "pt": "Área total",
+       "ru": "Площадь полной поверхности"
+      },
+      "izraz": "6*a*a"
+     },
+     {
+      "naziv": {
+       "sr": "Zapremina V",
+       "en": "Volume V",
+       "it": "Volume V",
+       "fr": "Volume V",
+       "es": "Volumen V",
+       "de": "Volumen V",
+       "pt": "Volume V",
+       "ru": "Объём V"
+      },
+      "izraz": "a*a*a"
+     },
+     {
+      "naziv": {
+       "sr": "Prostorna dijagonala D",
+       "en": "Space diagonal D",
+       "it": "Diagonale D",
+       "fr": "Diagonale D",
+       "es": "Diagonal D",
+       "de": "Raumdiagonale D",
+       "pt": "Diagonal D",
+       "ru": "Диагональ D"
+      },
+      "izraz": "a*sqrt(3)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kvadar",
+   "simbol": "",
+   "ikona": "ic_t_kvadar",
+   "naziv": {
+    "sr": "Kvadar",
+    "en": "Cuboid",
+    "it": "Parallelepipedo rettangolo",
+    "fr": "Pavé droit",
+    "es": "Ortoedro",
+    "de": "Quader",
+    "pt": "Paralelepípedo",
+    "ru": "Прямоугольный параллелепипед"
+   },
+   "opis": {
+    "sr": "Površina, zapremina, dijagonala",
+    "en": "Surface area, volume, diagonal",
+    "it": "Superficie, volume, diagonale",
+    "fr": "Aire, volume, diagonale",
+    "es": "Área, volumen, diagonal",
+    "de": "Oberfläche, Volumen, Diagonale",
+    "pt": "Área, volume, diagonal",
+    "ru": "Площадь, объём, диагональ"
+   },
+   "kljucne_reci": {
+    "sr": "kvadar povrsina zapremina dijagonala kutija",
+    "en": "cuboid rectangular box prism surface area volume diagonal",
+    "it": "parallelepipedo rettangolo superficie volume diagonale scatola",
+    "fr": "pave droit parallelepipede rectangle aire volume diagonale",
+    "es": "ortoedro prisma rectangular paralelepipedo area volumen diagonal",
+    "de": "quader oberflache volumen raumdiagonale",
+    "pt": "paralelepipedo bloco retangular area volume diagonal",
+    "ru": "прямоугольный параллелепипед площадь объем диагональ"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"40.0,95.0 110.0,50.0 260.0,50.0 190.0,95.0\"/><polygon class=\"lik2\" points=\"190.0,95.0 260.0,50.0 260.0,140.0 190.0,185.0\"/><polygon class=\"lik\" points=\"40.0,95.0 190.0,95.0 190.0,185.0 40.0,185.0\"/><line class=\"pom\" x1=\"110\" y1=\"140\" x2=\"40\" y2=\"185\"/><line class=\"pom\" x1=\"110\" y1=\"140\" x2=\"260\" y2=\"140\"/><line class=\"pom\" x1=\"110\" y1=\"140\" x2=\"110\" y2=\"50\"/><line class=\"pom\" x1=\"40\" y1=\"185\" x2=\"260\" y2=\"50\"/><text class=\"oz\" x=\"110\" y=\"206\">a</text><text class=\"oz\" x=\"232\" y=\"180\">b</text><text class=\"oz\" x=\"22\" y=\"146\">c</text><text class=\"oz\" x=\"128\" y=\"112\">D</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Surface area",
+      "it": "Superficie totale",
+      "fr": "Aire totale",
+      "es": "Área total",
+      "de": "Oberfläche",
+      "pt": "Área total",
+      "ru": "Площадь полной поверхности"
+     },
+     "latex": {
+      "sr": "P = 2(ab + bc + ac)",
+      "en": "SA = 2(ab + bc + ac)",
+      "it": "S_t = 2(ab + bc + ac)",
+      "fr": "A_t = 2(ab + bc + ac)",
+      "es": "A_T = 2(ab + bc + ac)",
+      "de": "O = 2(ab + bc + ac)",
+      "pt": "A_t = 2(ab + bc + ac)",
+      "ru": "S_{\\text{полн}} = 2(ab + bc + ac)"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zapremina",
+      "en": "Volume",
+      "it": "Volume",
+      "fr": "Volume",
+      "es": "Volumen",
+      "de": "Volumen",
+      "pt": "Volume",
+      "ru": "Объём"
+     },
+     "latex": {
+      "sr": "V = a \\cdot b \\cdot c",
+      "en": "V = a \\cdot b \\cdot c",
+      "it": "V = a \\cdot b \\cdot c",
+      "fr": "V = a \\cdot b \\cdot c",
+      "es": "V = a \\cdot b \\cdot c",
+      "de": "V = a \\cdot b \\cdot c",
+      "pt": "V = a \\cdot b \\cdot c",
+      "ru": "V = a \\cdot b \\cdot c"
+     },
+     "objasnjenje": {
+      "sr": "Dužina puta širina puta visina.",
+      "en": "Length times width times height.",
+      "it": "Lunghezza per larghezza per altezza.",
+      "fr": "Longueur × largeur × hauteur.",
+      "es": "Largo por ancho por alto.",
+      "de": "Länge mal Breite mal Höhe.",
+      "pt": "Comprimento × largura × altura.",
+      "ru": "Длина × ширина × высота."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Prostorna dijagonala",
+      "en": "Space diagonal",
+      "it": "Diagonale",
+      "fr": "Diagonale",
+      "es": "Diagonal",
+      "de": "Raumdiagonale",
+      "pt": "Diagonal",
+      "ru": "Диагональ"
+     },
+     "latex": {
+      "sr": "D = \\sqrt{a^2 + b^2 + c^2}",
+      "en": "D = \\sqrt{a^2 + b^2 + c^2}",
+      "it": "D = \\sqrt{a^2 + b^2 + c^2}",
+      "fr": "D = \\sqrt{a^2 + b^2 + c^2}",
+      "es": "D = \\sqrt{a^2 + b^2 + c^2}",
+      "de": "D = \\sqrt{a^2 + b^2 + c^2}",
+      "pt": "D = \\sqrt{a^2 + b^2 + c^2}",
+      "ru": "D = \\sqrt{a^2 + b^2 + c^2}"
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 5
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     },
+     {
+      "id": "c",
+      "oznaka": "c",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Površina",
+       "en": "Surface area",
+       "it": "Superficie totale",
+       "fr": "Aire totale",
+       "es": "Área total",
+       "de": "Oberfläche",
+       "pt": "Área total",
+       "ru": "Площадь полной поверхности"
+      },
+      "izraz": "2*(a*b+b*c+a*c)"
+     },
+     {
+      "naziv": {
+       "sr": "Zapremina V",
+       "en": "Volume V",
+       "it": "Volume V",
+       "fr": "Volume V",
+       "es": "Volumen V",
+       "de": "Volumen V",
+       "pt": "Volume V",
+       "ru": "Объём V"
+      },
+      "izraz": "a*b*c"
+     },
+     {
+      "naziv": {
+       "sr": "Prostorna dijagonala D",
+       "en": "Space diagonal D",
+       "it": "Diagonale D",
+       "fr": "Diagonale D",
+       "es": "Diagonal D",
+       "de": "Raumdiagonale D",
+       "pt": "Diagonal D",
+       "ru": "Диагональ D"
+      },
+      "izraz": "sqrt(a*a+b*b+c*c)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "prizma",
+   "simbol": "",
+   "ikona": "ic_t_prizma",
+   "naziv": {
+    "sr": "Prizma",
+    "en": "Prism",
+    "it": "Prisma",
+    "fr": "Prisme droit",
+    "es": "Prisma",
+    "de": "Prisma",
+    "pt": "Prisma",
+    "ru": "Призма"
+   },
+   "opis": {
+    "sr": "Pravilna n-tostrana prizma",
+    "en": "Regular n-sided prism",
+    "it": "Prisma retto regolare",
+    "fr": "Prisme droit régulier",
+    "es": "Prisma regular",
+    "de": "Gerades regelmäßiges Prisma",
+    "pt": "Prisma regular",
+    "ru": "Правильная призма"
+   },
+   "kljucne_reci": {
+    "sr": "prizma povrsina omotac baza zapremina pravilna trostrana cetvorostrana sestostrana",
+    "en": "prism surface area lateral base volume regular triangular hexagonal",
+    "it": "prisma superficie laterale area di base volume regolare triangolare esagonale",
+    "fr": "prisme droit aire laterale base volume regulier triangulaire hexagonal",
+    "es": "prisma area lateral base volumen regular triangular hexagonal",
+    "de": "prisma oberflache mantelflache grundflache volumen dreiseitig sechsseitig",
+    "pt": "prisma area lateral base volume regular triangular hexagonal",
+    "ru": "призма площадь боковой поверхности основание объем правильная"
+   },
+   "crtez": {
+    "sr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"40.0,70.0 200.0,70.0 150.0,35.0\"/><polygon class=\"lik\" points=\"40.0,70.0 200.0,70.0 200.0,190.0 40.0,190.0\"/><line class=\"pom\" x1=\"40\" y1=\"190\" x2=\"150\" y2=\"155\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"200\" y2=\"190\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"150\" y2=\"35\"/><text class=\"oz\" x=\"114\" y=\"212\">a</text><text class=\"oz\" x=\"208\" y=\"136\">H</text></svg>",
+    "en": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"40.0,70.0 200.0,70.0 150.0,35.0\"/><polygon class=\"lik\" points=\"40.0,70.0 200.0,70.0 200.0,190.0 40.0,190.0\"/><line class=\"pom\" x1=\"40\" y1=\"190\" x2=\"150\" y2=\"155\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"200\" y2=\"190\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"150\" y2=\"35\"/><text class=\"oz\" x=\"114\" y=\"212\">a</text><text class=\"oz\" x=\"208\" y=\"136\">h</text></svg>",
+    "it": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"40.0,70.0 200.0,70.0 150.0,35.0\"/><polygon class=\"lik\" points=\"40.0,70.0 200.0,70.0 200.0,190.0 40.0,190.0\"/><line class=\"pom\" x1=\"40\" y1=\"190\" x2=\"150\" y2=\"155\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"200\" y2=\"190\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"150\" y2=\"35\"/><text class=\"oz\" x=\"114\" y=\"212\">a</text><text class=\"oz\" x=\"208\" y=\"136\">h</text></svg>",
+    "fr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"40.0,70.0 200.0,70.0 150.0,35.0\"/><polygon class=\"lik\" points=\"40.0,70.0 200.0,70.0 200.0,190.0 40.0,190.0\"/><line class=\"pom\" x1=\"40\" y1=\"190\" x2=\"150\" y2=\"155\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"200\" y2=\"190\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"150\" y2=\"35\"/><text class=\"oz\" x=\"114\" y=\"212\">a</text><text class=\"oz\" x=\"208\" y=\"136\">h</text></svg>",
+    "es": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"40.0,70.0 200.0,70.0 150.0,35.0\"/><polygon class=\"lik\" points=\"40.0,70.0 200.0,70.0 200.0,190.0 40.0,190.0\"/><line class=\"pom\" x1=\"40\" y1=\"190\" x2=\"150\" y2=\"155\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"200\" y2=\"190\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"150\" y2=\"35\"/><text class=\"oz\" x=\"114\" y=\"212\">a</text><text class=\"oz\" x=\"208\" y=\"136\">h</text></svg>",
+    "de": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"40.0,70.0 200.0,70.0 150.0,35.0\"/><polygon class=\"lik\" points=\"40.0,70.0 200.0,70.0 200.0,190.0 40.0,190.0\"/><line class=\"pom\" x1=\"40\" y1=\"190\" x2=\"150\" y2=\"155\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"200\" y2=\"190\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"150\" y2=\"35\"/><text class=\"oz\" x=\"114\" y=\"212\">a</text><text class=\"oz\" x=\"208\" y=\"136\">h</text></svg>",
+    "pt": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"40.0,70.0 200.0,70.0 150.0,35.0\"/><polygon class=\"lik\" points=\"40.0,70.0 200.0,70.0 200.0,190.0 40.0,190.0\"/><line class=\"pom\" x1=\"40\" y1=\"190\" x2=\"150\" y2=\"155\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"200\" y2=\"190\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"150\" y2=\"35\"/><text class=\"oz\" x=\"114\" y=\"212\">a</text><text class=\"oz\" x=\"208\" y=\"136\">h</text></svg>",
+    "ru": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"40.0,70.0 200.0,70.0 150.0,35.0\"/><polygon class=\"lik\" points=\"40.0,70.0 200.0,70.0 200.0,190.0 40.0,190.0\"/><line class=\"pom\" x1=\"40\" y1=\"190\" x2=\"150\" y2=\"155\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"200\" y2=\"190\"/><line class=\"pom\" x1=\"150\" y1=\"155\" x2=\"150\" y2=\"35\"/><text class=\"oz\" x=\"114\" y=\"212\">a</text><text class=\"oz\" x=\"208\" y=\"136\">h</text></svg>"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Surface area",
+      "it": "Superficie totale",
+      "fr": "Aire totale",
+      "es": "Área total",
+      "de": "Oberfläche",
+      "pt": "Área total",
+      "ru": "Площадь полной поверхности"
+     },
+     "latex": {
+      "sr": "P = 2B + M",
+      "en": "SA = 2B + LA",
+      "it": "S_t = 2A_b + S_l",
+      "fr": "A_t = 2B + A_l",
+      "es": "A_T = 2A_B + A_L",
+      "de": "O = 2G + M",
+      "pt": "A_t = 2A_b + A_l",
+      "ru": "S_{\\text{полн}} = 2S_{\\text{осн}} + S_{\\text{бок}}"
+     },
+     "objasnjenje": {
+      "sr": "Dve baze i omotač.",
+      "en": "Two bases plus the lateral area.",
+      "it": "Due basi più la superficie laterale.",
+      "fr": "Deux bases plus l’aire latérale.",
+      "es": "Dos bases más el área lateral.",
+      "de": "Zwei Grundflächen plus Mantel.",
+      "pt": "Duas bases mais a área lateral.",
+      "ru": "Две площади основания плюс боковая поверхность."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Omotač",
+      "en": "Lateral area",
+      "it": "Superficie laterale",
+      "fr": "Aire latérale",
+      "es": "Área lateral",
+      "de": "Mantelfläche",
+      "pt": "Área lateral",
+      "ru": "Площадь боковой поверхности"
+     },
+     "latex": {
+      "sr": "M = O \\cdot H",
+      "en": "LA = P \\cdot h",
+      "it": "S_l = 2p \\cdot h",
+      "fr": "A_l = P \\cdot h",
+      "es": "A_L = P \\cdot h",
+      "de": "M = u \\cdot h",
+      "pt": "A_l = 2p \\cdot h",
+      "ru": "S_{\\text{бок}} = P \\cdot h"
+     },
+     "objasnjenje": {
+      "sr": "Obim baze puta visina prizme.",
+      "en": "Perimeter of the base times the height.",
+      "it": "Perimetro di base per altezza.",
+      "fr": "Périmètre de la base fois la hauteur.",
+      "es": "Perímetro de la base por la altura.",
+      "de": "Umfang der Grundfläche mal Höhe.",
+      "pt": "Perímetro da base vezes a altura.",
+      "ru": "Периметр основания, умноженный на высоту."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zapremina",
+      "en": "Volume",
+      "it": "Volume",
+      "fr": "Volume",
+      "es": "Volumen",
+      "de": "Volumen",
+      "pt": "Volume",
+      "ru": "Объём"
+     },
+     "latex": {
+      "sr": "V = B \\cdot H",
+      "en": "V = B \\cdot h",
+      "it": "V = A_b \\cdot h",
+      "fr": "V = B \\cdot h",
+      "es": "V = A_B \\cdot h",
+      "de": "V = G \\cdot h",
+      "pt": "V = A_b \\cdot h",
+      "ru": "V = S_{\\text{осн}} \\cdot h"
+     },
+     "objasnjenje": {
+      "sr": "Površina baze puta visina.",
+      "en": "Base area times height.",
+      "it": "Area di base per altezza.",
+      "fr": "Aire de la base fois la hauteur.",
+      "es": "Área de la base por la altura.",
+      "de": "Grundfläche mal Höhe.",
+      "pt": "Área da base vezes a altura.",
+      "ru": "Площадь основания, умноженная на высоту."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Baza",
+      "en": "Base area",
+      "it": "Area di base",
+      "fr": "Aire de la base",
+      "es": "Área de la base",
+      "de": "Grundfläche",
+      "pt": "Área da base",
+      "ru": "Площадь основания"
+     },
+     "latex": {
+      "sr": "{B}_3 = \\frac{a^2\\sqrt{3}}{4}, \\quad {B}_4 = a^2, \\quad {B}_6 = \\frac{3a^2\\sqrt{3}}{2}",
+      "en": "{B}_3 = \\frac{a^2\\sqrt{3}}{4}, \\quad {B}_4 = a^2, \\quad {B}_6 = \\frac{3a^2\\sqrt{3}}{2}",
+      "it": "{A_b}_3 = \\frac{a^2\\sqrt{3}}{4}, \\quad {A_b}_4 = a^2, \\quad {A_b}_6 = \\frac{3a^2\\sqrt{3}}{2}",
+      "fr": "{B}_3 = \\frac{a^2\\sqrt{3}}{4}, \\quad {B}_4 = a^2, \\quad {B}_6 = \\frac{3a^2\\sqrt{3}}{2}",
+      "es": "{A_B}_3 = \\frac{a^2\\sqrt{3}}{4}, \\quad {A_B}_4 = a^2, \\quad {A_B}_6 = \\frac{3a^2\\sqrt{3}}{2}",
+      "de": "{G}_3 = \\frac{a^2\\sqrt{3}}{4}, \\quad {G}_4 = a^2, \\quad {G}_6 = \\frac{3a^2\\sqrt{3}}{2}",
+      "pt": "{A_b}_3 = \\frac{a^2\\sqrt{3}}{4}, \\quad {A_b}_4 = a^2, \\quad {A_b}_6 = \\frac{3a^2\\sqrt{3}}{2}",
+      "ru": "{S_{\\text{осн}}}_3 = \\frac{a^2\\sqrt{3}}{4}, \\quad {S_{\\text{осн}}}_4 = a^2, \\quad {S_{\\text{осн}}}_6 = \\frac{3a^2\\sqrt{3}}{2}"
+     },
+     "objasnjenje": {
+      "sr": "Baza pravilne trostrane, četvorostrane i šestostrane prizme.",
+      "en": "Base of a regular triangular, square and hexagonal prism.",
+      "it": "Base del prisma triangolare, quadrangolare ed esagonale regolare.",
+      "fr": "Base d’un prisme régulier à 3, 4 et 6 côtés.",
+      "es": "Base de un prisma regular triangular, cuadrangular y hexagonal.",
+      "de": "Grundfläche des regelmäßigen 3-, 4- und 6-seitigen Prismas.",
+      "pt": "Base de um prisma regular triangular, quadrangular e hexagonal.",
+      "ru": "Основание правильной треугольной, четырёхугольной и шестиугольной призмы."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "n",
+      "oznaka": "n",
+      "naziv": {
+       "sr": "broj stranica osnove",
+       "en": "sides of the base",
+       "it": "lati di base",
+       "fr": "côtés de la base",
+       "es": "lados de la base",
+       "de": "Ecken der Grundfläche",
+       "pt": "lados da base",
+       "ru": "сторон основания"
+      },
+      "pocetna": 3,
+      "ceo": true
+     },
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     },
+     {
+      "id": "H",
+      "oznaka": {
+       "sr": "H",
+       "en": "h",
+       "it": "h",
+       "fr": "h",
+       "es": "h",
+       "de": "h",
+       "pt": "h",
+       "ru": "h"
+      },
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 10
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Baza",
+       "en": "Base area",
+       "it": "Area di base",
+       "fr": "Aire de la base",
+       "es": "Área de la base",
+       "de": "Grundfläche",
+       "pt": "Área da base",
+       "ru": "Площадь основания"
+      },
+      "izraz": "n*a*a/(4*Math.tan(PI/n))"
+     },
+     {
+      "naziv": {
+       "sr": "Omotač",
+       "en": "Lateral area",
+       "it": "Superficie laterale",
+       "fr": "Aire latérale",
+       "es": "Área lateral",
+       "de": "Mantelfläche",
+       "pt": "Área lateral",
+       "ru": "Площадь боковой поверхности"
+      },
+      "izraz": "n*a*H"
+     },
+     {
+      "naziv": {
+       "sr": "Površina",
+       "en": "Surface area",
+       "it": "Superficie totale",
+       "fr": "Aire totale",
+       "es": "Área total",
+       "de": "Oberfläche",
+       "pt": "Área total",
+       "ru": "Площадь полной поверхности"
+      },
+      "izraz": "2*n*a*a/(4*Math.tan(PI/n))+n*a*H"
+     },
+     {
+      "naziv": {
+       "sr": "Zapremina V",
+       "en": "Volume V",
+       "it": "Volume V",
+       "fr": "Volume V",
+       "es": "Volumen V",
+       "de": "Volumen V",
+       "pt": "Volume V",
+       "ru": "Объём V"
+      },
+      "izraz": "n*a*a/(4*Math.tan(PI/n))*H"
+     }
+    ]
+   }
+  },
+  {
+   "id": "piramida",
+   "simbol": "",
+   "ikona": "ic_t_piramida",
+   "naziv": {
+    "sr": "Piramida",
+    "en": "Pyramid",
+    "it": "Piramide",
+    "fr": "Pyramide",
+    "es": "Pirámide",
+    "de": "Pyramide",
+    "pt": "Pirâmide",
+    "ru": "Пирамида"
+   },
+   "opis": {
+    "sr": "Pravilna n-tostrana piramida",
+    "en": "Regular n-sided pyramid",
+    "it": "Piramide retta regolare",
+    "fr": "Pyramide régulière",
+    "es": "Pirámide regular",
+    "de": "Gerade regelmäßige Pyramide",
+    "pt": "Pirâmide regular",
+    "ru": "Правильная пирамида"
+   },
+   "kljucne_reci": {
+    "sr": "piramida povrsina omotac apotema zapremina pravilna cetvorostrana",
+    "en": "pyramid surface area lateral slant height volume square",
+    "it": "piramide superficie laterale apotema volume regolare quadrangolare",
+    "fr": "pyramide aire laterale apotheme volume reguliere",
+    "es": "piramide area lateral apotema volumen regular cuadrangular",
+    "de": "pyramide oberflache mantelflache volumen quadratisch",
+    "pt": "piramide area lateral apotema volume regular quadrangular",
+    "ru": "пирамида площадь апофема объем правильная четырехугольная"
+   },
+   "crtez": {
+    "sr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"145.0,30.0 190.0,180.0 250.0,135.0\"/><polygon class=\"lik\" points=\"145.0,30.0 40.0,180.0 190.0,180.0\"/><line class=\"pom\" x1=\"250\" y1=\"135\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"100\" y1=\"135\" x2=\"40\" y2=\"180\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"145\" y2=\"157.5\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"115\" y2=\"180\"/><circle class=\"tac\" cx=\"145\" cy=\"157.5\" r=\"3\"/><text class=\"oz\" x=\"140\" y=\"202\">a</text><text class=\"oz\" x=\"151\" y=\"118\">H</text><text class=\"oz\" x=\"108\" y=\"96\">h</text></svg>",
+    "en": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"145.0,30.0 190.0,180.0 250.0,135.0\"/><polygon class=\"lik\" points=\"145.0,30.0 40.0,180.0 190.0,180.0\"/><line class=\"pom\" x1=\"250\" y1=\"135\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"100\" y1=\"135\" x2=\"40\" y2=\"180\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"145\" y2=\"157.5\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"115\" y2=\"180\"/><circle class=\"tac\" cx=\"145\" cy=\"157.5\" r=\"3\"/><text class=\"oz\" x=\"140\" y=\"202\">a</text><text class=\"oz\" x=\"151\" y=\"118\">h</text><text class=\"oz\" x=\"108\" y=\"96\">l</text></svg>",
+    "it": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"145.0,30.0 190.0,180.0 250.0,135.0\"/><polygon class=\"lik\" points=\"145.0,30.0 40.0,180.0 190.0,180.0\"/><line class=\"pom\" x1=\"250\" y1=\"135\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"100\" y1=\"135\" x2=\"40\" y2=\"180\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"145\" y2=\"157.5\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"115\" y2=\"180\"/><circle class=\"tac\" cx=\"145\" cy=\"157.5\" r=\"3\"/><text class=\"oz\" x=\"140\" y=\"202\">a</text><text class=\"oz\" x=\"151\" y=\"118\">h</text><text class=\"oz\" x=\"108\" y=\"96\">a<tspan class=\"sub\" dy=\"5\">p</tspan></text></svg>",
+    "fr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"145.0,30.0 190.0,180.0 250.0,135.0\"/><polygon class=\"lik\" points=\"145.0,30.0 40.0,180.0 190.0,180.0\"/><line class=\"pom\" x1=\"250\" y1=\"135\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"100\" y1=\"135\" x2=\"40\" y2=\"180\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"145\" y2=\"157.5\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"115\" y2=\"180\"/><circle class=\"tac\" cx=\"145\" cy=\"157.5\" r=\"3\"/><text class=\"oz\" x=\"140\" y=\"202\">a</text><text class=\"oz\" x=\"151\" y=\"118\">h</text><text class=\"oz\" x=\"108\" y=\"96\">a<tspan class=\"sub\" dy=\"5\">p</tspan></text></svg>",
+    "es": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"145.0,30.0 190.0,180.0 250.0,135.0\"/><polygon class=\"lik\" points=\"145.0,30.0 40.0,180.0 190.0,180.0\"/><line class=\"pom\" x1=\"250\" y1=\"135\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"100\" y1=\"135\" x2=\"40\" y2=\"180\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"145\" y2=\"157.5\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"115\" y2=\"180\"/><circle class=\"tac\" cx=\"145\" cy=\"157.5\" r=\"3\"/><text class=\"oz\" x=\"140\" y=\"202\">a</text><text class=\"oz\" x=\"151\" y=\"118\">h</text><text class=\"oz\" x=\"108\" y=\"96\">a<tspan class=\"sub\" dy=\"5\">p</tspan></text></svg>",
+    "de": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"145.0,30.0 190.0,180.0 250.0,135.0\"/><polygon class=\"lik\" points=\"145.0,30.0 40.0,180.0 190.0,180.0\"/><line class=\"pom\" x1=\"250\" y1=\"135\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"100\" y1=\"135\" x2=\"40\" y2=\"180\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"145\" y2=\"157.5\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"115\" y2=\"180\"/><circle class=\"tac\" cx=\"145\" cy=\"157.5\" r=\"3\"/><text class=\"oz\" x=\"140\" y=\"202\">a</text><text class=\"oz\" x=\"151\" y=\"118\">h</text><text class=\"oz\" x=\"108\" y=\"96\">h<tspan class=\"sub\" dy=\"5\">a</tspan></text></svg>",
+    "pt": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"145.0,30.0 190.0,180.0 250.0,135.0\"/><polygon class=\"lik\" points=\"145.0,30.0 40.0,180.0 190.0,180.0\"/><line class=\"pom\" x1=\"250\" y1=\"135\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"100\" y1=\"135\" x2=\"40\" y2=\"180\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"145\" y2=\"157.5\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"115\" y2=\"180\"/><circle class=\"tac\" cx=\"145\" cy=\"157.5\" r=\"3\"/><text class=\"oz\" x=\"140\" y=\"202\">a</text><text class=\"oz\" x=\"151\" y=\"118\">h</text><text class=\"oz\" x=\"108\" y=\"96\">g</text></svg>",
+    "ru": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon class=\"lik2\" points=\"145.0,30.0 190.0,180.0 250.0,135.0\"/><polygon class=\"lik\" points=\"145.0,30.0 40.0,180.0 190.0,180.0\"/><line class=\"pom\" x1=\"250\" y1=\"135\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"100\" y1=\"135\" x2=\"40\" y2=\"180\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"100\" y2=\"135\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"145\" y2=\"157.5\"/><line class=\"pom\" x1=\"145\" y1=\"30\" x2=\"115\" y2=\"180\"/><circle class=\"tac\" cx=\"145\" cy=\"157.5\" r=\"3\"/><text class=\"oz\" x=\"140\" y=\"202\">a</text><text class=\"oz\" x=\"151\" y=\"118\">h</text><text class=\"oz\" x=\"108\" y=\"96\">h<tspan class=\"sub\" dy=\"5\">a</tspan></text></svg>"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Surface area",
+      "it": "Superficie totale",
+      "fr": "Aire totale",
+      "es": "Área total",
+      "de": "Oberfläche",
+      "pt": "Área total",
+      "ru": "Площадь полной поверхности"
+     },
+     "latex": {
+      "sr": "P = B + M",
+      "en": "SA = B + LA",
+      "it": "S_t = A_b + S_l",
+      "fr": "A_t = B + A_l",
+      "es": "A_T = A_B + A_L",
+      "de": "O = G + M",
+      "pt": "A_t = A_b + A_l",
+      "ru": "S_{\\text{полн}} = S_{\\text{осн}} + S_{\\text{бок}}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Omotač",
+      "en": "Lateral area",
+      "it": "Superficie laterale",
+      "fr": "Aire latérale",
+      "es": "Área lateral",
+      "de": "Mantelfläche",
+      "pt": "Área lateral",
+      "ru": "Площадь боковой поверхности"
+     },
+     "latex": {
+      "sr": "M = \\frac{n \\cdot a \\cdot h}{2}",
+      "en": "LA = \\frac{n \\cdot a \\cdot l}{2}",
+      "it": "S_l = \\frac{n \\cdot a \\cdot a_p}{2}",
+      "fr": "A_l = \\frac{n \\cdot a \\cdot a_p}{2}",
+      "es": "A_L = \\frac{n \\cdot a \\cdot a_p}{2}",
+      "de": "M = \\frac{n \\cdot a \\cdot h_a}{2}",
+      "pt": "A_l = \\frac{n \\cdot a \\cdot g}{2}",
+      "ru": "S_{\\text{бок}} = \\frac{n \\cdot a \\cdot h_a}{2}"
+     },
+     "objasnjenje": {
+      "sr": "Omotač čini n podudarnih trouglova sa osnovicom a i visinom h (apotema).",
+      "en": "The lateral surface is n equal triangles with base a and slant height l.",
+      "it": "La superficie laterale è formata da n triangoli uguali di base a e altezza a_p (apotema).",
+      "fr": "La surface latérale est formée de n triangles de base a et de hauteur a_p (apothème).",
+      "es": "La superficie lateral son n triángulos iguales de base a y altura a_p (apotema).",
+      "de": "Der Mantel besteht aus n gleichen Dreiecken mit Grundseite a und Höhe h_a.",
+      "pt": "A superfície lateral são n triângulos iguais de base a e altura g (apótema).",
+      "ru": "Боковая поверхность — n равных треугольников с основанием a и высотой h_a (апофема)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zapremina",
+      "en": "Volume",
+      "it": "Volume",
+      "fr": "Volume",
+      "es": "Volumen",
+      "de": "Volumen",
+      "pt": "Volume",
+      "ru": "Объём"
+     },
+     "latex": {
+      "sr": "V = \\frac{B \\cdot H}{3}",
+      "en": "V = \\frac{B \\cdot h}{3}",
+      "it": "V = \\frac{A_b \\cdot h}{3}",
+      "fr": "V = \\frac{B \\cdot h}{3}",
+      "es": "V = \\frac{A_B \\cdot h}{3}",
+      "de": "V = \\frac{G \\cdot h}{3}",
+      "pt": "V = \\frac{A_b \\cdot h}{3}",
+      "ru": "V = \\frac{S_{\\text{осн}} \\cdot h}{3}"
+     },
+     "objasnjenje": {
+      "sr": "Trećina zapremine prizme iste baze i visine.",
+      "en": "One third of the prism with the same base and height.",
+      "it": "Un terzo del prisma con la stessa base e altezza.",
+      "fr": "Un tiers du prisme de même base et même hauteur.",
+      "es": "Un tercio del prisma de igual base y altura.",
+      "de": "Ein Drittel des Prismas mit gleicher Grundfläche und Höhe.",
+      "pt": "Um terço do prisma de mesma base e altura.",
+      "ru": "Треть объёма призмы с тем же основанием и высотой."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Apotema",
+      "en": "Slant height",
+      "it": "Apotema",
+      "fr": "Apothème",
+      "es": "Apotema",
+      "de": "Höhe der Seitenfläche",
+      "pt": "Apótema",
+      "ru": "Апофема"
+     },
+     "latex": {
+      "sr": "h^2 = H^2 + \\left(\\frac{a}{2}\\right)^2",
+      "en": "l^2 = h^2 + \\left(\\frac{a}{2}\\right)^2",
+      "it": "a_p^2 = h^2 + \\left(\\frac{a}{2}\\right)^2",
+      "fr": "a_p^2 = h^2 + \\left(\\frac{a}{2}\\right)^2",
+      "es": "a_p^2 = h^2 + \\left(\\frac{a}{2}\\right)^2",
+      "de": "h_a^2 = h^2 + \\left(\\frac{a}{2}\\right)^2",
+      "pt": "g^2 = h^2 + \\left(\\frac{a}{2}\\right)^2",
+      "ru": "h_a^2 = h^2 + \\left(\\frac{a}{2}\\right)^2"
+     },
+     "objasnjenje": {
+      "sr": "Za pravilnu četvorostranu piramidu (Pitagora u preseku).",
+      "en": "For a regular square pyramid (Pythagoras).",
+      "it": "Per la piramide quadrangolare regolare (Pitagora).",
+      "fr": "Pour une pyramide régulière à base carrée (Pythagore).",
+      "es": "Para la pirámide cuadrangular regular (Pitágoras).",
+      "de": "Für die quadratische Pyramide (Pythagoras).",
+      "pt": "Para a pirâmide quadrangular regular (Pitágoras).",
+      "ru": "Для правильной четырёхугольной пирамиды (теорема Пифагора)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "n",
+      "oznaka": "n",
+      "naziv": {
+       "sr": "broj stranica osnove",
+       "en": "sides of the base",
+       "it": "lati di base",
+       "fr": "côtés de la base",
+       "es": "lados de la base",
+       "de": "Ecken der Grundfläche",
+       "pt": "lados da base",
+       "ru": "сторон основания"
+      },
+      "pocetna": 4,
+      "ceo": true
+     },
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 6
+     },
+     {
+      "id": "H",
+      "oznaka": {
+       "sr": "H",
+       "en": "h",
+       "it": "h",
+       "fr": "h",
+       "es": "h",
+       "de": "h",
+       "pt": "h",
+       "ru": "h"
+      },
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Apotema",
+       "en": "Slant height",
+       "it": "Apotema",
+       "fr": "Apothème",
+       "es": "Apotema",
+       "de": "Höhe der Seitenfläche",
+       "pt": "Apótema",
+       "ru": "Апофема"
+      },
+      "izraz": "sqrt(H*H+pow(a/(2*Math.tan(PI/n)),2))"
+     },
+     {
+      "naziv": {
+       "sr": "Omotač",
+       "en": "Lateral area",
+       "it": "Superficie laterale",
+       "fr": "Aire latérale",
+       "es": "Área lateral",
+       "de": "Mantelfläche",
+       "pt": "Área lateral",
+       "ru": "Площадь боковой поверхности"
+      },
+      "izraz": "n*a*sqrt(H*H+pow(a/(2*Math.tan(PI/n)),2))/2"
+     },
+     {
+      "naziv": {
+       "sr": "Površina",
+       "en": "Surface area",
+       "it": "Superficie totale",
+       "fr": "Aire totale",
+       "es": "Área total",
+       "de": "Oberfläche",
+       "pt": "Área total",
+       "ru": "Площадь полной поверхности"
+      },
+      "izraz": "n*a*a/(4*Math.tan(PI/n))+n*a*sqrt(H*H+pow(a/(2*Math.tan(PI/n)),2))/2"
+     },
+     {
+      "naziv": {
+       "sr": "Zapremina V",
+       "en": "Volume V",
+       "it": "Volume V",
+       "fr": "Volume V",
+       "es": "Volumen V",
+       "de": "Volumen V",
+       "pt": "Volume V",
+       "ru": "Объём V"
+      },
+      "izraz": "n*a*a/(4*Math.tan(PI/n))*H/3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "valjak",
+   "simbol": "",
+   "ikona": "ic_t_valjak",
+   "naziv": {
+    "sr": "Valjak",
+    "en": "Cylinder",
+    "it": "Cilindro",
+    "fr": "Cylindre",
+    "es": "Cilindro",
+    "de": "Zylinder",
+    "pt": "Cilindro",
+    "ru": "Цилиндр"
+   },
+   "opis": {
+    "sr": "Površina, omotač, zapremina",
+    "en": "Surface area, lateral area, volume",
+    "it": "Superficie, volume",
+    "fr": "Aire, volume",
+    "es": "Área, volumen",
+    "de": "Oberfläche, Mantel, Volumen",
+    "pt": "Área, volume",
+    "ru": "Площадь, объём"
+   },
+   "kljucne_reci": {
+    "sr": "valjak cilindar povrsina omotac zapremina",
+    "en": "cylinder surface area lateral volume",
+    "it": "cilindro superficie laterale volume",
+    "fr": "cylindre aire laterale volume",
+    "es": "cilindro area lateral volumen",
+    "de": "zylinder oberflache mantelflache volumen",
+    "pt": "cilindro area lateral volume",
+    "ru": "цилиндр площадь боковой поверхности объем"
+   },
+   "crtez": {
+    "sr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M70,45 L70,180 A80,22 0 0 0 230,180 L230,45 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"45\" rx=\"80\" ry=\"22\"/><path class=\"pom\" d=\"M70,180 A80,22 0 0 1 230,180\"/><line class=\"pom\" x1=\"150\" y1=\"45\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"230\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"186\" y=\"174\">r</text><text class=\"oz\" x=\"157\" y=\"120\">H</text></svg>",
+    "en": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M70,45 L70,180 A80,22 0 0 0 230,180 L230,45 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"45\" rx=\"80\" ry=\"22\"/><path class=\"pom\" d=\"M70,180 A80,22 0 0 1 230,180\"/><line class=\"pom\" x1=\"150\" y1=\"45\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"230\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"186\" y=\"174\">r</text><text class=\"oz\" x=\"157\" y=\"120\">h</text></svg>",
+    "it": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M70,45 L70,180 A80,22 0 0 0 230,180 L230,45 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"45\" rx=\"80\" ry=\"22\"/><path class=\"pom\" d=\"M70,180 A80,22 0 0 1 230,180\"/><line class=\"pom\" x1=\"150\" y1=\"45\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"230\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"186\" y=\"174\">r</text><text class=\"oz\" x=\"157\" y=\"120\">h</text></svg>",
+    "fr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M70,45 L70,180 A80,22 0 0 0 230,180 L230,45 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"45\" rx=\"80\" ry=\"22\"/><path class=\"pom\" d=\"M70,180 A80,22 0 0 1 230,180\"/><line class=\"pom\" x1=\"150\" y1=\"45\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"230\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"186\" y=\"174\">r</text><text class=\"oz\" x=\"157\" y=\"120\">h</text></svg>",
+    "es": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M70,45 L70,180 A80,22 0 0 0 230,180 L230,45 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"45\" rx=\"80\" ry=\"22\"/><path class=\"pom\" d=\"M70,180 A80,22 0 0 1 230,180\"/><line class=\"pom\" x1=\"150\" y1=\"45\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"230\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"186\" y=\"174\">r</text><text class=\"oz\" x=\"157\" y=\"120\">h</text></svg>",
+    "de": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M70,45 L70,180 A80,22 0 0 0 230,180 L230,45 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"45\" rx=\"80\" ry=\"22\"/><path class=\"pom\" d=\"M70,180 A80,22 0 0 1 230,180\"/><line class=\"pom\" x1=\"150\" y1=\"45\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"230\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"186\" y=\"174\">r</text><text class=\"oz\" x=\"157\" y=\"120\">h</text></svg>",
+    "pt": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M70,45 L70,180 A80,22 0 0 0 230,180 L230,45 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"45\" rx=\"80\" ry=\"22\"/><path class=\"pom\" d=\"M70,180 A80,22 0 0 1 230,180\"/><line class=\"pom\" x1=\"150\" y1=\"45\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"230\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"186\" y=\"174\">r</text><text class=\"oz\" x=\"157\" y=\"120\">h</text></svg>",
+    "ru": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M70,45 L70,180 A80,22 0 0 0 230,180 L230,45 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"45\" rx=\"80\" ry=\"22\"/><path class=\"pom\" d=\"M70,180 A80,22 0 0 1 230,180\"/><line class=\"pom\" x1=\"150\" y1=\"45\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"230\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"186\" y=\"174\">R</text><text class=\"oz\" x=\"157\" y=\"120\">h</text></svg>"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Baza",
+      "en": "Base area",
+      "it": "Area di base",
+      "fr": "Aire de la base",
+      "es": "Área de la base",
+      "de": "Grundfläche",
+      "pt": "Área da base",
+      "ru": "Площадь основания"
+     },
+     "latex": {
+      "sr": "B = r^2\\pi",
+      "en": "B = \\pi r^2",
+      "it": "A_b = \\pi r^2",
+      "fr": "B = \\pi r^2",
+      "es": "A_B = \\pi r^2",
+      "de": "G = \\pi r^2",
+      "pt": "A_b = \\pi r^2",
+      "ru": "S_{\\text{осн}} = \\pi R^2"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Omotač",
+      "en": "Lateral area",
+      "it": "Superficie laterale",
+      "fr": "Aire latérale",
+      "es": "Área lateral",
+      "de": "Mantelfläche",
+      "pt": "Área lateral",
+      "ru": "Площадь боковой поверхности"
+     },
+     "latex": {
+      "sr": "M = 2r\\pi H",
+      "en": "LA = 2\\pi r h",
+      "it": "S_l = 2\\pi r h",
+      "fr": "A_l = 2\\pi r h",
+      "es": "A_L = 2\\pi r h",
+      "de": "M = 2\\pi r h",
+      "pt": "A_l = 2\\pi r h",
+      "ru": "S_{\\text{бок}} = 2\\pi R h"
+     },
+     "objasnjenje": {
+      "sr": "Razmotan omotač je pravougaonik: obim baze puta visina.",
+      "en": "Unrolled, the side is a rectangle: circumference times height.",
+      "it": "Svolta, la superficie laterale è un rettangolo: circonferenza per altezza.",
+      "fr": "Déroulée, la surface latérale est un rectangle : périmètre de la base fois hauteur.",
+      "es": "Desarrollada, la superficie lateral es un rectángulo: perímetro de la base por altura.",
+      "de": "Abgewickelt ist der Mantel ein Rechteck: Umfang mal Höhe.",
+      "pt": "Planificada, a superfície lateral é um retângulo: comprimento da base vezes altura.",
+      "ru": "Развёртка боковой поверхности — прямоугольник: длина окружности основания на высоту."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Surface area",
+      "it": "Superficie totale",
+      "fr": "Aire totale",
+      "es": "Área total",
+      "de": "Oberfläche",
+      "pt": "Área total",
+      "ru": "Площадь полной поверхности"
+     },
+     "latex": {
+      "sr": "P = 2B + M = 2r\\pi(r + H)",
+      "en": "SA = 2\\pi r(r + h)",
+      "it": "S_t = 2\\pi r(r + h)",
+      "fr": "A_t = 2\\pi r(r + h)",
+      "es": "A_T = 2\\pi r(r + h)",
+      "de": "O = 2\\pi r(r + h)",
+      "pt": "A_t = 2\\pi r(r + h)",
+      "ru": "S_{\\text{полн}} = 2\\pi R(R + h)"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zapremina",
+      "en": "Volume",
+      "it": "Volume",
+      "fr": "Volume",
+      "es": "Volumen",
+      "de": "Volumen",
+      "pt": "Volume",
+      "ru": "Объём"
+     },
+     "latex": {
+      "sr": "V = r^2\\pi H",
+      "en": "V = \\pi r^2 h",
+      "it": "V = \\pi r^2 h",
+      "fr": "V = \\pi r^2 h",
+      "es": "V = \\pi r^2 h",
+      "de": "V = \\pi r^2 h",
+      "pt": "V = \\pi r^2 h",
+      "ru": "V = \\pi R^2 h"
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "r",
+      "oznaka": {
+       "sr": "r",
+       "en": "r",
+       "it": "r",
+       "fr": "r",
+       "es": "r",
+       "de": "r",
+       "pt": "r",
+       "ru": "R"
+      },
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     },
+     {
+      "id": "H",
+      "oznaka": {
+       "sr": "H",
+       "en": "h",
+       "it": "h",
+       "fr": "h",
+       "es": "h",
+       "de": "h",
+       "pt": "h",
+       "ru": "h"
+      },
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 10
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Omotač",
+       "en": "Lateral area",
+       "it": "Superficie laterale",
+       "fr": "Aire latérale",
+       "es": "Área lateral",
+       "de": "Mantelfläche",
+       "pt": "Área lateral",
+       "ru": "Площадь боковой поверхности"
+      },
+      "izraz": "2*PI*r*H"
+     },
+     {
+      "naziv": {
+       "sr": "Površina",
+       "en": "Surface area",
+       "it": "Superficie totale",
+       "fr": "Aire totale",
+       "es": "Área total",
+       "de": "Oberfläche",
+       "pt": "Área total",
+       "ru": "Площадь полной поверхности"
+      },
+      "izraz": "2*PI*r*(r+H)"
+     },
+     {
+      "naziv": {
+       "sr": "Zapremina V",
+       "en": "Volume V",
+       "it": "Volume V",
+       "fr": "Volume V",
+       "es": "Volumen V",
+       "de": "Volumen V",
+       "pt": "Volume V",
+       "ru": "Объём V"
+      },
+      "izraz": "PI*r*r*H"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kupa",
+   "simbol": "",
+   "ikona": "ic_t_kupa",
+   "naziv": {
+    "sr": "Kupa",
+    "en": "Cone",
+    "it": "Cono",
+    "fr": "Cône",
+    "es": "Cono",
+    "de": "Kegel",
+    "pt": "Cone",
+    "ru": "Конус"
+   },
+   "opis": {
+    "sr": "Površina, omotač, zapremina",
+    "en": "Surface area, lateral area, volume",
+    "it": "Superficie, volume",
+    "fr": "Aire, volume",
+    "es": "Área, volumen",
+    "de": "Oberfläche, Mantel, Volumen",
+    "pt": "Área, volume",
+    "ru": "Площадь, объём"
+   },
+   "kljucne_reci": {
+    "sr": "kupa konus povrsina omotac izvodnica zapremina",
+    "en": "cone surface area lateral slant height volume",
+    "it": "cono superficie laterale apotema volume",
+    "fr": "cone aire laterale generatrice volume",
+    "es": "cono area lateral generatriz volumen",
+    "de": "kegel oberflache mantelflache mantellinie volumen",
+    "pt": "cone area lateral geratriz volume",
+    "ru": "конус площадь боковой поверхности образующая объем"
+   },
+   "crtez": {
+    "sr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M65,180 L150,25 L235,180 A85,24 0 0 1 65,180 Z\"/><path class=\"pom\" d=\"M65,180 A85,24 0 0 1 235,180\"/><line class=\"pom\" x1=\"150\" y1=\"25\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"235\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"188\" y=\"174\">r</text><text class=\"oz\" x=\"157\" y=\"118\">H</text><text class=\"oz\" x=\"203\" y=\"98\">s</text></svg>",
+    "en": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M65,180 L150,25 L235,180 A85,24 0 0 1 65,180 Z\"/><path class=\"pom\" d=\"M65,180 A85,24 0 0 1 235,180\"/><line class=\"pom\" x1=\"150\" y1=\"25\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"235\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"188\" y=\"174\">r</text><text class=\"oz\" x=\"157\" y=\"118\">h</text><text class=\"oz\" x=\"203\" y=\"98\">l</text></svg>",
+    "it": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M65,180 L150,25 L235,180 A85,24 0 0 1 65,180 Z\"/><path class=\"pom\" d=\"M65,180 A85,24 0 0 1 235,180\"/><line class=\"pom\" x1=\"150\" y1=\"25\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"235\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"188\" y=\"174\">r</text><text class=\"oz\" x=\"157\" y=\"118\">h</text><text class=\"oz\" x=\"203\" y=\"98\">a</text></svg>",
+    "fr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M65,180 L150,25 L235,180 A85,24 0 0 1 65,180 Z\"/><path class=\"pom\" d=\"M65,180 A85,24 0 0 1 235,180\"/><line class=\"pom\" x1=\"150\" y1=\"25\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"235\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"188\" y=\"174\">r</text><text class=\"oz\" x=\"157\" y=\"118\">h</text><text class=\"oz\" x=\"203\" y=\"98\">g</text></svg>",
+    "es": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M65,180 L150,25 L235,180 A85,24 0 0 1 65,180 Z\"/><path class=\"pom\" d=\"M65,180 A85,24 0 0 1 235,180\"/><line class=\"pom\" x1=\"150\" y1=\"25\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"235\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"188\" y=\"174\">r</text><text class=\"oz\" x=\"157\" y=\"118\">h</text><text class=\"oz\" x=\"203\" y=\"98\">g</text></svg>",
+    "de": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M65,180 L150,25 L235,180 A85,24 0 0 1 65,180 Z\"/><path class=\"pom\" d=\"M65,180 A85,24 0 0 1 235,180\"/><line class=\"pom\" x1=\"150\" y1=\"25\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"235\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"188\" y=\"174\">r</text><text class=\"oz\" x=\"157\" y=\"118\">h</text><text class=\"oz\" x=\"203\" y=\"98\">s</text></svg>",
+    "pt": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M65,180 L150,25 L235,180 A85,24 0 0 1 65,180 Z\"/><path class=\"pom\" d=\"M65,180 A85,24 0 0 1 235,180\"/><line class=\"pom\" x1=\"150\" y1=\"25\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"235\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"188\" y=\"174\">r</text><text class=\"oz\" x=\"157\" y=\"118\">h</text><text class=\"oz\" x=\"203\" y=\"98\">g</text></svg>",
+    "ru": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M65,180 L150,25 L235,180 A85,24 0 0 1 65,180 Z\"/><path class=\"pom\" d=\"M65,180 A85,24 0 0 1 235,180\"/><line class=\"pom\" x1=\"150\" y1=\"25\" x2=\"150\" y2=\"180\"/><line class=\"lik-l\" x1=\"150\" y1=\"180\" x2=\"235\" y2=\"180\"/><circle class=\"tac\" cx=\"150\" cy=\"180\" r=\"3\"/><text class=\"oz\" x=\"188\" y=\"174\">R</text><text class=\"oz\" x=\"157\" y=\"118\">h</text><text class=\"oz\" x=\"203\" y=\"98\">l</text></svg>"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Izvodnica",
+      "en": "Slant height",
+      "it": "Apotema",
+      "fr": "Génératrice",
+      "es": "Generatriz",
+      "de": "Mantellinie",
+      "pt": "Geratriz",
+      "ru": "Образующая"
+     },
+     "latex": {
+      "sr": "s^2 = r^2 + H^2",
+      "en": "l^2 = r^2 + h^2",
+      "it": "a^2 = r^2 + h^2",
+      "fr": "g^2 = r^2 + h^2",
+      "es": "g^2 = r^2 + h^2",
+      "de": "s^2 = r^2 + h^2",
+      "pt": "g^2 = r^2 + h^2",
+      "ru": "l^2 = R^2 + h^2"
+     },
+     "objasnjenje": {
+      "sr": "Pitagorina teorema u osnom preseku.",
+      "en": "Pythagoras in the axial cross-section.",
+      "it": "Pitagora nella sezione assiale.",
+      "fr": "Pythagore dans la section axiale.",
+      "es": "Pitágoras en la sección axial.",
+      "de": "Pythagoras im Achsenschnitt.",
+      "pt": "Pitágoras na seção meridiana.",
+      "ru": "Теорема Пифагора в осевом сечении."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Omotač",
+      "en": "Lateral area",
+      "it": "Superficie laterale",
+      "fr": "Aire latérale",
+      "es": "Área lateral",
+      "de": "Mantelfläche",
+      "pt": "Área lateral",
+      "ru": "Площадь боковой поверхности"
+     },
+     "latex": {
+      "sr": "M = r\\pi s",
+      "en": "LA = \\pi r l",
+      "it": "S_l = \\pi r a",
+      "fr": "A_l = \\pi r g",
+      "es": "A_L = \\pi r g",
+      "de": "M = \\pi r s",
+      "pt": "A_l = \\pi r g",
+      "ru": "S_{\\text{бок}} = \\pi R l"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Surface area",
+      "it": "Superficie totale",
+      "fr": "Aire totale",
+      "es": "Área total",
+      "de": "Oberfläche",
+      "pt": "Área total",
+      "ru": "Площадь полной поверхности"
+     },
+     "latex": {
+      "sr": "P = B + M = r\\pi(r + s)",
+      "en": "SA = \\pi r(r + l)",
+      "it": "S_t = \\pi r(r + a)",
+      "fr": "A_t = \\pi r(r + g)",
+      "es": "A_T = \\pi r(r + g)",
+      "de": "O = \\pi r(r + s)",
+      "pt": "A_t = \\pi r(r + g)",
+      "ru": "S_{\\text{полн}} = \\pi R(R + l)"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zapremina",
+      "en": "Volume",
+      "it": "Volume",
+      "fr": "Volume",
+      "es": "Volumen",
+      "de": "Volumen",
+      "pt": "Volume",
+      "ru": "Объём"
+     },
+     "latex": {
+      "sr": "V = \\frac{1}{3} r^2\\pi H",
+      "en": "V = \\frac{1}{3}\\pi r^2 h",
+      "it": "V = \\frac{1}{3}\\pi r^2 h",
+      "fr": "V = \\frac{1}{3}\\pi r^2 h",
+      "es": "V = \\frac{1}{3}\\pi r^2 h",
+      "de": "V = \\frac{1}{3}\\pi r^2 h",
+      "pt": "V = \\frac{1}{3}\\pi r^2 h",
+      "ru": "V = \\frac{1}{3}\\pi R^2 h"
+     },
+     "objasnjenje": {
+      "sr": "Trećina zapremine valjka iste baze i visine.",
+      "en": "One third of the cylinder with the same base and height.",
+      "it": "Un terzo del cilindro con la stessa base e altezza.",
+      "fr": "Un tiers du cylindre de même base et même hauteur.",
+      "es": "Un tercio del cilindro de igual base y altura.",
+      "de": "Ein Drittel des Zylinders mit gleicher Grundfläche und Höhe.",
+      "pt": "Um terço do cilindro de mesma base e altura.",
+      "ru": "Треть объёма цилиндра с тем же основанием и высотой."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "r",
+      "oznaka": {
+       "sr": "r",
+       "en": "r",
+       "it": "r",
+       "fr": "r",
+       "es": "r",
+       "de": "r",
+       "pt": "r",
+       "ru": "R"
+      },
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     },
+     {
+      "id": "H",
+      "oznaka": {
+       "sr": "H",
+       "en": "h",
+       "it": "h",
+       "fr": "h",
+       "es": "h",
+       "de": "h",
+       "pt": "h",
+       "ru": "h"
+      },
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Izvodnica",
+       "en": "Slant height",
+       "it": "Apotema",
+       "fr": "Génératrice",
+       "es": "Generatriz",
+       "de": "Mantellinie",
+       "pt": "Geratriz",
+       "ru": "Образующая"
+      },
+      "izraz": "sqrt(r*r+H*H)"
+     },
+     {
+      "naziv": {
+       "sr": "Omotač",
+       "en": "Lateral area",
+       "it": "Superficie laterale",
+       "fr": "Aire latérale",
+       "es": "Área lateral",
+       "de": "Mantelfläche",
+       "pt": "Área lateral",
+       "ru": "Площадь боковой поверхности"
+      },
+      "izraz": "PI*r*sqrt(r*r+H*H)"
+     },
+     {
+      "naziv": {
+       "sr": "Površina",
+       "en": "Surface area",
+       "it": "Superficie totale",
+       "fr": "Aire totale",
+       "es": "Área total",
+       "de": "Oberfläche",
+       "pt": "Área total",
+       "ru": "Площадь полной поверхности"
+      },
+      "izraz": "PI*r*(r+sqrt(r*r+H*H))"
+     },
+     {
+      "naziv": {
+       "sr": "Zapremina V",
+       "en": "Volume V",
+       "it": "Volume V",
+       "fr": "Volume V",
+       "es": "Volumen V",
+       "de": "Volumen V",
+       "pt": "Volume V",
+       "ru": "Объём V"
+      },
+      "izraz": "PI*r*r*H/3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "zarubljena_kupa",
+   "simbol": "",
+   "ikona": "ic_t_zarubljena_kupa",
+   "naziv": {
+    "sr": "Zarubljena kupa",
+    "en": "Frustum of a cone",
+    "it": "Tronco di cono",
+    "fr": "Tronc de cône",
+    "es": "Tronco de cono",
+    "de": "Kegelstumpf",
+    "pt": "Tronco de cone",
+    "ru": "Усечённый конус"
+   },
+   "opis": {
+    "sr": "Površina, omotač, zapremina",
+    "en": "Surface area, lateral area, volume",
+    "it": "Superficie, volume",
+    "fr": "Aire, volume",
+    "es": "Área, volumen",
+    "de": "Oberfläche, Mantel, Volumen",
+    "pt": "Área, volume",
+    "ru": "Площадь, объём"
+   },
+   "kljucne_reci": {
+    "sr": "zarubljena kupa povrsina omotac zapremina",
+    "en": "frustum cone truncated surface area volume",
+    "it": "tronco di cono superficie volume",
+    "fr": "tronc de cone aire volume",
+    "es": "tronco de cono area volumen",
+    "de": "kegelstumpf oberflache mantelflache volumen",
+    "pt": "tronco de cone area volume",
+    "ru": "усеченный конус площадь объем"
+   },
+   "crtez": {
+    "sr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M60,185 L105,55 L195,55 L240,185 A90,24 0 0 1 60,185 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"55\" rx=\"45\" ry=\"13\"/><path class=\"pom\" d=\"M60,185 A90,24 0 0 1 240,185\"/><line class=\"pom\" x1=\"150\" y1=\"55\" x2=\"150\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"185\" x2=\"240\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"55\" x2=\"195\" y2=\"55\"/><text class=\"oz\" x=\"190\" y=\"179\">R</text><text class=\"oz\" x=\"166\" y=\"49\">r</text><text class=\"oz\" x=\"157\" y=\"128\">H</text><text class=\"oz\" x=\"226\" y=\"116\">s</text></svg>",
+    "en": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M60,185 L105,55 L195,55 L240,185 A90,24 0 0 1 60,185 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"55\" rx=\"45\" ry=\"13\"/><path class=\"pom\" d=\"M60,185 A90,24 0 0 1 240,185\"/><line class=\"pom\" x1=\"150\" y1=\"55\" x2=\"150\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"185\" x2=\"240\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"55\" x2=\"195\" y2=\"55\"/><text class=\"oz\" x=\"190\" y=\"179\">R</text><text class=\"oz\" x=\"166\" y=\"49\">r</text><text class=\"oz\" x=\"157\" y=\"128\">h</text><text class=\"oz\" x=\"226\" y=\"116\">l</text></svg>",
+    "it": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M60,185 L105,55 L195,55 L240,185 A90,24 0 0 1 60,185 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"55\" rx=\"45\" ry=\"13\"/><path class=\"pom\" d=\"M60,185 A90,24 0 0 1 240,185\"/><line class=\"pom\" x1=\"150\" y1=\"55\" x2=\"150\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"185\" x2=\"240\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"55\" x2=\"195\" y2=\"55\"/><text class=\"oz\" x=\"190\" y=\"179\">R</text><text class=\"oz\" x=\"166\" y=\"49\">r</text><text class=\"oz\" x=\"157\" y=\"128\">h</text><text class=\"oz\" x=\"226\" y=\"116\">a</text></svg>",
+    "fr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M60,185 L105,55 L195,55 L240,185 A90,24 0 0 1 60,185 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"55\" rx=\"45\" ry=\"13\"/><path class=\"pom\" d=\"M60,185 A90,24 0 0 1 240,185\"/><line class=\"pom\" x1=\"150\" y1=\"55\" x2=\"150\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"185\" x2=\"240\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"55\" x2=\"195\" y2=\"55\"/><text class=\"oz\" x=\"190\" y=\"179\">R</text><text class=\"oz\" x=\"166\" y=\"49\">r</text><text class=\"oz\" x=\"157\" y=\"128\">h</text><text class=\"oz\" x=\"226\" y=\"116\">g</text></svg>",
+    "es": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M60,185 L105,55 L195,55 L240,185 A90,24 0 0 1 60,185 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"55\" rx=\"45\" ry=\"13\"/><path class=\"pom\" d=\"M60,185 A90,24 0 0 1 240,185\"/><line class=\"pom\" x1=\"150\" y1=\"55\" x2=\"150\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"185\" x2=\"240\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"55\" x2=\"195\" y2=\"55\"/><text class=\"oz\" x=\"190\" y=\"179\">R</text><text class=\"oz\" x=\"166\" y=\"49\">r</text><text class=\"oz\" x=\"157\" y=\"128\">h</text><text class=\"oz\" x=\"226\" y=\"116\">g</text></svg>",
+    "de": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M60,185 L105,55 L195,55 L240,185 A90,24 0 0 1 60,185 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"55\" rx=\"45\" ry=\"13\"/><path class=\"pom\" d=\"M60,185 A90,24 0 0 1 240,185\"/><line class=\"pom\" x1=\"150\" y1=\"55\" x2=\"150\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"185\" x2=\"240\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"55\" x2=\"195\" y2=\"55\"/><text class=\"oz\" x=\"190\" y=\"179\">R</text><text class=\"oz\" x=\"166\" y=\"49\">r</text><text class=\"oz\" x=\"157\" y=\"128\">h</text><text class=\"oz\" x=\"226\" y=\"116\">s</text></svg>",
+    "pt": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M60,185 L105,55 L195,55 L240,185 A90,24 0 0 1 60,185 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"55\" rx=\"45\" ry=\"13\"/><path class=\"pom\" d=\"M60,185 A90,24 0 0 1 240,185\"/><line class=\"pom\" x1=\"150\" y1=\"55\" x2=\"150\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"185\" x2=\"240\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"55\" x2=\"195\" y2=\"55\"/><text class=\"oz\" x=\"190\" y=\"179\">R</text><text class=\"oz\" x=\"166\" y=\"49\">r</text><text class=\"oz\" x=\"157\" y=\"128\">h</text><text class=\"oz\" x=\"226\" y=\"116\">g</text></svg>",
+    "ru": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M60,185 L105,55 L195,55 L240,185 A90,24 0 0 1 60,185 Z\"/><ellipse class=\"lik2\" cx=\"150\" cy=\"55\" rx=\"45\" ry=\"13\"/><path class=\"pom\" d=\"M60,185 A90,24 0 0 1 240,185\"/><line class=\"pom\" x1=\"150\" y1=\"55\" x2=\"150\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"185\" x2=\"240\" y2=\"185\"/><line class=\"lik-l\" x1=\"150\" y1=\"55\" x2=\"195\" y2=\"55\"/><text class=\"oz\" x=\"190\" y=\"179\">R</text><text class=\"oz\" x=\"166\" y=\"49\">r</text><text class=\"oz\" x=\"157\" y=\"128\">h</text><text class=\"oz\" x=\"226\" y=\"116\">l</text></svg>"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Izvodnica",
+      "en": "Slant height",
+      "it": "Apotema",
+      "fr": "Génératrice",
+      "es": "Generatriz",
+      "de": "Mantellinie",
+      "pt": "Geratriz",
+      "ru": "Образующая"
+     },
+     "latex": {
+      "sr": "s^2 = H^2 + (R - r)^2",
+      "en": "l^2 = h^2 + (R - r)^2",
+      "it": "a^2 = h^2 + (R - r)^2",
+      "fr": "g^2 = h^2 + (R - r)^2",
+      "es": "g^2 = h^2 + (R - r)^2",
+      "de": "s^2 = h^2 + (R - r)^2",
+      "pt": "g^2 = h^2 + (R - r)^2",
+      "ru": "l^2 = h^2 + (R - r)^2"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Omotač",
+      "en": "Lateral area",
+      "it": "Superficie laterale",
+      "fr": "Aire latérale",
+      "es": "Área lateral",
+      "de": "Mantelfläche",
+      "pt": "Área lateral",
+      "ru": "Площадь боковой поверхности"
+     },
+     "latex": {
+      "sr": "M = \\pi s (R + r)",
+      "en": "LA = \\pi l (R + r)",
+      "it": "S_l = \\pi a (R + r)",
+      "fr": "A_l = \\pi g (R + r)",
+      "es": "A_L = \\pi g (R + r)",
+      "de": "M = \\pi s (R + r)",
+      "pt": "A_l = \\pi g (R + r)",
+      "ru": "S_{\\text{бок}} = \\pi l (R + r)"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Surface area",
+      "it": "Superficie totale",
+      "fr": "Aire totale",
+      "es": "Área total",
+      "de": "Oberfläche",
+      "pt": "Área total",
+      "ru": "Площадь полной поверхности"
+     },
+     "latex": {
+      "sr": "P = \\pi (R^2 + r^2) + M",
+      "en": "SA = \\pi (R^2 + r^2) + LA",
+      "it": "S_t = \\pi (R^2 + r^2) + S_l",
+      "fr": "A_t = \\pi (R^2 + r^2) + A_l",
+      "es": "A_T = \\pi (R^2 + r^2) + A_L",
+      "de": "O = \\pi (R^2 + r^2) + M",
+      "pt": "A_t = \\pi (R^2 + r^2) + A_l",
+      "ru": "S_{\\text{полн}} = \\pi (R^2 + r^2) + S_{\\text{бок}}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zapremina",
+      "en": "Volume",
+      "it": "Volume",
+      "fr": "Volume",
+      "es": "Volumen",
+      "de": "Volumen",
+      "pt": "Volume",
+      "ru": "Объём"
+     },
+     "latex": {
+      "sr": "V = \\frac{\\pi H}{3} \\left(R^2 + R r + r^2\\right)",
+      "en": "V = \\frac{\\pi h}{3} \\left(R^2 + R r + r^2\\right)",
+      "it": "V = \\frac{\\pi h}{3} \\left(R^2 + R r + r^2\\right)",
+      "fr": "V = \\frac{\\pi h}{3} \\left(R^2 + R r + r^2\\right)",
+      "es": "V = \\frac{\\pi h}{3} \\left(R^2 + R r + r^2\\right)",
+      "de": "V = \\frac{\\pi h}{3} \\left(R^2 + R r + r^2\\right)",
+      "pt": "V = \\frac{\\pi h}{3} \\left(R^2 + R r + r^2\\right)",
+      "ru": "V = \\frac{\\pi h}{3} \\left(R^2 + R r + r^2\\right)"
+     },
+     "objasnjenje": {
+      "sr": "R je poluprečnik veće, a r manje baze.",
+      "en": "R is the radius of the larger base, r of the smaller.",
+      "it": "R è il raggio della base maggiore, r di quella minore.",
+      "fr": "R est le rayon de la grande base, r celui de la petite.",
+      "es": "R es el radio de la base mayor y r el de la menor.",
+      "de": "R ist der Radius der großen, r der kleinen Grundfläche.",
+      "pt": "R é o raio da base maior e r o da menor.",
+      "ru": "R — радиус большего основания, r — меньшего."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "R",
+      "oznaka": "R",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 6
+     },
+     {
+      "id": "r",
+      "oznaka": "r",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     },
+     {
+      "id": "H",
+      "oznaka": {
+       "sr": "H",
+       "en": "h",
+       "it": "h",
+       "fr": "h",
+       "es": "h",
+       "de": "h",
+       "pt": "h",
+       "ru": "h"
+      },
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Izvodnica",
+       "en": "Slant height",
+       "it": "Apotema",
+       "fr": "Génératrice",
+       "es": "Generatriz",
+       "de": "Mantellinie",
+       "pt": "Geratriz",
+       "ru": "Образующая"
+      },
+      "izraz": "sqrt(H*H+(R-r)*(R-r))"
+     },
+     {
+      "naziv": {
+       "sr": "Omotač",
+       "en": "Lateral area",
+       "it": "Superficie laterale",
+       "fr": "Aire latérale",
+       "es": "Área lateral",
+       "de": "Mantelfläche",
+       "pt": "Área lateral",
+       "ru": "Площадь боковой поверхности"
+      },
+      "izraz": "PI*sqrt(H*H+(R-r)*(R-r))*(R+r)"
+     },
+     {
+      "naziv": {
+       "sr": "Površina",
+       "en": "Surface area",
+       "it": "Superficie totale",
+       "fr": "Aire totale",
+       "es": "Área total",
+       "de": "Oberfläche",
+       "pt": "Área total",
+       "ru": "Площадь полной поверхности"
+      },
+      "izraz": "PI*(R*R+r*r)+PI*sqrt(H*H+(R-r)*(R-r))*(R+r)"
+     },
+     {
+      "naziv": {
+       "sr": "Zapremina V",
+       "en": "Volume V",
+       "it": "Volume V",
+       "fr": "Volume V",
+       "es": "Volumen V",
+       "de": "Volumen V",
+       "pt": "Volume V",
+       "ru": "Объём V"
+      },
+      "izraz": "PI*H/3*(R*R+R*r+r*r)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "lopta",
+   "simbol": "",
+   "ikona": "ic_t_lopta",
+   "naziv": {
+    "sr": "Lopta",
+    "en": "Sphere",
+    "it": "Sfera",
+    "fr": "Sphère et boule",
+    "es": "Esfera",
+    "de": "Kugel",
+    "pt": "Esfera",
+    "ru": "Шар"
+   },
+   "opis": {
+    "sr": "Površina i zapremina",
+    "en": "Surface area and volume",
+    "it": "Superficie e volume",
+    "fr": "Aire et volume",
+    "es": "Área y volumen",
+    "de": "Oberfläche und Volumen",
+    "pt": "Área e volume",
+    "ru": "Площадь и объём"
+   },
+   "kljucne_reci": {
+    "sr": "lopta sfera povrsina zapremina poluprecnik",
+    "en": "sphere ball surface area volume radius",
+    "it": "sfera palla superficie volume raggio",
+    "fr": "sphere boule aire volume rayon",
+    "es": "esfera bola area volumen radio",
+    "de": "kugel oberflache volumen radius",
+    "pt": "esfera bola area volume raio",
+    "ru": "шар сфера площадь поверхности объем радиус"
+   },
+   "crtez": {
+    "sr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><circle class=\"lik\" cx=\"150\" cy=\"110\" r=\"90\"/><path class=\"pom\" d=\"M60,110 A90,24 0 0 1 240,110\"/><path class=\"ivica\" d=\"M60,110 A90,24 0 0 0 240,110\"/><line class=\"lik-l\" x1=\"150\" y1=\"110\" x2=\"240\" y2=\"110\"/><circle class=\"tac\" cx=\"150\" cy=\"110\" r=\"3\"/><text class=\"oz\" x=\"190\" y=\"104\">r</text></svg>",
+    "en": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><circle class=\"lik\" cx=\"150\" cy=\"110\" r=\"90\"/><path class=\"pom\" d=\"M60,110 A90,24 0 0 1 240,110\"/><path class=\"ivica\" d=\"M60,110 A90,24 0 0 0 240,110\"/><line class=\"lik-l\" x1=\"150\" y1=\"110\" x2=\"240\" y2=\"110\"/><circle class=\"tac\" cx=\"150\" cy=\"110\" r=\"3\"/><text class=\"oz\" x=\"190\" y=\"104\">r</text></svg>",
+    "it": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><circle class=\"lik\" cx=\"150\" cy=\"110\" r=\"90\"/><path class=\"pom\" d=\"M60,110 A90,24 0 0 1 240,110\"/><path class=\"ivica\" d=\"M60,110 A90,24 0 0 0 240,110\"/><line class=\"lik-l\" x1=\"150\" y1=\"110\" x2=\"240\" y2=\"110\"/><circle class=\"tac\" cx=\"150\" cy=\"110\" r=\"3\"/><text class=\"oz\" x=\"190\" y=\"104\">r</text></svg>",
+    "fr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><circle class=\"lik\" cx=\"150\" cy=\"110\" r=\"90\"/><path class=\"pom\" d=\"M60,110 A90,24 0 0 1 240,110\"/><path class=\"ivica\" d=\"M60,110 A90,24 0 0 0 240,110\"/><line class=\"lik-l\" x1=\"150\" y1=\"110\" x2=\"240\" y2=\"110\"/><circle class=\"tac\" cx=\"150\" cy=\"110\" r=\"3\"/><text class=\"oz\" x=\"190\" y=\"104\">r</text></svg>",
+    "es": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><circle class=\"lik\" cx=\"150\" cy=\"110\" r=\"90\"/><path class=\"pom\" d=\"M60,110 A90,24 0 0 1 240,110\"/><path class=\"ivica\" d=\"M60,110 A90,24 0 0 0 240,110\"/><line class=\"lik-l\" x1=\"150\" y1=\"110\" x2=\"240\" y2=\"110\"/><circle class=\"tac\" cx=\"150\" cy=\"110\" r=\"3\"/><text class=\"oz\" x=\"190\" y=\"104\">r</text></svg>",
+    "de": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><circle class=\"lik\" cx=\"150\" cy=\"110\" r=\"90\"/><path class=\"pom\" d=\"M60,110 A90,24 0 0 1 240,110\"/><path class=\"ivica\" d=\"M60,110 A90,24 0 0 0 240,110\"/><line class=\"lik-l\" x1=\"150\" y1=\"110\" x2=\"240\" y2=\"110\"/><circle class=\"tac\" cx=\"150\" cy=\"110\" r=\"3\"/><text class=\"oz\" x=\"190\" y=\"104\">r</text></svg>",
+    "pt": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><circle class=\"lik\" cx=\"150\" cy=\"110\" r=\"90\"/><path class=\"pom\" d=\"M60,110 A90,24 0 0 1 240,110\"/><path class=\"ivica\" d=\"M60,110 A90,24 0 0 0 240,110\"/><line class=\"lik-l\" x1=\"150\" y1=\"110\" x2=\"240\" y2=\"110\"/><circle class=\"tac\" cx=\"150\" cy=\"110\" r=\"3\"/><text class=\"oz\" x=\"190\" y=\"104\">r</text></svg>",
+    "ru": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><circle class=\"lik\" cx=\"150\" cy=\"110\" r=\"90\"/><path class=\"pom\" d=\"M60,110 A90,24 0 0 1 240,110\"/><path class=\"ivica\" d=\"M60,110 A90,24 0 0 0 240,110\"/><line class=\"lik-l\" x1=\"150\" y1=\"110\" x2=\"240\" y2=\"110\"/><circle class=\"tac\" cx=\"150\" cy=\"110\" r=\"3\"/><text class=\"oz\" x=\"190\" y=\"104\">R</text></svg>"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Površina",
+      "en": "Surface area",
+      "it": "Superficie totale",
+      "fr": "Aire totale",
+      "es": "Área total",
+      "de": "Oberfläche",
+      "pt": "Área total",
+      "ru": "Площадь полной поверхности"
+     },
+     "latex": {
+      "sr": "P = 4r^2\\pi",
+      "en": "SA = 4\\pi r^2",
+      "it": "S_t = 4\\pi r^2",
+      "fr": "A_t = 4\\pi r^2",
+      "es": "A_T = 4\\pi r^2",
+      "de": "O = 4\\pi r^2",
+      "pt": "A_t = 4\\pi r^2",
+      "ru": "S_{\\text{полн}} = 4\\pi R^2"
+     },
+     "objasnjenje": {
+      "sr": "Četiri puta površina najvećeg kruga lopte.",
+      "en": "Four times the area of a great circle.",
+      "it": "Quattro volte l’area del cerchio massimo.",
+      "fr": "Quatre fois l’aire d’un grand cercle.",
+      "es": "Cuatro veces el área del círculo máximo.",
+      "de": "Viermal die Fläche des Großkreises.",
+      "pt": "Quatro vezes a área do círculo máximo.",
+      "ru": "Четыре площади большого круга."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zapremina",
+      "en": "Volume",
+      "it": "Volume",
+      "fr": "Volume",
+      "es": "Volumen",
+      "de": "Volumen",
+      "pt": "Volume",
+      "ru": "Объём"
+     },
+     "latex": {
+      "sr": "V = \\frac{4}{3} r^3\\pi",
+      "en": "V = \\frac{4}{3}\\pi r^3",
+      "it": "V = \\frac{4}{3}\\pi r^3",
+      "fr": "V = \\frac{4}{3}\\pi r^3",
+      "es": "V = \\frac{4}{3}\\pi r^3",
+      "de": "V = \\frac{4}{3}\\pi r^3",
+      "pt": "V = \\frac{4}{3}\\pi r^3",
+      "ru": "V = \\frac{4}{3}\\pi R^3"
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "r",
+      "oznaka": {
+       "sr": "r",
+       "en": "r",
+       "it": "r",
+       "fr": "r",
+       "es": "r",
+       "de": "r",
+       "pt": "r",
+       "ru": "R"
+      },
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 5
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Površina",
+       "en": "Surface area",
+       "it": "Superficie totale",
+       "fr": "Aire totale",
+       "es": "Área total",
+       "de": "Oberfläche",
+       "pt": "Área total",
+       "ru": "Площадь полной поверхности"
+      },
+      "izraz": "4*PI*r*r"
+     },
+     {
+      "naziv": {
+       "sr": "Zapremina V",
+       "en": "Volume V",
+       "it": "Volume V",
+       "fr": "Volume V",
+       "es": "Volumen V",
+       "de": "Volumen V",
+       "pt": "Volume V",
+       "ru": "Объём V"
+      },
+      "izraz": "4/3*PI*r*r*r"
+     }
+    ]
+   }
+  }
+ ]
+}

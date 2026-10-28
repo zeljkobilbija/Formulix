@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ikonice figura se učitavaju po imenu iz JSON-a (getIdentifier), zato ih čuvamo pri smanjivanju resursa -->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/ic_f_*,@drawable/ic_t_*,@drawable/ic_a_*" />

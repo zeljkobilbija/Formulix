@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="podnaslov">A matemática no seu bolso</string>
+    <string name="pretraga_hint">Pesquisar fórmulas… (ex.: cone, integral)</string>
+    <string name="obrisi_pretragu">Limpar pesquisa</string>
+    <string name="oblasti">Temas</string>
+    <string name="nema_rezultata">Nenhum resultado</string>
+    <string name="oblast_aritmetika">Aritmética</string>
+    <string name="opis_aritmetika">Porcentagens, frações</string>
+    <string name="oblast_algebra">Álgebra</string>
+    <string name="opis_algebra">Equações, logaritmos</string>
+    <string name="oblast_planimetrija">Geometria plana</string>
+    <string name="opis_planimetrija">Perímetro e área</string>
+    <string name="oblast_stereometrija">Geometria espacial</string>
+    <string name="opis_stereometrija">Área, volume</string>
+    <string name="oblast_trigonometrija">Trigonometria</string>
+    <string name="opis_trigonometrija">Teoremas, identidades</string>
+    <string name="oblast_analiza">Cálculo</string>
+    <string name="opis_analiza">Derivadas, integrais</string>
+    <string name="oblast_analiticka_geometrija">Geometria analítica</string>
+    <string name="opis_analiticka_geometrija">Retas, cônicas</string>
+    <string name="oblast_kombinatorika">Análise combinatória</string>
+    <string name="opis_kombinatorika">Probabilidade, sequências</string>
+    <string name="rezultati">Resultados</string>
+    <string name="nazad">Voltar</string>
+    <string name="uskoro_oblast">As fórmulas deste tema chegam em breve.</string>
+</resources>

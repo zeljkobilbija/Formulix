@@ -1,0 +1,1347 @@
+{
+ "oblast": "analiza",
+ "teme": [
+  {
+   "id": "limesi",
+   "simbol": "lim",
+   "naziv": {
+    "sr": "Granične vrednosti",
+    "en": "Limits",
+    "it": "Limiti notevoli",
+    "fr": "Limites usuelles",
+    "es": "Límites notables",
+    "de": "Grenzwerte",
+    "pt": "Limites fundamentais",
+    "ru": "Замечательные пределы"
+   },
+   "opis": {
+    "sr": "Važni limesi i broj e",
+    "en": "Important limits and the number e",
+    "it": "Limiti notevoli e il numero e",
+    "fr": "Limites remarquables et le nombre e",
+    "es": "Límites notables y el número e",
+    "de": "Wichtige Grenzwerte und die Zahl e",
+    "pt": "Limites notáveis e o número e",
+    "ru": "Важные пределы и число e"
+   },
+   "kljucne_reci": {
+    "sr": "limes granicna vrednost lim broj e sin x kroz x",
+    "en": "limit limits number e sin x over x",
+    "it": "limiti notevoli numero e",
+    "fr": "limites usuelles nombre e",
+    "es": "limites notables numero e",
+    "de": "grenzwert limes eulersche zahl",
+    "pt": "limites fundamentais numero e",
+    "ru": "пределы замечательный предел число e"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Prvi važan limes",
+      "en": "Sine limit",
+      "it": "Primo limite notevole",
+      "fr": "Limite du sinus",
+      "es": "Límite del seno",
+      "de": "Sinus-Grenzwert",
+      "pt": "Limite trigonométrico",
+      "ru": "Первый замечательный предел"
+     },
+     "latex": {
+      "sr": "\\lim_{x \\to 0} \\frac{\\sin  x}{x} = 1",
+      "en": "\\lim_{x \\to 0} \\frac{\\sin  x}{x} = 1",
+      "it": "\\lim_{x \\to 0} \\frac{\\operatorname{sen}  x}{x} = 1",
+      "fr": "\\lim_{x \\to 0} \\frac{\\sin  x}{x} = 1",
+      "es": "\\lim_{x \\to 0} \\frac{\\operatorname{sen}  x}{x} = 1",
+      "de": "\\lim_{x \\to 0} \\frac{\\sin  x}{x} = 1",
+      "pt": "\\lim_{x \\to 0} \\frac{\\operatorname{sen}  x}{x} = 1",
+      "ru": "\\lim_{x \\to 0} \\frac{\\sin  x}{x} = 1"
+     },
+     "objasnjenje": {
+      "sr": "Za male uglove (u radijanima) sin x ≈ x.",
+      "en": "For small angles (in radians) sin x ≈ x.",
+      "it": "Per angoli piccoli (in radianti) sen x ≈ x.",
+      "fr": "Pour de petits angles (en radians), sin x ≈ x.",
+      "es": "Para ángulos pequeños (en radianes) sen x ≈ x.",
+      "de": "Für kleine Winkel (im Bogenmaß) gilt sin x ≈ x.",
+      "pt": "Para ângulos pequenos (em radianos) sen x ≈ x.",
+      "ru": "Для малых углов (в радианах) sin x ≈ x."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Broj e",
+      "en": "The number e",
+      "it": "Il numero e",
+      "fr": "Le nombre e",
+      "es": "El número e",
+      "de": "Die Zahl e",
+      "pt": "O número e",
+      "ru": "Второй замечательный предел"
+     },
+     "latex": {
+      "sr": "\\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n = e \\approx 2{,}71828",
+      "en": "\\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n = e \\approx 2.71828",
+      "it": "\\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n = e \\approx 2{,}71828",
+      "fr": "\\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n = e \\approx 2{,}71828",
+      "es": "\\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n = e \\approx 2{,}71828",
+      "de": "\\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n = e \\approx 2{,}71828",
+      "pt": "\\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n = e \\approx 2{,}71828",
+      "ru": "\\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n = e \\approx 2{,}71828"
+     },
+     "objasnjenje": {
+      "sr": "Osnova prirodnog logaritma.",
+      "en": "The base of the natural logarithm.",
+      "it": "La base del logaritmo naturale.",
+      "fr": "La base du logarithme népérien.",
+      "es": "La base del logaritmo neperiano.",
+      "de": "Basis des natürlichen Logarithmus.",
+      "pt": "A base do logaritmo natural.",
+      "ru": "Основание натурального логарифма."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Eksponencijalni i logaritamski",
+      "en": "Exponential and logarithmic",
+      "it": "Esponenziale e logaritmico",
+      "fr": "Exponentielle et logarithme",
+      "es": "Exponencial y logarítmico",
+      "de": "Exponential und Logarithmus",
+      "pt": "Exponencial e logarítmico",
+      "ru": "Показательный и логарифмический"
+     },
+     "latex": {
+      "sr": "\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{\\ln(1 + x)}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{a^x - 1}{x} = \\ln a",
+      "en": "\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{\\ln(1 + x)}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{a^x - 1}{x} = \\ln a",
+      "it": "\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{\\ln(1 + x)}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{a^x - 1}{x} = \\ln a",
+      "fr": "\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{\\ln(1 + x)}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{a^x - 1}{x} = \\ln a",
+      "es": "\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{\\ln(1 + x)}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{a^x - 1}{x} = \\ln a",
+      "de": "\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{\\ln(1 + x)}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{a^x - 1}{x} = \\ln a",
+      "pt": "\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{\\ln(1 + x)}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{a^x - 1}{x} = \\ln a",
+      "ru": "\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{\\ln(1 + x)}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{a^x - 1}{x} = \\ln a"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Polinomi u beskonačnosti",
+      "en": "Polynomials at infinity",
+      "it": "Polinomi all’infinito",
+      "fr": "Polynômes à l’infini",
+      "es": "Polinomios en el infinito",
+      "de": "Polynome im Unendlichen",
+      "pt": "Polinômios no infinito",
+      "ru": "Многочлены на бесконечности"
+     },
+     "latex": {
+      "sr": "\\lim_{x \\to \\infty} \\frac{a_n x^n + \\dots}{b_m x^m + \\dots} = \\begin{cases} 0, & n < m \\\\ \\frac{a_n}{b_m}, & n = m \\\\ \\pm\\infty, & n > m \\end{cases}",
+      "en": "\\lim_{x \\to \\infty} \\frac{a_n x^n + \\dots}{b_m x^m + \\dots} = \\begin{cases} 0, & n < m \\\\ \\frac{a_n}{b_m}, & n = m \\\\ \\pm\\infty, & n > m \\end{cases}",
+      "it": "\\lim_{x \\to \\infty} \\frac{a_n x^n + \\dots}{b_m x^m + \\dots} = \\begin{cases} 0, & n < m \\\\ \\frac{a_n}{b_m}, & n = m \\\\ \\pm\\infty, & n > m \\end{cases}",
+      "fr": "\\lim_{x \\to \\infty} \\frac{a_n x^n + \\dots}{b_m x^m + \\dots} = \\begin{cases} 0, & n < m \\\\ \\frac{a_n}{b_m}, & n = m \\\\ \\pm\\infty, & n > m \\end{cases}",
+      "es": "\\lim_{x \\to \\infty} \\frac{a_n x^n + \\dots}{b_m x^m + \\dots} = \\begin{cases} 0, & n < m \\\\ \\frac{a_n}{b_m}, & n = m \\\\ \\pm\\infty, & n > m \\end{cases}",
+      "de": "\\lim_{x \\to \\infty} \\frac{a_n x^n + \\dots}{b_m x^m + \\dots} = \\begin{cases} 0, & n < m \\\\ \\frac{a_n}{b_m}, & n = m \\\\ \\pm\\infty, & n > m \\end{cases}",
+      "pt": "\\lim_{x \\to \\infty} \\frac{a_n x^n + \\dots}{b_m x^m + \\dots} = \\begin{cases} 0, & n < m \\\\ \\frac{a_n}{b_m}, & n = m \\\\ \\pm\\infty, & n > m \\end{cases}",
+      "ru": "\\lim_{x \\to \\infty} \\frac{a_n x^n + \\dots}{b_m x^m + \\dots} = \\begin{cases} 0, & n < m \\\\ \\frac{a_n}{b_m}, & n = m \\\\ \\pm\\infty, & n > m \\end{cases}"
+     },
+     "objasnjenje": {
+      "sr": "Odlučuju samo članovi najvećeg stepena.",
+      "en": "Only the highest-degree terms matter.",
+      "it": "Contano solo i termini di grado massimo.",
+      "fr": "Seuls les termes de plus haut degré comptent.",
+      "es": "Solo cuentan los términos de mayor grado.",
+      "de": "Nur die höchsten Potenzen entscheiden.",
+      "pt": "Só importam os termos de maior grau.",
+      "ru": "Важны только старшие степени."
+     }
+    }
+   ]
+  },
+  {
+   "id": "izvodi",
+   "simbol": "f′",
+   "naziv": {
+    "sr": "Tablica izvoda",
+    "en": "Table of derivatives",
+    "it": "Derivate fondamentali",
+    "fr": "Dérivées usuelles",
+    "es": "Tabla de derivadas",
+    "de": "Ableitungen",
+    "pt": "Tabela de derivadas",
+    "ru": "Таблица производных"
+   },
+   "opis": {
+    "sr": "Izvodi osnovnih funkcija",
+    "en": "Derivatives of basic functions",
+    "it": "Derivate delle funzioni elementari",
+    "fr": "Dérivées des fonctions de référence",
+    "es": "Derivadas de funciones elementales",
+    "de": "Ableitungen der Grundfunktionen",
+    "pt": "Derivadas das funções elementares",
+    "ru": "Производные основных функций"
+   },
+   "kljucne_reci": {
+    "sr": "izvod izvodi tablica izvoda diferenciranje",
+    "en": "derivative derivatives table differentiation",
+    "it": "derivata derivate tabella",
+    "fr": "derivee derivees tableau",
+    "es": "derivada derivadas tabla",
+    "de": "ableitung ableitungen tabelle differenzieren",
+    "pt": "derivada derivadas tabela",
+    "ru": "производная производные таблица"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Konstanta i stepen",
+      "en": "Constant and power",
+      "it": "Costante e potenza",
+      "fr": "Constante et puissance",
+      "es": "Constante y potencia",
+      "de": "Konstante und Potenz",
+      "pt": "Constante e potência",
+      "ru": "Константа и степень"
+     },
+     "latex": {
+      "sr": "(c)' = 0, \\quad (x^n)' = n x^{n-1}, \\quad (\\sqrt{x})' = \\frac{1}{2\\sqrt{x}}, \\quad \\left(\\frac{1}{x}\\right)' = -\\frac{1}{x^2}",
+      "en": "(c)' = 0, \\quad (x^n)' = n x^{n-1}, \\quad (\\sqrt{x})' = \\frac{1}{2\\sqrt{x}}, \\quad \\left(\\frac{1}{x}\\right)' = -\\frac{1}{x^2}",
+      "it": "(c)' = 0, \\quad (x^n)' = n x^{n-1}, \\quad (\\sqrt{x})' = \\frac{1}{2\\sqrt{x}}, \\quad \\left(\\frac{1}{x}\\right)' = -\\frac{1}{x^2}",
+      "fr": "(c)' = 0, \\quad (x^n)' = n x^{n-1}, \\quad (\\sqrt{x})' = \\frac{1}{2\\sqrt{x}}, \\quad \\left(\\frac{1}{x}\\right)' = -\\frac{1}{x^2}",
+      "es": "(c)' = 0, \\quad (x^n)' = n x^{n-1}, \\quad (\\sqrt{x})' = \\frac{1}{2\\sqrt{x}}, \\quad \\left(\\frac{1}{x}\\right)' = -\\frac{1}{x^2}",
+      "de": "(c)' = 0, \\quad (x^n)' = n x^{n-1}, \\quad (\\sqrt{x})' = \\frac{1}{2\\sqrt{x}}, \\quad \\left(\\frac{1}{x}\\right)' = -\\frac{1}{x^2}",
+      "pt": "(c)' = 0, \\quad (x^n)' = n x^{n-1}, \\quad (\\sqrt{x})' = \\frac{1}{2\\sqrt{x}}, \\quad \\left(\\frac{1}{x}\\right)' = -\\frac{1}{x^2}",
+      "ru": "(c)' = 0, \\quad (x^n)' = n x^{n-1}, \\quad (\\sqrt{x})' = \\frac{1}{2\\sqrt{x}}, \\quad \\left(\\frac{1}{x}\\right)' = -\\frac{1}{x^2}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Eksponencijalne i logaritamske",
+      "en": "Exponential and logarithmic",
+      "it": "Esponenziali e logaritmiche",
+      "fr": "Exponentielles et logarithmes",
+      "es": "Exponenciales y logarítmicas",
+      "de": "Exponential- und Logarithmusfunktionen",
+      "pt": "Exponenciais e logarítmicas",
+      "ru": "Показательные и логарифмические"
+     },
+     "latex": {
+      "sr": "(e^x)' = e^x, \\quad (a^x)' = a^x \\ln a, \\quad (\\ln x)' = \\frac{1}{x}, \\quad (\\log_a x)' = \\frac{1}{x \\ln a}",
+      "en": "(e^x)' = e^x, \\quad (a^x)' = a^x \\ln a, \\quad (\\ln x)' = \\frac{1}{x}, \\quad (\\log_a x)' = \\frac{1}{x \\ln a}",
+      "it": "(e^x)' = e^x, \\quad (a^x)' = a^x \\ln a, \\quad (\\ln x)' = \\frac{1}{x}, \\quad (\\log_a x)' = \\frac{1}{x \\ln a}",
+      "fr": "(e^x)' = e^x, \\quad (a^x)' = a^x \\ln a, \\quad (\\ln x)' = \\frac{1}{x}, \\quad (\\log_a x)' = \\frac{1}{x \\ln a}",
+      "es": "(e^x)' = e^x, \\quad (a^x)' = a^x \\ln a, \\quad (\\ln x)' = \\frac{1}{x}, \\quad (\\log_a x)' = \\frac{1}{x \\ln a}",
+      "de": "(e^x)' = e^x, \\quad (a^x)' = a^x \\ln a, \\quad (\\ln x)' = \\frac{1}{x}, \\quad (\\log_a x)' = \\frac{1}{x \\ln a}",
+      "pt": "(e^x)' = e^x, \\quad (a^x)' = a^x \\ln a, \\quad (\\ln x)' = \\frac{1}{x}, \\quad (\\log_a x)' = \\frac{1}{x \\ln a}",
+      "ru": "(e^x)' = e^x, \\quad (a^x)' = a^x \\ln a, \\quad (\\ln x)' = \\frac{1}{x}, \\quad (\\log_a x)' = \\frac{1}{x \\ln a}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Trigonometrijske",
+      "en": "Trigonometric",
+      "it": "Goniometriche",
+      "fr": "Trigonométriques",
+      "es": "Trigonométricas",
+      "de": "Trigonometrische",
+      "pt": "Trigonométricas",
+      "ru": "Тригонометрические"
+     },
+     "latex": {
+      "sr": "(\\sin  x)' = \\cos  x, \\quad (\\cos  x)' = -\\sin  x, \\quad (\\operatorname{tg}  x)' = \\frac{1}{\\cos ^2 x}, \\quad (\\operatorname{ctg}  x)' = -\\frac{1}{\\sin ^2 x}",
+      "en": "(\\sin  x)' = \\cos  x, \\quad (\\cos  x)' = -\\sin  x, \\quad (\\tan  x)' = \\frac{1}{\\cos ^2 x}, \\quad (\\cot  x)' = -\\frac{1}{\\sin ^2 x}",
+      "it": "(\\operatorname{sen}  x)' = \\cos  x, \\quad (\\cos  x)' = -\\operatorname{sen}  x, \\quad (\\operatorname{tg}  x)' = \\frac{1}{\\cos ^2 x}, \\quad (\\operatorname{cotg}  x)' = -\\frac{1}{\\operatorname{sen} ^2 x}",
+      "fr": "(\\sin  x)' = \\cos  x, \\quad (\\cos  x)' = -\\sin  x, \\quad (\\tan  x)' = \\frac{1}{\\cos ^2 x}, \\quad (\\operatorname{cotan}  x)' = -\\frac{1}{\\sin ^2 x}",
+      "es": "(\\operatorname{sen}  x)' = \\cos  x, \\quad (\\cos  x)' = -\\operatorname{sen}  x, \\quad (\\operatorname{tg}  x)' = \\frac{1}{\\cos ^2 x}, \\quad (\\operatorname{cotg}  x)' = -\\frac{1}{\\operatorname{sen} ^2 x}",
+      "de": "(\\sin  x)' = \\cos  x, \\quad (\\cos  x)' = -\\sin  x, \\quad (\\tan  x)' = \\frac{1}{\\cos ^2 x}, \\quad (\\cot  x)' = -\\frac{1}{\\sin ^2 x}",
+      "pt": "(\\operatorname{sen}  x)' = \\cos  x, \\quad (\\cos  x)' = -\\operatorname{sen}  x, \\quad (\\operatorname{tg}  x)' = \\frac{1}{\\cos ^2 x}, \\quad (\\operatorname{cotg}  x)' = -\\frac{1}{\\operatorname{sen} ^2 x}",
+      "ru": "(\\sin  x)' = \\cos  x, \\quad (\\cos  x)' = -\\sin  x, \\quad (\\operatorname{tg}  x)' = \\frac{1}{\\cos ^2 x}, \\quad (\\operatorname{ctg}  x)' = -\\frac{1}{\\sin ^2 x}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Inverzne trigonometrijske",
+      "en": "Inverse trigonometric",
+      "it": "Goniometriche inverse",
+      "fr": "Trigonométriques réciproques",
+      "es": "Trigonométricas inversas",
+      "de": "Arkusfunktionen",
+      "pt": "Trigonométricas inversas",
+      "ru": "Обратные тригонометрические"
+     },
+     "latex": {
+      "sr": "(\\arcsin  x)' = \\frac{1}{\\sqrt{1 - x^2}}, \\quad (\\operatorname{arctg}  x)' = \\frac{1}{1 + x^2}",
+      "en": "(\\arcsin  x)' = \\frac{1}{\\sqrt{1 - x^2}}, \\quad (\\arctan  x)' = \\frac{1}{1 + x^2}",
+      "it": "(\\operatorname{arcsen}  x)' = \\frac{1}{\\sqrt{1 - x^2}}, \\quad (\\operatorname{arctg}  x)' = \\frac{1}{1 + x^2}",
+      "fr": "(\\arcsin  x)' = \\frac{1}{\\sqrt{1 - x^2}}, \\quad (\\arctan  x)' = \\frac{1}{1 + x^2}",
+      "es": "(\\operatorname{arcsen}  x)' = \\frac{1}{\\sqrt{1 - x^2}}, \\quad (\\operatorname{arctg}  x)' = \\frac{1}{1 + x^2}",
+      "de": "(\\arcsin  x)' = \\frac{1}{\\sqrt{1 - x^2}}, \\quad (\\arctan  x)' = \\frac{1}{1 + x^2}",
+      "pt": "(\\operatorname{arcsen}  x)' = \\frac{1}{\\sqrt{1 - x^2}}, \\quad (\\operatorname{arctg}  x)' = \\frac{1}{1 + x^2}",
+      "ru": "(\\arcsin  x)' = \\frac{1}{\\sqrt{1 - x^2}}, \\quad (\\operatorname{arctg}  x)' = \\frac{1}{1 + x^2}"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pravila_izvoda",
+   "simbol": "(uv)′",
+   "naziv": {
+    "sr": "Pravila diferenciranja",
+    "en": "Differentiation rules",
+    "it": "Regole di derivazione",
+    "fr": "Règles de dérivation",
+    "es": "Reglas de derivación",
+    "de": "Ableitungsregeln",
+    "pt": "Regras de derivação",
+    "ru": "Правила дифференцирования"
+   },
+   "opis": {
+    "sr": "Zbir, proizvod, količnik, složena funkcija",
+    "en": "Sum, product, quotient, chain rule",
+    "it": "Somma, prodotto, quoziente, composta",
+    "fr": "Somme, produit, quotient, composée",
+    "es": "Suma, producto, cociente, regla de la cadena",
+    "de": "Summe, Produkt, Quotient, Kettenregel",
+    "pt": "Soma, produto, quociente, regra da cadeia",
+    "ru": "Сумма, произведение, частное, сложная функция"
+   },
+   "kljucne_reci": {
+    "sr": "pravila izvoda proizvod kolicnik slozena funkcija",
+    "en": "derivative rules product quotient chain rule",
+    "it": "regole derivazione prodotto quoziente funzione composta",
+    "fr": "regles derivation produit quotient composee",
+    "es": "reglas derivacion producto cociente regla de la cadena",
+    "de": "ableitungsregeln produktregel quotientenregel kettenregel",
+    "pt": "regras derivacao produto quociente regra da cadeia",
+    "ru": "правила дифференцирования произведение частное сложная функция"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Zbir i konstanta",
+      "en": "Sum and constant multiple",
+      "it": "Somma e costante",
+      "fr": "Somme et constante",
+      "es": "Suma y constante",
+      "de": "Summen- und Faktorregel",
+      "pt": "Soma e constante",
+      "ru": "Сумма и константа"
+     },
+     "latex": {
+      "sr": "(u \\pm v)' = u' \\pm v', \\quad (c \\cdot u)' = c \\cdot u'",
+      "en": "(u \\pm v)' = u' \\pm v', \\quad (c \\cdot u)' = c \\cdot u'",
+      "it": "(u \\pm v)' = u' \\pm v', \\quad (c \\cdot u)' = c \\cdot u'",
+      "fr": "(u \\pm v)' = u' \\pm v', \\quad (c \\cdot u)' = c \\cdot u'",
+      "es": "(u \\pm v)' = u' \\pm v', \\quad (c \\cdot u)' = c \\cdot u'",
+      "de": "(u \\pm v)' = u' \\pm v', \\quad (c \\cdot u)' = c \\cdot u'",
+      "pt": "(u \\pm v)' = u' \\pm v', \\quad (c \\cdot u)' = c \\cdot u'",
+      "ru": "(u \\pm v)' = u' \\pm v', \\quad (c \\cdot u)' = c \\cdot u'"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Proizvod",
+      "en": "Product rule",
+      "it": "Prodotto",
+      "fr": "Produit",
+      "es": "Producto",
+      "de": "Produktregel",
+      "pt": "Produto",
+      "ru": "Произведение"
+     },
+     "latex": {
+      "sr": "(u \\cdot v)' = u' v + u v'",
+      "en": "(u \\cdot v)' = u' v + u v'",
+      "it": "(u \\cdot v)' = u' v + u v'",
+      "fr": "(u \\cdot v)' = u' v + u v'",
+      "es": "(u \\cdot v)' = u' v + u v'",
+      "de": "(u \\cdot v)' = u' v + u v'",
+      "pt": "(u \\cdot v)' = u' v + u v'",
+      "ru": "(u \\cdot v)' = u' v + u v'"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Količnik",
+      "en": "Quotient rule",
+      "it": "Quoziente",
+      "fr": "Quotient",
+      "es": "Cociente",
+      "de": "Quotientenregel",
+      "pt": "Quociente",
+      "ru": "Частное"
+     },
+     "latex": {
+      "sr": "\\left(\\frac{u}{v}\\right)' = \\frac{u' v - u v'}{v^2}",
+      "en": "\\left(\\frac{u}{v}\\right)' = \\frac{u' v - u v'}{v^2}",
+      "it": "\\left(\\frac{u}{v}\\right)' = \\frac{u' v - u v'}{v^2}",
+      "fr": "\\left(\\frac{u}{v}\\right)' = \\frac{u' v - u v'}{v^2}",
+      "es": "\\left(\\frac{u}{v}\\right)' = \\frac{u' v - u v'}{v^2}",
+      "de": "\\left(\\frac{u}{v}\\right)' = \\frac{u' v - u v'}{v^2}",
+      "pt": "\\left(\\frac{u}{v}\\right)' = \\frac{u' v - u v'}{v^2}",
+      "ru": "\\left(\\frac{u}{v}\\right)' = \\frac{u' v - u v'}{v^2}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Složena funkcija",
+      "en": "Chain rule",
+      "it": "Funzione composta",
+      "fr": "Fonction composée",
+      "es": "Regla de la cadena",
+      "de": "Kettenregel",
+      "pt": "Regra da cadeia",
+      "ru": "Сложная функция"
+     },
+     "latex": {
+      "sr": "\\left(f(g(x))\\right)' = f'(g(x)) \\cdot g'(x)",
+      "en": "\\left(f(g(x))\\right)' = f'(g(x)) \\cdot g'(x)",
+      "it": "\\left(f(g(x))\\right)' = f'(g(x)) \\cdot g'(x)",
+      "fr": "\\left(f(g(x))\\right)' = f'(g(x)) \\cdot g'(x)",
+      "es": "\\left(f(g(x))\\right)' = f'(g(x)) \\cdot g'(x)",
+      "de": "\\left(f(g(x))\\right)' = f'(g(x)) \\cdot g'(x)",
+      "pt": "\\left(f(g(x))\\right)' = f'(g(x)) \\cdot g'(x)",
+      "ru": "\\left(f(g(x))\\right)' = f'(g(x)) \\cdot g'(x)"
+     },
+     "objasnjenje": {
+      "sr": "Izvod spoljašnje funkcije puta izvod unutrašnje.",
+      "en": "Derivative of the outer function times derivative of the inner one.",
+      "it": "Derivata della funzione esterna per derivata di quella interna.",
+      "fr": "Dérivée de la fonction extérieure fois dérivée de l’intérieure.",
+      "es": "Derivada de la función exterior por la derivada de la interior.",
+      "de": "Äußere Ableitung mal innere Ableitung.",
+      "pt": "Derivada da função externa vezes a derivada da interna.",
+      "ru": "Производная внешней функции, умноженная на производную внутренней."
+     }
+    }
+   ]
+  },
+  {
+   "id": "primena_izvoda",
+   "simbol": "∠",
+   "naziv": {
+    "sr": "Primena izvoda",
+    "en": "Applications of derivatives",
+    "it": "Applicazioni delle derivate",
+    "fr": "Applications de la dérivée",
+    "es": "Aplicaciones de la derivada",
+    "de": "Anwendungen der Ableitung",
+    "pt": "Aplicações da derivada",
+    "ru": "Применение производной"
+   },
+   "opis": {
+    "sr": "Tangenta, monotonost, ekstremumi",
+    "en": "Tangent, monotonicity, extrema",
+    "it": "Tangente, monotonia, estremi",
+    "fr": "Tangente, variations, extremums",
+    "es": "Tangente, monotonía, extremos",
+    "de": "Tangente, Monotonie, Extrema",
+    "pt": "Tangente, monotonia, extremos",
+    "ru": "Касательная, монотонность, экстремумы"
+   },
+   "kljucne_reci": {
+    "sr": "tangenta monotonost ekstremum minimum maksimum prevojna tacka",
+    "en": "tangent line monotonic increasing decreasing extremum minimum maximum inflection",
+    "it": "tangente monotonia crescente decrescente massimo minimo flesso",
+    "fr": "tangente variations croissante decroissante extremum minimum maximum",
+    "es": "tangente monotonia creciente decreciente maximo minimo punto de inflexion",
+    "de": "tangente monotonie extrempunkt hochpunkt tiefpunkt wendepunkt",
+    "pt": "tangente crescente decrescente maximo minimo ponto de inflexao",
+    "ru": "касательная монотонность экстремум минимум максимум перегиб"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Jednačina tangente",
+      "en": "Tangent line",
+      "it": "Retta tangente",
+      "fr": "Équation de la tangente",
+      "es": "Recta tangente",
+      "de": "Tangentengleichung",
+      "pt": "Reta tangente",
+      "ru": "Уравнение касательной"
+     },
+     "latex": {
+      "sr": "y - f(x_0) = f'(x_0)(x - x_0)",
+      "en": "y - f(x_0) = f'(x_0)(x - x_0)",
+      "it": "y - f(x_0) = f'(x_0)(x - x_0)",
+      "fr": "y - f(x_0) = f'(x_0)(x - x_0)",
+      "es": "y - f(x_0) = f'(x_0)(x - x_0)",
+      "de": "y - f(x_0) = f'(x_0)(x - x_0)",
+      "pt": "y - f(x_0) = f'(x_0)(x - x_0)",
+      "ru": "y - f(x_0) = f'(x_0)(x - x_0)"
+     },
+     "objasnjenje": {
+      "sr": "f′(x₀) je nagib tangente u tački x₀.",
+      "en": "f′(x₀) is the slope of the tangent at x₀.",
+      "it": "f′(x₀) è il coefficiente angolare della tangente in x₀.",
+      "fr": "f′(x₀) est le coefficient directeur de la tangente en x₀.",
+      "es": "f′(x₀) es la pendiente de la tangente en x₀.",
+      "de": "f′(x₀) ist die Steigung der Tangente in x₀.",
+      "pt": "f′(x₀) é o coeficiente angular da tangente em x₀.",
+      "ru": "f′(x₀) — угловой коэффициент касательной в точке x₀."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Monotonost",
+      "en": "Monotonicity",
+      "it": "Monotonia",
+      "fr": "Sens de variation",
+      "es": "Monotonía",
+      "de": "Monotonie",
+      "pt": "Monotonia",
+      "ru": "Монотонность"
+     },
+     "latex": {
+      "sr": "f'(x) > 0 \\implies f \\nearrow, \\quad f'(x) < 0 \\implies f \\searrow",
+      "en": "f'(x) > 0 \\implies f \\nearrow, \\quad f'(x) < 0 \\implies f \\searrow",
+      "it": "f'(x) > 0 \\implies f \\nearrow, \\quad f'(x) < 0 \\implies f \\searrow",
+      "fr": "f'(x) > 0 \\implies f \\nearrow, \\quad f'(x) < 0 \\implies f \\searrow",
+      "es": "f'(x) > 0 \\implies f \\nearrow, \\quad f'(x) < 0 \\implies f \\searrow",
+      "de": "f'(x) > 0 \\implies f \\nearrow, \\quad f'(x) < 0 \\implies f \\searrow",
+      "pt": "f'(x) > 0 \\implies f \\nearrow, \\quad f'(x) < 0 \\implies f \\searrow",
+      "ru": "f'(x) > 0 \\implies f \\nearrow, \\quad f'(x) < 0 \\implies f \\searrow"
+     },
+     "objasnjenje": {
+      "sr": "Pozitivan izvod: funkcija raste; negativan: opada.",
+      "en": "Positive derivative: increasing; negative: decreasing.",
+      "it": "Derivata positiva: crescente; negativa: decrescente.",
+      "fr": "Dérivée positive : croissante ; négative : décroissante.",
+      "es": "Derivada positiva: creciente; negativa: decreciente.",
+      "de": "Positive Ableitung: steigend; negative: fallend.",
+      "pt": "Derivada positiva: crescente; negativa: decrescente.",
+      "ru": "Положительная производная — возрастает, отрицательная — убывает."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Ekstremumi",
+      "en": "Extrema",
+      "it": "Massimi e minimi",
+      "fr": "Extremums",
+      "es": "Extremos",
+      "de": "Extrempunkte",
+      "pt": "Extremos",
+      "ru": "Экстремумы"
+     },
+     "latex": {
+      "sr": "f'(x_0) = 0, \\quad f''(x_0) > 0 \\implies \\min, \\quad f''(x_0) < 0 \\implies \\max",
+      "en": "f'(x_0) = 0, \\quad f''(x_0) > 0 \\implies \\min, \\quad f''(x_0) < 0 \\implies \\max",
+      "it": "f'(x_0) = 0, \\quad f''(x_0) > 0 \\implies \\min, \\quad f''(x_0) < 0 \\implies \\max",
+      "fr": "f'(x_0) = 0, \\quad f''(x_0) > 0 \\implies \\min, \\quad f''(x_0) < 0 \\implies \\max",
+      "es": "f'(x_0) = 0, \\quad f''(x_0) > 0 \\implies \\min, \\quad f''(x_0) < 0 \\implies \\max",
+      "de": "f'(x_0) = 0, \\quad f''(x_0) > 0 \\implies \\min, \\quad f''(x_0) < 0 \\implies \\max",
+      "pt": "f'(x_0) = 0, \\quad f''(x_0) > 0 \\implies \\min, \\quad f''(x_0) < 0 \\implies \\max",
+      "ru": "f'(x_0) = 0, \\quad f''(x_0) > 0 \\implies \\min, \\quad f''(x_0) < 0 \\implies \\max"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Prevojna tačka",
+      "en": "Inflection point",
+      "it": "Punto di flesso",
+      "fr": "Point d’inflexion",
+      "es": "Punto de inflexión",
+      "de": "Wendepunkt",
+      "pt": "Ponto de inflexão",
+      "ru": "Точка перегиба"
+     },
+     "latex": {
+      "sr": "f''(x_0) = 0, \\quad f''' (x_0) \\neq 0",
+      "en": "f''(x_0) = 0, \\quad f''' (x_0) \\neq 0",
+      "it": "f''(x_0) = 0, \\quad f''' (x_0) \\neq 0",
+      "fr": "f''(x_0) = 0, \\quad f''' (x_0) \\neq 0",
+      "es": "f''(x_0) = 0, \\quad f''' (x_0) \\neq 0",
+      "de": "f''(x_0) = 0, \\quad f''' (x_0) \\neq 0",
+      "pt": "f''(x_0) = 0, \\quad f''' (x_0) \\neq 0",
+      "ru": "f''(x_0) = 0, \\quad f''' (x_0) \\neq 0"
+     },
+     "objasnjenje": {
+      "sr": "Kriva menja konveksnost u toj tački.",
+      "en": "The curve changes concavity there.",
+      "it": "La curva cambia concavità.",
+      "fr": "La courbe change de convexité.",
+      "es": "La curva cambia de concavidad.",
+      "de": "Die Krümmung wechselt das Vorzeichen.",
+      "pt": "A curva muda de concavidade.",
+      "ru": "Кривая меняет направление выпуклости."
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": {
+     "sr": "f(x) = a x^3 + b x^2 + c x + d",
+     "en": "f(x) = a x^3 + b x^2 + c x + d",
+     "it": "f(x) = a x^3 + b x^2 + c x + d",
+     "fr": "f(x) = a x^3 + b x^2 + c x + d",
+     "es": "f(x) = a x^3 + b x^2 + c x + d",
+     "de": "f(x) = a x^3 + b x^2 + c x + d",
+     "pt": "f(x) = a x^3 + b x^2 + c x + d",
+     "ru": "f(x) = a x^3 + b x^2 + c x + d"
+    },
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 1
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": -3
+     },
+     {
+      "id": "c",
+      "oznaka": "c",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 0
+     },
+     {
+      "id": "d",
+      "oznaka": "d",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 2
+     },
+     {
+      "id": "x0",
+      "oznaka": "x_0",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 1
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "f(x₀)",
+       "en": "f(x₀)",
+       "it": "f(x₀)",
+       "fr": "f(x₀)",
+       "es": "f(x₀)",
+       "de": "f(x₀)",
+       "pt": "f(x₀)",
+       "ru": "f(x₀)"
+      },
+      "izraz": "a*x0*x0*x0+b*x0*x0+c*x0+d"
+     },
+     {
+      "naziv": {
+       "sr": "f′(x₀)",
+       "en": "f′(x₀)",
+       "it": "f′(x₀)",
+       "fr": "f′(x₀)",
+       "es": "f′(x₀)",
+       "de": "f′(x₀)",
+       "pt": "f′(x₀)",
+       "ru": "f′(x₀)"
+      },
+      "izraz": "3*a*x0*x0+2*b*x0+c"
+     },
+     {
+      "naziv": {
+       "sr": "Tangenta",
+       "en": "Tangent line",
+       "it": "Tangente",
+       "fr": "Tangente",
+       "es": "Tangente",
+       "de": "Tangente",
+       "pt": "Tangente",
+       "ru": "Касательная"
+      },
+      "izraz": "tangenta(a,b,c,d,x0)",
+      "tip": "tekst"
+     },
+     {
+      "naziv": {
+       "sr": "Stacionarne tačke",
+       "en": "Stationary points",
+       "it": "Punti stazionari",
+       "fr": "Points critiques",
+       "es": "Puntos críticos",
+       "de": "Stationäre Stellen",
+       "pt": "Pontos críticos",
+       "ru": "Стационарные точки"
+      },
+      "izraz": "stacionarne(a,b,c)",
+      "tip": "tekst"
+     }
+    ]
+   }
+  },
+  {
+   "id": "integrali",
+   "simbol": "∫",
+   "naziv": {
+    "sr": "Tablica integrala",
+    "en": "Table of integrals",
+    "it": "Integrali immediati",
+    "fr": "Primitives usuelles",
+    "es": "Integrales inmediatas",
+    "de": "Stammfunktionen",
+    "pt": "Integrais imediatas",
+    "ru": "Таблица интегралов"
+   },
+   "opis": {
+    "sr": "Neodređeni integrali osnovnih funkcija",
+    "en": "Indefinite integrals of basic functions",
+    "it": "Integrali indefiniti elementari",
+    "fr": "Primitives des fonctions de référence",
+    "es": "Integrales indefinidas elementales",
+    "de": "Stammfunktionen der Grundfunktionen",
+    "pt": "Integrais indefinidas elementares",
+    "ru": "Неопределённые интегралы основных функций"
+   },
+   "kljucne_reci": {
+    "sr": "integral neodredjeni integral primitivna funkcija tablica",
+    "en": "integral indefinite antiderivative table",
+    "it": "integrale indefinito primitiva tabella",
+    "fr": "integrale primitive tableau",
+    "es": "integral indefinida primitiva tabla",
+    "de": "integral stammfunktion unbestimmtes integral tabelle",
+    "pt": "integral indefinida primitiva tabela",
+    "ru": "интеграл неопределенный первообразная таблица"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Stepen",
+      "en": "Power",
+      "it": "Potenza",
+      "fr": "Puissance",
+      "es": "Potencia",
+      "de": "Potenz",
+      "pt": "Potência",
+      "ru": "Степень"
+     },
+     "latex": {
+      "sr": "\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C,\\ n \\neq -1, \\quad \\int \\frac{dx}{x} = \\ln|x| + C",
+      "en": "\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C,\\ n \\neq -1, \\quad \\int \\frac{dx}{x} = \\ln|x| + C",
+      "it": "\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C,\\ n \\neq -1, \\quad \\int \\frac{dx}{x} = \\ln|x| + C",
+      "fr": "\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C,\\ n \\neq -1, \\quad \\int \\frac{dx}{x} = \\ln|x| + C",
+      "es": "\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C,\\ n \\neq -1, \\quad \\int \\frac{dx}{x} = \\ln|x| + C",
+      "de": "\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C,\\ n \\neq -1, \\quad \\int \\frac{dx}{x} = \\ln|x| + C",
+      "pt": "\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C,\\ n \\neq -1, \\quad \\int \\frac{dx}{x} = \\ln|x| + C",
+      "ru": "\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C,\\ n \\neq -1, \\quad \\int \\frac{dx}{x} = \\ln|x| + C"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Eksponencijalne",
+      "en": "Exponential",
+      "it": "Esponenziali",
+      "fr": "Exponentielles",
+      "es": "Exponenciales",
+      "de": "Exponentialfunktionen",
+      "pt": "Exponenciais",
+      "ru": "Показательные"
+     },
+     "latex": {
+      "sr": "\\int e^x\\,dx = e^x + C, \\quad \\int a^x\\,dx = \\frac{a^x}{\\ln a} + C",
+      "en": "\\int e^x\\,dx = e^x + C, \\quad \\int a^x\\,dx = \\frac{a^x}{\\ln a} + C",
+      "it": "\\int e^x\\,dx = e^x + C, \\quad \\int a^x\\,dx = \\frac{a^x}{\\ln a} + C",
+      "fr": "\\int e^x\\,dx = e^x + C, \\quad \\int a^x\\,dx = \\frac{a^x}{\\ln a} + C",
+      "es": "\\int e^x\\,dx = e^x + C, \\quad \\int a^x\\,dx = \\frac{a^x}{\\ln a} + C",
+      "de": "\\int e^x\\,dx = e^x + C, \\quad \\int a^x\\,dx = \\frac{a^x}{\\ln a} + C",
+      "pt": "\\int e^x\\,dx = e^x + C, \\quad \\int a^x\\,dx = \\frac{a^x}{\\ln a} + C",
+      "ru": "\\int e^x\\,dx = e^x + C, \\quad \\int a^x\\,dx = \\frac{a^x}{\\ln a} + C"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Trigonometrijske",
+      "en": "Trigonometric",
+      "it": "Goniometriche",
+      "fr": "Trigonométriques",
+      "es": "Trigonométricas",
+      "de": "Trigonometrische",
+      "pt": "Trigonométricas",
+      "ru": "Тригонометрические"
+     },
+     "latex": {
+      "sr": "\\int \\sin  x\\,dx = -\\cos  x + C, \\quad \\int \\cos  x\\,dx = \\sin  x + C, \\quad \\int \\frac{dx}{\\cos ^2 x} = \\operatorname{tg}  x + C",
+      "en": "\\int \\sin  x\\,dx = -\\cos  x + C, \\quad \\int \\cos  x\\,dx = \\sin  x + C, \\quad \\int \\frac{dx}{\\cos ^2 x} = \\tan  x + C",
+      "it": "\\int \\operatorname{sen}  x\\,dx = -\\cos  x + C, \\quad \\int \\cos  x\\,dx = \\operatorname{sen}  x + C, \\quad \\int \\frac{dx}{\\cos ^2 x} = \\operatorname{tg}  x + C",
+      "fr": "\\int \\sin  x\\,dx = -\\cos  x + C, \\quad \\int \\cos  x\\,dx = \\sin  x + C, \\quad \\int \\frac{dx}{\\cos ^2 x} = \\tan  x + C",
+      "es": "\\int \\operatorname{sen}  x\\,dx = -\\cos  x + C, \\quad \\int \\cos  x\\,dx = \\operatorname{sen}  x + C, \\quad \\int \\frac{dx}{\\cos ^2 x} = \\operatorname{tg}  x + C",
+      "de": "\\int \\sin  x\\,dx = -\\cos  x + C, \\quad \\int \\cos  x\\,dx = \\sin  x + C, \\quad \\int \\frac{dx}{\\cos ^2 x} = \\tan  x + C",
+      "pt": "\\int \\operatorname{sen}  x\\,dx = -\\cos  x + C, \\quad \\int \\cos  x\\,dx = \\operatorname{sen}  x + C, \\quad \\int \\frac{dx}{\\cos ^2 x} = \\operatorname{tg}  x + C",
+      "ru": "\\int \\sin  x\\,dx = -\\cos  x + C, \\quad \\int \\cos  x\\,dx = \\sin  x + C, \\quad \\int \\frac{dx}{\\cos ^2 x} = \\operatorname{tg}  x + C"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Inverzne trigonometrijske",
+      "en": "Inverse trigonometric",
+      "it": "Goniometriche inverse",
+      "fr": "Trigonométriques réciproques",
+      "es": "Trigonométricas inversas",
+      "de": "Arkusfunktionen",
+      "pt": "Trigonométricas inversas",
+      "ru": "Обратные тригонометрические"
+     },
+     "latex": {
+      "sr": "\\int \\frac{dx}{\\sqrt{1 - x^2}} = \\arcsin  x + C, \\quad \\int \\frac{dx}{1 + x^2} = \\operatorname{arctg}  x + C",
+      "en": "\\int \\frac{dx}{\\sqrt{1 - x^2}} = \\arcsin  x + C, \\quad \\int \\frac{dx}{1 + x^2} = \\arctan  x + C",
+      "it": "\\int \\frac{dx}{\\sqrt{1 - x^2}} = \\operatorname{arcsen}  x + C, \\quad \\int \\frac{dx}{1 + x^2} = \\operatorname{arctg}  x + C",
+      "fr": "\\int \\frac{dx}{\\sqrt{1 - x^2}} = \\arcsin  x + C, \\quad \\int \\frac{dx}{1 + x^2} = \\arctan  x + C",
+      "es": "\\int \\frac{dx}{\\sqrt{1 - x^2}} = \\operatorname{arcsen}  x + C, \\quad \\int \\frac{dx}{1 + x^2} = \\operatorname{arctg}  x + C",
+      "de": "\\int \\frac{dx}{\\sqrt{1 - x^2}} = \\arcsin  x + C, \\quad \\int \\frac{dx}{1 + x^2} = \\arctan  x + C",
+      "pt": "\\int \\frac{dx}{\\sqrt{1 - x^2}} = \\operatorname{arcsen}  x + C, \\quad \\int \\frac{dx}{1 + x^2} = \\operatorname{arctg}  x + C",
+      "ru": "\\int \\frac{dx}{\\sqrt{1 - x^2}} = \\arcsin  x + C, \\quad \\int \\frac{dx}{1 + x^2} = \\operatorname{arctg}  x + C"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Konstanta integracije",
+      "en": "Constant of integration",
+      "it": "Costante di integrazione",
+      "fr": "Constante d’intégration",
+      "es": "Constante de integración",
+      "de": "Integrationskonstante",
+      "pt": "Constante de integração",
+      "ru": "Постоянная интегрирования"
+     },
+     "latex": {
+      "sr": "F'(x) = f(x) \\iff \\int f(x)\\,dx = F(x) + C",
+      "en": "F'(x) = f(x) \\iff \\int f(x)\\,dx = F(x) + C",
+      "it": "F'(x) = f(x) \\iff \\int f(x)\\,dx = F(x) + C",
+      "fr": "F'(x) = f(x) \\iff \\int f(x)\\,dx = F(x) + C",
+      "es": "F'(x) = f(x) \\iff \\int f(x)\\,dx = F(x) + C",
+      "de": "F'(x) = f(x) \\iff \\int f(x)\\,dx = F(x) + C",
+      "pt": "F'(x) = f(x) \\iff \\int f(x)\\,dx = F(x) + C",
+      "ru": "F'(x) = f(x) \\iff \\int f(x)\\,dx = F(x) + C"
+     },
+     "objasnjenje": {
+      "sr": "Integral je obrnuta operacija od izvoda; C je proizvoljna konstanta.",
+      "en": "Integration reverses differentiation; C is an arbitrary constant.",
+      "it": "L’integrazione è l’operazione inversa della derivazione; C è una costante arbitraria.",
+      "fr": "La primitive est l’opération inverse de la dérivée ; C est une constante quelconque.",
+      "es": "Integrar es la operación inversa de derivar; C es una constante arbitraria.",
+      "de": "Integrieren ist die Umkehrung des Ableitens; C ist eine beliebige Konstante.",
+      "pt": "Integrar é a operação inversa de derivar; C é uma constante arbitrária.",
+      "ru": "Интегрирование — операция, обратная дифференцированию; C — произвольная постоянная."
+     }
+    }
+   ]
+  },
+  {
+   "id": "metode_integracije",
+   "simbol": "∫dv",
+   "naziv": {
+    "sr": "Metode integracije",
+    "en": "Integration techniques",
+    "it": "Metodi di integrazione",
+    "fr": "Méthodes d’intégration",
+    "es": "Métodos de integración",
+    "de": "Integrationsmethoden",
+    "pt": "Métodos de integração",
+    "ru": "Методы интегрирования"
+   },
+   "opis": {
+    "sr": "Smena i parcijalna integracija",
+    "en": "Substitution and by parts",
+    "it": "Sostituzione e per parti",
+    "fr": "Changement de variable et par parties",
+    "es": "Sustitución y por partes",
+    "de": "Substitution und partielle Integration",
+    "pt": "Substituição e por partes",
+    "ru": "Замена и интегрирование по частям"
+   },
+   "kljucne_reci": {
+    "sr": "smena parcijalna integracija metoda supstitucija",
+    "en": "substitution integration by parts u substitution",
+    "it": "sostituzione integrazione per parti",
+    "fr": "changement de variable integration par parties",
+    "es": "sustitucion cambio de variable integracion por partes",
+    "de": "substitution partielle integration produktintegration",
+    "pt": "substituicao integracao por partes",
+    "ru": "замена переменной интегрирование по частям"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Smena (supstitucija)",
+      "en": "Substitution",
+      "it": "Sostituzione",
+      "fr": "Changement de variable",
+      "es": "Sustitución",
+      "de": "Substitution",
+      "pt": "Substituição",
+      "ru": "Замена переменной"
+     },
+     "latex": {
+      "sr": "\\int f(g(x))\\, g'(x)\\,dx = \\int f(t)\\,dt, \\quad t = g(x)",
+      "en": "\\int f(g(x))\\, g'(x)\\,dx = \\int f(t)\\,dt, \\quad t = g(x)",
+      "it": "\\int f(g(x))\\, g'(x)\\,dx = \\int f(t)\\,dt, \\quad t = g(x)",
+      "fr": "\\int f(g(x))\\, g'(x)\\,dx = \\int f(t)\\,dt, \\quad t = g(x)",
+      "es": "\\int f(g(x))\\, g'(x)\\,dx = \\int f(t)\\,dt, \\quad t = g(x)",
+      "de": "\\int f(g(x))\\, g'(x)\\,dx = \\int f(t)\\,dt, \\quad t = g(x)",
+      "pt": "\\int f(g(x))\\, g'(x)\\,dx = \\int f(t)\\,dt, \\quad t = g(x)",
+      "ru": "\\int f(g(x))\\, g'(x)\\,dx = \\int f(t)\\,dt, \\quad t = g(x)"
+     },
+     "objasnjenje": {
+      "sr": "Uvodimo novu promenljivu t tako da integral postane tablični.",
+      "en": "Introduce a new variable t so the integral becomes a standard one.",
+      "it": "Si introduce una nuova variabile t per ottenere un integrale immediato.",
+      "fr": "On pose t = g(x) pour se ramener à une primitive usuelle.",
+      "es": "Se introduce una nueva variable t para obtener una integral inmediata.",
+      "de": "Man setzt t = g(x), um auf ein Grundintegral zu kommen.",
+      "pt": "Introduz-se uma nova variável t para obter uma integral imediata.",
+      "ru": "Вводят новую переменную t, чтобы получить табличный интеграл."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Parcijalna integracija",
+      "en": "Integration by parts",
+      "it": "Integrazione per parti",
+      "fr": "Intégration par parties",
+      "es": "Integración por partes",
+      "de": "Partielle Integration",
+      "pt": "Integração por partes",
+      "ru": "Интегрирование по частям"
+     },
+     "latex": {
+      "sr": "\\int u\\,dv = u v - \\int v\\,du",
+      "en": "\\int u\\,dv = u v - \\int v\\,du",
+      "it": "\\int u\\,dv = u v - \\int v\\,du",
+      "fr": "\\int u\\,dv = u v - \\int v\\,du",
+      "es": "\\int u\\,dv = u v - \\int v\\,du",
+      "de": "\\int u\\,dv = u v - \\int v\\,du",
+      "pt": "\\int u\\,dv = u v - \\int v\\,du",
+      "ru": "\\int u\\,dv = u v - \\int v\\,du"
+     },
+     "objasnjenje": {
+      "sr": "Za u biramo funkciju koja se izvodom pojednostavljuje (npr. x, ln x).",
+      "en": "Choose u as the function that simplifies when differentiated (e.g. x, ln x).",
+      "it": "Come u si sceglie la funzione che si semplifica derivando (es. x, ln x).",
+      "fr": "On choisit pour u la fonction qui se simplifie en dérivant (x, ln x).",
+      "es": "Se elige como u la función que se simplifica al derivar (x, ln x).",
+      "de": "Für u wählt man den Faktor, der beim Ableiten einfacher wird (x, ln x).",
+      "pt": "Escolhe-se para u a função que se simplifica ao derivar (x, ln x).",
+      "ru": "За u берут функцию, которая упрощается при дифференцировании (x, ln x)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "odredjeni_integral",
+   "simbol": "∫ₐᵇ",
+   "naziv": {
+    "sr": "Određeni integral",
+    "en": "Definite integral",
+    "it": "Integrale definito",
+    "fr": "Intégrale",
+    "es": "Integral definida",
+    "de": "Bestimmtes Integral",
+    "pt": "Integral definida",
+    "ru": "Определённый интеграл"
+   },
+   "opis": {
+    "sr": "Njutn–Lajbnicova formula, površina",
+    "en": "Fundamental theorem, area",
+    "it": "Teorema fondamentale, area",
+    "fr": "Théorème fondamental, aire",
+    "es": "Regla de Barrow, área",
+    "de": "Hauptsatz, Flächeninhalt",
+    "pt": "Teorema fundamental, área",
+    "ru": "Формула Ньютона–Лейбница, площадь"
+   },
+   "kljucne_reci": {
+    "sr": "odredjeni integral njutn lajbnic povrsina ispod krive",
+    "en": "definite integral fundamental theorem area under curve",
+    "it": "integrale definito teorema fondamentale area",
+    "fr": "integrale definie theoreme fondamental aire sous la courbe",
+    "es": "integral definida regla de barrow area",
+    "de": "bestimmtes integral hauptsatz flache unter der kurve",
+    "pt": "integral definida teorema fundamental area",
+    "ru": "определенный интеграл ньютон лейбниц площадь"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Njutn–Lajbnicova formula",
+      "en": "Fundamental theorem of calculus",
+      "it": "Teorema fondamentale del calcolo",
+      "fr": "Théorème fondamental",
+      "es": "Regla de Barrow",
+      "de": "Hauptsatz der Differential- und Integralrechnung",
+      "pt": "Teorema fundamental do cálculo",
+      "ru": "Формула Ньютона–Лейбница"
+     },
+     "latex": {
+      "sr": "\\int_a^b f(x)\\,dx = F(b) - F(a)",
+      "en": "\\int_a^b f(x)\\,dx = F(b) - F(a)",
+      "it": "\\int_a^b f(x)\\,dx = F(b) - F(a)",
+      "fr": "\\int_a^b f(x)\\,dx = F(b) - F(a)",
+      "es": "\\int_a^b f(x)\\,dx = F(b) - F(a)",
+      "de": "\\int_a^b f(x)\\,dx = F(b) - F(a)",
+      "pt": "\\int_a^b f(x)\\,dx = F(b) - F(a)",
+      "ru": "\\int_a^b f(x)\\,dx = F(b) - F(a)"
+     },
+     "objasnjenje": {
+      "sr": "F je bilo koja primitivna funkcija od f.",
+      "en": "F is any antiderivative of f.",
+      "it": "F è una qualsiasi primitiva di f.",
+      "fr": "F est une primitive quelconque de f.",
+      "es": "F es cualquier primitiva de f.",
+      "de": "F ist eine beliebige Stammfunktion von f.",
+      "pt": "F é qualquer primitiva de f.",
+      "ru": "F — любая первообразная функции f."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Osobine",
+      "en": "Properties",
+      "it": "Proprietà",
+      "fr": "Propriétés",
+      "es": "Propiedades",
+      "de": "Eigenschaften",
+      "pt": "Propriedades",
+      "ru": "Свойства"
+     },
+     "latex": {
+      "sr": "\\int_a^b f\\,dx = -\\int_b^a f\\,dx, \\quad \\int_a^b f\\,dx = \\int_a^c f\\,dx + \\int_c^b f\\,dx",
+      "en": "\\int_a^b f\\,dx = -\\int_b^a f\\,dx, \\quad \\int_a^b f\\,dx = \\int_a^c f\\,dx + \\int_c^b f\\,dx",
+      "it": "\\int_a^b f\\,dx = -\\int_b^a f\\,dx, \\quad \\int_a^b f\\,dx = \\int_a^c f\\,dx + \\int_c^b f\\,dx",
+      "fr": "\\int_a^b f\\,dx = -\\int_b^a f\\,dx, \\quad \\int_a^b f\\,dx = \\int_a^c f\\,dx + \\int_c^b f\\,dx",
+      "es": "\\int_a^b f\\,dx = -\\int_b^a f\\,dx, \\quad \\int_a^b f\\,dx = \\int_a^c f\\,dx + \\int_c^b f\\,dx",
+      "de": "\\int_a^b f\\,dx = -\\int_b^a f\\,dx, \\quad \\int_a^b f\\,dx = \\int_a^c f\\,dx + \\int_c^b f\\,dx",
+      "pt": "\\int_a^b f\\,dx = -\\int_b^a f\\,dx, \\quad \\int_a^b f\\,dx = \\int_a^c f\\,dx + \\int_c^b f\\,dx",
+      "ru": "\\int_a^b f\\,dx = -\\int_b^a f\\,dx, \\quad \\int_a^b f\\,dx = \\int_a^c f\\,dx + \\int_c^b f\\,dx"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina između krivih",
+      "en": "Area between curves",
+      "it": "Area tra due curve",
+      "fr": "Aire entre deux courbes",
+      "es": "Área entre curvas",
+      "de": "Fläche zwischen Kurven",
+      "pt": "Área entre curvas",
+      "ru": "Площадь между кривыми"
+     },
+     "latex": {
+      "sr": "P = \\int_a^b \\left| f(x) - g(x) \\right| dx",
+      "en": "A = \\int_a^b \\left| f(x) - g(x) \\right| dx",
+      "it": "A = \\int_a^b \\left| f(x) - g(x) \\right| dx",
+      "fr": "A = \\int_a^b \\left| f(x) - g(x) \\right| dx",
+      "es": "A = \\int_a^b \\left| f(x) - g(x) \\right| dx",
+      "de": "A = \\int_a^b \\left| f(x) - g(x) \\right| dx",
+      "pt": "A = \\int_a^b \\left| f(x) - g(x) \\right| dx",
+      "ru": "S = \\int_a^b \\left| f(x) - g(x) \\right| dx"
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": {
+     "sr": "f(x) = a x^3 + b x^2 + c x + d",
+     "en": "f(x) = a x^3 + b x^2 + c x + d",
+     "it": "f(x) = a x^3 + b x^2 + c x + d",
+     "fr": "f(x) = a x^3 + b x^2 + c x + d",
+     "es": "f(x) = a x^3 + b x^2 + c x + d",
+     "de": "f(x) = a x^3 + b x^2 + c x + d",
+     "pt": "f(x) = a x^3 + b x^2 + c x + d",
+     "ru": "f(x) = a x^3 + b x^2 + c x + d"
+    },
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 0
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 1
+     },
+     {
+      "id": "c",
+      "oznaka": "c",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 0
+     },
+     {
+      "id": "d",
+      "oznaka": "d",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 0
+     },
+     {
+      "id": "p",
+      "oznaka": "x_1",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 0
+     },
+     {
+      "id": "q",
+      "oznaka": "x_2",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "∫ f(x) dx",
+       "en": "∫ f(x) dx",
+       "it": "∫ f(x) dx",
+       "fr": "∫ f(x) dx",
+       "es": "∫ f(x) dx",
+       "de": "∫ f(x) dx",
+       "pt": "∫ f(x) dx",
+       "ru": "∫ f(x) dx"
+      },
+      "izraz": "a*(pow(q,4)-pow(p,4))/4+b*(pow(q,3)-pow(p,3))/3+c*(q*q-p*p)/2+d*(q-p)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "tejlorov_red",
+   "simbol": "Σ",
+   "naziv": {
+    "sr": "Tejlorov red",
+    "en": "Taylor series",
+    "it": "Serie di Taylor",
+    "fr": "Développements limités",
+    "es": "Serie de Taylor",
+    "de": "Taylorreihe",
+    "pt": "Série de Taylor",
+    "ru": "Ряд Тейлора"
+   },
+   "opis": {
+    "sr": "Razvoj funkcija u red",
+    "en": "Power series expansions",
+    "it": "Sviluppi in serie",
+    "fr": "Développements en série",
+    "es": "Desarrollos en serie",
+    "de": "Reihenentwicklungen",
+    "pt": "Desenvolvimentos em série",
+    "ru": "Разложения в ряд"
+   },
+   "kljucne_reci": {
+    "sr": "tejlorov red makloren razvoj u red aproksimacija",
+    "en": "taylor maclaurin series expansion approximation",
+    "it": "serie di taylor mac laurin sviluppo",
+    "fr": "developpement limite taylor serie entiere",
+    "es": "serie de taylor maclaurin desarrollo",
+    "de": "taylorreihe maclaurin reihenentwicklung naherung",
+    "pt": "serie de taylor maclaurin desenvolvimento",
+    "ru": "ряд тейлора маклорена разложение"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Opšti oblik",
+      "en": "General form",
+      "it": "Forma generale",
+      "fr": "Forme générale",
+      "es": "Forma general",
+      "de": "Allgemeine Form",
+      "pt": "Forma geral",
+      "ru": "Общий вид"
+     },
+     "latex": {
+      "sr": "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!}(x - a)^n",
+      "en": "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!}(x - a)^n",
+      "it": "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!}(x - a)^n",
+      "fr": "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!}(x - a)^n",
+      "es": "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!}(x - a)^n",
+      "de": "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!}(x - a)^n",
+      "pt": "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!}(x - a)^n",
+      "ru": "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!}(x - a)^n"
+     },
+     "objasnjenje": {
+      "sr": "Za a = 0 red se zove Maklorenov.",
+      "en": "For a = 0 it is the Maclaurin series.",
+      "it": "Per a = 0 si chiama serie di Mac Laurin.",
+      "fr": "Pour a = 0, c’est la série de Mac-Laurin.",
+      "es": "Para a = 0 se llama serie de Maclaurin.",
+      "de": "Für a = 0 heißt sie Maclaurin-Reihe.",
+      "pt": "Para a = 0 chama-se série de Maclaurin.",
+      "ru": "При a = 0 — ряд Маклорена."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Eksponencijalna funkcija",
+      "en": "Exponential",
+      "it": "Esponenziale",
+      "fr": "Exponentielle",
+      "es": "Exponencial",
+      "de": "Exponentialfunktion",
+      "pt": "Exponencial",
+      "ru": "Экспонента"
+     },
+     "latex": {
+      "sr": "e^x = 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\dots",
+      "en": "e^x = 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\dots",
+      "it": "e^x = 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\dots",
+      "fr": "e^x = 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\dots",
+      "es": "e^x = 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\dots",
+      "de": "e^x = 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\dots",
+      "pt": "e^x = 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\dots",
+      "ru": "e^x = 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\dots"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Sinus i kosinus",
+      "en": "Sine and cosine",
+      "it": "Seno e coseno",
+      "fr": "Sinus et cosinus",
+      "es": "Seno y coseno",
+      "de": "Sinus und Kosinus",
+      "pt": "Seno e cosseno",
+      "ru": "Синус и косинус"
+     },
+     "latex": {
+      "sr": "\\sin  x = x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\dots, \\quad \\cos  x = 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - \\dots",
+      "en": "\\sin  x = x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\dots, \\quad \\cos  x = 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - \\dots",
+      "it": "\\operatorname{sen}  x = x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\dots, \\quad \\cos  x = 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - \\dots",
+      "fr": "\\sin  x = x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\dots, \\quad \\cos  x = 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - \\dots",
+      "es": "\\operatorname{sen}  x = x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\dots, \\quad \\cos  x = 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - \\dots",
+      "de": "\\sin  x = x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\dots, \\quad \\cos  x = 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - \\dots",
+      "pt": "\\operatorname{sen}  x = x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\dots, \\quad \\cos  x = 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - \\dots",
+      "ru": "\\sin  x = x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\dots, \\quad \\cos  x = 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - \\dots"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Logaritam i binomni red",
+      "en": "Logarithm and binomial series",
+      "it": "Logaritmo e serie binomiale",
+      "fr": "Logarithme et série binomiale",
+      "es": "Logaritmo y serie binomial",
+      "de": "Logarithmus und Binomialreihe",
+      "pt": "Logaritmo e série binomial",
+      "ru": "Логарифм и биномиальный ряд"
+     },
+     "latex": {
+      "sr": "\\ln(1 + x) = x - \\frac{x^2}{2} + \\frac{x^3}{3} - \\dots, \\quad (1 + x)^\\alpha = 1 + \\alpha x + \\frac{\\alpha(\\alpha - 1)}{2!}x^2 + \\dots",
+      "en": "\\ln(1 + x) = x - \\frac{x^2}{2} + \\frac{x^3}{3} - \\dots, \\quad (1 + x)^\\alpha = 1 + \\alpha x + \\frac{\\alpha(\\alpha - 1)}{2!}x^2 + \\dots",
+      "it": "\\ln(1 + x) = x - \\frac{x^2}{2} + \\frac{x^3}{3} - \\dots, \\quad (1 + x)^\\alpha = 1 + \\alpha x + \\frac{\\alpha(\\alpha - 1)}{2!}x^2 + \\dots",
+      "fr": "\\ln(1 + x) = x - \\frac{x^2}{2} + \\frac{x^3}{3} - \\dots, \\quad (1 + x)^\\alpha = 1 + \\alpha x + \\frac{\\alpha(\\alpha - 1)}{2!}x^2 + \\dots",
+      "es": "\\ln(1 + x) = x - \\frac{x^2}{2} + \\frac{x^3}{3} - \\dots, \\quad (1 + x)^\\alpha = 1 + \\alpha x + \\frac{\\alpha(\\alpha - 1)}{2!}x^2 + \\dots",
+      "de": "\\ln(1 + x) = x - \\frac{x^2}{2} + \\frac{x^3}{3} - \\dots, \\quad (1 + x)^\\alpha = 1 + \\alpha x + \\frac{\\alpha(\\alpha - 1)}{2!}x^2 + \\dots",
+      "pt": "\\ln(1 + x) = x - \\frac{x^2}{2} + \\frac{x^3}{3} - \\dots, \\quad (1 + x)^\\alpha = 1 + \\alpha x + \\frac{\\alpha(\\alpha - 1)}{2!}x^2 + \\dots",
+      "ru": "\\ln(1 + x) = x - \\frac{x^2}{2} + \\frac{x^3}{3} - \\dots, \\quad (1 + x)^\\alpha = 1 + \\alpha x + \\frac{\\alpha(\\alpha - 1)}{2!}x^2 + \\dots"
+     },
+     "objasnjenje": {
+      "sr": "Važi za |x| < 1.",
+      "en": "Valid for |x| < 1.",
+      "it": "Valido per |x| < 1.",
+      "fr": "Valable pour |x| < 1.",
+      "es": "Válido para |x| < 1.",
+      "de": "Gültig für |x| < 1.",
+      "pt": "Válido para |x| < 1.",
+      "ru": "Верно при |x| < 1."
+     }
+    }
+   ]
+  }
+ ]
+}

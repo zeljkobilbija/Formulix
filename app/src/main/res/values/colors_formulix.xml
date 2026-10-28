@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Boje oblasti -->
+    <color name="aritmetika">#2E5BBA</color>
+    <color name="algebra">#6B3FA0</color>
+    <color name="planimetrija">#0F7A6B</color>
+    <color name="stereometrija">#B5400F</color>
+    <color name="trigonometrija">#B4235A</color>
+    <color name="analiza">#2F6B2F</color>
+    <color name="analiticka_geometrija">#1E5F8A</color>
+    <color name="kombinatorika">#7A4B12</color>
+
+    <!-- Opste -->
+    <color name="pozadina">#F4F5F8</color>
+    <color name="tekst">#16181D</color>
+    <color name="tekst_sekundarni">#555B66</color>
+    <color name="povrsina">#FFFFFF</color>
+    <color name="ivica">#DADDE3</color>
+    <color name="zvezdica">#E3A008</color>
+
+    <!-- Splash i ikonica -->
+    <color name="splash_pozadina">#2E5BBA</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+</resources>

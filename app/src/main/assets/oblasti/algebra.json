@@ -1,0 +1,1489 @@
+{
+ "oblast": "algebra",
+ "teme": [
+  {
+   "id": "skraceno_mnozenje",
+   "simbol": "(a+b)²",
+   "naziv": {
+    "sr": "Skraćeno množenje",
+    "en": "Special products",
+    "it": "Prodotti notevoli",
+    "fr": "Identités remarquables",
+    "es": "Productos notables",
+    "de": "Binomische Formeln",
+    "pt": "Produtos notáveis",
+    "ru": "Формулы сокращённого умножения"
+   },
+   "opis": {
+    "sr": "Kvadrat i kub binoma, razlika kvadrata",
+    "en": "Square and cube of a binomial",
+    "it": "Quadrato e cubo di binomio",
+    "fr": "Carré et cube d’une somme",
+    "es": "Cuadrado y cubo de un binomio",
+    "de": "Quadrat und Kubus eines Binoms",
+    "pt": "Quadrado e cubo da soma",
+    "ru": "Квадрат и куб суммы, разность квадратов"
+   },
+   "kljucne_reci": {
+    "sr": "skraceno mnozenje kvadrat binoma kub binoma razlika kvadrata zbir kubova",
+    "en": "special products square of a binomial difference of squares sum of cubes expand factor",
+    "it": "prodotti notevoli quadrato di binomio differenza di quadrati cubo somma di cubi",
+    "fr": "identites remarquables carre d une somme difference de carres cube",
+    "es": "productos notables binomio al cuadrado diferencia de cuadrados suma de cubos",
+    "de": "binomische formeln quadrat binom dritte binomische formel kubus",
+    "pt": "produtos notaveis quadrado da soma diferenca de quadrados cubo",
+    "ru": "формулы сокращенного умножения квадрат суммы разность квадратов куб суммы"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Kvadrat binoma",
+      "en": "Square of a binomial",
+      "it": "Quadrato di binomio",
+      "fr": "Carré d’une somme et d’une différence",
+      "es": "Cuadrado de un binomio",
+      "de": "1. und 2. binomische Formel",
+      "pt": "Quadrado da soma e da diferença",
+      "ru": "Квадрат суммы и разности"
+     },
+     "latex": "(a \\pm b)^2 = a^2 \\pm 2ab + b^2",
+     "objasnjenje": {
+      "sr": "Kvadrat prvog, plus-minus dvostruki proizvod, plus kvadrat drugog.",
+      "en": "First squared, plus or minus twice the product, plus second squared.",
+      "it": "Quadrato del primo, più o meno il doppio prodotto, più il quadrato del secondo.",
+      "fr": "Carré du premier, plus ou moins le double produit, plus le carré du second.",
+      "es": "Cuadrado del primero, más o menos el doble producto, más el cuadrado del segundo.",
+      "de": "Erstes Quadrat, plus/minus doppeltes Produkt, plus zweites Quadrat.",
+      "pt": "Quadrado do primeiro, mais ou menos o dobro do produto, mais o quadrado do segundo.",
+      "ru": "Квадрат первого, плюс-минус удвоенное произведение, плюс квадрат второго."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Razlika kvadrata",
+      "en": "Difference of squares",
+      "it": "Differenza di quadrati",
+      "fr": "Différence de deux carrés",
+      "es": "Diferencia de cuadrados",
+      "de": "3. binomische Formel",
+      "pt": "Diferença de quadrados",
+      "ru": "Разность квадратов"
+     },
+     "latex": "a^2 - b^2 = (a - b)(a + b)",
+     "objasnjenje": {
+      "sr": "Razlika kvadrata jednaka je proizvodu razlike i zbira.",
+      "en": "A difference of squares factors into the difference times the sum.",
+      "it": "La differenza di due quadrati è il prodotto della differenza per la somma.",
+      "fr": "Une différence de deux carrés se factorise en produit de la différence par la somme.",
+      "es": "La diferencia de cuadrados es el producto de la diferencia por la suma.",
+      "de": "Die Differenz zweier Quadrate ist Differenz mal Summe.",
+      "pt": "A diferença de quadrados é o produto da diferença pela soma.",
+      "ru": "Разность квадратов равна произведению разности на сумму."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Kub binoma",
+      "en": "Cube of a binomial",
+      "it": "Cubo di binomio",
+      "fr": "Cube d’une somme et d’une différence",
+      "es": "Cubo de un binomio",
+      "de": "Kubus eines Binoms",
+      "pt": "Cubo da soma e da diferença",
+      "ru": "Куб суммы и разности"
+     },
+     "latex": "(a \\pm b)^3 = a^3 \\pm 3a^2 b + 3a b^2 \\pm b^3",
+     "objasnjenje": {
+      "sr": "Koeficijenti 1, 3, 3, 1 su iz Paskalovog trougla; kod razlike se znaci smenjuju.",
+      "en": "The coefficients 1, 3, 3, 1 come from Pascal’s triangle; for a difference the signs alternate.",
+      "it": "I coefficienti 1, 3, 3, 1 vengono dal triangolo di Tartaglia; con la differenza i segni si alternano.",
+      "fr": "Les coefficients 1, 3, 3, 1 viennent du triangle de Pascal ; pour une différence, les signes alternent.",
+      "es": "Los coeficientes 1, 3, 3, 1 salen del triángulo de Pascal; en la diferencia los signos se alternan.",
+      "de": "Die Koeffizienten 1, 3, 3, 1 stammen aus dem Pascalschen Dreieck; bei der Differenz wechseln die Vorzeichen.",
+      "pt": "Os coeficientes 1, 3, 3, 1 vêm do triângulo de Pascal; na diferença os sinais se alternam.",
+      "ru": "Коэффициенты 1, 3, 3, 1 — из треугольника Паскаля; у разности знаки чередуются."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zbir i razlika kubova",
+      "en": "Sum and difference of cubes",
+      "it": "Somma e differenza di cubi",
+      "fr": "Somme et différence de cubes",
+      "es": "Suma y diferencia de cubos",
+      "de": "Summe und Differenz von Kuben",
+      "pt": "Soma e diferença de cubos",
+      "ru": "Сумма и разность кубов"
+     },
+     "latex": "a^3 \\pm b^3 = (a \\pm b)(a^2 \\mp ab + b^2)",
+     "objasnjenje": {
+      "sr": "U drugoj zagradi je „nepotpuni kvadrat“ sa suprotnim znakom ispred ab.",
+      "en": "The second bracket is an “incomplete square” with the opposite sign before ab.",
+      "it": "Nella seconda parentesi c’è il “falso quadrato” con il segno opposto davanti ad ab.",
+      "fr": "La seconde parenthèse est un « carré incomplet » avec le signe opposé devant ab.",
+      "es": "En el segundo paréntesis va un “cuadrado incompleto” con el signo opuesto delante de ab.",
+      "de": "In der zweiten Klammer steht ein „unvollständiges Quadrat“ mit umgekehrtem Vorzeichen vor ab.",
+      "pt": "No segundo parêntese fica um “quadrado incompleto” com o sinal oposto antes de ab.",
+      "ru": "Во второй скобке — «неполный квадрат» с противоположным знаком перед ab."
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": "(a + b)^2,\\ (a - b)^2,\\ a^2 - b^2",
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 7
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": "(a + b)²",
+      "izraz": "pow(a+b,2)"
+     },
+     {
+      "naziv": "(a − b)²",
+      "izraz": "pow(a-b,2)"
+     },
+     {
+      "naziv": "a² − b²",
+      "izraz": "a*a-b*b"
+     },
+     {
+      "naziv": "(a + b)³",
+      "izraz": "pow(a+b,3)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "linearna_jednacina",
+   "simbol": "ax=b",
+   "naziv": {
+    "sr": "Linearna jednačina",
+    "en": "Linear equation",
+    "it": "Equazione di primo grado",
+    "fr": "Équation du premier degré",
+    "es": "Ecuación de primer grado",
+    "de": "Lineare Gleichung",
+    "pt": "Equação do 1º grau",
+    "ru": "Линейное уравнение"
+   },
+   "opis": {
+    "sr": "Jednačina oblika ax + b = 0",
+    "en": "Equation ax + b = 0",
+    "it": "Equazione ax + b = 0",
+    "fr": "Équation ax + b = 0",
+    "es": "Ecuación ax + b = 0",
+    "de": "Gleichung ax + b = 0",
+    "pt": "Equação ax + b = 0",
+    "ru": "Уравнение ax + b = 0"
+   },
+   "kljucne_reci": {
+    "sr": "linearna jednacina prvog stepena resavanje nepoznata",
+    "en": "linear equation first degree solve unknown",
+    "it": "equazione primo grado lineare risolvere incognita",
+    "fr": "equation premier degre lineaire resoudre inconnue",
+    "es": "ecuacion primer grado lineal resolver incognita",
+    "de": "lineare gleichung ersten grades losen unbekannte",
+    "pt": "equacao primeiro grau linear resolver incognita",
+    "ru": "линейное уравнение первой степени решить неизвестное"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Rešenje",
+      "en": "Solution",
+      "it": "Soluzione",
+      "fr": "Solution",
+      "es": "Solución",
+      "de": "Lösung",
+      "pt": "Solução",
+      "ru": "Решение"
+     },
+     "latex": "a x + b = 0 \\implies x = -\\frac{b}{a}, \\quad a \\neq 0",
+     "objasnjenje": {
+      "sr": "Član bez x prebacimo na drugu stranu sa promenjenim znakom, pa podelimo koeficijentom uz x.",
+      "en": "Move the constant to the other side with the opposite sign, then divide by the coefficient of x.",
+      "it": "Si porta il termine noto dall’altra parte cambiando segno e si divide per il coefficiente di x.",
+      "fr": "On passe la constante de l’autre côté en changeant son signe, puis on divise par le coefficient de x.",
+      "es": "Se pasa el término independiente al otro lado cambiando el signo y se divide por el coeficiente de x.",
+      "de": "Man bringt die Konstante mit umgekehrtem Vorzeichen auf die andere Seite und teilt durch den Faktor vor x.",
+      "pt": "Passa-se o termo independente para o outro lado com sinal trocado e divide-se pelo coeficiente de x.",
+      "ru": "Свободный член переносят в другую часть с противоположным знаком и делят на коэффициент при x."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Posebni slučajevi",
+      "en": "Special cases",
+      "it": "Casi particolari",
+      "fr": "Cas particuliers",
+      "es": "Casos especiales",
+      "de": "Sonderfälle",
+      "pt": "Casos especiais",
+      "ru": "Особые случаи"
+     },
+     "latex": {
+      "sr": "a = 0,\\ b \\neq 0:\\ \\text{nema rešenja}, \\quad a = 0,\\ b = 0:\\ x \\in \\mathbb{R}",
+      "en": "a = 0,\\ b \\neq 0:\\ \\text{no solution}, \\quad a = 0,\\ b = 0:\\ x \\in \\mathbb{R}",
+      "it": "a = 0,\\ b \\neq 0:\\ \\text{impossibile}, \\quad a = 0,\\ b = 0:\\ \\text{indeterminata}",
+      "fr": "a = 0,\\ b \\neq 0:\\ \\text{aucune solution}, \\quad a = 0,\\ b = 0:\\ x \\in \\mathbb{R}",
+      "es": "a = 0,\\ b \\neq 0:\\ \\text{sin solución}, \\quad a = 0,\\ b = 0:\\ x \\in \\mathbb{R}",
+      "de": "a = 0,\\ b \\neq 0:\\ \\mathbb{L} = \\{\\},\\quad a = 0,\\ b = 0:\\ \\mathbb{L} = \\mathbb{R}",
+      "pt": "a = 0,\\ b \\neq 0:\\ \\text{sem solução}, \\quad a = 0,\\ b = 0:\\ x \\in \\mathbb{R}",
+      "ru": "a = 0,\\ b \\neq 0:\\ \\text{нет корней}, \\quad a = 0,\\ b = 0:\\ x \\in \\mathbb{R}"
+     },
+     "objasnjenje": {
+      "sr": "Ako je a = 0, jednačina ili nema rešenja ili je svaki realan broj rešenje.",
+      "en": "If a = 0, the equation has either no solution or every real number is a solution.",
+      "it": "Se a = 0 l’equazione è impossibile oppure ogni numero reale è soluzione.",
+      "fr": "Si a = 0, l’équation n’a aucune solution ou tout réel est solution.",
+      "es": "Si a = 0, la ecuación no tiene solución o todo número real es solución.",
+      "de": "Für a = 0 hat die Gleichung keine Lösung oder jede reelle Zahl ist Lösung.",
+      "pt": "Se a = 0, a equação não tem solução ou todo número real é solução.",
+      "ru": "При a = 0 уравнение либо не имеет корней, либо любое число — корень."
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": "a x + b = 0",
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": -10
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": "x",
+      "izraz": "-b/a"
+     }
+    ]
+   }
+  },
+  {
+   "id": "linearna_funkcija",
+   "simbol": {
+    "sr": "y=kx",
+    "en": "y=mx",
+    "it": "y=mx",
+    "fr": "y=ax",
+    "es": "y=mx",
+    "de": "y=mx",
+    "pt": "y=ax",
+    "ru": "y=kx"
+   },
+   "naziv": {
+    "sr": "Linearna funkcija",
+    "en": "Linear function",
+    "it": "Funzione lineare (retta)",
+    "fr": "Fonction affine",
+    "es": "Función lineal",
+    "de": "Lineare Funktion",
+    "pt": "Função afim",
+    "ru": "Линейная функция"
+   },
+   "opis": {
+    "sr": "Prava, nagib i odsečak",
+    "en": "Line, slope and intercept",
+    "it": "Retta, coefficiente angolare",
+    "fr": "Droite, coefficient directeur",
+    "es": "Recta, pendiente y ordenada",
+    "de": "Gerade, Steigung, y-Achsenabschnitt",
+    "pt": "Reta, coeficiente angular",
+    "ru": "Прямая, угловой коэффициент"
+   },
+   "kljucne_reci": {
+    "sr": "linearna funkcija prava koeficijent pravca nagib odsecak grafik",
+    "en": "linear function line slope intercept gradient graph two points",
+    "it": "funzione lineare retta coefficiente angolare pendenza intercetta",
+    "fr": "fonction affine lineaire droite coefficient directeur pente ordonnee a l origine",
+    "es": "funcion lineal afin recta pendiente ordenada en el origen",
+    "de": "lineare funktion gerade steigung y achsenabschnitt steigungsdreieck",
+    "pt": "funcao afim linear reta coeficiente angular linear",
+    "ru": "линейная функция прямая угловой коэффициент наклон"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Eksplicitni oblik",
+      "en": "Slope-intercept form",
+      "it": "Equazione esplicita",
+      "fr": "Forme réduite",
+      "es": "Forma explícita",
+      "de": "Funktionsgleichung",
+      "pt": "Forma reduzida",
+      "ru": "Уравнение прямой"
+     },
+     "latex": {
+      "sr": "y = k x + n",
+      "en": "y = m x + b",
+      "it": "y = m x + q",
+      "fr": "y = a x + b",
+      "es": "y = m x + n",
+      "de": "y = m x + b",
+      "pt": "y = a x + b",
+      "ru": "y = k x + b"
+     },
+     "objasnjenje": {
+      "sr": "k je koeficijent pravca (nagib), a n odsečak na y-osi.",
+      "en": "m is the slope and b is the y-intercept.",
+      "it": "m è il coefficiente angolare e q l’ordinata all’origine.",
+      "fr": "a est le coefficient directeur et b l’ordonnée à l’origine.",
+      "es": "m es la pendiente y n la ordenada en el origen.",
+      "de": "m ist die Steigung und b der y-Achsenabschnitt.",
+      "pt": "a é o coeficiente angular e b o coeficiente linear.",
+      "ru": "k — угловой коэффициент, b — точка пересечения с осью y."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Nagib kroz dve tačke",
+      "en": "Slope from two points",
+      "it": "Coefficiente angolare da due punti",
+      "fr": "Coefficient directeur par deux points",
+      "es": "Pendiente por dos puntos",
+      "de": "Steigung aus zwei Punkten",
+      "pt": "Coeficiente angular por dois pontos",
+      "ru": "Угловой коэффициент по двум точкам"
+     },
+     "latex": {
+      "sr": "k = \\frac{y_2 - y_1}{x_2 - x_1}",
+      "en": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+      "it": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+      "fr": "a = \\frac{y_2 - y_1}{x_2 - x_1}",
+      "es": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+      "de": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+      "pt": "a = \\frac{y_2 - y_1}{x_2 - x_1}",
+      "ru": "k = \\frac{y_2 - y_1}{x_2 - x_1}"
+     },
+     "objasnjenje": {
+      "sr": "Promena y podeljena promenom x između dve tačke prave.",
+      "en": "The change in y divided by the change in x between two points on the line.",
+      "it": "La variazione di y divisa per la variazione di x tra due punti della retta.",
+      "fr": "La variation de y divisée par la variation de x entre deux points de la droite.",
+      "es": "La variación de y dividida por la variación de x entre dos puntos de la recta.",
+      "de": "Änderung von y geteilt durch Änderung von x zwischen zwei Punkten.",
+      "pt": "A variação de y dividida pela variação de x entre dois pontos da reta.",
+      "ru": "Изменение y, делённое на изменение x между двумя точками прямой."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Prava kroz tačku",
+      "en": "Point-slope form",
+      "it": "Retta per un punto",
+      "fr": "Droite passant par un point",
+      "es": "Recta por un punto",
+      "de": "Punkt-Steigungs-Form",
+      "pt": "Reta por um ponto",
+      "ru": "Прямая через точку"
+     },
+     "latex": {
+      "sr": "y - y_1 = k\\,(x - x_1)",
+      "en": "y - y_1 = m\\,(x - x_1)",
+      "it": "y - y_1 = m\\,(x - x_1)",
+      "fr": "y - y_1 = a\\,(x - x_1)",
+      "es": "y - y_1 = m\\,(x - x_1)",
+      "de": "y - y_1 = m\\,(x - x_1)",
+      "pt": "y - y_1 = a\\,(x - x_1)",
+      "ru": "y - y_1 = k\\,(x - x_1)"
+     },
+     "objasnjenje": {
+      "sr": "Jednačina prave kroz tačku (x₁, y₁) sa poznatim nagibom.",
+      "en": "Equation of the line through (x₁, y₁) with a given slope.",
+      "it": "Equazione della retta passante per (x₁, y₁) con coefficiente angolare dato.",
+      "fr": "Équation de la droite passant par (x₁, y₁) de coefficient directeur donné.",
+      "es": "Ecuación de la recta que pasa por (x₁, y₁) con pendiente dada.",
+      "de": "Gerade durch den Punkt (x₁, y₁) mit gegebener Steigung.",
+      "pt": "Equação da reta que passa por (x₁, y₁) com coeficiente angular dado.",
+      "ru": "Уравнение прямой через точку (x₁, y₁) с заданным угловым коэффициентом."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Paralelne i normalne prave",
+      "en": "Parallel and perpendicular lines",
+      "it": "Rette parallele e perpendicolari",
+      "fr": "Droites parallèles et perpendiculaires",
+      "es": "Rectas paralelas y perpendiculares",
+      "de": "Parallele und orthogonale Geraden",
+      "pt": "Retas paralelas e perpendiculares",
+      "ru": "Параллельные и перпендикулярные прямые"
+     },
+     "latex": {
+      "sr": "k_1 = k_2, \\quad k_1 \\cdot k_2 = -1",
+      "en": "m_1 = m_2, \\quad m_1 \\cdot m_2 = -1",
+      "it": "m_1 = m_2, \\quad m_1 \\cdot m_2 = -1",
+      "fr": "a_1 = a_2, \\quad a_1 \\cdot a_2 = -1",
+      "es": "m_1 = m_2, \\quad m_1 \\cdot m_2 = -1",
+      "de": "m_1 = m_2, \\quad m_1 \\cdot m_2 = -1",
+      "pt": "a_1 = a_2, \\quad a_1 \\cdot a_2 = -1",
+      "ru": "k_1 = k_2, \\quad k_1 \\cdot k_2 = -1"
+     },
+     "objasnjenje": {
+      "sr": "Paralelne prave imaju isti nagib, a normalne prave nagibe čiji je proizvod −1.",
+      "en": "Parallel lines have equal slopes; perpendicular lines have slopes whose product is −1.",
+      "it": "Rette parallele hanno lo stesso coefficiente angolare; perpendicolari, prodotto −1.",
+      "fr": "Des droites parallèles ont le même coefficient directeur ; perpendiculaires, leur produit vaut −1.",
+      "es": "Las rectas paralelas tienen igual pendiente; las perpendiculares, producto −1.",
+      "de": "Parallele Geraden haben gleiche Steigung; orthogonale Geraden das Produkt −1.",
+      "pt": "Retas paralelas têm o mesmo coeficiente angular; perpendiculares, produto −1.",
+      "ru": "У параллельных прямых коэффициенты равны, у перпендикулярных их произведение равно −1."
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": "A(x_1, y_1),\\ B(x_2, y_2)",
+    "ulazi": [
+     {
+      "id": "x1",
+      "oznaka": "x_1",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 1
+     },
+     {
+      "id": "y1",
+      "oznaka": "y_1",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 2
+     },
+     {
+      "id": "x2",
+      "oznaka": "x_2",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     },
+     {
+      "id": "y2",
+      "oznaka": "y_2",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 8
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "k",
+       "en": "m",
+       "it": "m",
+       "fr": "a",
+       "es": "m",
+       "de": "m",
+       "pt": "a",
+       "ru": "k"
+      },
+      "izraz": "(y2-y1)/(x2-x1)"
+     },
+     {
+      "naziv": {
+       "sr": "n",
+       "en": "b",
+       "it": "q",
+       "fr": "b",
+       "es": "n",
+       "de": "b",
+       "pt": "b",
+       "ru": "b"
+      },
+      "izraz": "y1-(y2-y1)/(x2-x1)*x1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sistem_jednacina",
+   "simbol": "{x,y}",
+   "naziv": {
+    "sr": "Sistem dve jednačine",
+    "en": "System of two equations",
+    "it": "Sistema di due equazioni",
+    "fr": "Système de deux équations",
+    "es": "Sistema de dos ecuaciones",
+    "de": "Lineares Gleichungssystem",
+    "pt": "Sistema de duas equações",
+    "ru": "Система двух уравнений"
+   },
+   "opis": {
+    "sr": "Kramerovo pravilo, determinante",
+    "en": "Cramer’s rule, determinants",
+    "it": "Regola di Cramer, determinanti",
+    "fr": "Règle de Cramer, déterminants",
+    "es": "Regla de Cramer, determinantes",
+    "de": "Cramersche Regel, Determinanten",
+    "pt": "Regra de Cramer, determinantes",
+    "ru": "Правило Крамера, определители"
+   },
+   "kljucne_reci": {
+    "sr": "sistem jednacina dve nepoznate kramer determinanta zamena suprotni koeficijenti",
+    "en": "system of equations simultaneous two unknowns cramer determinant substitution elimination",
+    "it": "sistema equazioni due incognite cramer determinante sostituzione riduzione",
+    "fr": "systeme equations deux inconnues cramer determinant substitution combinaison",
+    "es": "sistema ecuaciones dos incognitas cramer determinante sustitucion reduccion",
+    "de": "gleichungssystem zwei unbekannte cramer determinante einsetzungsverfahren additionsverfahren",
+    "pt": "sistema equacoes duas incognitas cramer determinante substituicao adicao",
+    "ru": "система уравнений две неизвестные крамер определитель подстановка сложение"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Sistem",
+      "en": "System",
+      "it": "Sistema",
+      "fr": "Système",
+      "es": "Sistema",
+      "de": "Gleichungssystem",
+      "pt": "Sistema",
+      "ru": "Система"
+     },
+     "latex": "\\begin{cases} a_1 x + b_1 y = c_1 \\\\ a_2 x + b_2 y = c_2 \\end{cases}",
+     "objasnjenje": {
+      "sr": "Dve linearne jednačine sa dve nepoznate x i y.",
+      "en": "Two linear equations in two unknowns x and y.",
+      "it": "Due equazioni lineari nelle incognite x e y.",
+      "fr": "Deux équations linéaires à deux inconnues x et y.",
+      "es": "Dos ecuaciones lineales con dos incógnitas x e y.",
+      "de": "Zwei lineare Gleichungen mit den Unbekannten x und y.",
+      "pt": "Duas equações lineares com duas incógnitas x e y.",
+      "ru": "Два линейных уравнения с двумя неизвестными x и y."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Determinante",
+      "en": "Determinants",
+      "it": "Determinanti",
+      "fr": "Déterminants",
+      "es": "Determinantes",
+      "de": "Determinanten",
+      "pt": "Determinantes",
+      "ru": "Определители"
+     },
+     "latex": "D = a_1 b_2 - a_2 b_1, \\quad D_x = c_1 b_2 - c_2 b_1, \\quad D_y = a_1 c_2 - a_2 c_1",
+     "objasnjenje": {
+      "sr": "D je determinanta sistema; u Dx kolonu uz x zamenimo slobodnim članovima, u Dy kolonu uz y.",
+      "en": "D is the system determinant; for Dx replace the x column by the constants, for Dy the y column.",
+      "it": "D è il determinante del sistema; in Dx si sostituisce la colonna di x con i termini noti, in Dy quella di y.",
+      "fr": "D est le déterminant du système ; pour Dx on remplace la colonne de x par les constantes, pour Dy celle de y.",
+      "es": "D es el determinante del sistema; en Dx se sustituye la columna de x por los términos independientes, en Dy la de y.",
+      "de": "D ist die Systemdeterminante; für Dx ersetzt man die x-Spalte durch die rechte Seite, für Dy die y-Spalte.",
+      "pt": "D é o determinante do sistema; em Dx troca-se a coluna de x pelos termos independentes, em Dy a de y.",
+      "ru": "D — определитель системы; в Dx столбец при x заменяют свободными членами, в Dy — столбец при y."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Kramerovo pravilo",
+      "en": "Cramer’s rule",
+      "it": "Regola di Cramer",
+      "fr": "Règle de Cramer",
+      "es": "Regla de Cramer",
+      "de": "Cramersche Regel",
+      "pt": "Regra de Cramer",
+      "ru": "Правило Крамера"
+     },
+     "latex": "x = \\frac{D_x}{D}, \\quad y = \\frac{D_y}{D}, \\quad D \\neq 0",
+     "objasnjenje": {
+      "sr": "Ako je D = 0, sistem nema rešenja ili ih ima beskonačno mnogo.",
+      "en": "If D = 0, the system has no solution or infinitely many.",
+      "it": "Se D = 0 il sistema è impossibile oppure indeterminato.",
+      "fr": "Si D = 0, le système n’a aucune solution ou en a une infinité.",
+      "es": "Si D = 0, el sistema no tiene solución o tiene infinitas.",
+      "de": "Ist D = 0, hat das System keine oder unendlich viele Lösungen.",
+      "pt": "Se D = 0, o sistema não tem solução ou tem infinitas.",
+      "ru": "Если D = 0, система не имеет решений или имеет их бесконечно много."
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": "\\begin{cases} a_1 x + b_1 y = c_1 \\\\ a_2 x + b_2 y = c_2 \\end{cases}",
+    "ulazi": [
+     {
+      "id": "a1",
+      "oznaka": "a_1",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 2
+     },
+     {
+      "id": "b1",
+      "oznaka": "b_1",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     },
+     {
+      "id": "c1",
+      "oznaka": "c_1",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 12
+     },
+     {
+      "id": "a2",
+      "oznaka": "a_2",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 1
+     },
+     {
+      "id": "b2",
+      "oznaka": "b_2",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": -1
+     },
+     {
+      "id": "c2",
+      "oznaka": "c_2",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 1
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": "x",
+      "izraz": "(c1*b2-c2*b1)/(a1*b2-a2*b1)"
+     },
+     {
+      "naziv": "y",
+      "izraz": "(a1*c2-a2*c1)/(a1*b2-a2*b1)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kvadratna_jednacina",
+   "simbol": "x²",
+   "naziv": {
+    "sr": "Kvadratna jednačina",
+    "en": "Quadratic equation",
+    "it": "Equazione di secondo grado",
+    "fr": "Équation du second degré",
+    "es": "Ecuación de segundo grado",
+    "de": "Quadratische Gleichung",
+    "pt": "Equação do 2º grau",
+    "ru": "Квадратное уравнение"
+   },
+   "opis": {
+    "sr": "Diskriminanta, rešenja, Vijetove formule",
+    "en": "Discriminant, roots, Vieta’s formulas",
+    "it": "Discriminante, soluzioni, Viète",
+    "fr": "Discriminant, racines, relations de Viète",
+    "es": "Discriminante, soluciones, Vieta",
+    "de": "Diskriminante, Lösungen, Vieta",
+    "pt": "Discriminante, raízes, Bhaskara",
+    "ru": "Дискриминант, корни, теорема Виета"
+   },
+   "kljucne_reci": {
+    "sr": "kvadratna jednacina diskriminanta resenja koreni vijetove formule",
+    "en": "quadratic equation formula discriminant roots solutions vieta",
+    "it": "equazione secondo grado discriminante delta soluzioni formula risolutiva viete",
+    "fr": "equation second degre discriminant delta racines solutions viete",
+    "es": "ecuacion segundo grado cuadratica discriminante soluciones formula general vieta",
+    "de": "quadratische gleichung mitternachtsformel abc formel pq formel diskriminante losungen vieta",
+    "pt": "equacao segundo grau bhaskara discriminante delta raizes soma e produto",
+    "ru": "квадратное уравнение дискриминант корни теорема виета"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Opšti oblik",
+      "en": "Standard form",
+      "it": "Forma normale",
+      "fr": "Forme générale",
+      "es": "Forma general",
+      "de": "Allgemeine Form",
+      "pt": "Forma geral",
+      "ru": "Общий вид"
+     },
+     "latex": "a x^2 + b x + c = 0, \\quad a \\neq 0",
+     "objasnjenje": {
+      "sr": "a, b i c su realni brojevi, a koeficijent a nije nula.",
+      "en": "a, b and c are real numbers and a is not zero.",
+      "it": "a, b e c sono numeri reali, con a diverso da zero.",
+      "fr": "a, b et c sont des réels, avec a non nul.",
+      "es": "a, b y c son números reales, con a distinto de cero.",
+      "de": "a, b und c sind reelle Zahlen, a ist ungleich null.",
+      "pt": "a, b e c são números reais, com a diferente de zero.",
+      "ru": "a, b и c — действительные числа, a ≠ 0."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Diskriminanta",
+      "en": "Discriminant",
+      "it": "Discriminante",
+      "fr": "Discriminant",
+      "es": "Discriminante",
+      "de": "Diskriminante",
+      "pt": "Discriminante",
+      "ru": "Дискриминант"
+     },
+     "latex": {
+      "sr": "D = b^2 - 4ac",
+      "en": "D = b^2 - 4ac",
+      "it": "\\Delta = b^2 - 4ac",
+      "fr": "\\Delta = b^2 - 4ac",
+      "es": "\\Delta = b^2 - 4ac",
+      "de": "D = b^2 - 4ac",
+      "pt": "\\Delta = b^2 - 4ac",
+      "ru": "D = b^2 - 4ac"
+     },
+     "objasnjenje": {
+      "sr": "D > 0: dva različita realna rešenja; D = 0: jedno dvostruko; D < 0: konjugovano kompleksna rešenja.",
+      "en": "D > 0: two distinct real roots; D = 0: one double root; D < 0: two complex roots.",
+      "it": "Δ > 0: due soluzioni reali distinte; Δ = 0: due coincidenti; Δ < 0: nessuna soluzione reale.",
+      "fr": "Δ > 0 : deux racines réelles ; Δ = 0 : une racine double ; Δ < 0 : pas de racine réelle.",
+      "es": "Δ > 0: dos soluciones reales; Δ = 0: una doble; Δ < 0: sin soluciones reales.",
+      "de": "D > 0: zwei Lösungen; D = 0: eine (doppelte) Lösung; D < 0: keine reelle Lösung.",
+      "pt": "Δ > 0: duas raízes reais distintas; Δ = 0: uma raiz dupla; Δ < 0: nenhuma raiz real.",
+      "ru": "D > 0: два различных корня; D = 0: один корень; D < 0: действительных корней нет."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Rešenja",
+      "en": "Quadratic formula",
+      "it": "Formula risolutiva",
+      "fr": "Racines",
+      "es": "Fórmula general",
+      "de": "Mitternachtsformel",
+      "pt": "Fórmula de Bhaskara",
+      "ru": "Формула корней"
+     },
+     "latex": {
+      "sr": "x_{1,2} = \\frac{-b \\pm \\sqrt{D}}{2a}",
+      "en": "x_{1,2} = \\frac{-b \\pm \\sqrt{D}}{2a}",
+      "it": "x_{1,2} = \\frac{-b \\pm \\sqrt{\\Delta}}{2a}",
+      "fr": "x_{1,2} = \\frac{-b \\pm \\sqrt{\\Delta}}{2a}",
+      "es": "x_{1,2} = \\frac{-b \\pm \\sqrt{\\Delta}}{2a}",
+      "de": "x_{1,2} = \\frac{-b \\pm \\sqrt{D}}{2a}",
+      "pt": "x_{1,2} = \\frac{-b \\pm \\sqrt{\\Delta}}{2a}",
+      "ru": "x_{1,2} = \\frac{-b \\pm \\sqrt{D}}{2a}"
+     },
+     "objasnjenje": {
+      "sr": "Rešenja dobijamo uzimanjem plusa za x₁ i minusa za x₂.",
+      "en": "Take plus for x₁ and minus for x₂.",
+      "it": "Si prende il più per x₁ e il meno per x₂.",
+      "fr": "On prend le signe plus pour x₁ et le signe moins pour x₂.",
+      "es": "Se toma el signo más para x₁ y el menos para x₂.",
+      "de": "Plus ergibt x₁, minus ergibt x₂.",
+      "pt": "Usa-se o sinal de mais para x₁ e o de menos para x₂.",
+      "ru": "Со знаком «плюс» получаем x₁, со знаком «минус» — x₂."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Vijetove formule",
+      "en": "Vieta’s formulas",
+      "it": "Relazioni tra radici e coefficienti",
+      "fr": "Relations de Viète",
+      "es": "Fórmulas de Vieta",
+      "de": "Satz von Vieta",
+      "pt": "Soma e produto",
+      "ru": "Теорема Виета"
+     },
+     "latex": "x_1 + x_2 = -\\frac{b}{a}, \\quad x_1 \\cdot x_2 = \\frac{c}{a}",
+     "objasnjenje": {
+      "sr": "Zbir i proizvod rešenja mogu se odrediti bez rešavanja jednačine.",
+      "en": "The sum and product of the roots can be found without solving the equation.",
+      "it": "Somma e prodotto delle soluzioni si trovano senza risolvere l’equazione.",
+      "fr": "La somme et le produit des racines s’obtiennent sans résoudre l’équation.",
+      "es": "La suma y el producto de las soluciones se obtienen sin resolver la ecuación.",
+      "de": "Summe und Produkt der Lösungen erhält man, ohne die Gleichung zu lösen.",
+      "pt": "A soma e o produto das raízes saem sem resolver a equação.",
+      "ru": "Сумму и произведение корней можно найти, не решая уравнение."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Rastavljanje na činioce",
+      "en": "Factored form",
+      "it": "Scomposizione",
+      "fr": "Forme factorisée",
+      "es": "Factorización",
+      "de": "Linearfaktorzerlegung",
+      "pt": "Forma fatorada",
+      "ru": "Разложение на множители"
+     },
+     "latex": "a x^2 + b x + c = a (x - x_1)(x - x_2)",
+     "objasnjenje": {
+      "sr": "Kada znamo rešenja, kvadratni trinom možemo zapisati kao proizvod.",
+      "en": "Once the roots are known, the quadratic can be written as a product.",
+      "it": "Note le soluzioni, il trinomio si scrive come prodotto.",
+      "fr": "Connaissant les racines, on écrit le trinôme sous forme de produit.",
+      "es": "Conocidas las soluciones, el trinomio se escribe como producto.",
+      "de": "Kennt man die Lösungen, lässt sich der Term als Produkt schreiben.",
+      "pt": "Conhecendo as raízes, o trinômio pode ser escrito como produto.",
+      "ru": "Зная корни, квадратный трёхчлен записывают в виде произведения."
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": "a x^2 + b x + c = 0",
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 1
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": -5
+     },
+     {
+      "id": "c",
+      "oznaka": "c",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 6
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "D",
+       "en": "D",
+       "it": "Δ",
+       "fr": "Δ",
+       "es": "Δ",
+       "de": "D",
+       "pt": "Δ",
+       "ru": "D"
+      },
+      "izraz": "b*b-4*a*c"
+     },
+     {
+      "naziv": "x₁, x₂",
+      "izraz": "kvadratna(a,b,c)",
+      "tip": "tekst"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kvadratna_funkcija",
+   "simbol": "∪",
+   "naziv": {
+    "sr": "Kvadratna funkcija",
+    "en": "Quadratic function",
+    "it": "Parabola",
+    "fr": "Fonction du second degré",
+    "es": "Función cuadrática",
+    "de": "Quadratische Funktion",
+    "pt": "Função quadrática",
+    "ru": "Квадратичная функция"
+   },
+   "opis": {
+    "sr": "Parabola, teme, nule",
+    "en": "Parabola, vertex, zeros",
+    "it": "Vertice, asse, zeri",
+    "fr": "Parabole, sommet, racines",
+    "es": "Parábola, vértice, ceros",
+    "de": "Parabel, Scheitelpunkt, Nullstellen",
+    "pt": "Parábola, vértice, zeros",
+    "ru": "Парабола, вершина, нули"
+   },
+   "kljucne_reci": {
+    "sr": "kvadratna funkcija parabola teme nule osa simetrije ekstrem",
+    "en": "quadratic function parabola vertex axis of symmetry zeros maximum minimum",
+    "it": "parabola funzione quadratica vertice asse di simmetria",
+    "fr": "fonction second degre parabole sommet axe de symetrie forme canonique",
+    "es": "funcion cuadratica parabola vertice eje de simetria",
+    "de": "quadratische funktion parabel scheitelpunkt scheitelpunktform symmetrieachse",
+    "pt": "funcao quadratica parabola vertice eixo de simetria maximo minimo",
+    "ru": "квадратичная функция парабола вершина ось симметрии"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Opšti oblik",
+      "en": "Standard form",
+      "it": "Equazione della parabola",
+      "fr": "Forme développée",
+      "es": "Forma general",
+      "de": "Allgemeine Form",
+      "pt": "Forma geral",
+      "ru": "Общий вид"
+     },
+     "latex": "y = a x^2 + b x + c",
+     "objasnjenje": {
+      "sr": "Grafik je parabola: za a > 0 otvor je nagore, za a < 0 nadole.",
+      "en": "The graph is a parabola: it opens upward for a > 0 and downward for a < 0.",
+      "it": "Il grafico è una parabola: concavità verso l’alto se a > 0, verso il basso se a < 0.",
+      "fr": "La courbe est une parabole : tournée vers le haut si a > 0, vers le bas si a < 0.",
+      "es": "La gráfica es una parábola: abre hacia arriba si a > 0 y hacia abajo si a < 0.",
+      "de": "Der Graph ist eine Parabel: nach oben geöffnet für a > 0, nach unten für a < 0.",
+      "pt": "O gráfico é uma parábola: concavidade para cima se a > 0, para baixo se a < 0.",
+      "ru": "График — парабола: ветви вверх при a > 0, вниз при a < 0."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Teme parabole",
+      "en": "Vertex",
+      "it": "Vertice",
+      "fr": "Sommet",
+      "es": "Vértice",
+      "de": "Scheitelpunkt",
+      "pt": "Vértice",
+      "ru": "Вершина параболы"
+     },
+     "latex": {
+      "sr": "T\\left(-\\frac{b}{2a},\\ -\\frac{D}{4a}\\right)",
+      "en": "V\\left(-\\frac{b}{2a},\\ -\\frac{D}{4a}\\right)",
+      "it": "V\\left(-\\frac{b}{2a},\\ -\\frac{\\Delta}{4a}\\right)",
+      "fr": "S\\left(-\\frac{b}{2a},\\ -\\frac{\\Delta}{4a}\\right)",
+      "es": "V\\left(-\\frac{b}{2a},\\ -\\frac{\\Delta}{4a}\\right)",
+      "de": "S\\left(-\\frac{b}{2a},\\ -\\frac{D}{4a}\\right)",
+      "pt": "V\\left(-\\frac{b}{2a},\\ -\\frac{\\Delta}{4a}\\right)",
+      "ru": "O\\left(-\\frac{b}{2a},\\ -\\frac{D}{4a}\\right)"
+     },
+     "objasnjenje": {
+      "sr": "U temenu funkcija dostiže minimum (a > 0) ili maksimum (a < 0).",
+      "en": "At the vertex the function reaches its minimum (a > 0) or maximum (a < 0).",
+      "it": "Nel vertice la funzione ha il minimo (a > 0) o il massimo (a < 0).",
+      "fr": "Au sommet, la fonction atteint son minimum (a > 0) ou son maximum (a < 0).",
+      "es": "En el vértice la función alcanza su mínimo (a > 0) o su máximo (a < 0).",
+      "de": "Im Scheitelpunkt liegt das Minimum (a > 0) oder Maximum (a < 0).",
+      "pt": "No vértice a função atinge o mínimo (a > 0) ou o máximo (a < 0).",
+      "ru": "В вершине функция принимает наименьшее (a > 0) или наибольшее (a < 0) значение."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Kanonski oblik",
+      "en": "Vertex form",
+      "it": "Forma canonica",
+      "fr": "Forme canonique",
+      "es": "Forma canónica",
+      "de": "Scheitelpunktform",
+      "pt": "Forma canônica",
+      "ru": "Выделение полного квадрата"
+     },
+     "latex": {
+      "sr": "y = a (x - \\alpha)^2 + \\beta",
+      "en": "y = a (x - h)^2 + k",
+      "it": "y = a (x - x_V)^2 + y_V",
+      "fr": "y = a (x - \\alpha)^2 + \\beta",
+      "es": "y = a (x - h)^2 + k",
+      "de": "y = a (x - d)^2 + e",
+      "pt": "y = a (x - x_v)^2 + y_v",
+      "ru": "y = a (x - x_0)^2 + y_0"
+     },
+     "objasnjenje": {
+      "sr": "α i β su koordinate temena; iz ovog oblika teme se čita direktno.",
+      "en": "(h, k) is the vertex; it can be read straight from this form.",
+      "it": "(x_V, y_V) è il vertice, che si legge direttamente da questa forma.",
+      "fr": "(α, β) est le sommet, lisible directement sur cette forme.",
+      "es": "(h, k) es el vértice, que se lee directamente en esta forma.",
+      "de": "S(d | e) ist der Scheitelpunkt und lässt sich direkt ablesen.",
+      "pt": "(x_v, y_v) é o vértice, lido diretamente nesta forma.",
+      "ru": "(x₀; y₀) — вершина параболы, она видна сразу."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Osa simetrije",
+      "en": "Axis of symmetry",
+      "it": "Asse di simmetria",
+      "fr": "Axe de symétrie",
+      "es": "Eje de simetría",
+      "de": "Symmetrieachse",
+      "pt": "Eixo de simetria",
+      "ru": "Ось симметрии"
+     },
+     "latex": "x = -\\frac{b}{2a}",
+     "objasnjenje": {
+      "sr": "Vertikalna prava kroz teme; parabola je simetrična u odnosu na nju.",
+      "en": "The vertical line through the vertex; the parabola is symmetric about it.",
+      "it": "La retta verticale per il vertice; la parabola è simmetrica rispetto ad essa.",
+      "fr": "La droite verticale passant par le sommet ; la parabole est symétrique par rapport à elle.",
+      "es": "La recta vertical por el vértice; la parábola es simétrica respecto a ella.",
+      "de": "Die senkrechte Gerade durch den Scheitelpunkt; die Parabel ist dazu symmetrisch.",
+      "pt": "A reta vertical pelo vértice; a parábola é simétrica em relação a ela.",
+      "ru": "Вертикальная прямая через вершину; парабола симметрична относительно неё."
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": "y = a x^2 + b x + c",
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 1
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": -4
+     },
+     {
+      "id": "c",
+      "oznaka": "c",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Teme – x",
+       "en": "Vertex – x",
+       "it": "Vertice – x",
+       "fr": "Sommet – x",
+       "es": "Vértice – x",
+       "de": "Scheitel – x",
+       "pt": "Vértice – x",
+       "ru": "Вершина – x"
+      },
+      "izraz": "-b/(2*a)"
+     },
+     {
+      "naziv": {
+       "sr": "Teme – y",
+       "en": "Vertex – y",
+       "it": "Vertice – y",
+       "fr": "Sommet – y",
+       "es": "Vértice – y",
+       "de": "Scheitel – y",
+       "pt": "Vértice – y",
+       "ru": "Вершина – y"
+      },
+      "izraz": "c-b*b/(4*a)"
+     },
+     {
+      "naziv": {
+       "sr": "Nule",
+       "en": "Zeros",
+       "it": "Zeri",
+       "fr": "Racines",
+       "es": "Ceros",
+       "de": "Nullstellen",
+       "pt": "Zeros",
+       "ru": "Нули"
+      },
+      "izraz": "kvadratna(a,b,c)",
+      "tip": "tekst"
+     }
+    ]
+   }
+  },
+  {
+   "id": "logaritmi",
+   "simbol": "log",
+   "naziv": {
+    "sr": "Logaritmi",
+    "en": "Logarithms",
+    "it": "Logaritmi",
+    "fr": "Logarithmes",
+    "es": "Logaritmos",
+    "de": "Logarithmen",
+    "pt": "Logaritmos",
+    "ru": "Логарифмы"
+   },
+   "opis": {
+    "sr": "Definicija i pravila",
+    "en": "Definition and rules",
+    "it": "Definizione e proprietà",
+    "fr": "Définition et propriétés",
+    "es": "Definición y propiedades",
+    "de": "Definition und Rechenregeln",
+    "pt": "Definição e propriedades",
+    "ru": "Определение и свойства"
+   },
+   "kljucne_reci": {
+    "sr": "logaritam logaritmi osnova prirodni dekadni ln log promena osnove",
+    "en": "logarithm log ln natural common base change of base",
+    "it": "logaritmo logaritmi base naturale decimale ln cambiamento di base",
+    "fr": "logarithme log ln neperien decimal base changement de base",
+    "es": "logaritmo log ln neperiano decimal base cambio de base",
+    "de": "logarithmus log ln lg naturlicher zehnerlogarithmus basiswechsel",
+    "pt": "logaritmo log ln natural decimal base mudanca de base",
+    "ru": "логарифм log ln lg натуральный десятичный основание переход к новому основанию"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Definicija",
+      "en": "Definition",
+      "it": "Definizione",
+      "fr": "Définition",
+      "es": "Definición",
+      "de": "Definition",
+      "pt": "Definição",
+      "ru": "Определение"
+     },
+     "latex": "\\log_a b = x \\iff a^x = b, \\quad a > 0,\\ a \\neq 1,\\ b > 0",
+     "objasnjenje": {
+      "sr": "Logaritam je izložilac na koji treba stepenovati osnovu a da bi se dobio broj b.",
+      "en": "The logarithm is the exponent to which the base a must be raised to get b.",
+      "it": "Il logaritmo è l’esponente da dare alla base a per ottenere b.",
+      "fr": "Le logarithme est l’exposant auquel il faut élever la base a pour obtenir b.",
+      "es": "El logaritmo es el exponente al que hay que elevar la base a para obtener b.",
+      "de": "Der Logarithmus ist der Exponent, mit dem man a potenzieren muss, um b zu erhalten.",
+      "pt": "O logaritmo é o expoente ao qual se eleva a base a para obter b.",
+      "ru": "Логарифм — это показатель степени, в которую нужно возвести a, чтобы получить b."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Proizvod i količnik",
+      "en": "Product and quotient",
+      "it": "Prodotto e quoziente",
+      "fr": "Produit et quotient",
+      "es": "Producto y cociente",
+      "de": "Produkt und Quotient",
+      "pt": "Produto e quociente",
+      "ru": "Произведение и частное"
+     },
+     "latex": "\\log_a (x y) = \\log_a x + \\log_a y, \\quad \\log_a \\frac{x}{y} = \\log_a x - \\log_a y",
+     "objasnjenje": {
+      "sr": "Logaritam proizvoda je zbir, a logaritam količnika razlika logaritama.",
+      "en": "The log of a product is a sum of logs; the log of a quotient is a difference.",
+      "it": "Il logaritmo di un prodotto è la somma, quello di un quoziente la differenza dei logaritmi.",
+      "fr": "Le logarithme d’un produit est une somme, celui d’un quotient une différence.",
+      "es": "El logaritmo de un producto es una suma; el de un cociente, una diferencia.",
+      "de": "Logarithmus eines Produkts ist eine Summe, eines Quotienten eine Differenz.",
+      "pt": "O logaritmo do produto é a soma; o do quociente, a diferença.",
+      "ru": "Логарифм произведения равен сумме логарифмов, частного — разности."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Logaritam stepena",
+      "en": "Power rule",
+      "it": "Logaritmo di una potenza",
+      "fr": "Logarithme d’une puissance",
+      "es": "Logaritmo de una potencia",
+      "de": "Logarithmus einer Potenz",
+      "pt": "Logaritmo da potência",
+      "ru": "Логарифм степени"
+     },
+     "latex": "\\log_a x^n = n \\log_a x",
+     "objasnjenje": {
+      "sr": "Izložilac izlazi ispred logaritma kao činilac.",
+      "en": "The exponent comes out in front of the logarithm as a factor.",
+      "it": "L’esponente diventa un fattore davanti al logaritmo.",
+      "fr": "L’exposant passe devant le logarithme comme facteur.",
+      "es": "El exponente pasa delante del logaritmo multiplicando.",
+      "de": "Der Exponent wird als Faktor vor den Logarithmus gezogen.",
+      "pt": "O expoente passa para a frente do logaritmo multiplicando.",
+      "ru": "Показатель степени выносится множителем перед логарифмом."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Promena osnove",
+      "en": "Change of base",
+      "it": "Cambiamento di base",
+      "fr": "Changement de base",
+      "es": "Cambio de base",
+      "de": "Basiswechsel",
+      "pt": "Mudança de base",
+      "ru": "Переход к новому основанию"
+     },
+     "latex": "\\log_a b = \\frac{\\log_c b}{\\log_c a} = \\frac{\\ln b}{\\ln a}",
+     "objasnjenje": {
+      "sr": "Tako računamo logaritam bilo koje osnove pomoću ln ili log na kalkulatoru.",
+      "en": "This lets you compute any logarithm with the ln or log key of a calculator.",
+      "it": "Così si calcola un logaritmo in qualsiasi base con il tasto ln o log.",
+      "fr": "On calcule ainsi un logarithme de base quelconque avec la touche ln ou log.",
+      "es": "Así se calcula un logaritmo de cualquier base con la tecla ln o log.",
+      "de": "So berechnet man Logarithmen zu jeder Basis mit der ln- oder lg-Taste.",
+      "pt": "Assim se calcula um logaritmo de qualquer base com a tecla ln ou log.",
+      "ru": "Так вычисляют логарифм по любому основанию с помощью ln или lg."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Dekadni i prirodni logaritam",
+      "en": "Common and natural log",
+      "it": "Logaritmo decimale e naturale",
+      "fr": "Logarithme décimal et népérien",
+      "es": "Logaritmo decimal y neperiano",
+      "de": "Zehner- und natürlicher Logarithmus",
+      "pt": "Logaritmo decimal e natural",
+      "ru": "Десятичный и натуральный логарифм"
+     },
+     "latex": {
+      "sr": "\\log x = \\log_{10} x, \\quad \\ln x = \\log_e x, \\quad e \\approx 2{,}71828",
+      "en": "\\log x = \\log_{10} x, \\quad \\ln x = \\log_e x, \\quad e \\approx 2.71828",
+      "it": "\\log x = \\log_{10} x, \\quad \\ln x = \\log_e x, \\quad e \\approx 2{,}71828",
+      "fr": "\\log x = \\log_{10} x, \\quad \\ln x = \\log_e x, \\quad e \\approx 2{,}71828",
+      "es": "\\log x = \\log_{10} x, \\quad \\ln x = \\log_e x, \\quad e \\approx 2{,}71828",
+      "de": "\\lg x = \\log_{10} x, \\quad \\ln x = \\log_e x, \\quad e \\approx 2{,}71828",
+      "pt": "\\log x = \\log_{10} x, \\quad \\ln x = \\log_e x, \\quad e \\approx 2{,}71828",
+      "ru": "\\lg x = \\log_{10} x, \\quad \\ln x = \\log_e x, \\quad e \\approx 2{,}71828"
+     },
+     "objasnjenje": {
+      "sr": "Osnovne vrednosti: log 1 = 0, a logaritam osnove po samoj osnovi je 1.",
+      "en": "Basic values: log 1 = 0, and the log of the base itself is 1.",
+      "it": "Valori notevoli: log 1 = 0 e il logaritmo della base è 1.",
+      "fr": "Valeurs utiles : log 1 = 0 et le logarithme de la base vaut 1.",
+      "es": "Valores básicos: log 1 = 0 y el logaritmo de la base es 1.",
+      "de": "Merkwerte: lg 1 = 0, und der Logarithmus der Basis selbst ist 1.",
+      "pt": "Valores básicos: log 1 = 0 e o logaritmo da própria base é 1.",
+      "ru": "Основные значения: lg 1 = 0, логарифм основания по тому же основанию равен 1."
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": "\\log_a b",
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "osnova",
+       "en": "base",
+       "it": "base",
+       "fr": "base",
+       "es": "base",
+       "de": "Basis",
+       "pt": "base",
+       "ru": "основание"
+      },
+      "pocetna": 2
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "broj",
+       "en": "number",
+       "it": "argomento",
+       "fr": "nombre",
+       "es": "argumento",
+       "de": "Zahl",
+       "pt": "logaritmando",
+       "ru": "число"
+      },
+      "pocetna": 1024
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": "logₐ b",
+      "izraz": "Math.log(b)/Math.log(a)"
+     },
+     {
+      "naziv": "ln b",
+      "izraz": "Math.log(b)"
+     },
+     {
+      "naziv": {
+       "sr": "log b",
+       "en": "log b",
+       "it": "log b",
+       "fr": "log b",
+       "es": "log b",
+       "de": "lg b",
+       "pt": "log b",
+       "ru": "lg b"
+      },
+      "izraz": "Math.log10(b)"
+     }
+    ]
+   }
+  }
+ ]
+}

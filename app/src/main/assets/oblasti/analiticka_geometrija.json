@@ -1,0 +1,1301 @@
+{
+ "oblast": "analiticka_geometrija",
+ "teme": [
+  {
+   "id": "tacke",
+   "simbol": "",
+   "ikona": "ic_a_tacke",
+   "naziv": {
+    "sr": "Tačke i duži",
+    "en": "Points and segments",
+    "it": "Punti e segmenti",
+    "fr": "Points et segments",
+    "es": "Puntos y segmentos",
+    "de": "Punkte und Strecken",
+    "pt": "Pontos e segmentos",
+    "ru": "Точки и отрезки"
+   },
+   "opis": {
+    "sr": "Rastojanje, središte, površina trougla",
+    "en": "Distance, midpoint, triangle area",
+    "it": "Distanza, punto medio, area del triangolo",
+    "fr": "Distance, milieu, aire d’un triangle",
+    "es": "Distancia, punto medio, área del triángulo",
+    "de": "Abstand, Mittelpunkt, Dreiecksfläche",
+    "pt": "Distância, ponto médio, área do triângulo",
+    "ru": "Расстояние, середина, площадь треугольника"
+   },
+   "kljucne_reci": {
+    "sr": "rastojanje dve tacke sredina duzi srediste koordinate povrsina trougla",
+    "en": "distance between two points midpoint coordinates area of triangle",
+    "it": "distanza tra due punti punto medio coordinate area triangolo",
+    "fr": "distance entre deux points milieu coordonnees aire triangle",
+    "es": "distancia entre dos puntos punto medio coordenadas area triangulo",
+    "de": "abstand zweier punkte mittelpunkt koordinaten dreiecksflache",
+    "pt": "distancia entre dois pontos ponto medio coordenadas area triangulo",
+    "ru": "расстояние между точками середина отрезка координаты площадь треугольника"
+   },
+   "crtez": {
+    "sr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"7\" y1=\"112\" x2=\"293\" y2=\"112\"/><line class=\"osa\" x1=\"150\" y1=\"11\" x2=\"150\" y2=\"213\"/><path class=\"osa-s\" d=\"M293,112 l-7,-4 v8 Z M150,11 l-4,7 h8 Z\"/><text class=\"tem\" x=\"283\" y=\"130\">x</text><text class=\"tem\" x=\"158\" y=\"21\">y</text><text class=\"tem\" x=\"136\" y=\"128\">O</text><line class=\"pom\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"156.0\"/><line class=\"pom\" x1=\"216.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><line class=\"lik-l\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><circle class=\"tac\" cx=\"62.0\" cy=\"156.0\" r=\"4\"/><text class=\"oz\" x=\"46.0\" y=\"174.0\">A</text><circle class=\"tac\" cx=\"216.0\" cy=\"46.0\" r=\"4\"/><text class=\"oz\" x=\"224.0\" y=\"42.0\">B</text><circle class=\"tac\" cx=\"139.0\" cy=\"101.0\" r=\"4\"/><text class=\"oz\" x=\"121.0\" y=\"93.0\">S</text><text class=\"fun\" x=\"132.4\" y=\"173.6\">x₂ − x₁</text><text class=\"fun\" x=\"221.5\" y=\"98.8\">y₂ − y₁</text><text class=\"oz\" x=\"163.2\" y=\"76.8\">d</text></svg>",
+    "en": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"7\" y1=\"112\" x2=\"293\" y2=\"112\"/><line class=\"osa\" x1=\"150\" y1=\"11\" x2=\"150\" y2=\"213\"/><path class=\"osa-s\" d=\"M293,112 l-7,-4 v8 Z M150,11 l-4,7 h8 Z\"/><text class=\"tem\" x=\"283\" y=\"130\">x</text><text class=\"tem\" x=\"158\" y=\"21\">y</text><text class=\"tem\" x=\"136\" y=\"128\">O</text><line class=\"pom\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"156.0\"/><line class=\"pom\" x1=\"216.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><line class=\"lik-l\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><circle class=\"tac\" cx=\"62.0\" cy=\"156.0\" r=\"4\"/><text class=\"oz\" x=\"46.0\" y=\"174.0\">A</text><circle class=\"tac\" cx=\"216.0\" cy=\"46.0\" r=\"4\"/><text class=\"oz\" x=\"224.0\" y=\"42.0\">B</text><circle class=\"tac\" cx=\"139.0\" cy=\"101.0\" r=\"4\"/><text class=\"oz\" x=\"121.0\" y=\"93.0\">M</text><text class=\"fun\" x=\"132.4\" y=\"173.6\">x₂ − x₁</text><text class=\"fun\" x=\"221.5\" y=\"98.8\">y₂ − y₁</text><text class=\"oz\" x=\"163.2\" y=\"76.8\">d</text></svg>",
+    "it": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"7\" y1=\"112\" x2=\"293\" y2=\"112\"/><line class=\"osa\" x1=\"150\" y1=\"11\" x2=\"150\" y2=\"213\"/><path class=\"osa-s\" d=\"M293,112 l-7,-4 v8 Z M150,11 l-4,7 h8 Z\"/><text class=\"tem\" x=\"283\" y=\"130\">x</text><text class=\"tem\" x=\"158\" y=\"21\">y</text><text class=\"tem\" x=\"136\" y=\"128\">O</text><line class=\"pom\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"156.0\"/><line class=\"pom\" x1=\"216.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><line class=\"lik-l\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><circle class=\"tac\" cx=\"62.0\" cy=\"156.0\" r=\"4\"/><text class=\"oz\" x=\"46.0\" y=\"174.0\">A</text><circle class=\"tac\" cx=\"216.0\" cy=\"46.0\" r=\"4\"/><text class=\"oz\" x=\"224.0\" y=\"42.0\">B</text><circle class=\"tac\" cx=\"139.0\" cy=\"101.0\" r=\"4\"/><text class=\"oz\" x=\"121.0\" y=\"93.0\">M</text><text class=\"fun\" x=\"132.4\" y=\"173.6\">x₂ − x₁</text><text class=\"fun\" x=\"221.5\" y=\"98.8\">y₂ − y₁</text><text class=\"oz\" x=\"163.2\" y=\"76.8\">d</text></svg>",
+    "fr": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"7\" y1=\"112\" x2=\"293\" y2=\"112\"/><line class=\"osa\" x1=\"150\" y1=\"11\" x2=\"150\" y2=\"213\"/><path class=\"osa-s\" d=\"M293,112 l-7,-4 v8 Z M150,11 l-4,7 h8 Z\"/><text class=\"tem\" x=\"283\" y=\"130\">x</text><text class=\"tem\" x=\"158\" y=\"21\">y</text><text class=\"tem\" x=\"136\" y=\"128\">O</text><line class=\"pom\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"156.0\"/><line class=\"pom\" x1=\"216.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><line class=\"lik-l\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><circle class=\"tac\" cx=\"62.0\" cy=\"156.0\" r=\"4\"/><text class=\"oz\" x=\"46.0\" y=\"174.0\">A</text><circle class=\"tac\" cx=\"216.0\" cy=\"46.0\" r=\"4\"/><text class=\"oz\" x=\"224.0\" y=\"42.0\">B</text><circle class=\"tac\" cx=\"139.0\" cy=\"101.0\" r=\"4\"/><text class=\"oz\" x=\"121.0\" y=\"93.0\">I</text><text class=\"fun\" x=\"132.4\" y=\"173.6\">x₂ − x₁</text><text class=\"fun\" x=\"221.5\" y=\"98.8\">y₂ − y₁</text><text class=\"oz\" x=\"163.2\" y=\"76.8\">d</text></svg>",
+    "es": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"7\" y1=\"112\" x2=\"293\" y2=\"112\"/><line class=\"osa\" x1=\"150\" y1=\"11\" x2=\"150\" y2=\"213\"/><path class=\"osa-s\" d=\"M293,112 l-7,-4 v8 Z M150,11 l-4,7 h8 Z\"/><text class=\"tem\" x=\"283\" y=\"130\">x</text><text class=\"tem\" x=\"158\" y=\"21\">y</text><text class=\"tem\" x=\"136\" y=\"128\">O</text><line class=\"pom\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"156.0\"/><line class=\"pom\" x1=\"216.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><line class=\"lik-l\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><circle class=\"tac\" cx=\"62.0\" cy=\"156.0\" r=\"4\"/><text class=\"oz\" x=\"46.0\" y=\"174.0\">A</text><circle class=\"tac\" cx=\"216.0\" cy=\"46.0\" r=\"4\"/><text class=\"oz\" x=\"224.0\" y=\"42.0\">B</text><circle class=\"tac\" cx=\"139.0\" cy=\"101.0\" r=\"4\"/><text class=\"oz\" x=\"121.0\" y=\"93.0\">M</text><text class=\"fun\" x=\"132.4\" y=\"173.6\">x₂ − x₁</text><text class=\"fun\" x=\"221.5\" y=\"98.8\">y₂ − y₁</text><text class=\"oz\" x=\"163.2\" y=\"76.8\">d</text></svg>",
+    "de": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"7\" y1=\"112\" x2=\"293\" y2=\"112\"/><line class=\"osa\" x1=\"150\" y1=\"11\" x2=\"150\" y2=\"213\"/><path class=\"osa-s\" d=\"M293,112 l-7,-4 v8 Z M150,11 l-4,7 h8 Z\"/><text class=\"tem\" x=\"283\" y=\"130\">x</text><text class=\"tem\" x=\"158\" y=\"21\">y</text><text class=\"tem\" x=\"136\" y=\"128\">O</text><line class=\"pom\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"156.0\"/><line class=\"pom\" x1=\"216.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><line class=\"lik-l\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><circle class=\"tac\" cx=\"62.0\" cy=\"156.0\" r=\"4\"/><text class=\"oz\" x=\"46.0\" y=\"174.0\">A</text><circle class=\"tac\" cx=\"216.0\" cy=\"46.0\" r=\"4\"/><text class=\"oz\" x=\"224.0\" y=\"42.0\">B</text><circle class=\"tac\" cx=\"139.0\" cy=\"101.0\" r=\"4\"/><text class=\"oz\" x=\"121.0\" y=\"93.0\">M</text><text class=\"fun\" x=\"132.4\" y=\"173.6\">x₂ − x₁</text><text class=\"fun\" x=\"221.5\" y=\"98.8\">y₂ − y₁</text><text class=\"oz\" x=\"163.2\" y=\"76.8\">d</text></svg>",
+    "pt": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"7\" y1=\"112\" x2=\"293\" y2=\"112\"/><line class=\"osa\" x1=\"150\" y1=\"11\" x2=\"150\" y2=\"213\"/><path class=\"osa-s\" d=\"M293,112 l-7,-4 v8 Z M150,11 l-4,7 h8 Z\"/><text class=\"tem\" x=\"283\" y=\"130\">x</text><text class=\"tem\" x=\"158\" y=\"21\">y</text><text class=\"tem\" x=\"136\" y=\"128\">O</text><line class=\"pom\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"156.0\"/><line class=\"pom\" x1=\"216.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><line class=\"lik-l\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><circle class=\"tac\" cx=\"62.0\" cy=\"156.0\" r=\"4\"/><text class=\"oz\" x=\"46.0\" y=\"174.0\">A</text><circle class=\"tac\" cx=\"216.0\" cy=\"46.0\" r=\"4\"/><text class=\"oz\" x=\"224.0\" y=\"42.0\">B</text><circle class=\"tac\" cx=\"139.0\" cy=\"101.0\" r=\"4\"/><text class=\"oz\" x=\"121.0\" y=\"93.0\">M</text><text class=\"fun\" x=\"132.4\" y=\"173.6\">x₂ − x₁</text><text class=\"fun\" x=\"221.5\" y=\"98.8\">y₂ − y₁</text><text class=\"oz\" x=\"163.2\" y=\"76.8\">d</text></svg>",
+    "ru": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"7\" y1=\"112\" x2=\"293\" y2=\"112\"/><line class=\"osa\" x1=\"150\" y1=\"11\" x2=\"150\" y2=\"213\"/><path class=\"osa-s\" d=\"M293,112 l-7,-4 v8 Z M150,11 l-4,7 h8 Z\"/><text class=\"tem\" x=\"283\" y=\"130\">x</text><text class=\"tem\" x=\"158\" y=\"21\">y</text><text class=\"tem\" x=\"136\" y=\"128\">O</text><line class=\"pom\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"156.0\"/><line class=\"pom\" x1=\"216.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><line class=\"lik-l\" x1=\"62.0\" y1=\"156.0\" x2=\"216.0\" y2=\"46.0\"/><circle class=\"tac\" cx=\"62.0\" cy=\"156.0\" r=\"4\"/><text class=\"oz\" x=\"46.0\" y=\"174.0\">A</text><circle class=\"tac\" cx=\"216.0\" cy=\"46.0\" r=\"4\"/><text class=\"oz\" x=\"224.0\" y=\"42.0\">B</text><circle class=\"tac\" cx=\"139.0\" cy=\"101.0\" r=\"4\"/><text class=\"oz\" x=\"121.0\" y=\"93.0\">M</text><text class=\"fun\" x=\"132.4\" y=\"173.6\">x₂ − x₁</text><text class=\"fun\" x=\"221.5\" y=\"98.8\">y₂ − y₁</text><text class=\"oz\" x=\"163.2\" y=\"76.8\">d</text></svg>"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Rastojanje dve tačke",
+      "en": "Distance between two points",
+      "it": "Distanza tra due punti",
+      "fr": "Distance entre deux points",
+      "es": "Distancia entre dos puntos",
+      "de": "Abstand zweier Punkte",
+      "pt": "Distância entre dois pontos",
+      "ru": "Расстояние между точками"
+     },
+     "latex": {
+      "sr": "d(A, B) = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}",
+      "en": "d(A, B) = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}",
+      "it": "d(A, B) = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}",
+      "fr": "d(A, B) = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}",
+      "es": "d(A, B) = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}",
+      "de": "d(A, B) = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}",
+      "pt": "d(A, B) = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}",
+      "ru": "d(A, B) = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}"
+     },
+     "objasnjenje": {
+      "sr": "Pitagorina teorema u koordinatnom sistemu.",
+      "en": "Pythagoras in the coordinate plane.",
+      "it": "Il teorema di Pitagora nel piano cartesiano.",
+      "fr": "Le théorème de Pythagore dans un repère.",
+      "es": "Pitágoras en el plano cartesiano.",
+      "de": "Satz des Pythagoras im Koordinatensystem.",
+      "pt": "Pitágoras no plano cartesiano.",
+      "ru": "Теорема Пифагора на координатной плоскости."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Središte duži",
+      "en": "Midpoint",
+      "it": "Punto medio",
+      "fr": "Milieu d’un segment",
+      "es": "Punto medio",
+      "de": "Mittelpunkt",
+      "pt": "Ponto médio",
+      "ru": "Середина отрезка"
+     },
+     "latex": {
+      "sr": "S\\left(\\frac{x_1 + x_2}{2},\\ \\frac{y_1 + y_2}{2}\\right)",
+      "en": "M\\left(\\frac{x_1 + x_2}{2},\\ \\frac{y_1 + y_2}{2}\\right)",
+      "it": "M\\left(\\frac{x_1 + x_2}{2},\\ \\frac{y_1 + y_2}{2}\\right)",
+      "fr": "I\\left(\\frac{x_1 + x_2}{2},\\ \\frac{y_1 + y_2}{2}\\right)",
+      "es": "M\\left(\\frac{x_1 + x_2}{2},\\ \\frac{y_1 + y_2}{2}\\right)",
+      "de": "M\\left(\\frac{x_1 + x_2}{2},\\ \\frac{y_1 + y_2}{2}\\right)",
+      "pt": "M\\left(\\frac{x_1 + x_2}{2},\\ \\frac{y_1 + y_2}{2}\\right)",
+      "ru": "M\\left(\\frac{x_1 + x_2}{2},\\ \\frac{y_1 + y_2}{2}\\right)"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Površina trougla",
+      "en": "Area of a triangle",
+      "it": "Area del triangolo",
+      "fr": "Aire d’un triangle",
+      "es": "Área del triángulo",
+      "de": "Dreiecksfläche",
+      "pt": "Área do triângulo",
+      "ru": "Площадь треугольника"
+     },
+     "latex": {
+      "sr": "P = \\frac{1}{2} \\left| x_1 (y_2 - y_3) + x_2 (y_3 - y_1) + x_3 (y_1 - y_2) \\right|",
+      "en": "A = \\frac{1}{2} \\left| x_1 (y_2 - y_3) + x_2 (y_3 - y_1) + x_3 (y_1 - y_2) \\right|",
+      "it": "A = \\frac{1}{2} \\left| x_1 (y_2 - y_3) + x_2 (y_3 - y_1) + x_3 (y_1 - y_2) \\right|",
+      "fr": "A = \\frac{1}{2} \\left| x_1 (y_2 - y_3) + x_2 (y_3 - y_1) + x_3 (y_1 - y_2) \\right|",
+      "es": "A = \\frac{1}{2} \\left| x_1 (y_2 - y_3) + x_2 (y_3 - y_1) + x_3 (y_1 - y_2) \\right|",
+      "de": "A = \\frac{1}{2} \\left| x_1 (y_2 - y_3) + x_2 (y_3 - y_1) + x_3 (y_1 - y_2) \\right|",
+      "pt": "A = \\frac{1}{2} \\left| x_1 (y_2 - y_3) + x_2 (y_3 - y_1) + x_3 (y_1 - y_2) \\right|",
+      "ru": "S = \\frac{1}{2} \\left| x_1 (y_2 - y_3) + x_2 (y_3 - y_1) + x_3 (y_1 - y_2) \\right|"
+     },
+     "objasnjenje": {
+      "sr": "Za trougao sa temenima (x₁, y₁), (x₂, y₂), (x₃, y₃).",
+      "en": "For the triangle with vertices (x₁, y₁), (x₂, y₂), (x₃, y₃).",
+      "it": "Per il triangolo di vertici (x₁, y₁), (x₂, y₂), (x₃, y₃).",
+      "fr": "Pour le triangle de sommets (x₁, y₁), (x₂, y₂), (x₃, y₃).",
+      "es": "Para el triángulo de vértices (x₁, y₁), (x₂, y₂), (x₃, y₃).",
+      "de": "Für das Dreieck mit den Ecken (x₁, y₁), (x₂, y₂), (x₃, y₃).",
+      "pt": "Para o triângulo de vértices (x₁, y₁), (x₂, y₂), (x₃, y₃).",
+      "ru": "Для треугольника с вершинами (x₁, y₁), (x₂, y₂), (x₃, y₃)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "x1",
+      "oznaka": "x_1",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": -4
+     },
+     {
+      "id": "y1",
+      "oznaka": "y_1",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": -2
+     },
+     {
+      "id": "x2",
+      "oznaka": "x_2",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     },
+     {
+      "id": "y2",
+      "oznaka": "y_2",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Rastojanje d",
+       "en": "Distance d",
+       "it": "Distanza d",
+       "fr": "Distance d",
+       "es": "Distancia d",
+       "de": "Abstand d",
+       "pt": "Distância d",
+       "ru": "Расстояние d"
+      },
+      "izraz": "sqrt(pow(x2-x1,2)+pow(y2-y1,2))"
+     },
+     {
+      "naziv": {
+       "sr": "S – x",
+       "en": "M – x",
+       "it": "M – x",
+       "fr": "I – x",
+       "es": "M – x",
+       "de": "M – x",
+       "pt": "M – x",
+       "ru": "M – x"
+      },
+      "izraz": "(x1+x2)/2"
+     },
+     {
+      "naziv": {
+       "sr": "S – y",
+       "en": "M – y",
+       "it": "M – y",
+       "fr": "I – y",
+       "es": "M – y",
+       "de": "M – y",
+       "pt": "M – y",
+       "ru": "M – y"
+      },
+      "izraz": "(y1+y2)/2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "prava",
+   "simbol": "",
+   "ikona": "ic_a_prava",
+   "naziv": {
+    "sr": "Prava",
+    "en": "Straight line",
+    "it": "Retta",
+    "fr": "Droite",
+    "es": "Recta",
+    "de": "Gerade",
+    "pt": "Reta",
+    "ru": "Прямая"
+   },
+   "opis": {
+    "sr": "Oblici jednačine, rastojanje, ugao",
+    "en": "Equation forms, distance, angle",
+    "it": "Equazioni, distanza, angolo",
+    "fr": "Équations, distance, angle",
+    "es": "Ecuaciones, distancia, ángulo",
+    "de": "Gleichungen, Abstand, Winkel",
+    "pt": "Equações, distância, ângulo",
+    "ru": "Уравнения, расстояние, угол"
+   },
+   "kljucne_reci": {
+    "sr": "prava jednacina prave segmentni oblik rastojanje tacke od prave ugao izmedju pravih",
+    "en": "line equation intercept form distance point to line angle between lines",
+    "it": "retta equazione segmentaria distanza punto retta angolo tra rette",
+    "fr": "droite equation distance point droite angle entre droites",
+    "es": "recta ecuacion segmentaria distancia punto recta angulo entre rectas",
+    "de": "gerade gleichung achsenabschnittsform abstand punkt gerade schnittwinkel",
+    "pt": "reta equacao segmentaria distancia ponto reta angulo entre retas",
+    "ru": "прямая уравнение в отрезках расстояние от точки до прямой угол между прямыми"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"7\" y1=\"112\" x2=\"293\" y2=\"112\"/><line class=\"osa\" x1=\"150\" y1=\"11\" x2=\"150\" y2=\"213\"/><path class=\"osa-s\" d=\"M293,112 l-7,-4 v8 Z M150,11 l-4,7 h8 Z\"/><text class=\"tem\" x=\"283\" y=\"130\">x</text><text class=\"tem\" x=\"158\" y=\"21\">y</text><text class=\"tem\" x=\"136\" y=\"128\">O</text><polyline class=\"kriva\" points=\"73.0,13.0 288.6,142.4\"/><line class=\"pom\" x1=\"220.4\" y1=\"37.2\" x2=\"192.1\" y2=\"84.4\"/><circle class=\"tac\" cx=\"220.4\" cy=\"37.2\" r=\"4\"/><text class=\"oz\" x=\"228.4\" y=\"33.2\">P</text><circle class=\"tac\" cx=\"238.0\" cy=\"112.0\" r=\"4\"/><circle class=\"tac\" cx=\"150.0\" cy=\"59.2\" r=\"4\"/><text class=\"oz\" x=\"240.2\" y=\"129.6\">m</text><text class=\"oz\" x=\"130.2\" y=\"54.8\">n</text><text class=\"oz\" x=\"211.7\" y=\"56.4\">d</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Opšti oblik",
+      "en": "General form",
+      "it": "Forma implicita",
+      "fr": "Équation cartésienne",
+      "es": "Forma general",
+      "de": "Allgemeine Form",
+      "pt": "Forma geral",
+      "ru": "Общее уравнение"
+     },
+     "latex": {
+      "sr": "A x + B y + C = 0",
+      "en": "A x + B y + C = 0",
+      "it": "A x + B y + C = 0",
+      "fr": "A x + B y + C = 0",
+      "es": "A x + B y + C = 0",
+      "de": "A x + B y + C = 0",
+      "pt": "A x + B y + C = 0",
+      "ru": "A x + B y + C = 0"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Segmentni oblik",
+      "en": "Intercept form",
+      "it": "Forma segmentaria",
+      "fr": "Équation avec les intercepts",
+      "es": "Forma segmentaria",
+      "de": "Achsenabschnittsform",
+      "pt": "Forma segmentária",
+      "ru": "Уравнение в отрезках"
+     },
+     "latex": {
+      "sr": "\\frac{x}{m} + \\frac{y}{n} = 1",
+      "en": "\\frac{x}{m} + \\frac{y}{n} = 1",
+      "it": "\\frac{x}{m} + \\frac{y}{n} = 1",
+      "fr": "\\frac{x}{m} + \\frac{y}{n} = 1",
+      "es": "\\frac{x}{m} + \\frac{y}{n} = 1",
+      "de": "\\frac{x}{m} + \\frac{y}{n} = 1",
+      "pt": "\\frac{x}{m} + \\frac{y}{n} = 1",
+      "ru": "\\frac{x}{m} + \\frac{y}{n} = 1"
+     },
+     "objasnjenje": {
+      "sr": "m i n su odsečci na x i y osi.",
+      "en": "m and n are the x- and y-intercepts.",
+      "it": "m e n sono le intercette sugli assi x e y.",
+      "fr": "m et n sont les abscisse et ordonnée à l’origine.",
+      "es": "m y n son los cortes con los ejes x e y.",
+      "de": "m und n sind die Achsenabschnitte.",
+      "pt": "m e n são os interceptos nos eixos x e y.",
+      "ru": "m и n — отрезки, отсекаемые на осях x и y."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Prava kroz dve tačke",
+      "en": "Line through two points",
+      "it": "Retta per due punti",
+      "fr": "Droite passant par deux points",
+      "es": "Recta por dos puntos",
+      "de": "Zwei-Punkte-Form",
+      "pt": "Reta por dois pontos",
+      "ru": "Прямая через две точки"
+     },
+     "latex": {
+      "sr": "\\frac{y - y_1}{y_2 - y_1} = \\frac{x - x_1}{x_2 - x_1}",
+      "en": "\\frac{y - y_1}{y_2 - y_1} = \\frac{x - x_1}{x_2 - x_1}",
+      "it": "\\frac{y - y_1}{y_2 - y_1} = \\frac{x - x_1}{x_2 - x_1}",
+      "fr": "\\frac{y - y_1}{y_2 - y_1} = \\frac{x - x_1}{x_2 - x_1}",
+      "es": "\\frac{y - y_1}{y_2 - y_1} = \\frac{x - x_1}{x_2 - x_1}",
+      "de": "\\frac{y - y_1}{y_2 - y_1} = \\frac{x - x_1}{x_2 - x_1}",
+      "pt": "\\frac{y - y_1}{y_2 - y_1} = \\frac{x - x_1}{x_2 - x_1}",
+      "ru": "\\frac{y - y_1}{y_2 - y_1} = \\frac{x - x_1}{x_2 - x_1}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Rastojanje tačke od prave",
+      "en": "Distance from a point to a line",
+      "it": "Distanza punto–retta",
+      "fr": "Distance d’un point à une droite",
+      "es": "Distancia de un punto a una recta",
+      "de": "Abstand Punkt–Gerade",
+      "pt": "Distância de ponto a reta",
+      "ru": "Расстояние от точки до прямой"
+     },
+     "latex": {
+      "sr": "d = \\frac{\\left| A x_0 + B y_0 + C \\right|}{\\sqrt{A^2 + B^2}}",
+      "en": "d = \\frac{\\left| A x_0 + B y_0 + C \\right|}{\\sqrt{A^2 + B^2}}",
+      "it": "d = \\frac{\\left| A x_0 + B y_0 + C \\right|}{\\sqrt{A^2 + B^2}}",
+      "fr": "d = \\frac{\\left| A x_0 + B y_0 + C \\right|}{\\sqrt{A^2 + B^2}}",
+      "es": "d = \\frac{\\left| A x_0 + B y_0 + C \\right|}{\\sqrt{A^2 + B^2}}",
+      "de": "d = \\frac{\\left| A x_0 + B y_0 + C \\right|}{\\sqrt{A^2 + B^2}}",
+      "pt": "d = \\frac{\\left| A x_0 + B y_0 + C \\right|}{\\sqrt{A^2 + B^2}}",
+      "ru": "d = \\frac{\\left| A x_0 + B y_0 + C \\right|}{\\sqrt{A^2 + B^2}}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Ugao između pravih",
+      "en": "Angle between lines",
+      "it": "Angolo tra due rette",
+      "fr": "Angle entre deux droites",
+      "es": "Ángulo entre rectas",
+      "de": "Schnittwinkel",
+      "pt": "Ângulo entre retas",
+      "ru": "Угол между прямыми"
+     },
+     "latex": {
+      "sr": "\\operatorname{tg}\\varphi = \\left| \\frac{k_2 - k_1}{1 + k_1 k_2} \\right|",
+      "en": "\\tan\\varphi = \\left| \\frac{m_2 - m_1}{1 + m_1 m_2} \\right|",
+      "it": "\\operatorname{tg}\\varphi = \\left| \\frac{m_2 - m_1}{1 + m_1 m_2} \\right|",
+      "fr": "\\tan\\varphi = \\left| \\frac{a_2 - a_1}{1 + a_1 a_2} \\right|",
+      "es": "\\operatorname{tg}\\varphi = \\left| \\frac{m_2 - m_1}{1 + m_1 m_2} \\right|",
+      "de": "\\tan\\varphi = \\left| \\frac{m_2 - m_1}{1 + m_1 m_2} \\right|",
+      "pt": "\\operatorname{tg}\\varphi = \\left| \\frac{a_2 - a_1}{1 + a_1 a_2} \\right|",
+      "ru": "\\operatorname{tg}\\varphi = \\left| \\frac{k_2 - k_1}{1 + k_1 k_2} \\right|"
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": {
+     "sr": "A x + B y + C = 0,\\ \\ P(x_0, y_0)",
+     "en": "A x + B y + C = 0,\\ \\ P(x_0, y_0)",
+     "it": "A x + B y + C = 0,\\ \\ P(x_0, y_0)",
+     "fr": "A x + B y + C = 0,\\ \\ P(x_0, y_0)",
+     "es": "A x + B y + C = 0,\\ \\ P(x_0, y_0)",
+     "de": "A x + B y + C = 0,\\ \\ P(x_0, y_0)",
+     "pt": "A x + B y + C = 0,\\ \\ P(x_0, y_0)",
+     "ru": "A x + B y + C = 0,\\ \\ P(x_0, y_0)"
+    },
+    "ulazi": [
+     {
+      "id": "A",
+      "oznaka": "A",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     },
+     {
+      "id": "B",
+      "oznaka": "B",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     },
+     {
+      "id": "C",
+      "oznaka": "C",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": -12
+     },
+     {
+      "id": "x0",
+      "oznaka": "x_0",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 5
+     },
+     {
+      "id": "y0",
+      "oznaka": "y_0",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Rastojanje d",
+       "en": "Distance d",
+       "it": "Distanza d",
+       "fr": "Distance d",
+       "es": "Distancia d",
+       "de": "Abstand d",
+       "pt": "Distância d",
+       "ru": "Расстояние d"
+      },
+      "izraz": "abs(A*x0+B*y0+C)/sqrt(A*A+B*B)"
+     },
+     {
+      "naziv": {
+       "sr": "Nagib k",
+       "en": "Slope m",
+       "it": "Coeff. angolare m",
+       "fr": "Coeff. directeur a",
+       "es": "Pendiente m",
+       "de": "Steigung m",
+       "pt": "Coef. angular a",
+       "ru": "Угловой коэфф. k"
+      },
+      "izraz": "-A/B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kruznica",
+   "simbol": "",
+   "ikona": "ic_f_krug",
+   "naziv": {
+    "sr": "Kružnica",
+    "en": "Circle",
+    "it": "Circonferenza",
+    "fr": "Cercle",
+    "es": "Circunferencia",
+    "de": "Kreis",
+    "pt": "Circunferência",
+    "ru": "Окружность"
+   },
+   "opis": {
+    "sr": "Jednačina kružnice, centar i poluprečnik",
+    "en": "Equation, centre and radius",
+    "it": "Equazione, centro e raggio",
+    "fr": "Équation, centre et rayon",
+    "es": "Ecuación, centro y radio",
+    "de": "Kreisgleichung, Mittelpunkt, Radius",
+    "pt": "Equação, centro e raio",
+    "ru": "Уравнение, центр и радиус"
+   },
+   "kljucne_reci": {
+    "sr": "kruznica jednacina kruznice centar poluprecnik",
+    "en": "circle equation centre center radius",
+    "it": "circonferenza equazione centro raggio",
+    "fr": "cercle equation centre rayon",
+    "es": "circunferencia ecuacion centro radio",
+    "de": "kreisgleichung mittelpunkt radius",
+    "pt": "circunferencia equacao centro raio",
+    "ru": "окружность уравнение центр радиус"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"7\" y1=\"112\" x2=\"293\" y2=\"112\"/><line class=\"osa\" x1=\"150\" y1=\"11\" x2=\"150\" y2=\"213\"/><path class=\"osa-s\" d=\"M293,112 l-7,-4 v8 Z M150,11 l-4,7 h8 Z\"/><text class=\"tem\" x=\"283\" y=\"130\">x</text><text class=\"tem\" x=\"158\" y=\"21\">y</text><text class=\"tem\" x=\"136\" y=\"128\">O</text><circle class=\"lik2\" cx=\"180.8\" cy=\"98.8\" r=\"74.8\"/><line class=\"lik-l\" x1=\"180.8\" y1=\"98.8\" x2=\"245.6\" y2=\"61.4\"/><line class=\"pom\" x1=\"180.8\" y1=\"98.8\" x2=\"180.8\" y2=\"112.0\"/><line class=\"pom\" x1=\"180.8\" y1=\"98.8\" x2=\"150.0\" y2=\"98.8\"/><circle class=\"tac\" cx=\"180.8\" cy=\"98.8\" r=\"4\"/><text class=\"oz\" x=\"186.8\" y=\"118.8\">C</text><text class=\"oz\" x=\"211.6\" y=\"70.2\">r</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Kanonski oblik",
+      "en": "Standard form",
+      "it": "Equazione canonica",
+      "fr": "Équation réduite",
+      "es": "Ecuación ordinaria",
+      "de": "Mittelpunktsform",
+      "pt": "Equação reduzida",
+      "ru": "Каноническое уравнение"
+     },
+     "latex": {
+      "sr": "(x - p)^2 + (y - q)^2 = r^2",
+      "en": "(x - h)^2 + (y - k)^2 = r^2",
+      "it": "(x - a)^2 + (y - b)^2 = r^2",
+      "fr": "(x - a)^2 + (y - b)^2 = r^2",
+      "es": "(x - a)^2 + (y - b)^2 = r^2",
+      "de": "(x - x_M)^2 + (y - y_M)^2 = r^2",
+      "pt": "(x - a)^2 + (y - b)^2 = r^2",
+      "ru": "(x - a)^2 + (y - b)^2 = R^2"
+     },
+     "objasnjenje": {
+      "sr": "Centar je C(p, q), poluprečnik r.",
+      "en": "Centre (h, k), radius r.",
+      "it": "Centro C(a, b), raggio r.",
+      "fr": "Centre Ω(a, b), rayon r.",
+      "es": "Centro C(a, b), radio r.",
+      "de": "Mittelpunkt M(x_M | y_M), Radius r.",
+      "pt": "Centro C(a, b), raio r.",
+      "ru": "Центр (a; b), радиус R."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Opšti oblik",
+      "en": "General form",
+      "it": "Equazione generale",
+      "fr": "Équation développée",
+      "es": "Ecuación general",
+      "de": "Allgemeine Form",
+      "pt": "Equação geral",
+      "ru": "Общее уравнение"
+     },
+     "latex": {
+      "sr": "x^2 + y^2 + D x + E y + F = 0",
+      "en": "x^2 + y^2 + D x + E y + F = 0",
+      "it": "x^2 + y^2 + D x + E y + F = 0",
+      "fr": "x^2 + y^2 + D x + E y + F = 0",
+      "es": "x^2 + y^2 + D x + E y + F = 0",
+      "de": "x^2 + y^2 + D x + E y + F = 0",
+      "pt": "x^2 + y^2 + D x + E y + F = 0",
+      "ru": "x^2 + y^2 + D x + E y + F = 0"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Centar i poluprečnik iz opšteg oblika",
+      "en": "Centre and radius from the general form",
+      "it": "Centro e raggio dall’equazione generale",
+      "fr": "Centre et rayon à partir de l’équation développée",
+      "es": "Centro y radio desde la forma general",
+      "de": "Mittelpunkt und Radius aus der allgemeinen Form",
+      "pt": "Centro e raio a partir da forma geral",
+      "ru": "Центр и радиус из общего уравнения"
+     },
+     "latex": {
+      "sr": "C\\left(-\\frac{D}{2},\\ -\\frac{E}{2}\\right), \\quad r = \\sqrt{\\frac{D^2 + E^2}{4} - F}",
+      "en": "C\\left(-\\frac{D}{2},\\ -\\frac{E}{2}\\right), \\quad r = \\sqrt{\\frac{D^2 + E^2}{4} - F}",
+      "it": "C\\left(-\\frac{D}{2},\\ -\\frac{E}{2}\\right), \\quad r = \\sqrt{\\frac{D^2 + E^2}{4} - F}",
+      "fr": "C\\left(-\\frac{D}{2},\\ -\\frac{E}{2}\\right), \\quad r = \\sqrt{\\frac{D^2 + E^2}{4} - F}",
+      "es": "C\\left(-\\frac{D}{2},\\ -\\frac{E}{2}\\right), \\quad r = \\sqrt{\\frac{D^2 + E^2}{4} - F}",
+      "de": "C\\left(-\\frac{D}{2},\\ -\\frac{E}{2}\\right), \\quad r = \\sqrt{\\frac{D^2 + E^2}{4} - F}",
+      "pt": "C\\left(-\\frac{D}{2},\\ -\\frac{E}{2}\\right), \\quad r = \\sqrt{\\frac{D^2 + E^2}{4} - F}",
+      "ru": "C\\left(-\\frac{D}{2},\\ -\\frac{E}{2}\\right), \\quad R = \\sqrt{\\frac{D^2 + E^2}{4} - F}"
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": {
+     "sr": "x^2 + y^2 + D x + E y + F = 0",
+     "en": "x^2 + y^2 + D x + E y + F = 0",
+     "it": "x^2 + y^2 + D x + E y + F = 0",
+     "fr": "x^2 + y^2 + D x + E y + F = 0",
+     "es": "x^2 + y^2 + D x + E y + F = 0",
+     "de": "x^2 + y^2 + D x + E y + F = 0",
+     "pt": "x^2 + y^2 + D x + E y + F = 0",
+     "ru": "x^2 + y^2 + D x + E y + F = 0"
+    },
+    "ulazi": [
+     {
+      "id": "D",
+      "oznaka": "D",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": -4
+     },
+     {
+      "id": "E",
+      "oznaka": "E",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 6
+     },
+     {
+      "id": "F",
+      "oznaka": "F",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": -12
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Centar – x",
+       "en": "Centre – x",
+       "it": "Centro – x",
+       "fr": "Centre – x",
+       "es": "Centro – x",
+       "de": "Mittelpunkt – x",
+       "pt": "Centro – x",
+       "ru": "Центр – x"
+      },
+      "izraz": "-D/2"
+     },
+     {
+      "naziv": {
+       "sr": "Centar – y",
+       "en": "Centre – y",
+       "it": "Centro – y",
+       "fr": "Centre – y",
+       "es": "Centro – y",
+       "de": "Mittelpunkt – y",
+       "pt": "Centro – y",
+       "ru": "Центр – y"
+      },
+      "izraz": "-E/2"
+     },
+     {
+      "naziv": {
+       "sr": "Poluprečnik r",
+       "en": "Radius r",
+       "it": "Raggio r",
+       "fr": "Rayon r",
+       "es": "Radio r",
+       "de": "Radius r",
+       "pt": "Raio r",
+       "ru": "Радиус R"
+      },
+      "izraz": "sqrt((D*D+E*E)/4-F)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "elipsa",
+   "simbol": "",
+   "ikona": "ic_a_elipsa",
+   "naziv": {
+    "sr": "Elipsa",
+    "en": "Ellipse",
+    "it": "Ellisse",
+    "fr": "Ellipse",
+    "es": "Elipse",
+    "de": "Ellipse",
+    "pt": "Elipse",
+    "ru": "Эллипс"
+   },
+   "opis": {
+    "sr": "Jednačina, žiže, ekscentricitet",
+    "en": "Equation, foci, eccentricity",
+    "it": "Equazione, fuochi, eccentricità",
+    "fr": "Équation, foyers, excentricité",
+    "es": "Ecuación, focos, excentricidad",
+    "de": "Gleichung, Brennpunkte, Exzentrizität",
+    "pt": "Equação, focos, excentricidade",
+    "ru": "Уравнение, фокусы, эксцентриситет"
+   },
+   "kljucne_reci": {
+    "sr": "elipsa zize fokusi poluose ekscentricitet",
+    "en": "ellipse foci focus semi axes eccentricity",
+    "it": "ellisse fuochi semiassi eccentricita",
+    "fr": "ellipse foyers demi axes excentricite",
+    "es": "elipse focos semiejes excentricidad",
+    "de": "ellipse brennpunkte halbachsen exzentrizitat",
+    "pt": "elipse focos semieixos excentricidade",
+    "ru": "эллипс фокусы полуоси эксцентриситет"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"7\" y1=\"112\" x2=\"293\" y2=\"112\"/><line class=\"osa\" x1=\"150\" y1=\"11\" x2=\"150\" y2=\"213\"/><path class=\"osa-s\" d=\"M293,112 l-7,-4 v8 Z M150,11 l-4,7 h8 Z\"/><text class=\"tem\" x=\"283\" y=\"130\">x</text><text class=\"tem\" x=\"158\" y=\"21\">y</text><text class=\"tem\" x=\"136\" y=\"128\">O</text><ellipse class=\"lik2\" cx=\"150\" cy=\"112\" rx=\"110\" ry=\"66\"/><circle class=\"tac\" cx=\"62.0\" cy=\"112.0\" r=\"4\"/><text class=\"oz\" x=\"54.0\" y=\"132.0\">F</text><circle class=\"tac\" cx=\"238.0\" cy=\"112.0\" r=\"4\"/><text class=\"oz\" x=\"230.0\" y=\"132.0\">F</text><text class=\"sub\" x=\"64\" y=\"137\">1</text><text class=\"sub\" x=\"240\" y=\"137\">2</text><line class=\"lik-l\" x1=\"150.0\" y1=\"112.0\" x2=\"260.0\" y2=\"112.0\"/><line class=\"lik-l\" x1=\"150.0\" y1=\"112.0\" x2=\"150.0\" y2=\"46.0\"/><text class=\"oz\" x=\"200.6\" y=\"105.4\">a</text><text class=\"oz\" x=\"155.5\" y=\"81.2\">b</text><text class=\"oz\" x=\"189.6\" y=\"128.5\">c</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Kanonski oblik",
+      "en": "Standard form",
+      "it": "Equazione canonica",
+      "fr": "Équation réduite",
+      "es": "Ecuación canónica",
+      "de": "Mittelpunktsgleichung",
+      "pt": "Equação reduzida",
+      "ru": "Каноническое уравнение"
+     },
+     "latex": {
+      "sr": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1, \\quad a > b",
+      "en": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1, \\quad a > b",
+      "it": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1, \\quad a > b",
+      "fr": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1, \\quad a > b",
+      "es": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1, \\quad a > b",
+      "de": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1, \\quad a > b",
+      "pt": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1, \\quad a > b",
+      "ru": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1, \\quad a > b"
+     },
+     "objasnjenje": {
+      "sr": "a i b su velika i mala poluosa.",
+      "en": "a and b are the semi-major and semi-minor axes.",
+      "it": "a e b sono i semiassi maggiore e minore.",
+      "fr": "a et b sont le demi-grand axe et le demi-petit axe.",
+      "es": "a y b son los semiejes mayor y menor.",
+      "de": "a und b sind die große und die kleine Halbachse.",
+      "pt": "a e b são os semieixos maior e menor.",
+      "ru": "a и b — большая и малая полуоси."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Žiže",
+      "en": "Foci",
+      "it": "Fuochi",
+      "fr": "Foyers",
+      "es": "Focos",
+      "de": "Brennpunkte",
+      "pt": "Focos",
+      "ru": "Фокусы"
+     },
+     "latex": {
+      "sr": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 - b^2",
+      "en": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 - b^2",
+      "it": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 - b^2",
+      "fr": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 - b^2",
+      "es": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 - b^2",
+      "de": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 - b^2",
+      "pt": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 - b^2",
+      "ru": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 - b^2"
+     },
+     "objasnjenje": {
+      "sr": "Zbir rastojanja svake tačke elipse od žiža je 2a.",
+      "en": "For every point, the sum of distances to the foci is 2a.",
+      "it": "La somma delle distanze di ogni punto dai fuochi è 2a.",
+      "fr": "Pour tout point, la somme des distances aux foyers vaut 2a.",
+      "es": "La suma de distancias de cada punto a los focos es 2a.",
+      "de": "Für jeden Punkt ist die Summe der Abstände zu den Brennpunkten 2a.",
+      "pt": "A soma das distâncias de cada ponto aos focos é 2a.",
+      "ru": "Сумма расстояний от любой точки до фокусов равна 2a."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Ekscentricitet i površina",
+      "en": "Eccentricity and area",
+      "it": "Eccentricità e area",
+      "fr": "Excentricité et aire",
+      "es": "Excentricidad y área",
+      "de": "Exzentrizität und Fläche",
+      "pt": "Excentricidade e área",
+      "ru": "Эксцентриситет и площадь"
+     },
+     "latex": {
+      "sr": "e = \\frac{c}{a} < 1, \\quad P = a b \\pi",
+      "en": "e = \\frac{c}{a} < 1, \\quad A = \\pi a b",
+      "it": "e = \\frac{c}{a} < 1, \\quad A = \\pi a b",
+      "fr": "e = \\frac{c}{a} < 1, \\quad A = \\pi a b",
+      "es": "e = \\frac{c}{a} < 1, \\quad A = \\pi a b",
+      "de": "e = \\frac{c}{a} < 1, \\quad A = \\pi a b",
+      "pt": "e = \\frac{c}{a} < 1, \\quad A = \\pi a b",
+      "ru": "e = \\frac{c}{a} < 1, \\quad S = \\pi a b"
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 5
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Žižna daljina c",
+       "en": "Focal distance c",
+       "it": "Semidistanza focale c",
+       "fr": "Demi-distance focale c",
+       "es": "Semidistancia focal c",
+       "de": "Lineare Exzentrizität c",
+       "pt": "Semidistância focal c",
+       "ru": "Фокусное расстояние c"
+      },
+      "izraz": "sqrt(abs(a*a-b*b))"
+     },
+     {
+      "naziv": {
+       "sr": "Ekscentricitet e",
+       "en": "Eccentricity e",
+       "it": "Eccentricità e",
+       "fr": "Excentricité e",
+       "es": "Excentricidad e",
+       "de": "Exzentrizität e",
+       "pt": "Excentricidade e",
+       "ru": "Эксцентриситет e"
+      },
+      "izraz": "sqrt(abs(a*a-b*b))/Math.max(a,b)"
+     },
+     {
+      "naziv": {
+       "sr": "Površina",
+       "en": "Area",
+       "it": "Area",
+       "fr": "Aire",
+       "es": "Área",
+       "de": "Flächeninhalt",
+       "pt": "Área",
+       "ru": "Площадь"
+      },
+      "izraz": "PI*a*b"
+     }
+    ]
+   }
+  },
+  {
+   "id": "hiperbola",
+   "simbol": "",
+   "ikona": "ic_a_hiperbola",
+   "naziv": {
+    "sr": "Hiperbola",
+    "en": "Hyperbola",
+    "it": "Iperbole",
+    "fr": "Hyperbole",
+    "es": "Hipérbola",
+    "de": "Hyperbel",
+    "pt": "Hipérbole",
+    "ru": "Гипербола"
+   },
+   "opis": {
+    "sr": "Jednačina, žiže, asimptote",
+    "en": "Equation, foci, asymptotes",
+    "it": "Equazione, fuochi, asintoti",
+    "fr": "Équation, foyers, asymptotes",
+    "es": "Ecuación, focos, asíntotas",
+    "de": "Gleichung, Brennpunkte, Asymptoten",
+    "pt": "Equação, focos, assíntotas",
+    "ru": "Уравнение, фокусы, асимптоты"
+   },
+   "kljucne_reci": {
+    "sr": "hiperbola zize asimptote ekscentricitet",
+    "en": "hyperbola foci asymptotes eccentricity",
+    "it": "iperbole fuochi asintoti eccentricita",
+    "fr": "hyperbole foyers asymptotes excentricite",
+    "es": "hiperbola focos asintotas excentricidad",
+    "de": "hyperbel brennpunkte asymptoten",
+    "pt": "hiperbole focos assintotas excentricidade",
+    "ru": "гипербола фокусы асимптоты эксцентриситет"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"7\" y1=\"112\" x2=\"293\" y2=\"112\"/><line class=\"osa\" x1=\"150\" y1=\"11\" x2=\"150\" y2=\"213\"/><path class=\"osa-s\" d=\"M293,112 l-7,-4 v8 Z M150,11 l-4,7 h8 Z\"/><text class=\"tem\" x=\"283\" y=\"130\">x</text><text class=\"tem\" x=\"158\" y=\"21\">y</text><text class=\"tem\" x=\"136\" y=\"128\">O</text><line class=\"pom\" x1=\"11.4\" y1=\"212.8\" x2=\"288.6\" y2=\"11.2\"/><line class=\"pom\" x1=\"11.4\" y1=\"11.2\" x2=\"288.6\" y2=\"212.8\"/><polyline class=\"kriva\" points=\"286.9,205.1 280.7,200.3 274.7,195.6 269.2,191.2 263.9,187.0 258.8,182.9 254.1,179.0 249.6,175.3 245.4,171.8 241.4,168.4 237.6,165.1 234.1,162.0 230.8,159.0 227.6,156.1 224.7,153.4 221.9,150.7 219.4,148.1 217.0,145.7 214.7,143.3 212.7,140.9 210.8,138.7 209.0,136.5 207.4,134.4 205.9,132.4 204.6,130.3 203.4,128.4 202.3,126.5 201.4,124.6 200.6,122.7 199.9,120.9 199.4,119.1 198.9,117.3 198.6,115.5 198.5,113.8 198.4,112.0 198.5,110.2 198.6,108.5 198.9,106.7 199.4,104.9 199.9,103.1 200.6,101.3 201.4,99.4 202.3,97.5 203.4,95.6 204.6,93.7 205.9,91.6 207.4,89.6 209.0,87.5 210.8,85.3 212.7,83.1 214.7,80.7 217.0,78.3 219.4,75.9 221.9,73.3 224.7,70.6 227.6,67.9 230.8,65.0 234.1,62.0 237.6,58.9 241.4,55.6 245.4,52.2 249.6,48.7 254.1,45.0 258.8,41.1 263.9,37.0 269.2,32.8 274.7,28.4 280.7,23.7 286.9,18.9\"/><polyline class=\"kriva\" points=\"13.1,205.1 19.3,200.3 25.3,195.6 30.8,191.2 36.1,187.0 41.2,182.9 45.9,179.0 50.4,175.3 54.6,171.8 58.6,168.4 62.4,165.1 65.9,162.0 69.2,159.0 72.4,156.1 75.3,153.4 78.1,150.7 80.6,148.1 83.0,145.7 85.3,143.3 87.3,140.9 89.2,138.7 91.0,136.5 92.6,134.4 94.1,132.4 95.4,130.3 96.6,128.4 97.7,126.5 98.6,124.6 99.4,122.7 100.1,120.9 100.6,119.1 101.1,117.3 101.4,115.5 101.5,113.8 101.6,112.0 101.5,110.2 101.4,108.5 101.1,106.7 100.6,104.9 100.1,103.1 99.4,101.3 98.6,99.4 97.7,97.5 96.6,95.6 95.4,93.7 94.1,91.6 92.6,89.6 91.0,87.5 89.2,85.3 87.3,83.1 85.3,80.7 83.0,78.3 80.6,75.9 78.1,73.3 75.3,70.6 72.4,67.9 69.2,65.0 65.9,62.0 62.4,58.9 58.6,55.6 54.6,52.2 50.4,48.7 45.9,45.0 41.2,41.1 36.1,37.0 30.8,32.8 25.3,28.4 19.3,23.7 13.1,18.9\"/><circle class=\"tac\" cx=\"90.2\" cy=\"112.0\" r=\"4\"/><text class=\"oz\" x=\"84.2\" y=\"132.0\">F</text><circle class=\"tac\" cx=\"209.8\" cy=\"112.0\" r=\"4\"/><text class=\"oz\" x=\"203.8\" y=\"132.0\">F</text><text class=\"sub\" x=\"94\" y=\"137\">1</text><text class=\"sub\" x=\"214\" y=\"137\">2</text><line class=\"lik-l\" x1=\"150.0\" y1=\"112.0\" x2=\"198.4\" y2=\"112.0\"/><text class=\"oz\" x=\"167.6\" y=\"105.4\">a</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Kanonski oblik",
+      "en": "Standard form",
+      "it": "Equazione canonica",
+      "fr": "Équation réduite",
+      "es": "Ecuación canónica",
+      "de": "Mittelpunktsgleichung",
+      "pt": "Equação reduzida",
+      "ru": "Каноническое уравнение"
+     },
+     "latex": {
+      "sr": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+      "en": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+      "it": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+      "fr": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+      "es": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+      "de": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+      "pt": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+      "ru": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Žiže",
+      "en": "Foci",
+      "it": "Fuochi",
+      "fr": "Foyers",
+      "es": "Focos",
+      "de": "Brennpunkte",
+      "pt": "Focos",
+      "ru": "Фокусы"
+     },
+     "latex": {
+      "sr": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 + b^2",
+      "en": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 + b^2",
+      "it": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 + b^2",
+      "fr": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 + b^2",
+      "es": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 + b^2",
+      "de": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 + b^2",
+      "pt": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 + b^2",
+      "ru": "F_{1,2}(\\pm c,\\ 0), \\quad c^2 = a^2 + b^2"
+     },
+     "objasnjenje": {
+      "sr": "Razlika rastojanja svake tačke od žiža je 2a.",
+      "en": "For every point, the difference of distances to the foci is 2a.",
+      "it": "La differenza delle distanze di ogni punto dai fuochi è 2a.",
+      "fr": "Pour tout point, la différence des distances aux foyers vaut 2a.",
+      "es": "La diferencia de distancias de cada punto a los focos es 2a.",
+      "de": "Für jeden Punkt ist die Differenz der Abstände zu den Brennpunkten 2a.",
+      "pt": "A diferença das distâncias de cada ponto aos focos é 2a.",
+      "ru": "Модуль разности расстояний до фокусов равен 2a."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Asimptote i ekscentricitet",
+      "en": "Asymptotes and eccentricity",
+      "it": "Asintoti ed eccentricità",
+      "fr": "Asymptotes et excentricité",
+      "es": "Asíntotas y excentricidad",
+      "de": "Asymptoten und Exzentrizität",
+      "pt": "Assíntotas e excentricidade",
+      "ru": "Асимптоты и эксцентриситет"
+     },
+     "latex": {
+      "sr": "y = \\pm \\frac{b}{a} x, \\quad e = \\frac{c}{a} > 1",
+      "en": "y = \\pm \\frac{b}{a} x, \\quad e = \\frac{c}{a} > 1",
+      "it": "y = \\pm \\frac{b}{a} x, \\quad e = \\frac{c}{a} > 1",
+      "fr": "y = \\pm \\frac{b}{a} x, \\quad e = \\frac{c}{a} > 1",
+      "es": "y = \\pm \\frac{b}{a} x, \\quad e = \\frac{c}{a} > 1",
+      "de": "y = \\pm \\frac{b}{a} x, \\quad e = \\frac{c}{a} > 1",
+      "pt": "y = \\pm \\frac{b}{a} x, \\quad e = \\frac{c}{a} > 1",
+      "ru": "y = \\pm \\frac{b}{a} x, \\quad e = \\frac{c}{a} > 1"
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Žižna daljina c",
+       "en": "Focal distance c",
+       "it": "Semidistanza focale c",
+       "fr": "Demi-distance focale c",
+       "es": "Semidistancia focal c",
+       "de": "Lineare Exzentrizität c",
+       "pt": "Semidistância focal c",
+       "ru": "Фокусное расстояние c"
+      },
+      "izraz": "sqrt(a*a+b*b)"
+     },
+     {
+      "naziv": {
+       "sr": "Ekscentricitet e",
+       "en": "Eccentricity e",
+       "it": "Eccentricità e",
+       "fr": "Excentricité e",
+       "es": "Excentricidad e",
+       "de": "Exzentrizität e",
+       "pt": "Excentricidade e",
+       "ru": "Эксцентриситет e"
+      },
+      "izraz": "sqrt(a*a+b*b)/a"
+     },
+     {
+      "naziv": {
+       "sr": "Nagib asimptota ±b/a",
+       "en": "Asymptote slope ±b/a",
+       "it": "Pendenza asintoti ±b/a",
+       "fr": "Pente des asymptotes ±b/a",
+       "es": "Pendiente asíntotas ±b/a",
+       "de": "Steigung der Asymptoten ±b/a",
+       "pt": "Inclinação assíntotas ±b/a",
+       "ru": "Наклон асимптот ±b/a"
+      },
+      "izraz": "b/a"
+     }
+    ]
+   }
+  },
+  {
+   "id": "parabola",
+   "simbol": "",
+   "ikona": "ic_a_parabola",
+   "naziv": {
+    "sr": "Parabola",
+    "en": "Parabola",
+    "it": "Parabola (conica)",
+    "fr": "Parabole",
+    "es": "Parábola",
+    "de": "Parabel",
+    "pt": "Parábola",
+    "ru": "Парабола"
+   },
+   "opis": {
+    "sr": "Žiža i direktrisa",
+    "en": "Focus and directrix",
+    "it": "Fuoco e direttrice",
+    "fr": "Foyer et directrice",
+    "es": "Foco y directriz",
+    "de": "Brennpunkt und Leitlinie",
+    "pt": "Foco e diretriz",
+    "ru": "Фокус и директриса"
+   },
+   "kljucne_reci": {
+    "sr": "parabola ziza direktrisa parametar",
+    "en": "parabola focus directrix parameter conic",
+    "it": "parabola fuoco direttrice conica",
+    "fr": "parabole foyer directrice conique",
+    "es": "parabola foco directriz conica",
+    "de": "parabel brennpunkt leitlinie kegelschnitt",
+    "pt": "parabola foco diretriz conica",
+    "ru": "парабола фокус директриса"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 225\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"7\" y1=\"112\" x2=\"293\" y2=\"112\"/><line class=\"osa\" x1=\"150\" y1=\"11\" x2=\"150\" y2=\"213\"/><path class=\"osa-s\" d=\"M293,112 l-7,-4 v8 Z M150,11 l-4,7 h8 Z\"/><text class=\"tem\" x=\"283\" y=\"130\">x</text><text class=\"tem\" x=\"158\" y=\"21\">y</text><text class=\"tem\" x=\"136\" y=\"128\">O</text><polyline class=\"kriva\" points=\"261.4,211.0 256.5,208.8 251.7,206.6 247.0,204.4 242.5,202.2 238.0,200.0 233.7,197.8 229.4,195.6 225.3,193.4 221.3,191.2 217.4,189.0 213.6,186.8 209.9,184.6 206.3,182.4 202.9,180.2 199.5,178.0 196.3,175.8 193.1,173.6 190.1,171.4 187.2,169.2 184.4,167.0 181.7,164.8 179.1,162.6 176.6,160.4 174.3,158.2 172.0,156.0 169.9,153.8 167.8,151.6 165.9,149.4 164.1,147.2 162.4,145.0 160.8,142.8 159.3,140.6 157.9,138.4 156.7,136.2 155.5,134.0 154.5,131.8 153.5,129.6 152.7,127.4 152.0,125.2 151.4,123.0 150.9,120.8 150.5,118.6 150.2,116.4 150.1,114.2 150.0,112.0 150.1,109.8 150.2,107.6 150.5,105.4 150.9,103.2 151.4,101.0 152.0,98.8 152.7,96.6 153.5,94.4 154.5,92.2 155.5,90.0 156.7,87.8 157.9,85.6 159.3,83.4 160.8,81.2 162.4,79.0 164.1,76.8 165.9,74.6 167.8,72.4 169.9,70.2 172.0,68.0 174.3,65.8 176.6,63.6 179.1,61.4 181.7,59.2 184.4,57.0 187.2,54.8 190.1,52.6 193.1,50.4 196.3,48.2 199.5,46.0 202.9,43.8 206.3,41.6 209.9,39.4 213.6,37.2 217.4,35.0 221.3,32.8 225.3,30.6 229.4,28.4 233.7,26.2 238.0,24.0 242.5,21.8 247.0,19.6 251.7,17.4 256.5,15.2 261.4,13.0\"/><line class=\"pom\" x1=\"128.0\" y1=\"211.0\" x2=\"128.0\" y2=\"13.0\"/><circle class=\"tac\" cx=\"172.0\" cy=\"112.0\" r=\"4\"/><text class=\"oz\" x=\"176.0\" y=\"132.0\">F</text><circle class=\"tac\" cx=\"194.0\" cy=\"68.0\" r=\"4\"/><text class=\"oz\" x=\"200.0\" y=\"62.0\">M</text><line class=\"pom\" x1=\"194.0\" y1=\"68.0\" x2=\"172.0\" y2=\"112.0\"/><line class=\"pom\" x1=\"194.0\" y1=\"68.0\" x2=\"128.0\" y2=\"68.0\"/><text class=\"oz\" x=\"119.2\" y=\"24.0\">d</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Kanonski oblik",
+      "en": "Standard form",
+      "it": "Equazione canonica",
+      "fr": "Équation réduite",
+      "es": "Ecuación canónica",
+      "de": "Scheitelgleichung",
+      "pt": "Equação reduzida",
+      "ru": "Каноническое уравнение"
+     },
+     "latex": {
+      "sr": "y^2 = 2 p x",
+      "en": "y^2 = 2 p x",
+      "it": "y^2 = 2 p x",
+      "fr": "y^2 = 2 p x",
+      "es": "y^2 = 2 p x",
+      "de": "y^2 = 2 p x",
+      "pt": "y^2 = 2 p x",
+      "ru": "y^2 = 2 p x"
+     },
+     "objasnjenje": {
+      "sr": "p je parametar: rastojanje žiže od direktrise.",
+      "en": "p is the parameter: the distance from the focus to the directrix.",
+      "it": "p è il parametro: distanza del fuoco dalla direttrice.",
+      "fr": "p est le paramètre : distance du foyer à la directrice.",
+      "es": "p es el parámetro: distancia del foco a la directriz.",
+      "de": "p ist der Parameter: Abstand des Brennpunkts von der Leitlinie.",
+      "pt": "p é o parâmetro: distância do foco à diretriz.",
+      "ru": "p — параметр: расстояние от фокуса до директрисы."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Žiža i direktrisa",
+      "en": "Focus and directrix",
+      "it": "Fuoco e direttrice",
+      "fr": "Foyer et directrice",
+      "es": "Foco y directriz",
+      "de": "Brennpunkt und Leitlinie",
+      "pt": "Foco e diretriz",
+      "ru": "Фокус и директриса"
+     },
+     "latex": {
+      "sr": "F\\left(\\frac{p}{2},\\ 0\\right), \\quad d:\\ x = -\\frac{p}{2}",
+      "en": "F\\left(\\frac{p}{2},\\ 0\\right), \\quad d:\\ x = -\\frac{p}{2}",
+      "it": "F\\left(\\frac{p}{2},\\ 0\\right), \\quad d:\\ x = -\\frac{p}{2}",
+      "fr": "F\\left(\\frac{p}{2},\\ 0\\right), \\quad d:\\ x = -\\frac{p}{2}",
+      "es": "F\\left(\\frac{p}{2},\\ 0\\right), \\quad d:\\ x = -\\frac{p}{2}",
+      "de": "F\\left(\\frac{p}{2},\\ 0\\right), \\quad d:\\ x = -\\frac{p}{2}",
+      "pt": "F\\left(\\frac{p}{2},\\ 0\\right), \\quad d:\\ x = -\\frac{p}{2}",
+      "ru": "F\\left(\\frac{p}{2},\\ 0\\right), \\quad d:\\ x = -\\frac{p}{2}"
+     },
+     "objasnjenje": {
+      "sr": "Svaka tačka parabole jednako je udaljena od žiže i od direktrise.",
+      "en": "Every point of the parabola is equidistant from the focus and the directrix.",
+      "it": "Ogni punto è equidistante dal fuoco e dalla direttrice.",
+      "fr": "Tout point est à égale distance du foyer et de la directrice.",
+      "es": "Cada punto equidista del foco y de la directriz.",
+      "de": "Jeder Punkt ist gleich weit von Brennpunkt und Leitlinie entfernt.",
+      "pt": "Cada ponto é equidistante do foco e da diretriz.",
+      "ru": "Каждая точка параболы равноудалена от фокуса и директрисы."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Vertikalna parabola",
+      "en": "Vertical parabola",
+      "it": "Parabola con asse verticale",
+      "fr": "Parabole d’axe vertical",
+      "es": "Parábola vertical",
+      "de": "Nach oben geöffnete Parabel",
+      "pt": "Parábola vertical",
+      "ru": "Вертикальная парабола"
+     },
+     "latex": {
+      "sr": "x^2 = 2 p y, \\quad F\\left(0,\\ \\frac{p}{2}\\right), \\quad d:\\ y = -\\frac{p}{2}",
+      "en": "x^2 = 2 p y, \\quad F\\left(0,\\ \\frac{p}{2}\\right), \\quad d:\\ y = -\\frac{p}{2}",
+      "it": "x^2 = 2 p y, \\quad F\\left(0,\\ \\frac{p}{2}\\right), \\quad d:\\ y = -\\frac{p}{2}",
+      "fr": "x^2 = 2 p y, \\quad F\\left(0,\\ \\frac{p}{2}\\right), \\quad d:\\ y = -\\frac{p}{2}",
+      "es": "x^2 = 2 p y, \\quad F\\left(0,\\ \\frac{p}{2}\\right), \\quad d:\\ y = -\\frac{p}{2}",
+      "de": "x^2 = 2 p y, \\quad F\\left(0,\\ \\frac{p}{2}\\right), \\quad d:\\ y = -\\frac{p}{2}",
+      "pt": "x^2 = 2 p y, \\quad F\\left(0,\\ \\frac{p}{2}\\right), \\quad d:\\ y = -\\frac{p}{2}",
+      "ru": "x^2 = 2 p y, \\quad F\\left(0,\\ \\frac{p}{2}\\right), \\quad d:\\ y = -\\frac{p}{2}"
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": {
+     "sr": "y^2 = 2 p x",
+     "en": "y^2 = 2 p x",
+     "it": "y^2 = 2 p x",
+     "fr": "y^2 = 2 p x",
+     "es": "y^2 = 2 p x",
+     "de": "y^2 = 2 p x",
+     "pt": "y^2 = 2 p x",
+     "ru": "y^2 = 2 p x"
+    },
+    "ulazi": [
+     {
+      "id": "p",
+      "oznaka": "p",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Žiža F – x",
+       "en": "Focus F – x",
+       "it": "Fuoco F – x",
+       "fr": "Foyer F – x",
+       "es": "Foco F – x",
+       "de": "Brennpunkt F – x",
+       "pt": "Foco F – x",
+       "ru": "Фокус F – x"
+      },
+      "izraz": "p/2"
+     },
+     {
+      "naziv": {
+       "sr": "Direktrisa x =",
+       "en": "Directrix x =",
+       "it": "Direttrice x =",
+       "fr": "Directrice x =",
+       "es": "Directriz x =",
+       "de": "Leitlinie x =",
+       "pt": "Diretriz x =",
+       "ru": "Директриса x ="
+      },
+      "izraz": "-p/2"
+     }
+    ]
+   }
+  }
+ ]
+}

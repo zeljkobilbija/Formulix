@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+: isto kao osnovna tema, plus natpis "Formulix" na dnu -->
+    <style name="Theme.Formulix.Splash" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">@color/splash_pozadina</item>
+        <item name="windowSplashScreenIconBackgroundColor">#FFFFFF</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.Formulix</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_splash_brand</item>
+    </style>
+</resources>

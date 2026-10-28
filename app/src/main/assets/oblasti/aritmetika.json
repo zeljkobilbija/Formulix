@@ -1,0 +1,1774 @@
+{
+ "oblast": "aritmetika",
+ "teme": [
+  {
+   "id": "razlomci",
+   "simbol": "½",
+   "naziv": {
+    "sr": "Razlomci",
+    "en": "Fractions",
+    "it": "Frazioni",
+    "fr": "Fractions",
+    "es": "Fracciones",
+    "de": "Brüche",
+    "pt": "Frações",
+    "ru": "Дроби"
+   },
+   "opis": {
+    "sr": "Sabiranje, množenje, deljenje",
+    "en": "Add, multiply, divide",
+    "it": "Somma, prodotto, divisione",
+    "fr": "Addition, produit, division",
+    "es": "Suma, producto, división",
+    "de": "Addieren, multiplizieren, dividieren",
+    "pt": "Soma, produto, divisão",
+    "ru": "Сложение, умножение, деление"
+   },
+   "kljucne_reci": {
+    "sr": "razlomak brojilac imenilac skracivanje prosirivanje zajednicki imenilac",
+    "en": "fraction numerator denominator simplify reduce common denominator",
+    "it": "frazione numeratore denominatore semplificare minimo comune denominatore",
+    "fr": "fraction numerateur denominateur simplifier denominateur commun",
+    "es": "fraccion numerador denominador simplificar comun denominador",
+    "de": "bruch zahler nenner kurzen erweitern hauptnenner",
+    "pt": "fracao numerador denominador simplificar denominador comum",
+    "ru": "дробь числитель знаменатель сокращение общий знаменатель"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Sabiranje i oduzimanje",
+      "en": "Addition and subtraction",
+      "it": "Addizione e sottrazione",
+      "fr": "Addition et soustraction",
+      "es": "Suma y resta",
+      "de": "Addition und Subtraktion",
+      "pt": "Adição e subtração",
+      "ru": "Сложение и вычитание"
+     },
+     "latex": "\\frac{a}{b} \\pm \\frac{c}{d} = \\frac{a d \\pm b c}{b d}",
+     "objasnjenje": {
+      "sr": "Razlomke svodimo na zajednički imenilac: svaki brojilac množimo imeniocem drugog razlomka.",
+      "en": "Bring the fractions to a common denominator: multiply each numerator by the other denominator.",
+      "it": "Si riducono le frazioni allo stesso denominatore: ogni numeratore si moltiplica per il denominatore dell’altra.",
+      "fr": "On réduit au même dénominateur : chaque numérateur est multiplié par le dénominateur de l’autre fraction.",
+      "es": "Se reducen a común denominador: cada numerador se multiplica por el denominador de la otra fracción.",
+      "de": "Man bringt die Brüche auf einen gemeinsamen Nenner: jeder Zähler wird mit dem anderen Nenner multipliziert.",
+      "pt": "Reduzimos ao mesmo denominador: cada numerador é multiplicado pelo denominador da outra fração.",
+      "ru": "Дроби приводят к общему знаменателю: каждый числитель умножают на знаменатель другой дроби."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Množenje",
+      "en": "Multiplication",
+      "it": "Moltiplicazione",
+      "fr": "Multiplication",
+      "es": "Multiplicación",
+      "de": "Multiplikation",
+      "pt": "Multiplicação",
+      "ru": "Умножение"
+     },
+     "latex": "\\frac{a}{b} \\cdot \\frac{c}{d} = \\frac{a c}{b d}",
+     "objasnjenje": {
+      "sr": "Brojilac množimo brojiocem, a imenilac imeniocem.",
+      "en": "Multiply numerator by numerator and denominator by denominator.",
+      "it": "Si moltiplicano i numeratori tra loro e i denominatori tra loro.",
+      "fr": "On multiplie les numérateurs entre eux et les dénominateurs entre eux.",
+      "es": "Se multiplican los numeradores entre sí y los denominadores entre sí.",
+      "de": "Zähler mal Zähler, Nenner mal Nenner.",
+      "pt": "Multiplicamos numerador por numerador e denominador por denominador.",
+      "ru": "Числитель умножают на числитель, знаменатель — на знаменатель."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Deljenje",
+      "en": "Division",
+      "it": "Divisione",
+      "fr": "Division",
+      "es": "División",
+      "de": "Division",
+      "pt": "Divisão",
+      "ru": "Деление"
+     },
+     "latex": {
+      "sr": "\\frac{a}{b} : \\frac{c}{d} = \\frac{a}{b} \\cdot \\frac{d}{c} = \\frac{a d}{b c}",
+      "en": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\cdot \\frac{d}{c} = \\frac{a d}{b c}",
+      "it": "\\frac{a}{b} : \\frac{c}{d} = \\frac{a}{b} \\cdot \\frac{d}{c} = \\frac{a d}{b c}",
+      "fr": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c} = \\frac{a d}{b c}",
+      "es": "\\frac{a}{b} : \\frac{c}{d} = \\frac{a}{b} \\cdot \\frac{d}{c} = \\frac{a d}{b c}",
+      "de": "\\frac{a}{b} : \\frac{c}{d} = \\frac{a}{b} \\cdot \\frac{d}{c} = \\frac{a d}{b c}",
+      "pt": "\\frac{a}{b} : \\frac{c}{d} = \\frac{a}{b} \\cdot \\frac{d}{c} = \\frac{a d}{b c}",
+      "ru": "\\frac{a}{b} : \\frac{c}{d} = \\frac{a}{b} \\cdot \\frac{d}{c} = \\frac{a d}{b c}"
+     },
+     "objasnjenje": {
+      "sr": "Razlomkom delimo tako što množimo njegovom recipročnom vrednošću (obrnemo drugi razlomak).",
+      "en": "To divide by a fraction, multiply by its reciprocal (flip the second fraction).",
+      "it": "Dividere per una frazione equivale a moltiplicare per la sua reciproca.",
+      "fr": "Diviser par une fraction revient à multiplier par son inverse.",
+      "es": "Dividir entre una fracción es multiplicar por su inversa.",
+      "de": "Durch einen Bruch dividiert man, indem man mit dem Kehrwert multipliziert.",
+      "pt": "Dividir por uma fração é multiplicar pelo seu inverso.",
+      "ru": "Чтобы разделить на дробь, умножают на обратную ей дробь."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Proširivanje i skraćivanje",
+      "en": "Equivalent fractions",
+      "it": "Frazioni equivalenti",
+      "fr": "Fractions égales",
+      "es": "Fracciones equivalentes",
+      "de": "Erweitern und Kürzen",
+      "pt": "Frações equivalentes",
+      "ru": "Основное свойство дроби"
+     },
+     "latex": "\\frac{a}{b} = \\frac{a \\cdot k}{b \\cdot k}, \\quad k \\neq 0",
+     "objasnjenje": {
+      "sr": "Vrednost razlomka se ne menja ako brojilac i imenilac pomnožimo ili podelimo istim brojem različitim od nule.",
+      "en": "A fraction keeps its value if numerator and denominator are multiplied or divided by the same non-zero number.",
+      "it": "Una frazione non cambia se si moltiplicano o dividono numeratore e denominatore per lo stesso numero diverso da zero.",
+      "fr": "Une fraction ne change pas si l’on multiplie ou divise le numérateur et le dénominateur par un même nombre non nul.",
+      "es": "Una fracción no cambia si se multiplican o dividen numerador y denominador por el mismo número distinto de cero.",
+      "de": "Ein Bruch behält seinen Wert, wenn Zähler und Nenner mit derselben Zahl (≠ 0) multipliziert oder durch sie dividiert werden.",
+      "pt": "Uma fração não muda se multiplicarmos ou dividirmos numerador e denominador pelo mesmo número diferente de zero.",
+      "ru": "Дробь не изменится, если числитель и знаменатель умножить или разделить на одно и то же число, не равное нулю."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "brojilac 1",
+       "en": "numerator 1",
+       "it": "numeratore 1",
+       "fr": "numérateur 1",
+       "es": "numerador 1",
+       "de": "Zähler 1",
+       "pt": "numerador 1",
+       "ru": "числитель 1"
+      },
+      "pocetna": 1
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "imenilac 1",
+       "en": "denominator 1",
+       "it": "denominatore 1",
+       "fr": "dénominateur 1",
+       "es": "denominador 1",
+       "de": "Nenner 1",
+       "pt": "denominador 1",
+       "ru": "знаменатель 1"
+      },
+      "pocetna": 2
+     },
+     {
+      "id": "c",
+      "oznaka": "c",
+      "naziv": {
+       "sr": "brojilac 2",
+       "en": "numerator 2",
+       "it": "numeratore 2",
+       "fr": "numérateur 2",
+       "es": "numerador 2",
+       "de": "Zähler 2",
+       "pt": "numerador 2",
+       "ru": "числитель 2"
+      },
+      "pocetna": 1
+     },
+     {
+      "id": "d",
+      "oznaka": "d",
+      "naziv": {
+       "sr": "imenilac 2",
+       "en": "denominator 2",
+       "it": "denominatore 2",
+       "fr": "dénominateur 2",
+       "es": "denominador 2",
+       "de": "Nenner 2",
+       "pt": "denominador 2",
+       "ru": "знаменатель 2"
+      },
+      "pocetna": 3
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Zbir",
+       "en": "Sum",
+       "it": "Somma",
+       "fr": "Somme",
+       "es": "Suma",
+       "de": "Summe",
+       "pt": "Soma",
+       "ru": "Сумма"
+      },
+      "tip": "razlomak",
+      "brojilac": "a*d+b*c",
+      "imenilac": "b*d"
+     },
+     {
+      "naziv": {
+       "sr": "Razlika",
+       "en": "Difference",
+       "it": "Differenza",
+       "fr": "Différence",
+       "es": "Diferencia",
+       "de": "Differenz",
+       "pt": "Diferença",
+       "ru": "Разность"
+      },
+      "tip": "razlomak",
+      "brojilac": "a*d-b*c",
+      "imenilac": "b*d"
+     },
+     {
+      "naziv": {
+       "sr": "Proizvod",
+       "en": "Product",
+       "it": "Prodotto",
+       "fr": "Produit",
+       "es": "Producto",
+       "de": "Produkt",
+       "pt": "Produto",
+       "ru": "Произведение"
+      },
+      "tip": "razlomak",
+      "brojilac": "a*c",
+      "imenilac": "b*d"
+     },
+     {
+      "naziv": {
+       "sr": "Količnik",
+       "en": "Quotient",
+       "it": "Quoziente",
+       "fr": "Quotient",
+       "es": "Cociente",
+       "de": "Quotient",
+       "pt": "Quociente",
+       "ru": "Частное"
+      },
+      "tip": "razlomak",
+      "brojilac": "a*d",
+      "imenilac": "b*c"
+     }
+    ]
+   }
+  },
+  {
+   "id": "procenti",
+   "simbol": "%",
+   "naziv": {
+    "sr": "Procenti",
+    "en": "Percentages",
+    "it": "Percentuali",
+    "fr": "Pourcentages",
+    "es": "Porcentajes",
+    "de": "Prozentrechnung",
+    "pt": "Porcentagem",
+    "ru": "Проценты"
+   },
+   "opis": {
+    "sr": "Procenat, osnovica, iznos",
+    "en": "Percent, whole, part",
+    "it": "Percentuale, totale, parte",
+    "fr": "Taux, total, partie",
+    "es": "Porcentaje, total, parte",
+    "de": "Prozentsatz, Grundwert, Prozentwert",
+    "pt": "Taxa, total, parte",
+    "ru": "Процент, число, часть"
+   },
+   "kljucne_reci": {
+    "sr": "procenat postotak osnovica procentni iznos popust poskupljenje pojeftinjenje pdv",
+    "en": "percent percentage discount increase decrease tax",
+    "it": "percentuale per cento sconto aumento iva",
+    "fr": "pourcentage pour cent remise reduction augmentation tva",
+    "es": "porcentaje por ciento descuento aumento iva",
+    "de": "prozent prozentsatz grundwert prozentwert rabatt mehrwertsteuer",
+    "pt": "porcentagem por cento desconto aumento",
+    "ru": "процент процентов скидка наценка увеличение уменьшение"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Procentni iznos",
+      "en": "Part (p% of a number)",
+      "it": "Parte (p% di un numero)",
+      "fr": "Partie (p % d’un nombre)",
+      "es": "Parte (p% de un número)",
+      "de": "Prozentwert",
+      "pt": "Parte (p% de um número)",
+      "ru": "Процент от числа"
+     },
+     "latex": {
+      "sr": "P = \\frac{S \\cdot p}{100}",
+      "en": "\\text{part} = \\frac{\\text{whole} \\cdot p}{100}",
+      "it": "\\text{parte} = \\frac{\\text{totale} \\cdot p}{100}",
+      "fr": "\\text{partie} = \\frac{\\text{total} \\cdot p}{100}",
+      "es": "\\text{parte} = \\frac{\\text{total} \\cdot p}{100}",
+      "de": "W = \\frac{G \\cdot p}{100}",
+      "pt": "\\text{parte} = \\frac{\\text{total} \\cdot p}{100}",
+      "ru": "\\text{часть} = \\frac{\\text{число} \\cdot p}{100}"
+     },
+     "objasnjenje": {
+      "sr": "Koliko je p% od osnovice: osnovicu pomnožimo sa p i podelimo sa 100.",
+      "en": "How much p% of a number is: multiply the whole by p and divide by 100.",
+      "it": "Quanto vale il p% di un numero: si moltiplica il totale per p e si divide per 100.",
+      "fr": "Pour calculer p % d’un nombre, on le multiplie par p puis on divise par 100.",
+      "es": "Para calcular el p% de un número se multiplica por p y se divide entre 100.",
+      "de": "Wie viel sind p % vom Grundwert: Grundwert mal p, geteilt durch 100.",
+      "pt": "Para calcular p% de um número, multiplica-se por p e divide-se por 100.",
+      "ru": "Чтобы найти p% от числа, число умножают на p и делят на 100."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Procenat",
+      "en": "Percentage",
+      "it": "Percentuale",
+      "fr": "Pourcentage",
+      "es": "Porcentaje",
+      "de": "Prozentsatz",
+      "pt": "Porcentagem",
+      "ru": "Сколько процентов"
+     },
+     "latex": {
+      "sr": "p = \\frac{P}{S} \\cdot 100",
+      "en": "p = \\frac{\\text{part}}{\\text{whole}} \\cdot 100",
+      "it": "p = \\frac{\\text{parte}}{\\text{totale}} \\cdot 100",
+      "fr": "p = \\frac{\\text{partie}}{\\text{total}} \\cdot 100",
+      "es": "p = \\frac{\\text{parte}}{\\text{total}} \\cdot 100",
+      "de": "p = \\frac{W}{G} \\cdot 100",
+      "pt": "p = \\frac{\\text{parte}}{\\text{total}} \\cdot 100",
+      "ru": "p = \\frac{\\text{часть}}{\\text{число}} \\cdot 100"
+     },
+     "objasnjenje": {
+      "sr": "Koliko procenata čini deo od celine: deo podelimo celinom i pomnožimo sa 100.",
+      "en": "What percent the part is of the whole: divide the part by the whole and multiply by 100.",
+      "it": "Quale percentuale è la parte rispetto al totale: si divide la parte per il totale e si moltiplica per 100.",
+      "fr": "Quel pourcentage représente la partie : on divise la partie par le total et on multiplie par 100.",
+      "es": "Qué porcentaje es la parte del total: se divide la parte entre el total y se multiplica por 100.",
+      "de": "Wie viel Prozent der Prozentwert vom Grundwert ist: W durch G, mal 100.",
+      "pt": "Que porcentagem a parte representa do total: divide-se a parte pelo total e multiplica-se por 100.",
+      "ru": "Сколько процентов составляет часть от числа: часть делят на число и умножают на 100."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Osnovica",
+      "en": "Whole",
+      "it": "Totale",
+      "fr": "Total",
+      "es": "Total",
+      "de": "Grundwert",
+      "pt": "Total",
+      "ru": "Число по его проценту"
+     },
+     "latex": {
+      "sr": "S = \\frac{P \\cdot 100}{p}",
+      "en": "\\text{whole} = \\frac{\\text{part} \\cdot 100}{p}",
+      "it": "\\text{totale} = \\frac{\\text{parte} \\cdot 100}{p}",
+      "fr": "\\text{total} = \\frac{\\text{partie} \\cdot 100}{p}",
+      "es": "\\text{total} = \\frac{\\text{parte} \\cdot 100}{p}",
+      "de": "G = \\frac{W \\cdot 100}{p}",
+      "pt": "\\text{total} = \\frac{\\text{parte} \\cdot 100}{p}",
+      "ru": "\\text{число} = \\frac{\\text{часть} \\cdot 100}{p}"
+     },
+     "objasnjenje": {
+      "sr": "Kada znamo deo i procenat, celinu dobijamo deljenjem dela sa p i množenjem sa 100.",
+      "en": "If you know the part and the percent, divide the part by p and multiply by 100.",
+      "it": "Se conosci la parte e la percentuale, dividi la parte per p e moltiplica per 100.",
+      "fr": "Si l’on connaît la partie et le pourcentage, on divise la partie par p et on multiplie par 100.",
+      "es": "Si conoces la parte y el porcentaje, divide la parte entre p y multiplica por 100.",
+      "de": "Kennt man Prozentwert und Prozentsatz, rechnet man W durch p mal 100.",
+      "pt": "Conhecendo a parte e a porcentagem, divide-se a parte por p e multiplica-se por 100.",
+      "ru": "Если известны часть и процент, часть делят на p и умножают на 100."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Povećanje i smanjenje",
+      "en": "Increase and decrease",
+      "it": "Aumento e sconto",
+      "fr": "Hausse et baisse",
+      "es": "Aumento y descuento",
+      "de": "Vermehrter und verminderter Grundwert",
+      "pt": "Aumento e desconto",
+      "ru": "Увеличение и уменьшение"
+     },
+     "latex": {
+      "sr": "S_1 = S \\left(1 \\pm \\frac{p}{100}\\right)",
+      "en": "\\text{new} = \\text{whole} \\left(1 \\pm \\frac{p}{100}\\right)",
+      "it": "\\text{nuovo} = \\text{totale} \\left(1 \\pm \\frac{p}{100}\\right)",
+      "fr": "\\text{nouveau} = \\text{total} \\left(1 \\pm \\frac{p}{100}\\right)",
+      "es": "\\text{nuevo} = \\text{total} \\left(1 \\pm \\frac{p}{100}\\right)",
+      "de": "G_{\\text{neu}} = G \\left(1 \\pm \\frac{p}{100}\\right)",
+      "pt": "\\text{novo} = \\text{total} \\left(1 \\pm \\frac{p}{100}\\right)",
+      "ru": "\\text{новое} = \\text{число} \\left(1 \\pm \\frac{p}{100}\\right)"
+     },
+     "objasnjenje": {
+      "sr": "Poskupljenje za p%: množimo sa (1 + p/100). Popust od p%: množimo sa (1 − p/100).",
+      "en": "Increase by p%: multiply by (1 + p/100). Decrease by p%: multiply by (1 − p/100).",
+      "it": "Aumento del p%: si moltiplica per (1 + p/100). Sconto del p%: per (1 − p/100).",
+      "fr": "Hausse de p % : on multiplie par (1 + p/100). Baisse de p % : par (1 − p/100).",
+      "es": "Aumento del p%: se multiplica por (1 + p/100). Descuento del p%: por (1 − p/100).",
+      "de": "Erhöhung um p %: mal (1 + p/100). Senkung um p %: mal (1 − p/100).",
+      "pt": "Aumento de p%: multiplica-se por (1 + p/100). Desconto de p%: por (1 − p/100).",
+      "ru": "Увеличение на p%: умножают на (1 + p/100). Уменьшение на p%: на (1 − p/100)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "S",
+      "oznaka": {
+       "sr": "S",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "G",
+       "pt": "",
+       "ru": ""
+      },
+      "naziv": {
+       "sr": "osnovica",
+       "en": "whole",
+       "it": "totale",
+       "fr": "total",
+       "es": "total",
+       "de": "Grundwert",
+       "pt": "total",
+       "ru": "число"
+      },
+      "pocetna": 200
+     },
+     {
+      "id": "p",
+      "oznaka": "p",
+      "naziv": {
+       "sr": "procenat",
+       "en": "percent",
+       "it": "percentuale",
+       "fr": "pourcentage",
+       "es": "porcentaje",
+       "de": "Prozentsatz",
+       "pt": "porcentagem",
+       "ru": "процент"
+      },
+      "pocetna": 15
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "p% od osnovice",
+       "en": "p% of the whole",
+       "it": "p% del totale",
+       "fr": "p % du total",
+       "es": "p% del total",
+       "de": "p % vom Grundwert",
+       "pt": "p% do total",
+       "ru": "p% от числа"
+      },
+      "izraz": "S*p/100"
+     },
+     {
+      "naziv": {
+       "sr": "Uvećano za p%",
+       "en": "Increased by p%",
+       "it": "Aumentato del p%",
+       "fr": "Augmenté de p %",
+       "es": "Aumentado un p%",
+       "de": "Um p % erhöht",
+       "pt": "Aumentado em p%",
+       "ru": "Увеличено на p%"
+      },
+      "izraz": "S*(1+p/100)"
+     },
+     {
+      "naziv": {
+       "sr": "Umanjeno za p%",
+       "en": "Decreased by p%",
+       "it": "Scontato del p%",
+       "fr": "Diminué de p %",
+       "es": "Disminuido un p%",
+       "de": "Um p % vermindert",
+       "pt": "Diminuído em p%",
+       "ru": "Уменьшено на p%"
+      },
+      "izraz": "S*(1-p/100)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "proporcije",
+   "simbol": "a:b",
+   "naziv": {
+    "sr": "Proporcije",
+    "en": "Proportions",
+    "it": "Proporzioni",
+    "fr": "Proportions",
+    "es": "Proporciones",
+    "de": "Proportionen",
+    "pt": "Proporções",
+    "ru": "Пропорции"
+   },
+   "opis": {
+    "sr": "Direktna i obrnuta proporcionalnost",
+    "en": "Direct and inverse proportion",
+    "it": "Proporzionalità diretta e inversa",
+    "fr": "Proportionnalité directe et inverse",
+    "es": "Proporcionalidad directa e inversa",
+    "de": "Direkt und indirekt proportional",
+    "pt": "Proporcionalidade direta e inversa",
+    "ru": "Прямая и обратная пропорциональность"
+   },
+   "kljucne_reci": {
+    "sr": "proporcija razmera srazmera trojno pravilo direktna obrnuta proporcionalnost",
+    "en": "proportion ratio rule of three direct inverse proportional",
+    "it": "proporzione rapporto regola del tre proporzionalita diretta inversa",
+    "fr": "proportion rapport regle de trois proportionnalite produit en croix",
+    "es": "proporcion razon regla de tres proporcionalidad directa inversa",
+    "de": "proportion verhaltnis dreisatz direkt indirekt proportional",
+    "pt": "proporcao razao regra de tres diretamente inversamente proporcional",
+    "ru": "пропорция отношение прямая обратная пропорциональность"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Osnovno svojstvo proporcije",
+      "en": "Cross multiplication",
+      "it": "Proprietà fondamentale",
+      "fr": "Produit en croix",
+      "es": "Propiedad fundamental",
+      "de": "Produktgleichheit",
+      "pt": "Propriedade fundamental",
+      "ru": "Основное свойство пропорции"
+     },
+     "latex": "a : b = c : d \\iff a \\cdot d = b \\cdot c",
+     "objasnjenje": {
+      "sr": "Proizvod spoljašnjih članova jednak je proizvodu unutrašnjih članova.",
+      "en": "The product of the outer terms equals the product of the inner terms.",
+      "it": "Il prodotto degli estremi è uguale al prodotto dei medi.",
+      "fr": "Le produit des extrêmes est égal au produit des moyens.",
+      "es": "El producto de los extremos es igual al producto de los medios.",
+      "de": "Das Produkt der Außenglieder ist gleich dem Produkt der Innenglieder.",
+      "pt": "O produto dos extremos é igual ao produto dos meios.",
+      "ru": "Произведение крайних членов равно произведению средних."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Nepoznati član",
+      "en": "Missing term",
+      "it": "Termine incognito",
+      "fr": "Quatrième proportionnelle",
+      "es": "Término desconocido",
+      "de": "Unbekanntes Glied",
+      "pt": "Termo desconhecido",
+      "ru": "Неизвестный член"
+     },
+     "latex": "a : b = c : x \\implies x = \\frac{b \\cdot c}{a}",
+     "objasnjenje": {
+      "sr": "Nepoznati spoljašnji član jednak je proizvodu unutrašnjih podeljenom poznatim spoljašnjim.",
+      "en": "The missing term equals the product of the inner terms divided by the known outer term.",
+      "it": "L’estremo incognito è il prodotto dei medi diviso l’estremo noto.",
+      "fr": "Le terme inconnu est égal au produit des moyens divisé par l’extrême connu.",
+      "es": "El extremo desconocido es el producto de los medios dividido por el extremo conocido.",
+      "de": "Das unbekannte Außenglied ist das Produkt der Innenglieder geteilt durch das bekannte Außenglied.",
+      "pt": "O extremo desconhecido é o produto dos meios dividido pelo extremo conhecido.",
+      "ru": "Неизвестный крайний член равен произведению средних, делённому на известный крайний."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Direktna proporcionalnost",
+      "en": "Direct proportion",
+      "it": "Proporzionalità diretta",
+      "fr": "Proportionnalité directe",
+      "es": "Proporcionalidad directa",
+      "de": "Direkte Proportionalität",
+      "pt": "Proporcionalidade direta",
+      "ru": "Прямая пропорциональность"
+     },
+     "latex": "y = k \\cdot x, \\quad \\frac{y}{x} = k",
+     "objasnjenje": {
+      "sr": "Koliko puta se poveća x, toliko puta se poveća i y. Količnik y/x je stalan.",
+      "en": "When x grows a number of times, y grows the same number of times. The ratio y/x is constant.",
+      "it": "Se x aumenta di un certo numero di volte, anche y aumenta altrettante volte. Il rapporto y/x è costante.",
+      "fr": "Si x est multiplié par un nombre, y est multiplié par le même nombre. Le quotient y/x est constant.",
+      "es": "Si x aumenta varias veces, y aumenta las mismas veces. El cociente y/x es constante.",
+      "de": "Wird x vervielfacht, wird y genauso vervielfacht. Der Quotient y/x ist konstant.",
+      "pt": "Se x aumenta algumas vezes, y aumenta as mesmas vezes. A razão y/x é constante.",
+      "ru": "Во сколько раз увеличивается x, во столько же раз увеличивается y. Отношение y/x постоянно."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Obrnuta proporcionalnost",
+      "en": "Inverse proportion",
+      "it": "Proporzionalità inversa",
+      "fr": "Proportionnalité inverse",
+      "es": "Proporcionalidad inversa",
+      "de": "Indirekte Proportionalität",
+      "pt": "Proporcionalidade inversa",
+      "ru": "Обратная пропорциональность"
+     },
+     "latex": "y = \\frac{k}{x}, \\quad x \\cdot y = k",
+     "objasnjenje": {
+      "sr": "Koliko puta se poveća x, toliko puta se smanji y. Proizvod x · y je stalan.",
+      "en": "When x grows a number of times, y shrinks the same number of times. The product x · y is constant.",
+      "it": "Se x aumenta di un certo numero di volte, y diminuisce altrettante volte. Il prodotto x · y è costante.",
+      "fr": "Si x est multiplié par un nombre, y est divisé par ce nombre. Le produit x · y est constant.",
+      "es": "Si x aumenta varias veces, y disminuye las mismas veces. El producto x · y es constante.",
+      "de": "Wird x vervielfacht, wird y im gleichen Maß kleiner. Das Produkt x · y ist konstant.",
+      "pt": "Se x aumenta algumas vezes, y diminui as mesmas vezes. O produto x · y é constante.",
+      "ru": "Во сколько раз увеличивается x, во столько же раз уменьшается y. Произведение x · y постоянно."
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": "a : b = c : x",
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 6
+     },
+     {
+      "id": "c",
+      "oznaka": "c",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 10
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": "x",
+      "izraz": "b*c/a"
+     }
+    ]
+   }
+  },
+  {
+   "id": "stepeni",
+   "simbol": "aⁿ",
+   "naziv": {
+    "sr": "Stepeni",
+    "en": "Powers",
+    "it": "Potenze",
+    "fr": "Puissances",
+    "es": "Potencias",
+    "de": "Potenzen",
+    "pt": "Potências",
+    "ru": "Степени"
+   },
+   "opis": {
+    "sr": "Pravila za stepene",
+    "en": "Exponent rules",
+    "it": "Proprietà delle potenze",
+    "fr": "Règles de calcul",
+    "es": "Propiedades de las potencias",
+    "de": "Potenzgesetze",
+    "pt": "Propriedades das potências",
+    "ru": "Свойства степеней"
+   },
+   "kljucne_reci": {
+    "sr": "stepen izlozilac eksponent osnova kvadrat kub negativni nulti",
+    "en": "power exponent base index square cube negative zero",
+    "it": "potenza esponente base quadrato cubo negativo zero",
+    "fr": "puissance exposant base carre cube negatif zero",
+    "es": "potencia exponente base cuadrado cubo negativo cero",
+    "de": "potenz exponent hochzahl basis quadrat kubik negativ null",
+    "pt": "potencia expoente base quadrado cubo negativo zero",
+    "ru": "степень показатель основание квадрат куб отрицательный нулевой"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Množenje stepena",
+      "en": "Product of powers",
+      "it": "Prodotto di potenze",
+      "fr": "Produit de puissances",
+      "es": "Producto de potencias",
+      "de": "Potenzen multiplizieren",
+      "pt": "Produto de potências",
+      "ru": "Умножение степеней"
+     },
+     "latex": "a^m \\cdot a^n = a^{m+n}",
+     "objasnjenje": {
+      "sr": "Stepene iste osnove množimo tako što saberemo izložioce.",
+      "en": "To multiply powers with the same base, add the exponents.",
+      "it": "Potenze con la stessa base: si sommano gli esponenti.",
+      "fr": "Pour multiplier des puissances de même base, on additionne les exposants.",
+      "es": "Potencias de igual base: se suman los exponentes.",
+      "de": "Gleiche Basis: Exponenten addieren.",
+      "pt": "Potências de mesma base: somam-se os expoentes.",
+      "ru": "При умножении степеней с одинаковым основанием показатели складывают."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Deljenje stepena",
+      "en": "Quotient of powers",
+      "it": "Quoziente di potenze",
+      "fr": "Quotient de puissances",
+      "es": "Cociente de potencias",
+      "de": "Potenzen dividieren",
+      "pt": "Quociente de potências",
+      "ru": "Деление степеней"
+     },
+     "latex": "\\frac{a^m}{a^n} = a^{m-n}, \\quad a \\neq 0",
+     "objasnjenje": {
+      "sr": "Stepene iste osnove delimo tako što oduzmemo izložioce.",
+      "en": "To divide powers with the same base, subtract the exponents.",
+      "it": "Potenze con la stessa base: si sottraggono gli esponenti.",
+      "fr": "Pour diviser des puissances de même base, on soustrait les exposants.",
+      "es": "Potencias de igual base: se restan los exponentes.",
+      "de": "Gleiche Basis: Exponenten subtrahieren.",
+      "pt": "Potências de mesma base: subtraem-se os expoentes.",
+      "ru": "При делении степеней с одинаковым основанием показатели вычитают."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Stepen stepena",
+      "en": "Power of a power",
+      "it": "Potenza di potenza",
+      "fr": "Puissance d’une puissance",
+      "es": "Potencia de una potencia",
+      "de": "Potenz einer Potenz",
+      "pt": "Potência de potência",
+      "ru": "Степень степени"
+     },
+     "latex": "\\left(a^m\\right)^n = a^{m \\cdot n}",
+     "objasnjenje": {
+      "sr": "Kada stepen stepenujemo, izložioce množimo.",
+      "en": "Raising a power to a power: multiply the exponents.",
+      "it": "Potenza di una potenza: si moltiplicano gli esponenti.",
+      "fr": "Puissance d’une puissance : on multiplie les exposants.",
+      "es": "Potencia de una potencia: se multiplican los exponentes.",
+      "de": "Potenz einer Potenz: Exponenten multiplizieren.",
+      "pt": "Potência de potência: multiplicam-se os expoentes.",
+      "ru": "При возведении степени в степень показатели перемножают."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Stepen proizvoda i količnika",
+      "en": "Power of a product and quotient",
+      "it": "Potenza di prodotto e quoziente",
+      "fr": "Puissance d’un produit et d’un quotient",
+      "es": "Potencia de producto y cociente",
+      "de": "Potenz von Produkt und Quotient",
+      "pt": "Potência de produto e quociente",
+      "ru": "Степень произведения и частного"
+     },
+     "latex": "(a b)^n = a^n b^n, \\quad \\left(\\frac{a}{b}\\right)^n = \\frac{a^n}{b^n}",
+     "objasnjenje": {
+      "sr": "Svaki činilac posebno stepenujemo.",
+      "en": "Raise each factor to the power separately.",
+      "it": "Si eleva ogni fattore alla potenza.",
+      "fr": "On élève chaque facteur à la puissance.",
+      "es": "Se eleva cada factor a la potencia.",
+      "de": "Jeder Faktor wird einzeln potenziert.",
+      "pt": "Eleva-se cada fator à potência.",
+      "ru": "В степень возводят каждый множитель."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Nulti i negativni izložilac",
+      "en": "Zero and negative exponents",
+      "it": "Esponente zero e negativo",
+      "fr": "Exposant nul et négatif",
+      "es": "Exponente cero y negativo",
+      "de": "Exponent null und negativ",
+      "pt": "Expoente zero e negativo",
+      "ru": "Нулевой и отрицательный показатель"
+     },
+     "latex": "a^0 = 1, \\quad a^{-n} = \\frac{1}{a^n}, \\quad a \\neq 0",
+     "objasnjenje": {
+      "sr": "Svaki broj različit od nule na nulti stepen je 1, a negativni izložilac znači recipročnu vrednost.",
+      "en": "Any non-zero number to the power 0 is 1; a negative exponent means the reciprocal.",
+      "it": "Ogni numero diverso da zero elevato a 0 vale 1; l’esponente negativo indica il reciproco.",
+      "fr": "Tout nombre non nul à la puissance 0 vaut 1 ; un exposant négatif donne l’inverse.",
+      "es": "Todo número distinto de cero elevado a 0 es 1; el exponente negativo indica el inverso.",
+      "de": "Jede Zahl ≠ 0 hoch 0 ist 1; ein negativer Exponent bedeutet den Kehrwert.",
+      "pt": "Todo número diferente de zero elevado a 0 é 1; o expoente negativo indica o inverso.",
+      "ru": "Любое ненулевое число в нулевой степени равно 1; отрицательный показатель означает обратное число."
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": "a^n",
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "osnova",
+       "en": "base",
+       "it": "base",
+       "fr": "base",
+       "es": "base",
+       "de": "Basis",
+       "pt": "base",
+       "ru": "основание"
+      },
+      "pocetna": 2
+     },
+     {
+      "id": "n",
+      "oznaka": "n",
+      "naziv": {
+       "sr": "izložilac",
+       "en": "exponent",
+       "it": "esponente",
+       "fr": "exposant",
+       "es": "exponente",
+       "de": "Exponent",
+       "pt": "expoente",
+       "ru": "показатель"
+      },
+      "pocetna": 10
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": "aⁿ",
+      "izraz": "pow(a,n)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "koreni",
+   "simbol": "√",
+   "naziv": {
+    "sr": "Koreni",
+    "en": "Roots",
+    "it": "Radicali",
+    "fr": "Racines",
+    "es": "Raíces",
+    "de": "Wurzeln",
+    "pt": "Radicais",
+    "ru": "Корни"
+   },
+   "opis": {
+    "sr": "Kvadratni i n-ti koren",
+    "en": "Square and nth roots",
+    "it": "Radice quadrata e n-esima",
+    "fr": "Racine carrée et n-ième",
+    "es": "Raíz cuadrada y n-ésima",
+    "de": "Quadratwurzel und n-te Wurzel",
+    "pt": "Raiz quadrada e enésima",
+    "ru": "Квадратный корень и корень n-й степени"
+   },
+   "kljucne_reci": {
+    "sr": "koren kvadratni koren korenovanje racionalizacija imenioca",
+    "en": "root square root radical nth root rationalize denominator",
+    "it": "radice radicale radice quadrata razionalizzazione",
+    "fr": "racine racine carree radical rationaliser",
+    "es": "raiz raiz cuadrada radical racionalizar",
+    "de": "wurzel quadratwurzel radikand nenner rational machen",
+    "pt": "raiz raiz quadrada radical racionalizar",
+    "ru": "корень квадратный корень радикал избавиться от иррациональности"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Koren proizvoda i količnika",
+      "en": "Root of a product and quotient",
+      "it": "Radice di prodotto e quoziente",
+      "fr": "Racine d’un produit et d’un quotient",
+      "es": "Raíz de producto y cociente",
+      "de": "Wurzel aus Produkt und Quotient",
+      "pt": "Raiz de produto e quociente",
+      "ru": "Корень из произведения и частного"
+     },
+     "latex": "\\sqrt[n]{a b} = \\sqrt[n]{a} \\cdot \\sqrt[n]{b}, \\quad \\sqrt[n]{\\frac{a}{b}} = \\frac{\\sqrt[n]{a}}{\\sqrt[n]{b}}",
+     "objasnjenje": {
+      "sr": "Za a, b ≥ 0 koren proizvoda je proizvod korenova, a koren količnika količnik korenova.",
+      "en": "For a, b ≥ 0 the root of a product is the product of the roots, and likewise for quotients.",
+      "it": "Per a, b ≥ 0 la radice di un prodotto è il prodotto delle radici; lo stesso vale per il quoziente.",
+      "fr": "Pour a, b ≥ 0, la racine d’un produit est le produit des racines ; de même pour un quotient.",
+      "es": "Para a, b ≥ 0 la raíz de un producto es el producto de las raíces; igual para el cociente.",
+      "de": "Für a, b ≥ 0 ist die Wurzel eines Produkts das Produkt der Wurzeln, ebenso beim Quotienten.",
+      "pt": "Para a, b ≥ 0 a raiz do produto é o produto das raízes; o mesmo vale para o quociente.",
+      "ru": "При a, b ≥ 0 корень из произведения равен произведению корней, из частного — частному корней."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Koren kao stepen",
+      "en": "Root as a power",
+      "it": "Radice come potenza",
+      "fr": "Racine et puissance",
+      "es": "Raíz como potencia",
+      "de": "Wurzel als Potenz",
+      "pt": "Raiz como potência",
+      "ru": "Корень как степень"
+     },
+     "latex": "\\sqrt[n]{a^m} = a^{\\frac{m}{n}}",
+     "objasnjenje": {
+      "sr": "Koren se može zapisati kao stepen sa razlomljenim izložiocem, pa važe sva pravila za stepene.",
+      "en": "A root can be written as a power with a fractional exponent, so all exponent rules apply.",
+      "it": "Una radice si può scrivere come potenza con esponente frazionario: valgono le proprietà delle potenze.",
+      "fr": "Une racine s’écrit comme une puissance d’exposant fractionnaire : les règles des puissances s’appliquent.",
+      "es": "Una raíz se puede escribir como potencia de exponente fraccionario; valen las reglas de potencias.",
+      "de": "Eine Wurzel lässt sich als Potenz mit Bruch-Exponent schreiben; es gelten die Potenzgesetze.",
+      "pt": "Uma raiz pode ser escrita como potência de expoente fracionário; valem as regras das potências.",
+      "ru": "Корень можно записать как степень с дробным показателем — действуют свойства степеней."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Kvadrat i koren",
+      "en": "Square and root",
+      "it": "Quadrato e radice",
+      "fr": "Carré et racine",
+      "es": "Cuadrado y raíz",
+      "de": "Quadrat und Wurzel",
+      "pt": "Quadrado e raiz",
+      "ru": "Квадрат и корень"
+     },
+     "latex": "\\left(\\sqrt{a}\\right)^2 = a, \\quad \\sqrt{a^2} = |a|",
+     "objasnjenje": {
+      "sr": "Kvadratni koren je uvek nenegativan, zato je koren iz a² apsolutna vrednost od a.",
+      "en": "A square root is never negative, so the root of a² is the absolute value of a.",
+      "it": "La radice quadrata non è mai negativa, quindi la radice di a² è il valore assoluto di a.",
+      "fr": "Une racine carrée n’est jamais négative : la racine de a² vaut la valeur absolue de a.",
+      "es": "La raíz cuadrada nunca es negativa: la raíz de a² es el valor absoluto de a.",
+      "de": "Eine Quadratwurzel ist nie negativ, darum ist die Wurzel aus a² der Betrag von a.",
+      "pt": "A raiz quadrada nunca é negativa, por isso a raiz de a² é o módulo de a.",
+      "ru": "Арифметический квадратный корень неотрицателен, поэтому корень из a² равен модулю a."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Racionalizacija imenioca",
+      "en": "Rationalizing the denominator",
+      "it": "Razionalizzazione",
+      "fr": "Rendre le dénominateur rationnel",
+      "es": "Racionalización",
+      "de": "Nenner rational machen",
+      "pt": "Racionalização",
+      "ru": "Избавление от иррациональности"
+     },
+     "latex": "\\frac{1}{\\sqrt{a}} = \\frac{\\sqrt{a}}{a}, \\quad \\frac{1}{\\sqrt{a} + \\sqrt{b}} = \\frac{\\sqrt{a} - \\sqrt{b}}{a - b}",
+     "objasnjenje": {
+      "sr": "Brojilac i imenilac proširimo tako da u imeniocu nestane koren.",
+      "en": "Multiply numerator and denominator so that the root disappears from the denominator.",
+      "it": "Si moltiplicano numeratore e denominatore in modo da eliminare la radice dal denominatore.",
+      "fr": "On multiplie numérateur et dénominateur pour faire disparaître la racine du dénominateur.",
+      "es": "Se multiplican numerador y denominador para eliminar la raíz del denominador.",
+      "de": "Zähler und Nenner werden so erweitert, dass die Wurzel aus dem Nenner verschwindet.",
+      "pt": "Multiplicam-se numerador e denominador para eliminar a raiz do denominador.",
+      "ru": "Числитель и знаменатель умножают так, чтобы корень исчез из знаменателя."
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": "\\sqrt[n]{a}",
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "broj",
+       "en": "number",
+       "it": "numero",
+       "fr": "nombre",
+       "es": "número",
+       "de": "Zahl",
+       "pt": "número",
+       "ru": "число"
+      },
+      "pocetna": 27
+     },
+     {
+      "id": "n",
+      "oznaka": "n",
+      "naziv": {
+       "sr": "koren (n)",
+       "en": "root index (n)",
+       "it": "indice (n)",
+       "fr": "indice (n)",
+       "es": "índice (n)",
+       "de": "Wurzelexponent (n)",
+       "pt": "índice (n)",
+       "ru": "показатель корня (n)"
+      },
+      "pocetna": 3
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": "ⁿ√a",
+      "izraz": "koren(a,n)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "nzd_nzs",
+   "simbol": {
+    "sr": "NZD",
+    "en": "GCD",
+    "it": "MCD",
+    "fr": "PGCD",
+    "es": "MCD",
+    "de": "ggT",
+    "pt": "MDC",
+    "ru": "НОД"
+   },
+   "naziv": {
+    "sr": "NZD i NZS",
+    "en": "GCD and LCM",
+    "it": "MCD e mcm",
+    "fr": "PGCD et PPCM",
+    "es": "MCD y mcm",
+    "de": "ggT und kgV",
+    "pt": "MDC e MMC",
+    "ru": "НОД и НОК"
+   },
+   "opis": {
+    "sr": "Najveći zajednički delilac i najmanji zajednički sadržalac",
+    "en": "Greatest common divisor, least common multiple",
+    "it": "Massimo comun divisore, minimo comune multiplo",
+    "fr": "Plus grand diviseur, plus petit multiple communs",
+    "es": "Máximo común divisor, mínimo común múltiplo",
+    "de": "Größter gemeinsamer Teiler, kleinstes gemeinsames Vielfaches",
+    "pt": "Máximo divisor comum, mínimo múltiplo comum",
+    "ru": "Наибольший общий делитель, наименьшее общее кратное"
+   },
+   "kljucne_reci": {
+    "sr": "nzd nzs najveci zajednicki delilac najmanji zajednicki sadrzalac euklidov algoritam",
+    "en": "gcd gcf hcf lcm greatest common divisor factor least common multiple euclid",
+    "it": "mcd mcm massimo comun divisore minimo comune multiplo euclide",
+    "fr": "pgcd ppcm plus grand commun diviseur plus petit commun multiple euclide",
+    "es": "mcd mcm maximo comun divisor minimo comun multiplo euclides",
+    "de": "ggt kgv grosster gemeinsamer teiler kleinstes gemeinsames vielfaches euklid",
+    "pt": "mdc mmc maximo divisor comum minimo multiplo comum euclides",
+    "ru": "нод нок наибольший общий делитель наименьшее общее кратное евклид"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Veza NZD i NZS",
+      "en": "GCD and LCM relation",
+      "it": "Relazione tra MCD e mcm",
+      "fr": "Lien entre PGCD et PPCM",
+      "es": "Relación entre MCD y mcm",
+      "de": "Zusammenhang ggT und kgV",
+      "pt": "Relação entre MDC e MMC",
+      "ru": "Связь НОД и НОК"
+     },
+     "latex": {
+      "sr": "\\mathrm{NZD}(a, b) \\cdot \\mathrm{NZS}(a, b) = a \\cdot b",
+      "en": "\\gcd(a, b) \\cdot \\operatorname{lcm}(a, b) = a \\cdot b",
+      "it": "\\mathrm{MCD}(a, b) \\cdot \\mathrm{mcm}(a, b) = a \\cdot b",
+      "fr": "\\mathrm{PGCD}(a, b) \\cdot \\mathrm{PPCM}(a, b) = a \\cdot b",
+      "es": "\\mathrm{MCD}(a, b) \\cdot \\mathrm{mcm}(a, b) = a \\cdot b",
+      "de": "\\operatorname{ggT}(a, b) \\cdot \\operatorname{kgV}(a, b) = a \\cdot b",
+      "pt": "\\mathrm{MDC}(a, b) \\cdot \\mathrm{MMC}(a, b) = a \\cdot b",
+      "ru": "\\text{НОД}(a, b) \\cdot \\text{НОК}(a, b) = a \\cdot b"
+     },
+     "objasnjenje": {
+      "sr": "Za prirodne brojeve a i b proizvod NZD i NZS jednak je proizvodu samih brojeva.",
+      "en": "For positive integers a and b, the product of GCD and LCM equals a · b.",
+      "it": "Per numeri naturali a e b, il prodotto di MCD e mcm è uguale ad a · b.",
+      "fr": "Pour deux entiers naturels a et b, le produit du PGCD et du PPCM vaut a · b.",
+      "es": "Para números naturales a y b, el producto de MCD y mcm es igual a a · b.",
+      "de": "Für natürliche Zahlen a und b gilt: ggT mal kgV ist gleich a · b.",
+      "pt": "Para números naturais a e b, o produto do MDC pelo MMC é igual a a · b.",
+      "ru": "Для натуральных a и b произведение НОД и НОК равно a · b."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "NZS preko NZD",
+      "en": "LCM from GCD",
+      "it": "mcm tramite MCD",
+      "fr": "PPCM à partir du PGCD",
+      "es": "mcm a partir del MCD",
+      "de": "kgV über den ggT",
+      "pt": "MMC a partir do MDC",
+      "ru": "НОК через НОД"
+     },
+     "latex": {
+      "sr": "\\mathrm{NZS}(a, b) = \\frac{a \\cdot b}{\\mathrm{NZD}(a, b)}",
+      "en": "\\operatorname{lcm}(a, b) = \\frac{a \\cdot b}{\\gcd(a, b)}",
+      "it": "\\mathrm{mcm}(a, b) = \\frac{a \\cdot b}{\\mathrm{MCD}(a, b)}",
+      "fr": "\\mathrm{PPCM}(a, b) = \\frac{a \\cdot b}{\\mathrm{PGCD}(a, b)}",
+      "es": "\\mathrm{mcm}(a, b) = \\frac{a \\cdot b}{\\mathrm{MCD}(a, b)}",
+      "de": "\\operatorname{kgV}(a, b) = \\frac{a \\cdot b}{\\operatorname{ggT}(a, b)}",
+      "pt": "\\mathrm{MMC}(a, b) = \\frac{a \\cdot b}{\\mathrm{MDC}(a, b)}",
+      "ru": "\\text{НОК}(a, b) = \\frac{a \\cdot b}{\\text{НОД}(a, b)}"
+     },
+     "objasnjenje": {
+      "sr": "Najlakše je prvo naći NZD, pa proizvod brojeva podeliti njime.",
+      "en": "The easiest way is to find the GCD first and divide the product of the numbers by it.",
+      "it": "Conviene trovare prima il MCD e poi dividere il prodotto dei numeri per esso.",
+      "fr": "Le plus simple est de trouver d’abord le PGCD, puis de diviser le produit par celui-ci.",
+      "es": "Lo más fácil es hallar primero el MCD y dividir el producto de los números entre él.",
+      "de": "Am einfachsten bestimmt man zuerst den ggT und teilt das Produkt der Zahlen durch ihn.",
+      "pt": "O mais simples é achar primeiro o MDC e dividir o produto dos números por ele.",
+      "ru": "Удобно сначала найти НОД, а затем разделить на него произведение чисел."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Euklidov algoritam",
+      "en": "Euclidean algorithm",
+      "it": "Algoritmo di Euclide",
+      "fr": "Algorithme d’Euclide",
+      "es": "Algoritmo de Euclides",
+      "de": "Euklidischer Algorithmus",
+      "pt": "Algoritmo de Euclides",
+      "ru": "Алгоритм Евклида"
+     },
+     "latex": {
+      "sr": "\\mathrm{NZD}(a, b) = \\mathrm{NZD}(b,\\ a \\bmod b), \\quad \\mathrm{NZD}(a, 0) = a",
+      "en": "\\gcd(a, b) = \\gcd(b,\\ a \\bmod b), \\quad \\gcd(a, 0) = a",
+      "it": "\\mathrm{MCD}(a, b) = \\mathrm{MCD}(b,\\ a \\bmod b), \\quad \\mathrm{MCD}(a, 0) = a",
+      "fr": "\\mathrm{PGCD}(a, b) = \\mathrm{PGCD}(b,\\ a \\bmod b), \\quad \\mathrm{PGCD}(a, 0) = a",
+      "es": "\\mathrm{MCD}(a, b) = \\mathrm{MCD}(b,\\ a \\bmod b), \\quad \\mathrm{MCD}(a, 0) = a",
+      "de": "\\operatorname{ggT}(a, b) = \\operatorname{ggT}(b,\\ a \\bmod b), \\quad \\operatorname{ggT}(a, 0) = a",
+      "pt": "\\mathrm{MDC}(a, b) = \\mathrm{MDC}(b,\\ a \\bmod b), \\quad \\mathrm{MDC}(a, 0) = a",
+      "ru": "\\text{НОД}(a, b) = \\text{НОД}(b,\\ a \\bmod b), \\quad \\text{НОД}(a, 0) = a"
+     },
+     "objasnjenje": {
+      "sr": "Veći broj delimo manjim, pa manji broj delimo ostatkom, sve dok ostatak ne bude 0. Poslednji delilac je NZD.",
+      "en": "Divide the larger number by the smaller, then the smaller by the remainder, until the remainder is 0. The last divisor is the GCD.",
+      "it": "Si divide il numero maggiore per il minore, poi il minore per il resto, finché il resto è 0. L’ultimo divisore è il MCD.",
+      "fr": "On divise le plus grand par le plus petit, puis le plus petit par le reste, jusqu’à un reste nul. Le dernier diviseur est le PGCD.",
+      "es": "Se divide el mayor entre el menor, luego el menor entre el resto, hasta que el resto sea 0. El último divisor es el MCD.",
+      "de": "Man teilt die größere Zahl durch die kleinere, dann die kleinere durch den Rest, bis der Rest 0 ist. Der letzte Teiler ist der ggT.",
+      "pt": "Divide-se o maior pelo menor, depois o menor pelo resto, até o resto ser 0. O último divisor é o MDC.",
+      "ru": "Большее число делят на меньшее, затем меньшее на остаток, пока остаток не станет 0. Последний делитель — НОД."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a",
+      "oznaka": "a",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 12,
+      "ceo": true
+     },
+     {
+      "id": "b",
+      "oznaka": "b",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 18,
+      "ceo": true
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "NZD",
+       "en": "GCD",
+       "it": "MCD",
+       "fr": "PGCD",
+       "es": "MCD",
+       "de": "ggT",
+       "pt": "MDC",
+       "ru": "НОД"
+      },
+      "izraz": "nzd(a,b)"
+     },
+     {
+      "naziv": {
+       "sr": "NZS",
+       "en": "LCM",
+       "it": "mcm",
+       "fr": "PPCM",
+       "es": "mcm",
+       "de": "kgV",
+       "pt": "MMC",
+       "ru": "НОК"
+      },
+      "izraz": "nzs(a,b)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "deljivost",
+   "simbol": "÷",
+   "naziv": {
+    "sr": "Deljivost",
+    "en": "Divisibility rules",
+    "it": "Criteri di divisibilità",
+    "fr": "Critères de divisibilité",
+    "es": "Criterios de divisibilidad",
+    "de": "Teilbarkeitsregeln",
+    "pt": "Critérios de divisibilidade",
+    "ru": "Признаки делимости"
+   },
+   "opis": {
+    "sr": "Pravila za 2, 3, 4, 5, 6, 9, 10, 11",
+    "en": "Rules for 2, 3, 4, 5, 6, 9, 10, 11",
+    "it": "Regole per 2, 3, 4, 5, 6, 9, 10, 11",
+    "fr": "Règles pour 2, 3, 4, 5, 6, 9, 10, 11",
+    "es": "Reglas para 2, 3, 4, 5, 6, 9, 10, 11",
+    "de": "Regeln für 2, 3, 4, 5, 6, 9, 10, 11",
+    "pt": "Regras para 2, 3, 4, 5, 6, 9, 10, 11",
+    "ru": "Правила для 2, 3, 4, 5, 6, 9, 10, 11"
+   },
+   "kljucne_reci": {
+    "sr": "deljivost deljiv delilac pravila deljivosti zbir cifara",
+    "en": "divisibility divisible divisor rules digit sum",
+    "it": "divisibilita divisibile divisore criteri somma delle cifre",
+    "fr": "divisibilite divisible diviseur criteres somme des chiffres",
+    "es": "divisibilidad divisible divisor criterios suma de cifras",
+    "de": "teilbarkeit teilbar teiler quersumme regeln",
+    "pt": "divisibilidade divisivel divisor criterios soma dos algarismos",
+    "ru": "делимость делится делитель признаки сумма цифр"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Deljivost sa 2",
+      "en": "Divisible by 2",
+      "it": "Divisibilità per 2",
+      "fr": "Divisibilité par 2",
+      "es": "Divisibilidad por 2",
+      "de": "Teilbarkeit durch 2",
+      "pt": "Divisibilidade por 2",
+      "ru": "Делимость на 2"
+     },
+     "latex": "2 \\mid n",
+     "objasnjenje": {
+      "sr": "Poslednja cifra je parna: 0, 2, 4, 6 ili 8.",
+      "en": "The last digit is even: 0, 2, 4, 6 or 8.",
+      "it": "L’ultima cifra è pari: 0, 2, 4, 6 o 8.",
+      "fr": "Le dernier chiffre est pair : 0, 2, 4, 6 ou 8.",
+      "es": "La última cifra es par: 0, 2, 4, 6 u 8.",
+      "de": "Die letzte Ziffer ist gerade: 0, 2, 4, 6 oder 8.",
+      "pt": "O último algarismo é par: 0, 2, 4, 6 ou 8.",
+      "ru": "Последняя цифра чётная: 0, 2, 4, 6 или 8."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Deljivost sa 3",
+      "en": "Divisible by 3",
+      "it": "Divisibilità per 3",
+      "fr": "Divisibilité par 3",
+      "es": "Divisibilidad por 3",
+      "de": "Teilbarkeit durch 3",
+      "pt": "Divisibilidade por 3",
+      "ru": "Делимость на 3"
+     },
+     "latex": "3 \\mid n",
+     "objasnjenje": {
+      "sr": "Zbir cifara je deljiv sa 3.",
+      "en": "The sum of the digits is divisible by 3.",
+      "it": "La somma delle cifre è divisibile per 3.",
+      "fr": "La somme des chiffres est divisible par 3.",
+      "es": "La suma de las cifras es divisible por 3.",
+      "de": "Die Quersumme ist durch 3 teilbar.",
+      "pt": "A soma dos algarismos é divisível por 3.",
+      "ru": "Сумма цифр делится на 3."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Deljivost sa 4",
+      "en": "Divisible by 4",
+      "it": "Divisibilità per 4",
+      "fr": "Divisibilité par 4",
+      "es": "Divisibilidad por 4",
+      "de": "Teilbarkeit durch 4",
+      "pt": "Divisibilidade por 4",
+      "ru": "Делимость на 4"
+     },
+     "latex": "4 \\mid n",
+     "objasnjenje": {
+      "sr": "Broj od poslednje dve cifre je deljiv sa 4.",
+      "en": "The number formed by the last two digits is divisible by 4.",
+      "it": "Il numero formato dalle ultime due cifre è divisibile per 4.",
+      "fr": "Le nombre formé par les deux derniers chiffres est divisible par 4.",
+      "es": "El número formado por las dos últimas cifras es divisible por 4.",
+      "de": "Die Zahl aus den letzten beiden Ziffern ist durch 4 teilbar.",
+      "pt": "O número formado pelos dois últimos algarismos é divisível por 4.",
+      "ru": "Число из двух последних цифр делится на 4."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Deljivost sa 5",
+      "en": "Divisible by 5",
+      "it": "Divisibilità per 5",
+      "fr": "Divisibilité par 5",
+      "es": "Divisibilidad por 5",
+      "de": "Teilbarkeit durch 5",
+      "pt": "Divisibilidade por 5",
+      "ru": "Делимость на 5"
+     },
+     "latex": "5 \\mid n",
+     "objasnjenje": {
+      "sr": "Poslednja cifra je 0 ili 5.",
+      "en": "The last digit is 0 or 5.",
+      "it": "L’ultima cifra è 0 o 5.",
+      "fr": "Le dernier chiffre est 0 ou 5.",
+      "es": "La última cifra es 0 o 5.",
+      "de": "Die letzte Ziffer ist 0 oder 5.",
+      "pt": "O último algarismo é 0 ou 5.",
+      "ru": "Последняя цифра 0 или 5."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Deljivost sa 6",
+      "en": "Divisible by 6",
+      "it": "Divisibilità per 6",
+      "fr": "Divisibilité par 6",
+      "es": "Divisibilidad por 6",
+      "de": "Teilbarkeit durch 6",
+      "pt": "Divisibilidade por 6",
+      "ru": "Делимость на 6"
+     },
+     "latex": "6 \\mid n",
+     "objasnjenje": {
+      "sr": "Broj je deljiv i sa 2 i sa 3.",
+      "en": "The number is divisible by both 2 and 3.",
+      "it": "Il numero è divisibile sia per 2 sia per 3.",
+      "fr": "Le nombre est divisible à la fois par 2 et par 3.",
+      "es": "El número es divisible por 2 y por 3.",
+      "de": "Die Zahl ist durch 2 und durch 3 teilbar.",
+      "pt": "O número é divisível por 2 e por 3.",
+      "ru": "Число делится и на 2, и на 3."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Deljivost sa 9",
+      "en": "Divisible by 9",
+      "it": "Divisibilità per 9",
+      "fr": "Divisibilité par 9",
+      "es": "Divisibilidad por 9",
+      "de": "Teilbarkeit durch 9",
+      "pt": "Divisibilidade por 9",
+      "ru": "Делимость на 9"
+     },
+     "latex": "9 \\mid n",
+     "objasnjenje": {
+      "sr": "Zbir cifara je deljiv sa 9.",
+      "en": "The sum of the digits is divisible by 9.",
+      "it": "La somma delle cifre è divisibile per 9.",
+      "fr": "La somme des chiffres est divisible par 9.",
+      "es": "La suma de las cifras es divisible por 9.",
+      "de": "Die Quersumme ist durch 9 teilbar.",
+      "pt": "A soma dos algarismos é divisível por 9.",
+      "ru": "Сумма цифр делится на 9."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Deljivost sa 10",
+      "en": "Divisible by 10",
+      "it": "Divisibilità per 10",
+      "fr": "Divisibilité par 10",
+      "es": "Divisibilidad por 10",
+      "de": "Teilbarkeit durch 10",
+      "pt": "Divisibilidade por 10",
+      "ru": "Делимость на 10"
+     },
+     "latex": "10 \\mid n",
+     "objasnjenje": {
+      "sr": "Poslednja cifra je 0.",
+      "en": "The last digit is 0.",
+      "it": "L’ultima cifra è 0.",
+      "fr": "Le dernier chiffre est 0.",
+      "es": "La última cifra es 0.",
+      "de": "Die letzte Ziffer ist 0.",
+      "pt": "O último algarismo é 0.",
+      "ru": "Последняя цифра 0."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Deljivost sa 11",
+      "en": "Divisible by 11",
+      "it": "Divisibilità per 11",
+      "fr": "Divisibilité par 11",
+      "es": "Divisibilidad por 11",
+      "de": "Teilbarkeit durch 11",
+      "pt": "Divisibilidade por 11",
+      "ru": "Делимость на 11"
+     },
+     "latex": "11 \\mid n",
+     "objasnjenje": {
+      "sr": "Razlika zbira cifara na neparnim i na parnim mestima je deljiva sa 11.",
+      "en": "The difference between the sums of digits in odd and even positions is divisible by 11.",
+      "it": "La differenza tra la somma delle cifre di posto dispari e di posto pari è divisibile per 11.",
+      "fr": "La différence entre la somme des chiffres de rang impair et celle de rang pair est divisible par 11.",
+      "es": "La diferencia entre la suma de las cifras de lugar impar y de lugar par es divisible por 11.",
+      "de": "Die alternierende Quersumme ist durch 11 teilbar.",
+      "pt": "A diferença entre a soma dos algarismos de ordem ímpar e de ordem par é divisível por 11.",
+      "ru": "Разность сумм цифр на нечётных и чётных местах делится на 11."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "n",
+      "oznaka": "n",
+      "naziv": {
+       "sr": "broj",
+       "en": "number",
+       "it": "numero",
+       "fr": "nombre",
+       "es": "número",
+       "de": "Zahl",
+       "pt": "número",
+       "ru": "число"
+      },
+      "pocetna": 1386,
+      "ceo": true
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Deljiv sa",
+       "en": "Divisible by",
+       "it": "Divisibile per",
+       "fr": "Divisible par",
+       "es": "Divisible por",
+       "de": "Teilbar durch",
+       "pt": "Divisível por",
+       "ru": "Делится на"
+      },
+      "izraz": "deljivost(n)",
+      "tip": "tekst"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kamatni_racun",
+   "simbol": "%ⁿ",
+   "naziv": {
+    "sr": "Kamatni račun",
+    "en": "Interest",
+    "it": "Interesse",
+    "fr": "Intérêts",
+    "es": "Interés",
+    "de": "Zinsrechnung",
+    "pt": "Juros",
+    "ru": "Банковские проценты"
+   },
+   "opis": {
+    "sr": "Prosta i složena kamata",
+    "en": "Simple and compound interest",
+    "it": "Semplice e composto",
+    "fr": "Simples et composés",
+    "es": "Simple y compuesto",
+    "de": "Zinsen und Zinseszins",
+    "pt": "Simples e compostos",
+    "ru": "Простые и сложные проценты"
+   },
+   "kljucne_reci": {
+    "sr": "kamata kamatni racun prosta slozena kamatna stopa kapital stednja kredit",
+    "en": "interest simple compound rate principal savings loan",
+    "it": "interesse semplice composto tasso capitale montante risparmio prestito",
+    "fr": "interets simples composes taux capital epargne pret",
+    "es": "interes simple compuesto tasa capital ahorro prestamo",
+    "de": "zinsen zinseszins zinssatz kapital sparen kredit",
+    "pt": "juros simples compostos taxa capital montante poupanca emprestimo",
+    "ru": "проценты простые сложные вклад ставка капитал кредит"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Prosta kamata",
+      "en": "Simple interest",
+      "it": "Interesse semplice",
+      "fr": "Intérêts simples",
+      "es": "Interés simple",
+      "de": "Einfache Zinsen",
+      "pt": "Juros simples",
+      "ru": "Простые проценты"
+     },
+     "latex": {
+      "sr": "i = \\frac{K \\cdot p \\cdot g}{100}",
+      "en": "I = \\frac{P \\cdot r \\cdot t}{100}",
+      "it": "I = \\frac{C \\cdot r \\cdot t}{100}",
+      "fr": "I = \\frac{C \\cdot t \\cdot n}{100}",
+      "es": "I = \\frac{C \\cdot r \\cdot t}{100}",
+      "de": "Z = \\frac{K \\cdot p \\cdot t}{100}",
+      "pt": "J = \\frac{C \\cdot i \\cdot t}{100}",
+      "ru": "S = S_0 \\left(1 + \\frac{p \\cdot n}{100}\\right)"
+     },
+     "objasnjenje": {
+      "sr": "Kamata se svake godine računa samo na početni kapital (p je godišnja stopa u %, g broj godina).",
+      "en": "Interest is charged only on the initial principal each year (r is the yearly rate in %, t the number of years).",
+      "it": "L’interesse si calcola sempre sul capitale iniziale (r tasso annuo in %, t numero di anni).",
+      "fr": "Les intérêts sont calculés chaque année sur le capital de départ (t taux annuel en %, n nombre d’années).",
+      "es": "El interés se calcula siempre sobre el capital inicial (r tasa anual en %, t número de años).",
+      "de": "Zinsen werden jedes Jahr nur vom Anfangskapital berechnet (p Zinssatz in %, t Jahre).",
+      "pt": "Os juros são calculados sempre sobre o capital inicial (i taxa anual em %, t número de anos).",
+      "ru": "Проценты каждый год начисляются только на начальную сумму (p — годовая ставка в %, n — число лет)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Složena kamata",
+      "en": "Compound interest",
+      "it": "Interesse composto",
+      "fr": "Intérêts composés",
+      "es": "Interés compuesto",
+      "de": "Zinseszins",
+      "pt": "Juros compostos",
+      "ru": "Сложные проценты"
+     },
+     "latex": {
+      "sr": "K_n = K_0 \\left(1 + \\frac{p}{100}\\right)^n",
+      "en": "A = P \\left(1 + \\frac{r}{100}\\right)^t",
+      "it": "M = C \\left(1 + \\frac{r}{100}\\right)^t",
+      "fr": "C_n = C_0 \\left(1 + \\frac{t}{100}\\right)^n",
+      "es": "C_f = C \\left(1 + \\frac{r}{100}\\right)^t",
+      "de": "K_n = K_0 \\left(1 + \\frac{p}{100}\\right)^n",
+      "pt": "M = C \\left(1 + \\frac{i}{100}\\right)^t",
+      "ru": "S = S_0 \\left(1 + \\frac{p}{100}\\right)^n"
+     },
+     "objasnjenje": {
+      "sr": "Kamata se na kraju svake godine dodaje kapitalu, pa naredne godine i ona donosi kamatu.",
+      "en": "Interest is added to the principal at the end of each year and earns interest itself the next year.",
+      "it": "L’interesse si aggiunge al capitale ogni anno e produce a sua volta interesse.",
+      "fr": "Les intérêts s’ajoutent au capital chaque année et produisent à leur tour des intérêts.",
+      "es": "El interés se suma al capital cada año y genera a su vez intereses.",
+      "de": "Die Zinsen werden jährlich dem Kapital zugeschlagen und im nächsten Jahr mitverzinst.",
+      "pt": "Os juros são somados ao capital a cada ano e passam a render juros também.",
+      "ru": "Проценты в конце каждого года прибавляются к вкладу, и на них тоже начисляются проценты."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Ukupna kamata (složeno)",
+      "en": "Total interest (compound)",
+      "it": "Interesse totale (composto)",
+      "fr": "Intérêts totaux (composés)",
+      "es": "Interés total (compuesto)",
+      "de": "Zinsen insgesamt (Zinseszins)",
+      "pt": "Juros totais (compostos)",
+      "ru": "Начисленные проценты (сложные)"
+     },
+     "latex": {
+      "sr": "i_n = K_n - K_0",
+      "en": "I = A - P",
+      "it": "I = M - C",
+      "fr": "I = C_n - C_0",
+      "es": "I = C_f - C",
+      "de": "Z = K_n - K_0",
+      "pt": "J = M - C",
+      "ru": "S - S_0"
+     },
+     "objasnjenje": {
+      "sr": "Zarađena kamata je razlika krajnjeg i početnog iznosa.",
+      "en": "The interest earned is the final amount minus the principal.",
+      "it": "L’interesse maturato è la differenza tra montante e capitale.",
+      "fr": "Les intérêts gagnés sont la différence entre le capital final et le capital de départ.",
+      "es": "El interés ganado es la diferencia entre el capital final y el inicial.",
+      "de": "Die Zinsen sind die Differenz zwischen End- und Anfangskapital.",
+      "pt": "Os juros são a diferença entre o montante e o capital.",
+      "ru": "Начисленные проценты — разность итоговой и начальной суммы."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "K",
+      "oznaka": {
+       "sr": "K_0",
+       "en": "P",
+       "it": "C",
+       "fr": "C_0",
+       "es": "C",
+       "de": "K_0",
+       "pt": "C",
+       "ru": "S_0"
+      },
+      "naziv": {
+       "sr": "kapital",
+       "en": "principal",
+       "it": "capitale",
+       "fr": "capital",
+       "es": "capital",
+       "de": "Kapital",
+       "pt": "capital",
+       "ru": "вклад"
+      },
+      "pocetna": 1000
+     },
+     {
+      "id": "p",
+      "oznaka": {
+       "sr": "p",
+       "en": "r",
+       "it": "r",
+       "fr": "t",
+       "es": "r",
+       "de": "p",
+       "pt": "i",
+       "ru": "p"
+      },
+      "naziv": {
+       "sr": "godišnja stopa %",
+       "en": "yearly rate %",
+       "it": "tasso annuo %",
+       "fr": "taux annuel %",
+       "es": "tasa anual %",
+       "de": "Zinssatz % p. a.",
+       "pt": "taxa anual %",
+       "ru": "ставка % годовых"
+      },
+      "pocetna": 5
+     },
+     {
+      "id": "n",
+      "oznaka": {
+       "sr": "n",
+       "en": "t",
+       "it": "t",
+       "fr": "n",
+       "es": "t",
+       "de": "n",
+       "pt": "t",
+       "ru": "n"
+      },
+      "naziv": {
+       "sr": "godine",
+       "en": "years",
+       "it": "anni",
+       "fr": "années",
+       "es": "años",
+       "de": "Jahre",
+       "pt": "anos",
+       "ru": "лет"
+      },
+      "pocetna": 10
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Prosta kamata",
+       "en": "Simple interest",
+       "it": "Interesse semplice",
+       "fr": "Intérêts simples",
+       "es": "Interés simple",
+       "de": "Einfache Zinsen",
+       "pt": "Juros simples",
+       "ru": "Простые проценты"
+      },
+      "izraz": "K*p*n/100",
+      "decimale": 2
+     },
+     {
+      "naziv": {
+       "sr": "Iznos (složeno)",
+       "en": "Amount (compound)",
+       "it": "Montante (composto)",
+       "fr": "Capital final (composés)",
+       "es": "Capital final (compuesto)",
+       "de": "Endkapital (Zinseszins)",
+       "pt": "Montante (compostos)",
+       "ru": "Итог (сложные)"
+      },
+      "izraz": "K*pow(1+p/100,n)",
+      "decimale": 2
+     },
+     {
+      "naziv": {
+       "sr": "Kamata (složeno)",
+       "en": "Interest (compound)",
+       "it": "Interesse (composto)",
+       "fr": "Intérêts (composés)",
+       "es": "Interés (compuesto)",
+       "de": "Zinsen (Zinseszins)",
+       "pt": "Juros (compostos)",
+       "ru": "Проценты (сложные)"
+      },
+      "izraz": "K*pow(1+p/100,n)-K",
+      "decimale": 2
+     }
+    ]
+   }
+  }
+ ]
+}

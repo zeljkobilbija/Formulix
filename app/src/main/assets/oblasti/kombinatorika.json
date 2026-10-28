@@ -1,0 +1,1448 @@
+{
+ "oblast": "kombinatorika",
+ "teme": [
+  {
+   "id": "faktorijel",
+   "simbol": "n!",
+   "naziv": {
+    "sr": "Faktorijel",
+    "en": "Factorial",
+    "it": "Fattoriale",
+    "fr": "Factorielle",
+    "es": "Factorial",
+    "de": "Fakultät",
+    "pt": "Fatorial",
+    "ru": "Факториал"
+   },
+   "opis": {
+    "sr": "Proizvod prvih n prirodnih brojeva",
+    "en": "Product of the first n natural numbers",
+    "it": "Prodotto dei primi n numeri naturali",
+    "fr": "Produit des n premiers entiers",
+    "es": "Producto de los n primeros naturales",
+    "de": "Produkt der ersten n natürlichen Zahlen",
+    "pt": "Produto dos n primeiros naturais",
+    "ru": "Произведение первых n натуральных чисел"
+   },
+   "kljucne_reci": {
+    "sr": "faktorijel n faktorijel",
+    "en": "factorial n factorial",
+    "it": "fattoriale",
+    "fr": "factorielle",
+    "es": "factorial",
+    "de": "fakultat faktorielle",
+    "pt": "fatorial",
+    "ru": "факториал"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Definicija",
+      "en": "Definition",
+      "it": "Definizione",
+      "fr": "Définition",
+      "es": "Definición",
+      "de": "Definition",
+      "pt": "Definição",
+      "ru": "Определение"
+     },
+     "latex": {
+      "sr": "n! = 1 \\cdot 2 \\cdot 3 \\cdots n, \\quad 0! = 1",
+      "en": "n! = 1 \\cdot 2 \\cdot 3 \\cdots n, \\quad 0! = 1",
+      "it": "n! = 1 \\cdot 2 \\cdot 3 \\cdots n, \\quad 0! = 1",
+      "fr": "n! = 1 \\cdot 2 \\cdot 3 \\cdots n, \\quad 0! = 1",
+      "es": "n! = 1 \\cdot 2 \\cdot 3 \\cdots n, \\quad 0! = 1",
+      "de": "n! = 1 \\cdot 2 \\cdot 3 \\cdots n, \\quad 0! = 1",
+      "pt": "n! = 1 \\cdot 2 \\cdot 3 \\cdots n, \\quad 0! = 1",
+      "ru": "n! = 1 \\cdot 2 \\cdot 3 \\cdots n, \\quad 0! = 1"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Rekurzija",
+      "en": "Recursion",
+      "it": "Ricorsione",
+      "fr": "Récurrence",
+      "es": "Recursión",
+      "de": "Rekursion",
+      "pt": "Recursão",
+      "ru": "Рекуррентная формула"
+     },
+     "latex": {
+      "sr": "n! = n \\cdot (n - 1)!",
+      "en": "n! = n \\cdot (n - 1)!",
+      "it": "n! = n \\cdot (n - 1)!",
+      "fr": "n! = n \\cdot (n - 1)!",
+      "es": "n! = n \\cdot (n - 1)!",
+      "de": "n! = n \\cdot (n - 1)!",
+      "pt": "n! = n \\cdot (n - 1)!",
+      "ru": "n! = n \\cdot (n - 1)!"
+     },
+     "objasnjenje": {
+      "sr": "Npr. 5! = 5 · 4! = 5 · 24 = 120.",
+      "en": "E.g. 5! = 5 · 4! = 5 · 24 = 120.",
+      "it": "Es. 5! = 5 · 4! = 5 · 24 = 120.",
+      "fr": "Ex. : 5! = 5 · 4! = 5 · 24 = 120.",
+      "es": "Ej.: 5! = 5 · 4! = 5 · 24 = 120.",
+      "de": "Z. B. 5! = 5 · 4! = 5 · 24 = 120.",
+      "pt": "Ex.: 5! = 5 · 4! = 5 · 24 = 120.",
+      "ru": "Напр. 5! = 5 · 4! = 5 · 24 = 120."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "n",
+      "oznaka": "n",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 6,
+      "ceo": true
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "n!",
+       "en": "n!",
+       "it": "n!",
+       "fr": "n!",
+       "es": "n!",
+       "de": "n!",
+       "pt": "n!",
+       "ru": "n!"
+      },
+      "izraz": "fakt(n)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "permutacije",
+   "simbol": "Pₙ",
+   "naziv": {
+    "sr": "Permutacije",
+    "en": "Permutations",
+    "it": "Permutazioni",
+    "fr": "Permutations",
+    "es": "Permutaciones",
+    "de": "Permutationen",
+    "pt": "Permutações",
+    "ru": "Перестановки"
+   },
+   "opis": {
+    "sr": "Raspored svih elemenata",
+    "en": "Arranging all elements",
+    "it": "Ordinamenti di tutti gli elementi",
+    "fr": "Rangements de tous les éléments",
+    "es": "Ordenaciones de todos los elementos",
+    "de": "Anordnung aller Elemente",
+    "pt": "Ordenações de todos os elementos",
+    "ru": "Упорядочивание всех элементов"
+   },
+   "kljucne_reci": {
+    "sr": "permutacije raspored bez ponavljanja sa ponavljanjem",
+    "en": "permutations arrangements with repetition multiset",
+    "it": "permutazioni semplici con ripetizione",
+    "fr": "permutations sans repetition avec repetition anagrammes",
+    "es": "permutaciones sin repeticion con repeticion",
+    "de": "permutationen ohne wiederholung mit wiederholung",
+    "pt": "permutacoes simples com repeticao anagramas",
+    "ru": "перестановки без повторений с повторениями"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Bez ponavljanja",
+      "en": "Without repetition",
+      "it": "Semplici",
+      "fr": "Sans répétition",
+      "es": "Sin repetición",
+      "de": "Ohne Wiederholung",
+      "pt": "Simples",
+      "ru": "Без повторений"
+     },
+     "latex": {
+      "sr": "P_n = n!",
+      "en": "P_n = n!",
+      "it": "P_n = n!",
+      "fr": "P_n = n!",
+      "es": "P_n = n!",
+      "de": "P_n = n!",
+      "pt": "P_n = n!",
+      "ru": "P_n = n!"
+     },
+     "objasnjenje": {
+      "sr": "Na koliko načina se može poređati n različitih elemenata.",
+      "en": "Number of ways to order n distinct objects.",
+      "it": "Modi di ordinare n elementi distinti.",
+      "fr": "Nombre de façons d’ordonner n objets distincts.",
+      "es": "Formas de ordenar n elementos distintos.",
+      "de": "Anzahl der Anordnungen von n verschiedenen Objekten.",
+      "pt": "Modos de ordenar n elementos distintos.",
+      "ru": "Число способов упорядочить n различных элементов."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Sa ponavljanjem",
+      "en": "With repetition",
+      "it": "Con ripetizione",
+      "fr": "Avec répétition",
+      "es": "Con repetición",
+      "de": "Mit Wiederholung",
+      "pt": "Com repetição",
+      "ru": "С повторениями"
+     },
+     "latex": {
+      "sr": "P_n^{k_1, k_2, \\dots, k_r} = \\frac{n!}{k_1!\\, k_2! \\cdots k_r!}",
+      "en": "P_n^{k_1, k_2, \\dots, k_r} = \\frac{n!}{k_1!\\, k_2! \\cdots k_r!}",
+      "it": "P_n^{k_1, k_2, \\dots, k_r} = \\frac{n!}{k_1!\\, k_2! \\cdots k_r!}",
+      "fr": "P_n^{k_1, k_2, \\dots, k_r} = \\frac{n!}{k_1!\\, k_2! \\cdots k_r!}",
+      "es": "P_n^{k_1, k_2, \\dots, k_r} = \\frac{n!}{k_1!\\, k_2! \\cdots k_r!}",
+      "de": "P_n^{k_1, k_2, \\dots, k_r} = \\frac{n!}{k_1!\\, k_2! \\cdots k_r!}",
+      "pt": "P_n^{k_1, k_2, \\dots, k_r} = \\frac{n!}{k_1!\\, k_2! \\cdots k_r!}",
+      "ru": "P_n^{k_1, k_2, \\dots, k_r} = \\frac{n!}{k_1!\\, k_2! \\cdots k_r!}"
+     },
+     "objasnjenje": {
+      "sr": "Kada se neki elementi ponavljaju k₁, k₂, … puta (npr. slova u reči).",
+      "en": "When some elements repeat k₁, k₂, … times (e.g. letters of a word).",
+      "it": "Quando alcuni elementi si ripetono k₁, k₂, … volte (es. lettere di una parola).",
+      "fr": "Quand certains éléments se répètent k₁, k₂, … fois (anagrammes).",
+      "es": "Cuando algunos elementos se repiten k₁, k₂, … veces (letras de una palabra).",
+      "de": "Wenn sich Elemente k₁, k₂, … mal wiederholen (Buchstaben eines Wortes).",
+      "pt": "Quando alguns elementos se repetem k₁, k₂, … vezes (anagramas).",
+      "ru": "Когда элементы повторяются k₁, k₂, … раз (буквы в слове)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "n",
+      "oznaka": "n",
+      "naziv": {
+       "sr": "broj elemenata",
+       "en": "number of elements",
+       "it": "numero di elementi",
+       "fr": "nombre d’éléments",
+       "es": "número de elementos",
+       "de": "Anzahl der Elemente",
+       "pt": "número de elementos",
+       "ru": "число элементов"
+      },
+      "pocetna": 5,
+      "ceo": true
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Pₙ",
+       "en": "Pₙ",
+       "it": "Pₙ",
+       "fr": "Pₙ",
+       "es": "Pₙ",
+       "de": "Pₙ",
+       "pt": "Pₙ",
+       "ru": "Pₙ"
+      },
+      "izraz": "fakt(n)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "varijacije",
+   "simbol": {
+    "sr": "Vₖⁿ",
+    "en": "ⁿPₖ",
+    "it": "Dₙ,ₖ",
+    "fr": "Aₙᵏ",
+    "es": "Vₙ,ₖ",
+    "de": "Vₙᵏ",
+    "pt": "Aₙ,ₖ",
+    "ru": "Aₙᵏ"
+   },
+   "naziv": {
+    "sr": "Varijacije",
+    "en": "Permutations of k from n",
+    "it": "Disposizioni",
+    "fr": "Arrangements",
+    "es": "Variaciones",
+    "de": "Variationen",
+    "pt": "Arranjos",
+    "ru": "Размещения"
+   },
+   "opis": {
+    "sr": "Izbor k od n, redosled je bitan",
+    "en": "Choosing k of n, order matters",
+    "it": "Scelta di k su n, conta l’ordine",
+    "fr": "Choix de k parmi n, l’ordre compte",
+    "es": "Elegir k de n, importa el orden",
+    "de": "k aus n, Reihenfolge wichtig",
+    "pt": "Escolha de k entre n, a ordem importa",
+    "ru": "Выбор k из n с учётом порядка"
+   },
+   "kljucne_reci": {
+    "sr": "varijacije bez ponavljanja sa ponavljanjem redosled",
+    "en": "permutations nPr k from n order matters arrangements",
+    "it": "disposizioni semplici con ripetizione ordine",
+    "fr": "arrangements avec repetition ordre",
+    "es": "variaciones sin repeticion con repeticion orden",
+    "de": "variationen geordnete stichprobe mit zurucklegen ohne zurucklegen",
+    "pt": "arranjos simples com repeticao ordem",
+    "ru": "размещения без повторений с повторениями порядок"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Bez ponavljanja",
+      "en": "Without repetition",
+      "it": "Semplici",
+      "fr": "Sans répétition",
+      "es": "Sin repetición",
+      "de": "Ohne Wiederholung",
+      "pt": "Simples",
+      "ru": "Без повторений"
+     },
+     "latex": {
+      "sr": "V_k^n = \\frac{n!}{(n - k)!} = n (n - 1) \\cdots (n - k + 1)",
+      "en": "{}^{n}P_{k} = \\frac{n!}{(n - k)!} = n (n - 1) \\cdots (n - k + 1)",
+      "it": "D_{n,k} = \\frac{n!}{(n - k)!} = n (n - 1) \\cdots (n - k + 1)",
+      "fr": "A_n^k = \\frac{n!}{(n - k)!} = n (n - 1) \\cdots (n - k + 1)",
+      "es": "V_{n,k} = \\frac{n!}{(n - k)!} = n (n - 1) \\cdots (n - k + 1)",
+      "de": "V_n^k = \\frac{n!}{(n - k)!} = n (n - 1) \\cdots (n - k + 1)",
+      "pt": "A_{n,k} = \\frac{n!}{(n - k)!} = n (n - 1) \\cdots (n - k + 1)",
+      "ru": "A_n^k = \\frac{n!}{(n - k)!} = n (n - 1) \\cdots (n - k + 1)"
+     },
+     "objasnjenje": {
+      "sr": "Uređeni izbori k različitih elemenata od n.",
+      "en": "Ordered selections of k distinct objects out of n.",
+      "it": "Gruppi ordinati di k elementi distinti presi da n.",
+      "fr": "Suites ordonnées de k éléments distincts parmi n.",
+      "es": "Grupos ordenados de k elementos distintos tomados de n.",
+      "de": "Geordnete Auswahl von k verschiedenen aus n.",
+      "pt": "Agrupamentos ordenados de k elementos distintos de n.",
+      "ru": "Упорядоченные выборки k различных элементов из n."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Sa ponavljanjem",
+      "en": "With repetition",
+      "it": "Con ripetizione",
+      "fr": "Avec répétition",
+      "es": "Con repetición",
+      "de": "Mit Wiederholung",
+      "pt": "Com repetição",
+      "ru": "С повторениями"
+     },
+     "latex": {
+      "sr": "\\overline{V}_k^n = n^k",
+      "en": "n^k",
+      "it": "D'_{n,k} = n^k",
+      "fr": "n^k",
+      "es": "VR_{n,k} = n^k",
+      "de": "\\overline{V}_n^k = n^k",
+      "pt": "AR_{n,k} = n^k",
+      "ru": "\\overline{A}_n^k = n^k"
+     },
+     "objasnjenje": {
+      "sr": "Svaki od k položaja može biti bilo koji od n elemenata (npr. PIN kod).",
+      "en": "Each of the k positions can be any of n elements (e.g. a PIN).",
+      "it": "Ognuno dei k posti può essere uno qualsiasi degli n elementi (es. un PIN).",
+      "fr": "Chacune des k places peut prendre n valeurs (code PIN).",
+      "es": "Cada una de las k posiciones puede ser cualquiera de los n elementos (PIN).",
+      "de": "Jede der k Stellen kann jedes der n Elemente sein (PIN).",
+      "pt": "Cada uma das k posições pode ser qualquer dos n elementos (senha).",
+      "ru": "Каждое из k мест может занять любой из n элементов (ПИН-код)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "n",
+      "oznaka": "n",
+      "naziv": {
+       "sr": "broj elemenata",
+       "en": "number of elements",
+       "it": "numero di elementi",
+       "fr": "nombre d’éléments",
+       "es": "número de elementos",
+       "de": "Anzahl der Elemente",
+       "pt": "número de elementos",
+       "ru": "число элементов"
+      },
+      "pocetna": 10,
+      "ceo": true
+     },
+     {
+      "id": "k",
+      "oznaka": "k",
+      "naziv": {
+       "sr": "izabrano (klasa)",
+       "en": "chosen",
+       "it": "elementi scelti",
+       "fr": "éléments choisis",
+       "es": "elementos elegidos",
+       "de": "ausgewählt",
+       "pt": "elementos escolhidos",
+       "ru": "выбрано"
+      },
+      "pocetna": 3,
+      "ceo": true
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Bez ponavljanja",
+       "en": "Without repetition",
+       "it": "Semplici",
+       "fr": "Sans répétition",
+       "es": "Sin repetición",
+       "de": "Ohne Wiederholung",
+       "pt": "Simples",
+       "ru": "Без повторений"
+      },
+      "izraz": "varij(n,k)"
+     },
+     {
+      "naziv": {
+       "sr": "Sa ponavljanjem",
+       "en": "With repetition",
+       "it": "Con ripetizione",
+       "fr": "Avec répétition",
+       "es": "Con repetición",
+       "de": "Mit Wiederholung",
+       "pt": "Com repetição",
+       "ru": "С повторениями"
+      },
+      "izraz": "pow(n,k)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kombinacije",
+   "simbol": {
+    "sr": "Cₖⁿ",
+    "en": "ⁿCₖ",
+    "it": "Cₙ,ₖ",
+    "fr": "(ⁿₖ)",
+    "es": "Cₙ,ₖ",
+    "de": "(ⁿₖ)",
+    "pt": "Cₙ,ₖ",
+    "ru": "Cₙᵏ"
+   },
+   "naziv": {
+    "sr": "Kombinacije",
+    "en": "Combinations",
+    "it": "Combinazioni",
+    "fr": "Combinaisons",
+    "es": "Combinaciones",
+    "de": "Kombinationen",
+    "pt": "Combinações",
+    "ru": "Сочетания"
+   },
+   "opis": {
+    "sr": "Izbor k od n, redosled nije bitan",
+    "en": "Choosing k of n, order doesn’t matter",
+    "it": "Scelta di k su n, l’ordine non conta",
+    "fr": "Choix de k parmi n, sans ordre",
+    "es": "Elegir k de n, sin importar el orden",
+    "de": "k aus n, ohne Reihenfolge",
+    "pt": "Escolha de k entre n, sem ordem",
+    "ru": "Выбор k из n без учёта порядка"
+   },
+   "kljucne_reci": {
+    "sr": "kombinacije binomni koeficijent n nad k loto izbor",
+    "en": "combinations nCr binomial coefficient n choose k lottery",
+    "it": "combinazioni coefficiente binomiale lotto",
+    "fr": "combinaisons coefficient binomial k parmi n loto",
+    "es": "combinaciones numero combinatorio coeficiente binomial loteria",
+    "de": "kombinationen binomialkoeffizient n uber k lotto",
+    "pt": "combinacoes coeficiente binomial loteria",
+    "ru": "сочетания биномиальный коэффициент из n по k лотерея"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Bez ponavljanja",
+      "en": "Without repetition",
+      "it": "Semplici",
+      "fr": "Sans répétition",
+      "es": "Sin repetición",
+      "de": "Ohne Wiederholung",
+      "pt": "Simples",
+      "ru": "Без повторений"
+     },
+     "latex": {
+      "sr": "C_k^n = \\binom{n}{k} = \\frac{n!}{k!\\,(n - k)!}",
+      "en": "{}^{n}C_{k} = \\binom{n}{k} = \\frac{n!}{k!\\,(n - k)!}",
+      "it": "C_{n,k} = \\binom{n}{k} = \\frac{n!}{k!\\,(n - k)!}",
+      "fr": "\\binom{n}{k} = \\frac{n!}{k!\\,(n - k)!}",
+      "es": "C_{n,k} = \\binom{n}{k} = \\frac{n!}{k!\\,(n - k)!}",
+      "de": "\\binom{n}{k} = \\frac{n!}{k!\\,(n - k)!}",
+      "pt": "C_{n,k} = \\binom{n}{k} = \\frac{n!}{k!\\,(n - k)!}",
+      "ru": "C_n^k = \\binom{n}{k} = \\frac{n!}{k!\\,(n - k)!}"
+     },
+     "objasnjenje": {
+      "sr": "Broj podskupova od k elemenata (npr. loto 7 od 39).",
+      "en": "Number of k-element subsets (e.g. a 6/49 lottery).",
+      "it": "Numero di sottoinsiemi di k elementi (es. il lotto).",
+      "fr": "Nombre de sous-ensembles à k éléments (loto).",
+      "es": "Número de subconjuntos de k elementos (lotería).",
+      "de": "Anzahl der k-elementigen Teilmengen (Lotto 6 aus 49).",
+      "pt": "Número de subconjuntos de k elementos (Mega-Sena).",
+      "ru": "Число k-элементных подмножеств (лотерея)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Osobine",
+      "en": "Properties",
+      "it": "Proprietà",
+      "fr": "Propriétés",
+      "es": "Propiedades",
+      "de": "Eigenschaften",
+      "pt": "Propriedades",
+      "ru": "Свойства"
+     },
+     "latex": {
+      "sr": "\\binom{n}{k} = \\binom{n}{n - k}, \\quad \\binom{n}{k} + \\binom{n}{k + 1} = \\binom{n + 1}{k + 1}",
+      "en": "\\binom{n}{k} = \\binom{n}{n - k}, \\quad \\binom{n}{k} + \\binom{n}{k + 1} = \\binom{n + 1}{k + 1}",
+      "it": "\\binom{n}{k} = \\binom{n}{n - k}, \\quad \\binom{n}{k} + \\binom{n}{k + 1} = \\binom{n + 1}{k + 1}",
+      "fr": "\\binom{n}{k} = \\binom{n}{n - k}, \\quad \\binom{n}{k} + \\binom{n}{k + 1} = \\binom{n + 1}{k + 1}",
+      "es": "\\binom{n}{k} = \\binom{n}{n - k}, \\quad \\binom{n}{k} + \\binom{n}{k + 1} = \\binom{n + 1}{k + 1}",
+      "de": "\\binom{n}{k} = \\binom{n}{n - k}, \\quad \\binom{n}{k} + \\binom{n}{k + 1} = \\binom{n + 1}{k + 1}",
+      "pt": "\\binom{n}{k} = \\binom{n}{n - k}, \\quad \\binom{n}{k} + \\binom{n}{k + 1} = \\binom{n + 1}{k + 1}",
+      "ru": "\\binom{n}{k} = \\binom{n}{n - k}, \\quad \\binom{n}{k} + \\binom{n}{k + 1} = \\binom{n + 1}{k + 1}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Sa ponavljanjem",
+      "en": "With repetition",
+      "it": "Con ripetizione",
+      "fr": "Avec répétition",
+      "es": "Con repetición",
+      "de": "Mit Wiederholung",
+      "pt": "Com repetição",
+      "ru": "С повторениями"
+     },
+     "latex": {
+      "sr": "\\overline{C}_k^n = \\binom{n + k - 1}{k}",
+      "en": "\\left(\\!\\binom{n}{k}\\!\\right) = \\binom{n + k - 1}{k}",
+      "it": "C'_{n,k} = \\binom{n + k - 1}{k}",
+      "fr": "\\Gamma_n^k = \\binom{n + k - 1}{k}",
+      "es": "CR_{n,k} = \\binom{n + k - 1}{k}",
+      "de": "\\overline{C}_n^k = \\binom{n + k - 1}{k}",
+      "pt": "CR_{n,k} = \\binom{n + k - 1}{k}",
+      "ru": "\\overline{C}_n^k = \\binom{n + k - 1}{k}"
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "n",
+      "oznaka": "n",
+      "naziv": {
+       "sr": "broj elemenata",
+       "en": "number of elements",
+       "it": "numero di elementi",
+       "fr": "nombre d’éléments",
+       "es": "número de elementos",
+       "de": "Anzahl der Elemente",
+       "pt": "número de elementos",
+       "ru": "число элементов"
+      },
+      "pocetna": 39,
+      "ceo": true
+     },
+     {
+      "id": "k",
+      "oznaka": "k",
+      "naziv": {
+       "sr": "izabrano (klasa)",
+       "en": "chosen",
+       "it": "elementi scelti",
+       "fr": "éléments choisis",
+       "es": "elementos elegidos",
+       "de": "ausgewählt",
+       "pt": "elementos escolhidos",
+       "ru": "выбрано"
+      },
+      "pocetna": 7,
+      "ceo": true
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Bez ponavljanja",
+       "en": "Without repetition",
+       "it": "Semplici",
+       "fr": "Sans répétition",
+       "es": "Sin repetición",
+       "de": "Ohne Wiederholung",
+       "pt": "Simples",
+       "ru": "Без повторений"
+      },
+      "izraz": "komb(n,k)"
+     },
+     {
+      "naziv": {
+       "sr": "Sa ponavljanjem",
+       "en": "With repetition",
+       "it": "Con ripetizione",
+       "fr": "Avec répétition",
+       "es": "Con repetición",
+       "de": "Mit Wiederholung",
+       "pt": "Com repetição",
+       "ru": "С повторениями"
+      },
+      "izraz": "komb(n+k-1,k)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "binomna_formula",
+   "simbol": "(a+b)ⁿ",
+   "naziv": {
+    "sr": "Binomna formula",
+    "en": "Binomial theorem",
+    "it": "Binomio di Newton",
+    "fr": "Formule du binôme",
+    "es": "Binomio de Newton",
+    "de": "Binomischer Lehrsatz",
+    "pt": "Binômio de Newton",
+    "ru": "Бином Ньютона"
+   },
+   "opis": {
+    "sr": "Paskalov trougao i binomni koeficijenti",
+    "en": "Pascal’s triangle and binomial coefficients",
+    "it": "Triangolo di Tartaglia",
+    "fr": "Triangle de Pascal",
+    "es": "Triángulo de Pascal",
+    "de": "Pascalsches Dreieck",
+    "pt": "Triângulo de Pascal",
+    "ru": "Треугольник Паскаля"
+   },
+   "kljucne_reci": {
+    "sr": "binomna formula njutnov binom paskalov trougao binomni koeficijenti",
+    "en": "binomial theorem expansion pascal triangle coefficients",
+    "it": "binomio di newton triangolo di tartaglia coefficienti binomiali",
+    "fr": "binome de newton triangle de pascal coefficients binomiaux",
+    "es": "binomio de newton triangulo de pascal tartaglia coeficientes",
+    "de": "binomischer lehrsatz pascalsches dreieck binomialkoeffizienten",
+    "pt": "binomio de newton triangulo de pascal coeficientes binomiais",
+    "ru": "бином ньютона треугольник паскаля биномиальные коэффициенты"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Binomna formula",
+      "en": "Binomial theorem",
+      "it": "Formula del binomio",
+      "fr": "Formule du binôme",
+      "es": "Fórmula del binomio",
+      "de": "Binomischer Lehrsatz",
+      "pt": "Fórmula do binômio",
+      "ru": "Формула бинома"
+     },
+     "latex": {
+      "sr": "(a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k",
+      "en": "(a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k",
+      "it": "(a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k",
+      "fr": "(a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k",
+      "es": "(a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k",
+      "de": "(a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k",
+      "pt": "(a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k",
+      "ru": "(a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Opšti član",
+      "en": "General term",
+      "it": "Termine generico",
+      "fr": "Terme général",
+      "es": "Término general",
+      "de": "Allgemeines Glied",
+      "pt": "Termo geral",
+      "ru": "Общий член"
+     },
+     "latex": {
+      "sr": "T_{k+1} = \\binom{n}{k} a^{n-k} b^k",
+      "en": "T_{k+1} = \\binom{n}{k} a^{n-k} b^k",
+      "it": "T_{k+1} = \\binom{n}{k} a^{n-k} b^k",
+      "fr": "T_{k+1} = \\binom{n}{k} a^{n-k} b^k",
+      "es": "T_{k+1} = \\binom{n}{k} a^{n-k} b^k",
+      "de": "T_{k+1} = \\binom{n}{k} a^{n-k} b^k",
+      "pt": "T_{k+1} = \\binom{n}{k} a^{n-k} b^k",
+      "ru": "T_{k+1} = \\binom{n}{k} a^{n-k} b^k"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Paskalov trougao",
+      "en": "Pascal’s triangle",
+      "it": "Triangolo di Tartaglia",
+      "fr": "Triangle de Pascal",
+      "es": "Triángulo de Pascal",
+      "de": "Pascalsches Dreieck",
+      "pt": "Triângulo de Pascal",
+      "ru": "Треугольник Паскаля"
+     },
+     "latex": {
+      "sr": "\\begin{matrix} & & & 1 & & & \\\\ & & 1 & & 1 & & \\\\ & 1 & & 2 & & 1 & \\\\ 1 & & 3 & & 3 & & 1 \\end{matrix}",
+      "en": "\\begin{matrix} & & & 1 & & & \\\\ & & 1 & & 1 & & \\\\ & 1 & & 2 & & 1 & \\\\ 1 & & 3 & & 3 & & 1 \\end{matrix}",
+      "it": "\\begin{matrix} & & & 1 & & & \\\\ & & 1 & & 1 & & \\\\ & 1 & & 2 & & 1 & \\\\ 1 & & 3 & & 3 & & 1 \\end{matrix}",
+      "fr": "\\begin{matrix} & & & 1 & & & \\\\ & & 1 & & 1 & & \\\\ & 1 & & 2 & & 1 & \\\\ 1 & & 3 & & 3 & & 1 \\end{matrix}",
+      "es": "\\begin{matrix} & & & 1 & & & \\\\ & & 1 & & 1 & & \\\\ & 1 & & 2 & & 1 & \\\\ 1 & & 3 & & 3 & & 1 \\end{matrix}",
+      "de": "\\begin{matrix} & & & 1 & & & \\\\ & & 1 & & 1 & & \\\\ & 1 & & 2 & & 1 & \\\\ 1 & & 3 & & 3 & & 1 \\end{matrix}",
+      "pt": "\\begin{matrix} & & & 1 & & & \\\\ & & 1 & & 1 & & \\\\ & 1 & & 2 & & 1 & \\\\ 1 & & 3 & & 3 & & 1 \\end{matrix}",
+      "ru": "\\begin{matrix} & & & 1 & & & \\\\ & & 1 & & 1 & & \\\\ & 1 & & 2 & & 1 & \\\\ 1 & & 3 & & 3 & & 1 \\end{matrix}"
+     },
+     "objasnjenje": {
+      "sr": "Svaki broj je zbir dva broja iznad njega; red n daje koeficijente za (a + b)ⁿ.",
+      "en": "Each number is the sum of the two above it; row n gives the coefficients of (a + b)ⁿ.",
+      "it": "Ogni numero è la somma dei due sopra; la riga n dà i coefficienti di (a + b)ⁿ.",
+      "fr": "Chaque nombre est la somme des deux au-dessus ; la ligne n donne les coefficients de (a + b)ⁿ.",
+      "es": "Cada número es la suma de los dos de arriba; la fila n da los coeficientes de (a + b)ⁿ.",
+      "de": "Jede Zahl ist die Summe der beiden darüber; Zeile n liefert die Koeffizienten von (a + b)ⁿ.",
+      "pt": "Cada número é a soma dos dois acima; a linha n dá os coeficientes de (a + b)ⁿ.",
+      "ru": "Каждое число — сумма двух над ним; строка n даёт коэффициенты (a + b)ⁿ."
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "n",
+      "oznaka": "n",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 5,
+      "ceo": true
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Koeficijenti",
+       "en": "Coefficients",
+       "it": "Coefficienti",
+       "fr": "Coefficients",
+       "es": "Coeficientes",
+       "de": "Koeffizienten",
+       "pt": "Coeficientes",
+       "ru": "Коэффициенты"
+      },
+      "izraz": "paskal(n)",
+      "tip": "tekst"
+     }
+    ]
+   }
+  },
+  {
+   "id": "verovatnoca",
+   "simbol": "P(A)",
+   "naziv": {
+    "sr": "Verovatnoća",
+    "en": "Probability",
+    "it": "Probabilità",
+    "fr": "Probabilités",
+    "es": "Probabilidad",
+    "de": "Wahrscheinlichkeit",
+    "pt": "Probabilidade",
+    "ru": "Вероятность"
+   },
+   "opis": {
+    "sr": "Klasična, uslovna, Bernulijeva šema",
+    "en": "Classical, conditional, binomial",
+    "it": "Classica, condizionata, Bernoulli",
+    "fr": "Classique, conditionnelle, loi binomiale",
+    "es": "Clásica, condicionada, Bernoulli",
+    "de": "Laplace, bedingt, Bernoulli",
+    "pt": "Clássica, condicional, binomial",
+    "ru": "Классическая, условная, схема Бернулли"
+   },
+   "kljucne_reci": {
+    "sr": "verovatnoca dogadjaj suprotan uslovna nezavisni bernuli",
+    "en": "probability event complement conditional independent binomial bernoulli",
+    "it": "probabilita evento contrario condizionata indipendenti bernoulli",
+    "fr": "probabilite evenement contraire conditionnelle independants loi binomiale",
+    "es": "probabilidad suceso contrario condicionada independientes bernoulli",
+    "de": "wahrscheinlichkeit ereignis gegenereignis bedingte unabhangig bernoulli binomialverteilung",
+    "pt": "probabilidade evento complementar condicional independentes binomial",
+    "ru": "вероятность событие противоположное условная независимые бернулли"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Klasična definicija",
+      "en": "Classical definition",
+      "it": "Definizione classica",
+      "fr": "Définition classique",
+      "es": "Regla de Laplace",
+      "de": "Laplace-Wahrscheinlichkeit",
+      "pt": "Definição clássica",
+      "ru": "Классическое определение"
+     },
+     "latex": {
+      "sr": "P(A) = \\frac{m}{n}, \\quad 0 \\le P(A) \\le 1",
+      "en": "P(A) = \\frac{m}{n}, \\quad 0 \\le P(A) \\le 1",
+      "it": "P(A) = \\frac{m}{n}, \\quad 0 \\le P(A) \\le 1",
+      "fr": "P(A) = \\frac{m}{n}, \\quad 0 \\le P(A) \\le 1",
+      "es": "P(A) = \\frac{m}{n}, \\quad 0 \\le P(A) \\le 1",
+      "de": "P(A) = \\frac{m}{n}, \\quad 0 \\le P(A) \\le 1",
+      "pt": "P(A) = \\frac{m}{n}, \\quad 0 \\le P(A) \\le 1",
+      "ru": "P(A) = \\frac{m}{n}, \\quad 0 \\le P(A) \\le 1"
+     },
+     "objasnjenje": {
+      "sr": "m je broj povoljnih, a n broj svih jednako mogućih ishoda.",
+      "en": "m favourable outcomes out of n equally likely ones.",
+      "it": "m casi favorevoli su n casi possibili ugualmente probabili.",
+      "fr": "m cas favorables sur n cas équiprobables.",
+      "es": "m casos favorables entre n casos posibles equiprobables.",
+      "de": "m günstige von n gleich wahrscheinlichen Ergebnissen.",
+      "pt": "m casos favoráveis em n casos possíveis igualmente prováveis.",
+      "ru": "m благоприятных исходов из n равновозможных."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Suprotan događaj",
+      "en": "Complement",
+      "it": "Evento contrario",
+      "fr": "Événement contraire",
+      "es": "Suceso contrario",
+      "de": "Gegenereignis",
+      "pt": "Evento complementar",
+      "ru": "Противоположное событие"
+     },
+     "latex": {
+      "sr": "P(\\overline{A}) = 1 - P(A)",
+      "en": "P(\\overline{A}) = 1 - P(A)",
+      "it": "P(\\overline{A}) = 1 - P(A)",
+      "fr": "P(\\overline{A}) = 1 - P(A)",
+      "es": "P(\\overline{A}) = 1 - P(A)",
+      "de": "P(\\overline{A}) = 1 - P(A)",
+      "pt": "P(\\overline{A}) = 1 - P(A)",
+      "ru": "P(\\overline{A}) = 1 - P(A)"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zbir i proizvod događaja",
+      "en": "Union and intersection",
+      "it": "Unione e intersezione",
+      "fr": "Réunion et intersection",
+      "es": "Unión e intersección",
+      "de": "Vereinigung und Schnitt",
+      "pt": "União e interseção",
+      "ru": "Сумма и произведение событий"
+     },
+     "latex": {
+      "sr": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B), \\quad P(A \\cap B) = P(A) \\cdot P(B)",
+      "en": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B), \\quad P(A \\cap B) = P(A) \\cdot P(B)",
+      "it": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B), \\quad P(A \\cap B) = P(A) \\cdot P(B)",
+      "fr": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B), \\quad P(A \\cap B) = P(A) \\cdot P(B)",
+      "es": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B), \\quad P(A \\cap B) = P(A) \\cdot P(B)",
+      "de": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B), \\quad P(A \\cap B) = P(A) \\cdot P(B)",
+      "pt": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B), \\quad P(A \\cap B) = P(A) \\cdot P(B)",
+      "ru": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B), \\quad P(A \\cap B) = P(A) \\cdot P(B)"
+     },
+     "objasnjenje": {
+      "sr": "Druga formula važi za nezavisne događaje.",
+      "en": "The second formula holds for independent events.",
+      "it": "La seconda formula vale per eventi indipendenti.",
+      "fr": "La seconde formule vaut pour des événements indépendants.",
+      "es": "La segunda fórmula vale para sucesos independientes.",
+      "de": "Die zweite Formel gilt für unabhängige Ereignisse.",
+      "pt": "A segunda fórmula vale para eventos independentes.",
+      "ru": "Вторая формула верна для независимых событий."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Uslovna verovatnoća",
+      "en": "Conditional probability",
+      "it": "Probabilità condizionata",
+      "fr": "Probabilité conditionnelle",
+      "es": "Probabilidad condicionada",
+      "de": "Bedingte Wahrscheinlichkeit",
+      "pt": "Probabilidade condicional",
+      "ru": "Условная вероятность"
+     },
+     "latex": {
+      "sr": "P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}",
+      "en": "P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}",
+      "it": "P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}",
+      "fr": "P_B(A) = \\frac{P(A \\cap B)}{P(B)}",
+      "es": "P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}",
+      "de": "P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}",
+      "pt": "P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}",
+      "ru": "P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Bernulijeva šema",
+      "en": "Binomial distribution",
+      "it": "Schema di Bernoulli",
+      "fr": "Loi binomiale",
+      "es": "Distribución binomial",
+      "de": "Bernoulli-Formel",
+      "pt": "Distribuição binomial",
+      "ru": "Формула Бернулли"
+     },
+     "latex": {
+      "sr": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}",
+      "en": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}",
+      "it": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}",
+      "fr": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}",
+      "es": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}",
+      "de": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}",
+      "pt": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}",
+      "ru": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}"
+     },
+     "objasnjenje": {
+      "sr": "Verovatnoća tačno k uspeha u n nezavisnih pokušaja, sa verovatnoćom uspeha p.",
+      "en": "Probability of exactly k successes in n independent trials with success probability p.",
+      "it": "Probabilità di esattamente k successi in n prove indipendenti con probabilità p.",
+      "fr": "Probabilité d’exactement k succès en n épreuves indépendantes de probabilité p.",
+      "es": "Probabilidad de exactamente k éxitos en n ensayos independientes con probabilidad p.",
+      "de": "Wahrscheinlichkeit für genau k Treffer bei n unabhängigen Versuchen mit Trefferwahrscheinlichkeit p.",
+      "pt": "Probabilidade de exatamente k sucessos em n tentativas independentes com probabilidade p.",
+      "ru": "Вероятность ровно k успехов в n независимых испытаниях с вероятностью успеха p."
+     }
+    }
+   ],
+   "kalkulator": {
+    "legenda": {
+     "sr": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}",
+     "en": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}",
+     "it": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}",
+     "fr": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}",
+     "es": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}",
+     "de": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}",
+     "pt": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}",
+     "ru": "P_n(k) = \\binom{n}{k} p^k (1 - p)^{n - k}"
+    },
+    "ulazi": [
+     {
+      "id": "n",
+      "oznaka": "n",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 10,
+      "ceo": true
+     },
+     {
+      "id": "k",
+      "oznaka": "k",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3,
+      "ceo": true
+     },
+     {
+      "id": "p",
+      "oznaka": "p",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 0.5
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "Pₙ(k)",
+       "en": "Pₙ(k)",
+       "it": "Pₙ(k)",
+       "fr": "Pₙ(k)",
+       "es": "Pₙ(k)",
+       "de": "Pₙ(k)",
+       "pt": "Pₙ(k)",
+       "ru": "Pₙ(k)"
+      },
+      "izraz": "komb(n,k)*pow(p,k)*pow(1-p,n-k)"
+     },
+     {
+      "naziv": {
+       "sr": "u procentima",
+       "en": "in percent",
+       "it": "in percentuale",
+       "fr": "en pourcentage",
+       "es": "en porcentaje",
+       "de": "in Prozent",
+       "pt": "em porcentagem",
+       "ru": "в процентах"
+      },
+      "izraz": "100*komb(n,k)*pow(p,k)*pow(1-p,n-k)",
+      "decimale": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "aritmeticki_niz",
+   "simbol": "+d",
+   "naziv": {
+    "sr": "Aritmetički niz",
+    "en": "Arithmetic sequence",
+    "it": "Progressione aritmetica",
+    "fr": "Suite arithmétique",
+    "es": "Progresión aritmética",
+    "de": "Arithmetische Folge",
+    "pt": "Progressão aritmética",
+    "ru": "Арифметическая прогрессия"
+   },
+   "opis": {
+    "sr": "Opšti član i zbir",
+    "en": "General term and sum",
+    "it": "Termine generico e somma",
+    "fr": "Terme général et somme",
+    "es": "Término general y suma",
+    "de": "Allgemeines Glied und Summe",
+    "pt": "Termo geral e soma",
+    "ru": "Общий член и сумма"
+   },
+   "kljucne_reci": {
+    "sr": "aritmeticki niz razlika opsti clan zbir prvih n clanova",
+    "en": "arithmetic sequence progression common difference nth term sum series",
+    "it": "progressione aritmetica ragione termine generico somma",
+    "fr": "suite arithmetique raison terme general somme",
+    "es": "progresion aritmetica diferencia termino general suma",
+    "de": "arithmetische folge reihe differenz summe",
+    "pt": "progressao aritmetica razao termo geral soma",
+    "ru": "арифметическая прогрессия разность общий член сумма"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Opšti član",
+      "en": "nth term",
+      "it": "Termine generico",
+      "fr": "Terme général",
+      "es": "Término general",
+      "de": "Allgemeines Glied",
+      "pt": "Termo geral",
+      "ru": "Общий член"
+     },
+     "latex": {
+      "sr": "a_n = a_1 + (n - 1)\\,d",
+      "en": "a_n = a_1 + (n - 1)\\,d",
+      "it": "a_n = a_1 + (n - 1)\\,d",
+      "fr": "a_n = a_1 + (n - 1)\\,d",
+      "es": "a_n = a_1 + (n - 1)\\,d",
+      "de": "a_n = a_1 + (n - 1)\\,d",
+      "pt": "a_n = a_1 + (n - 1)\\,d",
+      "ru": "a_n = a_1 + (n - 1)\\,d"
+     },
+     "objasnjenje": {
+      "sr": "d je razlika susednih članova.",
+      "en": "d is the common difference.",
+      "it": "d è la ragione.",
+      "fr": "d est la raison.",
+      "es": "d es la diferencia.",
+      "de": "d ist die Differenz benachbarter Glieder.",
+      "pt": "d é a razão.",
+      "ru": "d — разность прогрессии."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zbir prvih n članova",
+      "en": "Sum of the first n terms",
+      "it": "Somma dei primi n termini",
+      "fr": "Somme des n premiers termes",
+      "es": "Suma de los n primeros términos",
+      "de": "Summe der ersten n Glieder",
+      "pt": "Soma dos n primeiros termos",
+      "ru": "Сумма первых n членов"
+     },
+     "latex": {
+      "sr": "S_n = \\frac{n\\,(a_1 + a_n)}{2} = \\frac{n}{2}\\left(2a_1 + (n - 1)d\\right)",
+      "en": "S_n = \\frac{n\\,(a_1 + a_n)}{2} = \\frac{n}{2}\\left(2a_1 + (n - 1)d\\right)",
+      "it": "S_n = \\frac{n\\,(a_1 + a_n)}{2} = \\frac{n}{2}\\left(2a_1 + (n - 1)d\\right)",
+      "fr": "S_n = \\frac{n\\,(a_1 + a_n)}{2} = \\frac{n}{2}\\left(2a_1 + (n - 1)d\\right)",
+      "es": "S_n = \\frac{n\\,(a_1 + a_n)}{2} = \\frac{n}{2}\\left(2a_1 + (n - 1)d\\right)",
+      "de": "S_n = \\frac{n\\,(a_1 + a_n)}{2} = \\frac{n}{2}\\left(2a_1 + (n - 1)d\\right)",
+      "pt": "S_n = \\frac{n\\,(a_1 + a_n)}{2} = \\frac{n}{2}\\left(2a_1 + (n - 1)d\\right)",
+      "ru": "S_n = \\frac{n\\,(a_1 + a_n)}{2} = \\frac{n}{2}\\left(2a_1 + (n - 1)d\\right)"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Srednji član",
+      "en": "Middle term",
+      "it": "Termine medio",
+      "fr": "Terme moyen",
+      "es": "Término medio",
+      "de": "Mittleres Glied",
+      "pt": "Termo médio",
+      "ru": "Средний член"
+     },
+     "latex": {
+      "sr": "a_n = \\frac{a_{n-1} + a_{n+1}}{2}",
+      "en": "a_n = \\frac{a_{n-1} + a_{n+1}}{2}",
+      "it": "a_n = \\frac{a_{n-1} + a_{n+1}}{2}",
+      "fr": "a_n = \\frac{a_{n-1} + a_{n+1}}{2}",
+      "es": "a_n = \\frac{a_{n-1} + a_{n+1}}{2}",
+      "de": "a_n = \\frac{a_{n-1} + a_{n+1}}{2}",
+      "pt": "a_n = \\frac{a_{n-1} + a_{n+1}}{2}",
+      "ru": "a_n = \\frac{a_{n-1} + a_{n+1}}{2}"
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a1",
+      "oznaka": "a_1",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     },
+     {
+      "id": "d",
+      "oznaka": "d",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 4
+     },
+     {
+      "id": "n",
+      "oznaka": "n",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 10,
+      "ceo": true
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "aₙ",
+       "en": "aₙ",
+       "it": "aₙ",
+       "fr": "aₙ",
+       "es": "aₙ",
+       "de": "aₙ",
+       "pt": "aₙ",
+       "ru": "aₙ"
+      },
+      "izraz": "a1+(n-1)*d"
+     },
+     {
+      "naziv": {
+       "sr": "Sₙ",
+       "en": "Sₙ",
+       "it": "Sₙ",
+       "fr": "Sₙ",
+       "es": "Sₙ",
+       "de": "Sₙ",
+       "pt": "Sₙ",
+       "ru": "Sₙ"
+      },
+      "izraz": "n*(2*a1+(n-1)*d)/2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "geometrijski_niz",
+   "simbol": {
+    "sr": "·q",
+    "en": "·r",
+    "it": "·q",
+    "fr": "·q",
+    "es": "·r",
+    "de": "·q",
+    "pt": "·q",
+    "ru": "·q"
+   },
+   "naziv": {
+    "sr": "Geometrijski niz",
+    "en": "Geometric sequence",
+    "it": "Progressione geometrica",
+    "fr": "Suite géométrique",
+    "es": "Progresión geométrica",
+    "de": "Geometrische Folge",
+    "pt": "Progressão geométrica",
+    "ru": "Геометрическая прогрессия"
+   },
+   "opis": {
+    "sr": "Opšti član, zbir, beskonačni red",
+    "en": "General term, sum, infinite series",
+    "it": "Termine generico, somma, serie",
+    "fr": "Terme général, somme, série",
+    "es": "Término general, suma, serie",
+    "de": "Allgemeines Glied, Summe, unendliche Reihe",
+    "pt": "Termo geral, soma, série infinita",
+    "ru": "Общий член, сумма, бесконечная прогрессия"
+   },
+   "kljucne_reci": {
+    "sr": "geometrijski niz kolicnik opsti clan zbir beskonacni geometrijski red",
+    "en": "geometric sequence progression common ratio nth term sum infinite series",
+    "it": "progressione geometrica ragione termine generico somma serie",
+    "fr": "suite geometrique raison terme general somme serie",
+    "es": "progresion geometrica razon termino general suma serie infinita",
+    "de": "geometrische folge reihe quotient summe unendliche",
+    "pt": "progressao geometrica razao termo geral soma infinita",
+    "ru": "геометрическая прогрессия знаменатель общий член сумма бесконечная"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Opšti član",
+      "en": "nth term",
+      "it": "Termine generico",
+      "fr": "Terme général",
+      "es": "Término general",
+      "de": "Allgemeines Glied",
+      "pt": "Termo geral",
+      "ru": "Общий член"
+     },
+     "latex": {
+      "sr": "a_n = a_1 \\cdot q^{n - 1}",
+      "en": "a_n = a_1 \\cdot r^{n - 1}",
+      "it": "a_n = a_1 \\cdot q^{n - 1}",
+      "fr": "a_n = a_1 \\cdot q^{n - 1}",
+      "es": "a_n = a_1 \\cdot r^{n - 1}",
+      "de": "a_n = a_1 \\cdot q^{n - 1}",
+      "pt": "a_n = a_1 \\cdot q^{n - 1}",
+      "ru": "a_n = a_1 \\cdot q^{n - 1}"
+     },
+     "objasnjenje": {
+      "sr": "q je količnik susednih članova.",
+      "en": "r is the common ratio.",
+      "it": "q è la ragione.",
+      "fr": "q est la raison.",
+      "es": "r es la razón.",
+      "de": "q ist der Quotient benachbarter Glieder.",
+      "pt": "q é a razão.",
+      "ru": "q — знаменатель прогрессии."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zbir prvih n članova",
+      "en": "Sum of the first n terms",
+      "it": "Somma dei primi n termini",
+      "fr": "Somme des n premiers termes",
+      "es": "Suma de los n primeros términos",
+      "de": "Summe der ersten n Glieder",
+      "pt": "Soma dos n primeiros termos",
+      "ru": "Сумма первых n членов"
+     },
+     "latex": {
+      "sr": "S_n = a_1 \\frac{q^n - 1}{q - 1}, \\quad q \\neq 1",
+      "en": "S_n = a_1 \\frac{r^n - 1}{r - 1}, \\quad r \\neq 1",
+      "it": "S_n = a_1 \\frac{q^n - 1}{q - 1}, \\quad q \\neq 1",
+      "fr": "S_n = a_1 \\frac{q^n - 1}{q - 1}, \\quad q \\neq 1",
+      "es": "S_n = a_1 \\frac{r^n - 1}{r - 1}, \\quad r \\neq 1",
+      "de": "S_n = a_1 \\frac{q^n - 1}{q - 1}, \\quad q \\neq 1",
+      "pt": "S_n = a_1 \\frac{q^n - 1}{q - 1}, \\quad q \\neq 1",
+      "ru": "S_n = a_1 \\frac{q^n - 1}{q - 1}, \\quad q \\neq 1"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Beskonačni geometrijski red",
+      "en": "Infinite geometric series",
+      "it": "Serie geometrica",
+      "fr": "Série géométrique",
+      "es": "Serie geométrica infinita",
+      "de": "Unendliche geometrische Reihe",
+      "pt": "Série geométrica infinita",
+      "ru": "Бесконечно убывающая прогрессия"
+     },
+     "latex": {
+      "sr": "S = \\frac{a_1}{1 - q}, \\quad |q| < 1",
+      "en": "S = \\frac{a_1}{1 - r}, \\quad |r| < 1",
+      "it": "S = \\frac{a_1}{1 - q}, \\quad |q| < 1",
+      "fr": "S = \\frac{a_1}{1 - q}, \\quad |q| < 1",
+      "es": "S = \\frac{a_1}{1 - r}, \\quad |r| < 1",
+      "de": "S = \\frac{a_1}{1 - q}, \\quad |q| < 1",
+      "pt": "S = \\frac{a_1}{1 - q}, \\quad |q| < 1",
+      "ru": "S = \\frac{a_1}{1 - q}, \\quad |q| < 1"
+     }
+    }
+   ],
+   "kalkulator": {
+    "ulazi": [
+     {
+      "id": "a1",
+      "oznaka": "a_1",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 2
+     },
+     {
+      "id": "q",
+      "oznaka": {
+       "sr": "q",
+       "en": "r",
+       "it": "q",
+       "fr": "q",
+       "es": "r",
+       "de": "q",
+       "pt": "q",
+       "ru": "q"
+      },
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 3
+     },
+     {
+      "id": "n",
+      "oznaka": "n",
+      "naziv": {
+       "sr": "",
+       "en": "",
+       "it": "",
+       "fr": "",
+       "es": "",
+       "de": "",
+       "pt": "",
+       "ru": ""
+      },
+      "pocetna": 8,
+      "ceo": true
+     }
+    ],
+    "izlazi": [
+     {
+      "naziv": {
+       "sr": "aₙ",
+       "en": "aₙ",
+       "it": "aₙ",
+       "fr": "aₙ",
+       "es": "aₙ",
+       "de": "aₙ",
+       "pt": "aₙ",
+       "ru": "aₙ"
+      },
+      "izraz": "a1*pow(q,n-1)"
+     },
+     {
+      "naziv": {
+       "sr": "Sₙ",
+       "en": "Sₙ",
+       "it": "Sₙ",
+       "fr": "Sₙ",
+       "es": "Sₙ",
+       "de": "Sₙ",
+       "pt": "Sₙ",
+       "ru": "Sₙ"
+      },
+      "izraz": "q===1 ? a1*n : a1*(pow(q,n)-1)/(q-1)"
+     },
+     {
+      "naziv": {
+       "sr": "S (∞)",
+       "en": "S (∞)",
+       "it": "S (∞)",
+       "fr": "S (∞)",
+       "es": "S (∞)",
+       "de": "S (∞)",
+       "pt": "S (∞)",
+       "ru": "S (∞)"
+      },
+      "izraz": "abs(q)<1 ? a1/(1-q) : NaN"
+     }
+    ]
+   }
+  }
+ ]
+}

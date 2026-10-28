@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Formulix</string>
+    <string name="podnaslov">Math in your pocket</string>
+    <string name="pretraga_hint">Search formulas… (e.g. cone, integral)</string>
+    <string name="obrisi_pretragu">Clear search</string>
+    <string name="oblasti">Topics</string>
+    <string name="nema_rezultata">No results</string>
+    <string name="oblast_aritmetika">Arithmetic</string>
+    <string name="opis_aritmetika">Percentages, fractions</string>
+    <string name="oblast_algebra">Algebra</string>
+    <string name="opis_algebra">Equations, logarithms</string>
+    <string name="oblast_planimetrija">Plane geometry</string>
+    <string name="opis_planimetrija">Perimeter and area</string>
+    <string name="oblast_stereometrija">Solid geometry</string>
+    <string name="opis_stereometrija">Surface area, volume</string>
+    <string name="oblast_trigonometrija">Trigonometry</string>
+    <string name="opis_trigonometrija">Laws, identities</string>
+    <string name="oblast_analiza">Calculus</string>
+    <string name="opis_analiza">Derivatives, integrals</string>
+    <string name="oblast_analiticka_geometrija">Analytic geometry</string>
+    <string name="opis_analiticka_geometrija">Lines, conic sections</string>
+    <string name="oblast_kombinatorika">Combinatorics</string>
+    <string name="opis_kombinatorika">Probability, sequences</string>
+    <string name="rezultati">Results</string>
+    <string name="nazad">Back</string>
+    <string name="uskoro_oblast">Formulas for this topic are coming soon.</string>
+</resources>
