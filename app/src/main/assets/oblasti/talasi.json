@@ -1,0 +1,2923 @@
+{
+ "oblast": "talasi",
+ "teme": [
+  {
+   "id": "harmonijsko",
+   "simbol": "s(t)",
+   "naziv": {
+    "sr": "Harmonijsko oscilovanje",
+    "en": "Simple harmonic motion",
+    "it": "Moto armonico",
+    "fr": "Oscillations harmoniques",
+    "es": "Movimiento armónico simple",
+    "de": "Harmonische Schwingung",
+    "pt": "Movimento harmônico simples",
+    "ru": "Гармонические колебания"
+   },
+   "opis": {
+    "sr": "Elongacija, brzina, ubrzanje",
+    "en": "Displacement, velocity, acceleration",
+    "it": "Spostamento, velocità, accelerazione",
+    "fr": "Élongation, vitesse, accélération",
+    "es": "Elongación, velocidad, aceleración",
+    "de": "Auslenkung, Geschwindigkeit, Beschleunigung",
+    "pt": "Elongação, velocidade, aceleração",
+    "ru": "Смещение, скорость, ускорение"
+   },
+   "kljucne_reci": {
+    "sr": "harmonijsko oscilovanje elongacija amplituda period frekvencija energija oscilovanja",
+    "en": "simple harmonic motion displacement amplitude period frequency energy",
+    "it": "moto armonico elongazione ampiezza periodo frequenza energia",
+    "fr": "oscillation harmonique elongation amplitude periode frequence energie",
+    "es": "movimiento armonico simple elongacion amplitud periodo frecuencia energia",
+    "de": "harmonische schwingung auslenkung amplitude periode frequenz energie",
+    "pt": "movimento harmonico simples elongacao amplitude periodo frequencia energia",
+    "ru": "гармонические колебания смещение амплитуда период частота энергия"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Elongacija, brzina i ubrzanje",
+      "en": "Displacement, velocity and acceleration",
+      "it": "Spostamento, velocità e accelerazione",
+      "fr": "Élongation, vitesse et accélération",
+      "es": "Elongación, velocidad y aceleración",
+      "de": "Auslenkung, Geschwindigkeit und Beschleunigung",
+      "pt": "Elongação, velocidade e aceleração",
+      "ru": "Смещение, скорость и ускорение"
+     },
+     "latex": "s(t) = s_0 \\sin\\omega t, \\quad v(t) = \\omega s_0 \\cos\\omega t, \\quad a(t) = -\\omega^2 s(t)",
+     "objasnjenje": {
+      "sr": "Ubrzanje je uvek usmereno ka ravnotežnom položaju i srazmerno elongaciji.",
+      "en": "The acceleration always points to the equilibrium position and is proportional to the displacement.",
+      "it": "L’accelerazione è sempre diretta verso l’equilibrio ed è proporzionale allo spostamento.",
+      "fr": "L’accélération est toujours dirigée vers l’équilibre et proportionnelle à l’élongation.",
+      "es": "La aceleración apunta siempre al equilibrio y es proporcional a la elongación.",
+      "de": "Die Beschleunigung zeigt stets zur Ruhelage und ist proportional zur Auslenkung.",
+      "pt": "A aceleração aponta sempre para o equilíbrio e é proporcional à elongação.",
+      "ru": "Ускорение всегда направлено к положению равновесия и пропорционально смещению."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Period i frekvencija",
+      "en": "Period and frequency",
+      "it": "Periodo e frequenza",
+      "fr": "Période et fréquence",
+      "es": "Período y frecuencia",
+      "de": "Periode und Frequenz",
+      "pt": "Período e frequência",
+      "ru": "Период и частота"
+     },
+     "latex": {
+      "sr": "\\omega = 2\\pi f = \\frac{2\\pi}{T}",
+      "en": "\\omega = 2\\pi f = \\frac{2\\pi}{T}",
+      "it": "\\omega = 2\\pi f = \\frac{2\\pi}{T}",
+      "fr": "\\omega = 2\\pi f = \\frac{2\\pi}{T}",
+      "es": "\\omega = 2\\pi f = \\frac{2\\pi}{T}",
+      "de": "\\omega = 2\\pi f = \\frac{2\\pi}{T}",
+      "pt": "\\omega = 2\\pi f = \\frac{2\\pi}{T}",
+      "ru": "\\omega = 2\\pi \\nu = \\frac{2\\pi}{T}"
+     },
+     "objasnjenje": {
+      "sr": "Isto kao kod kružnog kretanja.",
+      "en": "Same as for circular motion.",
+      "it": "Come nel moto circolare.",
+      "fr": "Comme pour le mouvement circulaire.",
+      "es": "Igual que en el movimiento circular.",
+      "de": "Wie bei der Kreisbewegung.",
+      "pt": "Igual ao movimento circular.",
+      "ru": "Как при движении по окружности."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Energija",
+      "en": "Energy",
+      "it": "Energia",
+      "fr": "Énergie",
+      "es": "Energía",
+      "de": "Energie",
+      "pt": "Energia",
+      "ru": "Энергия"
+     },
+     "latex": "W = \\frac{k s_0^2}{2} = \\frac{m v_0^2}{2}",
+     "objasnjenje": {
+      "sr": "Ukupna energija je stalna: prelazi iz potencijalne u kinetičku i nazad.",
+      "en": "Total energy is constant: it changes from potential to kinetic and back.",
+      "it": "L’energia totale è costante: passa da potenziale a cinetica e viceversa.",
+      "fr": "L’énergie totale est constante : elle passe de potentielle à cinétique et inversement.",
+      "es": "La energía total es constante: pasa de potencial a cinética y viceversa.",
+      "de": "Die Gesamtenergie ist konstant: sie wandelt sich zwischen Spann- und Bewegungsenergie.",
+      "pt": "A energia total é constante: passa de potencial a cinética e vice-versa.",
+      "ru": "Полная энергия постоянна: переходит из потенциальной в кинетическую и обратно."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "v0": {
+      "oznaka": "v_0",
+      "naziv": {
+       "sr": "najveća brzina",
+       "en": "maximum velocity",
+       "it": "velocità massima",
+       "fr": "vitesse maximale",
+       "es": "velocidad máxima",
+       "de": "Maximalgeschwindigkeit",
+       "pt": "velocidade máxima",
+       "ru": "максимальная скорость"
+      },
+      "vrsta": "brzina",
+      "poz": true
+     },
+     "s0": {
+      "oznaka": "s_0",
+      "naziv": {
+       "sr": "amplituda",
+       "en": "amplitude",
+       "it": "ampiezza",
+       "fr": "amplitude",
+       "es": "amplitud",
+       "de": "Amplitude",
+       "pt": "amplitude",
+       "ru": "амплитуда"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.05,
+      "jed": "cm",
+      "poz": true
+     },
+     "om": {
+      "oznaka": "\\omega",
+      "naziv": {
+       "sr": "kružna frekvencija",
+       "en": "angular frequency",
+       "it": "pulsazione",
+       "fr": "pulsation",
+       "es": "frecuencia angular",
+       "de": "Kreisfrequenz",
+       "pt": "frequência angular",
+       "ru": "циклическая частота"
+      },
+      "vrsta": "ugaonaBrzina",
+      "pocetna": 6.283185307179586,
+      "poz": true
+     },
+     "a0": {
+      "oznaka": "a_0",
+      "naziv": {
+       "sr": "najveće ubrzanje",
+       "en": "maximum acceleration",
+       "it": "accelerazione massima",
+       "fr": "accélération maximale",
+       "es": "aceleración máxima",
+       "de": "Maximalbeschleunigung",
+       "pt": "aceleração máxima",
+       "ru": "максимальное ускорение"
+      },
+      "vrsta": "ubrzanje",
+      "poz": true
+     },
+     "T": {
+      "oznaka": "T",
+      "naziv": {
+       "sr": "period",
+       "en": "period",
+       "it": "periodo",
+       "fr": "période",
+       "es": "período",
+       "de": "Periode",
+       "pt": "período",
+       "ru": "период"
+      },
+      "vrsta": "vreme",
+      "poz": true
+     },
+     "f": {
+      "oznaka": {
+       "sr": "f",
+       "en": "f",
+       "it": "f",
+       "fr": "f",
+       "es": "f",
+       "de": "f",
+       "pt": "f",
+       "ru": "\\nu"
+      },
+      "naziv": {
+       "sr": "frekvencija",
+       "en": "frequency",
+       "it": "frequenza",
+       "fr": "fréquence",
+       "es": "frecuencia",
+       "de": "Frequenz",
+       "pt": "frequência",
+       "ru": "частота"
+      },
+      "vrsta": "frekvencija",
+      "pocetna": 1,
+      "poz": true
+     },
+     "W": {
+      "oznaka": "W",
+      "naziv": {
+       "sr": "energija oscilovanja",
+       "en": "energy of oscillation",
+       "it": "energia dell’oscillazione",
+       "fr": "énergie de l’oscillation",
+       "es": "energía de la oscilación",
+       "de": "Schwingungsenergie",
+       "pt": "energia da oscilação",
+       "ru": "энергия колебаний"
+      },
+      "vrsta": "energija",
+      "poz": true
+     },
+     "k": {
+      "oznaka": "k",
+      "naziv": {
+       "sr": "konstanta opruge",
+       "en": "spring constant",
+       "it": "costante elastica",
+       "fr": "raideur",
+       "es": "constante del resorte",
+       "de": "Federkonstante",
+       "pt": "constante elástica",
+       "ru": "жёсткость пружины"
+      },
+      "vrsta": "krutost",
+      "pocetna": 100,
+      "poz": true
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 0.5,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "v_0 = \\omega s_0",
+      "trazi": "v0",
+      "resenja": {
+       "v0": "om*s0",
+       "om": "v0/s0",
+       "s0": "v0/om"
+      }
+     },
+     {
+      "latex": "a_0 = \\omega^2 s_0",
+      "trazi": "a0",
+      "resenja": {
+       "a0": "om*om*s0",
+       "om": "sqrt(a0/s0)",
+       "s0": "a0/(om*om)"
+      }
+     },
+     {
+      "latex": "\\omega = \\dfrac{2\\pi}{T}",
+      "trazi": "T",
+      "resenja": {
+       "om": "2*PI/T",
+       "T": "2*PI/om"
+      }
+     },
+     {
+      "latex": "W = \\dfrac{k s_0^2}{2}",
+      "trazi": "W",
+      "resenja": {
+       "W": "k*s0*s0/2",
+       "k": "2*W/(s0*s0)",
+       "s0": "sqrt(2*W/k)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "klatna",
+   "simbol": "T",
+   "naziv": {
+    "sr": "Opruga i klatna",
+    "en": "Spring and pendulums",
+    "it": "Molla e pendoli",
+    "fr": "Ressort et pendules",
+    "es": "Resorte y péndulos",
+    "de": "Feder und Pendel",
+    "pt": "Mola e pêndulos",
+    "ru": "Пружинный и другие маятники"
+   },
+   "opis": {
+    "sr": "Period oscilovanja",
+    "en": "Period of oscillation",
+    "it": "Periodo di oscillazione",
+    "fr": "Période d’oscillation",
+    "es": "Período de oscilación",
+    "de": "Schwingungsdauer",
+    "pt": "Período de oscilação",
+    "ru": "Период колебаний"
+   },
+   "kljucne_reci": {
+    "sr": "klatno matematicko fizicko torziono opruga period oscilovanja",
+    "en": "pendulum simple physical torsion spring mass period",
+    "it": "pendolo semplice fisico torsione molla periodo",
+    "fr": "pendule simple pesant de torsion ressort periode",
+    "es": "pendulo simple fisico de torsion resorte periodo",
+    "de": "pendel fadenpendel physikalisches torsionspendel federpendel schwingungsdauer",
+    "pt": "pendulo simples fisico de torcao mola periodo",
+    "ru": "маятник математический физический крутильный пружинный период"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Telo na opruzi",
+      "en": "Mass on a spring",
+      "it": "Massa su una molla",
+      "fr": "Masse sur un ressort",
+      "es": "Masa en un resorte",
+      "de": "Federpendel",
+      "pt": "Massa numa mola",
+      "ru": "Пружинный маятник"
+     },
+     "latex": "T = 2\\pi \\sqrt{\\frac{m}{k}}",
+     "objasnjenje": {
+      "sr": "Ne zavisi od amplitude ni od g.",
+      "en": "Independent of amplitude and of g.",
+      "it": "Non dipende dall’ampiezza né da g.",
+      "fr": "Indépendante de l’amplitude et de g.",
+      "es": "No depende de la amplitud ni de g.",
+      "de": "Unabhängig von Amplitude und g.",
+      "pt": "Não depende da amplitude nem de g.",
+      "ru": "Не зависит от амплитуды и от g."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Matematičko klatno",
+      "en": "Simple pendulum",
+      "it": "Pendolo semplice",
+      "fr": "Pendule simple",
+      "es": "Péndulo simple",
+      "de": "Fadenpendel",
+      "pt": "Pêndulo simples",
+      "ru": "Математический маятник"
+     },
+     "latex": "T = 2\\pi \\sqrt{\\frac{l}{g}}",
+     "objasnjenje": {
+      "sr": "Za male uglove (do oko 10°); ne zavisi od mase.",
+      "en": "For small angles (up to about 10°); independent of mass.",
+      "it": "Per piccoli angoli (fino a circa 10°); non dipende dalla massa.",
+      "fr": "Pour de petits angles (jusqu’à environ 10°) ; indépendante de la masse.",
+      "es": "Para ángulos pequeños (hasta unos 10°); no depende de la masa.",
+      "de": "Für kleine Winkel (bis etwa 10°); unabhängig von der Masse.",
+      "pt": "Para ângulos pequenos (até cerca de 10°); não depende da massa.",
+      "ru": "Для малых углов (до ~10°); не зависит от массы."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Fizičko klatno",
+      "en": "Physical pendulum",
+      "it": "Pendolo fisico",
+      "fr": "Pendule pesant",
+      "es": "Péndulo físico",
+      "de": "Physikalisches Pendel",
+      "pt": "Pêndulo físico",
+      "ru": "Физический маятник"
+     },
+     "latex": {
+      "sr": "T = 2\\pi \\sqrt{\\frac{I}{m g d}}",
+      "en": "T = 2\\pi \\sqrt{\\frac{I}{m g d}}",
+      "it": "T = 2\\pi \\sqrt{\\frac{I}{m g d}}",
+      "fr": "T = 2\\pi \\sqrt{\\frac{J}{m g d}}",
+      "es": "T = 2\\pi \\sqrt{\\frac{I}{m g d}}",
+      "de": "T = 2\\pi \\sqrt{\\frac{J}{m g d}}",
+      "pt": "T = 2\\pi \\sqrt{\\frac{I}{m g d}}",
+      "ru": "T = 2\\pi \\sqrt{\\frac{J}{m g d}}"
+     },
+     "objasnjenje": {
+      "sr": "Kruto telo koje se njiše oko ose na rastojanju d od težišta.",
+      "en": "A rigid body swinging about an axis at distance d from its centre of mass.",
+      "it": "Corpo rigido che oscilla attorno a un asse a distanza d dal baricentro.",
+      "fr": "Solide oscillant autour d’un axe à la distance d du centre de masse.",
+      "es": "Sólido que oscila en torno a un eje a distancia d del centro de masas.",
+      "de": "Starrer Körper, der um eine Achse im Abstand d vom Schwerpunkt schwingt.",
+      "pt": "Corpo rígido oscilando em torno de um eixo à distância d do centro de massa.",
+      "ru": "Твёрдое тело, качающееся вокруг оси на расстоянии d от центра масс."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Torziono klatno",
+      "en": "Torsion pendulum",
+      "it": "Pendolo di torsione",
+      "fr": "Pendule de torsion",
+      "es": "Péndulo de torsión",
+      "de": "Torsionspendel",
+      "pt": "Pêndulo de torção",
+      "ru": "Крутильный маятник"
+     },
+     "latex": {
+      "sr": "T = 2\\pi \\sqrt{\\frac{I}{D}}",
+      "en": "T = 2\\pi \\sqrt{\\frac{I}{D}}",
+      "it": "T = 2\\pi \\sqrt{\\frac{I}{D}}",
+      "fr": "T = 2\\pi \\sqrt{\\frac{J}{D}}",
+      "es": "T = 2\\pi \\sqrt{\\frac{I}{D}}",
+      "de": "T = 2\\pi \\sqrt{\\frac{J}{D}}",
+      "pt": "T = 2\\pi \\sqrt{\\frac{I}{D}}",
+      "ru": "T = 2\\pi \\sqrt{\\frac{J}{D}}"
+     },
+     "objasnjenje": {
+      "sr": "D je torziona konstanta žice.",
+      "en": "D is the torsion constant of the wire.",
+      "it": "D è la costante di torsione del filo.",
+      "fr": "D est la constante de torsion du fil.",
+      "es": "D es la constante de torsión del hilo.",
+      "de": "D ist das Richtmoment des Drahtes.",
+      "pt": "D é a constante de torção do fio.",
+      "ru": "D — крутильная жёсткость нити."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "T": {
+      "oznaka": "T",
+      "naziv": {
+       "sr": "period",
+       "en": "period",
+       "it": "periodo",
+       "fr": "période",
+       "es": "período",
+       "de": "Periode",
+       "pt": "período",
+       "ru": "период"
+      },
+      "vrsta": "vreme",
+      "poz": true
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 0.5,
+      "poz": true
+     },
+     "k": {
+      "oznaka": "k",
+      "naziv": {
+       "sr": "konstanta opruge",
+       "en": "spring constant",
+       "it": "costante elastica",
+       "fr": "raideur",
+       "es": "constante del resorte",
+       "de": "Federkonstante",
+       "pt": "constante elástica",
+       "ru": "жёсткость пружины"
+      },
+      "vrsta": "krutost",
+      "pocetna": 50,
+      "poz": true
+     },
+     "l": {
+      "oznaka": "l",
+      "naziv": {
+       "sr": "dužina klatna",
+       "en": "length of the pendulum",
+       "it": "lunghezza del pendolo",
+       "fr": "longueur du pendule",
+       "es": "longitud del péndulo",
+       "de": "Pendellänge",
+       "pt": "comprimento do pêndulo",
+       "ru": "длина маятника"
+      },
+      "vrsta": "duzina",
+      "pocetna": 1,
+      "poz": true
+     },
+     "g": {
+      "oznaka": "g",
+      "naziv": {
+       "sr": "ubrzanje Zemljine teže",
+       "en": "gravitational acceleration",
+       "it": "accelerazione di gravità",
+       "fr": "intensité de la pesanteur",
+       "es": "aceleración de la gravedad",
+       "de": "Fallbeschleunigung",
+       "pt": "aceleração da gravidade",
+       "ru": "ускорение свободного падения"
+      },
+      "vrsta": "ubrzanje",
+      "pocetna": 9.81,
+      "poz": true
+     },
+     "I": {
+      "oznaka": {
+       "sr": "I",
+       "en": "I",
+       "it": "I",
+       "fr": "J",
+       "es": "I",
+       "de": "J",
+       "pt": "I",
+       "ru": "J"
+      },
+      "naziv": {
+       "sr": "moment inercije",
+       "en": "moment of inertia",
+       "it": "momento d’inerzia",
+       "fr": "moment d’inertie",
+       "es": "momento de inercia",
+       "de": "Trägheitsmoment",
+       "pt": "momento de inércia",
+       "ru": "момент инерции"
+      },
+      "vrsta": "momentInercije",
+      "pocetna": 0.1,
+      "poz": true
+     },
+     "d": {
+      "oznaka": "d",
+      "naziv": {
+       "sr": "rastojanje ose od težišta",
+       "en": "distance from axis to centre of mass",
+       "it": "distanza asse–baricentro",
+       "fr": "distance axe–centre de masse",
+       "es": "distancia eje–centro de masas",
+       "de": "Abstand Achse–Schwerpunkt",
+       "pt": "distância eixo–centro de massa",
+       "ru": "расстояние от оси до центра масс"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.2,
+      "poz": true
+     },
+     "D": {
+      "oznaka": "D",
+      "naziv": {
+       "sr": "torziona konstanta",
+       "en": "torsion constant",
+       "it": "costante di torsione",
+       "fr": "constante de torsion",
+       "es": "constante de torsión",
+       "de": "Richtmoment",
+       "pt": "constante de torção",
+       "ru": "крутильная жёсткость"
+      },
+      "vrsta": "torzija",
+      "pocetna": 0.5,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "T = 2\\pi \\sqrt{\\dfrac{m}{k}}",
+      "trazi": "T",
+      "resenja": {
+       "T": "2*PI*sqrt(m/k)",
+       "m": "k*pow(T/(2*PI), 2)",
+       "k": "m/pow(T/(2*PI), 2)"
+      }
+     },
+     {
+      "latex": "T = 2\\pi \\sqrt{\\dfrac{l}{g}}",
+      "trazi": "T",
+      "resenja": {
+       "T": "2*PI*sqrt(l/g)",
+       "l": "g*pow(T/(2*PI), 2)",
+       "g": "l/pow(T/(2*PI), 2)"
+      }
+     },
+     {
+      "latex": {
+       "sr": "T = 2\\pi \\sqrt{\\dfrac{I}{m g d}}",
+       "en": "T = 2\\pi \\sqrt{\\dfrac{I}{m g d}}",
+       "it": "T = 2\\pi \\sqrt{\\dfrac{I}{m g d}}",
+       "fr": "T = 2\\pi \\sqrt{\\dfrac{J}{m g d}}",
+       "es": "T = 2\\pi \\sqrt{\\dfrac{I}{m g d}}",
+       "de": "T = 2\\pi \\sqrt{\\dfrac{J}{m g d}}",
+       "pt": "T = 2\\pi \\sqrt{\\dfrac{I}{m g d}}",
+       "ru": "T = 2\\pi \\sqrt{\\dfrac{J}{m g d}}"
+      },
+      "trazi": "T",
+      "resenja": {
+       "T": "2*PI*sqrt(I/(m*g*d))",
+       "I": "m*g*d*pow(T/(2*PI), 2)",
+       "d": "I/(m*g*pow(T/(2*PI), 2))",
+       "m": "I/(g*d*pow(T/(2*PI), 2))"
+      },
+      "promenljive": [
+       "T",
+       "I",
+       "m",
+       "g",
+       "d"
+      ]
+     },
+     {
+      "latex": {
+       "sr": "T = 2\\pi \\sqrt{\\dfrac{I}{D}}",
+       "en": "T = 2\\pi \\sqrt{\\dfrac{I}{D}}",
+       "it": "T = 2\\pi \\sqrt{\\dfrac{I}{D}}",
+       "fr": "T = 2\\pi \\sqrt{\\dfrac{J}{D}}",
+       "es": "T = 2\\pi \\sqrt{\\dfrac{I}{D}}",
+       "de": "T = 2\\pi \\sqrt{\\dfrac{J}{D}}",
+       "pt": "T = 2\\pi \\sqrt{\\dfrac{I}{D}}",
+       "ru": "T = 2\\pi \\sqrt{\\dfrac{J}{D}}"
+      },
+      "trazi": "T",
+      "resenja": {
+       "T": "2*PI*sqrt(I/D)",
+       "I": "D*pow(T/(2*PI), 2)",
+       "D": "I/pow(T/(2*PI), 2)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "lc_kolo",
+   "simbol": "LC",
+   "naziv": {
+    "sr": "Električno oscilatorno kolo",
+    "en": "LC circuit",
+    "it": "Circuito LC",
+    "fr": "Circuit LC",
+    "es": "Circuito LC",
+    "de": "LC-Schwingkreis",
+    "pt": "Circuito LC",
+    "ru": "Колебательный контур"
+   },
+   "opis": {
+    "sr": "Tomsonova formula",
+    "en": "Thomson’s formula",
+    "it": "Formula di Thomson",
+    "fr": "Formule de Thomson",
+    "es": "Fórmula de Thomson",
+    "de": "Thomsonsche Formel",
+    "pt": "Fórmula de Thomson",
+    "ru": "Формула Томсона"
+   },
+   "kljucne_reci": {
+    "sr": "oscilatorno kolo lc kolo tomsonova formula rezonantna frekvencija kondenzator kalem radio",
+    "en": "lc circuit oscillator resonant frequency thomson capacitor inductor radio",
+    "it": "circuito lc oscillante frequenza di risonanza thomson",
+    "fr": "circuit lc oscillant frequence propre thomson",
+    "es": "circuito lc oscilante frecuencia de resonancia thomson",
+    "de": "lc schwingkreis resonanzfrequenz thomson",
+    "pt": "circuito lc oscilador frequencia de ressonancia thomson",
+    "ru": "колебательный контур формула томсона резонансная частота"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Period oscilovanja",
+      "en": "Period of oscillation",
+      "it": "Periodo di oscillazione",
+      "fr": "Période propre",
+      "es": "Período de oscilación",
+      "de": "Schwingungsdauer",
+      "pt": "Período de oscilação",
+      "ru": "Период колебаний"
+     },
+     "latex": {
+      "sr": "T = 2\\pi \\sqrt{L C}, \\quad f = \\frac{1}{2\\pi\\sqrt{L C}}",
+      "en": "T = 2\\pi \\sqrt{L C}, \\quad f = \\frac{1}{2\\pi\\sqrt{L C}}",
+      "it": "T = 2\\pi \\sqrt{L C}, \\quad f = \\frac{1}{2\\pi\\sqrt{L C}}",
+      "fr": "T = 2\\pi \\sqrt{L C}, \\quad f = \\frac{1}{2\\pi\\sqrt{L C}}",
+      "es": "T = 2\\pi \\sqrt{L C}, \\quad f = \\frac{1}{2\\pi\\sqrt{L C}}",
+      "de": "T = 2\\pi \\sqrt{L C}, \\quad f = \\frac{1}{2\\pi\\sqrt{L C}}",
+      "pt": "T = 2\\pi \\sqrt{L C}, \\quad f = \\frac{1}{2\\pi\\sqrt{L C}}",
+      "ru": "T = 2\\pi \\sqrt{L C}, \\quad \\nu = \\frac{1}{2\\pi\\sqrt{L C}}"
+     },
+     "objasnjenje": {
+      "sr": "Energija prelazi iz električnog polja kondenzatora u magnetno polje kalema i nazad.",
+      "en": "Energy passes from the capacitor’s electric field to the coil’s magnetic field and back.",
+      "it": "L’energia passa dal campo elettrico del condensatore al campo magnetico della bobina e ritorno.",
+      "fr": "L’énergie passe du champ électrique du condensateur au champ magnétique de la bobine et inversement.",
+      "es": "La energía pasa del campo eléctrico del condensador al magnético de la bobina y viceversa.",
+      "de": "Die Energie pendelt zwischen dem elektrischen Feld des Kondensators und dem Magnetfeld der Spule.",
+      "pt": "A energia passa do campo elétrico do capacitor ao campo magnético da bobina e volta.",
+      "ru": "Энергия переходит из электрического поля конденсатора в магнитное поле катушки и обратно."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Energija kola",
+      "en": "Energy of the circuit",
+      "it": "Energia del circuito",
+      "fr": "Énergie du circuit",
+      "es": "Energía del circuito",
+      "de": "Energie des Schwingkreises",
+      "pt": "Energia do circuito",
+      "ru": "Энергия контура"
+     },
+     "latex": "W = \\frac{C U_0^2}{2} = \\frac{L I_0^2}{2}",
+     "objasnjenje": {
+      "sr": "U₀ i I₀ su najveći napon i najveća struja.",
+      "en": "U₀ and I₀ are the peak voltage and current.",
+      "it": "U₀ e I₀ sono tensione e corrente massime.",
+      "fr": "U₀ et I₀ sont la tension et le courant maximaux.",
+      "es": "U₀ e I₀ son la tensión y corriente máximas.",
+      "de": "U₀ und I₀ sind Scheitelspannung und -strom.",
+      "pt": "U₀ e I₀ são a tensão e corrente máximas.",
+      "ru": "U₀ и I₀ — амплитуды напряжения и тока."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "f": {
+      "oznaka": {
+       "sr": "f",
+       "en": "f",
+       "it": "f",
+       "fr": "f",
+       "es": "f",
+       "de": "f",
+       "pt": "f",
+       "ru": "\\nu"
+      },
+      "naziv": {
+       "sr": "frekvencija",
+       "en": "frequency",
+       "it": "frequenza",
+       "fr": "fréquence",
+       "es": "frecuencia",
+       "de": "Frequenz",
+       "pt": "frequência",
+       "ru": "частота"
+      },
+      "vrsta": "frekvencija",
+      "jed": "kHz",
+      "poz": true
+     },
+     "L": {
+      "oznaka": "L",
+      "naziv": {
+       "sr": "induktivnost",
+       "en": "inductance",
+       "it": "induttanza",
+       "fr": "inductance",
+       "es": "inductancia",
+       "de": "Induktivität",
+       "pt": "indutância",
+       "ru": "индуктивность"
+      },
+      "vrsta": "induktivnost",
+      "pocetna": 0.001,
+      "jed": "mH",
+      "poz": true
+     },
+     "C": {
+      "oznaka": "C",
+      "naziv": {
+       "sr": "kapacitet",
+       "en": "capacitance",
+       "it": "capacità",
+       "fr": "capacité",
+       "es": "capacidad",
+       "de": "Kapazität",
+       "pt": "capacitância",
+       "ru": "ёмкость"
+      },
+      "vrsta": "kapacitet",
+      "pocetna": 1e-09,
+      "jed": "nF",
+      "poz": true
+     },
+     "T": {
+      "oznaka": "T",
+      "naziv": {
+       "sr": "period",
+       "en": "period",
+       "it": "periodo",
+       "fr": "période",
+       "es": "período",
+       "de": "Periode",
+       "pt": "período",
+       "ru": "период"
+      },
+      "vrsta": "vreme",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "f = \\dfrac{1}{2\\pi\\sqrt{L C}}",
+       "en": "f = \\dfrac{1}{2\\pi\\sqrt{L C}}",
+       "it": "f = \\dfrac{1}{2\\pi\\sqrt{L C}}",
+       "fr": "f = \\dfrac{1}{2\\pi\\sqrt{L C}}",
+       "es": "f = \\dfrac{1}{2\\pi\\sqrt{L C}}",
+       "de": "f = \\dfrac{1}{2\\pi\\sqrt{L C}}",
+       "pt": "f = \\dfrac{1}{2\\pi\\sqrt{L C}}",
+       "ru": "\\nu = \\dfrac{1}{2\\pi\\sqrt{L C}}"
+      },
+      "trazi": "f",
+      "resenja": {
+       "f": "1/(2*PI*sqrt(L*C))",
+       "L": "1/(C*pow(2*PI*f, 2))",
+       "C": "1/(L*pow(2*PI*f, 2))"
+      }
+     },
+     {
+      "latex": "T = 2\\pi \\sqrt{L C}",
+      "trazi": "T",
+      "resenja": {
+       "T": "2*PI*sqrt(L*C)",
+       "L": "pow(T/(2*PI), 2)/C",
+       "C": "pow(T/(2*PI), 2)/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "talasi",
+   "simbol": "λ",
+   "naziv": {
+    "sr": "Talasi",
+    "en": "Waves",
+    "it": "Onde",
+    "fr": "Ondes",
+    "es": "Ondas",
+    "de": "Wellen",
+    "pt": "Ondas",
+    "ru": "Волны"
+   },
+   "opis": {
+    "sr": "Talasna dužina, brzina talasa",
+    "en": "Wavelength, wave speed",
+    "it": "Lunghezza d’onda, velocità",
+    "fr": "Longueur d’onde, célérité",
+    "es": "Longitud de onda, velocidad",
+    "de": "Wellenlänge, Ausbreitungsgeschwindigkeit",
+    "pt": "Comprimento de onda, velocidade",
+    "ru": "Длина волны, скорость волны"
+   },
+   "kljucne_reci": {
+    "sr": "talas talasna duzina frekvencija brzina talasa brzina zvuka zica talasni broj faza",
+    "en": "wave wavelength frequency wave speed speed of sound string wavenumber phase",
+    "it": "onda lunghezza d onda frequenza velocita del suono corda",
+    "fr": "onde longueur d onde frequence celerite vitesse du son corde",
+    "es": "onda longitud de onda frecuencia velocidad del sonido cuerda",
+    "de": "welle wellenlange frequenz schallgeschwindigkeit saite wellenzahl",
+    "pt": "onda comprimento de onda frequencia velocidade do som corda",
+    "ru": "волна длина волны частота скорость звука струна волновое число"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 150\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"10\" y1=\"75\" x2=\"290\" y2=\"75\"/><path class=\"osa-s\" d=\"M290,75 l-7,-4 v8 Z\"/><polyline class=\"kriva\" points=\"20.0,75.0 23.0,68.4 26.0,62.0 29.0,55.9 32.0,50.3 35.0,45.3 38.0,41.0 41.0,37.6 44.0,35.1 47.0,33.5 50.0,33.0 53.0,33.5 56.0,35.1 59.0,37.6 62.0,41.0 65.0,45.3 68.0,50.3 71.0,55.9 74.0,62.0 77.0,68.4 80.0,75.0 83.0,81.6 86.0,88.0 89.0,94.1 92.0,99.7 95.0,104.7 98.0,109.0 101.0,112.4 104.0,114.9 107.0,116.5 110.0,117.0 113.0,116.5 116.0,114.9 119.0,112.4 122.0,109.0 125.0,104.7 128.0,99.7 131.0,94.1 134.0,88.0 137.0,81.6 140.0,75.0 143.0,68.4 146.0,62.0 149.0,55.9 152.0,50.3 155.0,45.3 158.0,41.0 161.0,37.6 164.0,35.1 167.0,33.5 170.0,33.0 173.0,33.5 176.0,35.1 179.0,37.6 182.0,41.0 185.0,45.3 188.0,50.3 191.0,55.9 194.0,62.0 197.0,68.4 200.0,75.0 203.0,81.6 206.0,88.0 209.0,94.1 212.0,99.7 215.0,104.7 218.0,109.0 221.0,112.4 224.0,114.9 227.0,116.5 230.0,117.0 233.0,116.5 236.0,114.9 239.0,112.4 242.0,109.0 245.0,104.7 248.0,99.7 251.0,94.1 254.0,88.0 257.0,81.6 260.0,75.0 263.0,68.4 266.0,62.0 269.0,55.9 272.0,50.3 275.0,45.3 278.0,41.0\"/><line class=\"pom\" x1=\"50\" y1=\"33\" x2=\"50\" y2=\"22\"/><line class=\"pom\" x1=\"170\" y1=\"33\" x2=\"170\" y2=\"22\"/><line class=\"osa\" x1=\"50\" y1=\"22\" x2=\"170\" y2=\"22\"/><text x=\"104\" y=\"16\">λ</text><line class=\"pom\" x1=\"50\" y1=\"75\" x2=\"50\" y2=\"33\"/><text x=\"56\" y=\"58\">s<tspan class=\"sub\" dy=\"5\">0</tspan></text><line class=\"lik-l\" x1=\"220.0\" y1=\"128.0\" x2=\"270.0\" y2=\"128.0\"/><path class=\"tac\" d=\"M280.0,128.0 L270.0,132.5 L270.0,123.5 Z\"/><text x=\"240\" y=\"122\">c</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Osnovna jednačina talasa",
+      "en": "Basic wave equation",
+      "it": "Relazione fondamentale",
+      "fr": "Relation fondamentale",
+      "es": "Ecuación fundamental",
+      "de": "Grundgleichung der Welle",
+      "pt": "Equação fundamental",
+      "ru": "Основное соотношение"
+     },
+     "latex": {
+      "sr": "c = \\lambda f = \\frac{\\omega}{k}, \\quad k = \\frac{2\\pi}{\\lambda}",
+      "en": "c = \\lambda f = \\frac{\\omega}{k}, \\quad k = \\frac{2\\pi}{\\lambda}",
+      "it": "c = \\lambda f = \\frac{\\omega}{k}, \\quad k = \\frac{2\\pi}{\\lambda}",
+      "fr": "c = \\lambda f = \\frac{\\omega}{k}, \\quad k = \\frac{2\\pi}{\\lambda}",
+      "es": "c = \\lambda f = \\frac{\\omega}{k}, \\quad k = \\frac{2\\pi}{\\lambda}",
+      "de": "c = \\lambda f = \\frac{\\omega}{k}, \\quad k = \\frac{2\\pi}{\\lambda}",
+      "pt": "c = \\lambda f = \\frac{\\omega}{k}, \\quad k = \\frac{2\\pi}{\\lambda}",
+      "ru": "c = \\lambda \\nu = \\frac{\\omega}{k}, \\quad k = \\frac{2\\pi}{\\lambda}"
+     },
+     "objasnjenje": {
+      "sr": "k je talasni broj. Zvuk u vazduhu ≈ 343 m/s, svetlost ≈ 3 · 10⁸ m/s.",
+      "en": "k is the wavenumber. Sound in air ≈ 343 m/s, light ≈ 3 · 10⁸ m/s.",
+      "it": "k è il numero d’onda. Suono in aria ≈ 343 m/s, luce ≈ 3 · 10⁸ m/s.",
+      "fr": "k est le nombre d’onde. Son dans l’air ≈ 343 m/s, lumière ≈ 3 · 10⁸ m/s.",
+      "es": "k es el número de onda. Sonido en el aire ≈ 343 m/s, luz ≈ 3 · 10⁸ m/s.",
+      "de": "k ist die Wellenzahl. Schall in Luft ≈ 343 m/s, Licht ≈ 3 · 10⁸ m/s.",
+      "pt": "k é o número de onda. Som no ar ≈ 343 m/s, luz ≈ 3 · 10⁸ m/s.",
+      "ru": "k — волновое число. Звук в воздухе ≈ 343 м/с, свет ≈ 3 · 10⁸ м/с."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Jednačina talasa",
+      "en": "Wave function",
+      "it": "Funzione d’onda",
+      "fr": "Équation de l’onde",
+      "es": "Función de onda",
+      "de": "Wellenfunktion",
+      "pt": "Função de onda",
+      "ru": "Уравнение волны"
+     },
+     "latex": "s(x, t) = s_0 \\sin(\\omega t - k x), \\quad \\delta = 2\\pi \\frac{\\Delta x}{\\lambda} = k\\,\\Delta x",
+     "objasnjenje": {
+      "sr": "δ je fazna razlika između dve tačke na rastojanju Δx.",
+      "en": "δ is the phase difference between two points Δx apart.",
+      "it": "δ è la differenza di fase tra due punti a distanza Δx.",
+      "fr": "δ est le déphasage entre deux points distants de Δx.",
+      "es": "δ es la diferencia de fase entre dos puntos separados Δx.",
+      "de": "δ ist die Phasendifferenz zweier Punkte im Abstand Δx.",
+      "pt": "δ é a diferença de fase entre dois pontos a Δx.",
+      "ru": "δ — разность фаз точек на расстоянии Δx."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Brzina talasa u sredinama",
+      "en": "Wave speed in media",
+      "it": "Velocità nei mezzi",
+      "fr": "Célérité dans les milieux",
+      "es": "Velocidad en los medios",
+      "de": "Ausbreitungsgeschwindigkeit in Medien",
+      "pt": "Velocidade nos meios",
+      "ru": "Скорость волн в средах"
+     },
+     "latex": "c = \\sqrt{\\frac{F l}{m}}, \\quad c = \\sqrt{\\frac{E}{\\rho}}, \\quad c = \\sqrt{\\frac{\\kappa R T}{M}}",
+     "objasnjenje": {
+      "sr": "Redom: žica (sila zatezanja F, dužina l, masa m), čvrsto telo, gas.",
+      "en": "In order: string (tension F, length l, mass m), solid, gas.",
+      "it": "Nell’ordine: corda (tensione F, lunghezza l, massa m), solido, gas.",
+      "fr": "Dans l’ordre : corde (tension F, longueur l, masse m), solide, gaz.",
+      "es": "En orden: cuerda (tensión F, longitud l, masa m), sólido, gas.",
+      "de": "Der Reihe nach: Saite (Spannkraft F, Länge l, Masse m), Festkörper, Gas.",
+      "pt": "Na ordem: corda (tração F, comprimento l, massa m), sólido, gás.",
+      "ru": "По порядку: струна (натяжение F, длина l, масса m), твёрдое тело, газ."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "c": {
+      "oznaka": "c",
+      "naziv": {
+       "sr": "brzina talasa",
+       "en": "wave speed",
+       "it": "velocità dell’onda",
+       "fr": "célérité de l’onde",
+       "es": "velocidad de la onda",
+       "de": "Wellengeschwindigkeit",
+       "pt": "velocidade da onda",
+       "ru": "скорость волны"
+      },
+      "vrsta": "brzina",
+      "poz": true
+     },
+     "lam": {
+      "oznaka": "\\lambda",
+      "naziv": {
+       "sr": "talasna dužina",
+       "en": "wavelength",
+       "it": "lunghezza d’onda",
+       "fr": "longueur d’onde",
+       "es": "longitud de onda",
+       "de": "Wellenlänge",
+       "pt": "comprimento de onda",
+       "ru": "длина волны"
+      },
+      "vrsta": "talasnaDuzina",
+      "pocetna": 0.78,
+      "jed": "cm",
+      "poz": true
+     },
+     "f": {
+      "oznaka": {
+       "sr": "f",
+       "en": "f",
+       "it": "f",
+       "fr": "f",
+       "es": "f",
+       "de": "f",
+       "pt": "f",
+       "ru": "\\nu"
+      },
+      "naziv": {
+       "sr": "frekvencija",
+       "en": "frequency",
+       "it": "frequenza",
+       "fr": "fréquence",
+       "es": "frecuencia",
+       "de": "Frequenz",
+       "pt": "frequência",
+       "ru": "частота"
+      },
+      "vrsta": "frekvencija",
+      "pocetna": 440,
+      "poz": true
+     },
+     "F": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "sila zatezanja žice",
+       "en": "tension of the string",
+       "it": "tensione della corda",
+       "fr": "tension de la corde",
+       "es": "tensión de la cuerda",
+       "de": "Spannkraft der Saite",
+       "pt": "tração na corda",
+       "ru": "сила натяжения струны"
+      },
+      "vrsta": "sila",
+      "pocetna": 70,
+      "poz": true
+     },
+     "ls": {
+      "oznaka": "l",
+      "naziv": {
+       "sr": "dužina žice",
+       "en": "length of the string",
+       "it": "lunghezza della corda",
+       "fr": "longueur de la corde",
+       "es": "longitud de la cuerda",
+       "de": "Saitenlänge",
+       "pt": "comprimento da corda",
+       "ru": "длина струны"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.65,
+      "poz": true
+     },
+     "ms": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa žice",
+       "en": "mass of the string",
+       "it": "massa della corda",
+       "fr": "masse de la corde",
+       "es": "masa de la cuerda",
+       "de": "Masse der Saite",
+       "pt": "massa da corda",
+       "ru": "масса струны"
+      },
+      "vrsta": "masa",
+      "pocetna": 0.003,
+      "jed": "g",
+      "poz": true
+     },
+     "E": {
+      "oznaka": "E",
+      "naziv": {
+       "sr": "modul elastičnosti",
+       "en": "Young’s modulus",
+       "it": "modulo di Young",
+       "fr": "module de Young",
+       "es": "módulo de Young",
+       "de": "Elastizitätsmodul",
+       "pt": "módulo de Young",
+       "ru": "модуль Юнга"
+      },
+      "vrsta": "pritisak",
+      "pocetna": 200000000000.0,
+      "jed": "GPa",
+      "poz": true
+     },
+     "rho": {
+      "oznaka": "\\rho",
+      "naziv": {
+       "sr": "gustina",
+       "en": "density",
+       "it": "densità",
+       "fr": "masse volumique",
+       "es": "densidad",
+       "de": "Dichte",
+       "pt": "massa específica",
+       "ru": "плотность"
+      },
+      "vrsta": "gustina",
+      "pocetna": 7850,
+      "poz": true
+     },
+     "kapa": {
+      "oznaka": "\\kappa",
+      "naziv": {
+       "sr": "odnos specifičnih toplota",
+       "en": "heat capacity ratio",
+       "it": "rapporto dei calori specifici",
+       "fr": "indice adiabatique",
+       "es": "coeficiente adiabático",
+       "de": "Isentropenexponent",
+       "pt": "coeficiente de Poisson",
+       "ru": "показатель адиабаты"
+      },
+      "vrsta": "bez",
+      "pocetna": 1.4,
+      "poz": true
+     },
+     "R": {
+      "oznaka": "R",
+      "naziv": {
+       "sr": "univerzalna gasna konstanta",
+       "en": "molar gas constant",
+       "it": "costante dei gas",
+       "fr": "constante des gaz parfaits",
+       "es": "constante de los gases",
+       "de": "universelle Gaskonstante",
+       "pt": "constante dos gases",
+       "ru": "газовая постоянная"
+      },
+      "vrsta": "gasKonst",
+      "pocetna": 8.314462618,
+      "poz": true
+     },
+     "Tt": {
+      "oznaka": "T",
+      "naziv": {
+       "sr": "temperatura gasa",
+       "en": "temperature of the gas",
+       "it": "temperatura del gas",
+       "fr": "température du gaz",
+       "es": "temperatura del gas",
+       "de": "Temperatur des Gases",
+       "pt": "temperatura do gás",
+       "ru": "температура газа"
+      },
+      "vrsta": "temperatura",
+      "pocetna": 293.15,
+      "jed": "°C",
+      "poz": true
+     },
+     "M": {
+      "oznaka": "M",
+      "naziv": {
+       "sr": "molarna masa",
+       "en": "molar mass",
+       "it": "massa molare",
+       "fr": "masse molaire",
+       "es": "masa molar",
+       "de": "molare Masse",
+       "pt": "massa molar",
+       "ru": "молярная масса"
+      },
+      "vrsta": "molarnaMasa",
+      "pocetna": 0.029,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "c = \\lambda f",
+       "en": "c = \\lambda f",
+       "it": "c = \\lambda f",
+       "fr": "c = \\lambda f",
+       "es": "c = \\lambda f",
+       "de": "c = \\lambda f",
+       "pt": "c = \\lambda f",
+       "ru": "c = \\lambda \\nu"
+      },
+      "trazi": "c",
+      "resenja": {
+       "c": "lam*f",
+       "lam": "c/f",
+       "f": "c/lam"
+      }
+     },
+     {
+      "latex": "c = \\sqrt{\\dfrac{F l}{m}}",
+      "trazi": "c",
+      "resenja": {
+       "c": "sqrt(F*ls/ms)",
+       "F": "c*c*ms/ls",
+       "ls": "c*c*ms/F",
+       "ms": "F*ls/(c*c)"
+      }
+     },
+     {
+      "latex": "c = \\sqrt{\\dfrac{E}{\\rho}}",
+      "trazi": "c",
+      "resenja": {
+       "c": "sqrt(E/rho)",
+       "E": "c*c*rho",
+       "rho": "E/(c*c)"
+      }
+     },
+     {
+      "latex": "c = \\sqrt{\\dfrac{\\kappa R T}{M}}",
+      "trazi": "c",
+      "promenljive": [
+       "c",
+       "kapa",
+       "R",
+       "Tt",
+       "M"
+      ],
+      "resenja": {
+       "c": "sqrt(kapa*R*Tt/M)",
+       "Tt": "c*c*M/(kapa*R)",
+       "M": "kapa*R*Tt/(c*c)",
+       "kapa": "c*c*M/(R*Tt)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "stojeci_talasi",
+   "simbol": "fₙ",
+   "naziv": {
+    "sr": "Stojeći talasi i zvuk",
+    "en": "Standing waves and sound",
+    "it": "Onde stazionarie e suono",
+    "fr": "Ondes stationnaires et son",
+    "es": "Ondas estacionarias y sonido",
+    "de": "Stehende Wellen und Schall",
+    "pt": "Ondas estacionárias e som",
+    "ru": "Стоячие волны и звук"
+   },
+   "opis": {
+    "sr": "Žice i cevi muzičkih instrumenata",
+    "en": "Strings and pipes of instruments",
+    "it": "Corde e canne degli strumenti",
+    "fr": "Cordes et tuyaux d’instruments",
+    "es": "Cuerdas y tubos de instrumentos",
+    "de": "Saiten und Pfeifen",
+    "pt": "Cordas e tubos de instrumentos",
+    "ru": "Струны и трубы инструментов"
+   },
+   "kljucne_reci": {
+    "sr": "stojeci talas zica cev osnovni ton harmonici muzicki instrument",
+    "en": "standing wave string pipe fundamental harmonics musical instrument",
+    "it": "onda stazionaria corda canna armoniche strumento",
+    "fr": "onde stationnaire corde tuyau fondamental harmoniques instrument",
+    "es": "onda estacionaria cuerda tubo armonicos instrumento",
+    "de": "stehende welle saite pfeife grundton oberton instrument",
+    "pt": "onda estacionaria corda tubo harmonicos instrumento",
+    "ru": "стоячая волна струна труба основной тон гармоники инструмент"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Oba kraja ista (žica, otvorena cev)",
+      "en": "Both ends alike (string, open pipe)",
+      "it": "Estremi uguali (corda, canna aperta)",
+      "fr": "Extrémités identiques (corde, tuyau ouvert)",
+      "es": "Extremos iguales (cuerda, tubo abierto)",
+      "de": "Beide Enden gleich (Saite, offene Pfeife)",
+      "pt": "Extremidades iguais (corda, tubo aberto)",
+      "ru": "Одинаковые концы (струна, открытая труба)"
+     },
+     "latex": {
+      "sr": "f_N = (N + 1)\\,\\frac{c}{2 l} = (N + 1)\\,f_0, \\quad N = 0, 1, 2, \\ldots",
+      "en": "f_N = (N + 1)\\,\\frac{c}{2 l} = (N + 1)\\,f_0, \\quad N = 0, 1, 2, \\ldots",
+      "it": "f_N = (N + 1)\\,\\frac{c}{2 l} = (N + 1)\\,f_0, \\quad N = 0, 1, 2, \\ldots",
+      "fr": "f_N = (N + 1)\\,\\frac{c}{2 l} = (N + 1)\\,f_0, \\quad N = 0, 1, 2, \\ldots",
+      "es": "f_N = (N + 1)\\,\\frac{c}{2 l} = (N + 1)\\,f_0, \\quad N = 0, 1, 2, \\ldots",
+      "de": "f_N = (N + 1)\\,\\frac{c}{2 l} = (N + 1)\\,f_0, \\quad N = 0, 1, 2, \\ldots",
+      "pt": "f_N = (N + 1)\\,\\frac{c}{2 l} = (N + 1)\\,f_0, \\quad N = 0, 1, 2, \\ldots",
+      "ru": "\\nu_N = (N + 1)\\,\\frac{c}{2 l} = (N + 1)\\,\\nu_0, \\quad N = 0, 1, 2, \\ldots"
+     },
+     "objasnjenje": {
+      "sr": "N = 0 je osnovni ton, ostali su njegovi celobrojni umnošci.",
+      "en": "N = 0 is the fundamental; the others are its integer multiples.",
+      "it": "N = 0 è la fondamentale, le altre sono multipli interi.",
+      "fr": "N = 0 est le fondamental, les autres sont ses multiples entiers.",
+      "es": "N = 0 es el fundamental, los demás son múltiplos enteros.",
+      "de": "N = 0 ist der Grundton, die anderen sind ganzzahlige Vielfache.",
+      "pt": "N = 0 é a fundamental, as outras são múltiplos inteiros.",
+      "ru": "N = 0 — основной тон, остальные — его целые кратные."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Jedan kraj otvoren, drugi zatvoren",
+      "en": "One end open, one closed",
+      "it": "Un estremo aperto e uno chiuso",
+      "fr": "Une extrémité ouverte, l’autre fermée",
+      "es": "Un extremo abierto y otro cerrado",
+      "de": "Ein Ende offen, eines geschlossen",
+      "pt": "Uma extremidade aberta e outra fechada",
+      "ru": "Один конец открыт, другой закрыт"
+     },
+     "latex": {
+      "sr": "f_N = (2N + 1)\\,\\frac{c}{4 l} = (2N + 1)\\,f_0",
+      "en": "f_N = (2N + 1)\\,\\frac{c}{4 l} = (2N + 1)\\,f_0",
+      "it": "f_N = (2N + 1)\\,\\frac{c}{4 l} = (2N + 1)\\,f_0",
+      "fr": "f_N = (2N + 1)\\,\\frac{c}{4 l} = (2N + 1)\\,f_0",
+      "es": "f_N = (2N + 1)\\,\\frac{c}{4 l} = (2N + 1)\\,f_0",
+      "de": "f_N = (2N + 1)\\,\\frac{c}{4 l} = (2N + 1)\\,f_0",
+      "pt": "f_N = (2N + 1)\\,\\frac{c}{4 l} = (2N + 1)\\,f_0",
+      "ru": "\\nu_N = (2N + 1)\\,\\frac{c}{4 l} = (2N + 1)\\,\\nu_0"
+     },
+     "objasnjenje": {
+      "sr": "Javljaju se samo neparni harmonici.",
+      "en": "Only odd harmonics occur.",
+      "it": "Ci sono solo armoniche dispari.",
+      "fr": "Seuls les harmoniques impairs existent.",
+      "es": "Solo aparecen armónicos impares.",
+      "de": "Es treten nur ungerade Harmonische auf.",
+      "pt": "Só aparecem harmônicos ímpares.",
+      "ru": "Возникают только нечётные гармоники."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "fN": {
+      "oznaka": {
+       "sr": "f_N",
+       "en": "f_N",
+       "it": "f_N",
+       "fr": "f_N",
+       "es": "f_N",
+       "de": "f_N",
+       "pt": "f_N",
+       "ru": "\\nu_N"
+      },
+      "naziv": {
+       "sr": "frekvencija N-tog tona",
+       "en": "frequency of the N-th mode",
+       "it": "frequenza del modo N",
+       "fr": "fréquence du mode N",
+       "es": "frecuencia del modo N",
+       "de": "Frequenz der N-ten Eigenschwingung",
+       "pt": "frequência do modo N",
+       "ru": "частота N-й гармоники"
+      },
+      "vrsta": "frekvencija",
+      "poz": true
+     },
+     "Nn": {
+      "oznaka": "N",
+      "naziv": {
+       "sr": "redni broj (0, 1, 2, …)",
+       "en": "harmonic number (0, 1, 2, …)",
+       "it": "numero d’ordine (0, 1, 2, …)",
+       "fr": "rang (0, 1, 2, …)",
+       "es": "número de orden (0, 1, 2, …)",
+       "de": "Ordnung (0, 1, 2, …)",
+       "pt": "número de ordem (0, 1, 2, …)",
+       "ru": "номер (0, 1, 2, …)"
+      },
+      "vrsta": "bez",
+      "pocetna": 0,
+      "nenegativna": true
+     },
+     "c": {
+      "oznaka": "c",
+      "naziv": {
+       "sr": "brzina talasa (zvuk u vazduhu ≈ 343 m/s)",
+       "en": "wave speed (sound in air ≈ 343 m/s)",
+       "it": "velocità dell’onda (suono in aria ≈ 343 m/s)",
+       "fr": "célérité (son dans l’air ≈ 343 m/s)",
+       "es": "velocidad de la onda (sonido ≈ 343 m/s)",
+       "de": "Wellengeschwindigkeit (Schall ≈ 343 m/s)",
+       "pt": "velocidade da onda (som ≈ 343 m/s)",
+       "ru": "скорость волны (звук ≈ 343 м/с)"
+      },
+      "vrsta": "brzina",
+      "pocetna": 343,
+      "poz": true
+     },
+     "lc": {
+      "oznaka": "l",
+      "naziv": {
+       "sr": "dužina žice ili cevi",
+       "en": "length of string or pipe",
+       "it": "lunghezza della corda o del tubo",
+       "fr": "longueur de la corde ou du tuyau",
+       "es": "longitud de la cuerda o del tubo",
+       "de": "Länge der Saite oder Pfeife",
+       "pt": "comprimento da corda ou tubo",
+       "ru": "длина струны или трубы"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.5,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "f_N = (N + 1) \\dfrac{c}{2 l}",
+       "en": "f_N = (N + 1) \\dfrac{c}{2 l}",
+       "it": "f_N = (N + 1) \\dfrac{c}{2 l}",
+       "fr": "f_N = (N + 1) \\dfrac{c}{2 l}",
+       "es": "f_N = (N + 1) \\dfrac{c}{2 l}",
+       "de": "f_N = (N + 1) \\dfrac{c}{2 l}",
+       "pt": "f_N = (N + 1) \\dfrac{c}{2 l}",
+       "ru": "\\nu_N = (N + 1) \\dfrac{c}{2 l}"
+      },
+      "trazi": "fN",
+      "resenja": {
+       "fN": "(Nn + 1)*c/(2*lc)",
+       "c": "fN*2*lc/(Nn + 1)",
+       "lc": "(Nn + 1)*c/(2*fN)",
+       "Nn": "fN*2*lc/c - 1"
+      }
+     },
+     {
+      "latex": {
+       "sr": "f_N = (2N + 1) \\dfrac{c}{4 l}",
+       "en": "f_N = (2N + 1) \\dfrac{c}{4 l}",
+       "it": "f_N = (2N + 1) \\dfrac{c}{4 l}",
+       "fr": "f_N = (2N + 1) \\dfrac{c}{4 l}",
+       "es": "f_N = (2N + 1) \\dfrac{c}{4 l}",
+       "de": "f_N = (2N + 1) \\dfrac{c}{4 l}",
+       "pt": "f_N = (2N + 1) \\dfrac{c}{4 l}",
+       "ru": "\\nu_N = (2N + 1) \\dfrac{c}{4 l}"
+      },
+      "trazi": "fN",
+      "resenja": {
+       "fN": "(2*Nn + 1)*c/(4*lc)",
+       "c": "fN*4*lc/(2*Nn + 1)",
+       "lc": "(2*Nn + 1)*c/(4*fN)",
+       "Nn": "(fN*4*lc/c - 1)/2"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "dopler",
+   "simbol": "v",
+   "naziv": {
+    "sr": "Doplerov efekat",
+    "en": "Doppler effect",
+    "it": "Effetto Doppler",
+    "fr": "Effet Doppler",
+    "es": "Efecto Doppler",
+    "de": "Doppler-Effekt",
+    "pt": "Efeito Doppler",
+    "ru": "Эффект Доплера"
+   },
+   "opis": {
+    "sr": "Promena frekvencije pri kretanju",
+    "en": "Frequency shift with motion",
+    "it": "Variazione di frequenza col moto",
+    "fr": "Décalage de fréquence",
+    "es": "Cambio de frecuencia por movimiento",
+    "de": "Frequenzänderung bei Bewegung",
+    "pt": "Variação da frequência com o movimento",
+    "ru": "Изменение частоты при движении"
+   },
+   "kljucne_reci": {
+    "sr": "doplerov efekat sirena ambulantna kola izvor posmatrac priblizavanje udaljavanje",
+    "en": "doppler effect siren ambulance source observer approaching receding",
+    "it": "effetto doppler sirena ambulanza sorgente osservatore",
+    "fr": "effet doppler sirene ambulance source observateur",
+    "es": "efecto doppler sirena ambulancia fuente observador",
+    "de": "doppler effekt sirene krankenwagen quelle beobachter",
+    "pt": "efeito doppler sirene ambulancia fonte observador",
+    "ru": "эффект доплера сирена источник наблюдатель приближение удаление"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Posmatrač se kreće",
+      "en": "Moving observer",
+      "it": "Osservatore in moto",
+      "fr": "Observateur en mouvement",
+      "es": "Observador en movimiento",
+      "de": "Bewegter Beobachter",
+      "pt": "Observador em movimento",
+      "ru": "Движется наблюдатель"
+     },
+     "latex": {
+      "sr": "f = f_0 \\left(1 \\pm \\frac{v}{c}\\right)",
+      "en": "f = f_0 \\left(1 \\pm \\frac{v}{c}\\right)",
+      "it": "f = f_0 \\left(1 \\pm \\frac{v}{c}\\right)",
+      "fr": "f = f_0 \\left(1 \\pm \\frac{v}{c}\\right)",
+      "es": "f = f_0 \\left(1 \\pm \\frac{v}{c}\\right)",
+      "de": "f = f_0 \\left(1 \\pm \\frac{v}{c}\\right)",
+      "pt": "f = f_0 \\left(1 \\pm \\frac{v}{c}\\right)",
+      "ru": "\\nu = \\nu_0 \\left(1 \\pm \\frac{v}{c}\\right)"
+     },
+     "objasnjenje": {
+      "sr": "Znak + kada se posmatrač približava izvoru, − kada se udaljava.",
+      "en": "Plus sign when the observer approaches, minus when receding.",
+      "it": "Segno + se l’osservatore si avvicina, − se si allontana.",
+      "fr": "Signe + si l’observateur s’approche, − s’il s’éloigne.",
+      "es": "Signo + si el observador se acerca, − si se aleja.",
+      "de": "Plus, wenn sich der Beobachter nähert, minus beim Entfernen.",
+      "pt": "Sinal + quando o observador se aproxima, − quando se afasta.",
+      "ru": "«+» при приближении наблюдателя, «−» при удалении."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Izvor se kreće",
+      "en": "Moving source",
+      "it": "Sorgente in moto",
+      "fr": "Source en mouvement",
+      "es": "Fuente en movimiento",
+      "de": "Bewegte Quelle",
+      "pt": "Fonte em movimento",
+      "ru": "Движется источник"
+     },
+     "latex": {
+      "sr": "f = \\frac{f_0}{1 \\mp \\dfrac{v}{c}}",
+      "en": "f = \\frac{f_0}{1 \\mp \\dfrac{v}{c}}",
+      "it": "f = \\frac{f_0}{1 \\mp \\dfrac{v}{c}}",
+      "fr": "f = \\frac{f_0}{1 \\mp \\dfrac{v}{c}}",
+      "es": "f = \\frac{f_0}{1 \\mp \\dfrac{v}{c}}",
+      "de": "f = \\frac{f_0}{1 \\mp \\dfrac{v}{c}}",
+      "pt": "f = \\frac{f_0}{1 \\mp \\dfrac{v}{c}}",
+      "ru": "\\nu = \\frac{\\nu_0}{1 \\mp \\dfrac{v}{c}}"
+     },
+     "objasnjenje": {
+      "sr": "Gornji znak (−) kada se izvor približava: ton je viši; c je brzina zvuka.",
+      "en": "Upper sign (−) when the source approaches: the pitch is higher; c is the speed of sound.",
+      "it": "Segno superiore (−) se la sorgente si avvicina: il suono è più acuto; c è la velocità del suono.",
+      "fr": "Signe du haut (−) si la source s’approche : le son est plus aigu ; c est la vitesse du son.",
+      "es": "Signo superior (−) si la fuente se acerca: el tono es más agudo; c es la velocidad del sonido.",
+      "de": "Oberes Zeichen (−), wenn sich die Quelle nähert: der Ton ist höher; c ist die Schallgeschwindigkeit.",
+      "pt": "Sinal de cima (−) quando a fonte se aproxima: o som é mais agudo; c é a velocidade do som.",
+      "ru": "Верхний знак (−) при приближении источника: тон выше; c — скорость звука."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "fp": {
+      "oznaka": {
+       "sr": "f",
+       "en": "f",
+       "it": "f",
+       "fr": "f",
+       "es": "f",
+       "de": "f",
+       "pt": "f",
+       "ru": "\\nu"
+      },
+      "naziv": {
+       "sr": "primljena frekvencija",
+       "en": "observed frequency",
+       "it": "frequenza percepita",
+       "fr": "fréquence perçue",
+       "es": "frecuencia percibida",
+       "de": "wahrgenommene Frequenz",
+       "pt": "frequência percebida",
+       "ru": "воспринимаемая частота"
+      },
+      "vrsta": "frekvencija",
+      "poz": true
+     },
+     "f0": {
+      "oznaka": {
+       "sr": "f_0",
+       "en": "f_0",
+       "it": "f_0",
+       "fr": "f_0",
+       "es": "f_0",
+       "de": "f_0",
+       "pt": "f_0",
+       "ru": "\\nu_0"
+      },
+      "naziv": {
+       "sr": "frekvencija izvora",
+       "en": "source frequency",
+       "it": "frequenza della sorgente",
+       "fr": "fréquence de la source",
+       "es": "frecuencia de la fuente",
+       "de": "Frequenz der Quelle",
+       "pt": "frequência da fonte",
+       "ru": "частота источника"
+      },
+      "vrsta": "frekvencija",
+      "pocetna": 700,
+      "poz": true
+     },
+     "vd": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina izvora ili posmatrača",
+       "en": "speed of source or observer",
+       "it": "velocità della sorgente o dell’osservatore",
+       "fr": "vitesse de la source ou de l’observateur",
+       "es": "velocidad de la fuente o del observador",
+       "de": "Geschwindigkeit von Quelle oder Beobachter",
+       "pt": "velocidade da fonte ou do observador",
+       "ru": "скорость источника или наблюдателя"
+      },
+      "vrsta": "brzina",
+      "pocetna": 25,
+      "jed": "km/h"
+     },
+     "cz": {
+      "oznaka": "c",
+      "naziv": {
+       "sr": "brzina zvuka",
+       "en": "speed of sound",
+       "it": "velocità del suono",
+       "fr": "vitesse du son",
+       "es": "velocidad del sonido",
+       "de": "Schallgeschwindigkeit",
+       "pt": "velocidade do som",
+       "ru": "скорость звука"
+      },
+      "vrsta": "brzina",
+      "pocetna": 343,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "f = f_0 \\left(1 + \\dfrac{v}{c}\\right)",
+       "en": "f = f_0 \\left(1 + \\dfrac{v}{c}\\right)",
+       "it": "f = f_0 \\left(1 + \\dfrac{v}{c}\\right)",
+       "fr": "f = f_0 \\left(1 + \\dfrac{v}{c}\\right)",
+       "es": "f = f_0 \\left(1 + \\dfrac{v}{c}\\right)",
+       "de": "f = f_0 \\left(1 + \\dfrac{v}{c}\\right)",
+       "pt": "f = f_0 \\left(1 + \\dfrac{v}{c}\\right)",
+       "ru": "\\nu = \\nu_0 \\left(1 + \\dfrac{v}{c}\\right)"
+      },
+      "trazi": "fp",
+      "resenja": {
+       "fp": "f0*(1 + vd/cz)",
+       "f0": "fp/(1 + vd/cz)",
+       "vd": "cz*(fp/f0 - 1)"
+      },
+      "napomene": {
+       "fp": {
+        "sr": "Posmatrač se približava izvoru; za udaljavanje unesi negativnu brzinu.",
+        "en": "Observer approaching; for receding enter a negative speed.",
+        "it": "Osservatore che si avvicina; per l’allontanamento inserisci una velocità negativa.",
+        "fr": "Observateur qui s’approche ; pour l’éloignement, entrez une vitesse négative.",
+        "es": "Observador que se acerca; para alejarse introduce velocidad negativa.",
+        "de": "Beobachter nähert sich; beim Entfernen negative Geschwindigkeit eingeben.",
+        "pt": "Observador se aproximando; para afastamento use velocidade negativa.",
+        "ru": "Наблюдатель приближается; для удаления введите отрицательную скорость."
+       }
+      },
+      "promenljive": [
+       "fp",
+       "f0",
+       "vd",
+       "cz"
+      ]
+     },
+     {
+      "latex": {
+       "sr": "f = \\dfrac{f_0}{1 - \\dfrac{v}{c}}",
+       "en": "f = \\dfrac{f_0}{1 - \\dfrac{v}{c}}",
+       "it": "f = \\dfrac{f_0}{1 - \\dfrac{v}{c}}",
+       "fr": "f = \\dfrac{f_0}{1 - \\dfrac{v}{c}}",
+       "es": "f = \\dfrac{f_0}{1 - \\dfrac{v}{c}}",
+       "de": "f = \\dfrac{f_0}{1 - \\dfrac{v}{c}}",
+       "pt": "f = \\dfrac{f_0}{1 - \\dfrac{v}{c}}",
+       "ru": "\\nu = \\dfrac{\\nu_0}{1 - \\dfrac{v}{c}}"
+      },
+      "trazi": "fp",
+      "resenja": {
+       "fp": "f0/(1 - vd/cz)",
+       "f0": "fp*(1 - vd/cz)",
+       "vd": "cz*(1 - f0/fp)"
+      },
+      "napomene": {
+       "fp": {
+        "sr": "Izvor se približava; za udaljavanje unesi negativnu brzinu.",
+        "en": "Source approaching; for receding enter a negative speed.",
+        "it": "Sorgente che si avvicina; per l’allontanamento inserisci una velocità negativa.",
+        "fr": "Source qui s’approche ; pour l’éloignement, entrez une vitesse négative.",
+        "es": "Fuente que se acerca; para alejarse introduce velocidad negativa.",
+        "de": "Quelle nähert sich; beim Entfernen negative Geschwindigkeit eingeben.",
+        "pt": "Fonte se aproximando; para afastamento use velocidade negativa.",
+        "ru": "Источник приближается; для удаления введите отрицательную скорость."
+       }
+      },
+      "promenljive": [
+       "fp",
+       "f0",
+       "vd",
+       "cz"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "resetka",
+   "simbol": "N",
+   "naziv": {
+    "sr": "Optička rešetka",
+    "en": "Diffraction grating",
+    "it": "Reticolo di diffrazione",
+    "fr": "Réseau de diffraction",
+    "es": "Red de difracción",
+    "de": "Optisches Gitter",
+    "pt": "Rede de difração",
+    "ru": "Дифракционная решётка"
+   },
+   "opis": {
+    "sr": "Ogib svetlosti",
+    "en": "Diffraction of light",
+    "it": "Diffrazione della luce",
+    "fr": "Diffraction de la lumière",
+    "es": "Difracción de la luz",
+    "de": "Beugung des Lichts",
+    "pt": "Difração da luz",
+    "ru": "Дифракция света"
+   },
+   "kljucne_reci": {
+    "sr": "opticka resetka ogib difrakcija interferencija maksimum talasna duzina svetlosti laser",
+    "en": "diffraction grating interference maximum wavelength of light laser",
+    "it": "reticolo di diffrazione interferenza massimo laser",
+    "fr": "reseau de diffraction interference maximum laser",
+    "es": "red de difraccion interferencia maximo laser",
+    "de": "optisches gitter beugung interferenz maximum laser",
+    "pt": "rede de difracao interferencia maximo laser",
+    "ru": "дифракционная решётка интерференция максимум длина волны лазер"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Uslov za maksimume",
+      "en": "Condition for maxima",
+      "it": "Condizione dei massimi",
+      "fr": "Condition des maxima",
+      "es": "Condición de máximos",
+      "de": "Bedingung für Maxima",
+      "pt": "Condição dos máximos",
+      "ru": "Условие максимумов"
+     },
+     "latex": "a \\sin\\beta = N \\lambda, \\quad N = 0, \\pm 1, \\pm 2, \\ldots, \\quad N_{\\max} \\le \\frac{a}{\\lambda}",
+     "objasnjenje": {
+      "sr": "a je rastojanje između susednih proreza (konstanta rešetke).",
+      "en": "a is the distance between neighbouring slits (grating spacing).",
+      "it": "a è la distanza tra fenditure vicine (passo del reticolo).",
+      "fr": "a est la distance entre fentes voisines (pas du réseau).",
+      "es": "a es la distancia entre rendijas vecinas (constante de la red).",
+      "de": "a ist der Abstand benachbarter Spalte (Gitterkonstante).",
+      "pt": "a é a distância entre fendas vizinhas (constante da rede).",
+      "ru": "a — расстояние между соседними щелями (период решётки)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "beta": {
+      "oznaka": "\\beta",
+      "naziv": {
+       "sr": "ugao maksimuma",
+       "en": "angle of the maximum",
+       "it": "angolo del massimo",
+       "fr": "angle du maximum",
+       "es": "ángulo del máximo",
+       "de": "Winkel des Maximums",
+       "pt": "ângulo do máximo",
+       "ru": "угол максимума"
+      },
+      "vrsta": "ugao",
+      "jed": "°"
+     },
+     "a": {
+      "oznaka": "a",
+      "naziv": {
+       "sr": "konstanta rešetke",
+       "en": "grating spacing",
+       "it": "passo del reticolo",
+       "fr": "pas du réseau",
+       "es": "constante de la red",
+       "de": "Gitterkonstante",
+       "pt": "constante da rede",
+       "ru": "период решётки"
+      },
+      "vrsta": "talasnaDuzina",
+      "pocetna": 2e-06,
+      "jed": "µm",
+      "poz": true
+     },
+     "Nr": {
+      "oznaka": "N",
+      "naziv": {
+       "sr": "red maksimuma",
+       "en": "order of the maximum",
+       "it": "ordine del massimo",
+       "fr": "ordre du maximum",
+       "es": "orden del máximo",
+       "de": "Ordnung des Maximums",
+       "pt": "ordem do máximo",
+       "ru": "порядок максимума"
+      },
+      "vrsta": "bez",
+      "pocetna": 1,
+      "nenegativna": true
+     },
+     "lam": {
+      "oznaka": "\\lambda",
+      "naziv": {
+       "sr": "talasna dužina",
+       "en": "wavelength",
+       "it": "lunghezza d’onda",
+       "fr": "longueur d’onde",
+       "es": "longitud de onda",
+       "de": "Wellenlänge",
+       "pt": "comprimento de onda",
+       "ru": "длина волны"
+      },
+      "vrsta": "talasnaDuzina",
+      "pocetna": 6.33e-07,
+      "jed": "nm",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "a \\sin\\beta = N \\lambda",
+      "trazi": "beta",
+      "resenja": {
+       "beta": "asin(Nr*lam/a)",
+       "lam": "a*sin(beta)/Nr",
+       "a": "Nr*lam/sin(beta)",
+       "Nr": "a*sin(beta)/lam"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "prelamanje",
+   "simbol": "n",
+   "naziv": {
+    "sr": "Prelamanje svetlosti",
+    "en": "Refraction of light",
+    "it": "Rifrazione della luce",
+    "fr": "Réfraction de la lumière",
+    "es": "Refracción de la luz",
+    "de": "Brechung des Lichts",
+    "pt": "Refração da luz",
+    "ru": "Преломление света"
+   },
+   "opis": {
+    "sr": "Snelov zakon, totalna refleksija",
+    "en": "Snell’s law, total reflection",
+    "it": "Legge di Snell, riflessione totale",
+    "fr": "Loi de Snell-Descartes, réflexion totale",
+    "es": "Ley de Snell, reflexión total",
+    "de": "Brechungsgesetz, Totalreflexion",
+    "pt": "Lei de Snell, reflexão total",
+    "ru": "Закон Снеллиуса, полное отражение"
+   },
+   "kljucne_reci": {
+    "sr": "prelamanje svetlosti indeks prelamanja snelov zakon totalna refleksija granicni ugao brusterov ugao polarizacija",
+    "en": "refraction refractive index snell law total internal reflection critical angle brewster polarization",
+    "it": "rifrazione indice di rifrazione legge di snell riflessione totale angolo limite brewster",
+    "fr": "refraction indice snell descartes reflexion totale angle limite brewster",
+    "es": "refraccion indice snell reflexion total angulo limite brewster",
+    "de": "brechung brechungsindex snellius totalreflexion grenzwinkel brewster",
+    "pt": "refracao indice snell reflexao total angulo limite brewster",
+    "ru": "преломление показатель снеллиус полное отражение предельный угол брюстер"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect class=\"lik\" x=\"10\" y=\"100\" width=\"280\" height=\"92\" stroke=\"none\" fill-opacity=\"0.7\"/><line class=\"lik-l\" x1=\"10\" y1=\"100\" x2=\"290\" y2=\"100\"/><line class=\"pom\" x1=\"150\" y1=\"14\" x2=\"150\" y2=\"190\"/><line class=\"lik-l\" x1=\"77.2\" y1=\"38.9\" x2=\"142.3\" y2=\"93.6\"/><path class=\"tac\" d=\"M150.0,100.0 L139.4,97.0 L145.2,90.1 Z\"/><line class=\"lik-l\" x1=\"150.0\" y1=\"100.0\" x2=\"193.8\" y2=\"172.9\"/><path class=\"tac\" d=\"M198.9,181.4 L189.9,175.2 L197.6,170.5 Z\"/><path class=\"ugao\" d=\"M150,62 A38,38 0 0,0 120.9,75.6\"/><text x=\"128\" y=\"56\">α</text><path class=\"ugao\" d=\"M150,138 A38,38 0 0,0 169.6,132.6\"/><text x=\"160\" y=\"160\">β</text><text x=\"244\" y=\"90\">n<tspan class=\"sub\" dy=\"5\">1</tspan></text><text x=\"244\" y=\"128\">n<tspan class=\"sub\" dy=\"5\">2</tspan></text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Indeks prelamanja",
+      "en": "Refractive index",
+      "it": "Indice di rifrazione",
+      "fr": "Indice de réfraction",
+      "es": "Índice de refracción",
+      "de": "Brechungsindex",
+      "pt": "Índice de refração",
+      "ru": "Показатель преломления"
+     },
+     "latex": "n = \\frac{c_0}{c}, \\quad c_0 = \\frac{1}{\\sqrt{\\varepsilon_0 \\mu_0}}",
+     "objasnjenje": {
+      "sr": "Voda n ≈ 1,33, staklo ≈ 1,5, dijamant ≈ 2,42.",
+      "en": "Water n ≈ 1.33, glass ≈ 1.5, diamond ≈ 2.42.",
+      "it": "Acqua n ≈ 1,33, vetro ≈ 1,5, diamante ≈ 2,42.",
+      "fr": "Eau n ≈ 1,33, verre ≈ 1,5, diamant ≈ 2,42.",
+      "es": "Agua n ≈ 1,33, vidrio ≈ 1,5, diamante ≈ 2,42.",
+      "de": "Wasser n ≈ 1,33, Glas ≈ 1,5, Diamant ≈ 2,42.",
+      "pt": "Água n ≈ 1,33, vidro ≈ 1,5, diamante ≈ 2,42.",
+      "ru": "Вода n ≈ 1,33, стекло ≈ 1,5, алмаз ≈ 2,42."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Snelov zakon",
+      "en": "Snell’s law",
+      "it": "Legge di Snell",
+      "fr": "Loi de Snell-Descartes",
+      "es": "Ley de Snell",
+      "de": "Snelliussches Brechungsgesetz",
+      "pt": "Lei de Snell",
+      "ru": "Закон Снеллиуса"
+     },
+     "latex": "\\frac{\\sin\\alpha}{\\sin\\beta} = \\frac{c_1}{c_2} = \\frac{n_2}{n_1}",
+     "objasnjenje": {
+      "sr": "α je upadni, β prelomni ugao, oba mereni od normale.",
+      "en": "α is the angle of incidence, β of refraction, both from the normal.",
+      "it": "α è l’angolo di incidenza, β di rifrazione, entrambi dalla normale.",
+      "fr": "α est l’angle d’incidence, β de réfraction, mesurés depuis la normale.",
+      "es": "α es el ángulo de incidencia, β el de refracción, desde la normal.",
+      "de": "α ist der Einfalls-, β der Brechungswinkel, beide zum Lot.",
+      "pt": "α é o ângulo de incidência, β o de refração, ambos a partir da normal.",
+      "ru": "α — угол падения, β — угол преломления, от нормали."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Totalna refleksija i Brusterov ugao",
+      "en": "Total reflection and Brewster’s angle",
+      "it": "Riflessione totale e angolo di Brewster",
+      "fr": "Réflexion totale et angle de Brewster",
+      "es": "Reflexión total y ángulo de Brewster",
+      "de": "Totalreflexion und Brewster-Winkel",
+      "pt": "Reflexão total e ângulo de Brewster",
+      "ru": "Полное отражение и угол Брюстера"
+     },
+     "latex": "\\sin\\alpha_g = \\frac{n_2}{n_1}\\ (n_2 < n_1), \\quad \\tan\\alpha_B = n",
+     "objasnjenje": {
+      "sr": "Iznad graničnog ugla svetlost se potpuno odbija (optička vlakna). Pod Brusterovim uglom odbijena svetlost je polarizovana.",
+      "en": "Above the critical angle light is totally reflected (optical fibres). At Brewster’s angle reflected light is polarized.",
+      "it": "Oltre l’angolo limite la luce è riflessa totalmente (fibre ottiche). All’angolo di Brewster la luce riflessa è polarizzata.",
+      "fr": "Au-delà de l’angle limite la lumière est totalement réfléchie (fibres optiques). À l’angle de Brewster la lumière réfléchie est polarisée.",
+      "es": "Por encima del ángulo límite la luz se refleja totalmente (fibra óptica). En el ángulo de Brewster la luz reflejada está polarizada.",
+      "de": "Oberhalb des Grenzwinkels wird Licht total reflektiert (Glasfaser). Beim Brewster-Winkel ist das reflektierte Licht polarisiert.",
+      "pt": "Acima do ângulo limite a luz é totalmente refletida (fibra óptica). No ângulo de Brewster a luz refletida é polarizada.",
+      "ru": "Выше предельного угла свет полностью отражается (оптоволокно). Под углом Брюстера отражённый свет поляризован."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "n": {
+      "oznaka": "n",
+      "naziv": {
+       "sr": "indeks prelamanja",
+       "en": "refractive index",
+       "it": "indice di rifrazione",
+       "fr": "indice de réfraction",
+       "es": "índice de refracción",
+       "de": "Brechungsindex",
+       "pt": "índice de refração",
+       "ru": "показатель преломления"
+      },
+      "vrsta": "bez",
+      "poz": true,
+      "pocetna": 1.5
+     },
+     "c0": {
+      "oznaka": "c_0",
+      "naziv": {
+       "sr": "brzina svetlosti u vakuumu",
+       "en": "speed of light in vacuum",
+       "it": "velocità della luce nel vuoto",
+       "fr": "vitesse de la lumière dans le vide",
+       "es": "velocidad de la luz en el vacío",
+       "de": "Lichtgeschwindigkeit im Vakuum",
+       "pt": "velocidade da luz no vácuo",
+       "ru": "скорость света в вакууме"
+      },
+      "vrsta": "brzina",
+      "pocetna": 299792458,
+      "poz": true
+     },
+     "cs": {
+      "oznaka": "c",
+      "naziv": {
+       "sr": "brzina svetlosti u sredini",
+       "en": "speed of light in the medium",
+       "it": "velocità della luce nel mezzo",
+       "fr": "vitesse de la lumière dans le milieu",
+       "es": "velocidad de la luz en el medio",
+       "de": "Lichtgeschwindigkeit im Medium",
+       "pt": "velocidade da luz no meio",
+       "ru": "скорость света в среде"
+      },
+      "vrsta": "brzina",
+      "pocetna": 225000000.0,
+      "jed": "m/s",
+      "poz": true
+     },
+     "be": {
+      "oznaka": "\\beta",
+      "naziv": {
+       "sr": "prelomni ugao",
+       "en": "angle of refraction",
+       "it": "angolo di rifrazione",
+       "fr": "angle de réfraction",
+       "es": "ángulo de refracción",
+       "de": "Brechungswinkel",
+       "pt": "ângulo de refração",
+       "ru": "угол преломления"
+      },
+      "vrsta": "ugao",
+      "jed": "°"
+     },
+     "n1": {
+      "oznaka": "n_1",
+      "naziv": {
+       "sr": "indeks prve sredine",
+       "en": "index of medium 1",
+       "it": "indice del mezzo 1",
+       "fr": "indice du milieu 1",
+       "es": "índice del medio 1",
+       "de": "Brechungsindex Medium 1",
+       "pt": "índice do meio 1",
+       "ru": "показатель первой среды"
+      },
+      "vrsta": "bez",
+      "pocetna": 1,
+      "poz": true
+     },
+     "al": {
+      "oznaka": "\\alpha",
+      "naziv": {
+       "sr": "upadni ugao",
+       "en": "angle of incidence",
+       "it": "angolo di incidenza",
+       "fr": "angle d’incidence",
+       "es": "ángulo de incidencia",
+       "de": "Einfallswinkel",
+       "pt": "ângulo de incidência",
+       "ru": "угол падения"
+      },
+      "vrsta": "ugao",
+      "pocetna": 0.7853981633974483,
+      "jed": "°"
+     },
+     "n2": {
+      "oznaka": "n_2",
+      "naziv": {
+       "sr": "indeks druge sredine",
+       "en": "index of medium 2",
+       "it": "indice del mezzo 2",
+       "fr": "indice du milieu 2",
+       "es": "índice del medio 2",
+       "de": "Brechungsindex Medium 2",
+       "pt": "índice do meio 2",
+       "ru": "показатель второй среды"
+      },
+      "vrsta": "bez",
+      "pocetna": 1.33,
+      "poz": true
+     },
+     "ng1": {
+      "oznaka": "n_1",
+      "naziv": {
+       "sr": "indeks gušće sredine",
+       "en": "index of the denser medium",
+       "it": "indice del mezzo più denso",
+       "fr": "indice du milieu le plus réfringent",
+       "es": "índice del medio más denso",
+       "de": "Brechungsindex des dichteren Mediums",
+       "pt": "índice do meio mais denso",
+       "ru": "показатель более плотной среды"
+      },
+      "vrsta": "bez",
+      "pocetna": 1.33,
+      "poz": true
+     },
+     "ng2": {
+      "oznaka": "n_2",
+      "naziv": {
+       "sr": "indeks ređe sredine",
+       "en": "index of the less dense medium",
+       "it": "indice del mezzo meno denso",
+       "fr": "indice du milieu le moins réfringent",
+       "es": "índice del medio menos denso",
+       "de": "Brechungsindex des dünneren Mediums",
+       "pt": "índice do meio menos denso",
+       "ru": "показатель менее плотной среды"
+      },
+      "vrsta": "bez",
+      "pocetna": 1,
+      "poz": true
+     },
+     "ag": {
+      "oznaka": "\\alpha_g",
+      "naziv": {
+       "sr": "granični ugao totalne refleksije",
+       "en": "critical angle",
+       "it": "angolo limite",
+       "fr": "angle limite",
+       "es": "ángulo límite",
+       "de": "Grenzwinkel der Totalreflexion",
+       "pt": "ângulo limite",
+       "ru": "предельный угол"
+      },
+      "vrsta": "ugao",
+      "jed": "°",
+      "poz": true
+     },
+     "ab": {
+      "oznaka": "\\alpha_B",
+      "naziv": {
+       "sr": "Brusterov ugao",
+       "en": "Brewster’s angle",
+       "it": "angolo di Brewster",
+       "fr": "angle de Brewster",
+       "es": "ángulo de Brewster",
+       "de": "Brewster-Winkel",
+       "pt": "ângulo de Brewster",
+       "ru": "угол Брюстера"
+      },
+      "vrsta": "ugao",
+      "jed": "°",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "n = \\dfrac{c_0}{c}",
+      "trazi": "n",
+      "resenja": {
+       "n": "c0/cs",
+       "cs": "c0/n",
+       "c0": "n*cs"
+      }
+     },
+     {
+      "latex": "n_1 \\sin\\alpha = n_2 \\sin\\beta",
+      "trazi": "be",
+      "resenja": {
+       "be": "asin(n1*sin(al)/n2)",
+       "al": "asin(n2*sin(be)/n1)",
+       "n1": "n2*sin(be)/sin(al)",
+       "n2": "n1*sin(al)/sin(be)"
+      }
+     },
+     {
+      "latex": "\\sin\\alpha_g = \\dfrac{n_2}{n_1}",
+      "trazi": "ag",
+      "resenja": {
+       "ag": "asin(ng2/ng1)",
+       "ng2": "ng1*sin(ag)",
+       "ng1": "ng2/sin(ag)"
+      },
+      "napomene": {
+       "ag": {
+        "sr": "Iz gušće u ređu sredinu, npr. n₁ = 1,33 (voda) i n₂ = 1 (vazduh).",
+        "en": "From denser to less dense medium, e.g. n₁ = 1.33 (water), n₂ = 1 (air).",
+        "it": "Dal mezzo più denso al meno denso, es. n₁ = 1,33 (acqua), n₂ = 1 (aria).",
+        "fr": "Du milieu plus réfringent vers le moins réfringent, ex. n₁ = 1,33 (eau), n₂ = 1 (air).",
+        "es": "Del medio más denso al menos denso, p. ej. n₁ = 1,33 (agua), n₂ = 1 (aire).",
+        "de": "Vom optisch dichteren ins dünnere Medium, z. B. n₁ = 1,33 (Wasser), n₂ = 1 (Luft).",
+        "pt": "Do meio mais denso para o menos denso, ex. n₁ = 1,33 (água), n₂ = 1 (ar).",
+        "ru": "Из оптически более плотной среды в менее плотную, напр. n₁ = 1,33 (вода), n₂ = 1 (воздух)."
+       }
+      }
+     },
+     {
+      "latex": "\\tan\\alpha_B = n",
+      "trazi": "ab",
+      "resenja": {
+       "ab": "atan(n)",
+       "n": "tan(ab)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "socivo",
+   "simbol": "f",
+   "naziv": {
+    "sr": "Sočiva i ogledala",
+    "en": "Lenses and mirrors",
+    "it": "Lenti e specchi",
+    "fr": "Lentilles et miroirs",
+    "es": "Lentes y espejos",
+    "de": "Linsen und Spiegel",
+    "pt": "Lentes e espelhos",
+    "ru": "Линзы и зеркала"
+   },
+   "opis": {
+    "sr": "Jednačina sočiva, uvećanje",
+    "en": "Lens equation, magnification",
+    "it": "Equazione delle lenti, ingrandimento",
+    "fr": "Relation de conjugaison, grandissement",
+    "es": "Ecuación de las lentes, aumento",
+    "de": "Linsengleichung, Abbildungsmaßstab",
+    "pt": "Equação das lentes, aumento",
+    "ru": "Формула линзы, увеличение"
+   },
+   "kljucne_reci": {
+    "sr": "socivo ogledalo zizna daljina jednacina sociva uvecanje dioptrija naocare lupa",
+    "en": "lens mirror focal length lens equation magnification diopter glasses magnifier",
+    "it": "lente specchio distanza focale equazione ingrandimento diottria occhiali",
+    "fr": "lentille miroir distance focale conjugaison grandissement dioptrie lunettes loupe",
+    "es": "lente espejo distancia focal ecuacion aumento dioptria gafas lupa",
+    "de": "linse spiegel brennweite linsengleichung vergrosserung dioptrie brille lupe",
+    "pt": "lente espelho distancia focal equacao aumento dioptria oculos lupa",
+    "ru": "линза зеркало фокусное расстояние формула линзы увеличение диоптрия очки лупа"
+   },
+   "crtez": {
+    "sr": "<svg viewBox=\"0 0 320 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"6\" y1=\"90\" x2=\"314\" y2=\"90\"/><path class=\"lik\" d=\"M160,20 Q178,90 160,160 Q142,90 160,20 Z\"/><circle class=\"tac\" cx=\"110\" cy=\"90\" r=\"3\"/><circle class=\"tac\" cx=\"210\" cy=\"90\" r=\"3\"/><text x=\"104\" y=\"110\">f</text><text x=\"204\" y=\"110\">f</text><line class=\"lik-l\" x1=\"45.0\" y1=\"90.0\" x2=\"45.0\" y2=\"60.0\"/><path class=\"tac\" d=\"M45.0,50.0 L49.5,60.0 L40.5,60.0 Z\"/><line class=\"lik-l\" x1=\"248.5\" y1=\"90.0\" x2=\"248.5\" y2=\"110.8\"/><path class=\"tac\" d=\"M248.5,120.8 L244.0,110.8 L253.0,110.8 Z\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"160\" y2=\"50\"/><line class=\"pom\" x1=\"160\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"osa\" x1=\"45\" y1=\"150\" x2=\"160\" y2=\"150\"/><line class=\"osa\" x1=\"160\" y1=\"150\" x2=\"248.5\" y2=\"150\"/><line class=\"osa\" x1=\"45\" y1=\"144\" x2=\"45\" y2=\"156\"/><line class=\"osa\" x1=\"160\" y1=\"144\" x2=\"160\" y2=\"156\"/><line class=\"osa\" x1=\"248.5\" y1=\"144\" x2=\"248.5\" y2=\"156\"/><text x=\"94\" y=\"168\">p</text><text x=\"198\" y=\"168\">l</text></svg>",
+    "en": "<svg viewBox=\"0 0 320 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"6\" y1=\"90\" x2=\"314\" y2=\"90\"/><path class=\"lik\" d=\"M160,20 Q178,90 160,160 Q142,90 160,20 Z\"/><circle class=\"tac\" cx=\"110\" cy=\"90\" r=\"3\"/><circle class=\"tac\" cx=\"210\" cy=\"90\" r=\"3\"/><text x=\"104\" y=\"110\">f</text><text x=\"204\" y=\"110\">f</text><line class=\"lik-l\" x1=\"45.0\" y1=\"90.0\" x2=\"45.0\" y2=\"60.0\"/><path class=\"tac\" d=\"M45.0,50.0 L49.5,60.0 L40.5,60.0 Z\"/><line class=\"lik-l\" x1=\"248.5\" y1=\"90.0\" x2=\"248.5\" y2=\"110.8\"/><path class=\"tac\" d=\"M248.5,120.8 L244.0,110.8 L253.0,110.8 Z\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"160\" y2=\"50\"/><line class=\"pom\" x1=\"160\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"osa\" x1=\"45\" y1=\"150\" x2=\"160\" y2=\"150\"/><line class=\"osa\" x1=\"160\" y1=\"150\" x2=\"248.5\" y2=\"150\"/><line class=\"osa\" x1=\"45\" y1=\"144\" x2=\"45\" y2=\"156\"/><line class=\"osa\" x1=\"160\" y1=\"144\" x2=\"160\" y2=\"156\"/><line class=\"osa\" x1=\"248.5\" y1=\"144\" x2=\"248.5\" y2=\"156\"/><text x=\"94\" y=\"168\">dₒ</text><text x=\"198\" y=\"168\">dᵢ</text></svg>",
+    "it": "<svg viewBox=\"0 0 320 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"6\" y1=\"90\" x2=\"314\" y2=\"90\"/><path class=\"lik\" d=\"M160,20 Q178,90 160,160 Q142,90 160,20 Z\"/><circle class=\"tac\" cx=\"110\" cy=\"90\" r=\"3\"/><circle class=\"tac\" cx=\"210\" cy=\"90\" r=\"3\"/><text x=\"104\" y=\"110\">f</text><text x=\"204\" y=\"110\">f</text><line class=\"lik-l\" x1=\"45.0\" y1=\"90.0\" x2=\"45.0\" y2=\"60.0\"/><path class=\"tac\" d=\"M45.0,50.0 L49.5,60.0 L40.5,60.0 Z\"/><line class=\"lik-l\" x1=\"248.5\" y1=\"90.0\" x2=\"248.5\" y2=\"110.8\"/><path class=\"tac\" d=\"M248.5,120.8 L244.0,110.8 L253.0,110.8 Z\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"160\" y2=\"50\"/><line class=\"pom\" x1=\"160\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"osa\" x1=\"45\" y1=\"150\" x2=\"160\" y2=\"150\"/><line class=\"osa\" x1=\"160\" y1=\"150\" x2=\"248.5\" y2=\"150\"/><line class=\"osa\" x1=\"45\" y1=\"144\" x2=\"45\" y2=\"156\"/><line class=\"osa\" x1=\"160\" y1=\"144\" x2=\"160\" y2=\"156\"/><line class=\"osa\" x1=\"248.5\" y1=\"144\" x2=\"248.5\" y2=\"156\"/><text x=\"94\" y=\"168\">p</text><text x=\"198\" y=\"168\">q</text></svg>",
+    "fr": "<svg viewBox=\"0 0 320 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"6\" y1=\"90\" x2=\"314\" y2=\"90\"/><path class=\"lik\" d=\"M160,20 Q178,90 160,160 Q142,90 160,20 Z\"/><circle class=\"tac\" cx=\"110\" cy=\"90\" r=\"3\"/><circle class=\"tac\" cx=\"210\" cy=\"90\" r=\"3\"/><text x=\"104\" y=\"110\">f</text><text x=\"204\" y=\"110\">f</text><line class=\"lik-l\" x1=\"45.0\" y1=\"90.0\" x2=\"45.0\" y2=\"60.0\"/><path class=\"tac\" d=\"M45.0,50.0 L49.5,60.0 L40.5,60.0 Z\"/><line class=\"lik-l\" x1=\"248.5\" y1=\"90.0\" x2=\"248.5\" y2=\"110.8\"/><path class=\"tac\" d=\"M248.5,120.8 L244.0,110.8 L253.0,110.8 Z\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"160\" y2=\"50\"/><line class=\"pom\" x1=\"160\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"osa\" x1=\"45\" y1=\"150\" x2=\"160\" y2=\"150\"/><line class=\"osa\" x1=\"160\" y1=\"150\" x2=\"248.5\" y2=\"150\"/><line class=\"osa\" x1=\"45\" y1=\"144\" x2=\"45\" y2=\"156\"/><line class=\"osa\" x1=\"160\" y1=\"144\" x2=\"160\" y2=\"156\"/><line class=\"osa\" x1=\"248.5\" y1=\"144\" x2=\"248.5\" y2=\"156\"/><text x=\"94\" y=\"168\">p</text><text x=\"198\" y=\"168\">p'</text></svg>",
+    "es": "<svg viewBox=\"0 0 320 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"6\" y1=\"90\" x2=\"314\" y2=\"90\"/><path class=\"lik\" d=\"M160,20 Q178,90 160,160 Q142,90 160,20 Z\"/><circle class=\"tac\" cx=\"110\" cy=\"90\" r=\"3\"/><circle class=\"tac\" cx=\"210\" cy=\"90\" r=\"3\"/><text x=\"104\" y=\"110\">f</text><text x=\"204\" y=\"110\">f</text><line class=\"lik-l\" x1=\"45.0\" y1=\"90.0\" x2=\"45.0\" y2=\"60.0\"/><path class=\"tac\" d=\"M45.0,50.0 L49.5,60.0 L40.5,60.0 Z\"/><line class=\"lik-l\" x1=\"248.5\" y1=\"90.0\" x2=\"248.5\" y2=\"110.8\"/><path class=\"tac\" d=\"M248.5,120.8 L244.0,110.8 L253.0,110.8 Z\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"160\" y2=\"50\"/><line class=\"pom\" x1=\"160\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"osa\" x1=\"45\" y1=\"150\" x2=\"160\" y2=\"150\"/><line class=\"osa\" x1=\"160\" y1=\"150\" x2=\"248.5\" y2=\"150\"/><line class=\"osa\" x1=\"45\" y1=\"144\" x2=\"45\" y2=\"156\"/><line class=\"osa\" x1=\"160\" y1=\"144\" x2=\"160\" y2=\"156\"/><line class=\"osa\" x1=\"248.5\" y1=\"144\" x2=\"248.5\" y2=\"156\"/><text x=\"94\" y=\"168\">s</text><text x=\"198\" y=\"168\">s'</text></svg>",
+    "de": "<svg viewBox=\"0 0 320 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"6\" y1=\"90\" x2=\"314\" y2=\"90\"/><path class=\"lik\" d=\"M160,20 Q178,90 160,160 Q142,90 160,20 Z\"/><circle class=\"tac\" cx=\"110\" cy=\"90\" r=\"3\"/><circle class=\"tac\" cx=\"210\" cy=\"90\" r=\"3\"/><text x=\"104\" y=\"110\">f</text><text x=\"204\" y=\"110\">f</text><line class=\"lik-l\" x1=\"45.0\" y1=\"90.0\" x2=\"45.0\" y2=\"60.0\"/><path class=\"tac\" d=\"M45.0,50.0 L49.5,60.0 L40.5,60.0 Z\"/><line class=\"lik-l\" x1=\"248.5\" y1=\"90.0\" x2=\"248.5\" y2=\"110.8\"/><path class=\"tac\" d=\"M248.5,120.8 L244.0,110.8 L253.0,110.8 Z\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"160\" y2=\"50\"/><line class=\"pom\" x1=\"160\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"osa\" x1=\"45\" y1=\"150\" x2=\"160\" y2=\"150\"/><line class=\"osa\" x1=\"160\" y1=\"150\" x2=\"248.5\" y2=\"150\"/><line class=\"osa\" x1=\"45\" y1=\"144\" x2=\"45\" y2=\"156\"/><line class=\"osa\" x1=\"160\" y1=\"144\" x2=\"160\" y2=\"156\"/><line class=\"osa\" x1=\"248.5\" y1=\"144\" x2=\"248.5\" y2=\"156\"/><text x=\"94\" y=\"168\">g</text><text x=\"198\" y=\"168\">b</text></svg>",
+    "pt": "<svg viewBox=\"0 0 320 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"6\" y1=\"90\" x2=\"314\" y2=\"90\"/><path class=\"lik\" d=\"M160,20 Q178,90 160,160 Q142,90 160,20 Z\"/><circle class=\"tac\" cx=\"110\" cy=\"90\" r=\"3\"/><circle class=\"tac\" cx=\"210\" cy=\"90\" r=\"3\"/><text x=\"104\" y=\"110\">f</text><text x=\"204\" y=\"110\">f</text><line class=\"lik-l\" x1=\"45.0\" y1=\"90.0\" x2=\"45.0\" y2=\"60.0\"/><path class=\"tac\" d=\"M45.0,50.0 L49.5,60.0 L40.5,60.0 Z\"/><line class=\"lik-l\" x1=\"248.5\" y1=\"90.0\" x2=\"248.5\" y2=\"110.8\"/><path class=\"tac\" d=\"M248.5,120.8 L244.0,110.8 L253.0,110.8 Z\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"160\" y2=\"50\"/><line class=\"pom\" x1=\"160\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"osa\" x1=\"45\" y1=\"150\" x2=\"160\" y2=\"150\"/><line class=\"osa\" x1=\"160\" y1=\"150\" x2=\"248.5\" y2=\"150\"/><line class=\"osa\" x1=\"45\" y1=\"144\" x2=\"45\" y2=\"156\"/><line class=\"osa\" x1=\"160\" y1=\"144\" x2=\"160\" y2=\"156\"/><line class=\"osa\" x1=\"248.5\" y1=\"144\" x2=\"248.5\" y2=\"156\"/><text x=\"94\" y=\"168\">p</text><text x=\"198\" y=\"168\">p'</text></svg>",
+    "ru": "<svg viewBox=\"0 0 320 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"6\" y1=\"90\" x2=\"314\" y2=\"90\"/><path class=\"lik\" d=\"M160,20 Q178,90 160,160 Q142,90 160,20 Z\"/><circle class=\"tac\" cx=\"110\" cy=\"90\" r=\"3\"/><circle class=\"tac\" cx=\"210\" cy=\"90\" r=\"3\"/><text x=\"104\" y=\"110\">F</text><text x=\"204\" y=\"110\">F</text><line class=\"lik-l\" x1=\"45.0\" y1=\"90.0\" x2=\"45.0\" y2=\"60.0\"/><path class=\"tac\" d=\"M45.0,50.0 L49.5,60.0 L40.5,60.0 Z\"/><line class=\"lik-l\" x1=\"248.5\" y1=\"90.0\" x2=\"248.5\" y2=\"110.8\"/><path class=\"tac\" d=\"M248.5,120.8 L244.0,110.8 L253.0,110.8 Z\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"pom\" x1=\"45\" y1=\"50\" x2=\"160\" y2=\"50\"/><line class=\"pom\" x1=\"160\" y1=\"50\" x2=\"248.5\" y2=\"120.8\"/><line class=\"osa\" x1=\"45\" y1=\"150\" x2=\"160\" y2=\"150\"/><line class=\"osa\" x1=\"160\" y1=\"150\" x2=\"248.5\" y2=\"150\"/><line class=\"osa\" x1=\"45\" y1=\"144\" x2=\"45\" y2=\"156\"/><line class=\"osa\" x1=\"160\" y1=\"144\" x2=\"160\" y2=\"156\"/><line class=\"osa\" x1=\"248.5\" y1=\"144\" x2=\"248.5\" y2=\"156\"/><text x=\"94\" y=\"168\">d</text><text x=\"198\" y=\"168\">f</text></svg>"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Jednačina sočiva",
+      "en": "Lens equation",
+      "it": "Equazione delle lenti",
+      "fr": "Relation de conjugaison",
+      "es": "Ecuación de las lentes",
+      "de": "Linsengleichung",
+      "pt": "Equação das lentes",
+      "ru": "Формула тонкой линзы"
+     },
+     "latex": {
+      "sr": "\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{l}",
+      "en": "\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i}",
+      "it": "\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{q}",
+      "fr": "\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{p'}",
+      "es": "\\frac{1}{f} = \\frac{1}{s} + \\frac{1}{s'}",
+      "de": "\\frac{1}{f} = \\frac{1}{g} + \\frac{1}{b}",
+      "pt": "\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{p'}",
+      "ru": "\\frac{1}{F} = \\frac{1}{d} + \\frac{1}{f}"
+     },
+     "objasnjenje": {
+      "sr": "Važi i za sferna ogledala (f = r/2). Za rasipno sočivo f je negativno, a za imaginarni lik udaljenost lika.",
+      "en": "Also valid for spherical mirrors (f = r/2). For a diverging lens f is negative, as is the distance of a virtual image.",
+      "it": "Vale anche per gli specchi sferici (f = r/2). Per una lente divergente f è negativa, come la distanza di un’immagine virtuale.",
+      "fr": "Vaut aussi pour les miroirs sphériques (f = r/2). Pour une lentille divergente f est négative, ainsi que la distance d’une image virtuelle.",
+      "es": "Vale también para espejos esféricos (f = r/2). Para una lente divergente f es negativa, igual que la distancia de una imagen virtual.",
+      "de": "Gilt auch für Kugelspiegel (f = r/2). Bei Zerstreuungslinsen ist f negativ, ebenso die Bildweite eines virtuellen Bildes.",
+      "pt": "Vale também para espelhos esféricos (f = r/2). Para lente divergente f é negativa, assim como a distância de imagem virtual.",
+      "ru": "Верна и для сферических зеркал (F = R/2). Для рассеивающей линзы F отрицательно, как и расстояние до мнимого изображения."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Uvećanje",
+      "en": "Magnification",
+      "it": "Ingrandimento",
+      "fr": "Grandissement",
+      "es": "Aumento",
+      "de": "Abbildungsmaßstab",
+      "pt": "Aumento",
+      "ru": "Увеличение"
+     },
+     "latex": {
+      "sr": "u = \\frac{y'}{y} = \\frac{l}{p}",
+      "en": "m = \\frac{y'}{y} = \\frac{d_i}{d_o}",
+      "it": "G = \\frac{y'}{y} = \\frac{q}{p}",
+      "fr": "\\gamma = \\frac{y'}{y} = \\frac{p'}{p}",
+      "es": "M = \\frac{y'}{y} = \\frac{s'}{s}",
+      "de": "\\beta = \\frac{y'}{y} = \\frac{b}{g}",
+      "pt": "A = \\frac{y'}{y} = \\frac{p'}{p}",
+      "ru": "\\Gamma = \\frac{y'}{y} = \\frac{f}{d}"
+     },
+     "objasnjenje": {
+      "sr": "y je veličina predmeta, y′ veličina lika.",
+      "en": "y is the object size, y′ the image size.",
+      "it": "y è l’altezza dell’oggetto, y′ quella dell’immagine.",
+      "fr": "y est la taille de l’objet, y′ celle de l’image.",
+      "es": "y es el tamaño del objeto, y′ el de la imagen.",
+      "de": "y ist die Gegenstands-, y′ die Bildgröße.",
+      "pt": "y é o tamanho do objeto, y′ o da imagem.",
+      "ru": "y — размер предмета, y′ — размер изображения."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Žižna daljina sočiva",
+      "en": "Lensmaker’s equation",
+      "it": "Formula del costruttore di lenti",
+      "fr": "Formule des opticiens",
+      "es": "Ecuación del fabricante de lentes",
+      "de": "Linsenschleiferformel",
+      "pt": "Equação dos fabricantes de lentes",
+      "ru": "Формула оптической силы линзы"
+     },
+     "latex": {
+      "sr": "\\frac{1}{f} = \\left(\\frac{n}{n_0} - 1\\right)\\left(\\frac{1}{r_1} + \\frac{1}{r_2}\\right), \\quad D = \\frac{1}{f}",
+      "en": "\\frac{1}{f} = \\left(\\frac{n}{n_0} - 1\\right)\\left(\\frac{1}{r_1} + \\frac{1}{r_2}\\right), \\quad D = \\frac{1}{f}",
+      "it": "\\frac{1}{f} = \\left(\\frac{n}{n_0} - 1\\right)\\left(\\frac{1}{r_1} + \\frac{1}{r_2}\\right), \\quad D = \\frac{1}{f}",
+      "fr": "\\frac{1}{f} = \\left(\\frac{n}{n_0} - 1\\right)\\left(\\frac{1}{r_1} + \\frac{1}{r_2}\\right), \\quad D = \\frac{1}{f}",
+      "es": "\\frac{1}{f} = \\left(\\frac{n}{n_0} - 1\\right)\\left(\\frac{1}{r_1} + \\frac{1}{r_2}\\right), \\quad D = \\frac{1}{f}",
+      "de": "\\frac{1}{f} = \\left(\\frac{n}{n_0} - 1\\right)\\left(\\frac{1}{r_1} + \\frac{1}{r_2}\\right), \\quad D = \\frac{1}{f}",
+      "pt": "\\frac{1}{f} = \\left(\\frac{n}{n_0} - 1\\right)\\left(\\frac{1}{r_1} + \\frac{1}{r_2}\\right), \\quad D = \\frac{1}{f}",
+      "ru": "\\frac{1}{F} = \\left(\\frac{n}{n_0} - 1\\right)\\left(\\frac{1}{r_1} + \\frac{1}{r_2}\\right), \\quad D = \\frac{1}{F}"
+     },
+     "objasnjenje": {
+      "sr": "r₁ i r₂ su poluprečnici krivina (pozitivni za ispupčene površi). D je jačina sočiva u dioptrijama (1 dpt = 1/m).",
+      "en": "r₁, r₂ are the radii of curvature (positive for convex surfaces). D is the optical power in dioptres (1 dpt = 1/m).",
+      "it": "r₁, r₂ sono i raggi di curvatura (positivi se convessi). D è il potere diottrico (1 dpt = 1/m).",
+      "fr": "r₁, r₂ sont les rayons de courbure (positifs si convexes). D est la vergence en dioptries (1 δ = 1/m).",
+      "es": "r₁, r₂ son los radios de curvatura (positivos si convexos). D es la potencia en dioptrías (1 dpt = 1/m).",
+      "de": "r₁, r₂ sind die Krümmungsradien (positiv bei konvex). D ist die Brechkraft in Dioptrien (1 dpt = 1/m).",
+      "pt": "r₁, r₂ são os raios de curvatura (positivos se convexos). D é a vergência em dioptrias (1 di = 1/m).",
+      "ru": "r₁, r₂ — радиусы кривизны (положительны для выпуклых). D — оптическая сила в диоптриях (1 дптр = 1/м)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "ll": {
+      "oznaka": {
+       "sr": "l",
+       "en": "d_i",
+       "it": "q",
+       "fr": "p'",
+       "es": "s'",
+       "de": "b",
+       "pt": "p'",
+       "ru": "f"
+      },
+      "naziv": {
+       "sr": "udaljenost lika",
+       "en": "image distance",
+       "it": "distanza dell’immagine",
+       "fr": "distance de l’image",
+       "es": "distancia de la imagen",
+       "de": "Bildweite",
+       "pt": "distância da imagem",
+       "ru": "расстояние до изображения"
+      },
+      "vrsta": "duzina",
+      "jed": "cm"
+     },
+     "ff": {
+      "oznaka": {
+       "sr": "f",
+       "en": "f",
+       "it": "f",
+       "fr": "f",
+       "es": "f",
+       "de": "f",
+       "pt": "f",
+       "ru": "F"
+      },
+      "naziv": {
+       "sr": "žižna daljina",
+       "en": "focal length",
+       "it": "distanza focale",
+       "fr": "distance focale",
+       "es": "distancia focal",
+       "de": "Brennweite",
+       "pt": "distância focal",
+       "ru": "фокусное расстояние"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.1,
+      "jed": "cm"
+     },
+     "pp": {
+      "oznaka": {
+       "sr": "p",
+       "en": "d_o",
+       "it": "p",
+       "fr": "p",
+       "es": "s",
+       "de": "g",
+       "pt": "p",
+       "ru": "d"
+      },
+      "naziv": {
+       "sr": "udaljenost predmeta",
+       "en": "object distance",
+       "it": "distanza dell’oggetto",
+       "fr": "distance de l’objet",
+       "es": "distancia del objeto",
+       "de": "Gegenstandsweite",
+       "pt": "distância do objeto",
+       "ru": "расстояние до предмета"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.3,
+      "jed": "cm"
+     },
+     "uu": {
+      "oznaka": {
+       "sr": "u",
+       "en": "m",
+       "it": "G",
+       "fr": "\\gamma",
+       "es": "M",
+       "de": "\\beta",
+       "pt": "A",
+       "ru": "\\Gamma"
+      },
+      "naziv": {
+       "sr": "uvećanje",
+       "en": "magnification",
+       "it": "ingrandimento",
+       "fr": "grandissement",
+       "es": "aumento",
+       "de": "Abbildungsmaßstab",
+       "pt": "aumento",
+       "ru": "увеличение"
+      },
+      "vrsta": "bez"
+     },
+     "yl": {
+      "oznaka": "y'",
+      "naziv": {
+       "sr": "veličina lika",
+       "en": "image size",
+       "it": "altezza dell’immagine",
+       "fr": "taille de l’image",
+       "es": "tamaño de la imagen",
+       "de": "Bildgröße",
+       "pt": "tamanho da imagem",
+       "ru": "размер изображения"
+      },
+      "vrsta": "duzina",
+      "jed": "cm"
+     },
+     "yp": {
+      "oznaka": "y",
+      "naziv": {
+       "sr": "veličina predmeta",
+       "en": "object size",
+       "it": "altezza dell’oggetto",
+       "fr": "taille de l’objet",
+       "es": "tamaño del objeto",
+       "de": "Gegenstandsgröße",
+       "pt": "tamanho do objeto",
+       "ru": "размер предмета"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.02,
+      "jed": "cm",
+      "poz": true
+     },
+     "nl": {
+      "oznaka": "n",
+      "naziv": {
+       "sr": "indeks prelamanja sočiva",
+       "en": "refractive index of the lens",
+       "it": "indice della lente",
+       "fr": "indice de la lentille",
+       "es": "índice de la lente",
+       "de": "Brechungsindex der Linse",
+       "pt": "índice da lente",
+       "ru": "показатель преломления линзы"
+      },
+      "vrsta": "bez",
+      "pocetna": 1.5,
+      "poz": true
+     },
+     "no": {
+      "oznaka": "n_0",
+      "naziv": {
+       "sr": "indeks okoline",
+       "en": "refractive index of surroundings",
+       "it": "indice del mezzo circostante",
+       "fr": "indice du milieu extérieur",
+       "es": "índice del medio",
+       "de": "Brechungsindex der Umgebung",
+       "pt": "índice do meio",
+       "ru": "показатель среды"
+      },
+      "vrsta": "bez",
+      "pocetna": 1,
+      "poz": true
+     },
+     "r1": {
+      "oznaka": "r_1",
+      "naziv": {
+       "sr": "poluprečnik prve površi",
+       "en": "radius of surface 1",
+       "it": "raggio della superficie 1",
+       "fr": "rayon de la face 1",
+       "es": "radio de la cara 1",
+       "de": "Krümmungsradius 1",
+       "pt": "raio da face 1",
+       "ru": "радиус первой поверхности"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.2,
+      "jed": "cm"
+     },
+     "r2": {
+      "oznaka": "r_2",
+      "naziv": {
+       "sr": "poluprečnik druge površi",
+       "en": "radius of surface 2",
+       "it": "raggio della superficie 2",
+       "fr": "rayon de la face 2",
+       "es": "radio de la cara 2",
+       "de": "Krümmungsradius 2",
+       "pt": "raio da face 2",
+       "ru": "радиус второй поверхности"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.2,
+      "jed": "cm"
+     },
+     "Dj": {
+      "oznaka": "D",
+      "naziv": {
+       "sr": "jačina sočiva",
+       "en": "optical power",
+       "it": "potere diottrico",
+       "fr": "vergence",
+       "es": "potencia óptica",
+       "de": "Brechkraft",
+       "pt": "vergência",
+       "ru": "оптическая сила"
+      },
+      "vrsta": "optickaJacina"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "\\dfrac{1}{f} = \\dfrac{1}{p} + \\dfrac{1}{l}",
+       "en": "\\dfrac{1}{f} = \\dfrac{1}{d_o} + \\dfrac{1}{d_i}",
+       "it": "\\dfrac{1}{f} = \\dfrac{1}{p} + \\dfrac{1}{q}",
+       "fr": "\\dfrac{1}{f} = \\dfrac{1}{p} + \\dfrac{1}{p'}",
+       "es": "\\dfrac{1}{f} = \\dfrac{1}{s} + \\dfrac{1}{s'}",
+       "de": "\\dfrac{1}{f} = \\dfrac{1}{g} + \\dfrac{1}{b}",
+       "pt": "\\dfrac{1}{f} = \\dfrac{1}{p} + \\dfrac{1}{p'}",
+       "ru": "\\dfrac{1}{F} = \\dfrac{1}{d} + \\dfrac{1}{f}"
+      },
+      "trazi": "ll",
+      "resenja": {
+       "ll": "1/(1/ff - 1/pp)",
+       "pp": "1/(1/ff - 1/ll)",
+       "ff": "1/(1/pp + 1/ll)"
+      }
+     },
+     {
+      "latex": {
+       "sr": "u = \\dfrac{l}{p}",
+       "en": "m = \\dfrac{d_i}{d_o}",
+       "it": "G = \\dfrac{q}{p}",
+       "fr": "\\gamma = \\dfrac{p'}{p}",
+       "es": "M = \\dfrac{s'}{s}",
+       "de": "\\beta = \\dfrac{b}{g}",
+       "pt": "A = \\dfrac{p'}{p}",
+       "ru": "\\Gamma = \\dfrac{f}{d}"
+      },
+      "trazi": "uu",
+      "resenja": {
+       "uu": "ll/pp",
+       "ll": "uu*pp",
+       "pp": "ll/uu"
+      }
+     },
+     {
+      "latex": {
+       "sr": "y' = y\\,\\dfrac{l}{p}",
+       "en": "y' = y\\,\\dfrac{d_i}{d_o}",
+       "it": "y' = y\\,\\dfrac{q}{p}",
+       "fr": "y' = y\\,\\dfrac{p'}{p}",
+       "es": "y' = y\\,\\dfrac{s'}{s}",
+       "de": "y' = y\\,\\dfrac{b}{g}",
+       "pt": "y' = y\\,\\dfrac{p'}{p}",
+       "ru": "y' = y\\,\\dfrac{f}{d}"
+      },
+      "trazi": "yl",
+      "resenja": {
+       "yl": "yp*ll/pp",
+       "yp": "yl*pp/ll",
+       "ll": "yl*pp/yp",
+       "pp": "yp*ll/yl"
+      }
+     },
+     {
+      "latex": {
+       "sr": "\\dfrac{1}{f} = \\left(\\dfrac{n}{n_0} - 1\\right)\\left(\\dfrac{1}{r_1} + \\dfrac{1}{r_2}\\right)",
+       "en": "\\dfrac{1}{f} = \\left(\\dfrac{n}{n_0} - 1\\right)\\left(\\dfrac{1}{r_1} + \\dfrac{1}{r_2}\\right)",
+       "it": "\\dfrac{1}{f} = \\left(\\dfrac{n}{n_0} - 1\\right)\\left(\\dfrac{1}{r_1} + \\dfrac{1}{r_2}\\right)",
+       "fr": "\\dfrac{1}{f} = \\left(\\dfrac{n}{n_0} - 1\\right)\\left(\\dfrac{1}{r_1} + \\dfrac{1}{r_2}\\right)",
+       "es": "\\dfrac{1}{f} = \\left(\\dfrac{n}{n_0} - 1\\right)\\left(\\dfrac{1}{r_1} + \\dfrac{1}{r_2}\\right)",
+       "de": "\\dfrac{1}{f} = \\left(\\dfrac{n}{n_0} - 1\\right)\\left(\\dfrac{1}{r_1} + \\dfrac{1}{r_2}\\right)",
+       "pt": "\\dfrac{1}{f} = \\left(\\dfrac{n}{n_0} - 1\\right)\\left(\\dfrac{1}{r_1} + \\dfrac{1}{r_2}\\right)",
+       "ru": "\\dfrac{1}{F} = \\left(\\dfrac{n}{n_0} - 1\\right)\\left(\\dfrac{1}{r_1} + \\dfrac{1}{r_2}\\right)"
+      },
+      "trazi": "ff",
+      "resenja": {
+       "ff": "1/((nl/no - 1)*(1/r1 + 1/r2))",
+       "nl": "no*(1 + 1/(ff*(1/r1 + 1/r2)))",
+       "r1": "1/(1/(ff*(nl/no - 1)) - 1/r2)",
+       "r2": "1/(1/(ff*(nl/no - 1)) - 1/r1)"
+      },
+      "promenljive": [
+       "ff",
+       "nl",
+       "r1",
+       "r2",
+       "no"
+      ]
+     },
+     {
+      "latex": {
+       "sr": "D = \\dfrac{1}{f}",
+       "en": "D = \\dfrac{1}{f}",
+       "it": "D = \\dfrac{1}{f}",
+       "fr": "D = \\dfrac{1}{f}",
+       "es": "D = \\dfrac{1}{f}",
+       "de": "D = \\dfrac{1}{f}",
+       "pt": "D = \\dfrac{1}{f}",
+       "ru": "D = \\dfrac{1}{F}"
+      },
+      "trazi": "Dj",
+      "resenja": {
+       "Dj": "1/ff",
+       "ff": "1/Dj"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "zracenje",
+   "simbol": "σT⁴",
+   "naziv": {
+    "sr": "Svetlost i toplotno zračenje",
+    "en": "Light and thermal radiation",
+    "it": "Luce e irraggiamento termico",
+    "fr": "Lumière et rayonnement thermique",
+    "es": "Luz y radiación térmica",
+    "de": "Licht und Wärmestrahlung",
+    "pt": "Luz e radiação térmica",
+    "ru": "Свет и тепловое излучение"
+   },
+   "opis": {
+    "sr": "Intenzitet, Vinov i Štefanov zakon",
+    "en": "Intensity, Wien’s and Stefan’s laws",
+    "it": "Intensità, leggi di Wien e Stefan",
+    "fr": "Éclairement, lois de Wien et Stefan",
+    "es": "Intensidad, leyes de Wien y Stefan",
+    "de": "Intensität, Wien und Stefan-Boltzmann",
+    "pt": "Intensidade, leis de Wien e Stefan",
+    "ru": "Интенсивность, законы Вина и Стефана"
+   },
+   "kljucne_reci": {
+    "sr": "intenzitet zracenja crno telo vinov zakon stefan bolcmanov zakon temperatura zvezde sunce albedo",
+    "en": "intensity radiation black body wien law stefan boltzmann law star temperature sun albedo",
+    "it": "intensita radiazione corpo nero legge di wien stefan boltzmann stella sole albedo",
+    "fr": "eclairement rayonnement corps noir loi de wien stefan boltzmann etoile soleil albedo",
+    "es": "intensidad radiacion cuerpo negro ley de wien stefan boltzmann estrella sol albedo",
+    "de": "intensitat strahlung schwarzer korper wiensches gesetz stefan boltzmann stern sonne albedo",
+    "pt": "intensidade radiacao corpo negro lei de wien stefan boltzmann estrela sol albedo",
+    "ru": "интенсивность излучения абсолютно чёрное тело закон вина стефана больцмана звезда солнце альбедо"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Intenzitet",
+      "en": "Intensity",
+      "it": "Intensità",
+      "fr": "Éclairement",
+      "es": "Intensidad",
+      "de": "Intensität",
+      "pt": "Intensidade",
+      "ru": "Интенсивность"
+     },
+     "latex": "j = \\frac{P}{S}, \\quad j(r) = \\frac{P}{4\\pi r^2}, \\quad j' = j \\cos\\alpha",
+     "objasnjenje": {
+      "sr": "Tačkasti izvor zrači podjednako na sve strane, pa intenzitet opada sa kvadratom rastojanja. α je ugao između zraka i normale na površinu.",
+      "en": "A point source radiates equally in all directions, so intensity falls with the square of distance. α is the angle between the rays and the surface normal.",
+      "it": "Una sorgente puntiforme irradia ugualmente in tutte le direzioni: l’intensità cala col quadrato della distanza. α è l’angolo con la normale.",
+      "fr": "Une source ponctuelle rayonne dans toutes les directions : l’éclairement décroît comme le carré de la distance. α est l’angle avec la normale.",
+      "es": "Una fuente puntual emite igual en todas direcciones: la intensidad cae con el cuadrado de la distancia. α es el ángulo con la normal.",
+      "de": "Eine Punktquelle strahlt in alle Richtungen gleich, die Intensität fällt mit dem Abstandsquadrat. α ist der Winkel zum Lot.",
+      "pt": "Uma fonte pontual irradia igualmente em todas as direções: a intensidade cai com o quadrado da distância. α é o ângulo com a normal.",
+      "ru": "Точечный источник излучает во все стороны, интенсивность убывает как квадрат расстояния. α — угол с нормалью."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Vinov zakon",
+      "en": "Wien’s law",
+      "it": "Legge di Wien",
+      "fr": "Loi de Wien",
+      "es": "Ley de Wien",
+      "de": "Wiensches Verschiebungsgesetz",
+      "pt": "Lei de Wien",
+      "ru": "Закон Вина"
+     },
+     "latex": "\\lambda_{\\max} = \\frac{k_W}{T}",
+     "objasnjenje": {
+      "sr": "Toplija tela najjače zrače na kraćim talasnim dužinama. Sunce (5800 K): oko 500 nm.",
+      "en": "Hotter bodies radiate most strongly at shorter wavelengths. The Sun (5800 K): about 500 nm.",
+      "it": "I corpi più caldi irradiano di più a lunghezze d’onda minori. Sole (5800 K): circa 500 nm.",
+      "fr": "Les corps plus chauds rayonnent surtout aux courtes longueurs d’onde. Soleil (5800 K) : environ 500 nm.",
+      "es": "Los cuerpos más calientes emiten más en longitudes de onda cortas. Sol (5800 K): unos 500 nm.",
+      "de": "Heißere Körper strahlen am stärksten bei kürzeren Wellenlängen. Sonne (5800 K): etwa 500 nm.",
+      "pt": "Corpos mais quentes irradiam mais em comprimentos de onda menores. Sol (5800 K): cerca de 500 nm.",
+      "ru": "Более горячие тела сильнее излучают на коротких волнах. Солнце (5800 К): около 500 нм."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Štefan-Bolcmanov zakon",
+      "en": "Stefan–Boltzmann law",
+      "it": "Legge di Stefan-Boltzmann",
+      "fr": "Loi de Stefan-Boltzmann",
+      "es": "Ley de Stefan-Boltzmann",
+      "de": "Stefan-Boltzmann-Gesetz",
+      "pt": "Lei de Stefan-Boltzmann",
+      "ru": "Закон Стефана — Больцмана"
+     },
+     "latex": "j^{*} = \\frac{P^{*}}{S} = \\sigma T^4, \\quad j^{*}_{\\text{siv}} = (1 - a)\\,\\sigma T^4",
+     "objasnjenje": {
+      "sr": "Prvo za crno telo; drugo za sivo telo, gde je a deo upadnog zračenja koji se odbije (albedo).",
+      "en": "First for a black body; second for a grey body, where a is the reflected fraction of incident radiation (albedo).",
+      "it": "La prima per il corpo nero; la seconda per un corpo grigio, con a frazione riflessa (albedo).",
+      "fr": "La première pour le corps noir ; la seconde pour un corps gris, a étant la fraction réfléchie (albédo).",
+      "es": "La primera para el cuerpo negro; la segunda para un cuerpo gris, con a la fracción reflejada (albedo).",
+      "de": "Erstens für den schwarzen Körper; zweitens für den grauen Körper mit dem reflektierten Anteil a (Albedo).",
+      "pt": "A primeira para o corpo negro; a segunda para um corpo cinzento, com a a fração refletida (albedo).",
+      "ru": "Первая — для абсолютно чёрного тела; вторая — для серого, где a — доля отражённого излучения (альбедо)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "j": {
+      "oznaka": "j",
+      "naziv": {
+       "sr": "gustina svetlosnog toka (intenzitet)",
+       "en": "intensity",
+       "it": "intensità",
+       "fr": "éclairement énergétique",
+       "es": "intensidad",
+       "de": "Bestrahlungsstärke (Intensität)",
+       "pt": "intensidade",
+       "ru": "интенсивность"
+      },
+      "vrsta": "intenzitet",
+      "poz": true
+     },
+     "P": {
+      "oznaka": "P",
+      "naziv": {
+       "sr": "snaga izvora",
+       "en": "power of the source",
+       "it": "potenza della sorgente",
+       "fr": "puissance de la source",
+       "es": "potencia de la fuente",
+       "de": "Leistung der Quelle",
+       "pt": "potência da fonte",
+       "ru": "мощность источника"
+      },
+      "vrsta": "snaga",
+      "pocetna": 100,
+      "poz": true
+     },
+     "r": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "rastojanje od izvora",
+       "en": "distance from the source",
+       "it": "distanza dalla sorgente",
+       "fr": "distance à la source",
+       "es": "distancia a la fuente",
+       "de": "Abstand zur Quelle",
+       "pt": "distância da fonte",
+       "ru": "расстояние до источника"
+      },
+      "vrsta": "duzina",
+      "pocetna": 2,
+      "poz": true
+     },
+     "lmax": {
+      "oznaka": "\\lambda_{\\max}",
+      "naziv": {
+       "sr": "talasna dužina najjačeg zračenja",
+       "en": "peak wavelength",
+       "it": "lunghezza d’onda del massimo",
+       "fr": "longueur d’onde du maximum",
+       "es": "longitud de onda del máximo",
+       "de": "Wellenlänge des Maximums",
+       "pt": "comprimento de onda do máximo",
+       "ru": "длина волны максимума"
+      },
+      "vrsta": "talasnaDuzina",
+      "jed": "nm",
+      "poz": true
+     },
+     "kW": {
+      "oznaka": "k_W",
+      "naziv": {
+       "sr": "Vinova konstanta",
+       "en": "Wien’s constant",
+       "it": "costante di Wien",
+       "fr": "constante de Wien",
+       "es": "constante de Wien",
+       "de": "Wiensche Konstante",
+       "pt": "constante de Wien",
+       "ru": "постоянная Вина"
+      },
+      "vrsta": "wien",
+      "pocetna": 0.002897771955,
+      "poz": true
+     },
+     "Tz": {
+      "oznaka": "T",
+      "naziv": {
+       "sr": "temperatura tela",
+       "en": "temperature of the body",
+       "it": "temperatura del corpo",
+       "fr": "température du corps",
+       "es": "temperatura del cuerpo",
+       "de": "Temperatur des Körpers",
+       "pt": "temperatura do corpo",
+       "ru": "температура тела"
+      },
+      "vrsta": "temperatura",
+      "pocetna": 5800,
+      "poz": true
+     },
+     "jc": {
+      "oznaka": "j^{*}",
+      "naziv": {
+       "sr": "izračena snaga po jedinici površine",
+       "en": "radiated power per unit area",
+       "it": "potenza irradiata per unità di superficie",
+       "fr": "puissance rayonnée par unité de surface",
+       "es": "potencia radiada por unidad de área",
+       "de": "abgestrahlte Leistung pro Fläche",
+       "pt": "potência irradiada por unidade de área",
+       "ru": "излучаемая мощность с единицы площади"
+      },
+      "vrsta": "intenzitet",
+      "poz": true
+     },
+     "sig": {
+      "oznaka": "\\sigma",
+      "naziv": {
+       "sr": "Štefan-Bolcmanova konstanta",
+       "en": "Stefan–Boltzmann constant",
+       "it": "costante di Stefan-Boltzmann",
+       "fr": "constante de Stefan-Boltzmann",
+       "es": "constante de Stefan-Boltzmann",
+       "de": "Stefan-Boltzmann-Konstante",
+       "pt": "constante de Stefan-Boltzmann",
+       "ru": "постоянная Стефана — Больцмана"
+      },
+      "vrsta": "stefan",
+      "pocetna": 5.670374419e-08,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "j = \\dfrac{P}{4\\pi r^2}",
+      "trazi": "j",
+      "resenja": {
+       "j": "P/(4*PI*r*r)",
+       "P": "j*4*PI*r*r",
+       "r": "sqrt(P/(4*PI*j))"
+      }
+     },
+     {
+      "latex": "\\lambda_{\\max} = \\dfrac{k_W}{T}",
+      "trazi": "lmax",
+      "promenljive": [
+       "lmax",
+       "kW",
+       "Tz"
+      ],
+      "resenja": {
+       "lmax": "kW/Tz",
+       "Tz": "kW/lmax"
+      }
+     },
+     {
+      "latex": "j^{*} = \\sigma T^4",
+      "trazi": "jc",
+      "promenljive": [
+       "jc",
+       "sig",
+       "Tz"
+      ],
+      "resenja": {
+       "jc": "sig*pow(Tz, 4)",
+       "Tz": "pow(jc/sig, 0.25)"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

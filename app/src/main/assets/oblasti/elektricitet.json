@@ -1,0 +1,2071 @@
+{
+ "oblast": "elektricitet",
+ "teme": [
+  {
+   "id": "omov_zakon",
+   "simbol": "I",
+   "naziv": {
+    "sr": "Struja i Omov zakon",
+    "en": "Current and Ohm’s law",
+    "it": "Corrente e legge di Ohm",
+    "fr": "Courant et loi d’Ohm",
+    "es": "Corriente y ley de Ohm",
+    "de": "Strom und ohmsches Gesetz",
+    "pt": "Corrente e lei de Ohm",
+    "ru": "Ток и закон Ома"
+   },
+   "opis": {
+    "sr": "I = q/t, I = U/R",
+    "en": "I = q/t, I = U/R",
+    "it": "I = q/t, I = U/R",
+    "fr": "I = q/t, I = U/R",
+    "es": "I = q/t, I = U/R",
+    "de": "I = Q/t, I = U/R",
+    "pt": "I = q/t, I = U/R",
+    "ru": "I = q/t, I = U/R"
+   },
+   "kljucne_reci": {
+    "sr": "elektricna struja jacina struje omov zakon napon otpor amper volt om",
+    "en": "electric current ohm law voltage resistance ampere volt ohm",
+    "it": "corrente elettrica legge di ohm tensione resistenza ampere volt",
+    "fr": "courant electrique loi d ohm tension resistance ampere volt",
+    "es": "corriente electrica ley de ohm tension resistencia amperio voltio",
+    "de": "elektrischer strom ohmsches gesetz spannung widerstand ampere volt",
+    "pt": "corrente eletrica lei de ohm tensao resistencia ampere volt",
+    "ru": "электрический ток закон ома напряжение сопротивление ампер вольт"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Jačina struje",
+      "en": "Electric current",
+      "it": "Intensità di corrente",
+      "fr": "Intensité du courant",
+      "es": "Intensidad de corriente",
+      "de": "Stromstärke",
+      "pt": "Corrente elétrica",
+      "ru": "Сила тока"
+     },
+     "latex": "I = \\frac{\\Delta q}{\\Delta t}",
+     "objasnjenje": {
+      "sr": "Naelektrisanje koje u sekundi prođe kroz presek provodnika; 1 A = 1 C/s.",
+      "en": "Charge passing through a cross-section per second; 1 A = 1 C/s.",
+      "it": "Carica che attraversa una sezione al secondo; 1 A = 1 C/s.",
+      "fr": "Charge traversant une section par seconde ; 1 A = 1 C/s.",
+      "es": "Carga que atraviesa una sección por segundo; 1 A = 1 C/s.",
+      "de": "Ladung, die pro Sekunde durch einen Querschnitt fließt; 1 A = 1 C/s.",
+      "pt": "Carga que atravessa uma seção por segundo; 1 A = 1 C/s.",
+      "ru": "Заряд, проходящий через сечение за секунду; 1 А = 1 Кл/с."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Omov zakon",
+      "en": "Ohm’s law",
+      "it": "Legge di Ohm",
+      "fr": "Loi d’Ohm",
+      "es": "Ley de Ohm",
+      "de": "Ohmsches Gesetz",
+      "pt": "Lei de Ohm",
+      "ru": "Закон Ома"
+     },
+     "latex": "I = \\frac{U}{R}",
+     "objasnjenje": {
+      "sr": "Struja kroz provodnik srazmerna je naponu na njegovim krajevima; 1 Ω = 1 V/A.",
+      "en": "Current through a conductor is proportional to the voltage across it; 1 Ω = 1 V/A.",
+      "it": "La corrente è proporzionale alla tensione ai capi del conduttore; 1 Ω = 1 V/A.",
+      "fr": "Le courant est proportionnel à la tension aux bornes ; 1 Ω = 1 V/A.",
+      "es": "La corriente es proporcional a la tensión en los extremos; 1 Ω = 1 V/A.",
+      "de": "Der Strom ist proportional zur anliegenden Spannung; 1 Ω = 1 V/A.",
+      "pt": "A corrente é proporcional à tensão nos terminais; 1 Ω = 1 V/A.",
+      "ru": "Сила тока пропорциональна напряжению; 1 Ом = 1 В/А."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "I": {
+      "oznaka": "I",
+      "naziv": {
+       "sr": "jačina struje",
+       "en": "current",
+       "it": "intensità di corrente",
+       "fr": "intensité du courant",
+       "es": "intensidad de corriente",
+       "de": "Stromstärke",
+       "pt": "corrente elétrica",
+       "ru": "сила тока"
+      },
+      "vrsta": "struja",
+      "jed": "A"
+     },
+     "q": {
+      "oznaka": "q",
+      "naziv": {
+       "sr": "naelektrisanje",
+       "en": "charge",
+       "it": "carica",
+       "fr": "charge",
+       "es": "carga",
+       "de": "Ladung",
+       "pt": "carga",
+       "ru": "заряд"
+      },
+      "vrsta": "naboj",
+      "pocetna": 10
+     },
+     "t": {
+      "oznaka": "t",
+      "naziv": {
+       "sr": "vreme",
+       "en": "time",
+       "it": "tempo",
+       "fr": "temps",
+       "es": "tiempo",
+       "de": "Zeit",
+       "pt": "tempo",
+       "ru": "время"
+      },
+      "vrsta": "vreme",
+      "pocetna": 5,
+      "poz": true
+     },
+     "U": {
+      "oznaka": "U",
+      "naziv": {
+       "sr": "napon",
+       "en": "voltage",
+       "it": "tensione",
+       "fr": "tension",
+       "es": "tensión",
+       "de": "Spannung",
+       "pt": "tensão",
+       "ru": "напряжение"
+      },
+      "vrsta": "napon",
+      "pocetna": 230
+     },
+     "R": {
+      "oznaka": "R",
+      "naziv": {
+       "sr": "otpor",
+       "en": "resistance",
+       "it": "resistenza",
+       "fr": "résistance",
+       "es": "resistencia",
+       "de": "Widerstand",
+       "pt": "resistência",
+       "ru": "сопротивление"
+      },
+      "vrsta": "otpor",
+      "pocetna": 1000,
+      "jed": "kΩ",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "I = \\dfrac{U}{R}",
+      "trazi": "I",
+      "resenja": {
+       "I": "U/R",
+       "U": "I*R",
+       "R": "U/I"
+      }
+     },
+     {
+      "latex": "I = \\dfrac{q}{t}",
+      "trazi": "I",
+      "resenja": {
+       "I": "q/t",
+       "q": "I*t",
+       "t": "q/I"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "otpor",
+   "simbol": "R",
+   "naziv": {
+    "sr": "Otpor provodnika",
+    "en": "Resistance of a conductor",
+    "it": "Resistenza di un conduttore",
+    "fr": "Résistance d’un conducteur",
+    "es": "Resistencia de un conductor",
+    "de": "Widerstand eines Leiters",
+    "pt": "Resistência de um condutor",
+    "ru": "Сопротивление проводника"
+   },
+   "opis": {
+    "sr": "Specifični otpor, temperatura",
+    "en": "Resistivity, temperature",
+    "it": "Resistività, temperatura",
+    "fr": "Résistivité, température",
+    "es": "Resistividad, temperatura",
+    "de": "Spezifischer Widerstand, Temperatur",
+    "pt": "Resistividade, temperatura",
+    "ru": "Удельное сопротивление, температура"
+   },
+   "kljucne_reci": {
+    "sr": "otpor provodnika specificni otpor zica bakar temperaturni koeficijent",
+    "en": "resistance resistivity wire copper temperature coefficient",
+    "it": "resistenza resistivita filo rame coefficiente di temperatura",
+    "fr": "resistance resistivite fil cuivre coefficient de temperature",
+    "es": "resistencia resistividad cable cobre coeficiente de temperatura",
+    "de": "widerstand spezifischer widerstand draht kupfer temperaturkoeffizient",
+    "pt": "resistencia resistividade fio cobre coeficiente de temperatura",
+    "ru": "сопротивление удельное провод медь температурный коэффициент"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Otpor žice",
+      "en": "Resistance of a wire",
+      "it": "Resistenza di un filo",
+      "fr": "Résistance d’un fil",
+      "es": "Resistencia de un cable",
+      "de": "Widerstand eines Drahtes",
+      "pt": "Resistência de um fio",
+      "ru": "Сопротивление провода"
+     },
+     "latex": "R = \\rho\\,\\frac{l}{S}",
+     "objasnjenje": {
+      "sr": "Bakar: ρ ≈ 0,017 Ω·mm²/m, aluminijum ≈ 0,028 Ω·mm²/m.",
+      "en": "Copper: ρ ≈ 0.017 Ω·mm²/m, aluminium ≈ 0.028 Ω·mm²/m.",
+      "it": "Rame: ρ ≈ 0,017 Ω·mm²/m, alluminio ≈ 0,028 Ω·mm²/m.",
+      "fr": "Cuivre : ρ ≈ 0,017 Ω·mm²/m, aluminium ≈ 0,028 Ω·mm²/m.",
+      "es": "Cobre: ρ ≈ 0,017 Ω·mm²/m, aluminio ≈ 0,028 Ω·mm²/m.",
+      "de": "Kupfer: ρ ≈ 0,017 Ω·mm²/m, Aluminium ≈ 0,028 Ω·mm²/m.",
+      "pt": "Cobre: ρ ≈ 0,017 Ω·mm²/m, alumínio ≈ 0,028 Ω·mm²/m.",
+      "ru": "Медь: ρ ≈ 0,017 Ом·мм²/м, алюминий ≈ 0,028 Ом·мм²/м."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zavisnost od temperature",
+      "en": "Temperature dependence",
+      "it": "Dipendenza dalla temperatura",
+      "fr": "Variation avec la température",
+      "es": "Dependencia de la temperatura",
+      "de": "Temperaturabhängigkeit",
+      "pt": "Dependência da temperatura",
+      "ru": "Зависимость от температуры"
+     },
+     "latex": "\\Delta R = \\alpha\\, R\\, \\Delta T, \\quad R = R_0\\,(1 + \\alpha\\,\\Delta T)",
+     "objasnjenje": {
+      "sr": "Kod metala otpor raste sa temperaturom; za bakar α ≈ 0,0039 K⁻¹.",
+      "en": "For metals resistance rises with temperature; for copper α ≈ 0.0039 K⁻¹.",
+      "it": "Nei metalli la resistenza aumenta con la temperatura; rame α ≈ 0,0039 K⁻¹.",
+      "fr": "Pour les métaux la résistance augmente avec la température ; cuivre α ≈ 0,0039 K⁻¹.",
+      "es": "En los metales la resistencia aumenta con la temperatura; cobre α ≈ 0,0039 K⁻¹.",
+      "de": "Bei Metallen steigt der Widerstand mit der Temperatur; Kupfer α ≈ 0,0039 K⁻¹.",
+      "pt": "Nos metais a resistência aumenta com a temperatura; cobre α ≈ 0,0039 K⁻¹.",
+      "ru": "У металлов сопротивление растёт с температурой; медь α ≈ 0,0039 К⁻¹."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "R": {
+      "oznaka": "R",
+      "naziv": {
+       "sr": "otpor",
+       "en": "resistance",
+       "it": "resistenza",
+       "fr": "résistance",
+       "es": "resistencia",
+       "de": "Widerstand",
+       "pt": "resistência",
+       "ru": "сопротивление"
+      },
+      "vrsta": "otpor",
+      "poz": true
+     },
+     "rho": {
+      "oznaka": "\\rho",
+      "naziv": {
+       "sr": "specifični otpor",
+       "en": "resistivity",
+       "it": "resistività",
+       "fr": "résistivité",
+       "es": "resistividad",
+       "de": "spezifischer Widerstand",
+       "pt": "resistividade",
+       "ru": "удельное сопротивление"
+      },
+      "vrsta": "specOtpor",
+      "pocetna": 1.7e-08,
+      "jed": "Ω·mm²/m",
+      "poz": true
+     },
+     "l": {
+      "oznaka": "l",
+      "naziv": {
+       "sr": "dužina provodnika",
+       "en": "length of the conductor",
+       "it": "lunghezza del conduttore",
+       "fr": "longueur du conducteur",
+       "es": "longitud del conductor",
+       "de": "Leiterlänge",
+       "pt": "comprimento do condutor",
+       "ru": "длина проводника"
+      },
+      "vrsta": "duzina",
+      "pocetna": 100,
+      "poz": true
+     },
+     "S": {
+      "oznaka": "S",
+      "naziv": {
+       "sr": "površina preseka",
+       "en": "cross-sectional area",
+       "it": "sezione",
+       "fr": "section",
+       "es": "sección",
+       "de": "Querschnitt",
+       "pt": "área da seção",
+       "ru": "площадь сечения"
+      },
+      "vrsta": "povrsina",
+      "pocetna": 1.5e-06,
+      "jed": "mm²",
+      "poz": true
+     },
+     "RT": {
+      "oznaka": "R",
+      "naziv": {
+       "sr": "otpor na novoj temperaturi",
+       "en": "resistance at the new temperature",
+       "it": "resistenza alla nuova temperatura",
+       "fr": "résistance à la nouvelle température",
+       "es": "resistencia a la nueva temperatura",
+       "de": "Widerstand bei neuer Temperatur",
+       "pt": "resistência na nova temperatura",
+       "ru": "сопротивление при новой температуре"
+      },
+      "vrsta": "otpor",
+      "poz": true
+     },
+     "R0": {
+      "oznaka": "R_0",
+      "naziv": {
+       "sr": "otpor na početnoj temperaturi",
+       "en": "resistance at the initial temperature",
+       "it": "resistenza alla temperatura iniziale",
+       "fr": "résistance à la température initiale",
+       "es": "resistencia a la temperatura inicial",
+       "de": "Widerstand bei Anfangstemperatur",
+       "pt": "resistência na temperatura inicial",
+       "ru": "сопротивление при начальной температуре"
+      },
+      "vrsta": "otpor",
+      "pocetna": 10,
+      "poz": true
+     },
+     "alfa": {
+      "oznaka": "\\alpha",
+      "naziv": {
+       "sr": "temperaturni koeficijent otpora",
+       "en": "temperature coefficient of resistance",
+       "it": "coefficiente di temperatura",
+       "fr": "coefficient de température",
+       "es": "coeficiente de temperatura",
+       "de": "Temperaturkoeffizient",
+       "pt": "coeficiente de temperatura",
+       "ru": "температурный коэффициент сопротивления"
+      },
+      "vrsta": "tempKoef",
+      "pocetna": 0.0039
+     },
+     "dT": {
+      "oznaka": "\\Delta T",
+      "naziv": {
+       "sr": "promena temperature",
+       "en": "change in temperature",
+       "it": "variazione di temperatura",
+       "fr": "variation de température",
+       "es": "variación de temperatura",
+       "de": "Temperaturänderung",
+       "pt": "variação de temperatura",
+       "ru": "изменение температуры"
+      },
+      "vrsta": "tempRazlika",
+      "pocetna": 80,
+      "jed": "°C"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "R = \\rho \\dfrac{l}{S}",
+      "trazi": "R",
+      "resenja": {
+       "R": "rho*l/S",
+       "rho": "R*S/l",
+       "l": "R*S/rho",
+       "S": "rho*l/R"
+      }
+     },
+     {
+      "latex": "R = R_0 (1 + \\alpha \\Delta T)",
+      "trazi": "RT",
+      "resenja": {
+       "RT": "R0*(1 + alfa*dT)",
+       "R0": "RT/(1 + alfa*dT)",
+       "alfa": "(RT/R0 - 1)/dT",
+       "dT": "(RT/R0 - 1)/alfa"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "veze_otpornika",
+   "simbol": "Ω",
+   "naziv": {
+    "sr": "Redna i paralelna veza",
+    "en": "Series and parallel",
+    "it": "Serie e parallelo",
+    "fr": "Série et parallèle",
+    "es": "Serie y paralelo",
+    "de": "Reihen- und Parallelschaltung",
+    "pt": "Série e paralelo",
+    "ru": "Последовательное и параллельное соединение"
+   },
+   "opis": {
+    "sr": "Ukupni otpor",
+    "en": "Equivalent resistance",
+    "it": "Resistenza equivalente",
+    "fr": "Résistance équivalente",
+    "es": "Resistencia equivalente",
+    "de": "Ersatzwiderstand",
+    "pt": "Resistência equivalente",
+    "ru": "Общее сопротивление"
+   },
+   "kljucne_reci": {
+    "sr": "redna veza paralelna veza otpornici ukupni otpor ekvivalentni",
+    "en": "series parallel resistors equivalent resistance",
+    "it": "resistori in serie in parallelo resistenza equivalente",
+    "fr": "resistances en serie en parallele resistance equivalente",
+    "es": "resistencias en serie en paralelo resistencia equivalente",
+    "de": "reihenschaltung parallelschaltung widerstande ersatzwiderstand",
+    "pt": "resistores em serie em paralelo resistencia equivalente",
+    "ru": "последовательное параллельное соединение резисторов общее сопротивление"
+   },
+   "crtez": "<svg viewBox=\"0 0 320 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"ivica\" x1=\"14\" y1=\"44\" x2=\"54\" y2=\"44\"/><rect class=\"lik\" x=\"54\" y=\"35\" width=\"44\" height=\"18\" rx=\"3\"/><text x=\"68\" y=\"28\">R<tspan class=\"sub\" dy=\"5\">1</tspan></text><line class=\"ivica\" x1=\"98\" y1=\"44\" x2=\"118\" y2=\"44\"/><rect class=\"lik\" x=\"118\" y=\"35\" width=\"44\" height=\"18\" rx=\"3\"/><text x=\"132\" y=\"28\">R<tspan class=\"sub\" dy=\"5\">2</tspan></text><line class=\"ivica\" x1=\"162\" y1=\"44\" x2=\"196\" y2=\"44\"/><circle class=\"tac\" cx=\"14\" cy=\"44\" r=\"4\"/><circle class=\"tac\" cx=\"196\" cy=\"44\" r=\"4\"/><text class=\"fun\" x=\"210\" y=\"50\">R₁ + R₂</text><path class=\"ivica\" d=\"M14,124 L54,124 M54,100 L54,148 M54,100 L74,100 M118,100 L138,100 M54,148 L74,148 M118,148 L138,148 M138,100 L138,148 M138,124 L178,124\"/><rect class=\"lik\" x=\"74\" y=\"91\" width=\"44\" height=\"18\" rx=\"3\"/><text x=\"88\" y=\"84\">R<tspan class=\"sub\" dy=\"5\">1</tspan></text><rect class=\"lik\" x=\"74\" y=\"139\" width=\"44\" height=\"18\" rx=\"3\"/><text x=\"88\" y=\"132\">R<tspan class=\"sub\" dy=\"5\">2</tspan></text><circle class=\"tac\" cx=\"14\" cy=\"124\" r=\"4\"/><circle class=\"tac\" cx=\"178\" cy=\"124\" r=\"4\"/><text class=\"fun\" x=\"196\" y=\"130\">R₁R₂ / (R₁ + R₂)</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Redna veza",
+      "en": "Series connection",
+      "it": "Collegamento in serie",
+      "fr": "Montage en série",
+      "es": "Conexión en serie",
+      "de": "Reihenschaltung",
+      "pt": "Ligação em série",
+      "ru": "Последовательное соединение"
+     },
+     "latex": "R = R_1 + R_2 + \\cdots",
+     "objasnjenje": {
+      "sr": "Kroz sve otpornike teče ista struja; naponi se sabiraju.",
+      "en": "The same current flows through all resistors; the voltages add up.",
+      "it": "La stessa corrente attraversa tutti i resistori; le tensioni si sommano.",
+      "fr": "Le même courant traverse toutes les résistances ; les tensions s’additionnent.",
+      "es": "La misma corriente pasa por todas; las tensiones se suman.",
+      "de": "Durch alle Widerstände fließt derselbe Strom; die Spannungen addieren sich.",
+      "pt": "A mesma corrente passa por todos; as tensões se somam.",
+      "ru": "Через все резисторы течёт один ток; напряжения складываются."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Paralelna veza",
+      "en": "Parallel connection",
+      "it": "Collegamento in parallelo",
+      "fr": "Montage en parallèle",
+      "es": "Conexión en paralelo",
+      "de": "Parallelschaltung",
+      "pt": "Ligação em paralelo",
+      "ru": "Параллельное соединение"
+     },
+     "latex": "\\frac{1}{R} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\cdots",
+     "objasnjenje": {
+      "sr": "Na svim otpornicima je isti napon; struje se sabiraju. Ukupni otpor je manji od najmanjeg.",
+      "en": "All resistors have the same voltage; the currents add up. The total is smaller than the smallest resistor.",
+      "it": "Tutti i resistori hanno la stessa tensione; le correnti si sommano. Il totale è minore del resistore più piccolo.",
+      "fr": "Toutes les résistances ont la même tension ; les courants s’additionnent. Le total est inférieur à la plus petite.",
+      "es": "Todas tienen la misma tensión; las corrientes se suman. El total es menor que la menor.",
+      "de": "Alle haben dieselbe Spannung; die Ströme addieren sich. Der Gesamtwert ist kleiner als der kleinste Widerstand.",
+      "pt": "Todos têm a mesma tensão; as correntes se somam. O total é menor que o menor resistor.",
+      "ru": "Напряжение на всех одинаково; токи складываются. Общее сопротивление меньше наименьшего."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Ru": {
+      "oznaka": "R",
+      "naziv": {
+       "sr": "ukupni (ekvivalentni) otpor",
+       "en": "total (equivalent) resistance",
+       "it": "resistenza equivalente",
+       "fr": "résistance équivalente",
+       "es": "resistencia equivalente",
+       "de": "Ersatzwiderstand",
+       "pt": "resistência equivalente",
+       "ru": "общее сопротивление"
+      },
+      "vrsta": "otpor",
+      "poz": true
+     },
+     "R1": {
+      "oznaka": "R_1",
+      "naziv": {
+       "sr": "prvi otpornik",
+       "en": "resistor 1",
+       "it": "resistore 1",
+       "fr": "résistance 1",
+       "es": "resistencia 1",
+       "de": "Widerstand 1",
+       "pt": "resistor 1",
+       "ru": "первый резистор"
+      },
+      "vrsta": "otpor",
+      "pocetna": 100,
+      "poz": true
+     },
+     "R2": {
+      "oznaka": "R_2",
+      "naziv": {
+       "sr": "drugi otpornik",
+       "en": "resistor 2",
+       "it": "resistore 2",
+       "fr": "résistance 2",
+       "es": "resistencia 2",
+       "de": "Widerstand 2",
+       "pt": "resistor 2",
+       "ru": "второй резистор"
+      },
+      "vrsta": "otpor",
+      "pocetna": 220,
+      "poz": true
+     },
+     "R3": {
+      "oznaka": "R_3",
+      "naziv": {
+       "sr": "treći otpornik",
+       "en": "resistor 3",
+       "it": "resistore 3",
+       "fr": "résistance 3",
+       "es": "resistencia 3",
+       "de": "Widerstand 3",
+       "pt": "resistor 3",
+       "ru": "третий резистор"
+      },
+      "vrsta": "otpor",
+      "pocetna": 330,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "R = R_1 + R_2",
+      "trazi": "Ru",
+      "resenja": {
+       "Ru": "R1 + R2",
+       "R1": "Ru - R2",
+       "R2": "Ru - R1"
+      }
+     },
+     {
+      "latex": "R = R_1 + R_2 + R_3",
+      "trazi": "Ru",
+      "resenja": {
+       "Ru": "R1 + R2 + R3",
+       "R1": "Ru - R2 - R3",
+       "R2": "Ru - R1 - R3",
+       "R3": "Ru - R1 - R2"
+      }
+     },
+     {
+      "latex": "\\dfrac{1}{R} = \\dfrac{1}{R_1} + \\dfrac{1}{R_2}",
+      "trazi": "Ru",
+      "resenja": {
+       "Ru": "R1*R2/(R1 + R2)",
+       "R1": "1/(1/Ru - 1/R2)",
+       "R2": "1/(1/Ru - 1/R1)"
+      }
+     },
+     {
+      "latex": "\\dfrac{1}{R} = \\dfrac{1}{R_1} + \\dfrac{1}{R_2} + \\dfrac{1}{R_3}",
+      "trazi": "Ru",
+      "resenja": {
+       "Ru": "1/(1/R1 + 1/R2 + 1/R3)",
+       "R1": "1/(1/Ru - 1/R2 - 1/R3)",
+       "R2": "1/(1/Ru - 1/R1 - 1/R3)",
+       "R3": "1/(1/Ru - 1/R1 - 1/R2)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "snaga_struje",
+   "simbol": "P",
+   "naziv": {
+    "sr": "Rad i snaga struje",
+    "en": "Electrical energy and power",
+    "it": "Energia e potenza elettrica",
+    "fr": "Énergie et puissance électriques",
+    "es": "Energía y potencia eléctrica",
+    "de": "Elektrische Arbeit und Leistung",
+    "pt": "Energia e potência elétrica",
+    "ru": "Работа и мощность тока"
+   },
+   "opis": {
+    "sr": "P = UI, kilovat-sati",
+    "en": "P = UI, kilowatt-hours",
+    "it": "P = UI, kilowattora",
+    "fr": "P = UI, kilowattheures",
+    "es": "P = UI, kilovatios-hora",
+    "de": "P = UI, Kilowattstunden",
+    "pt": "P = UI, quilowatts-hora",
+    "ru": "P = UI, киловатт-часы"
+   },
+   "kljucne_reci": {
+    "sr": "snaga struje rad struje dzulov zakon potrosnja struje kilovat sat racun za struju",
+    "en": "electric power electrical energy joule heating consumption kilowatt hour electricity bill",
+    "it": "potenza elettrica energia effetto joule consumo kilowattora bolletta",
+    "fr": "puissance electrique energie effet joule consommation kilowattheure facture",
+    "es": "potencia electrica energia efecto joule consumo kilovatio hora factura",
+    "de": "elektrische leistung arbeit joulesche warme verbrauch kilowattstunde stromrechnung",
+    "pt": "potencia eletrica energia efeito joule consumo quilowatt hora conta de luz",
+    "ru": "мощность тока работа тока закон джоуля ленца расход киловатт час"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Snaga",
+      "en": "Power",
+      "it": "Potenza",
+      "fr": "Puissance",
+      "es": "Potencia",
+      "de": "Leistung",
+      "pt": "Potência",
+      "ru": "Мощность"
+     },
+     "latex": "P = U I = R I^2 = \\frac{U^2}{R}",
+     "objasnjenje": {
+      "sr": "Druga dva oblika slede iz Omovog zakona; RI² je toplota koja se oslobađa u otporniku (Džulov zakon).",
+      "en": "The other two forms follow from Ohm’s law; RI² is the heat released in the resistor (Joule heating).",
+      "it": "Le altre due forme seguono dalla legge di Ohm; RI² è il calore dissipato (effetto Joule).",
+      "fr": "Les deux autres formes découlent de la loi d’Ohm ; RI² est la chaleur dégagée (effet Joule).",
+      "es": "Las otras dos formas salen de la ley de Ohm; RI² es el calor disipado (efecto Joule).",
+      "de": "Die anderen Formen folgen aus dem ohmschen Gesetz; RI² ist die erzeugte Wärme (Joule).",
+      "pt": "As outras duas formas vêm da lei de Ohm; RI² é o calor dissipado (efeito Joule).",
+      "ru": "Две другие формы следуют из закона Ома; RI² — выделяющаяся теплота (закон Джоуля — Ленца)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Rad struje",
+      "en": "Electrical energy",
+      "it": "Energia elettrica",
+      "fr": "Énergie électrique",
+      "es": "Energía eléctrica",
+      "de": "Elektrische Arbeit",
+      "pt": "Energia elétrica",
+      "ru": "Работа тока"
+     },
+     "latex": {
+      "sr": "A = P\\,t = U\\,q = U I t",
+      "en": "W = P\\,t = U\\,q = U I t",
+      "it": "L = P\\,t = U\\,q = U I t",
+      "fr": "W = P\\,t = U\\,q = U I t",
+      "es": "W = P\\,t = U\\,q = U I t",
+      "de": "W = P\\,t = U\\,q = U I t",
+      "pt": "W = P\\,t = U\\,q = U I t",
+      "ru": "A = P\\,t = U\\,q = U I t"
+     },
+     "objasnjenje": {
+      "sr": "Utrošena električna energija; na računu za struju izražava se u kWh (1 kWh = 3,6 MJ).",
+      "en": "Electrical energy used; on the electricity bill it is given in kWh (1 kWh = 3.6 MJ).",
+      "it": "Energia consumata; in bolletta è in kWh (1 kWh = 3,6 MJ).",
+      "fr": "Énergie consommée ; sur la facture en kWh (1 kWh = 3,6 MJ).",
+      "es": "Energía consumida; en la factura en kWh (1 kWh = 3,6 MJ).",
+      "de": "Verbrauchte Energie; auf der Stromrechnung in kWh (1 kWh = 3,6 MJ).",
+      "pt": "Energia consumida; na conta de luz em kWh (1 kWh = 3,6 MJ).",
+      "ru": "Израсходованная энергия; в счёте — в кВт·ч (1 кВт·ч = 3,6 МДж)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "P": {
+      "oznaka": "P",
+      "naziv": {
+       "sr": "snaga",
+       "en": "power",
+       "it": "potenza",
+       "fr": "puissance",
+       "es": "potencia",
+       "de": "Leistung",
+       "pt": "potência",
+       "ru": "мощность"
+      },
+      "vrsta": "snaga",
+      "jed": "kW",
+      "nenegativna": true
+     },
+     "U": {
+      "oznaka": "U",
+      "naziv": {
+       "sr": "napon",
+       "en": "voltage",
+       "it": "tensione",
+       "fr": "tension",
+       "es": "tensión",
+       "de": "Spannung",
+       "pt": "tensão",
+       "ru": "напряжение"
+      },
+      "vrsta": "napon",
+      "pocetna": 230
+     },
+     "I": {
+      "oznaka": "I",
+      "naziv": {
+       "sr": "jačina struje",
+       "en": "current",
+       "it": "intensità di corrente",
+       "fr": "intensité du courant",
+       "es": "intensidad de corriente",
+       "de": "Stromstärke",
+       "pt": "corrente elétrica",
+       "ru": "сила тока"
+      },
+      "vrsta": "struja",
+      "pocetna": 10
+     },
+     "R": {
+      "oznaka": "R",
+      "naziv": {
+       "sr": "otpor",
+       "en": "resistance",
+       "it": "resistenza",
+       "fr": "résistance",
+       "es": "resistencia",
+       "de": "Widerstand",
+       "pt": "resistência",
+       "ru": "сопротивление"
+      },
+      "vrsta": "otpor",
+      "pocetna": 23,
+      "poz": true
+     },
+     "A": {
+      "oznaka": {
+       "sr": "A",
+       "en": "W",
+       "it": "L",
+       "fr": "W",
+       "es": "W",
+       "de": "W",
+       "pt": "W",
+       "ru": "A"
+      },
+      "naziv": {
+       "sr": "električni rad (utrošena energija)",
+       "en": "electrical energy used",
+       "it": "energia elettrica consumata",
+       "fr": "énergie électrique consommée",
+       "es": "energía eléctrica consumida",
+       "de": "elektrische Arbeit (Energie)",
+       "pt": "energia elétrica consumida",
+       "ru": "работа тока (израсходованная энергия)"
+      },
+      "vrsta": "energija",
+      "jed": "kWh"
+     },
+     "t": {
+      "oznaka": "t",
+      "naziv": {
+       "sr": "vreme",
+       "en": "time",
+       "it": "tempo",
+       "fr": "temps",
+       "es": "tiempo",
+       "de": "Zeit",
+       "pt": "tempo",
+       "ru": "время"
+      },
+      "vrsta": "vreme",
+      "pocetna": 3600,
+      "jed": "h",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "P = U I",
+      "trazi": "P",
+      "resenja": {
+       "P": "U*I",
+       "U": "P/I",
+       "I": "P/U"
+      }
+     },
+     {
+      "latex": "P = R I^2",
+      "trazi": "P",
+      "resenja": {
+       "P": "R*I*I",
+       "R": "P/(I*I)",
+       "I": "sqrt(P/R)"
+      }
+     },
+     {
+      "latex": "P = \\dfrac{U^2}{R}",
+      "trazi": "P",
+      "resenja": {
+       "P": "U*U/R",
+       "U": "sqrt(P*R)",
+       "R": "U*U/P"
+      }
+     },
+     {
+      "latex": {
+       "sr": "A = P t",
+       "en": "W = P t",
+       "it": "L = P t",
+       "fr": "W = P t",
+       "es": "W = P t",
+       "de": "W = P t",
+       "pt": "W = P t",
+       "ru": "A = P t"
+      },
+      "trazi": "A",
+      "resenja": {
+       "A": "P*t",
+       "P": "A/t",
+       "t": "A/P"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "naizmenicna",
+   "simbol": "~",
+   "naziv": {
+    "sr": "Naizmenična struja",
+    "en": "Alternating current",
+    "it": "Corrente alternata",
+    "fr": "Courant alternatif",
+    "es": "Corriente alterna",
+    "de": "Wechselstrom",
+    "pt": "Corrente alternada",
+    "ru": "Переменный ток"
+   },
+   "opis": {
+    "sr": "Efektivne vrednosti",
+    "en": "RMS values",
+    "it": "Valori efficaci",
+    "fr": "Valeurs efficaces",
+    "es": "Valores eficaces",
+    "de": "Effektivwerte",
+    "pt": "Valores eficazes",
+    "ru": "Действующие значения"
+   },
+   "kljucne_reci": {
+    "sr": "naizmenicna struja efektivni napon vrsna vrednost amplituda 230 V mreza",
+    "en": "alternating current ac rms voltage peak amplitude mains 230 V",
+    "it": "corrente alternata tensione efficace valore di picco rete",
+    "fr": "courant alternatif tension efficace valeur crete secteur",
+    "es": "corriente alterna tension eficaz valor de pico red",
+    "de": "wechselstrom effektivwert scheitelwert netzspannung",
+    "pt": "corrente alternada tensao eficaz valor de pico rede",
+    "ru": "переменный ток действующее значение амплитуда сеть 230 В"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Efektivne vrednosti",
+      "en": "RMS values",
+      "it": "Valori efficaci",
+      "fr": "Valeurs efficaces",
+      "es": "Valores eficaces",
+      "de": "Effektivwerte",
+      "pt": "Valores eficazes",
+      "ru": "Действующие значения"
+     },
+     "latex": {
+      "sr": "U_{\\text{ef}} = \\frac{U_0}{\\sqrt{2}}, \\quad I_{\\text{ef}} = \\frac{I_0}{\\sqrt{2}}",
+      "en": "U_{\\text{rms}} = \\frac{U_0}{\\sqrt{2}}, \\quad I_{\\text{rms}} = \\frac{I_0}{\\sqrt{2}}",
+      "it": "U_{\\text{eff}} = \\frac{U_0}{\\sqrt{2}}, \\quad I_{\\text{eff}} = \\frac{I_0}{\\sqrt{2}}",
+      "fr": "U_{\\text{eff}} = \\frac{U_0}{\\sqrt{2}}, \\quad I_{\\text{eff}} = \\frac{I_0}{\\sqrt{2}}",
+      "es": "U_{\\text{ef}} = \\frac{U_0}{\\sqrt{2}}, \\quad I_{\\text{ef}} = \\frac{I_0}{\\sqrt{2}}",
+      "de": "U_{\\text{eff}} = \\frac{U_0}{\\sqrt{2}}, \\quad I_{\\text{eff}} = \\frac{I_0}{\\sqrt{2}}",
+      "pt": "U_{\\text{ef}} = \\frac{U_0}{\\sqrt{2}}, \\quad I_{\\text{ef}} = \\frac{I_0}{\\sqrt{2}}",
+      "ru": "U_{\\text{д}} = \\frac{U_0}{\\sqrt{2}}, \\quad I_{\\text{д}} = \\frac{I_0}{\\sqrt{2}}"
+     },
+     "objasnjenje": {
+      "sr": "Za sinusni napon. Mreža od 230 V ima vršnu vrednost oko 325 V.",
+      "en": "For a sinusoidal voltage. 230 V mains has a peak of about 325 V.",
+      "it": "Per una tensione sinusoidale. La rete a 230 V ha un picco di circa 325 V.",
+      "fr": "Pour une tension sinusoïdale. Le secteur 230 V a une crête d’environ 325 V.",
+      "es": "Para una tensión sinusoidal. La red de 230 V tiene un pico de unos 325 V.",
+      "de": "Für sinusförmige Spannung. Das 230-V-Netz hat einen Scheitelwert von etwa 325 V.",
+      "pt": "Para tensão senoidal. A rede de 230 V tem pico de cerca de 325 V.",
+      "ru": "Для синусоидального напряжения. В сети 230 В амплитуда около 325 В."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Srednja snaga",
+      "en": "Average power",
+      "it": "Potenza media",
+      "fr": "Puissance moyenne",
+      "es": "Potencia media",
+      "de": "Mittlere Leistung",
+      "pt": "Potência média",
+      "ru": "Средняя мощность"
+     },
+     "latex": {
+      "sr": "\\bar P = U_{\\text{ef}}\\, I_{\\text{ef}}",
+      "en": "\\bar P = U_{\\text{rms}}\\, I_{\\text{rms}}",
+      "it": "\\bar P = U_{\\text{eff}}\\, I_{\\text{eff}}",
+      "fr": "\\bar P = U_{\\text{eff}}\\, I_{\\text{eff}}",
+      "es": "\\bar P = U_{\\text{ef}}\\, I_{\\text{ef}}",
+      "de": "\\bar P = U_{\\text{eff}}\\, I_{\\text{eff}}",
+      "pt": "\\bar P = U_{\\text{ef}}\\, I_{\\text{ef}}",
+      "ru": "\\bar P = U_{\\text{д}}\\, I_{\\text{д}}"
+     },
+     "objasnjenje": {
+      "sr": "Za otpornik (bez faznog pomaka).",
+      "en": "For a resistor (no phase shift).",
+      "it": "Per un resistore (senza sfasamento).",
+      "fr": "Pour une résistance (sans déphasage).",
+      "es": "Para una resistencia (sin desfase).",
+      "de": "Für einen ohmschen Widerstand (ohne Phasenverschiebung).",
+      "pt": "Para um resistor (sem defasagem).",
+      "ru": "Для активного сопротивления (без сдвига фаз)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Uef": {
+      "oznaka": {
+       "sr": "U_{\\text{ef}}",
+       "en": "U_{\\text{rms}}",
+       "it": "U_{\\text{eff}}",
+       "fr": "U_{\\text{eff}}",
+       "es": "U_{\\text{ef}}",
+       "de": "U_{\\text{eff}}",
+       "pt": "U_{\\text{ef}}",
+       "ru": "U_{\\text{д}}"
+      },
+      "naziv": {
+       "sr": "efektivni napon",
+       "en": "rms voltage",
+       "it": "tensione efficace",
+       "fr": "tension efficace",
+       "es": "tensión eficaz",
+       "de": "Effektivspannung",
+       "pt": "tensão eficaz",
+       "ru": "действующее напряжение"
+      },
+      "vrsta": "napon",
+      "pocetna": 230,
+      "poz": true
+     },
+     "U0": {
+      "oznaka": "U_0",
+      "naziv": {
+       "sr": "amplituda (vršna vrednost) napona",
+       "en": "peak voltage",
+       "it": "tensione di picco",
+       "fr": "tension crête",
+       "es": "tensión de pico",
+       "de": "Scheitelspannung",
+       "pt": "tensão de pico",
+       "ru": "амплитуда напряжения"
+      },
+      "vrsta": "napon",
+      "poz": true
+     },
+     "Ief": {
+      "oznaka": {
+       "sr": "I_{\\text{ef}}",
+       "en": "I_{\\text{rms}}",
+       "it": "I_{\\text{eff}}",
+       "fr": "I_{\\text{eff}}",
+       "es": "I_{\\text{ef}}",
+       "de": "I_{\\text{eff}}",
+       "pt": "I_{\\text{ef}}",
+       "ru": "I_{\\text{д}}"
+      },
+      "naziv": {
+       "sr": "efektivna struja",
+       "en": "rms current",
+       "it": "corrente efficace",
+       "fr": "courant efficace",
+       "es": "corriente eficaz",
+       "de": "Effektivstrom",
+       "pt": "corrente eficaz",
+       "ru": "действующее значение тока"
+      },
+      "vrsta": "struja",
+      "poz": true
+     },
+     "I0": {
+      "oznaka": "I_0",
+      "naziv": {
+       "sr": "amplituda struje",
+       "en": "peak current",
+       "it": "corrente di picco",
+       "fr": "courant crête",
+       "es": "corriente de pico",
+       "de": "Scheitelstrom",
+       "pt": "corrente de pico",
+       "ru": "амплитуда тока"
+      },
+      "vrsta": "struja",
+      "pocetna": 14.14,
+      "poz": true
+     },
+     "Psr": {
+      "oznaka": "\\bar P",
+      "naziv": {
+       "sr": "srednja snaga",
+       "en": "average power",
+       "it": "potenza media",
+       "fr": "puissance moyenne",
+       "es": "potencia media",
+       "de": "mittlere Leistung",
+       "pt": "potência média",
+       "ru": "средняя мощность"
+      },
+      "vrsta": "snaga",
+      "nenegativna": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "U_{\\text{ef}} = \\dfrac{U_0}{\\sqrt{2}}",
+       "en": "U_{\\text{rms}} = \\dfrac{U_0}{\\sqrt{2}}",
+       "it": "U_{\\text{eff}} = \\dfrac{U_0}{\\sqrt{2}}",
+       "fr": "U_{\\text{eff}} = \\dfrac{U_0}{\\sqrt{2}}",
+       "es": "U_{\\text{ef}} = \\dfrac{U_0}{\\sqrt{2}}",
+       "de": "U_{\\text{eff}} = \\dfrac{U_0}{\\sqrt{2}}",
+       "pt": "U_{\\text{ef}} = \\dfrac{U_0}{\\sqrt{2}}",
+       "ru": "U_{\\text{д}} = \\dfrac{U_0}{\\sqrt{2}}"
+      },
+      "trazi": "U0",
+      "resenja": {
+       "Uef": "U0/sqrt(2)",
+       "U0": "Uef*sqrt(2)"
+      }
+     },
+     {
+      "latex": {
+       "sr": "I_{\\text{ef}} = \\dfrac{I_0}{\\sqrt{2}}",
+       "en": "I_{\\text{rms}} = \\dfrac{I_0}{\\sqrt{2}}",
+       "it": "I_{\\text{eff}} = \\dfrac{I_0}{\\sqrt{2}}",
+       "fr": "I_{\\text{eff}} = \\dfrac{I_0}{\\sqrt{2}}",
+       "es": "I_{\\text{ef}} = \\dfrac{I_0}{\\sqrt{2}}",
+       "de": "I_{\\text{eff}} = \\dfrac{I_0}{\\sqrt{2}}",
+       "pt": "I_{\\text{ef}} = \\dfrac{I_0}{\\sqrt{2}}",
+       "ru": "I_{\\text{д}} = \\dfrac{I_0}{\\sqrt{2}}"
+      },
+      "trazi": "Ief",
+      "resenja": {
+       "Ief": "I0/sqrt(2)",
+       "I0": "Ief*sqrt(2)"
+      }
+     },
+     {
+      "latex": {
+       "sr": "\\bar P = U_{\\text{ef}} I_{\\text{ef}}",
+       "en": "\\bar P = U_{\\text{rms}} I_{\\text{rms}}",
+       "it": "\\bar P = U_{\\text{eff}} I_{\\text{eff}}",
+       "fr": "\\bar P = U_{\\text{eff}} I_{\\text{eff}}",
+       "es": "\\bar P = U_{\\text{ef}} I_{\\text{ef}}",
+       "de": "\\bar P = U_{\\text{eff}} I_{\\text{eff}}",
+       "pt": "\\bar P = U_{\\text{ef}} I_{\\text{ef}}",
+       "ru": "\\bar P = U_{\\text{д}} I_{\\text{д}}"
+      },
+      "trazi": "Psr",
+      "resenja": {
+       "Psr": "Uef*Ief",
+       "Uef": "Psr/Ief",
+       "Ief": "Psr/Uef"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "kulon",
+   "simbol": "E",
+   "naziv": {
+    "sr": "Kulonov zakon i električno polje",
+    "en": "Coulomb’s law and electric field",
+    "it": "Legge di Coulomb e campo elettrico",
+    "fr": "Loi de Coulomb et champ électrique",
+    "es": "Ley de Coulomb y campo eléctrico",
+    "de": "Coulombsches Gesetz und elektrisches Feld",
+    "pt": "Lei de Coulomb e campo elétrico",
+    "ru": "Закон Кулона и электрическое поле"
+   },
+   "opis": {
+    "sr": "Sila između naelektrisanja",
+    "en": "Force between charges",
+    "it": "Forza tra cariche",
+    "fr": "Force entre charges",
+    "es": "Fuerza entre cargas",
+    "de": "Kraft zwischen Ladungen",
+    "pt": "Força entre cargas",
+    "ru": "Сила между зарядами"
+   },
+   "kljucne_reci": {
+    "sr": "kulonov zakon elektricna sila naelektrisanje elektricno polje jacina polja gausov zakon fluks",
+    "en": "coulomb law electric force charge electric field strength gauss law flux",
+    "it": "legge di coulomb forza elettrica carica campo elettrico gauss flusso",
+    "fr": "loi de coulomb force electrique charge champ electrique gauss flux",
+    "es": "ley de coulomb fuerza electrica carga campo electrico gauss flujo",
+    "de": "coulombsches gesetz elektrische kraft ladung elektrisches feld gauss fluss",
+    "pt": "lei de coulomb forca eletrica carga campo eletrico gauss fluxo",
+    "ru": "закон кулона электрическая сила заряд напряжённость поля гаусс поток"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Kulonov zakon",
+      "en": "Coulomb’s law",
+      "it": "Legge di Coulomb",
+      "fr": "Loi de Coulomb",
+      "es": "Ley de Coulomb",
+      "de": "Coulombsches Gesetz",
+      "pt": "Lei de Coulomb",
+      "ru": "Закон Кулона"
+     },
+     "latex": "F = \\frac{1}{4\\pi\\varepsilon_0}\\,\\frac{q_1 q_2}{r^2}",
+     "objasnjenje": {
+      "sr": "Istoimena naelektrisanja se odbijaju, raznoimena privlače; 1/(4πε₀) ≈ 9 · 10⁹ N·m²/C².",
+      "en": "Like charges repel, unlike charges attract; 1/(4πε₀) ≈ 9 · 10⁹ N·m²/C².",
+      "it": "Cariche dello stesso segno si respingono, di segno opposto si attraggono; 1/(4πε₀) ≈ 9 · 10⁹ N·m²/C².",
+      "fr": "Des charges de même signe se repoussent, de signes opposés s’attirent ; 1/(4πε₀) ≈ 9 · 10⁹ N·m²/C².",
+      "es": "Cargas del mismo signo se repelen, de signo opuesto se atraen; 1/(4πε₀) ≈ 9 · 10⁹ N·m²/C².",
+      "de": "Gleichnamige Ladungen stoßen sich ab, ungleichnamige ziehen sich an; 1/(4πε₀) ≈ 9 · 10⁹ N·m²/C².",
+      "pt": "Cargas de mesmo sinal se repelem, de sinais opostos se atraem; 1/(4πε₀) ≈ 9 · 10⁹ N·m²/C².",
+      "ru": "Одноимённые заряды отталкиваются, разноимённые притягиваются; 1/(4πε₀) ≈ 9 · 10⁹ Н·м²/Кл²."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Električno polje",
+      "en": "Electric field",
+      "it": "Campo elettrico",
+      "fr": "Champ électrique",
+      "es": "Campo eléctrico",
+      "de": "Elektrisches Feld",
+      "pt": "Campo elétrico",
+      "ru": "Электрическое поле"
+     },
+     "latex": "\\vec F = q\\,\\vec E, \\quad E = \\frac{1}{4\\pi\\varepsilon_0}\\,\\frac{q}{r^2}",
+     "objasnjenje": {
+      "sr": "Drugi izraz: polje tačkastog naelektrisanja q na rastojanju r; 1 V/m = 1 N/C.",
+      "en": "Second formula: field of a point charge q at distance r; 1 V/m = 1 N/C.",
+      "it": "Seconda formula: campo di una carica puntiforme q a distanza r; 1 V/m = 1 N/C.",
+      "fr": "Seconde formule : champ d’une charge ponctuelle q à la distance r ; 1 V/m = 1 N/C.",
+      "es": "Segunda fórmula: campo de una carga puntual q a distancia r; 1 V/m = 1 N/C.",
+      "de": "Zweite Formel: Feld einer Punktladung q im Abstand r; 1 V/m = 1 N/C.",
+      "pt": "Segunda fórmula: campo de uma carga pontual q à distância r; 1 V/m = 1 N/C.",
+      "ru": "Вторая формула — поле точечного заряда q на расстоянии r; 1 В/м = 1 Н/Кл."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Gausov zakon",
+      "en": "Gauss’s law",
+      "it": "Legge di Gauss",
+      "fr": "Théorème de Gauss",
+      "es": "Ley de Gauss",
+      "de": "Gaußsches Gesetz",
+      "pt": "Lei de Gauss",
+      "ru": "Теорема Гаусса"
+     },
+     "latex": "\\Phi_e = \\varepsilon_0\\,\\vec E \\cdot \\vec S = \\varepsilon_0 E S \\cos\\varphi = q",
+     "objasnjenje": {
+      "sr": "Električni fluks kroz zatvorenu površ jednak je naelektrisanju unutar nje.",
+      "en": "The electric flux through a closed surface equals the enclosed charge.",
+      "it": "Il flusso elettrico attraverso una superficie chiusa è uguale alla carica racchiusa.",
+      "fr": "Le flux électrique à travers une surface fermée est égal à la charge intérieure.",
+      "es": "El flujo eléctrico a través de una superficie cerrada es igual a la carga encerrada.",
+      "de": "Der elektrische Fluss durch eine geschlossene Fläche ist gleich der eingeschlossenen Ladung.",
+      "pt": "O fluxo elétrico através de uma superfície fechada é igual à carga interna.",
+      "ru": "Поток через замкнутую поверхность равен заряду внутри неё."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "F": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "električna sila",
+       "en": "electric force",
+       "it": "forza elettrica",
+       "fr": "force électrique",
+       "es": "fuerza eléctrica",
+       "de": "elektrische Kraft",
+       "pt": "força elétrica",
+       "ru": "электрическая сила"
+      },
+      "vrsta": "sila"
+     },
+     "q1": {
+      "oznaka": "q_1",
+      "naziv": {
+       "sr": "prvo naelektrisanje",
+       "en": "charge 1",
+       "it": "carica 1",
+       "fr": "charge 1",
+       "es": "carga 1",
+       "de": "Ladung 1",
+       "pt": "carga 1",
+       "ru": "первый заряд"
+      },
+      "vrsta": "naboj",
+      "pocetna": 1e-06,
+      "jed": "µC"
+     },
+     "q2": {
+      "oznaka": "q_2",
+      "naziv": {
+       "sr": "drugo naelektrisanje",
+       "en": "charge 2",
+       "it": "carica 2",
+       "fr": "charge 2",
+       "es": "carga 2",
+       "de": "Ladung 2",
+       "pt": "carga 2",
+       "ru": "второй заряд"
+      },
+      "vrsta": "naboj",
+      "pocetna": 2e-06,
+      "jed": "µC"
+     },
+     "r": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "rastojanje",
+       "en": "distance",
+       "it": "distanza",
+       "fr": "distance",
+       "es": "distancia",
+       "de": "Abstand",
+       "pt": "distância",
+       "ru": "расстояние"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.1,
+      "jed": "cm",
+      "poz": true
+     },
+     "e0": {
+      "oznaka": "\\varepsilon_0",
+      "naziv": {
+       "sr": "električna konstanta",
+       "en": "electric constant",
+       "it": "costante dielettrica del vuoto",
+       "fr": "permittivité du vide",
+       "es": "permitividad del vacío",
+       "de": "elektrische Feldkonstante",
+       "pt": "permissividade do vácuo",
+       "ru": "электрическая постоянная"
+      },
+      "vrsta": "permitivnost",
+      "pocetna": 8.8541878188e-12,
+      "poz": true
+     },
+     "E": {
+      "oznaka": "E",
+      "naziv": {
+       "sr": "jačina električnog polja",
+       "en": "electric field strength",
+       "it": "intensità del campo elettrico",
+       "fr": "champ électrique",
+       "es": "intensidad del campo eléctrico",
+       "de": "elektrische Feldstärke",
+       "pt": "intensidade do campo elétrico",
+       "ru": "напряжённость электрического поля"
+      },
+      "vrsta": "elPolje",
+      "jed": "V/m"
+     },
+     "q": {
+      "oznaka": "q",
+      "naziv": {
+       "sr": "naelektrisanje",
+       "en": "charge",
+       "it": "carica",
+       "fr": "charge",
+       "es": "carga",
+       "de": "Ladung",
+       "pt": "carga",
+       "ru": "заряд"
+      },
+      "vrsta": "naboj",
+      "pocetna": 1e-09,
+      "jed": "nC"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "F = \\dfrac{1}{4\\pi\\varepsilon_0} \\dfrac{q_1 q_2}{r^2}",
+      "trazi": "F",
+      "promenljive": [
+       "F",
+       "q1",
+       "q2",
+       "r",
+       "e0"
+      ],
+      "resenja": {
+       "F": "q1*q2/(4*PI*e0*r*r)",
+       "q1": "F*4*PI*e0*r*r/q2",
+       "q2": "F*4*PI*e0*r*r/q1",
+       "r": "sqrt(q1*q2/(4*PI*e0*F))"
+      }
+     },
+     {
+      "latex": "E = \\dfrac{1}{4\\pi\\varepsilon_0} \\dfrac{q}{r^2}",
+      "trazi": "E",
+      "promenljive": [
+       "E",
+       "q",
+       "r",
+       "e0"
+      ],
+      "resenja": {
+       "E": "q/(4*PI*e0*r*r)",
+       "q": "E*4*PI*e0*r*r",
+       "r": "sqrt(q/(4*PI*e0*E))"
+      }
+     },
+     {
+      "latex": "F = q E",
+      "trazi": "F",
+      "resenja": {
+       "F": "q*E",
+       "q": "F/E",
+       "E": "F/q"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "potencijal",
+   "simbol": "U",
+   "naziv": {
+    "sr": "Napon i potencijal",
+    "en": "Voltage and potential",
+    "it": "Tensione e potenziale",
+    "fr": "Tension et potentiel",
+    "es": "Tensión y potencial",
+    "de": "Spannung und Potential",
+    "pt": "Tensão e potencial",
+    "ru": "Напряжение и потенциал"
+   },
+   "opis": {
+    "sr": "Rad polja, homogeno polje",
+    "en": "Work of the field, uniform field",
+    "it": "Lavoro del campo, campo uniforme",
+    "fr": "Travail du champ, champ uniforme",
+    "es": "Trabajo del campo, campo uniforme",
+    "de": "Feldarbeit, homogenes Feld",
+    "pt": "Trabalho do campo, campo uniforme",
+    "ru": "Работа поля, однородное поле"
+   },
+   "kljucne_reci": {
+    "sr": "napon potencijal rad elektricnog polja homogeno polje elektronvolt potencijalna energija",
+    "en": "voltage potential work electric field uniform field electronvolt potential energy",
+    "it": "tensione potenziale lavoro campo uniforme elettronvolt",
+    "fr": "tension potentiel travail champ uniforme electronvolt",
+    "es": "tension potencial trabajo campo uniforme electronvoltio",
+    "de": "spannung potential arbeit homogenes feld elektronenvolt",
+    "pt": "tensao potencial trabalho campo uniforme eletronvolt",
+    "ru": "напряжение потенциал работа поля однородное поле электронвольт"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Napon i rad polja",
+      "en": "Voltage and work of the field",
+      "it": "Tensione e lavoro del campo",
+      "fr": "Tension et travail du champ",
+      "es": "Tensión y trabajo del campo",
+      "de": "Spannung und Feldarbeit",
+      "pt": "Tensão e trabalho do campo",
+      "ru": "Напряжение и работа поля"
+     },
+     "latex": {
+      "sr": "U = \\frac{A}{q}, \\quad A = q\\,U = \\Delta W_{el}",
+      "en": "U = \\frac{W}{q}, \\quad W = q\\,U = \\Delta W_{el}",
+      "it": "U = \\frac{L}{q}, \\quad L = q\\,U = \\Delta W_{el}",
+      "fr": "U = \\frac{W}{q}, \\quad W = q\\,U = \\Delta W_{el}",
+      "es": "U = \\frac{W}{q}, \\quad W = q\\,U = \\Delta W_{el}",
+      "de": "U = \\frac{W}{q}, \\quad W = q\\,U = \\Delta W_{el}",
+      "pt": "U = \\frac{W}{q}, \\quad W = q\\,U = \\Delta W_{el}",
+      "ru": "U = \\frac{A}{q}, \\quad A = q\\,U = \\Delta W_{el}"
+     },
+     "objasnjenje": {
+      "sr": "Elektron koji pređe napon od 1 V dobije energiju 1 eV = 1,6 · 10⁻¹⁹ J.",
+      "en": "An electron crossing 1 V gains 1 eV = 1.6 · 10⁻¹⁹ J.",
+      "it": "Un elettrone che attraversa 1 V acquista 1 eV = 1,6 · 10⁻¹⁹ J.",
+      "fr": "Un électron qui traverse 1 V gagne 1 eV = 1,6 · 10⁻¹⁹ J.",
+      "es": "Un electrón que atraviesa 1 V gana 1 eV = 1,6 · 10⁻¹⁹ J.",
+      "de": "Ein Elektron, das 1 V durchläuft, gewinnt 1 eV = 1,6 · 10⁻¹⁹ J.",
+      "pt": "Um elétron que atravessa 1 V ganha 1 eV = 1,6 · 10⁻¹⁹ J.",
+      "ru": "Электрон, прошедший 1 В, получает 1 эВ = 1,6 · 10⁻¹⁹ Дж."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Potencijal tačkastog naelektrisanja",
+      "en": "Potential of a point charge",
+      "it": "Potenziale di una carica puntiforme",
+      "fr": "Potentiel d’une charge ponctuelle",
+      "es": "Potencial de una carga puntual",
+      "de": "Potential einer Punktladung",
+      "pt": "Potencial de uma carga pontual",
+      "ru": "Потенциал точечного заряда"
+     },
+     "latex": {
+      "sr": "\\varphi = \\frac{1}{4\\pi\\varepsilon_0}\\,\\frac{q}{r}",
+      "en": "V = \\frac{1}{4\\pi\\varepsilon_0}\\,\\frac{q}{r}",
+      "it": "V = \\frac{1}{4\\pi\\varepsilon_0}\\,\\frac{q}{r}",
+      "fr": "V = \\frac{1}{4\\pi\\varepsilon_0}\\,\\frac{q}{r}",
+      "es": "V = \\frac{1}{4\\pi\\varepsilon_0}\\,\\frac{q}{r}",
+      "de": "\\varphi = \\frac{1}{4\\pi\\varepsilon_0}\\,\\frac{q}{r}",
+      "pt": "V = \\frac{1}{4\\pi\\varepsilon_0}\\,\\frac{q}{r}",
+      "ru": "\\varphi = \\frac{1}{4\\pi\\varepsilon_0}\\,\\frac{q}{r}"
+     },
+     "objasnjenje": {
+      "sr": "Napon između dve tačke je razlika njihovih potencijala.",
+      "en": "The voltage between two points is the difference of their potentials.",
+      "it": "La tensione tra due punti è la differenza dei loro potenziali.",
+      "fr": "La tension entre deux points est la différence de leurs potentiels.",
+      "es": "La tensión entre dos puntos es la diferencia de sus potenciales.",
+      "de": "Die Spannung zwischen zwei Punkten ist die Differenz ihrer Potentiale.",
+      "pt": "A tensão entre dois pontos é a diferença dos seus potenciais.",
+      "ru": "Напряжение между точками — разность их потенциалов."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Homogeno polje (između ploča)",
+      "en": "Uniform field (between plates)",
+      "it": "Campo uniforme (tra le armature)",
+      "fr": "Champ uniforme (entre armatures)",
+      "es": "Campo uniforme (entre placas)",
+      "de": "Homogenes Feld (zwischen Platten)",
+      "pt": "Campo uniforme (entre placas)",
+      "ru": "Однородное поле (между пластинами)"
+     },
+     "latex": "E = \\frac{U}{d}, \\quad E = \\frac{\\sigma}{\\varepsilon_0}, \\quad \\sigma = \\frac{q}{S}",
+     "objasnjenje": {
+      "sr": "σ je površinska gustina naelektrisanja na pločama. Jedna velika ploča stvara polje σ/(2ε₀).",
+      "en": "σ is the surface charge density on the plates. A single large plate makes a field σ/(2ε₀).",
+      "it": "σ è la densità superficiale di carica. Una sola grande lastra crea un campo σ/(2ε₀).",
+      "fr": "σ est la densité surfacique de charge. Une seule grande plaque crée un champ σ/(2ε₀).",
+      "es": "σ es la densidad superficial de carga. Una sola placa grande crea un campo σ/(2ε₀).",
+      "de": "σ ist die Flächenladungsdichte. Eine einzelne große Platte erzeugt σ/(2ε₀).",
+      "pt": "σ é a densidade superficial de carga. Uma única placa grande cria um campo σ/(2ε₀).",
+      "ru": "σ — поверхностная плотность заряда. Одна большая пластина создаёт поле σ/(2ε₀)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "W": {
+      "oznaka": {
+       "sr": "A",
+       "en": "W",
+       "it": "L",
+       "fr": "W",
+       "es": "W",
+       "de": "W",
+       "pt": "W",
+       "ru": "A"
+      },
+      "naziv": {
+       "sr": "rad električnog polja",
+       "en": "work of the electric field",
+       "it": "lavoro del campo elettrico",
+       "fr": "travail du champ électrique",
+       "es": "trabajo del campo eléctrico",
+       "de": "Arbeit des elektrischen Feldes",
+       "pt": "trabalho do campo elétrico",
+       "ru": "работа электрического поля"
+      },
+      "vrsta": "energija",
+      "jed": "eV"
+     },
+     "q": {
+      "oznaka": "q",
+      "naziv": {
+       "sr": "naelektrisanje (podrazumevano: elektron)",
+       "en": "charge (default: electron)",
+       "it": "carica (predefinita: elettrone)",
+       "fr": "charge (par défaut : électron)",
+       "es": "carga (por defecto: electrón)",
+       "de": "Ladung (Voreinstellung: Elektron)",
+       "pt": "carga (padrão: elétron)",
+       "ru": "заряд (по умолчанию: электрон)"
+      },
+      "vrsta": "naboj",
+      "pocetna": 1.602176634e-19
+     },
+     "U": {
+      "oznaka": "U",
+      "naziv": {
+       "sr": "napon",
+       "en": "voltage",
+       "it": "tensione",
+       "fr": "tension",
+       "es": "tensión",
+       "de": "Spannung",
+       "pt": "tensão",
+       "ru": "напряжение"
+      },
+      "vrsta": "napon",
+      "pocetna": 1000
+     },
+     "V": {
+      "oznaka": {
+       "sr": "\\varphi",
+       "en": "V",
+       "it": "V",
+       "fr": "V",
+       "es": "V",
+       "de": "\\varphi",
+       "pt": "V",
+       "ru": "\\varphi"
+      },
+      "naziv": {
+       "sr": "potencijal",
+       "en": "potential",
+       "it": "potenziale",
+       "fr": "potentiel",
+       "es": "potencial",
+       "de": "Potential",
+       "pt": "potencial",
+       "ru": "потенциал"
+      },
+      "vrsta": "napon"
+     },
+     "r": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "rastojanje",
+       "en": "distance",
+       "it": "distanza",
+       "fr": "distance",
+       "es": "distancia",
+       "de": "Abstand",
+       "pt": "distância",
+       "ru": "расстояние"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.1,
+      "jed": "cm",
+      "poz": true
+     },
+     "e0": {
+      "oznaka": "\\varepsilon_0",
+      "naziv": {
+       "sr": "električna konstanta",
+       "en": "electric constant",
+       "it": "costante dielettrica del vuoto",
+       "fr": "permittivité du vide",
+       "es": "permitividad del vacío",
+       "de": "elektrische Feldkonstante",
+       "pt": "permissividade do vácuo",
+       "ru": "электрическая постоянная"
+      },
+      "vrsta": "permitivnost",
+      "pocetna": 8.8541878188e-12,
+      "poz": true
+     },
+     "E": {
+      "oznaka": "E",
+      "naziv": {
+       "sr": "jačina električnog polja",
+       "en": "electric field strength",
+       "it": "intensità del campo elettrico",
+       "fr": "champ électrique",
+       "es": "intensidad del campo eléctrico",
+       "de": "elektrische Feldstärke",
+       "pt": "intensidade do campo elétrico",
+       "ru": "напряжённость электрического поля"
+      },
+      "vrsta": "elPolje",
+      "jed": "kV/m"
+     },
+     "d": {
+      "oznaka": "d",
+      "naziv": {
+       "sr": "rastojanje između ploča",
+       "en": "plate separation",
+       "it": "distanza tra le armature",
+       "fr": "distance entre les armatures",
+       "es": "distancia entre placas",
+       "de": "Plattenabstand",
+       "pt": "distância entre as placas",
+       "ru": "расстояние между пластинами"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.01,
+      "jed": "cm",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "A = q U",
+       "en": "W = q U",
+       "it": "L = q U",
+       "fr": "W = q U",
+       "es": "W = q U",
+       "de": "W = q U",
+       "pt": "W = q U",
+       "ru": "A = q U"
+      },
+      "trazi": "W",
+      "resenja": {
+       "W": "q*U",
+       "q": "W/U",
+       "U": "W/q"
+      }
+     },
+     {
+      "latex": {
+       "sr": "\\varphi = \\dfrac{1}{4\\pi\\varepsilon_0} \\dfrac{q}{r}",
+       "en": "V = \\dfrac{1}{4\\pi\\varepsilon_0} \\dfrac{q}{r}",
+       "it": "V = \\dfrac{1}{4\\pi\\varepsilon_0} \\dfrac{q}{r}",
+       "fr": "V = \\dfrac{1}{4\\pi\\varepsilon_0} \\dfrac{q}{r}",
+       "es": "V = \\dfrac{1}{4\\pi\\varepsilon_0} \\dfrac{q}{r}",
+       "de": "\\varphi = \\dfrac{1}{4\\pi\\varepsilon_0} \\dfrac{q}{r}",
+       "pt": "V = \\dfrac{1}{4\\pi\\varepsilon_0} \\dfrac{q}{r}",
+       "ru": "\\varphi = \\dfrac{1}{4\\pi\\varepsilon_0} \\dfrac{q}{r}"
+      },
+      "trazi": "V",
+      "promenljive": [
+       "V",
+       "q",
+       "r",
+       "e0"
+      ],
+      "resenja": {
+       "V": "q/(4*PI*e0*r)",
+       "q": "V*4*PI*e0*r",
+       "r": "q/(4*PI*e0*V)"
+      }
+     },
+     {
+      "latex": "E = \\dfrac{U}{d}",
+      "trazi": "E",
+      "resenja": {
+       "E": "U/d",
+       "U": "E*d",
+       "d": "U/E"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "kondenzator",
+   "simbol": "C",
+   "naziv": {
+    "sr": "Kondenzator",
+    "en": "Capacitor",
+    "it": "Condensatore",
+    "fr": "Condensateur",
+    "es": "Condensador",
+    "de": "Kondensator",
+    "pt": "Capacitor",
+    "ru": "Конденсатор"
+   },
+   "opis": {
+    "sr": "Kapacitet, energija, vezivanje",
+    "en": "Capacitance, energy, combinations",
+    "it": "Capacità, energia, collegamenti",
+    "fr": "Capacité, énergie, associations",
+    "es": "Capacidad, energía, asociaciones",
+    "de": "Kapazität, Energie, Schaltungen",
+    "pt": "Capacitância, energia, associações",
+    "ru": "Ёмкость, энергия, соединения"
+   },
+   "kljucne_reci": {
+    "sr": "kondenzator kapacitet plocasti kondenzator farad energija kondenzatora redna paralelna veza dielektrik",
+    "en": "capacitor capacitance parallel plate farad energy series parallel dielectric",
+    "it": "condensatore capacita piano farad energia serie parallelo dielettrico",
+    "fr": "condensateur capacite plan farad energie serie parallele dielectrique",
+    "es": "condensador capacidad placas paralelas faradio energia serie paralelo dielectrico",
+    "de": "kondensator kapazitat plattenkondensator farad energie reihe parallel dielektrikum",
+    "pt": "capacitor capacitancia placas paralelas farad energia serie paralelo dieletrico",
+    "ru": "конденсатор электроёмкость плоский фарад энергия последовательно параллельно диэлектрик"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect class=\"lik\" x=\"90\" y=\"20\" width=\"10\" height=\"120\"/><rect class=\"lik\" x=\"200\" y=\"20\" width=\"10\" height=\"120\"/><line class=\"pom\" x1=\"102\" y1=\"36\" x2=\"196\" y2=\"36\"/><path class=\"tac\" d=\"M198,36 l-8,-4 v8 Z\"/><line class=\"pom\" x1=\"102\" y1=\"60\" x2=\"196\" y2=\"60\"/><path class=\"tac\" d=\"M198,60 l-8,-4 v8 Z\"/><line class=\"pom\" x1=\"102\" y1=\"84\" x2=\"196\" y2=\"84\"/><path class=\"tac\" d=\"M198,84 l-8,-4 v8 Z\"/><line class=\"pom\" x1=\"102\" y1=\"108\" x2=\"196\" y2=\"108\"/><path class=\"tac\" d=\"M198,108 l-8,-4 v8 Z\"/><line class=\"pom\" x1=\"102\" y1=\"128\" x2=\"196\" y2=\"128\"/><path class=\"tac\" d=\"M198,128 l-8,-4 v8 Z\"/><text class=\"fun\" x=\"72\" y=\"84\">+q</text><text class=\"fun\" x=\"216\" y=\"84\">−q</text><line class=\"osa\" x1=\"95\" y1=\"156\" x2=\"205\" y2=\"156\"/><line class=\"osa\" x1=\"95\" y1=\"150\" x2=\"95\" y2=\"162\"/><line class=\"osa\" x1=\"205\" y1=\"150\" x2=\"205\" y2=\"162\"/><text x=\"146\" y=\"152\">d</text><text x=\"142\" y=\"16\">E</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Kapacitet",
+      "en": "Capacitance",
+      "it": "Capacità",
+      "fr": "Capacité",
+      "es": "Capacidad",
+      "de": "Kapazität",
+      "pt": "Capacitância",
+      "ru": "Электроёмкость"
+     },
+     "latex": "q = C\\,U",
+     "objasnjenje": {
+      "sr": "1 F = 1 C/V; uobičajeni kondenzatori imaju µF, nF i pF.",
+      "en": "1 F = 1 C/V; common capacitors are in µF, nF and pF.",
+      "it": "1 F = 1 C/V; i condensatori comuni sono in µF, nF e pF.",
+      "fr": "1 F = 1 C/V ; les condensateurs courants sont en µF, nF et pF.",
+      "es": "1 F = 1 C/V; los condensadores comunes están en µF, nF y pF.",
+      "de": "1 F = 1 C/V; übliche Kondensatoren haben µF, nF und pF.",
+      "pt": "1 F = 1 C/V; capacitores comuns têm µF, nF e pF.",
+      "ru": "1 Ф = 1 Кл/В; обычные конденсаторы — мкФ, нФ и пФ."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Pločasti kondenzator",
+      "en": "Parallel-plate capacitor",
+      "it": "Condensatore piano",
+      "fr": "Condensateur plan",
+      "es": "Condensador de placas paralelas",
+      "de": "Plattenkondensator",
+      "pt": "Capacitor de placas paralelas",
+      "ru": "Плоский конденсатор"
+     },
+     "latex": "C = \\varepsilon_r\\,\\varepsilon_0\\,\\frac{S}{d}, \\quad E = \\frac{U}{d}",
+     "objasnjenje": {
+      "sr": "S je površina ploča, d rastojanje; za vazduh εᵣ ≈ 1.",
+      "en": "S is the plate area, d the separation; for air εᵣ ≈ 1.",
+      "it": "S è l’area delle armature, d la distanza; per l’aria εᵣ ≈ 1.",
+      "fr": "S est l’aire des armatures, d leur distance ; pour l’air εᵣ ≈ 1.",
+      "es": "S es el área de las placas, d la distancia; para el aire εᵣ ≈ 1.",
+      "de": "S ist die Plattenfläche, d der Abstand; für Luft εᵣ ≈ 1.",
+      "pt": "S é a área das placas, d a distância; para o ar εᵣ ≈ 1.",
+      "ru": "S — площадь пластин, d — расстояние; для воздуха ε ≈ 1."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Energija",
+      "en": "Energy",
+      "it": "Energia",
+      "fr": "Énergie",
+      "es": "Energía",
+      "de": "Energie",
+      "pt": "Energia",
+      "ru": "Энергия"
+     },
+     "latex": "W = \\frac{C U^2}{2} = \\frac{q^2}{2C}, \\quad w_e = \\frac{\\varepsilon_0 E^2}{2}",
+     "objasnjenje": {
+      "sr": "wₑ je gustina energije električnog polja (energija po jedinici zapremine).",
+      "en": "wₑ is the energy density of the electric field (energy per unit volume).",
+      "it": "wₑ è la densità di energia del campo elettrico.",
+      "fr": "wₑ est la densité d’énergie du champ électrique.",
+      "es": "wₑ es la densidad de energía del campo eléctrico.",
+      "de": "wₑ ist die Energiedichte des elektrischen Feldes.",
+      "pt": "wₑ é a densidade de energia do campo elétrico.",
+      "ru": "wₑ — объёмная плотность энергии электрического поля."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Paralelna i redna veza",
+      "en": "Parallel and series",
+      "it": "Parallelo e serie",
+      "fr": "Parallèle et série",
+      "es": "Paralelo y serie",
+      "de": "Parallel- und Reihenschaltung",
+      "pt": "Paralelo e série",
+      "ru": "Параллельное и последовательное соединение"
+     },
+     "latex": "C = C_1 + C_2 + \\cdots, \\quad \\frac{1}{C} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\cdots",
+     "objasnjenje": {
+      "sr": "Obrnuto nego kod otpornika: paralelno se kapaciteti sabiraju.",
+      "en": "Opposite of resistors: in parallel the capacitances add.",
+      "it": "Al contrario dei resistori: in parallelo le capacità si sommano.",
+      "fr": "À l’inverse des résistances : en parallèle les capacités s’additionnent.",
+      "es": "Al revés que las resistencias: en paralelo las capacidades se suman.",
+      "de": "Umgekehrt wie bei Widerständen: parallel addieren sich die Kapazitäten.",
+      "pt": "Ao contrário dos resistores: em paralelo as capacitâncias se somam.",
+      "ru": "В отличие от резисторов, при параллельном соединении ёмкости складываются."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "q": {
+      "oznaka": "q",
+      "naziv": {
+       "sr": "naelektrisanje",
+       "en": "charge",
+       "it": "carica",
+       "fr": "charge",
+       "es": "carga",
+       "de": "Ladung",
+       "pt": "carga",
+       "ru": "заряд"
+      },
+      "vrsta": "naboj",
+      "jed": "µC"
+     },
+     "C": {
+      "oznaka": "C",
+      "naziv": {
+       "sr": "kapacitet",
+       "en": "capacitance",
+       "it": "capacità",
+       "fr": "capacité",
+       "es": "capacidad",
+       "de": "Kapazität",
+       "pt": "capacitância",
+       "ru": "электроёмкость"
+      },
+      "vrsta": "kapacitet",
+      "pocetna": 1e-06,
+      "jed": "µF",
+      "poz": true
+     },
+     "U": {
+      "oznaka": "U",
+      "naziv": {
+       "sr": "napon",
+       "en": "voltage",
+       "it": "tensione",
+       "fr": "tension",
+       "es": "tensión",
+       "de": "Spannung",
+       "pt": "tensão",
+       "ru": "напряжение"
+      },
+      "vrsta": "napon",
+      "pocetna": 12
+     },
+     "er": {
+      "oznaka": "\\varepsilon_r",
+      "naziv": {
+       "sr": "relativna dielektrična konstanta",
+       "en": "relative permittivity",
+       "it": "costante dielettrica relativa",
+       "fr": "permittivité relative",
+       "es": "permitividad relativa",
+       "de": "Dielektrizitätszahl",
+       "pt": "permissividade relativa",
+       "ru": "диэлектрическая проницаемость"
+      },
+      "vrsta": "bez",
+      "pocetna": 1,
+      "poz": true
+     },
+     "e0": {
+      "oznaka": "\\varepsilon_0",
+      "naziv": {
+       "sr": "električna konstanta",
+       "en": "electric constant",
+       "it": "costante dielettrica del vuoto",
+       "fr": "permittivité du vide",
+       "es": "permitividad del vacío",
+       "de": "elektrische Feldkonstante",
+       "pt": "permissividade do vácuo",
+       "ru": "электрическая постоянная"
+      },
+      "vrsta": "permitivnost",
+      "pocetna": 8.8541878188e-12,
+      "poz": true
+     },
+     "Sp": {
+      "oznaka": "S",
+      "naziv": {
+       "sr": "površina ploče",
+       "en": "plate area",
+       "it": "area delle armature",
+       "fr": "aire des armatures",
+       "es": "área de las placas",
+       "de": "Plattenfläche",
+       "pt": "área das placas",
+       "ru": "площадь пластины"
+      },
+      "vrsta": "povrsina",
+      "pocetna": 0.01,
+      "jed": "cm²",
+      "poz": true
+     },
+     "d": {
+      "oznaka": "d",
+      "naziv": {
+       "sr": "rastojanje između ploča",
+       "en": "plate separation",
+       "it": "distanza tra le armature",
+       "fr": "distance entre les armatures",
+       "es": "distancia entre placas",
+       "de": "Plattenabstand",
+       "pt": "distância entre as placas",
+       "ru": "расстояние между пластинами"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.001,
+      "jed": "mm",
+      "poz": true
+     },
+     "WC": {
+      "oznaka": "W",
+      "naziv": {
+       "sr": "energija kondenzatora",
+       "en": "energy of the capacitor",
+       "it": "energia del condensatore",
+       "fr": "énergie du condensateur",
+       "es": "energía del condensador",
+       "de": "Energie des Kondensators",
+       "pt": "energia do capacitor",
+       "ru": "энергия конденсатора"
+      },
+      "vrsta": "energija",
+      "jed": "J",
+      "nenegativna": true
+     },
+     "Cu": {
+      "oznaka": "C",
+      "naziv": {
+       "sr": "ukupni kapacitet",
+       "en": "total capacitance",
+       "it": "capacità equivalente",
+       "fr": "capacité équivalente",
+       "es": "capacidad equivalente",
+       "de": "Gesamtkapazität",
+       "pt": "capacitância equivalente",
+       "ru": "общая ёмкость"
+      },
+      "vrsta": "kapacitet",
+      "jed": "µF",
+      "poz": true
+     },
+     "C1": {
+      "oznaka": "C_1",
+      "naziv": {
+       "sr": "prvi kondenzator",
+       "en": "capacitor 1",
+       "it": "condensatore 1",
+       "fr": "condensateur 1",
+       "es": "condensador 1",
+       "de": "Kondensator 1",
+       "pt": "capacitor 1",
+       "ru": "первый конденсатор"
+      },
+      "vrsta": "kapacitet",
+      "pocetna": 1e-06,
+      "jed": "µF",
+      "poz": true
+     },
+     "C2": {
+      "oznaka": "C_2",
+      "naziv": {
+       "sr": "drugi kondenzator",
+       "en": "capacitor 2",
+       "it": "condensatore 2",
+       "fr": "condensateur 2",
+       "es": "condensador 2",
+       "de": "Kondensator 2",
+       "pt": "capacitor 2",
+       "ru": "второй конденсатор"
+      },
+      "vrsta": "kapacitet",
+      "pocetna": 2.2e-06,
+      "jed": "µF",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "q = C U",
+      "trazi": "q",
+      "resenja": {
+       "q": "C*U",
+       "C": "q/U",
+       "U": "q/C"
+      }
+     },
+     {
+      "latex": "C = \\varepsilon_r \\varepsilon_0 \\dfrac{S}{d}",
+      "trazi": "C",
+      "promenljive": [
+       "C",
+       "er",
+       "e0",
+       "Sp",
+       "d"
+      ],
+      "resenja": {
+       "C": "er*e0*Sp/d",
+       "er": "C*d/(e0*Sp)",
+       "Sp": "C*d/(er*e0)",
+       "d": "er*e0*Sp/C"
+      }
+     },
+     {
+      "latex": "W = \\dfrac{C U^2}{2}",
+      "trazi": "WC",
+      "resenja": {
+       "WC": "C*U*U/2",
+       "C": "2*WC/(U*U)",
+       "U": "sqrt(2*WC/C)"
+      }
+     },
+     {
+      "latex": "C = C_1 + C_2",
+      "trazi": "Cu",
+      "resenja": {
+       "Cu": "C1 + C2",
+       "C1": "Cu - C2",
+       "C2": "Cu - C1"
+      }
+     },
+     {
+      "latex": "\\dfrac{1}{C} = \\dfrac{1}{C_1} + \\dfrac{1}{C_2}",
+      "trazi": "Cu",
+      "resenja": {
+       "Cu": "C1*C2/(C1 + C2)",
+       "C1": "1/(1/Cu - 1/C2)",
+       "C2": "1/(1/Cu - 1/C1)"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

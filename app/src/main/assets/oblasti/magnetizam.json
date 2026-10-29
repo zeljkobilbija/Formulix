@@ -1,0 +1,2034 @@
+{
+ "oblast": "magnetizam",
+ "teme": [
+  {
+   "id": "sila_na_provodnik",
+   "simbol": "F",
+   "naziv": {
+    "sr": "Sila na provodnik sa strujom",
+    "en": "Force on a current-carrying wire",
+    "it": "Forza su un filo percorso da corrente",
+    "fr": "Force de Laplace",
+    "es": "Fuerza sobre un conductor",
+    "de": "Kraft auf einen stromdurchflossenen Leiter",
+    "pt": "Força sobre um condutor",
+    "ru": "Сила Ампера"
+   },
+   "opis": {
+    "sr": "F = IlB sin φ, dva provodnika",
+    "en": "F = IlB sin φ, two wires",
+    "it": "F = IlB sin φ, due fili",
+    "fr": "F = IlB sin φ, deux fils",
+    "es": "F = IlB sen φ, dos conductores",
+    "de": "F = IlB sin φ, zwei Leiter",
+    "pt": "F = IlB sen φ, dois fios",
+    "ru": "F = IlB sin φ, два проводника"
+   },
+   "kljucne_reci": {
+    "sr": "sila na provodnik amperova sila magnetno polje struja paralelni provodnici",
+    "en": "force on wire ampere force magnetic field current parallel wires",
+    "it": "forza su un filo forza di ampere campo magnetico fili paralleli",
+    "fr": "force de laplace champ magnetique fils paralleles",
+    "es": "fuerza sobre un conductor fuerza de ampere campo magnetico conductores paralelos",
+    "de": "lorentzkraft auf leiter magnetfeld parallele leiter",
+    "pt": "forca magnetica sobre condutor fios paralelos",
+    "ru": "сила ампера магнитное поле проводник с током параллельные проводники"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Sila na provodnik",
+      "en": "Force on a wire",
+      "it": "Forza su un filo",
+      "fr": "Force sur un fil",
+      "es": "Fuerza sobre un conductor",
+      "de": "Kraft auf einen Leiter",
+      "pt": "Força sobre um fio",
+      "ru": "Сила на проводник"
+     },
+     "latex": "\\vec F = I\\,\\vec l \\times \\vec B, \\quad F = I l B \\sin\\varphi",
+     "objasnjenje": {
+      "sr": "Sila je normalna i na provodnik i na polje (pravilo leve ili desne ruke); 1 T = 1 N/(A·m).",
+      "en": "The force is perpendicular to both wire and field (right-hand rule); 1 T = 1 N/(A·m).",
+      "it": "La forza è perpendicolare al filo e al campo (regola della mano destra); 1 T = 1 N/(A·m).",
+      "fr": "La force est perpendiculaire au fil et au champ (règle de la main droite) ; 1 T = 1 N/(A·m).",
+      "es": "La fuerza es perpendicular al conductor y al campo (regla de la mano derecha); 1 T = 1 N/(A·m).",
+      "de": "Die Kraft steht senkrecht auf Leiter und Feld (Drei-Finger-Regel); 1 T = 1 N/(A·m).",
+      "pt": "A força é perpendicular ao fio e ao campo (regra da mão direita); 1 T = 1 N/(A·m).",
+      "ru": "Сила перпендикулярна проводнику и полю (правило левой руки); 1 Тл = 1 Н/(А·м)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Dva paralelna provodnika",
+      "en": "Two parallel wires",
+      "it": "Due fili paralleli",
+      "fr": "Deux fils parallèles",
+      "es": "Dos conductores paralelos",
+      "de": "Zwei parallele Leiter",
+      "pt": "Dois fios paralelos",
+      "ru": "Два параллельных проводника"
+     },
+     "latex": "F = \\frac{\\mu_0 I_1 I_2\\, l}{2\\pi r}",
+     "objasnjenje": {
+      "sr": "Struje istog smera se privlače, suprotnog smera odbijaju.",
+      "en": "Currents in the same direction attract; opposite currents repel.",
+      "it": "Correnti concordi si attraggono, discordi si respingono.",
+      "fr": "Des courants de même sens s’attirent, de sens opposés se repoussent.",
+      "es": "Corrientes del mismo sentido se atraen, de sentido contrario se repelen.",
+      "de": "Gleichgerichtete Ströme ziehen sich an, entgegengesetzte stoßen sich ab.",
+      "pt": "Correntes no mesmo sentido se atraem, opostas se repelem.",
+      "ru": "Токи одного направления притягиваются, противоположного — отталкиваются."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "F": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "magnetna sila",
+       "en": "magnetic force",
+       "it": "forza magnetica",
+       "fr": "force magnétique",
+       "es": "fuerza magnética",
+       "de": "magnetische Kraft",
+       "pt": "força magnética",
+       "ru": "магнитная сила"
+      },
+      "vrsta": "sila"
+     },
+     "I": {
+      "oznaka": "I",
+      "naziv": {
+       "sr": "jačina struje",
+       "en": "current",
+       "it": "corrente",
+       "fr": "intensité du courant",
+       "es": "corriente",
+       "de": "Stromstärke",
+       "pt": "corrente",
+       "ru": "сила тока"
+      },
+      "vrsta": "struja",
+      "pocetna": 10
+     },
+     "l": {
+      "oznaka": "l",
+      "naziv": {
+       "sr": "dužina provodnika u polju",
+       "en": "length of wire in the field",
+       "it": "lunghezza del filo nel campo",
+       "fr": "longueur du fil dans le champ",
+       "es": "longitud del conductor en el campo",
+       "de": "Leiterlänge im Feld",
+       "pt": "comprimento do fio no campo",
+       "ru": "длина проводника в поле"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.2,
+      "jed": "cm",
+      "poz": true
+     },
+     "B": {
+      "oznaka": "B",
+      "naziv": {
+       "sr": "magnetna indukcija",
+       "en": "magnetic flux density",
+       "it": "campo magnetico",
+       "fr": "champ magnétique",
+       "es": "campo magnético",
+       "de": "magnetische Flussdichte",
+       "pt": "campo magnético",
+       "ru": "магнитная индукция"
+      },
+      "vrsta": "magPolje",
+      "pocetna": 0.5,
+      "poz": true
+     },
+     "fi": {
+      "oznaka": "\\varphi",
+      "naziv": {
+       "sr": "ugao između provodnika i polja",
+       "en": "angle between wire and field",
+       "it": "angolo tra filo e campo",
+       "fr": "angle entre fil et champ",
+       "es": "ángulo entre conductor y campo",
+       "de": "Winkel zwischen Leiter und Feld",
+       "pt": "ângulo entre fio e campo",
+       "ru": "угол между проводником и полем"
+      },
+      "vrsta": "ugao",
+      "pocetna": 1.5707963267948966,
+      "jed": "°"
+     },
+     "I1": {
+      "oznaka": "I_1",
+      "naziv": {
+       "sr": "struja u prvom provodniku",
+       "en": "current in wire 1",
+       "it": "corrente nel filo 1",
+       "fr": "courant dans le fil 1",
+       "es": "corriente en el conductor 1",
+       "de": "Strom in Leiter 1",
+       "pt": "corrente no fio 1",
+       "ru": "ток в первом проводнике"
+      },
+      "vrsta": "struja",
+      "pocetna": 10
+     },
+     "I2": {
+      "oznaka": "I_2",
+      "naziv": {
+       "sr": "struja u drugom provodniku",
+       "en": "current in wire 2",
+       "it": "corrente nel filo 2",
+       "fr": "courant dans le fil 2",
+       "es": "corriente en el conductor 2",
+       "de": "Strom in Leiter 2",
+       "pt": "corrente no fio 2",
+       "ru": "ток во втором проводнике"
+      },
+      "vrsta": "struja",
+      "pocetna": 10
+     },
+     "r": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "rastojanje od provodnika",
+       "en": "distance from the wire",
+       "it": "distanza dal filo",
+       "fr": "distance au fil",
+       "es": "distancia al conductor",
+       "de": "Abstand zum Leiter",
+       "pt": "distância ao fio",
+       "ru": "расстояние до проводника"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.01,
+      "jed": "cm",
+      "poz": true
+     },
+     "mu0": {
+      "oznaka": "\\mu_0",
+      "naziv": {
+       "sr": "magnetna konstanta",
+       "en": "magnetic constant",
+       "it": "permeabilità magnetica del vuoto",
+       "fr": "perméabilité du vide",
+       "es": "permeabilidad del vacío",
+       "de": "magnetische Feldkonstante",
+       "pt": "permeabilidade do vácuo",
+       "ru": "магнитная постоянная"
+      },
+      "vrsta": "permeabilnost",
+      "pocetna": 1.25663706127e-06,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "F = I l B \\sin\\varphi",
+      "trazi": "F",
+      "promenljive": [
+       "F",
+       "I",
+       "l",
+       "B",
+       "fi"
+      ],
+      "resenja": {
+       "F": "I*l*B*sin(fi)",
+       "I": "F/(l*B*sin(fi))",
+       "l": "F/(I*B*sin(fi))",
+       "B": "F/(I*l*sin(fi))"
+      }
+     },
+     {
+      "latex": "F = \\dfrac{\\mu_0 I_1 I_2 l}{2\\pi r}",
+      "trazi": "F",
+      "promenljive": [
+       "F",
+       "mu0",
+       "I1",
+       "I2",
+       "l",
+       "r"
+      ],
+      "resenja": {
+       "F": "mu0*I1*I2*l/(2*PI*r)",
+       "I1": "F*2*PI*r/(mu0*I2*l)",
+       "I2": "F*2*PI*r/(mu0*I1*l)",
+       "l": "F*2*PI*r/(mu0*I1*I2)",
+       "r": "mu0*I1*I2*l/(2*PI*F)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "lorenc",
+   "simbol": "qvB",
+   "naziv": {
+    "sr": "Lorencova sila",
+    "en": "Lorentz force",
+    "it": "Forza di Lorentz",
+    "fr": "Force de Lorentz",
+    "es": "Fuerza de Lorentz",
+    "de": "Lorentzkraft",
+    "pt": "Força de Lorentz",
+    "ru": "Сила Лоренца"
+   },
+   "opis": {
+    "sr": "Naelektrisana čestica u polju",
+    "en": "Charged particle in a field",
+    "it": "Particella carica nel campo",
+    "fr": "Particule chargée dans un champ",
+    "es": "Partícula cargada en un campo",
+    "de": "Geladenes Teilchen im Feld",
+    "pt": "Partícula carregada no campo",
+    "ru": "Заряженная частица в поле"
+   },
+   "kljucne_reci": {
+    "sr": "lorencova sila naelektrisana cestica kruzna putanja ciklotron elektron u magnetnom polju",
+    "en": "lorentz force charged particle circular path cyclotron electron in magnetic field",
+    "it": "forza di lorentz particella carica ciclotrone traiettoria circolare",
+    "fr": "force de lorentz particule chargee cyclotron trajectoire circulaire",
+    "es": "fuerza de lorentz particula cargada ciclotron trayectoria circular",
+    "de": "lorentzkraft geladenes teilchen zyklotron kreisbahn",
+    "pt": "forca de lorentz particula carregada ciclotron trajetoria circular",
+    "ru": "сила лоренца заряженная частица циклотрон движение по окружности"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M25,17 L35,27 M35,17 L25,27\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M25,53 L35,63 M35,53 L25,63\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M25,89 L35,99 M35,89 L25,99\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M25,125 L35,135 M35,125 L25,135\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M25,161 L35,171 M35,161 L25,171\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M65,17 L75,27 M75,17 L65,27\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M65,53 L75,63 M75,53 L65,63\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M65,89 L75,99 M75,89 L65,99\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M65,125 L75,135 M75,125 L65,135\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M65,161 L75,171 M75,161 L65,171\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M105,17 L115,27 M115,17 L105,27\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M105,53 L115,63 M115,53 L105,63\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M105,89 L115,99 M115,89 L105,99\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M105,125 L115,135 M115,125 L105,135\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M105,161 L115,171 M115,161 L105,171\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M145,17 L155,27 M155,17 L145,27\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M145,53 L155,63 M155,53 L145,63\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M145,89 L155,99 M155,89 L145,99\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M145,125 L155,135 M155,125 L145,135\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M145,161 L155,171 M155,161 L145,171\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M185,17 L195,27 M195,17 L185,27\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M185,53 L195,63 M195,53 L185,63\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M185,89 L195,99 M195,89 L185,99\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M185,125 L195,135 M195,125 L185,135\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M185,161 L195,171 M195,161 L185,171\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M225,17 L235,27 M235,17 L225,27\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M225,53 L235,63 M235,53 L225,63\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M225,89 L235,99 M235,89 L225,99\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M225,125 L235,135 M235,125 L225,135\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M225,161 L235,171 M235,161 L225,171\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M265,17 L275,27 M275,17 L265,27\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M265,53 L275,63 M275,53 L265,63\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M265,89 L275,99 M275,89 L265,99\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M265,125 L275,135 M275,125 L265,135\"/><path class=\"pom\" style=\"stroke-dasharray:none\" d=\"M265,161 L275,171 M275,161 L265,171\"/><circle class=\"kriva\" cx=\"150\" cy=\"92\" r=\"62\" fill=\"none\"/><circle class=\"tac\" cx=\"150\" cy=\"30\" r=\"7\"/><text class=\"fun\" x=\"146\" y=\"16\">+</text><line class=\"lik-l\" x1=\"150.0\" y1=\"30.0\" x2=\"207.0\" y2=\"30.0\"/><path class=\"tac\" d=\"M218.0,30.0 L207.0,35.0 L207.0,25.0 Z\"/><text x=\"222\" y=\"34\">v</text><line class=\"lik-l\" x1=\"150.0\" y1=\"30.0\" x2=\"150.0\" y2=\"63.0\"/><path class=\"tac\" d=\"M150.0,74.0 L145.0,63.0 L155.0,63.0 Z\"/><text x=\"158\" y=\"66\">F</text><line class=\"pom\" x1=\"150\" y1=\"92\" x2=\"150\" y2=\"30\" style=\"stroke-dasharray:4 4\"/><circle class=\"tac\" cx=\"150\" cy=\"92\" r=\"3\"/><text x=\"156\" y=\"112\">r</text><text x=\"262\" y=\"170\">B</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Sila na naelektrisanu česticu",
+      "en": "Force on a moving charge",
+      "it": "Forza su una carica in moto",
+      "fr": "Force sur une charge en mouvement",
+      "es": "Fuerza sobre una carga en movimiento",
+      "de": "Kraft auf eine bewegte Ladung",
+      "pt": "Força sobre uma carga em movimento",
+      "ru": "Сила на движущийся заряд"
+     },
+     "latex": "\\vec F = q\\,\\vec v \\times \\vec B, \\quad F = q v B \\sin\\varphi",
+     "objasnjenje": {
+      "sr": "Sila je normalna na brzinu, pa menja samo smer kretanja, a ne i iznos brzine.",
+      "en": "The force is perpendicular to the velocity, so it changes only the direction, not the speed.",
+      "it": "La forza è perpendicolare alla velocità: cambia solo la direzione, non il modulo.",
+      "fr": "La force est perpendiculaire à la vitesse : elle change la direction, pas la valeur.",
+      "es": "La fuerza es perpendicular a la velocidad: cambia solo la dirección, no el módulo.",
+      "de": "Die Kraft steht senkrecht zur Geschwindigkeit und ändert nur die Richtung.",
+      "pt": "A força é perpendicular à velocidade: muda só a direção, não o módulo.",
+      "ru": "Сила перпендикулярна скорости и меняет только направление движения."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Ukupna Lorencova sila",
+      "en": "Full Lorentz force",
+      "it": "Forza di Lorentz completa",
+      "fr": "Force de Lorentz complète",
+      "es": "Fuerza de Lorentz completa",
+      "de": "Vollständige Lorentzkraft",
+      "pt": "Força de Lorentz completa",
+      "ru": "Полная сила Лоренца"
+     },
+     "latex": "\\vec F = q\\,\\vec E + q\\,\\vec v \\times \\vec B",
+     "objasnjenje": {
+      "sr": "Kada postoje i električno i magnetno polje.",
+      "en": "When both electric and magnetic fields are present.",
+      "it": "Quando sono presenti campo elettrico e magnetico.",
+      "fr": "En présence de champs électrique et magnétique.",
+      "es": "Cuando hay campo eléctrico y magnético.",
+      "de": "Bei elektrischem und magnetischem Feld.",
+      "pt": "Quando há campo elétrico e magnético.",
+      "ru": "При наличии электрического и магнитного полей."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Kružna putanja (ciklotron)",
+      "en": "Circular path (cyclotron)",
+      "it": "Traiettoria circolare (ciclotrone)",
+      "fr": "Trajectoire circulaire (cyclotron)",
+      "es": "Trayectoria circular (ciclotrón)",
+      "de": "Kreisbahn (Zyklotron)",
+      "pt": "Trajetória circular (cíclotron)",
+      "ru": "Движение по окружности (циклотрон)"
+     },
+     "latex": "r = \\frac{m v}{q B}, \\quad \\omega_c = \\frac{q B}{m}",
+     "objasnjenje": {
+      "sr": "Čestica koja ulazi normalno na polje kreće se po krugu; ugaona brzina ne zavisi od brzine.",
+      "en": "A particle entering perpendicular to the field moves on a circle; the angular frequency does not depend on speed.",
+      "it": "Una particella che entra perpendicolare al campo percorre un cerchio; la pulsazione non dipende dalla velocità.",
+      "fr": "Une particule entrant perpendiculairement au champ décrit un cercle ; la pulsation ne dépend pas de la vitesse.",
+      "es": "Una partícula que entra perpendicular al campo describe un círculo; la frecuencia angular no depende de la velocidad.",
+      "de": "Ein senkrecht zum Feld eintretendes Teilchen bewegt sich auf einem Kreis; die Kreisfrequenz hängt nicht von der Geschwindigkeit ab.",
+      "pt": "Uma partícula que entra perpendicular ao campo descreve um círculo; a frequência angular não depende da velocidade.",
+      "ru": "Частица, влетевшая перпендикулярно полю, движется по окружности; частота не зависит от скорости."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "F": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "magnetna sila",
+       "en": "magnetic force",
+       "it": "forza magnetica",
+       "fr": "force magnétique",
+       "es": "fuerza magnética",
+       "de": "magnetische Kraft",
+       "pt": "força magnética",
+       "ru": "магнитная сила"
+      },
+      "vrsta": "sila"
+     },
+     "q": {
+      "oznaka": "q",
+      "naziv": {
+       "sr": "naelektrisanje čestice",
+       "en": "charge of the particle",
+       "it": "carica della particella",
+       "fr": "charge de la particule",
+       "es": "carga de la partícula",
+       "de": "Ladung des Teilchens",
+       "pt": "carga da partícula",
+       "ru": "заряд частицы"
+      },
+      "vrsta": "naboj",
+      "pocetna": 1.602176634e-19
+     },
+     "v": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina čestice",
+       "en": "velocity of the particle",
+       "it": "velocità della particella",
+       "fr": "vitesse de la particule",
+       "es": "velocidad de la partícula",
+       "de": "Geschwindigkeit des Teilchens",
+       "pt": "velocidade da partícula",
+       "ru": "скорость частицы"
+      },
+      "vrsta": "brzina",
+      "pocetna": 1000000.0,
+      "poz": true
+     },
+     "B": {
+      "oznaka": "B",
+      "naziv": {
+       "sr": "magnetna indukcija",
+       "en": "magnetic flux density",
+       "it": "campo magnetico",
+       "fr": "champ magnétique",
+       "es": "campo magnético",
+       "de": "magnetische Flussdichte",
+       "pt": "campo magnético",
+       "ru": "магнитная индукция"
+      },
+      "vrsta": "magPolje",
+      "pocetna": 0.01,
+      "jed": "mT",
+      "poz": true
+     },
+     "fv": {
+      "oznaka": "\\varphi",
+      "naziv": {
+       "sr": "ugao između brzine i polja",
+       "en": "angle between velocity and field",
+       "it": "angolo tra velocità e campo",
+       "fr": "angle entre vitesse et champ",
+       "es": "ángulo entre velocidad y campo",
+       "de": "Winkel zwischen Geschwindigkeit und Feld",
+       "pt": "ângulo entre velocidade e campo",
+       "ru": "угол между скоростью и полем"
+      },
+      "vrsta": "ugao",
+      "pocetna": 1.5707963267948966,
+      "jed": "°"
+     },
+     "rk": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "poluprečnik putanje",
+       "en": "radius of the path",
+       "it": "raggio della traiettoria",
+       "fr": "rayon de la trajectoire",
+       "es": "radio de la trayectoria",
+       "de": "Bahnradius",
+       "pt": "raio da trajetória",
+       "ru": "радиус траектории"
+      },
+      "vrsta": "duzina",
+      "poz": true
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa čestice",
+       "en": "mass of the particle",
+       "it": "massa della particella",
+       "fr": "masse de la particule",
+       "es": "masa de la partícula",
+       "de": "Masse des Teilchens",
+       "pt": "massa da partícula",
+       "ru": "масса частицы"
+      },
+      "vrsta": "masa",
+      "pocetna": 9.1093837139e-31,
+      "poz": true
+     },
+     "om": {
+      "oznaka": "\\omega_c",
+      "naziv": {
+       "sr": "ugaona brzina (ciklotronska)",
+       "en": "angular frequency (cyclotron)",
+       "it": "pulsazione di ciclotrone",
+       "fr": "pulsation cyclotron",
+       "es": "frecuencia angular de ciclotrón",
+       "de": "Zyklotronkreisfrequenz",
+       "pt": "frequência angular do cíclotron",
+       "ru": "циклотронная частота"
+      },
+      "vrsta": "ugaonaBrzina"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "F = q v B \\sin\\varphi",
+      "trazi": "F",
+      "promenljive": [
+       "F",
+       "q",
+       "v",
+       "B",
+       "fv"
+      ],
+      "resenja": {
+       "F": "q*v*B*sin(fv)",
+       "q": "F/(v*B*sin(fv))",
+       "v": "F/(q*B*sin(fv))",
+       "B": "F/(q*v*sin(fv))"
+      }
+     },
+     {
+      "latex": "r = \\dfrac{m v}{q B}",
+      "trazi": "rk",
+      "resenja": {
+       "rk": "m*v/(q*B)",
+       "m": "rk*q*B/v",
+       "v": "rk*q*B/m",
+       "q": "m*v/(rk*B)",
+       "B": "m*v/(q*rk)"
+      },
+      "napomene": {
+       "rk": {
+        "sr": "Podrazumevano: elektron.",
+        "en": "Default: electron.",
+        "it": "Predefinito: elettrone.",
+        "fr": "Par défaut : électron.",
+        "es": "Por defecto: electrón.",
+        "de": "Voreinstellung: Elektron.",
+        "pt": "Padrão: elétron.",
+        "ru": "По умолчанию: электрон."
+       }
+      }
+     },
+     {
+      "latex": "\\omega_c = \\dfrac{q B}{m}",
+      "trazi": "om",
+      "resenja": {
+       "om": "q*B/m",
+       "q": "om*m/B",
+       "B": "om*m/q",
+       "m": "q*B/om"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "polje_struje",
+   "simbol": "B",
+   "naziv": {
+    "sr": "Magnetno polje struje",
+    "en": "Magnetic field of a current",
+    "it": "Campo magnetico di una corrente",
+    "fr": "Champ magnétique d’un courant",
+    "es": "Campo magnético de una corriente",
+    "de": "Magnetfeld eines Stromes",
+    "pt": "Campo magnético de uma corrente",
+    "ru": "Магнитное поле тока"
+   },
+   "opis": {
+    "sr": "Provodnik, petlja, solenoid",
+    "en": "Wire, loop, solenoid",
+    "it": "Filo, spira, solenoide",
+    "fr": "Fil, spire, solénoïde",
+    "es": "Conductor, espira, solenoide",
+    "de": "Leiter, Schleife, Spule",
+    "pt": "Fio, espira, solenoide",
+    "ru": "Проводник, виток, соленоид"
+   },
+   "kljucne_reci": {
+    "sr": "magnetno polje provodnika petlje solenoida kalem zavojnica tesla",
+    "en": "magnetic field wire loop solenoid coil tesla",
+    "it": "campo magnetico filo spira solenoide bobina tesla",
+    "fr": "champ magnetique fil spire solenoide bobine tesla",
+    "es": "campo magnetico conductor espira solenoide bobina tesla",
+    "de": "magnetfeld leiter schleife spule tesla",
+    "pt": "campo magnetico fio espira solenoide bobina tesla",
+    "ru": "магнитное поле проводника витка соленоида катушки тесла"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 150\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><ellipse class=\"ivica\" cx=\"50\" cy=\"70\" rx=\"9\" ry=\"34\"/><ellipse class=\"ivica\" cx=\"75\" cy=\"70\" rx=\"9\" ry=\"34\"/><ellipse class=\"ivica\" cx=\"100\" cy=\"70\" rx=\"9\" ry=\"34\"/><ellipse class=\"ivica\" cx=\"125\" cy=\"70\" rx=\"9\" ry=\"34\"/><ellipse class=\"ivica\" cx=\"150\" cy=\"70\" rx=\"9\" ry=\"34\"/><ellipse class=\"ivica\" cx=\"175\" cy=\"70\" rx=\"9\" ry=\"34\"/><ellipse class=\"ivica\" cx=\"200\" cy=\"70\" rx=\"9\" ry=\"34\"/><ellipse class=\"ivica\" cx=\"225\" cy=\"70\" rx=\"9\" ry=\"34\"/><ellipse class=\"ivica\" cx=\"250\" cy=\"70\" rx=\"9\" ry=\"34\"/><line class=\"lik-l\" x1=\"30.0\" y1=\"70.0\" x2=\"269.0\" y2=\"70.0\"/><path class=\"tac\" d=\"M280.0,70.0 L269.0,75.0 L269.0,65.0 Z\"/><text x=\"268\" y=\"60\">B</text><line class=\"osa\" x1=\"41\" y1=\"124\" x2=\"259\" y2=\"124\"/><line class=\"osa\" x1=\"41\" y1=\"118\" x2=\"41\" y2=\"130\"/><line class=\"osa\" x1=\"259\" y1=\"118\" x2=\"259\" y2=\"130\"/><text x=\"146\" y=\"144\">l</text><text class=\"fun\" x=\"20\" y=\"24\">I</text><path class=\"ivica\" d=\"M41,36 C30,30 24,24 18,30\"/></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Dugačak pravi provodnik",
+      "en": "Long straight wire",
+      "it": "Filo rettilineo",
+      "fr": "Fil rectiligne",
+      "es": "Conductor rectilíneo",
+      "de": "Langer gerader Leiter",
+      "pt": "Fio retilíneo longo",
+      "ru": "Длинный прямой проводник"
+     },
+     "latex": "B = \\frac{\\mu_0 I}{2\\pi r}",
+     "objasnjenje": {
+      "sr": "Linije polja su krugovi oko provodnika; μ₀ = 4π · 10⁻⁷ N/A².",
+      "en": "Field lines are circles around the wire; μ₀ = 4π · 10⁻⁷ N/A².",
+      "it": "Le linee di campo sono cerchi attorno al filo; μ₀ = 4π · 10⁻⁷ N/A².",
+      "fr": "Les lignes de champ sont des cercles autour du fil ; μ₀ = 4π · 10⁻⁷ N/A².",
+      "es": "Las líneas de campo son círculos alrededor del conductor; μ₀ = 4π · 10⁻⁷ N/A².",
+      "de": "Die Feldlinien sind Kreise um den Leiter; μ₀ = 4π · 10⁻⁷ N/A².",
+      "pt": "As linhas de campo são círculos ao redor do fio; μ₀ = 4π · 10⁻⁷ N/A².",
+      "ru": "Линии поля — окружности вокруг проводника; μ₀ = 4π · 10⁻⁷ Н/А²."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Središte kružne petlje",
+      "en": "Centre of a circular loop",
+      "it": "Centro di una spira circolare",
+      "fr": "Centre d’une spire circulaire",
+      "es": "Centro de una espira circular",
+      "de": "Mittelpunkt einer Kreisschleife",
+      "pt": "Centro de uma espira circular",
+      "ru": "Центр кругового витка"
+     },
+     "latex": "B = \\frac{\\mu_0 I}{2 r}",
+     "objasnjenje": {
+      "sr": "Za N navojaka polje je N puta jače.",
+      "en": "For N turns the field is N times stronger.",
+      "it": "Con N spire il campo è N volte più intenso.",
+      "fr": "Pour N spires le champ est N fois plus grand.",
+      "es": "Con N espiras el campo es N veces mayor.",
+      "de": "Bei N Windungen ist das Feld N-mal stärker.",
+      "pt": "Com N espiras o campo é N vezes maior.",
+      "ru": "Для N витков поле в N раз сильнее."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Dugačak solenoid",
+      "en": "Long solenoid",
+      "it": "Solenoide lungo",
+      "fr": "Solénoïde long",
+      "es": "Solenoide largo",
+      "de": "Lange Spule",
+      "pt": "Solenoide longo",
+      "ru": "Длинный соленоид"
+     },
+     "latex": "B = \\frac{\\mu_0 N I}{l}",
+     "objasnjenje": {
+      "sr": "Polje u unutrašnjosti je homogeno; N je broj navojaka, l dužina solenoida.",
+      "en": "The field inside is uniform; N is the number of turns, l the length.",
+      "it": "Il campo interno è uniforme; N è il numero di spire, l la lunghezza.",
+      "fr": "Le champ intérieur est uniforme ; N est le nombre de spires, l la longueur.",
+      "es": "El campo interior es uniforme; N es el número de espiras, l la longitud.",
+      "de": "Das Feld im Inneren ist homogen; N ist die Windungszahl, l die Länge.",
+      "pt": "O campo interno é uniforme; N é o número de espiras, l o comprimento.",
+      "ru": "Поле внутри однородно; N — число витков, l — длина."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "B": {
+      "oznaka": "B",
+      "naziv": {
+       "sr": "magnetna indukcija",
+       "en": "magnetic flux density",
+       "it": "campo magnetico",
+       "fr": "champ magnétique",
+       "es": "campo magnético",
+       "de": "magnetische Flussdichte",
+       "pt": "campo magnético",
+       "ru": "магнитная индукция"
+      },
+      "vrsta": "magPolje",
+      "jed": "µT",
+      "poz": true
+     },
+     "I": {
+      "oznaka": "I",
+      "naziv": {
+       "sr": "jačina struje",
+       "en": "current",
+       "it": "corrente",
+       "fr": "intensité du courant",
+       "es": "corriente",
+       "de": "Stromstärke",
+       "pt": "corrente",
+       "ru": "сила тока"
+      },
+      "vrsta": "struja",
+      "pocetna": 10
+     },
+     "r": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "rastojanje od provodnika",
+       "en": "distance from the wire",
+       "it": "distanza dal filo",
+       "fr": "distance au fil",
+       "es": "distancia al conductor",
+       "de": "Abstand zum Leiter",
+       "pt": "distância ao fio",
+       "ru": "расстояние до проводника"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.05,
+      "jed": "cm",
+      "poz": true
+     },
+     "mu0": {
+      "oznaka": "\\mu_0",
+      "naziv": {
+       "sr": "magnetna konstanta",
+       "en": "magnetic constant",
+       "it": "permeabilità magnetica del vuoto",
+       "fr": "perméabilité du vide",
+       "es": "permeabilidad del vacío",
+       "de": "magnetische Feldkonstante",
+       "pt": "permeabilidade do vácuo",
+       "ru": "магнитная постоянная"
+      },
+      "vrsta": "permeabilnost",
+      "pocetna": 1.25663706127e-06,
+      "poz": true
+     },
+     "Bp": {
+      "oznaka": "B",
+      "naziv": {
+       "sr": "polje u središtu petlje",
+       "en": "field at the centre of the loop",
+       "it": "campo al centro della spira",
+       "fr": "champ au centre de la spire",
+       "es": "campo en el centro de la espira",
+       "de": "Feld im Mittelpunkt der Schleife",
+       "pt": "campo no centro da espira",
+       "ru": "поле в центре витка"
+      },
+      "vrsta": "magPolje",
+      "jed": "µT",
+      "poz": true
+     },
+     "rp": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "poluprečnik petlje",
+       "en": "radius of the loop",
+       "it": "raggio della spira",
+       "fr": "rayon de la spire",
+       "es": "radio de la espira",
+       "de": "Radius der Schleife",
+       "pt": "raio da espira",
+       "ru": "радиус витка"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.05,
+      "jed": "cm",
+      "poz": true
+     },
+     "Bs": {
+      "oznaka": "B",
+      "naziv": {
+       "sr": "polje u solenoidu",
+       "en": "field inside the solenoid",
+       "it": "campo nel solenoide",
+       "fr": "champ dans le solénoïde",
+       "es": "campo en el solenoide",
+       "de": "Feld in der Spule",
+       "pt": "campo no solenoide",
+       "ru": "поле внутри соленоида"
+      },
+      "vrsta": "magPolje",
+      "jed": "mT",
+      "poz": true
+     },
+     "Nz": {
+      "oznaka": "N",
+      "naziv": {
+       "sr": "broj navojaka",
+       "en": "number of turns",
+       "it": "numero di spire",
+       "fr": "nombre de spires",
+       "es": "número de espiras",
+       "de": "Windungszahl",
+       "pt": "número de espiras",
+       "ru": "число витков"
+      },
+      "vrsta": "bez",
+      "pocetna": 500,
+      "poz": true
+     },
+     "ls": {
+      "oznaka": "l",
+      "naziv": {
+       "sr": "dužina solenoida",
+       "en": "length of the solenoid",
+       "it": "lunghezza del solenoide",
+       "fr": "longueur du solénoïde",
+       "es": "longitud del solenoide",
+       "de": "Spulenlänge",
+       "pt": "comprimento do solenoide",
+       "ru": "длина соленоида"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.2,
+      "jed": "cm",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "B = \\dfrac{\\mu_0 I}{2\\pi r}",
+      "trazi": "B",
+      "promenljive": [
+       "B",
+       "mu0",
+       "I",
+       "r"
+      ],
+      "resenja": {
+       "B": "mu0*I/(2*PI*r)",
+       "I": "B*2*PI*r/mu0",
+       "r": "mu0*I/(2*PI*B)"
+      }
+     },
+     {
+      "latex": "B = \\dfrac{\\mu_0 I}{2 r}",
+      "trazi": "Bp",
+      "promenljive": [
+       "Bp",
+       "mu0",
+       "I",
+       "rp"
+      ],
+      "resenja": {
+       "Bp": "mu0*I/(2*rp)",
+       "I": "Bp*2*rp/mu0",
+       "rp": "mu0*I/(2*Bp)"
+      }
+     },
+     {
+      "latex": "B = \\dfrac{\\mu_0 N I}{l}",
+      "trazi": "Bs",
+      "promenljive": [
+       "Bs",
+       "mu0",
+       "Nz",
+       "I",
+       "ls"
+      ],
+      "resenja": {
+       "Bs": "mu0*Nz*I/ls",
+       "Nz": "Bs*ls/(mu0*I)",
+       "I": "Bs*ls/(mu0*Nz)",
+       "ls": "mu0*Nz*I/Bs"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "moment_petlje",
+   "simbol": "M",
+   "naziv": {
+    "sr": "Strujna petlja u polju (motor)",
+    "en": "Current loop in a field (motor)",
+    "it": "Spira in un campo (motore)",
+    "fr": "Spire dans un champ (moteur)",
+    "es": "Espira en un campo (motor)",
+    "de": "Leiterschleife im Feld (Motor)",
+    "pt": "Espira num campo (motor)",
+    "ru": "Рамка с током в поле (двигатель)"
+   },
+   "opis": {
+    "sr": "Moment sile na petlju",
+    "en": "Torque on a loop",
+    "it": "Momento su una spira",
+    "fr": "Moment sur une spire",
+    "es": "Momento sobre una espira",
+    "de": "Drehmoment auf eine Schleife",
+    "pt": "Torque sobre uma espira",
+    "ru": "Момент сил на рамку"
+   },
+   "kljucne_reci": {
+    "sr": "strujna petlja moment sile elektromotor magnetni moment ram",
+    "en": "current loop torque electric motor magnetic moment coil",
+    "it": "spira momento motore elettrico momento magnetico",
+    "fr": "spire couple moteur electrique moment magnetique",
+    "es": "espira momento motor electrico momento magnetico",
+    "de": "leiterschleife drehmoment elektromotor magnetisches moment",
+    "pt": "espira torque motor eletrico momento magnetico",
+    "ru": "рамка с током момент сил электродвигатель магнитный момент"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Moment sile na petlju",
+      "en": "Torque on a loop",
+      "it": "Momento sulla spira",
+      "fr": "Moment sur la spire",
+      "es": "Momento sobre la espira",
+      "de": "Drehmoment auf die Schleife",
+      "pt": "Torque na espira",
+      "ru": "Момент сил на рамку"
+     },
+     "latex": {
+      "sr": "M = N I S B \\sin\\varphi, \\quad p_m = N I S",
+      "en": "\\tau = N I S B \\sin\\varphi, \\quad p_m = N I S",
+      "it": "\\tau = N I S B \\sin\\varphi, \\quad p_m = N I S",
+      "fr": "\\mathcal{M} = N I S B \\sin\\varphi, \\quad p_m = N I S",
+      "es": "\\tau = N I S B \\sin\\varphi, \\quad p_m = N I S",
+      "de": "M = N I S B \\sin\\varphi, \\quad p_m = N I S",
+      "pt": "\\tau = N I S B \\sin\\varphi, \\quad p_m = N I S",
+      "ru": "M = N I S B \\sin\\varphi, \\quad p_m = N I S"
+     },
+     "objasnjenje": {
+      "sr": "φ je ugao između normale na petlju i polja; pₘ je magnetni moment petlje. Na ovome se zasniva elektromotor.",
+      "en": "φ is the angle between the loop normal and the field; pₘ is the magnetic moment. This is how an electric motor works.",
+      "it": "φ è l’angolo tra la normale e il campo; pₘ è il momento magnetico. Così funziona il motore elettrico.",
+      "fr": "φ est l’angle entre la normale et le champ ; pₘ est le moment magnétique. C’est le principe du moteur électrique.",
+      "es": "φ es el ángulo entre la normal y el campo; pₘ es el momento magnético. Así funciona el motor eléctrico.",
+      "de": "φ ist der Winkel zwischen Flächennormale und Feld; pₘ ist das magnetische Moment. So funktioniert der Elektromotor.",
+      "pt": "φ é o ângulo entre a normal e o campo; pₘ é o momento magnético. Assim funciona o motor elétrico.",
+      "ru": "φ — угол между нормалью и полем; pₘ — магнитный момент. На этом основан электродвигатель."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Mo": {
+      "oznaka": {
+       "sr": "M",
+       "en": "\\tau",
+       "it": "\\tau",
+       "fr": "\\mathcal{M}",
+       "es": "\\tau",
+       "de": "M",
+       "pt": "\\tau",
+       "ru": "M"
+      },
+      "naziv": {
+       "sr": "moment sile na petlju",
+       "en": "torque on the loop",
+       "it": "momento sulla spira",
+       "fr": "moment sur la bobine",
+       "es": "momento sobre la espira",
+       "de": "Drehmoment auf die Spule",
+       "pt": "torque na espira",
+       "ru": "момент сил на рамку"
+      },
+      "vrsta": "moment"
+     },
+     "Nz": {
+      "oznaka": "N",
+      "naziv": {
+       "sr": "broj navojaka",
+       "en": "number of turns",
+       "it": "numero di spire",
+       "fr": "nombre de spires",
+       "es": "número de espiras",
+       "de": "Windungszahl",
+       "pt": "número de espiras",
+       "ru": "число витков"
+      },
+      "vrsta": "bez",
+      "pocetna": 100,
+      "poz": true
+     },
+     "I": {
+      "oznaka": "I",
+      "naziv": {
+       "sr": "jačina struje",
+       "en": "current",
+       "it": "corrente",
+       "fr": "intensité du courant",
+       "es": "corriente",
+       "de": "Stromstärke",
+       "pt": "corrente",
+       "ru": "сила тока"
+      },
+      "vrsta": "struja",
+      "pocetna": 2
+     },
+     "S": {
+      "oznaka": "S",
+      "naziv": {
+       "sr": "površina petlje",
+       "en": "area of the loop",
+       "it": "area della spira",
+       "fr": "aire de la spire",
+       "es": "área de la espira",
+       "de": "Fläche der Spule",
+       "pt": "área da espira",
+       "ru": "площадь рамки"
+      },
+      "vrsta": "povrsina",
+      "pocetna": 0.0025,
+      "jed": "cm²",
+      "poz": true
+     },
+     "B": {
+      "oznaka": "B",
+      "naziv": {
+       "sr": "magnetna indukcija",
+       "en": "magnetic flux density",
+       "it": "campo magnetico",
+       "fr": "champ magnétique",
+       "es": "campo magnético",
+       "de": "magnetische Flussdichte",
+       "pt": "campo magnético",
+       "ru": "магнитная индукция"
+      },
+      "vrsta": "magPolje",
+      "pocetna": 0.2,
+      "poz": true
+     },
+     "fn": {
+      "oznaka": "\\varphi",
+      "naziv": {
+       "sr": "ugao između normale petlje i polja",
+       "en": "angle between loop normal and field",
+       "it": "angolo tra normale e campo",
+       "fr": "angle entre normale et champ",
+       "es": "ángulo entre la normal y el campo",
+       "de": "Winkel zwischen Flächennormale und Feld",
+       "pt": "ângulo entre a normal e o campo",
+       "ru": "угол между нормалью и полем"
+      },
+      "vrsta": "ugao",
+      "pocetna": 1.5707963267948966,
+      "jed": "°"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "M = N I S B \\sin\\varphi",
+       "en": "\\tau = N I S B \\sin\\varphi",
+       "it": "\\tau = N I S B \\sin\\varphi",
+       "fr": "\\mathcal{M} = N I S B \\sin\\varphi",
+       "es": "\\tau = N I S B \\sin\\varphi",
+       "de": "M = N I S B \\sin\\varphi",
+       "pt": "\\tau = N I S B \\sin\\varphi",
+       "ru": "M = N I S B \\sin\\varphi"
+      },
+      "trazi": "Mo",
+      "promenljive": [
+       "Mo",
+       "Nz",
+       "I",
+       "S",
+       "B",
+       "fn"
+      ],
+      "resenja": {
+       "Mo": "Nz*I*S*B*sin(fn)",
+       "I": "Mo/(Nz*S*B*sin(fn))",
+       "B": "Mo/(Nz*I*S*sin(fn))",
+       "S": "Mo/(Nz*I*B*sin(fn))",
+       "Nz": "Mo/(I*S*B*sin(fn))"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "indukcija",
+   "simbol": "Φ",
+   "naziv": {
+    "sr": "Elektromagnetna indukcija",
+    "en": "Electromagnetic induction",
+    "it": "Induzione elettromagnetica",
+    "fr": "Induction électromagnétique",
+    "es": "Inducción electromagnética",
+    "de": "Elektromagnetische Induktion",
+    "pt": "Indução eletromagnética",
+    "ru": "Электромагнитная индукция"
+   },
+   "opis": {
+    "sr": "Fluks, Faradejev zakon, generator",
+    "en": "Flux, Faraday’s law, generator",
+    "it": "Flusso, legge di Faraday, generatore",
+    "fr": "Flux, loi de Faraday, alternateur",
+    "es": "Flujo, ley de Faraday, generador",
+    "de": "Fluss, Induktionsgesetz, Generator",
+    "pt": "Fluxo, lei de Faraday, gerador",
+    "ru": "Поток, закон Фарадея, генератор"
+   },
+   "kljucne_reci": {
+    "sr": "elektromagnetna indukcija magnetni fluks faradejev zakon lencovo pravilo indukovani napon generator",
+    "en": "electromagnetic induction magnetic flux faraday law lenz induced emf generator",
+    "it": "induzione elettromagnetica flusso magnetico legge di faraday lenz generatore",
+    "fr": "induction electromagnetique flux magnetique loi de faraday lenz alternateur",
+    "es": "induccion electromagnetica flujo magnetico ley de faraday lenz generador",
+    "de": "elektromagnetische induktion magnetischer fluss induktionsgesetz lenz generator",
+    "pt": "inducao eletromagnetica fluxo magnetico lei de faraday lenz gerador",
+    "ru": "электромагнитная индукция магнитный поток закон фарадея ленца генератор"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Magnetni fluks",
+      "en": "Magnetic flux",
+      "it": "Flusso magnetico",
+      "fr": "Flux magnétique",
+      "es": "Flujo magnético",
+      "de": "Magnetischer Fluss",
+      "pt": "Fluxo magnético",
+      "ru": "Магнитный поток"
+     },
+     "latex": "\\Phi = N\\,\\vec B \\cdot \\vec S = N B S \\cos\\varphi",
+     "objasnjenje": {
+      "sr": "Za kalem sa N navojaka; 1 Wb = 1 T·m².",
+      "en": "For a coil with N turns; 1 Wb = 1 T·m².",
+      "it": "Per una bobina di N spire; 1 Wb = 1 T·m².",
+      "fr": "Pour une bobine de N spires ; 1 Wb = 1 T·m².",
+      "es": "Para una bobina de N espiras; 1 Wb = 1 T·m².",
+      "de": "Für eine Spule mit N Windungen; 1 Wb = 1 T·m².",
+      "pt": "Para uma bobina de N espiras; 1 Wb = 1 T·m².",
+      "ru": "Для катушки из N витков; 1 Вб = 1 Тл·м²."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Faradejev zakon",
+      "en": "Faraday’s law",
+      "it": "Legge di Faraday",
+      "fr": "Loi de Faraday",
+      "es": "Ley de Faraday",
+      "de": "Induktionsgesetz",
+      "pt": "Lei de Faraday",
+      "ru": "Закон Фарадея"
+     },
+     "latex": {
+      "sr": "U_i = -\\frac{\\Delta \\Phi}{\\Delta t}",
+      "en": "\\mathcal{E} = -\\frac{\\Delta \\Phi}{\\Delta t}",
+      "it": "\\mathcal{E} = -\\frac{\\Delta \\Phi}{\\Delta t}",
+      "fr": "e = -\\frac{\\Delta \\Phi}{\\Delta t}",
+      "es": "\\mathcal{E} = -\\frac{\\Delta \\Phi}{\\Delta t}",
+      "de": "U_{\\mathrm{ind}} = -\\frac{\\Delta \\Phi}{\\Delta t}",
+      "pt": "\\mathcal{E} = -\\frac{\\Delta \\Phi}{\\Delta t}",
+      "ru": "\\mathcal{E}_i = -\\frac{\\Delta \\Phi}{\\Delta t}"
+     },
+     "objasnjenje": {
+      "sr": "Napon se indukuje kada se fluks menja; znak minus (Lencovo pravilo) kaže da se indukovana struja suprotstavlja promeni.",
+      "en": "A voltage is induced when the flux changes; the minus sign (Lenz’s law) means the induced current opposes the change.",
+      "it": "Si induce una tensione quando il flusso varia; il segno meno (legge di Lenz) indica che la corrente indotta si oppone alla variazione.",
+      "fr": "Une tension est induite quand le flux varie ; le signe moins (loi de Lenz) indique que le courant induit s’oppose à la variation.",
+      "es": "Se induce una tensión cuando el flujo cambia; el signo menos (ley de Lenz) indica que la corriente inducida se opone al cambio.",
+      "de": "Bei Flussänderung wird Spannung induziert; das Minus (Lenzsche Regel) bedeutet, dass der Induktionsstrom der Änderung entgegenwirkt.",
+      "pt": "Uma tensão é induzida quando o fluxo varia; o sinal de menos (lei de Lenz) indica que a corrente se opõe à variação.",
+      "ru": "ЭДС возникает при изменении потока; минус (правило Ленца) означает, что индукционный ток противодействует изменению."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Provodnik koji se kreće u polju",
+      "en": "Wire moving in a field",
+      "it": "Filo in moto nel campo",
+      "fr": "Fil en mouvement dans un champ",
+      "es": "Conductor en movimiento en un campo",
+      "de": "Bewegter Leiter im Feld",
+      "pt": "Fio em movimento no campo",
+      "ru": "Проводник, движущийся в поле"
+     },
+     "latex": {
+      "sr": "U_i = l v B \\sin\\varphi",
+      "en": "\\mathcal{E} = l v B \\sin\\varphi",
+      "it": "\\mathcal{E} = l v B \\sin\\varphi",
+      "fr": "e = l v B \\sin\\varphi",
+      "es": "\\mathcal{E} = l v B \\sin\\varphi",
+      "de": "U_{\\mathrm{ind}} = l v B \\sin\\varphi",
+      "pt": "\\mathcal{E} = l v B \\sin\\varphi",
+      "ru": "\\mathcal{E}_i = l v B \\sin\\varphi"
+     },
+     "objasnjenje": {
+      "sr": "φ je ugao između brzine i polja.",
+      "en": "φ is the angle between the velocity and the field.",
+      "it": "φ è l’angolo tra velocità e campo.",
+      "fr": "φ est l’angle entre la vitesse et le champ.",
+      "es": "φ es el ángulo entre la velocidad y el campo.",
+      "de": "φ ist der Winkel zwischen Geschwindigkeit und Feld.",
+      "pt": "φ é o ângulo entre a velocidade e o campo.",
+      "ru": "φ — угол между скоростью и полем."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Generator naizmenične struje",
+      "en": "AC generator",
+      "it": "Generatore di corrente alternata",
+      "fr": "Alternateur",
+      "es": "Generador de corriente alterna",
+      "de": "Wechselstromgenerator",
+      "pt": "Gerador de corrente alternada",
+      "ru": "Генератор переменного тока"
+     },
+     "latex": {
+      "sr": "U_i = N \\omega S B \\sin\\omega t",
+      "en": "\\mathcal{E} = N \\omega S B \\sin\\omega t",
+      "it": "\\mathcal{E} = N \\omega S B \\sin\\omega t",
+      "fr": "e = N \\omega S B \\sin\\omega t",
+      "es": "\\mathcal{E} = N \\omega S B \\sin\\omega t",
+      "de": "U_{\\mathrm{ind}} = N \\omega S B \\sin\\omega t",
+      "pt": "\\mathcal{E} = N \\omega S B \\sin\\omega t",
+      "ru": "\\mathcal{E}_i = N \\omega S B \\sin\\omega t"
+     },
+     "objasnjenje": {
+      "sr": "Kalem koji se obrće u polju daje sinusni napon sa najvećom vrednošću NωSB.",
+      "en": "A coil rotating in a field gives a sinusoidal voltage with peak value NωSB.",
+      "it": "Una bobina che ruota nel campo produce una tensione sinusoidale di picco NωSB.",
+      "fr": "Une bobine tournant dans un champ donne une tension sinusoïdale de crête NωSB.",
+      "es": "Una bobina que gira en un campo da una tensión sinusoidal de pico NωSB.",
+      "de": "Eine im Feld rotierende Spule liefert eine Sinusspannung mit Scheitelwert NωSB.",
+      "pt": "Uma bobina girando num campo dá tensão senoidal de pico NωSB.",
+      "ru": "Вращающаяся в поле катушка даёт синусоидальную ЭДС с амплитудой NωSB."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Phi": {
+      "oznaka": "\\Phi",
+      "naziv": {
+       "sr": "magnetni fluks",
+       "en": "magnetic flux",
+       "it": "flusso magnetico",
+       "fr": "flux magnétique",
+       "es": "flujo magnético",
+       "de": "magnetischer Fluss",
+       "pt": "fluxo magnético",
+       "ru": "магнитный поток"
+      },
+      "vrsta": "magFluks"
+     },
+     "Nz": {
+      "oznaka": "N",
+      "naziv": {
+       "sr": "broj navojaka",
+       "en": "number of turns",
+       "it": "numero di spire",
+       "fr": "nombre de spires",
+       "es": "número de espiras",
+       "de": "Windungszahl",
+       "pt": "número de espiras",
+       "ru": "число витков"
+      },
+      "vrsta": "bez",
+      "pocetna": 100,
+      "poz": true
+     },
+     "B": {
+      "oznaka": "B",
+      "naziv": {
+       "sr": "magnetna indukcija",
+       "en": "magnetic flux density",
+       "it": "campo magnetico",
+       "fr": "champ magnétique",
+       "es": "campo magnético",
+       "de": "magnetische Flussdichte",
+       "pt": "campo magnético",
+       "ru": "магнитная индукция"
+      },
+      "vrsta": "magPolje",
+      "pocetna": 0.5,
+      "poz": true
+     },
+     "S": {
+      "oznaka": "S",
+      "naziv": {
+       "sr": "površina petlje",
+       "en": "area of the loop",
+       "it": "area della spira",
+       "fr": "aire de la spire",
+       "es": "área de la espira",
+       "de": "Fläche der Spule",
+       "pt": "área da espira",
+       "ru": "площадь рамки"
+      },
+      "vrsta": "povrsina",
+      "pocetna": 0.01,
+      "jed": "cm²",
+      "poz": true
+     },
+     "fn": {
+      "oznaka": "\\varphi",
+      "naziv": {
+       "sr": "ugao između normale petlje i polja",
+       "en": "angle between loop normal and field",
+       "it": "angolo tra normale e campo",
+       "fr": "angle entre normale et champ",
+       "es": "ángulo entre la normal y el campo",
+       "de": "Winkel zwischen Flächennormale und Feld",
+       "pt": "ângulo entre a normal e o campo",
+       "ru": "угол между нормалью и полем"
+      },
+      "vrsta": "ugao",
+      "pocetna": 0,
+      "jed": "°"
+     },
+     "Ui": {
+      "oznaka": {
+       "sr": "U_i",
+       "en": "\\mathcal{E}",
+       "it": "\\mathcal{E}",
+       "fr": "e",
+       "es": "\\mathcal{E}",
+       "de": "U_{\\mathrm{ind}}",
+       "pt": "\\mathcal{E}",
+       "ru": "\\mathcal{E}_i"
+      },
+      "naziv": {
+       "sr": "indukovani napon",
+       "en": "induced voltage",
+       "it": "forza elettromotrice indotta",
+       "fr": "force électromotrice induite",
+       "es": "fuerza electromotriz inducida",
+       "de": "Induktionsspannung",
+       "pt": "força eletromotriz induzida",
+       "ru": "ЭДС индукции"
+      },
+      "vrsta": "napon"
+     },
+     "dPhi": {
+      "oznaka": "\\Delta\\Phi",
+      "naziv": {
+       "sr": "promena fluksa",
+       "en": "change in flux",
+       "it": "variazione di flusso",
+       "fr": "variation de flux",
+       "es": "variación del flujo",
+       "de": "Flussänderung",
+       "pt": "variação do fluxo",
+       "ru": "изменение потока"
+      },
+      "vrsta": "magFluks",
+      "pocetna": 0.5
+     },
+     "dt": {
+      "oznaka": "\\Delta t",
+      "naziv": {
+       "sr": "vreme promene",
+       "en": "time of change",
+       "it": "tempo della variazione",
+       "fr": "durée de la variation",
+       "es": "tiempo del cambio",
+       "de": "Änderungsdauer",
+       "pt": "tempo da variação",
+       "ru": "время изменения"
+      },
+      "vrsta": "vreme",
+      "pocetna": 0.1,
+      "poz": true
+     },
+     "l": {
+      "oznaka": "l",
+      "naziv": {
+       "sr": "dužina provodnika u polju",
+       "en": "length of wire in the field",
+       "it": "lunghezza del filo nel campo",
+       "fr": "longueur du fil dans le champ",
+       "es": "longitud del conductor en el campo",
+       "de": "Leiterlänge im Feld",
+       "pt": "comprimento do fio no campo",
+       "ru": "длина проводника в поле"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.5,
+      "jed": "cm",
+      "poz": true
+     },
+     "v": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina čestice",
+       "en": "velocity of the particle",
+       "it": "velocità della particella",
+       "fr": "vitesse de la particule",
+       "es": "velocidad de la partícula",
+       "de": "Geschwindigkeit des Teilchens",
+       "pt": "velocidade da partícula",
+       "ru": "скорость частицы"
+      },
+      "vrsta": "brzina",
+      "pocetna": 10,
+      "poz": true
+     },
+     "fv": {
+      "oznaka": "\\varphi",
+      "naziv": {
+       "sr": "ugao između brzine i polja",
+       "en": "angle between velocity and field",
+       "it": "angolo tra velocità e campo",
+       "fr": "angle entre vitesse et champ",
+       "es": "ángulo entre velocidad y campo",
+       "de": "Winkel zwischen Geschwindigkeit und Feld",
+       "pt": "ângulo entre velocidade e campo",
+       "ru": "угол между скоростью и полем"
+      },
+      "vrsta": "ugao",
+      "pocetna": 1.5707963267948966,
+      "jed": "°"
+     },
+     "U0": {
+      "oznaka": {
+       "sr": "U_{i0}",
+       "en": "\\mathcal{E}_0",
+       "it": "\\mathcal{E}_0",
+       "fr": "e_0",
+       "es": "\\mathcal{E}_0",
+       "de": "U_{\\mathrm{ind},0}",
+       "pt": "\\mathcal{E}_0",
+       "ru": "\\mathcal{E}_{i0}"
+      },
+      "naziv": {
+       "sr": "najveći napon generatora",
+       "en": "peak voltage of the generator",
+       "it": "tensione massima del generatore",
+       "fr": "tension maximale de l’alternateur",
+       "es": "tensión máxima del generador",
+       "de": "Scheitelspannung des Generators",
+       "pt": "tensão máxima do gerador",
+       "ru": "максимальная ЭДС генератора"
+      },
+      "vrsta": "napon",
+      "poz": true
+     },
+     "omg": {
+      "oznaka": "\\omega",
+      "naziv": {
+       "sr": "ugaona brzina obrtanja",
+       "en": "angular velocity of rotation",
+       "it": "velocità angolare di rotazione",
+       "fr": "vitesse angulaire de rotation",
+       "es": "velocidad angular de giro",
+       "de": "Winkelgeschwindigkeit der Drehung",
+       "pt": "velocidade angular de rotação",
+       "ru": "угловая скорость вращения"
+      },
+      "vrsta": "ugaonaBrzina",
+      "pocetna": 314.1592653589793,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "\\Phi = N B S \\cos\\varphi",
+      "trazi": "Phi",
+      "promenljive": [
+       "Phi",
+       "Nz",
+       "B",
+       "S",
+       "fn"
+      ],
+      "resenja": {
+       "Phi": "Nz*B*S*cos(fn)",
+       "B": "Phi/(Nz*S*cos(fn))",
+       "S": "Phi/(Nz*B*cos(fn))",
+       "Nz": "Phi/(B*S*cos(fn))"
+      }
+     },
+     {
+      "latex": {
+       "sr": "|U_i| = \\dfrac{\\Delta \\Phi}{\\Delta t}",
+       "en": "|\\mathcal{E}| = \\dfrac{\\Delta \\Phi}{\\Delta t}",
+       "it": "|\\mathcal{E}| = \\dfrac{\\Delta \\Phi}{\\Delta t}",
+       "fr": "|e| = \\dfrac{\\Delta \\Phi}{\\Delta t}",
+       "es": "|\\mathcal{E}| = \\dfrac{\\Delta \\Phi}{\\Delta t}",
+       "de": "|U_{\\mathrm{ind}}| = \\dfrac{\\Delta \\Phi}{\\Delta t}",
+       "pt": "|\\mathcal{E}| = \\dfrac{\\Delta \\Phi}{\\Delta t}",
+       "ru": "|\\mathcal{E}_i| = \\dfrac{\\Delta \\Phi}{\\Delta t}"
+      },
+      "trazi": "Ui",
+      "resenja": {
+       "Ui": "dPhi/dt",
+       "dPhi": "Ui*dt",
+       "dt": "dPhi/Ui"
+      }
+     },
+     {
+      "latex": {
+       "sr": "U_i = l v B \\sin\\varphi",
+       "en": "\\mathcal{E} = l v B \\sin\\varphi",
+       "it": "\\mathcal{E} = l v B \\sin\\varphi",
+       "fr": "e = l v B \\sin\\varphi",
+       "es": "\\mathcal{E} = l v B \\sin\\varphi",
+       "de": "U_{\\mathrm{ind}} = l v B \\sin\\varphi",
+       "pt": "\\mathcal{E} = l v B \\sin\\varphi",
+       "ru": "\\mathcal{E}_i = l v B \\sin\\varphi"
+      },
+      "trazi": "Ui",
+      "promenljive": [
+       "Ui",
+       "l",
+       "v",
+       "B",
+       "fv"
+      ],
+      "resenja": {
+       "Ui": "l*v*B*sin(fv)",
+       "l": "Ui/(v*B*sin(fv))",
+       "v": "Ui/(l*B*sin(fv))",
+       "B": "Ui/(l*v*sin(fv))"
+      }
+     },
+     {
+      "latex": {
+       "sr": "U_{i0} = N \\omega S B",
+       "en": "\\mathcal{E}_0 = N \\omega S B",
+       "it": "\\mathcal{E}_0 = N \\omega S B",
+       "fr": "e_0 = N \\omega S B",
+       "es": "\\mathcal{E}_0 = N \\omega S B",
+       "de": "U_{\\mathrm{ind},0} = N \\omega S B",
+       "pt": "\\mathcal{E}_0 = N \\omega S B",
+       "ru": "\\mathcal{E}_{i0} = N \\omega S B"
+      },
+      "trazi": "U0",
+      "promenljive": [
+       "U0",
+       "Nz",
+       "omg",
+       "S",
+       "B"
+      ],
+      "resenja": {
+       "U0": "Nz*omg*S*B",
+       "Nz": "U0/(omg*S*B)",
+       "omg": "U0/(Nz*S*B)",
+       "S": "U0/(Nz*omg*B)",
+       "B": "U0/(Nz*omg*S)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "induktivnost",
+   "simbol": "L",
+   "naziv": {
+    "sr": "Induktivnost",
+    "en": "Inductance",
+    "it": "Induttanza",
+    "fr": "Inductance",
+    "es": "Inductancia",
+    "de": "Induktivität",
+    "pt": "Indutância",
+    "ru": "Индуктивность"
+   },
+   "opis": {
+    "sr": "Samoindukcija, energija",
+    "en": "Self-induction, energy",
+    "it": "Autoinduzione, energia",
+    "fr": "Auto-induction, énergie",
+    "es": "Autoinducción, energía",
+    "de": "Selbstinduktion, Energie",
+    "pt": "Autoindução, energia",
+    "ru": "Самоиндукция, энергия"
+   },
+   "kljucne_reci": {
+    "sr": "induktivnost samoindukcija kalem solenoid henri energija magnetnog polja",
+    "en": "inductance self induction coil solenoid henry magnetic energy",
+    "it": "induttanza autoinduzione bobina henry energia magnetica",
+    "fr": "inductance auto induction bobine henry energie magnetique",
+    "es": "inductancia autoinduccion bobina henrio energia magnetica",
+    "de": "induktivitat selbstinduktion spule henry magnetische energie",
+    "pt": "indutancia autoinducao bobina henry energia magnetica",
+    "ru": "индуктивность самоиндукция катушка генри энергия магнитного поля"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Induktivnost i samoindukcija",
+      "en": "Inductance and self-induction",
+      "it": "Induttanza e autoinduzione",
+      "fr": "Inductance et auto-induction",
+      "es": "Inductancia y autoinducción",
+      "de": "Induktivität und Selbstinduktion",
+      "pt": "Indutância e autoindução",
+      "ru": "Индуктивность и самоиндукция"
+     },
+     "latex": {
+      "sr": "\\Phi = L I, \\quad U_i = -L\\,\\frac{\\Delta I}{\\Delta t}",
+      "en": "\\Phi = L I, \\quad \\mathcal{E} = -L\\,\\frac{\\Delta I}{\\Delta t}",
+      "it": "\\Phi = L I, \\quad \\mathcal{E} = -L\\,\\frac{\\Delta I}{\\Delta t}",
+      "fr": "\\Phi = L I, \\quad e = -L\\,\\frac{\\Delta I}{\\Delta t}",
+      "es": "\\Phi = L I, \\quad \\mathcal{E} = -L\\,\\frac{\\Delta I}{\\Delta t}",
+      "de": "\\Phi = L I, \\quad U_{\\mathrm{ind}} = -L\\,\\frac{\\Delta I}{\\Delta t}",
+      "pt": "\\Phi = L I, \\quad \\mathcal{E} = -L\\,\\frac{\\Delta I}{\\Delta t}",
+      "ru": "\\Phi = L I, \\quad \\mathcal{E}_i = -L\\,\\frac{\\Delta I}{\\Delta t}"
+     },
+     "objasnjenje": {
+      "sr": "Kalem se protivi promeni struje; 1 H = 1 V·s/A.",
+      "en": "A coil opposes changes in current; 1 H = 1 V·s/A.",
+      "it": "Una bobina si oppone alle variazioni di corrente; 1 H = 1 V·s/A.",
+      "fr": "Une bobine s’oppose aux variations du courant ; 1 H = 1 V·s/A.",
+      "es": "Una bobina se opone a los cambios de corriente; 1 H = 1 V·s/A.",
+      "de": "Eine Spule wirkt Stromänderungen entgegen; 1 H = 1 V·s/A.",
+      "pt": "Uma bobina se opõe a variações de corrente; 1 H = 1 V·s/A.",
+      "ru": "Катушка препятствует изменению тока; 1 Гн = 1 В·с/А."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Induktivnost solenoida",
+      "en": "Inductance of a solenoid",
+      "it": "Induttanza di un solenoide",
+      "fr": "Inductance d’un solénoïde",
+      "es": "Inductancia de un solenoide",
+      "de": "Induktivität einer Spule",
+      "pt": "Indutância de um solenoide",
+      "ru": "Индуктивность соленоида"
+     },
+     "latex": "L = \\frac{\\mu_0 N^2 S}{l}",
+     "objasnjenje": {
+      "sr": "S je površina preseka, l dužina, N broj navojaka. Gvozdeno jezgro je višestruko povećava.",
+      "en": "S is the cross-section, l the length, N the number of turns. An iron core increases it many times.",
+      "it": "S è la sezione, l la lunghezza, N le spire. Un nucleo di ferro la aumenta molto.",
+      "fr": "S est la section, l la longueur, N le nombre de spires. Un noyau de fer l’augmente fortement.",
+      "es": "S es la sección, l la longitud, N las espiras. Un núcleo de hierro la aumenta mucho.",
+      "de": "S ist der Querschnitt, l die Länge, N die Windungszahl. Ein Eisenkern vergrößert sie stark.",
+      "pt": "S é a seção, l o comprimento, N as espiras. Um núcleo de ferro a aumenta muito.",
+      "ru": "S — площадь сечения, l — длина, N — число витков. Железный сердечник сильно её увеличивает."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Energija magnetnog polja",
+      "en": "Magnetic field energy",
+      "it": "Energia del campo magnetico",
+      "fr": "Énergie magnétique",
+      "es": "Energía del campo magnético",
+      "de": "Energie des Magnetfeldes",
+      "pt": "Energia do campo magnético",
+      "ru": "Энергия магнитного поля"
+     },
+     "latex": "W = \\frac{L I^2}{2}, \\quad w_m = \\frac{B^2}{2\\mu_0}",
+     "objasnjenje": {
+      "sr": "wₘ je gustina energije (energija po jedinici zapremine).",
+      "en": "wₘ is the energy density (energy per unit volume).",
+      "it": "wₘ è la densità di energia.",
+      "fr": "wₘ est la densité d’énergie.",
+      "es": "wₘ es la densidad de energía.",
+      "de": "wₘ ist die Energiedichte.",
+      "pt": "wₘ é a densidade de energia.",
+      "ru": "wₘ — объёмная плотность энергии."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "L": {
+      "oznaka": "L",
+      "naziv": {
+       "sr": "induktivnost",
+       "en": "inductance",
+       "it": "induttanza",
+       "fr": "inductance",
+       "es": "inductancia",
+       "de": "Induktivität",
+       "pt": "indutância",
+       "ru": "индуктивность"
+      },
+      "vrsta": "induktivnost",
+      "jed": "mH",
+      "poz": true
+     },
+     "mu0": {
+      "oznaka": "\\mu_0",
+      "naziv": {
+       "sr": "magnetna konstanta",
+       "en": "magnetic constant",
+       "it": "permeabilità magnetica del vuoto",
+       "fr": "perméabilité du vide",
+       "es": "permeabilidad del vacío",
+       "de": "magnetische Feldkonstante",
+       "pt": "permeabilidade do vácuo",
+       "ru": "магнитная постоянная"
+      },
+      "vrsta": "permeabilnost",
+      "pocetna": 1.25663706127e-06,
+      "poz": true
+     },
+     "Nz": {
+      "oznaka": "N",
+      "naziv": {
+       "sr": "broj navojaka",
+       "en": "number of turns",
+       "it": "numero di spire",
+       "fr": "nombre de spires",
+       "es": "número de espiras",
+       "de": "Windungszahl",
+       "pt": "número de espiras",
+       "ru": "число витков"
+      },
+      "vrsta": "bez",
+      "pocetna": 500,
+      "poz": true
+     },
+     "S": {
+      "oznaka": "S",
+      "naziv": {
+       "sr": "površina petlje",
+       "en": "area of the loop",
+       "it": "area della spira",
+       "fr": "aire de la spire",
+       "es": "área de la espira",
+       "de": "Fläche der Spule",
+       "pt": "área da espira",
+       "ru": "площадь рамки"
+      },
+      "vrsta": "povrsina",
+      "pocetna": 0.0004,
+      "jed": "cm²",
+      "poz": true
+     },
+     "ls": {
+      "oznaka": "l",
+      "naziv": {
+       "sr": "dužina solenoida",
+       "en": "length of the solenoid",
+       "it": "lunghezza del solenoide",
+       "fr": "longueur du solénoïde",
+       "es": "longitud del solenoide",
+       "de": "Spulenlänge",
+       "pt": "comprimento do solenoide",
+       "ru": "длина соленоида"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.1,
+      "jed": "cm",
+      "poz": true
+     },
+     "Ui": {
+      "oznaka": {
+       "sr": "U_i",
+       "en": "\\mathcal{E}",
+       "it": "\\mathcal{E}",
+       "fr": "e",
+       "es": "\\mathcal{E}",
+       "de": "U_{\\mathrm{ind}}",
+       "pt": "\\mathcal{E}",
+       "ru": "\\mathcal{E}_i"
+      },
+      "naziv": {
+       "sr": "indukovani napon",
+       "en": "induced voltage",
+       "it": "forza elettromotrice indotta",
+       "fr": "force électromotrice induite",
+       "es": "fuerza electromotriz inducida",
+       "de": "Induktionsspannung",
+       "pt": "força eletromotriz induzida",
+       "ru": "ЭДС индукции"
+      },
+      "vrsta": "napon"
+     },
+     "dIdt": {
+      "oznaka": "\\Delta I / \\Delta t",
+      "naziv": {
+       "sr": "brzina promene struje",
+       "en": "rate of change of current",
+       "it": "velocità di variazione della corrente",
+       "fr": "vitesse de variation du courant",
+       "es": "rapidez de cambio de la corriente",
+       "de": "Stromänderungsrate",
+       "pt": "taxa de variação da corrente",
+       "ru": "скорость изменения тока"
+      },
+      "vrsta": "brzinaPromene",
+      "pocetna": 100
+     },
+     "W": {
+      "oznaka": "W",
+      "naziv": {
+       "sr": "energija magnetnog polja",
+       "en": "magnetic field energy",
+       "it": "energia del campo magnetico",
+       "fr": "énergie magnétique",
+       "es": "energía del campo magnético",
+       "de": "Energie des Magnetfeldes",
+       "pt": "energia do campo magnético",
+       "ru": "энергия магнитного поля"
+      },
+      "vrsta": "energija",
+      "nenegativna": true
+     },
+     "I": {
+      "oznaka": "I",
+      "naziv": {
+       "sr": "jačina struje",
+       "en": "current",
+       "it": "corrente",
+       "fr": "intensité du courant",
+       "es": "corriente",
+       "de": "Stromstärke",
+       "pt": "corrente",
+       "ru": "сила тока"
+      },
+      "vrsta": "struja",
+      "pocetna": 2
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "L = \\dfrac{\\mu_0 N^2 S}{l}",
+      "trazi": "L",
+      "promenljive": [
+       "L",
+       "mu0",
+       "Nz",
+       "S",
+       "ls"
+      ],
+      "resenja": {
+       "L": "mu0*Nz*Nz*S/ls",
+       "Nz": "sqrt(L*ls/(mu0*S))",
+       "S": "L*ls/(mu0*Nz*Nz)",
+       "ls": "mu0*Nz*Nz*S/L"
+      }
+     },
+     {
+      "latex": {
+       "sr": "|U_i| = L \\dfrac{\\Delta I}{\\Delta t}",
+       "en": "|\\mathcal{E}| = L \\dfrac{\\Delta I}{\\Delta t}",
+       "it": "|\\mathcal{E}| = L \\dfrac{\\Delta I}{\\Delta t}",
+       "fr": "|e| = L \\dfrac{\\Delta I}{\\Delta t}",
+       "es": "|\\mathcal{E}| = L \\dfrac{\\Delta I}{\\Delta t}",
+       "de": "|U_{\\mathrm{ind}}| = L \\dfrac{\\Delta I}{\\Delta t}",
+       "pt": "|\\mathcal{E}| = L \\dfrac{\\Delta I}{\\Delta t}",
+       "ru": "|\\mathcal{E}_i| = L \\dfrac{\\Delta I}{\\Delta t}"
+      },
+      "trazi": "Ui",
+      "resenja": {
+       "Ui": "L*dIdt",
+       "L": "Ui/dIdt",
+       "dIdt": "Ui/L"
+      }
+     },
+     {
+      "latex": "W = \\dfrac{L I^2}{2}",
+      "trazi": "W",
+      "resenja": {
+       "W": "L*I*I/2",
+       "L": "2*W/(I*I)",
+       "I": "sqrt(2*W/L)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "transformator",
+   "simbol": "N₁/N₂",
+   "naziv": {
+    "sr": "Transformator",
+    "en": "Transformer",
+    "it": "Trasformatore",
+    "fr": "Transformateur",
+    "es": "Transformador",
+    "de": "Transformator",
+    "pt": "Transformador",
+    "ru": "Трансформатор"
+   },
+   "opis": {
+    "sr": "Odnos napona i navojaka",
+    "en": "Voltage and turns ratio",
+    "it": "Rapporto di trasformazione",
+    "fr": "Rapport de transformation",
+    "es": "Relación de transformación",
+    "de": "Übersetzungsverhältnis",
+    "pt": "Relação de transformação",
+    "ru": "Коэффициент трансформации"
+   },
+   "kljucne_reci": {
+    "sr": "transformator primar sekundar broj navojaka napon struja",
+    "en": "transformer primary secondary turns ratio voltage current",
+    "it": "trasformatore primario secondario spire tensione corrente",
+    "fr": "transformateur primaire secondaire spires tension courant",
+    "es": "transformador primario secundario espiras tension corriente",
+    "de": "transformator primarspule sekundarspule windungen spannung strom",
+    "pt": "transformador primario secundario espiras tensao corrente",
+    "ru": "трансформатор первичная вторичная обмотка витки напряжение ток"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Idealni transformator",
+      "en": "Ideal transformer",
+      "it": "Trasformatore ideale",
+      "fr": "Transformateur idéal",
+      "es": "Transformador ideal",
+      "de": "Idealer Transformator",
+      "pt": "Transformador ideal",
+      "ru": "Идеальный трансформатор"
+     },
+     "latex": "\\frac{U_1}{U_2} = \\frac{N_1}{N_2} = \\frac{I_2}{I_1}",
+     "objasnjenje": {
+      "sr": "Bez gubitaka snaga se ne menja (U₁I₁ = U₂I₂): kad se napon poveća, struja se smanji. Radi samo sa naizmeničnom strujom.",
+      "en": "Without losses power is unchanged (U₁I₁ = U₂I₂): when voltage goes up, current goes down. Works only with alternating current.",
+      "it": "Senza perdite la potenza non cambia (U₁I₁ = U₂I₂): se la tensione sale, la corrente scende. Funziona solo in alternata.",
+      "fr": "Sans pertes la puissance est conservée (U₁I₁ = U₂I₂) : si la tension augmente, le courant diminue. Ne fonctionne qu’en alternatif.",
+      "es": "Sin pérdidas la potencia no cambia (U₁I₁ = U₂I₂): si la tensión sube, la corriente baja. Solo funciona con alterna.",
+      "de": "Ohne Verluste bleibt die Leistung gleich (U₁I₁ = U₂I₂): Steigt die Spannung, sinkt der Strom. Nur für Wechselstrom.",
+      "pt": "Sem perdas a potência não muda (U₁I₁ = U₂I₂): se a tensão sobe, a corrente desce. Só funciona com corrente alternada.",
+      "ru": "Без потерь мощность сохраняется (U₁I₁ = U₂I₂): напряжение растёт — ток падает. Работает только на переменном токе."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "U2": {
+      "oznaka": "U_2",
+      "naziv": {
+       "sr": "sekundarni napon",
+       "en": "secondary voltage",
+       "it": "tensione secondaria",
+       "fr": "tension secondaire",
+       "es": "tensión secundaria",
+       "de": "Sekundärspannung",
+       "pt": "tensão secundária",
+       "ru": "вторичное напряжение"
+      },
+      "vrsta": "napon",
+      "poz": true
+     },
+     "U1": {
+      "oznaka": "U_1",
+      "naziv": {
+       "sr": "primarni napon",
+       "en": "primary voltage",
+       "it": "tensione primaria",
+       "fr": "tension primaire",
+       "es": "tensión primaria",
+       "de": "Primärspannung",
+       "pt": "tensão primária",
+       "ru": "первичное напряжение"
+      },
+      "vrsta": "napon",
+      "pocetna": 230,
+      "poz": true
+     },
+     "N1": {
+      "oznaka": "N_1",
+      "naziv": {
+       "sr": "broj navojaka primara",
+       "en": "primary turns",
+       "it": "spire del primario",
+       "fr": "spires du primaire",
+       "es": "espiras del primario",
+       "de": "Primärwindungen",
+       "pt": "espiras do primário",
+       "ru": "витки первичной обмотки"
+      },
+      "vrsta": "bez",
+      "pocetna": 1000,
+      "poz": true
+     },
+     "N2": {
+      "oznaka": "N_2",
+      "naziv": {
+       "sr": "broj navojaka sekundara",
+       "en": "secondary turns",
+       "it": "spire del secondario",
+       "fr": "spires du secondaire",
+       "es": "espiras del secundario",
+       "de": "Sekundärwindungen",
+       "pt": "espiras do secundário",
+       "ru": "витки вторичной обмотки"
+      },
+      "vrsta": "bez",
+      "pocetna": 52,
+      "poz": true
+     },
+     "It1": {
+      "oznaka": "I_1",
+      "naziv": {
+       "sr": "primarna struja",
+       "en": "primary current",
+       "it": "corrente primaria",
+       "fr": "courant primaire",
+       "es": "corriente primaria",
+       "de": "Primärstrom",
+       "pt": "corrente primária",
+       "ru": "первичный ток"
+      },
+      "vrsta": "struja",
+      "pocetna": 0.5
+     },
+     "It2": {
+      "oznaka": "I_2",
+      "naziv": {
+       "sr": "sekundarna struja",
+       "en": "secondary current",
+       "it": "corrente secondaria",
+       "fr": "courant secondaire",
+       "es": "corriente secundaria",
+       "de": "Sekundärstrom",
+       "pt": "corrente secundária",
+       "ru": "вторичный ток"
+      },
+      "vrsta": "struja"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "\\dfrac{U_1}{U_2} = \\dfrac{N_1}{N_2}",
+      "trazi": "U2",
+      "resenja": {
+       "U2": "U1*N2/N1",
+       "U1": "U2*N1/N2",
+       "N1": "N2*U1/U2",
+       "N2": "N1*U2/U1"
+      }
+     },
+     {
+      "latex": "\\dfrac{I_2}{I_1} = \\dfrac{N_1}{N_2}",
+      "trazi": "It2",
+      "resenja": {
+       "It2": "It1*N1/N2",
+       "It1": "It2*N2/N1",
+       "N1": "N2*It2/It1",
+       "N2": "N1*It1/It2"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

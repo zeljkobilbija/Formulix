@@ -1,0 +1,1930 @@
+{
+ "oblast": "moderna_fizika",
+ "teme": [
+  {
+   "id": "foton",
+   "simbol": "hf",
+   "naziv": {
+    "sr": "Foton",
+    "en": "Photon",
+    "it": "Fotone",
+    "fr": "Photon",
+    "es": "Fotón",
+    "de": "Photon",
+    "pt": "Fóton",
+    "ru": "Фотон"
+   },
+   "opis": {
+    "sr": "Energija i impuls fotona",
+    "en": "Photon energy and momentum",
+    "it": "Energia e quantità di moto",
+    "fr": "Énergie et quantité de mouvement",
+    "es": "Energía y momento",
+    "de": "Energie und Impuls",
+    "pt": "Energia e momento",
+    "ru": "Энергия и импульс фотона"
+   },
+   "kljucne_reci": {
+    "sr": "foton kvant svetlosti energija fotona plankova konstanta impuls fotona",
+    "en": "photon quantum of light photon energy planck constant photon momentum",
+    "it": "fotone quanto di luce energia costante di planck",
+    "fr": "photon quantum energie constante de planck",
+    "es": "foton cuanto de luz energia constante de planck",
+    "de": "photon lichtquant energie plancksches wirkungsquantum",
+    "pt": "foton quantum de luz energia constante de planck",
+    "ru": "фотон квант света энергия фотона постоянная планка импульс"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Energija fotona",
+      "en": "Photon energy",
+      "it": "Energia del fotone",
+      "fr": "Énergie du photon",
+      "es": "Energía del fotón",
+      "de": "Photonenenergie",
+      "pt": "Energia do fóton",
+      "ru": "Энергия фотона"
+     },
+     "latex": {
+      "sr": "E = h f = \\frac{h c}{\\lambda}",
+      "en": "E = h f = \\frac{h c}{\\lambda}",
+      "it": "E = h f = \\frac{h c}{\\lambda}",
+      "fr": "E = h f = \\frac{h c}{\\lambda}",
+      "es": "E = h f = \\frac{h c}{\\lambda}",
+      "de": "E = h f = \\frac{h c}{\\lambda}",
+      "pt": "E = h f = \\frac{h c}{\\lambda}",
+      "ru": "E = h \\nu = \\frac{h c}{\\lambda}"
+     },
+     "objasnjenje": {
+      "sr": "Zelena svetlost (550 nm) ima fotone od oko 2,25 eV; h = 6,626 · 10⁻³⁴ J·s.",
+      "en": "Green light (550 nm) has photons of about 2.25 eV; h = 6.626 · 10⁻³⁴ J·s.",
+      "it": "La luce verde (550 nm) ha fotoni di circa 2,25 eV; h = 6,626 · 10⁻³⁴ J·s.",
+      "fr": "La lumière verte (550 nm) a des photons d’environ 2,25 eV ; h = 6,626 · 10⁻³⁴ J·s.",
+      "es": "La luz verde (550 nm) tiene fotones de unos 2,25 eV; h = 6,626 · 10⁻³⁴ J·s.",
+      "de": "Grünes Licht (550 nm) hat Photonen von etwa 2,25 eV; h = 6,626 · 10⁻³⁴ J·s.",
+      "pt": "A luz verde (550 nm) tem fótons de cerca de 2,25 eV; h = 6,626 · 10⁻³⁴ J·s.",
+      "ru": "Зелёный свет (550 нм) — фотоны около 2,25 эВ; h = 6,626 · 10⁻³⁴ Дж·с."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Impuls fotona",
+      "en": "Photon momentum",
+      "it": "Quantità di moto del fotone",
+      "fr": "Quantité de mouvement du photon",
+      "es": "Momento del fotón",
+      "de": "Impuls des Photons",
+      "pt": "Momento do fóton",
+      "ru": "Импульс фотона"
+     },
+     "latex": {
+      "sr": "p = \\frac{E}{c} = \\frac{h f}{c} = \\frac{h}{\\lambda}",
+      "en": "p = \\frac{E}{c} = \\frac{h f}{c} = \\frac{h}{\\lambda}",
+      "it": "p = \\frac{E}{c} = \\frac{h f}{c} = \\frac{h}{\\lambda}",
+      "fr": "p = \\frac{E}{c} = \\frac{h f}{c} = \\frac{h}{\\lambda}",
+      "es": "p = \\frac{E}{c} = \\frac{h f}{c} = \\frac{h}{\\lambda}",
+      "de": "p = \\frac{E}{c} = \\frac{h f}{c} = \\frac{h}{\\lambda}",
+      "pt": "p = \\frac{E}{c} = \\frac{h f}{c} = \\frac{h}{\\lambda}",
+      "ru": "p = \\frac{E}{c} = \\frac{h \\nu}{c} = \\frac{h}{\\lambda}"
+     },
+     "objasnjenje": {
+      "sr": "Foton nema masu mirovanja, ali ima impuls.",
+      "en": "A photon has no rest mass but does carry momentum.",
+      "it": "Il fotone non ha massa a riposo ma ha quantità di moto.",
+      "fr": "Le photon n’a pas de masse au repos mais possède une quantité de mouvement.",
+      "es": "El fotón no tiene masa en reposo pero sí momento.",
+      "de": "Ein Photon hat keine Ruhemasse, aber einen Impuls.",
+      "pt": "O fóton não tem massa de repouso, mas tem momento.",
+      "ru": "У фотона нет массы покоя, но есть импульс."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Ef": {
+      "oznaka": "E",
+      "naziv": {
+       "sr": "energija fotona",
+       "en": "photon energy",
+       "it": "energia del fotone",
+       "fr": "énergie du photon",
+       "es": "energía del fotón",
+       "de": "Photonenenergie",
+       "pt": "energia do fóton",
+       "ru": "энергия фотона"
+      },
+      "vrsta": "energija",
+      "jed": "eV",
+      "poz": true
+     },
+     "h": {
+      "oznaka": "h",
+      "naziv": {
+       "sr": "Plankova konstanta",
+       "en": "Planck constant",
+       "it": "costante di Planck",
+       "fr": "constante de Planck",
+       "es": "constante de Planck",
+       "de": "Plancksches Wirkungsquantum",
+       "pt": "constante de Planck",
+       "ru": "постоянная Планка"
+      },
+      "vrsta": "plank",
+      "pocetna": 6.62607015e-34,
+      "poz": true
+     },
+     "f": {
+      "oznaka": {
+       "sr": "f",
+       "en": "f",
+       "it": "f",
+       "fr": "f",
+       "es": "f",
+       "de": "f",
+       "pt": "f",
+       "ru": "\\nu"
+      },
+      "naziv": {
+       "sr": "frekvencija",
+       "en": "frequency",
+       "it": "frequenza",
+       "fr": "fréquence",
+       "es": "frecuencia",
+       "de": "Frequenz",
+       "pt": "frequência",
+       "ru": "частота"
+      },
+      "vrsta": "frekvencija",
+      "pocetna": 545000000000000.0,
+      "jed": "THz",
+      "poz": true
+     },
+     "c": {
+      "oznaka": "c",
+      "naziv": {
+       "sr": "brzina svetlosti",
+       "en": "speed of light",
+       "it": "velocità della luce",
+       "fr": "vitesse de la lumière",
+       "es": "velocidad de la luz",
+       "de": "Lichtgeschwindigkeit",
+       "pt": "velocidade da luz",
+       "ru": "скорость света"
+      },
+      "vrsta": "brzina",
+      "pocetna": 299792458,
+      "poz": true
+     },
+     "lam": {
+      "oznaka": "\\lambda",
+      "naziv": {
+       "sr": "talasna dužina",
+       "en": "wavelength",
+       "it": "lunghezza d’onda",
+       "fr": "longueur d’onde",
+       "es": "longitud de onda",
+       "de": "Wellenlänge",
+       "pt": "comprimento de onda",
+       "ru": "длина волны"
+      },
+      "vrsta": "talasnaDuzina",
+      "pocetna": 5.5e-07,
+      "jed": "nm",
+      "poz": true
+     },
+     "p": {
+      "oznaka": "p",
+      "naziv": {
+       "sr": "impuls",
+       "en": "momentum",
+       "it": "quantità di moto",
+       "fr": "quantité de mouvement",
+       "es": "cantidad de movimiento",
+       "de": "Impuls",
+       "pt": "quantidade de movimento",
+       "ru": "импульс"
+      },
+      "vrsta": "impuls",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "E = h f",
+       "en": "E = h f",
+       "it": "E = h f",
+       "fr": "E = h f",
+       "es": "E = h f",
+       "de": "E = h f",
+       "pt": "E = h f",
+       "ru": "E = h \\nu"
+      },
+      "trazi": "Ef",
+      "resenja": {
+       "Ef": "h*f",
+       "f": "Ef/h"
+      },
+      "promenljive": [
+       "Ef",
+       "f",
+       "h"
+      ]
+     },
+     {
+      "latex": "E = \\dfrac{h c}{\\lambda}",
+      "trazi": "Ef",
+      "resenja": {
+       "Ef": "h*c/lam",
+       "lam": "h*c/Ef"
+      },
+      "promenljive": [
+       "Ef",
+       "lam",
+       "h",
+       "c"
+      ]
+     },
+     {
+      "latex": "p = \\dfrac{h}{\\lambda}",
+      "trazi": "p",
+      "resenja": {
+       "p": "h/lam",
+       "lam": "h/p"
+      },
+      "promenljive": [
+       "p",
+       "lam",
+       "h"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "fotoefekat",
+   "simbol": "e⁻",
+   "naziv": {
+    "sr": "Fotoelektrični efekat",
+    "en": "Photoelectric effect",
+    "it": "Effetto fotoelettrico",
+    "fr": "Effet photoélectrique",
+    "es": "Efecto fotoeléctrico",
+    "de": "Photoelektrischer Effekt",
+    "pt": "Efeito fotoelétrico",
+    "ru": "Фотоэффект"
+   },
+   "opis": {
+    "sr": "Ajnštajnova jednačina",
+    "en": "Einstein’s equation",
+    "it": "Equazione di Einstein",
+    "fr": "Équation d’Einstein",
+    "es": "Ecuación de Einstein",
+    "de": "Einsteinsche Gleichung",
+    "pt": "Equação de Einstein",
+    "ru": "Уравнение Эйнштейна"
+   },
+   "kljucne_reci": {
+    "sr": "fotoelektricni efekat fotoefekat izlazni rad granicna talasna duzina zaustavni napon ajnstajn",
+    "en": "photoelectric effect work function threshold wavelength stopping voltage einstein",
+    "it": "effetto fotoelettrico lavoro di estrazione soglia potenziale d arresto einstein",
+    "fr": "effet photoelectrique travail d extraction seuil tension d arret einstein",
+    "es": "efecto fotoelectrico funcion trabajo umbral potencial de frenado einstein",
+    "de": "photoeffekt austrittsarbeit grenzwellenlange gegenspannung einstein",
+    "pt": "efeito fotoeletrico funcao trabalho limiar potencial de corte einstein",
+    "ru": "фотоэффект работа выхода красная граница задерживающее напряжение эйнштейн"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Ajnštajnova jednačina",
+      "en": "Einstein’s equation",
+      "it": "Equazione di Einstein",
+      "fr": "Équation d’Einstein",
+      "es": "Ecuación de Einstein",
+      "de": "Einsteinsche Gleichung",
+      "pt": "Equação de Einstein",
+      "ru": "Уравнение Эйнштейна"
+     },
+     "latex": {
+      "sr": "h f = A_i + E_k",
+      "en": "h f = \\phi + E_k",
+      "it": "h f = W_0 + E_c",
+      "fr": "h f = W_s + E_c",
+      "es": "h f = \\phi + E_c",
+      "de": "h f = W_A + E_{\\mathrm{kin}}",
+      "pt": "h f = \\phi + E_c",
+      "ru": "h \\nu = A_{\\text{вых}} + E_{\\text{к}}"
+     },
+     "objasnjenje": {
+      "sr": "Energija fotona troši se na izlazni rad iz metala, a ostatak je kinetička energija elektrona.",
+      "en": "The photon energy goes into the work function of the metal; the rest is the electron’s kinetic energy.",
+      "it": "L’energia del fotone serve per il lavoro di estrazione; il resto è energia cinetica dell’elettrone.",
+      "fr": "L’énergie du photon sert au travail d’extraction ; le reste est l’énergie cinétique de l’électron.",
+      "es": "La energía del fotón se usa en la función trabajo; el resto es energía cinética del electrón.",
+      "de": "Die Photonenenergie deckt die Austrittsarbeit; der Rest ist kinetische Energie des Elektrons.",
+      "pt": "A energia do fóton vai para a função trabalho; o resto é energia cinética do elétron.",
+      "ru": "Энергия фотона идёт на работу выхода, остаток — кинетическая энергия электрона."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Granična talasna dužina i zaustavni napon",
+      "en": "Threshold wavelength and stopping voltage",
+      "it": "Soglia e potenziale d’arresto",
+      "fr": "Seuil et tension d’arrêt",
+      "es": "Umbral y potencial de frenado",
+      "de": "Grenzwellenlänge und Gegenspannung",
+      "pt": "Limiar e potencial de corte",
+      "ru": "Красная граница и задерживающее напряжение"
+     },
+     "latex": {
+      "sr": "A_i = \\frac{h c}{\\lambda_g}, \\quad E_k = e\\,U_z",
+      "en": "\\phi = \\frac{h c}{\\lambda_g}, \\quad E_k = e\\,U_z",
+      "it": "W_0 = \\frac{h c}{\\lambda_g}, \\quad E_c = e\\,U_z",
+      "fr": "W_s = \\frac{h c}{\\lambda_g}, \\quad E_c = e\\,U_z",
+      "es": "\\phi = \\frac{h c}{\\lambda_g}, \\quad E_c = e\\,U_z",
+      "de": "W_A = \\frac{h c}{\\lambda_g}, \\quad E_{\\mathrm{kin}} = e\\,U_z",
+      "pt": "\\phi = \\frac{h c}{\\lambda_g}, \\quad E_c = e\\,U_z",
+      "ru": "A_{\\text{вых}} = \\frac{h c}{\\lambda_g}, \\quad E_{\\text{к}} = e\\,U_z"
+     },
+     "objasnjenje": {
+      "sr": "Svetlost duža od λg ne izbija elektrone, ma koliko bila jaka. Cezijum: izlazni rad ≈ 2,1 eV.",
+      "en": "Light longer than λg ejects no electrons, however intense. Caesium: work function ≈ 2.1 eV.",
+      "it": "Luce con λ maggiore di λg non estrae elettroni, per quanto intensa. Cesio: ≈ 2,1 eV.",
+      "fr": "Une lumière de longueur d’onde supérieure à λg n’arrache aucun électron. Césium : ≈ 2,1 eV.",
+      "es": "La luz con λ mayor que λg no arranca electrones, por intensa que sea. Cesio: ≈ 2,1 eV.",
+      "de": "Licht mit größerer Wellenlänge als λg löst keine Elektronen aus. Cäsium: ≈ 2,1 eV.",
+      "pt": "Luz com λ maior que λg não arranca elétrons, por mais intensa. Césio: ≈ 2,1 eV.",
+      "ru": "Свет длиннее λg не вырывает электроны при любой интенсивности. Цезий: ≈ 2,1 эВ."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Ek": {
+      "oznaka": {
+       "sr": "E_k",
+       "en": "E_k",
+       "it": "E_c",
+       "fr": "E_c",
+       "es": "E_c",
+       "de": "E_{\\mathrm{kin}}",
+       "pt": "E_c",
+       "ru": "E_{\\text{к}}"
+      },
+      "naziv": {
+       "sr": "kinetička energija elektrona",
+       "en": "kinetic energy of the electron",
+       "it": "energia cinetica dell’elettrone",
+       "fr": "énergie cinétique de l’électron",
+       "es": "energía cinética del electrón",
+       "de": "kinetische Energie des Elektrons",
+       "pt": "energia cinética do elétron",
+       "ru": "кинетическая энергия электрона"
+      },
+      "vrsta": "energija",
+      "jed": "eV",
+      "nenegativna": true
+     },
+     "h": {
+      "oznaka": "h",
+      "naziv": {
+       "sr": "Plankova konstanta",
+       "en": "Planck constant",
+       "it": "costante di Planck",
+       "fr": "constante de Planck",
+       "es": "constante de Planck",
+       "de": "Plancksches Wirkungsquantum",
+       "pt": "constante de Planck",
+       "ru": "постоянная Планка"
+      },
+      "vrsta": "plank",
+      "pocetna": 6.62607015e-34,
+      "poz": true
+     },
+     "c": {
+      "oznaka": "c",
+      "naziv": {
+       "sr": "brzina svetlosti",
+       "en": "speed of light",
+       "it": "velocità della luce",
+       "fr": "vitesse de la lumière",
+       "es": "velocidad de la luz",
+       "de": "Lichtgeschwindigkeit",
+       "pt": "velocidade da luz",
+       "ru": "скорость света"
+      },
+      "vrsta": "brzina",
+      "pocetna": 299792458,
+      "poz": true
+     },
+     "lam": {
+      "oznaka": "\\lambda",
+      "naziv": {
+       "sr": "talasna dužina",
+       "en": "wavelength",
+       "it": "lunghezza d’onda",
+       "fr": "longueur d’onde",
+       "es": "longitud de onda",
+       "de": "Wellenlänge",
+       "pt": "comprimento de onda",
+       "ru": "длина волны"
+      },
+      "vrsta": "talasnaDuzina",
+      "pocetna": 4e-07,
+      "jed": "nm",
+      "poz": true
+     },
+     "Ai": {
+      "oznaka": {
+       "sr": "A_i",
+       "en": "\\phi",
+       "it": "W_0",
+       "fr": "W_s",
+       "es": "\\phi",
+       "de": "W_A",
+       "pt": "\\phi",
+       "ru": "A_{\\text{вых}}"
+      },
+      "naziv": {
+       "sr": "izlazni rad",
+       "en": "work function",
+       "it": "lavoro di estrazione",
+       "fr": "travail d’extraction",
+       "es": "función trabajo",
+       "de": "Austrittsarbeit",
+       "pt": "função trabalho",
+       "ru": "работа выхода"
+      },
+      "vrsta": "energija",
+      "pocetna": 3.3645709313999997e-19,
+      "jed": "eV",
+      "poz": true
+     },
+     "lg": {
+      "oznaka": "\\lambda_g",
+      "naziv": {
+       "sr": "granična talasna dužina",
+       "en": "threshold wavelength",
+       "it": "lunghezza d’onda di soglia",
+       "fr": "longueur d’onde seuil",
+       "es": "longitud de onda umbral",
+       "de": "Grenzwellenlänge",
+       "pt": "comprimento de onda limite",
+       "ru": "красная граница"
+      },
+      "vrsta": "talasnaDuzina",
+      "jed": "nm",
+      "poz": true
+     },
+     "Uz": {
+      "oznaka": "U_z",
+      "naziv": {
+       "sr": "zaustavni napon",
+       "en": "stopping voltage",
+       "it": "potenziale d’arresto",
+       "fr": "tension d’arrêt",
+       "es": "potencial de frenado",
+       "de": "Gegenspannung",
+       "pt": "potencial de corte",
+       "ru": "задерживающее напряжение"
+      },
+      "vrsta": "napon",
+      "poz": true
+     },
+     "e": {
+      "oznaka": "e",
+      "naziv": {
+       "sr": "elementarno naelektrisanje",
+       "en": "elementary charge",
+       "it": "carica elementare",
+       "fr": "charge élémentaire",
+       "es": "carga elemental",
+       "de": "Elementarladung",
+       "pt": "carga elementar",
+       "ru": "элементарный заряд"
+      },
+      "vrsta": "naboj",
+      "pocetna": 1.602176634e-19,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "E_k = \\dfrac{h c}{\\lambda} - A_i",
+       "en": "E_k = \\dfrac{h c}{\\lambda} - \\phi",
+       "it": "E_c = \\dfrac{h c}{\\lambda} - W_0",
+       "fr": "E_c = \\dfrac{h c}{\\lambda} - W_s",
+       "es": "E_c = \\dfrac{h c}{\\lambda} - \\phi",
+       "de": "E_{\\mathrm{kin}} = \\dfrac{h c}{\\lambda} - W_A",
+       "pt": "E_c = \\dfrac{h c}{\\lambda} - \\phi",
+       "ru": "E_{\\text{к}} = \\dfrac{h c}{\\lambda} - A_{\\text{вых}}"
+      },
+      "trazi": "Ek",
+      "resenja": {
+       "Ek": "h*c/lam - Ai",
+       "Ai": "h*c/lam - Ek",
+       "lam": "h*c/(Ek + Ai)"
+      },
+      "promenljive": [
+       "Ek",
+       "Ai",
+       "lam",
+       "h",
+       "c"
+      ]
+     },
+     {
+      "latex": {
+       "sr": "A_i = \\dfrac{h c}{\\lambda_g}",
+       "en": "\\phi = \\dfrac{h c}{\\lambda_g}",
+       "it": "W_0 = \\dfrac{h c}{\\lambda_g}",
+       "fr": "W_s = \\dfrac{h c}{\\lambda_g}",
+       "es": "\\phi = \\dfrac{h c}{\\lambda_g}",
+       "de": "W_A = \\dfrac{h c}{\\lambda_g}",
+       "pt": "\\phi = \\dfrac{h c}{\\lambda_g}",
+       "ru": "A_{\\text{вых}} = \\dfrac{h c}{\\lambda_g}"
+      },
+      "trazi": "lg",
+      "resenja": {
+       "lg": "h*c/Ai",
+       "Ai": "h*c/lg"
+      },
+      "promenljive": [
+       "lg",
+       "Ai",
+       "h",
+       "c"
+      ]
+     },
+     {
+      "latex": {
+       "sr": "E_k = e U_z",
+       "en": "E_k = e U_z",
+       "it": "E_c = e U_z",
+       "fr": "E_c = e U_z",
+       "es": "E_c = e U_z",
+       "de": "E_{\\mathrm{kin}} = e U_z",
+       "pt": "E_c = e U_z",
+       "ru": "E_{\\text{к}} = e U_z"
+      },
+      "trazi": "Uz",
+      "resenja": {
+       "Uz": "Ek/e",
+       "Ek": "e*Uz"
+      },
+      "promenljive": [
+       "Uz",
+       "Ek",
+       "e"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "de_brolj",
+   "simbol": "λ",
+   "naziv": {
+    "sr": "Talasna priroda čestica",
+    "en": "Wave nature of particles",
+    "it": "Natura ondulatoria delle particelle",
+    "fr": "Nature ondulatoire des particules",
+    "es": "Naturaleza ondulatoria de las partículas",
+    "de": "Wellennatur von Teilchen",
+    "pt": "Natureza ondulatória das partículas",
+    "ru": "Волновые свойства частиц"
+   },
+   "opis": {
+    "sr": "De Broljeva talasna dužina, rendgensko zračenje",
+    "en": "De Broglie wavelength, X-rays",
+    "it": "Lunghezza d’onda di de Broglie, raggi X",
+    "fr": "Longueur d’onde de de Broglie, rayons X",
+    "es": "Longitud de onda de De Broglie, rayos X",
+    "de": "De-Broglie-Wellenlänge, Röntgenstrahlung",
+    "pt": "Comprimento de onda de de Broglie, raios X",
+    "ru": "Длина волны де Бройля, рентгеновское излучение"
+   },
+   "kljucne_reci": {
+    "sr": "de broljeva talasna duzina talasna priroda elektrona elektronski mikroskop rendgensko zracenje kocno zracenje",
+    "en": "de broglie wavelength matter waves electron microscope x rays bremsstrahlung",
+    "it": "lunghezza d onda di de broglie onde di materia raggi x bremsstrahlung",
+    "fr": "longueur d onde de de broglie ondes de matiere rayons x freinage",
+    "es": "longitud de onda de de broglie ondas de materia rayos x frenado",
+    "de": "de broglie wellenlange materiewellen rontgenstrahlung bremsstrahlung",
+    "pt": "comprimento de onda de de broglie ondas de materia raios x frenagem",
+    "ru": "длина волны де бройля волны материи рентгеновское тормозное излучение"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "De Broljeva talasna dužina",
+      "en": "De Broglie wavelength",
+      "it": "Lunghezza d’onda di de Broglie",
+      "fr": "Longueur d’onde de de Broglie",
+      "es": "Longitud de onda de De Broglie",
+      "de": "De-Broglie-Wellenlänge",
+      "pt": "Comprimento de onda de de Broglie",
+      "ru": "Длина волны де Бройля"
+     },
+     "latex": "\\lambda = \\frac{h}{p} = \\frac{h}{m v}",
+     "objasnjenje": {
+      "sr": "Svaka čestica ima i talasna svojstva; na tome rade elektronski mikroskopi.",
+      "en": "Every particle also has wave properties; electron microscopes rely on this.",
+      "it": "Ogni particella ha anche proprietà ondulatorie; su questo si basano i microscopi elettronici.",
+      "fr": "Toute particule a des propriétés ondulatoires ; c’est le principe du microscope électronique.",
+      "es": "Toda partícula tiene propiedades ondulatorias; en ello se basan los microscopios electrónicos.",
+      "de": "Jedes Teilchen hat auch Welleneigenschaften; darauf beruht das Elektronenmikroskop.",
+      "pt": "Toda partícula tem propriedades ondulatórias; nisso se baseia o microscópio eletrônico.",
+      "ru": "У каждой частицы есть волновые свойства; на этом основан электронный микроскоп."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Elektron ubrzan naponom U",
+      "en": "Electron accelerated through voltage U",
+      "it": "Elettrone accelerato dalla tensione U",
+      "fr": "Électron accéléré sous la tension U",
+      "es": "Electrón acelerado por la tensión U",
+      "de": "Durch Spannung U beschleunigtes Elektron",
+      "pt": "Elétron acelerado pela tensão U",
+      "ru": "Электрон, ускоренный напряжением U"
+     },
+     "latex": "\\lambda = \\frac{h}{\\sqrt{2 m e U}}",
+     "objasnjenje": {
+      "sr": "Važi dok je brzina mnogo manja od brzine svetlosti.",
+      "en": "Valid while the speed is much less than the speed of light.",
+      "it": "Vale finché la velocità è molto minore di quella della luce.",
+      "fr": "Valable tant que la vitesse est très inférieure à celle de la lumière.",
+      "es": "Válido mientras la velocidad sea mucho menor que la de la luz.",
+      "de": "Gilt, solange die Geschwindigkeit viel kleiner als die Lichtgeschwindigkeit ist.",
+      "pt": "Válido enquanto a velocidade for muito menor que a da luz.",
+      "ru": "Верно, пока скорость много меньше скорости света."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Rendgenska cev (kočeno zračenje)",
+      "en": "X-ray tube (bremsstrahlung)",
+      "it": "Tubo a raggi X (bremsstrahlung)",
+      "fr": "Tube à rayons X (freinage)",
+      "es": "Tubo de rayos X (frenado)",
+      "de": "Röntgenröhre (Bremsstrahlung)",
+      "pt": "Tubo de raios X (frenagem)",
+      "ru": "Рентгеновская трубка (тормозное излучение)"
+     },
+     "latex": "e U = \\frac{h c}{\\lambda_{\\min}}",
+     "objasnjenje": {
+      "sr": "Najkraća talasna dužina kada elektron svu energiju preda jednom fotonu.",
+      "en": "Shortest wavelength, when the electron gives all its energy to one photon.",
+      "it": "Lunghezza d’onda minima, quando l’elettrone cede tutta l’energia a un fotone.",
+      "fr": "Longueur d’onde minimale, quand l’électron cède toute son énergie à un photon.",
+      "es": "Longitud de onda mínima, cuando el electrón cede toda su energía a un fotón.",
+      "de": "Kürzeste Wellenlänge, wenn das Elektron seine ganze Energie an ein Photon abgibt.",
+      "pt": "Menor comprimento de onda, quando o elétron cede toda a energia a um fóton.",
+      "ru": "Минимальная длина волны, когда электрон отдаёт всю энергию одному фотону."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "lam": {
+      "oznaka": "\\lambda",
+      "naziv": {
+       "sr": "talasna dužina",
+       "en": "wavelength",
+       "it": "lunghezza d’onda",
+       "fr": "longueur d’onde",
+       "es": "longitud de onda",
+       "de": "Wellenlänge",
+       "pt": "comprimento de onda",
+       "ru": "длина волны"
+      },
+      "vrsta": "talasnaDuzina",
+      "jed": "nm",
+      "poz": true
+     },
+     "h": {
+      "oznaka": "h",
+      "naziv": {
+       "sr": "Plankova konstanta",
+       "en": "Planck constant",
+       "it": "costante di Planck",
+       "fr": "constante de Planck",
+       "es": "constante de Planck",
+       "de": "Plancksches Wirkungsquantum",
+       "pt": "constante de Planck",
+       "ru": "постоянная Планка"
+      },
+      "vrsta": "plank",
+      "pocetna": 6.62607015e-34,
+      "poz": true
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa čestice",
+       "en": "mass of the particle",
+       "it": "massa della particella",
+       "fr": "masse de la particule",
+       "es": "masa de la partícula",
+       "de": "Masse des Teilchens",
+       "pt": "massa da partícula",
+       "ru": "масса частицы"
+      },
+      "vrsta": "masa",
+      "pocetna": 9.1093837139e-31,
+      "poz": true
+     },
+     "v": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina čestice",
+       "en": "velocity of the particle",
+       "it": "velocità della particella",
+       "fr": "vitesse de la particule",
+       "es": "velocidad de la partícula",
+       "de": "Geschwindigkeit des Teilchens",
+       "pt": "velocidade da partícula",
+       "ru": "скорость частицы"
+      },
+      "vrsta": "brzina",
+      "pocetna": 1000000.0,
+      "poz": true
+     },
+     "e": {
+      "oznaka": "e",
+      "naziv": {
+       "sr": "elementarno naelektrisanje",
+       "en": "elementary charge",
+       "it": "carica elementare",
+       "fr": "charge élémentaire",
+       "es": "carga elemental",
+       "de": "Elementarladung",
+       "pt": "carga elementar",
+       "ru": "элементарный заряд"
+      },
+      "vrsta": "naboj",
+      "pocetna": 1.602176634e-19,
+      "poz": true
+     },
+     "Ua": {
+      "oznaka": "U",
+      "naziv": {
+       "sr": "napon ubrzavanja",
+       "en": "accelerating voltage",
+       "it": "tensione di accelerazione",
+       "fr": "tension d’accélération",
+       "es": "tensión de aceleración",
+       "de": "Beschleunigungsspannung",
+       "pt": "tensão de aceleração",
+       "ru": "ускоряющее напряжение"
+      },
+      "vrsta": "napon",
+      "pocetna": 100,
+      "poz": true
+     },
+     "lmin": {
+      "oznaka": "\\lambda_{\\min}",
+      "naziv": {
+       "sr": "najmanja talasna dužina",
+       "en": "minimum wavelength",
+       "it": "lunghezza d’onda minima",
+       "fr": "longueur d’onde minimale",
+       "es": "longitud de onda mínima",
+       "de": "Grenzwellenlänge",
+       "pt": "comprimento de onda mínimo",
+       "ru": "минимальная длина волны"
+      },
+      "vrsta": "talasnaDuzina",
+      "jed": "pm",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "\\lambda = \\dfrac{h}{m v}",
+      "trazi": "lam",
+      "resenja": {
+       "lam": "h/(m*v)",
+       "m": "h/(lam*v)",
+       "v": "h/(lam*m)"
+      },
+      "promenljive": [
+       "lam",
+       "m",
+       "v",
+       "h"
+      ]
+     },
+     {
+      "latex": "\\lambda = \\dfrac{h}{\\sqrt{2 m e U}}",
+      "trazi": "lam",
+      "resenja": {
+       "lam": "h/sqrt(2*m*e*Ua)",
+       "Ua": "pow(h/lam, 2)/(2*m*e)",
+       "m": "pow(h/lam, 2)/(2*e*Ua)"
+      },
+      "napomene": {
+       "lam": {
+        "sr": "Podrazumevano: elektron.",
+        "en": "Default: electron.",
+        "it": "Predefinito: elettrone.",
+        "fr": "Par défaut : électron.",
+        "es": "Por defecto: electrón.",
+        "de": "Voreinstellung: Elektron.",
+        "pt": "Padrão: elétron.",
+        "ru": "По умолчанию: электрон."
+       }
+      },
+      "promenljive": [
+       "lam",
+       "Ua",
+       "m",
+       "h",
+       "e"
+      ]
+     },
+     {
+      "latex": "\\lambda_{\\min} = \\dfrac{h c}{e U}",
+      "trazi": "lmin",
+      "resenja": {
+       "lmin": "h*299792458/(e*Ua)",
+       "Ua": "h*299792458/(e*lmin)"
+      },
+      "promenljive": [
+       "lmin",
+       "Ua",
+       "h",
+       "e"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "bor",
+   "simbol": "n",
+   "naziv": {
+    "sr": "Borov model atoma",
+    "en": "Bohr model of the atom",
+    "it": "Modello atomico di Bohr",
+    "fr": "Modèle de Bohr",
+    "es": "Modelo atómico de Bohr",
+    "de": "Bohrsches Atommodell",
+    "pt": "Modelo atômico de Bohr",
+    "ru": "Модель атома Бора"
+   },
+   "opis": {
+    "sr": "Energetski nivoi vodonika",
+    "en": "Energy levels of hydrogen",
+    "it": "Livelli energetici dell’idrogeno",
+    "fr": "Niveaux d’énergie de l’hydrogène",
+    "es": "Niveles de energía del hidrógeno",
+    "de": "Energieniveaus von Wasserstoff",
+    "pt": "Níveis de energia do hidrogênio",
+    "ru": "Уровни энергии водорода"
+   },
+   "kljucne_reci": {
+    "sr": "borov model atom vodonika energetski nivoi spektar prelaz balmerova serija lajmanova serija",
+    "en": "bohr model hydrogen atom energy levels spectrum transition balmer lyman series",
+    "it": "modello di bohr atomo di idrogeno livelli energetici spettro serie di balmer",
+    "fr": "modele de bohr atome d hydrogene niveaux spectre serie de balmer",
+    "es": "modelo de bohr atomo de hidrogeno niveles espectro serie de balmer",
+    "de": "bohrsches atommodell wasserstoff energieniveaus spektrum balmer serie",
+    "pt": "modelo de bohr atomo de hidrogenio niveis espectro serie de balmer",
+    "ru": "модель бора атом водорода уровни энергии спектр серия бальмера"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 196\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"lik-l\" x1=\"64\" y1=\"176\" x2=\"216\" y2=\"176\"/><text class=\"tem\" x=\"14\" y=\"181\">n = 1</text><text class=\"tem\" x=\"224\" y=\"181\">−13,61 eV</text><line class=\"lik-l\" x1=\"64\" y1=\"112\" x2=\"216\" y2=\"112\"/><text class=\"tem\" x=\"14\" y=\"117\">n = 2</text><text class=\"tem\" x=\"224\" y=\"117\">−3,40 eV</text><line class=\"lik-l\" x1=\"64\" y1=\"80\" x2=\"216\" y2=\"80\"/><text class=\"tem\" x=\"14\" y=\"85\">n = 3</text><text class=\"tem\" x=\"224\" y=\"85\">−1,51 eV</text><line class=\"lik-l\" x1=\"64\" y1=\"58\" x2=\"216\" y2=\"58\"/><text class=\"tem\" x=\"14\" y=\"63\">n = 4</text><text class=\"tem\" x=\"224\" y=\"63\">−0,85 eV</text><line class=\"lik-l\" x1=\"64\" y1=\"44\" x2=\"216\" y2=\"44\"/><text class=\"tem\" x=\"14\" y=\"49\">n = 5</text><text class=\"tem\" x=\"224\" y=\"49\">−0,54 eV</text><line class=\"pom\" x1=\"64\" y1=\"20\" x2=\"216\" y2=\"20\"/><text class=\"tem\" x=\"14\" y=\"25\">n = ∞</text><text class=\"tem\" x=\"224\" y=\"25\">0 eV</text><line class=\"ivica\" x1=\"96\" y1=\"112\" x2=\"96\" y2=\"167\"/><path class=\"tac\" d=\"M96,176 l-4.5,-9 h9 Z\"/><line class=\"ivica\" x1=\"140\" y1=\"80\" x2=\"140\" y2=\"103\"/><path class=\"tac\" d=\"M140,112 l-4.5,-9 h9 Z\"/><line class=\"ivica\" x1=\"176\" y1=\"58\" x2=\"176\" y2=\"103\"/><path class=\"tac\" d=\"M176,112 l-4.5,-9 h9 Z\"/></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Energija nivoa",
+      "en": "Energy of the levels",
+      "it": "Energia dei livelli",
+      "fr": "Énergie des niveaux",
+      "es": "Energía de los niveles",
+      "de": "Energie der Niveaus",
+      "pt": "Energia dos níveis",
+      "ru": "Энергия уровней"
+     },
+     "latex": "W_n = -\\frac{W_0}{n^2}, \\quad W_0 = \\frac{m_e e^4}{8 \\varepsilon_0^2 h^2} = 13{,}6\\ \\mathrm{eV}",
+     "objasnjenje": {
+      "sr": "n = 1 je osnovno stanje; W₀ je energija potrebna da se atom vodonika jonizuje.",
+      "en": "n = 1 is the ground state; W₀ is the energy needed to ionize a hydrogen atom.",
+      "it": "n = 1 è lo stato fondamentale; W₀ è l’energia di ionizzazione dell’idrogeno.",
+      "fr": "n = 1 est l’état fondamental ; W₀ est l’énergie d’ionisation de l’hydrogène.",
+      "es": "n = 1 es el estado fundamental; W₀ es la energía de ionización del hidrógeno.",
+      "de": "n = 1 ist der Grundzustand; W₀ ist die Ionisierungsenergie von Wasserstoff.",
+      "pt": "n = 1 é o estado fundamental; W₀ é a energia de ionização do hidrogênio.",
+      "ru": "n = 1 — основное состояние; W₀ — энергия ионизации водорода."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Poluprečnik orbite",
+      "en": "Radius of the orbit",
+      "it": "Raggio dell’orbita",
+      "fr": "Rayon de l’orbite",
+      "es": "Radio de la órbita",
+      "de": "Bahnradius",
+      "pt": "Raio da órbita",
+      "ru": "Радиус орбиты"
+     },
+     "latex": "r_n = n^2 r_B, \\quad r_B = \\frac{h^2 \\varepsilon_0}{\\pi m_e e^2} = 52{,}9\\ \\mathrm{pm}",
+     "objasnjenje": {
+      "sr": "rʙ je Borov poluprečnik, poluprečnik osnovnog stanja.",
+      "en": "rʙ is the Bohr radius, the radius of the ground state.",
+      "it": "rʙ è il raggio di Bohr, raggio dello stato fondamentale.",
+      "fr": "rʙ est le rayon de Bohr, celui de l’état fondamental.",
+      "es": "rʙ es el radio de Bohr, el del estado fundamental.",
+      "de": "rʙ ist der Bohrsche Radius des Grundzustands.",
+      "pt": "rʙ é o raio de Bohr, do estado fundamental.",
+      "ru": "rʙ — боровский радиус основного состояния."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Prelaz između nivoa",
+      "en": "Transition between levels",
+      "it": "Transizione tra livelli",
+      "fr": "Transition entre niveaux",
+      "es": "Transición entre niveles",
+      "de": "Übergang zwischen Niveaus",
+      "pt": "Transição entre níveis",
+      "ru": "Переход между уровнями"
+     },
+     "latex": {
+      "sr": "h f = W_0 \\left(\\frac{1}{n^2} - \\frac{1}{n'^2}\\right), \\quad n' > n",
+      "en": "h f = W_0 \\left(\\frac{1}{n^2} - \\frac{1}{n'^2}\\right), \\quad n' > n",
+      "it": "h f = W_0 \\left(\\frac{1}{n^2} - \\frac{1}{n'^2}\\right), \\quad n' > n",
+      "fr": "h f = W_0 \\left(\\frac{1}{n^2} - \\frac{1}{n'^2}\\right), \\quad n' > n",
+      "es": "h f = W_0 \\left(\\frac{1}{n^2} - \\frac{1}{n'^2}\\right), \\quad n' > n",
+      "de": "h f = W_0 \\left(\\frac{1}{n^2} - \\frac{1}{n'^2}\\right), \\quad n' > n",
+      "pt": "h f = W_0 \\left(\\frac{1}{n^2} - \\frac{1}{n'^2}\\right), \\quad n' > n",
+      "ru": "h \\nu = W_0 \\left(\\frac{1}{n^2} - \\frac{1}{n'^2}\\right), \\quad n' > n"
+     },
+     "objasnjenje": {
+      "sr": "Pri prelazu na niži nivo atom emituje foton. Prelazi na n = 2 daju vidljivu Balmerovu seriju.",
+      "en": "When dropping to a lower level the atom emits a photon. Transitions to n = 2 give the visible Balmer series.",
+      "it": "Scendendo a un livello inferiore l’atomo emette un fotone. Le transizioni a n = 2 danno la serie di Balmer visibile.",
+      "fr": "En passant à un niveau inférieur l’atome émet un photon. Les transitions vers n = 2 donnent la série de Balmer visible.",
+      "es": "Al bajar de nivel el átomo emite un fotón. Las transiciones a n = 2 dan la serie de Balmer visible.",
+      "de": "Beim Übergang auf ein tieferes Niveau sendet das Atom ein Photon aus. Übergänge nach n = 2 bilden die sichtbare Balmer-Serie.",
+      "pt": "Ao descer de nível o átomo emite um fóton. Transições para n = 2 dão a série de Balmer visível.",
+      "ru": "При переходе на нижний уровень атом излучает фотон. Переходы на n = 2 дают видимую серию Бальмера."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Wn": {
+      "oznaka": "W_n",
+      "naziv": {
+       "sr": "energija nivoa",
+       "en": "energy of the level",
+       "it": "energia del livello",
+       "fr": "énergie du niveau",
+       "es": "energía del nivel",
+       "de": "Energie des Niveaus",
+       "pt": "energia do nível",
+       "ru": "энергия уровня"
+      },
+      "vrsta": "energija",
+      "jed": "eV"
+     },
+     "W0": {
+      "oznaka": "W_0",
+      "naziv": {
+       "sr": "energija jonizacije vodonika",
+       "en": "ionization energy of hydrogen",
+       "it": "energia di ionizzazione dell’idrogeno",
+       "fr": "énergie d’ionisation de l’hydrogène",
+       "es": "energía de ionización del hidrógeno",
+       "de": "Ionisierungsenergie von Wasserstoff",
+       "pt": "energia de ionização do hidrogênio",
+       "ru": "энергия ионизации водорода"
+      },
+      "vrsta": "energija",
+      "pocetna": 2.1798723611035473e-18,
+      "jed": "eV",
+      "poz": true
+     },
+     "n": {
+      "oznaka": "n",
+      "naziv": {
+       "sr": "glavni kvantni broj",
+       "en": "principal quantum number",
+       "it": "numero quantico principale",
+       "fr": "nombre quantique principal",
+       "es": "número cuántico principal",
+       "de": "Hauptquantenzahl",
+       "pt": "número quântico principal",
+       "ru": "главное квантовое число"
+      },
+      "vrsta": "broj",
+      "pocetna": 2,
+      "poz": true
+     },
+     "rn": {
+      "oznaka": "r_n",
+      "naziv": {
+       "sr": "poluprečnik orbite",
+       "en": "radius of the orbit",
+       "it": "raggio dell’orbita",
+       "fr": "rayon de l’orbite",
+       "es": "radio de la órbita",
+       "de": "Bahnradius",
+       "pt": "raio da órbita",
+       "ru": "радиус орбиты"
+      },
+      "vrsta": "talasnaDuzina",
+      "jed": "pm",
+      "poz": true
+     },
+     "rB": {
+      "oznaka": "r_B",
+      "naziv": {
+       "sr": "Borov poluprečnik",
+       "en": "Bohr radius",
+       "it": "raggio di Bohr",
+       "fr": "rayon de Bohr",
+       "es": "radio de Bohr",
+       "de": "Bohrscher Radius",
+       "pt": "raio de Bohr",
+       "ru": "боровский радиус"
+      },
+      "vrsta": "talasnaDuzina",
+      "pocetna": 5.29177210544e-11,
+      "jed": "pm",
+      "poz": true
+     },
+     "lam": {
+      "oznaka": "\\lambda",
+      "naziv": {
+       "sr": "talasna dužina",
+       "en": "wavelength",
+       "it": "lunghezza d’onda",
+       "fr": "longueur d’onde",
+       "es": "longitud de onda",
+       "de": "Wellenlänge",
+       "pt": "comprimento de onda",
+       "ru": "длина волны"
+      },
+      "vrsta": "talasnaDuzina",
+      "jed": "nm",
+      "poz": true
+     },
+     "h": {
+      "oznaka": "h",
+      "naziv": {
+       "sr": "Plankova konstanta",
+       "en": "Planck constant",
+       "it": "costante di Planck",
+       "fr": "constante de Planck",
+       "es": "constante de Planck",
+       "de": "Plancksches Wirkungsquantum",
+       "pt": "constante de Planck",
+       "ru": "постоянная Планка"
+      },
+      "vrsta": "plank",
+      "pocetna": 6.62607015e-34,
+      "poz": true
+     },
+     "c": {
+      "oznaka": "c",
+      "naziv": {
+       "sr": "brzina svetlosti",
+       "en": "speed of light",
+       "it": "velocità della luce",
+       "fr": "vitesse de la lumière",
+       "es": "velocidad de la luz",
+       "de": "Lichtgeschwindigkeit",
+       "pt": "velocidade da luz",
+       "ru": "скорость света"
+      },
+      "vrsta": "brzina",
+      "pocetna": 299792458,
+      "poz": true
+     },
+     "n1": {
+      "oznaka": "n",
+      "naziv": {
+       "sr": "konačni nivo (niži)",
+       "en": "final level (lower)",
+       "it": "livello finale (più basso)",
+       "fr": "niveau final (inférieur)",
+       "es": "nivel final (inferior)",
+       "de": "Endniveau (tiefer)",
+       "pt": "nível final (mais baixo)",
+       "ru": "конечный уровень (нижний)"
+      },
+      "vrsta": "broj",
+      "pocetna": 2,
+      "poz": true
+     },
+     "n2": {
+      "oznaka": "n'",
+      "naziv": {
+       "sr": "početni nivo (viši)",
+       "en": "initial level (higher)",
+       "it": "livello iniziale (più alto)",
+       "fr": "niveau initial (supérieur)",
+       "es": "nivel inicial (superior)",
+       "de": "Ausgangsniveau (höher)",
+       "pt": "nível inicial (mais alto)",
+       "ru": "начальный уровень (верхний)"
+      },
+      "vrsta": "broj",
+      "pocetna": 3,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "W_n = -\\dfrac{W_0}{n^2}",
+      "trazi": "Wn",
+      "resenja": {
+       "Wn": "-W0/(n*n)",
+       "n": "sqrt(-W0/Wn)",
+       "W0": "-Wn*n*n"
+      }
+     },
+     {
+      "latex": "r_n = n^2 r_B",
+      "trazi": "rn",
+      "resenja": {
+       "rn": "n*n*rB",
+       "n": "sqrt(rn/rB)"
+      },
+      "promenljive": [
+       "rn",
+       "n",
+       "rB"
+      ]
+     },
+     {
+      "latex": "\\dfrac{h c}{\\lambda} = W_0 \\left(\\dfrac{1}{n^2} - \\dfrac{1}{n'^2}\\right)",
+      "trazi": "lam",
+      "resenja": {
+       "lam": "h*c/(W0*(1/(n1*n1) - 1/(n2*n2)))",
+       "n2": "1/sqrt(1/(n1*n1) - h*c/(W0*lam))",
+       "n1": "1/sqrt(1/(n2*n2) + h*c/(W0*lam))"
+      },
+      "napomene": {
+       "lam": {
+        "sr": "Primer: prelaz 3 → 2 daje crvenu liniju vodonika (656 nm).",
+        "en": "Example: transition 3 → 2 gives hydrogen’s red line (656 nm).",
+        "it": "Esempio: la transizione 3 → 2 dà la riga rossa dell’idrogeno (656 nm).",
+        "fr": "Exemple : la transition 3 → 2 donne la raie rouge de l’hydrogène (656 nm).",
+        "es": "Ejemplo: la transición 3 → 2 da la línea roja del hidrógeno (656 nm).",
+        "de": "Beispiel: Übergang 3 → 2 ergibt die rote Wasserstofflinie (656 nm).",
+        "pt": "Exemplo: a transição 3 → 2 dá a linha vermelha do hidrogênio (656 nm).",
+        "ru": "Пример: переход 3 → 2 даёт красную линию водорода (656 нм)."
+       }
+      },
+      "promenljive": [
+       "lam",
+       "n2",
+       "n1",
+       "h",
+       "c",
+       "W0"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "raspad",
+   "simbol": "t½",
+   "naziv": {
+    "sr": "Radioaktivni raspad",
+    "en": "Radioactive decay",
+    "it": "Decadimento radioattivo",
+    "fr": "Désintégration radioactive",
+    "es": "Desintegración radiactiva",
+    "de": "Radioaktiver Zerfall",
+    "pt": "Decaimento radioativo",
+    "ru": "Радиоактивный распад"
+   },
+   "opis": {
+    "sr": "Vreme poluraspada, aktivnost",
+    "en": "Half-life, activity",
+    "it": "Tempo di dimezzamento, attività",
+    "fr": "Demi-vie, activité",
+    "es": "Semivida, actividad",
+    "de": "Halbwertszeit, Aktivität",
+    "pt": "Meia-vida, atividade",
+    "ru": "Период полураспада, активность"
+   },
+   "kljucne_reci": {
+    "sr": "radioaktivni raspad vreme poluraspada aktivnost bekerel konstanta raspada ugljenik 14 datiranje",
+    "en": "radioactive decay half life activity becquerel decay constant carbon 14 dating",
+    "it": "decadimento radioattivo tempo di dimezzamento attivita becquerel carbonio 14 datazione",
+    "fr": "desintegration radioactive demi vie activite becquerel carbone 14 datation",
+    "es": "desintegracion radiactiva semivida actividad becquerel carbono 14 datacion",
+    "de": "radioaktiver zerfall halbwertszeit aktivitat becquerel c14 datierung",
+    "pt": "decaimento radioativo meia vida atividade becquerel carbono 14 datacao",
+    "ru": "радиоактивный распад период полураспада активность беккерель углерод 14 датирование"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Zakon raspada",
+      "en": "Decay law",
+      "it": "Legge del decadimento",
+      "fr": "Loi de décroissance",
+      "es": "Ley de desintegración",
+      "de": "Zerfallsgesetz",
+      "pt": "Lei do decaimento",
+      "ru": "Закон распада"
+     },
+     "latex": {
+      "sr": "N(t) = N_0\\, e^{-\\lambda t} = N_0 \\cdot 2^{-t/t_{1/2}}, \\quad t_{1/2} = \\frac{\\ln 2}{\\lambda}",
+      "en": "N(t) = N_0\\, e^{-\\lambda t} = N_0 \\cdot 2^{-t/t_{1/2}}, \\quad t_{1/2} = \\frac{\\ln 2}{\\lambda}",
+      "it": "N(t) = N_0\\, e^{-\\lambda t} = N_0 \\cdot 2^{-t/t_{1/2}}, \\quad t_{1/2} = \\frac{\\ln 2}{\\lambda}",
+      "fr": "N(t) = N_0\\, e^{-\\lambda t} = N_0 \\cdot 2^{-t/t_{1/2}}, \\quad t_{1/2} = \\frac{\\ln 2}{\\lambda}",
+      "es": "N(t) = N_0\\, e^{-\\lambda t} = N_0 \\cdot 2^{-t/t_{1/2}}, \\quad t_{1/2} = \\frac{\\ln 2}{\\lambda}",
+      "de": "N(t) = N_0\\, e^{-\\lambda t} = N_0 \\cdot 2^{-t/T_{1/2}}, \\quad T_{1/2} = \\frac{\\ln 2}{\\lambda}",
+      "pt": "N(t) = N_0\\, e^{-\\lambda t} = N_0 \\cdot 2^{-t/t_{1/2}}, \\quad t_{1/2} = \\frac{\\ln 2}{\\lambda}",
+      "ru": "N(t) = N_0\\, e^{-\\lambda t} = N_0 \\cdot 2^{-t/T_{1/2}}, \\quad T_{1/2} = \\frac{\\ln 2}{\\lambda}"
+     },
+     "objasnjenje": {
+      "sr": "Posle svakog vremena poluraspada ostane polovina jezgara. Ugljenik-14: 5730 godina.",
+      "en": "After each half-life half of the nuclei remain. Carbon-14: 5730 years.",
+      "it": "Dopo ogni tempo di dimezzamento resta metà dei nuclei. Carbonio-14: 5730 anni.",
+      "fr": "Après chaque demi-vie, il reste la moitié des noyaux. Carbone 14 : 5730 ans.",
+      "es": "Tras cada semivida queda la mitad de los núcleos. Carbono-14: 5730 años.",
+      "de": "Nach jeder Halbwertszeit ist die Hälfte der Kerne übrig. C-14: 5730 Jahre.",
+      "pt": "Após cada meia-vida resta metade dos núcleos. Carbono-14: 5730 anos.",
+      "ru": "За каждый период полураспада остаётся половина ядер. Углерод-14: 5730 лет."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Aktivnost",
+      "en": "Activity",
+      "it": "Attività",
+      "fr": "Activité",
+      "es": "Actividad",
+      "de": "Aktivität",
+      "pt": "Atividade",
+      "ru": "Активность"
+     },
+     "latex": "A(t) = -\\frac{dN}{dt} = \\lambda N(t)",
+     "objasnjenje": {
+      "sr": "Broj raspada u sekundi; 1 Bq = 1 raspad u sekundi.",
+      "en": "Number of decays per second; 1 Bq = 1 decay per second.",
+      "it": "Numero di decadimenti al secondo; 1 Bq = 1 decadimento al secondo.",
+      "fr": "Nombre de désintégrations par seconde ; 1 Bq = 1 désintégration par seconde.",
+      "es": "Número de desintegraciones por segundo; 1 Bq = 1 por segundo.",
+      "de": "Zerfälle pro Sekunde; 1 Bq = 1 Zerfall pro Sekunde.",
+      "pt": "Número de decaimentos por segundo; 1 Bq = 1 por segundo.",
+      "ru": "Число распадов в секунду; 1 Бк = 1 распад в секунду."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "udeo": {
+      "oznaka": "N/N_0",
+      "naziv": {
+       "sr": "preostali deo",
+       "en": "remaining fraction",
+       "it": "frazione rimanente",
+       "fr": "fraction restante",
+       "es": "fracción restante",
+       "de": "verbleibender Anteil",
+       "pt": "fração restante",
+       "ru": "оставшаяся доля"
+      },
+      "vrsta": "udeo",
+      "poz": true
+     },
+     "t": {
+      "oznaka": "t",
+      "naziv": {
+       "sr": "proteklo vreme",
+       "en": "elapsed time",
+       "it": "tempo trascorso",
+       "fr": "temps écoulé",
+       "es": "tiempo transcurrido",
+       "de": "vergangene Zeit",
+       "pt": "tempo decorrido",
+       "ru": "прошедшее время"
+      },
+      "vrsta": "vreme",
+      "pocetna": 361650096000.0,
+      "jed": "god",
+      "nenegativna": true
+     },
+     "tp": {
+      "oznaka": {
+       "sr": "t_{1/2}",
+       "en": "t_{1/2}",
+       "it": "t_{1/2}",
+       "fr": "t_{1/2}",
+       "es": "t_{1/2}",
+       "de": "T_{1/2}",
+       "pt": "t_{1/2}",
+       "ru": "T_{1/2}"
+      },
+      "naziv": {
+       "sr": "vreme poluraspada",
+       "en": "half-life",
+       "it": "tempo di dimezzamento",
+       "fr": "demi-vie",
+       "es": "periodo de semidesintegración",
+       "de": "Halbwertszeit",
+       "pt": "meia-vida",
+       "ru": "период полураспада"
+      },
+      "vrsta": "vreme",
+      "pocetna": 180825048000.0,
+      "jed": "god",
+      "poz": true
+     },
+     "lr": {
+      "oznaka": "\\lambda",
+      "naziv": {
+       "sr": "konstanta raspada",
+       "en": "decay constant",
+       "it": "costante di decadimento",
+       "fr": "constante radioactive",
+       "es": "constante de desintegración",
+       "de": "Zerfallskonstante",
+       "pt": "constante de decaimento",
+       "ru": "постоянная распада"
+      },
+      "vrsta": "konstRaspada",
+      "jed": "1/god",
+      "poz": true,
+      "pocetna": 3.833247596096008e-12
+     },
+     "A": {
+      "oznaka": "A",
+      "naziv": {
+       "sr": "aktivnost",
+       "en": "activity",
+       "it": "attività",
+       "fr": "activité",
+       "es": "actividad",
+       "de": "Aktivität",
+       "pt": "atividade",
+       "ru": "активность"
+      },
+      "vrsta": "aktivnost",
+      "poz": true
+     },
+     "N": {
+      "oznaka": "N",
+      "naziv": {
+       "sr": "broj neraspadnutih jezgara",
+       "en": "number of undecayed nuclei",
+       "it": "numero di nuclei non decaduti",
+       "fr": "nombre de noyaux restants",
+       "es": "número de núcleos sin desintegrar",
+       "de": "Anzahl unzerfallener Kerne",
+       "pt": "número de núcleos restantes",
+       "ru": "число нераспавшихся ядер"
+      },
+      "vrsta": "broj",
+      "pocetna": 1e+20,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "\\dfrac{N}{N_0} = 2^{-t/t_{1/2}}",
+       "en": "\\dfrac{N}{N_0} = 2^{-t/t_{1/2}}",
+       "it": "\\dfrac{N}{N_0} = 2^{-t/t_{1/2}}",
+       "fr": "\\dfrac{N}{N_0} = 2^{-t/t_{1/2}}",
+       "es": "\\dfrac{N}{N_0} = 2^{-t/t_{1/2}}",
+       "de": "\\dfrac{N}{N_0} = 2^{-t/T_{1/2}}",
+       "pt": "\\dfrac{N}{N_0} = 2^{-t/t_{1/2}}",
+       "ru": "\\dfrac{N}{N_0} = 2^{-t/T_{1/2}}"
+      },
+      "trazi": "udeo",
+      "resenja": {
+       "udeo": "pow(2, -t/tp)",
+       "t": "-tp*ln(udeo)/ln(2)",
+       "tp": "-t*ln(2)/ln(udeo)"
+      },
+      "napomene": {
+       "t": {
+        "sr": "Npr. starost nalaza: koliko je ugljenika-14 preostalo u odnosu na živo biće.",
+        "en": "E.g. age of a find: how much carbon-14 remains compared to a living organism.",
+        "it": "Es. età di un reperto: quanto carbonio-14 resta rispetto a un organismo vivo.",
+        "fr": "Ex. âge d’un objet : quelle part de carbone 14 reste par rapport à un être vivant.",
+        "es": "P. ej., edad de un hallazgo: cuánto carbono-14 queda respecto a un ser vivo.",
+        "de": "Z. B. Alter eines Fundes: wie viel C-14 im Vergleich zu einem Lebewesen übrig ist.",
+        "pt": "Ex.: idade de um achado: quanto carbono-14 resta em relação a um ser vivo.",
+        "ru": "Например, возраст находки: какая доля углерода-14 осталась по сравнению с живым организмом."
+       }
+      }
+     },
+     {
+      "latex": {
+       "sr": "t_{1/2} = \\dfrac{\\ln 2}{\\lambda}",
+       "en": "t_{1/2} = \\dfrac{\\ln 2}{\\lambda}",
+       "it": "t_{1/2} = \\dfrac{\\ln 2}{\\lambda}",
+       "fr": "t_{1/2} = \\dfrac{\\ln 2}{\\lambda}",
+       "es": "t_{1/2} = \\dfrac{\\ln 2}{\\lambda}",
+       "de": "T_{1/2} = \\dfrac{\\ln 2}{\\lambda}",
+       "pt": "t_{1/2} = \\dfrac{\\ln 2}{\\lambda}",
+       "ru": "T_{1/2} = \\dfrac{\\ln 2}{\\lambda}"
+      },
+      "trazi": "lr",
+      "resenja": {
+       "lr": "ln(2)/tp",
+       "tp": "ln(2)/lr"
+      }
+     },
+     {
+      "latex": "A = \\lambda N",
+      "trazi": "A",
+      "resenja": {
+       "A": "lr*N",
+       "lr": "A/N",
+       "N": "A/lr"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "slabljenje",
+   "simbol": "μ",
+   "naziv": {
+    "sr": "Slabljenje zračenja",
+    "en": "Attenuation of radiation",
+    "it": "Attenuazione della radiazione",
+    "fr": "Atténuation du rayonnement",
+    "es": "Atenuación de la radiación",
+    "de": "Schwächung von Strahlung",
+    "pt": "Atenuação da radiação",
+    "ru": "Ослабление излучения"
+   },
+   "opis": {
+    "sr": "Zaštita olovom, betonom, vodom",
+    "en": "Shielding with lead, concrete, water",
+    "it": "Schermatura con piombo, calcestruzzo, acqua",
+    "fr": "Protection par plomb, béton, eau",
+    "es": "Blindaje de plomo, hormigón, agua",
+    "de": "Abschirmung mit Blei, Beton, Wasser",
+    "pt": "Blindagem com chumbo, concreto, água",
+    "ru": "Защита свинцом, бетоном, водой"
+   },
+   "kljucne_reci": {
+    "sr": "slabljenje zracenja apsorpcija gama zracenje zastita olovo debljina poluslabljenja koeficijent slabljenja",
+    "en": "attenuation absorption gamma radiation shielding lead half value layer",
+    "it": "attenuazione assorbimento radiazione gamma schermatura piombo spessore di dimezzamento",
+    "fr": "attenuation absorption rayonnement gamma protection plomb couche de demi attenuation",
+    "es": "atenuacion absorcion radiacion gamma blindaje plomo capa hemirreductora",
+    "de": "schwachung absorption gammastrahlung abschirmung blei halbwertsdicke",
+    "pt": "atenuacao absorcao radiacao gama blindagem chumbo camada semirredutora",
+    "ru": "ослабление поглощение гамма излучение защита свинец слой половинного ослабления"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Zakon slabljenja",
+      "en": "Attenuation law",
+      "it": "Legge di attenuazione",
+      "fr": "Loi d’atténuation",
+      "es": "Ley de atenuación",
+      "de": "Schwächungsgesetz",
+      "pt": "Lei de atenuação",
+      "ru": "Закон ослабления"
+     },
+     "latex": "j(x) = j_0\\, e^{-\\mu x} = j_0 \\cdot 2^{-x/d_{1/2}}, \\quad d_{1/2} = \\frac{\\ln 2}{\\mu}",
+     "objasnjenje": {
+      "sr": "Svaki sloj debljine d₁/₂ prepolovi intenzitet. Gama zraci (1 MeV) u olovu: d₁/₂ ≈ 0,9 cm.",
+      "en": "Each layer of thickness d₁/₂ halves the intensity. Gamma rays (1 MeV) in lead: d₁/₂ ≈ 0.9 cm.",
+      "it": "Ogni strato di spessore d₁/₂ dimezza l’intensità. Raggi gamma (1 MeV) nel piombo: d₁/₂ ≈ 0,9 cm.",
+      "fr": "Chaque couche d’épaisseur d₁/₂ divise l’intensité par deux. Gamma (1 MeV) dans le plomb : d₁/₂ ≈ 0,9 cm.",
+      "es": "Cada capa de espesor d₁/₂ reduce la intensidad a la mitad. Rayos gamma (1 MeV) en plomo: d₁/₂ ≈ 0,9 cm.",
+      "de": "Jede Schicht der Dicke d₁/₂ halbiert die Intensität. Gammastrahlung (1 MeV) in Blei: d₁/₂ ≈ 0,9 cm.",
+      "pt": "Cada camada de espessura d₁/₂ reduz a intensidade à metade. Raios gama (1 MeV) no chumbo: d₁/₂ ≈ 0,9 cm.",
+      "ru": "Каждый слой толщиной d₁/₂ вдвое ослабляет излучение. Гамма (1 МэВ) в свинце: d₁/₂ ≈ 0,9 см."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "j": {
+      "oznaka": "j",
+      "naziv": {
+       "sr": "intenzitet posle sloja",
+       "en": "intensity after the layer",
+       "it": "intensità dopo lo strato",
+       "fr": "intensité après la couche",
+       "es": "intensidad tras la capa",
+       "de": "Intensität nach der Schicht",
+       "pt": "intensidade após a camada",
+       "ru": "интенсивность после слоя"
+      },
+      "vrsta": "intenzitet",
+      "poz": true
+     },
+     "j0": {
+      "oznaka": "j_0",
+      "naziv": {
+       "sr": "početni intenzitet",
+       "en": "initial intensity",
+       "it": "intensità iniziale",
+       "fr": "intensité initiale",
+       "es": "intensidad inicial",
+       "de": "Anfangsintensität",
+       "pt": "intensidade inicial",
+       "ru": "начальная интенсивность"
+      },
+      "vrsta": "intenzitet",
+      "pocetna": 100,
+      "poz": true
+     },
+     "x": {
+      "oznaka": "x",
+      "naziv": {
+       "sr": "debljina sloja",
+       "en": "thickness of the layer",
+       "it": "spessore dello strato",
+       "fr": "épaisseur de la couche",
+       "es": "espesor de la capa",
+       "de": "Schichtdicke",
+       "pt": "espessura da camada",
+       "ru": "толщина слоя"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.05,
+      "jed": "cm",
+      "nenegativna": true
+     },
+     "dp": {
+      "oznaka": "d_{1/2}",
+      "naziv": {
+       "sr": "debljina poluslabljenja",
+       "en": "half-value thickness",
+       "it": "spessore di dimezzamento",
+       "fr": "couche de demi-atténuation",
+       "es": "espesor de semirreducción",
+       "de": "Halbwertsdicke",
+       "pt": "camada semirredutora",
+       "ru": "слой половинного ослабления"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.009,
+      "jed": "cm",
+      "poz": true
+     },
+     "mu": {
+      "oznaka": "\\mu",
+      "naziv": {
+       "sr": "koeficijent slabljenja",
+       "en": "attenuation coefficient",
+       "it": "coefficiente di attenuazione",
+       "fr": "coefficient d’atténuation",
+       "es": "coeficiente de atenuación",
+       "de": "Schwächungskoeffizient",
+       "pt": "coeficiente de atenuação",
+       "ru": "коэффициент ослабления"
+      },
+      "vrsta": "koefSlabljenja",
+      "jed": "1/cm",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "j = j_0 \\cdot 2^{-x/d_{1/2}}",
+      "trazi": "j",
+      "resenja": {
+       "j": "j0*pow(2, -x/dp)",
+       "j0": "j*pow(2, x/dp)",
+       "x": "-dp*ln(j/j0)/ln(2)",
+       "dp": "-x*ln(2)/ln(j/j0)"
+      }
+     },
+     {
+      "latex": "d_{1/2} = \\dfrac{\\ln 2}{\\mu}",
+      "trazi": "mu",
+      "resenja": {
+       "mu": "ln(2)/dp",
+       "dp": "ln(2)/mu"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "energija_veze",
+   "simbol": "mc²",
+   "naziv": {
+    "sr": "Energija veze i nuklearne reakcije",
+    "en": "Binding energy and nuclear reactions",
+    "it": "Energia di legame e reazioni nucleari",
+    "fr": "Énergie de liaison et réactions nucléaires",
+    "es": "Energía de enlace y reacciones nucleares",
+    "de": "Bindungsenergie und Kernreaktionen",
+    "pt": "Energia de ligação e reações nucleares",
+    "ru": "Энергия связи и ядерные реакции"
+   },
+   "opis": {
+    "sr": "E = mc², defekt mase",
+    "en": "E = mc², mass defect",
+    "it": "E = mc², difetto di massa",
+    "fr": "E = mc², défaut de masse",
+    "es": "E = mc², defecto de masa",
+    "de": "E = mc², Massendefekt",
+    "pt": "E = mc², defeito de massa",
+    "ru": "E = mc², дефект массы"
+   },
+   "kljucne_reci": {
+    "sr": "energija veze defekt mase e mc2 ajnstajn nuklearna reakcija fisija fuzija jezgro",
+    "en": "binding energy mass defect e mc2 einstein nuclear reaction fission fusion nucleus",
+    "it": "energia di legame difetto di massa e mc2 reazione nucleare fissione fusione",
+    "fr": "energie de liaison defaut de masse e mc2 reaction nucleaire fission fusion",
+    "es": "energia de enlace defecto de masa e mc2 reaccion nuclear fision fusion",
+    "de": "bindungsenergie massendefekt e mc2 kernreaktion kernspaltung kernfusion",
+    "pt": "energia de ligacao defeito de massa e mc2 reacao nuclear fissao fusao",
+    "ru": "энергия связи дефект массы e mc2 ядерная реакция деление синтез"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Ekvivalencija mase i energije",
+      "en": "Mass–energy equivalence",
+      "it": "Equivalenza massa-energia",
+      "fr": "Équivalence masse-énergie",
+      "es": "Equivalencia masa-energía",
+      "de": "Äquivalenz von Masse und Energie",
+      "pt": "Equivalência massa-energia",
+      "ru": "Эквивалентность массы и энергии"
+     },
+     "latex": "E = m c^2, \\quad 1\\ \\mathrm{u} \\cdot c^2 = 931{,}5\\ \\mathrm{MeV}",
+     "objasnjenje": {
+      "sr": "Mala razlika u masi odgovara velikoj energiji.",
+      "en": "A small mass difference corresponds to a large energy.",
+      "it": "Una piccola differenza di massa corrisponde a molta energia.",
+      "fr": "Une petite différence de masse correspond à une grande énergie.",
+      "es": "Una pequeña diferencia de masa corresponde a mucha energía.",
+      "de": "Ein kleiner Massenunterschied entspricht großer Energie.",
+      "pt": "Uma pequena diferença de massa corresponde a muita energia.",
+      "ru": "Малой разнице масс соответствует большая энергия."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Energija veze jezgra",
+      "en": "Nuclear binding energy",
+      "it": "Energia di legame del nucleo",
+      "fr": "Énergie de liaison du noyau",
+      "es": "Energía de enlace del núcleo",
+      "de": "Bindungsenergie des Kerns",
+      "pt": "Energia de ligação do núcleo",
+      "ru": "Энергия связи ядра"
+     },
+     "latex": "W_v = Z m_p c^2 + N m_n c^2 - m_j c^2",
+     "objasnjenje": {
+      "sr": "Z je broj protona, N broj neutrona, mⱼ masa jezgra. Helijum-4: oko 28,3 MeV.",
+      "en": "Z is the number of protons, N of neutrons, mⱼ the nuclear mass. Helium-4: about 28.3 MeV.",
+      "it": "Z protoni, N neutroni, mⱼ massa del nucleo. Elio-4: circa 28,3 MeV.",
+      "fr": "Z protons, N neutrons, mⱼ masse du noyau. Hélium 4 : environ 28,3 MeV.",
+      "es": "Z protones, N neutrones, mⱼ masa del núcleo. Helio-4: unos 28,3 MeV.",
+      "de": "Z Protonen, N Neutronen, mⱼ Kernmasse. Helium-4: etwa 28,3 MeV.",
+      "pt": "Z prótons, N nêutrons, mⱼ massa do núcleo. Hélio-4: cerca de 28,3 MeV.",
+      "ru": "Z — число протонов, N — нейтронов, mⱼ — масса ядра. Гелий-4: около 28,3 МэВ."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Energija reakcije",
+      "en": "Reaction energy",
+      "it": "Energia della reazione",
+      "fr": "Énergie de réaction",
+      "es": "Energía de la reacción",
+      "de": "Reaktionsenergie",
+      "pt": "Energia da reação",
+      "ru": "Энергия реакции"
+     },
+     "latex": "W_r = m_j c^2 - m_A c^2 - m_B c^2",
+     "objasnjenje": {
+      "sr": "Za raspad jezgra j na A i B; pozitivna vrednost znači da se energija oslobađa.",
+      "en": "For a nucleus j splitting into A and B; a positive value means energy is released.",
+      "it": "Per un nucleo j che si scinde in A e B; un valore positivo indica energia liberata.",
+      "fr": "Pour un noyau j se scindant en A et B ; une valeur positive signifie de l’énergie libérée.",
+      "es": "Para un núcleo j que se divide en A y B; un valor positivo significa energía liberada.",
+      "de": "Für den Zerfall eines Kerns j in A und B; ein positiver Wert bedeutet freigesetzte Energie.",
+      "pt": "Para um núcleo j que se divide em A e B; valor positivo significa energia liberada.",
+      "ru": "Для распада ядра j на A и B; положительное значение — энергия выделяется."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Em": {
+      "oznaka": "E",
+      "naziv": {
+       "sr": "energija",
+       "en": "energy",
+       "it": "energia",
+       "fr": "énergie",
+       "es": "energía",
+       "de": "Energie",
+       "pt": "energia",
+       "ru": "энергия"
+      },
+      "vrsta": "energija",
+      "jed": "MeV"
+     },
+     "dm": {
+      "oznaka": "\\Delta m",
+      "naziv": {
+       "sr": "defekt mase (razlika masa)",
+       "en": "mass defect (mass difference)",
+       "it": "difetto di massa",
+       "fr": "défaut de masse",
+       "es": "defecto de masa",
+       "de": "Massendefekt",
+       "pt": "defeito de massa",
+       "ru": "дефект массы"
+      },
+      "vrsta": "masa",
+      "pocetna": 5.0314333788276e-29,
+      "jed": "u"
+     },
+     "c": {
+      "oznaka": "c",
+      "naziv": {
+       "sr": "brzina svetlosti",
+       "en": "speed of light",
+       "it": "velocità della luce",
+       "fr": "vitesse de la lumière",
+       "es": "velocidad de la luz",
+       "de": "Lichtgeschwindigkeit",
+       "pt": "velocidade da luz",
+       "ru": "скорость света"
+      },
+      "vrsta": "brzina",
+      "pocetna": 299792458,
+      "poz": true
+     },
+     "Wv": {
+      "oznaka": "W_v",
+      "naziv": {
+       "sr": "energija veze",
+       "en": "binding energy",
+       "it": "energia di legame",
+       "fr": "énergie de liaison",
+       "es": "energía de enlace",
+       "de": "Bindungsenergie",
+       "pt": "energia de ligação",
+       "ru": "энергия связи"
+      },
+      "vrsta": "energija",
+      "jed": "MeV"
+     },
+     "Z": {
+      "oznaka": "Z",
+      "naziv": {
+       "sr": "broj protona",
+       "en": "number of protons",
+       "it": "numero di protoni",
+       "fr": "nombre de protons",
+       "es": "número de protones",
+       "de": "Protonenzahl",
+       "pt": "número de prótons",
+       "ru": "число протонов"
+      },
+      "vrsta": "broj",
+      "pocetna": 2,
+      "nenegativna": true
+     },
+     "Nn": {
+      "oznaka": "N",
+      "naziv": {
+       "sr": "broj neutrona",
+       "en": "number of neutrons",
+       "it": "numero di neutroni",
+       "fr": "nombre de neutrons",
+       "es": "número de neutrones",
+       "de": "Neutronenzahl",
+       "pt": "número de nêutrons",
+       "ru": "число нейтронов"
+      },
+      "vrsta": "broj",
+      "pocetna": 2,
+      "nenegativna": true
+     },
+     "mp": {
+      "oznaka": "m_p",
+      "naziv": {
+       "sr": "masa protona",
+       "en": "proton mass",
+       "it": "massa del protone",
+       "fr": "masse du proton",
+       "es": "masa del protón",
+       "de": "Protonenmasse",
+       "pt": "massa do próton",
+       "ru": "масса протона"
+      },
+      "vrsta": "masa",
+      "pocetna": 1.6726219264579424e-27,
+      "jed": "u",
+      "poz": true
+     },
+     "mn": {
+      "oznaka": "m_n",
+      "naziv": {
+       "sr": "masa neutrona",
+       "en": "neutron mass",
+       "it": "massa del neutrone",
+       "fr": "masse du neutron",
+       "es": "masa del neutrón",
+       "de": "Neutronenmasse",
+       "pt": "massa do nêutron",
+       "ru": "масса нейтрона"
+      },
+      "vrsta": "masa",
+      "pocetna": 1.6749275005665423e-27,
+      "jed": "u",
+      "poz": true
+     },
+     "mj": {
+      "oznaka": "m_j",
+      "naziv": {
+       "sr": "masa jezgra",
+       "en": "mass of the nucleus",
+       "it": "massa del nucleo",
+       "fr": "masse du noyau",
+       "es": "masa del núcleo",
+       "de": "Kernmasse",
+       "pt": "massa do núcleo",
+       "ru": "масса ядра"
+      },
+      "vrsta": "masa",
+      "pocetna": 6.644657344965176e-27,
+      "jed": "u",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "E = \\Delta m\\, c^2",
+      "trazi": "Em",
+      "resenja": {
+       "Em": "dm*c*c",
+       "dm": "Em/(c*c)"
+      },
+      "promenljive": [
+       "Em",
+       "dm",
+       "c"
+      ]
+     },
+     {
+      "latex": "W_v = (Z m_p + N m_n - m_j)\\, c^2",
+      "trazi": "Wv",
+      "resenja": {
+       "Wv": "(Z*mp + Nn*mn - mj)*c*c",
+       "mj": "Z*mp + Nn*mn - Wv/(c*c)"
+      },
+      "napomene": {
+       "Wv": {
+        "sr": "Podrazumevano: jezgro helijuma-4 (2 protona, 2 neutrona).",
+        "en": "Default: helium-4 nucleus (2 protons, 2 neutrons).",
+        "it": "Predefinito: nucleo di elio-4 (2 protoni, 2 neutroni).",
+        "fr": "Par défaut : noyau d’hélium 4 (2 protons, 2 neutrons).",
+        "es": "Por defecto: núcleo de helio-4 (2 protones, 2 neutrones).",
+        "de": "Voreinstellung: Helium-4-Kern (2 Protonen, 2 Neutronen).",
+        "pt": "Padrão: núcleo de hélio-4 (2 prótons, 2 nêutrons).",
+        "ru": "По умолчанию: ядро гелия-4 (2 протона, 2 нейтрона)."
+       }
+      },
+      "promenljive": [
+       "Wv",
+       "mj",
+       "Z",
+       "mp",
+       "Nn",
+       "mn",
+       "c"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}
