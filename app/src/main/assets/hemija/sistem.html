@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="../tema/tema.css">
+<link rel="stylesheet" href="hemija.css">
+</head>
+<body>
+<main id="sadrzaj"></main>
+<script src="hemija.js"></script>
+<script>
+// Periodni sistem: ?jezik=sr&tamno=0&boja=%2300838F
+(function () {
+  var p = new URLSearchParams(location.search);
+  var jezik = p.get('jezik') || 'en';
+  var koren = document.documentElement;
+  koren.lang = jezik;
+  if (p.get('tamno') === '1') koren.classList.add('tamno');
+  koren.style.setProperty('--akcenat', p.get('boja') || '#00838F');
+  fetch('../oblasti/hemija.json')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      Hemija.prikaziSistem(document.getElementById('sadrzaj'), d.teme, jezik);
+      // Pamti horizontalni položaj tabele pri povratku sa kartice elementa
+      var okvir = document.querySelector('.ps-okvir');
+      try { okvir.scrollLeft = Number(sessionStorage.getItem('ps-x')) || 0; } catch (e) { }
+      okvir.addEventListener('scroll', function () {
+        try { sessionStorage.setItem('ps-x', okvir.scrollLeft); } catch (e) { }
+      });
+    });
+})();
+</script>
+</body>
+</html>

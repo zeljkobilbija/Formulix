@@ -1,0 +1,142 @@
+/* Boje vrsta elemenata (svetla i tamna tema) */
+:root { --ps-tekst: #16181D; }
+html.tamno { --ps-tekst: #EEF0F4; }
+.v-alkalni { --boja-vrste: hsl(8, 85%, 84%); }
+.v-zemnoalkalni { --boja-vrste: hsl(33, 90%, 80%); }
+.v-prelazni { --boja-vrste: hsl(50, 85%, 78%); }
+.v-ostali_metali { --boja-vrste: hsl(95, 50%, 80%); }
+.v-metaloid { --boja-vrste: hsl(160, 45%, 78%); }
+.v-nemetal { --boja-vrste: hsl(200, 75%, 84%); }
+.v-halogen { --boja-vrste: hsl(225, 70%, 87%); }
+.v-plemeniti_gas { --boja-vrste: hsl(268, 65%, 87%); }
+.v-lantanoid { --boja-vrste: hsl(310, 55%, 87%); }
+.v-aktinoid { --boja-vrste: hsl(340, 60%, 86%); }
+html.tamno .v-alkalni { --boja-vrste: hsl(8, 38%, 32%); }
+html.tamno .v-zemnoalkalni { --boja-vrste: hsl(33, 40%, 30%); }
+html.tamno .v-prelazni { --boja-vrste: hsl(50, 35%, 28%); }
+html.tamno .v-ostali_metali { --boja-vrste: hsl(95, 28%, 28%); }
+html.tamno .v-metaloid { --boja-vrste: hsl(160, 30%, 27%); }
+html.tamno .v-nemetal { --boja-vrste: hsl(200, 35%, 30%); }
+html.tamno .v-halogen { --boja-vrste: hsl(225, 32%, 34%); }
+html.tamno .v-plemeniti_gas { --boja-vrste: hsl(268, 30%, 34%); }
+html.tamno .v-lantanoid { --boja-vrste: hsl(310, 28%, 32%); }
+html.tamno .v-aktinoid { --boja-vrste: hsl(340, 30%, 32%); }
+
+/* Periodni sistem */
+.ps-okvir {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 -16px;
+  padding: 2px 16px 8px;
+}
+.ps-tabela {
+  display: grid;
+  grid-template-columns: 18px repeat(18, 48px);
+  grid-template-rows: 18px repeat(7, 54px) 12px repeat(2, 54px);
+  gap: 3px;
+  width: max-content;
+}
+.ps-oznaka {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--tekst2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ps-polje {
+  background: var(--boja-vrste);
+  color: var(--ps-tekst);
+  border-radius: 7px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  line-height: 1;
+  transition: opacity .2s, transform .1s;
+  -webkit-tap-highlight-color: transparent;
+}
+.ps-polje:active { transform: scale(.94); }
+.ps-z { position: absolute; top: 4px; left: 5px; font-size: 9.5px; opacity: .8; }
+.ps-s { font-size: 19px; font-weight: 800; margin-top: 6px; }
+.ps-m { font-size: 8.5px; opacity: .85; margin-top: 3px; }
+.ps-mesto { font-size: 10px; font-weight: 700; }
+.ps-polje.ugaseno { opacity: .18; }
+
+.ps-cipovi { display: flex; flex-wrap: wrap; gap: 7px; }
+.ps-cip {
+  border: 2px solid transparent;
+  border-radius: 999px;
+  padding: 7px 12px;
+  background: var(--boja-vrste);
+  color: var(--ps-tekst);
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 600;
+}
+.ps-cip.aktivan { border-color: var(--tekst); }
+.izvor { margin: 4px 2px 0; font-size: 12px; color: var(--tekst2); }
+
+/* Kartica elementa */
+.el-glava { flex-direction: row; align-items: center; gap: 16px; }
+.el-polje {
+  flex: 0 0 auto;
+  width: 96px;
+  height: 104px;
+  border-radius: 16px;
+  background: var(--boja-vrste);
+  color: var(--ps-tekst);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+.el-z { position: absolute; top: 8px; left: 10px; font-size: 14px; font-weight: 700; opacity: .85; }
+.el-s { font-size: 42px; font-weight: 800; margin-top: 8px; }
+.el-m { font-size: 12.5px; margin-top: 6px; opacity: .9; }
+.el-info { min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.el-ime { font-size: 24px; font-weight: 800; line-height: 1.15; overflow-wrap: anywhere; }
+.el-vrsta {
+  align-self: flex-start;
+  background: var(--boja-vrste);
+  color: var(--ps-tekst);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.el-poz { font-size: 14px; color: var(--tekst2); }
+.el-podaci { margin: 0; display: flex; flex-direction: column; }
+.el-red {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 9px 0;
+  border-top: 1px solid var(--ivica);
+}
+.el-red:first-child { border-top: none; padding-top: 2px; }
+.el-red dt { color: var(--tekst2); font-size: 14.5px; }
+.el-red dd { margin: 0; font-size: 15.5px; font-weight: 700; text-align: right; overflow-wrap: anywhere; }
+.el-napomena { margin: -4px 0 6px; font-size: 12.5px; line-height: 1.4; color: var(--tekst2); }
+.el-nav { display: flex; gap: 10px; }
+.el-nav > * { flex: 1 1 0; min-width: 0; }
+.el-nav-dugme {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: var(--povrsina);
+  box-shadow: var(--senka);
+  color: var(--tekst);
+  text-decoration: none;
+}
+.el-nav-dugme.desno { justify-content: flex-end; text-align: right; }
+.el-nav-strela { font-size: 20px; color: var(--akcenat-tekst, var(--akcenat)); }
+.el-nav-tekst { display: flex; flex-direction: column; min-width: 0; }
+.el-nav-tekst b { font-size: 17px; }
+.el-nav-tekst span { font-size: 12.5px; color: var(--tekst2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
