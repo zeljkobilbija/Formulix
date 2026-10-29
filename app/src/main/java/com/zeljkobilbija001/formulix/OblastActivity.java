@@ -51,5 +51,7 @@ public class OblastActivity extends AppCompatActivity {
 
         findViewById(R.id.uskoro).setVisibility(teme.isEmpty() ? View.VISIBLE : View.GONE);
         lista.setVisibility(teme.isEmpty() ? View.GONE : View.VISIBLE);
+
+        Reklame.prikaziBaner(this, findViewById(R.id.reklamaKontejner));
     }
 }

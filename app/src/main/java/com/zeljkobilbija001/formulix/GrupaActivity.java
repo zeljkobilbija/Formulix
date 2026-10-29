@@ -44,5 +44,7 @@ public class GrupaActivity extends AppCompatActivity {
         lista.setAdapter(new OblastAdapter(Oblasti.podoblasti(grupa.id),
                 o -> startActivity(OblastActivity.namera(this, o.id))));
         findViewById(R.id.uskoro).setVisibility(View.GONE);
+
+        Reklame.prikaziBaner(this, findViewById(R.id.reklamaKontejner));
     }
 }

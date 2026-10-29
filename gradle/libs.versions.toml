@@ -10,6 +10,8 @@ constraintlayout = "2.2.2"
 coreSplashscreen = "1.0.1"
 recyclerview = "1.4.0"
 webkit = "1.12.1"
+playServicesAds = "25.5.0"
+ump = "4.0.0"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -22,6 +24,8 @@ constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayo
 core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreen" }
 recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
 webkit = { group = "androidx.webkit", name = "webkit", version.ref = "webkit" }
+play-services-ads = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "playServicesAds" }
+ump = { group = "com.google.android.ump", name = "user-messaging-platform", version.ref = "ump" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

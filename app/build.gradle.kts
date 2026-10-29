@@ -40,6 +40,8 @@ dependencies {
     implementation(libs.core.splashscreen)
     implementation(libs.recyclerview)
     implementation(libs.webkit)
+    implementation(libs.play.services.ads)
+    implementation(libs.ump)
     testImplementation(libs.junit)
     androidTestImplementation(libs.espresso.core)
     androidTestImplementation(libs.ext.junit)

@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView naslovOblasti;
     private TextView nemaRezultata;
     private ImageButton obrisi;
+    private ImageButton dugmePrivatnosti;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +72,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         obrisi.setOnClickListener(v -> pretraga.setText(""));
+
+        // Privatnost (GDPR) i baner: prozor za saglasnost se prikazuje samo kad je potreban
+        dugmePrivatnosti = findViewById(R.id.dugmePrivatnosti);
+        dugmePrivatnosti.setOnClickListener(v ->
+                Reklame.prikaziPodesavanjaPrivatnosti(this, this::posleSaglasnosti));
+        Reklame.prikupiSaglasnost(this, this::posleSaglasnosti);
+    }
+
+    private void posleSaglasnosti() {
+        Reklame.prikaziBaner(this, findViewById(R.id.reklamaKontejner));
+        dugmePrivatnosti.setVisibility(Reklame.trebaDugmePrivatnosti(this) ? View.VISIBLE : View.GONE);
     }
 
     /**

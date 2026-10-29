@@ -99,6 +99,8 @@ public class TemaActivity extends AppCompatActivity {
         } else {
             web.restoreState(savedInstanceState);
         }
+
+        Reklame.prikaziBaner(this, findViewById(R.id.reklamaKontejner));
     }
 
     @Override
