@@ -29,7 +29,9 @@ public final class Oblasti {
             new Oblast("kombinatorika", R.string.oblast_kombinatorika, R.string.opis_kombinatorika,
                     "n!", 0, R.color.kombinatorika),
             new Oblast("fizika", R.string.oblast_fizika, R.string.opis_fizika,
-                    "", R.drawable.ic_oblast_atom, R.color.fizika, true)
+                    "", R.drawable.ic_oblast_atom, R.color.fizika, true),
+            new Oblast(Hemija.OBLAST, R.string.oblast_hemija, R.string.opis_hemija,
+                    "", R.drawable.ic_oblast_hemija, R.color.hemija)
     ));
 
     /** Oblasti fizike (ekran koji otvara kartica "Fizika"). Sadržaj: assets/oblasti/<id>.json */

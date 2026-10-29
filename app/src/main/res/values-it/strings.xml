@@ -45,6 +45,9 @@
     <string name="opis_moderna_fizika">Fotoni, atomi, nuclei</string>
     <string name="oblast_konstante">Costanti</string>
     <string name="opis_konstante">Costanti fisiche e dati</string>
+    <string name="oblast_hemija">Chimica</string>
+    <string name="opis_hemija">Tavola periodica</string>
+    <string name="periodni_sistem">Tavola periodica degli elementi</string>
     <string name="rezultati">Risultati</string>
     <string name="nazad">Indietro</string>
     <string name="uskoro_oblast">Le formule di questo argomento arriveranno presto.</string>

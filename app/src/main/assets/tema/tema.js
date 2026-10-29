@@ -204,18 +204,18 @@
   var JED = {
     bez: [['', 1]],
     duzina: [['m', 1], ['km', 1e3], ['cm', 1e-2], ['mm', 1e-3]],
-    vreme: [['s', 1], ['min', 60], ['h', 3600], ['ms', 1e-3], ['µs', 1e-6]],
+    vreme: [['s', 1], ['min', 60], ['h', 3600], ['ms', 1e-3], ['µs', 1e-6], ['dan', 86400], ['god', 3.15576e7]],
     brzina: [['m/s', 1], ['cm/s', 1e-2], ['km/h', 1 / 3.6]],
     ubrzanje: [['m/s²', 1], ['cm/s²', 1e-2]],
     ugao: [['°', PI / 180], ['rad', 1], ['obr', 2 * PI]],
     ugaonaBrzina: [['rad/s', 1], ['°/s', PI / 180], ['obr/min', 2 * PI / 60]],
     ugaonoUbrzanje: [['rad/s²', 1], ['°/s²', PI / 180]],
-    frekvencija: [['Hz', 1], ['obr/min', 1 / 60], ['kHz', 1e3], ['MHz', 1e6], ['GHz', 1e9]],
+    frekvencija: [['Hz', 1], ['obr/min', 1 / 60], ['kHz', 1e3], ['MHz', 1e6], ['GHz', 1e9], ['THz', 1e12]],
     povrsina: [['m²', 1], ['dm²', 1e-2], ['cm²', 1e-4], ['mm²', 1e-6]],
     zapremina: [['m³', 1], ['L', 1e-3], ['cm³', 1e-6], ['mL', 1e-6]],
     zapreminskiProtok: [['m³/s', 1], ['L/s', 1e-3], ['L/min', 1e-3 / 60], ['m³/h', 1 / 3600]],
     maseniProtok: [['kg/s', 1], ['g/s', 1e-3], ['kg/h', 1 / 3600], ['t/h', 1 / 3.6]],
-    masa: [['kg', 1], ['g', 1e-3], ['t', 1e3]],
+    masa: [['kg', 1], ['g', 1e-3], ['t', 1e3], ['u', 1.66053906892e-27]],
     gustina: [['kg/m³', 1], ['g/cm³', 1e3], ['kg/L', 1e3]],
     temperatura: [['K', 1, 0], ['°C', 1, 273.15]],
     sila: [['N', 1], ['kN', 1e3], ['mN', 1e-3], ['µN', 1e-6]],
@@ -225,7 +225,7 @@
     torzija: [['N·m/rad', 1]],
     impuls: [['kg·m/s', 1], ['N·s', 1]],
     gravKonst: [['N·m²/kg²', 1]],
-    energija: [['J', 1], ['mJ', 1e-3], ['kJ', 1e3], ['MJ', 1e6], ['Wh', 3600], ['kWh', 3.6e6], ['cal', 4.184], ['kcal', 4184], ['eV', 1.602176634e-19]],
+    energija: [['J', 1], ['mJ', 1e-3], ['kJ', 1e3], ['MJ', 1e6], ['Wh', 3600], ['kWh', 3.6e6], ['cal', 4.184], ['kcal', 4184], ['eV', 1.602176634e-19], ['keV', 1.602176634e-16], ['MeV', 1.602176634e-13]],
     snaga: [['W', 1], ['kW', 1e3], ['MW', 1e6]],
     udeo: [['%', 0.01]],
     viskoznost: [['Pa·s', 1], ['mPa·s', 1e-3]],
@@ -257,14 +257,23 @@
     permeabilnost: [['N/A²', 1]],
     povrsinaPetlje: [['m²', 1], ['cm²', 1e-4]],
     brzinaPromene: [['A/s', 1]],
-    talasnaDuzina: [['nm', 1e-9], ['µm', 1e-6], ['mm', 1e-3], ['cm', 1e-2], ['m', 1], ['km', 1e3]],
+    talasnaDuzina: [['nm', 1e-9], ['pm', 1e-12], ['µm', 1e-6], ['mm', 1e-3], ['cm', 1e-2], ['m', 1], ['km', 1e3]],
     intenzitet: [['W/m²', 1], ['kW/m²', 1e3], ['mW/cm²', 10]],
     optickaJacina: [['dpt', 1]],
     stefan: [['W/(m²·K⁴)', 1]],
-    wien: [['m·K', 1]]
+    wien: [['m·K', 1]],
+    plank: [['J·s', 1], ['eV·s', 1.602176634e-19]],
+    aktivnost: [['Bq', 1], ['kBq', 1e3], ['MBq', 1e6], ['GBq', 1e9], ['Ci', 3.7e10]],
+    konstRaspada: [['1/s', 1], ['1/h', 1 / 3600], ['1/dan', 1 / 86400], ['1/god', 1 / 3.15576e7]],
+    koefSlabljenja: [['1/m', 1], ['1/cm', 100], ['1/mm', 1000]],
+    broj: [['', 1]]
   };
   var JED_NATPIS = {
     obr: { sr: 'obr', en: 'rev', it: 'giri', fr: 'tr', es: 'rev', de: 'U', pt: 'rot', ru: 'об' },
+    dan: { sr: 'dan', en: 'd', it: 'g', fr: 'j', es: 'd', de: 'd', pt: 'd', ru: 'сут' },
+    god: { sr: 'god', en: 'yr', it: 'anni', fr: 'an', es: 'años', de: 'a', pt: 'anos', ru: 'лет' },
+    '1/dan': { sr: '1/dan', en: '1/d', it: '1/g', fr: '1/j', es: '1/d', de: '1/d', pt: '1/d', ru: '1/сут' },
+    '1/god': { sr: '1/god', en: '1/yr', it: '1/anno', fr: '1/an', es: '1/año', de: '1/a', pt: '1/ano', ru: '1/год' },
     'obr/min': { sr: 'obr/min', en: 'rpm', it: 'giri/min', fr: 'tr/min', es: 'rpm', de: 'U/min', pt: 'rpm', ru: 'об/мин' }
   };
   var JED_RU = { m: 'м', km: 'км', cm: 'см', mm: 'мм', s: 'с', min: 'мин', h: 'ч', ms: 'мс', 'µs': 'мкс', 'cm/s': 'см/с',
@@ -288,7 +297,8 @@
     T: 'Тл', mT: 'мТл', 'µT': 'мкТл', G: 'Гс', Wb: 'Вб', mWb: 'мВб', 'µWb': 'мкВб', H: 'Гн', mH: 'мГн', 'µH': 'мкГн',
     'N/A²': 'Н/А²', 'A/s': 'А/с',
     MHz: 'МГц', GHz: 'ГГц', nm: 'нм', 'µm': 'мкм', 'W/m²': 'Вт/м²', 'kW/m²': 'кВт/м²', 'mW/cm²': 'мВт/см²',
-    dpt: 'дптр', 'W/(m²·K⁴)': 'Вт/(м²·К⁴)', 'm·K': 'м·К' };
+    dpt: 'дптр', THz: 'ТГц', pm: 'пм', keV: 'кэВ', MeV: 'МэВ', u: 'а.е.м.', 'eV·s': 'эВ·с',
+    Bq: 'Бк', kBq: 'кБк', MBq: 'МБк', GBq: 'ГБк', Ci: 'Ки', '1/s': '1/с', '1/h': '1/ч', '1/m': '1/м', '1/cm': '1/см', '1/mm': '1/мм', 'W/(m²·K⁴)': 'Вт/(м²·К⁴)', 'm·K': 'м·К' };
   function natpisJed(id) {
     if (JED_NATPIS[id]) return tekst(JED_NATPIS[id]);
     if (JEZIK === 'ru' && JED_RU[id]) return JED_RU[id];
@@ -650,6 +660,11 @@
       var tema = (d.teme || []).filter(function (t) { return t.id === TEMA; })[0];
       if (!tema) return greska();
       document.title = tekst(tema.naziv);
+      if (tema.element && window.Hemija) {
+        // Hemija: kartica elementa periodnog sistema
+        Hemija.prikaziElement(main, tema, d.teme, JEZIK, dodaj);
+        return;
+      }
       prikaziFormule(tema);
       uklopi();
       if (document.fonts && document.fonts.ready) document.fonts.ready.then(uklopi);

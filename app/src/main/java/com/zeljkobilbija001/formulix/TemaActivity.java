@@ -81,7 +81,14 @@ public class TemaActivity extends AppCompatActivity {
             @Override
             public boolean shouldOverrideUrlLoading(@NonNull WebView view,
                                                     @NonNull WebResourceRequest request) {
-                return true; // stranica nema linkove ka spolja
+                // Kartica elementa: strelice ka prethodnom/sledećem elementu (/element/<Z>)
+                String z = Hemija.atomskiBroj(request.getUrl());
+                if (z != null) {
+                    startActivity(namera(TemaActivity.this, Hemija.OBLAST, z));
+                    finish();
+                    overridePendingTransition(0, 0);
+                }
+                return true; // ostale linkove ne otvaramo
             }
         });
 

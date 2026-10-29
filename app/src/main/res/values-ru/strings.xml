@@ -45,6 +45,9 @@
     <string name="opis_moderna_fizika">Фотоны, атомы, ядра</string>
     <string name="oblast_konstante">Константы</string>
     <string name="opis_konstante">Физические постоянные и данные</string>
+    <string name="oblast_hemija">Химия</string>
+    <string name="opis_hemija">Периодическая система</string>
+    <string name="periodni_sistem">Периодическая система элементов</string>
     <string name="rezultati">Результаты</string>
     <string name="nazad">Назад</string>
     <string name="uskoro_oblast">Формулы этого раздела скоро появятся.</string>

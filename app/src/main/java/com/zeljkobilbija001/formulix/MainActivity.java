@@ -123,7 +123,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void otvoriOblast(Oblast o) {
-        if (o.grupa) startActivity(GrupaActivity.namera(this, o.id));
+        if (Hemija.OBLAST.equals(o.id)) startActivity(SistemActivity.namera(this));
+        else if (o.grupa) startActivity(GrupaActivity.namera(this, o.id));
         else startActivity(OblastActivity.namera(this, o.id));
     }
 }

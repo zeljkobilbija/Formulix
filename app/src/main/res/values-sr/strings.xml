@@ -45,6 +45,9 @@
     <string name="opis_moderna_fizika">Fotoni, atomi, jezgra</string>
     <string name="oblast_konstante">Konstante</string>
     <string name="opis_konstante">Fizičke konstante i podaci</string>
+    <string name="oblast_hemija">Hemija</string>
+    <string name="opis_hemija">Periodni sistem</string>
+    <string name="periodni_sistem">Periodni sistem elemenata</string>
     <string name="rezultati">Rezultati</string>
     <string name="nazad">Nazad</string>
     <string name="uskoro_oblast">Formule za ovu oblast stižu uskoro.</string>

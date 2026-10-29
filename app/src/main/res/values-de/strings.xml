@@ -45,6 +45,9 @@
     <string name="opis_moderna_fizika">Photonen, Atome, Kerne</string>
     <string name="oblast_konstante">Konstanten</string>
     <string name="opis_konstante">Naturkonstanten und Daten</string>
+    <string name="oblast_hemija">Chemie</string>
+    <string name="opis_hemija">Periodensystem</string>
+    <string name="periodni_sistem">Periodensystem der Elemente</string>
     <string name="rezultati">Ergebnisse</string>
     <string name="nazad">Zurück</string>
     <string name="uskoro_oblast">Die Formeln für dieses Thema folgen bald.</string>

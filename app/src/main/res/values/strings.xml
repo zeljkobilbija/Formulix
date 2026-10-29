@@ -46,6 +46,9 @@
     <string name="opis_moderna_fizika">Photons, atoms, nuclei</string>
     <string name="oblast_konstante">Constants</string>
     <string name="opis_konstante">Physical constants and data</string>
+    <string name="oblast_hemija">Chemistry</string>
+    <string name="opis_hemija">Periodic table</string>
+    <string name="periodni_sistem">Periodic table of elements</string>
     <string name="rezultati">Results</string>
     <string name="nazad">Back</string>
     <string name="uskoro_oblast">Formulas for this topic are coming soon.</string>
