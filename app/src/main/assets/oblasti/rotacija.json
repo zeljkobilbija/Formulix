@@ -1,0 +1,1529 @@
+{
+ "oblast": "rotacija",
+ "teme": [
+  {
+   "id": "momenti_inercije",
+   "simbol": "I",
+   "naziv": {
+    "sr": "Momenti inercije",
+    "en": "Moments of inertia",
+    "it": "Momenti d’inerzia",
+    "fr": "Moments d’inertie",
+    "es": "Momentos de inercia",
+    "de": "Trägheitsmomente",
+    "pt": "Momentos de inércia",
+    "ru": "Моменты инерции"
+   },
+   "opis": {
+    "sr": "Štap, valjak, kugla, prsten",
+    "en": "Rod, cylinder, sphere, ring",
+    "it": "Asta, cilindro, sfera, anello",
+    "fr": "Tige, cylindre, boule, anneau",
+    "es": "Varilla, cilindro, esfera, aro",
+    "de": "Stab, Zylinder, Kugel, Ring",
+    "pt": "Barra, cilindro, esfera, anel",
+    "ru": "Стержень, цилиндр, шар, кольцо"
+   },
+   "kljucne_reci": {
+    "sr": "moment inercije stap valjak kugla prsten obruc stajnerova teorema paralelne ose",
+    "en": "moment of inertia rod cylinder sphere ring hoop parallel axis theorem steiner",
+    "it": "momento d inerzia asta cilindro sfera anello teorema di steiner huygens",
+    "fr": "moment d inertie tige cylindre boule anneau theoreme de huygens",
+    "es": "momento de inercia varilla cilindro esfera aro teorema de steiner",
+    "de": "tragheitsmoment stab zylinder kugel ring satz von steiner",
+    "pt": "momento de inercia barra cilindro esfera anel teorema de steiner",
+    "ru": "момент инерции стержень цилиндр шар кольцо теорема штейнера"
+   },
+   "crtez": "<svg viewBox=\"0 0 320 150\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect class=\"lik\" x=\"10\" y=\"66\" width=\"60\" height=\"10\" rx=\"3\"/><line class=\"pom\" x1=\"40\" y1=\"30\" x2=\"40\" y2=\"112\"/><path class=\"lik\" d=\"M96,48 L96,100 A22,8 0 0,0 140,100 L140,48\"/><ellipse class=\"lik\" cx=\"118\" cy=\"48\" rx=\"22\" ry=\"8\"/><line class=\"pom\" x1=\"118\" y1=\"24\" x2=\"118\" y2=\"122\"/><circle class=\"lik\" cx=\"196\" cy=\"72\" r=\"26\"/><ellipse class=\"pom\" cx=\"196\" cy=\"72\" rx=\"26\" ry=\"8\"/><line class=\"pom\" x1=\"196\" y1=\"30\" x2=\"196\" y2=\"114\"/><ellipse class=\"ivica\" cx=\"276\" cy=\"72\" rx=\"30\" ry=\"11\" stroke-width=\"5\"/><line class=\"pom\" x1=\"276\" y1=\"30\" x2=\"276\" y2=\"114\"/><text class=\"fun\" x=\"40\" y=\"142\" text-anchor=\"middle\">ml²/12</text><text class=\"fun\" x=\"118\" y=\"142\" text-anchor=\"middle\">mr²/2</text><text class=\"fun\" x=\"196\" y=\"142\" text-anchor=\"middle\">2mr²/5</text><text class=\"fun\" x=\"276\" y=\"142\" text-anchor=\"middle\">mr²</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Štap (osa kroz težište)",
+      "en": "Rod (axis through the centre)",
+      "it": "Asta (asse per il baricentro)",
+      "fr": "Tige (axe passant par le centre)",
+      "es": "Varilla (eje por el centro)",
+      "de": "Stab (Achse durch den Schwerpunkt)",
+      "pt": "Barra (eixo pelo centro)",
+      "ru": "Стержень (ось через центр)"
+     },
+     "latex": {
+      "sr": "I_0 = \\frac{1}{12} m l^2",
+      "en": "I_0 = \\frac{1}{12} m l^2",
+      "it": "I_0 = \\frac{1}{12} m l^2",
+      "fr": "J_0 = \\frac{1}{12} m l^2",
+      "es": "I_0 = \\frac{1}{12} m l^2",
+      "de": "J_0 = \\frac{1}{12} m l^2",
+      "pt": "I_0 = \\frac{1}{12} m l^2",
+      "ru": "J_0 = \\frac{1}{12} m l^2"
+     },
+     "objasnjenje": {
+      "sr": "Osa je normalna na štap. Za osu kroz kraj štapa: ml²/3.",
+      "en": "Axis perpendicular to the rod. For an axis through one end: ml²/3.",
+      "it": "Asse perpendicolare all’asta. Per un asse passante per un estremo: ml²/3.",
+      "fr": "Axe perpendiculaire à la tige. Pour un axe à une extrémité : ml²/3.",
+      "es": "Eje perpendicular a la varilla. Para un eje por un extremo: ml²/3.",
+      "de": "Achse senkrecht zum Stab. Für eine Achse durch ein Ende: ml²/3.",
+      "pt": "Eixo perpendicular à barra. Para um eixo numa extremidade: ml²/3.",
+      "ru": "Ось перпендикулярна стержню. Для оси через конец: ml²/3."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Valjak (geometrijska osa)",
+      "en": "Cylinder (symmetry axis)",
+      "it": "Cilindro (asse di simmetria)",
+      "fr": "Cylindre (axe de symétrie)",
+      "es": "Cilindro (eje de simetría)",
+      "de": "Vollzylinder (Symmetrieachse)",
+      "pt": "Cilindro (eixo de simetria)",
+      "ru": "Цилиндр (ось симметрии)"
+     },
+     "latex": {
+      "sr": "I_0 = \\frac{1}{2} m r^2",
+      "en": "I_0 = \\frac{1}{2} m r^2",
+      "it": "I_0 = \\frac{1}{2} m r^2",
+      "fr": "J_0 = \\frac{1}{2} m r^2",
+      "es": "I_0 = \\frac{1}{2} m r^2",
+      "de": "J_0 = \\frac{1}{2} m r^2",
+      "pt": "I_0 = \\frac{1}{2} m r^2",
+      "ru": "J_0 = \\frac{1}{2} m r^2"
+     },
+     "objasnjenje": {
+      "sr": "Pun valjak ili disk.",
+      "en": "Solid cylinder or disc.",
+      "it": "Cilindro pieno o disco.",
+      "fr": "Cylindre plein ou disque.",
+      "es": "Cilindro macizo o disco.",
+      "de": "Vollzylinder oder Scheibe.",
+      "pt": "Cilindro maciço ou disco.",
+      "ru": "Сплошной цилиндр или диск."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Valjak (osa normalna na geometrijsku)",
+      "en": "Cylinder (axis perpendicular to symmetry axis)",
+      "it": "Cilindro (asse perpendicolare)",
+      "fr": "Cylindre (axe perpendiculaire)",
+      "es": "Cilindro (eje perpendicular)",
+      "de": "Vollzylinder (Querachse)",
+      "pt": "Cilindro (eixo perpendicular)",
+      "ru": "Цилиндр (ось, перпендикулярная оси симметрии)"
+     },
+     "latex": {
+      "sr": "I_0 = \\frac{1}{4} m r^2 + \\frac{1}{12} m h^2",
+      "en": "I_0 = \\frac{1}{4} m r^2 + \\frac{1}{12} m h^2",
+      "it": "I_0 = \\frac{1}{4} m r^2 + \\frac{1}{12} m h^2",
+      "fr": "J_0 = \\frac{1}{4} m r^2 + \\frac{1}{12} m h^2",
+      "es": "I_0 = \\frac{1}{4} m r^2 + \\frac{1}{12} m h^2",
+      "de": "J_0 = \\frac{1}{4} m r^2 + \\frac{1}{12} m h^2",
+      "pt": "I_0 = \\frac{1}{4} m r^2 + \\frac{1}{12} m h^2",
+      "ru": "J_0 = \\frac{1}{4} m r^2 + \\frac{1}{12} m h^2"
+     },
+     "objasnjenje": {
+      "sr": "Osa prolazi kroz težište; h je visina valjka.",
+      "en": "The axis passes through the centre; h is the height of the cylinder.",
+      "it": "L’asse passa per il baricentro; h è l’altezza del cilindro.",
+      "fr": "L’axe passe par le centre ; h est la hauteur du cylindre.",
+      "es": "El eje pasa por el centro; h es la altura del cilindro.",
+      "de": "Die Achse geht durch den Schwerpunkt; h ist die Zylinderhöhe.",
+      "pt": "O eixo passa pelo centro; h é a altura do cilindro.",
+      "ru": "Ось проходит через центр масс; h — высота цилиндра."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Kugla (osa kroz središte)",
+      "en": "Sphere (axis through the centre)",
+      "it": "Sfera (asse per il centro)",
+      "fr": "Boule (axe passant par le centre)",
+      "es": "Esfera (eje por el centro)",
+      "de": "Kugel (Achse durch den Mittelpunkt)",
+      "pt": "Esfera (eixo pelo centro)",
+      "ru": "Шар (ось через центр)"
+     },
+     "latex": {
+      "sr": "I_0 = \\frac{2}{5} m r^2",
+      "en": "I_0 = \\frac{2}{5} m r^2",
+      "it": "I_0 = \\frac{2}{5} m r^2",
+      "fr": "J_0 = \\frac{2}{5} m r^2",
+      "es": "I_0 = \\frac{2}{5} m r^2",
+      "de": "J_0 = \\frac{2}{5} m r^2",
+      "pt": "I_0 = \\frac{2}{5} m r^2",
+      "ru": "J_0 = \\frac{2}{5} m r^2"
+     },
+     "objasnjenje": {
+      "sr": "Puna homogena kugla. Tanka sferna ljuska: 2mr²/3.",
+      "en": "Solid uniform sphere. Thin spherical shell: 2mr²/3.",
+      "it": "Sfera piena omogenea. Guscio sferico sottile: 2mr²/3.",
+      "fr": "Boule pleine homogène. Sphère creuse mince : 2mr²/3.",
+      "es": "Esfera maciza homogénea. Cáscara esférica delgada: 2mr²/3.",
+      "de": "Homogene Vollkugel. Dünne Hohlkugel: 2mr²/3.",
+      "pt": "Esfera maciça homogênea. Casca esférica fina: 2mr²/3.",
+      "ru": "Сплошной однородный шар. Тонкая сфера: 2mr²/3."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Tanak prsten (obruč)",
+      "en": "Thin ring (hoop)",
+      "it": "Anello sottile",
+      "fr": "Anneau mince",
+      "es": "Aro delgado",
+      "de": "Dünner Ring",
+      "pt": "Anel fino",
+      "ru": "Тонкое кольцо"
+     },
+     "latex": {
+      "sr": "I_0 = m r^2, \\quad I_0' = \\frac{1}{2} m r^2",
+      "en": "I_0 = m r^2, \\quad I_0' = \\frac{1}{2} m r^2",
+      "it": "I_0 = m r^2, \\quad I_0' = \\frac{1}{2} m r^2",
+      "fr": "J_0 = m r^2, \\quad J_0' = \\frac{1}{2} m r^2",
+      "es": "I_0 = m r^2, \\quad I_0' = \\frac{1}{2} m r^2",
+      "de": "J_0 = m r^2, \\quad J_0' = \\frac{1}{2} m r^2",
+      "pt": "I_0 = m r^2, \\quad I_0' = \\frac{1}{2} m r^2",
+      "ru": "J_0 = m r^2, \\quad J_0' = \\frac{1}{2} m r^2"
+     },
+     "objasnjenje": {
+      "sr": "Prvo: osa kroz središte, normalna na ravan prstena. Drugo: osa u ravni prstena (duž prečnika).",
+      "en": "First: axis through the centre, perpendicular to the ring. Second: axis along a diameter.",
+      "it": "Prima: asse per il centro, perpendicolare all’anello. Seconda: asse lungo un diametro.",
+      "fr": "Première : axe perpendiculaire au plan de l’anneau. Seconde : axe selon un diamètre.",
+      "es": "Primera: eje perpendicular al aro por su centro. Segunda: eje según un diámetro.",
+      "de": "Erstens: Achse senkrecht zur Ringebene. Zweitens: Achse entlang eines Durchmessers.",
+      "pt": "Primeira: eixo perpendicular ao anel pelo centro. Segunda: eixo ao longo de um diâmetro.",
+      "ru": "Первое — ось перпендикулярна плоскости кольца; второе — ось вдоль диаметра."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Štajnerova teorema",
+      "en": "Parallel axis theorem",
+      "it": "Teorema di Huygens-Steiner",
+      "fr": "Théorème de Huygens",
+      "es": "Teorema de Steiner",
+      "de": "Satz von Steiner",
+      "pt": "Teorema dos eixos paralelos",
+      "ru": "Теорема Штейнера"
+     },
+     "latex": {
+      "sr": "I = I_0 + m d^2",
+      "en": "I = I_0 + m d^2",
+      "it": "I = I_0 + m d^2",
+      "fr": "J = J_0 + m d^2",
+      "es": "I = I_0 + m d^2",
+      "de": "J = J_0 + m d^2",
+      "pt": "I = I_0 + m d^2",
+      "ru": "J = J_0 + m d^2"
+     },
+     "objasnjenje": {
+      "sr": "Moment inercije oko ose paralelne osi kroz težište, na rastojanju d od nje.",
+      "en": "Moment of inertia about an axis parallel to the centre-of-mass axis at distance d.",
+      "it": "Momento d’inerzia rispetto a un asse parallelo a quello baricentrico, a distanza d.",
+      "fr": "Moment d’inertie par rapport à un axe parallèle à l’axe passant par le centre de masse, à la distance d.",
+      "es": "Momento de inercia respecto a un eje paralelo al del centro de masas, a distancia d.",
+      "de": "Trägheitsmoment um eine zur Schwerpunktachse parallele Achse im Abstand d.",
+      "pt": "Momento de inércia em relação a um eixo paralelo ao do centro de massa, à distância d.",
+      "ru": "Момент инерции относительно оси, параллельной оси через центр масс, на расстоянии d."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "I": {
+      "oznaka": {
+       "sr": "I",
+       "en": "I",
+       "it": "I",
+       "fr": "J",
+       "es": "I",
+       "de": "J",
+       "pt": "I",
+       "ru": "J"
+      },
+      "naziv": {
+       "sr": "moment inercije",
+       "en": "moment of inertia",
+       "it": "momento d’inerzia",
+       "fr": "moment d’inertie",
+       "es": "momento de inercia",
+       "de": "Trägheitsmoment",
+       "pt": "momento de inércia",
+       "ru": "момент инерции"
+      },
+      "vrsta": "momentInercije",
+      "poz": true
+     },
+     "I0": {
+      "oznaka": {
+       "sr": "I_0",
+       "en": "I_0",
+       "it": "I_0",
+       "fr": "J_0",
+       "es": "I_0",
+       "de": "J_0",
+       "pt": "I_0",
+       "ru": "J_0"
+      },
+      "naziv": {
+       "sr": "moment inercije oko ose kroz težište",
+       "en": "moment of inertia about the centre-of-mass axis",
+       "it": "momento d’inerzia rispetto al baricentro",
+       "fr": "moment d’inertie par rapport au centre de masse",
+       "es": "momento de inercia respecto al centro de masas",
+       "de": "Trägheitsmoment um die Schwerpunktachse",
+       "pt": "momento de inércia em relação ao centro de massa",
+       "ru": "момент инерции относительно оси через центр масс"
+      },
+      "vrsta": "momentInercije",
+      "poz": true
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 2,
+      "poz": true
+     },
+     "l": {
+      "oznaka": "l",
+      "naziv": {
+       "sr": "dužina štapa",
+       "en": "length of the rod",
+       "it": "lunghezza dell’asta",
+       "fr": "longueur de la tige",
+       "es": "longitud de la varilla",
+       "de": "Stablänge",
+       "pt": "comprimento da barra",
+       "ru": "длина стержня"
+      },
+      "vrsta": "duzina",
+      "pocetna": 1,
+      "poz": true
+     },
+     "r": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "poluprečnik",
+       "en": "radius",
+       "it": "raggio",
+       "fr": "rayon",
+       "es": "radio",
+       "de": "Radius",
+       "pt": "raio",
+       "ru": "радиус"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.1,
+      "jed": "cm",
+      "poz": true
+     },
+     "h": {
+      "oznaka": "h",
+      "naziv": {
+       "sr": "visina valjka",
+       "en": "height of the cylinder",
+       "it": "altezza del cilindro",
+       "fr": "hauteur du cylindre",
+       "es": "altura del cilindro",
+       "de": "Zylinderhöhe",
+       "pt": "altura do cilindro",
+       "ru": "высота цилиндра"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.2,
+      "jed": "cm",
+      "poz": true
+     },
+     "d": {
+      "oznaka": "d",
+      "naziv": {
+       "sr": "rastojanje između osa",
+       "en": "distance between the axes",
+       "it": "distanza tra gli assi",
+       "fr": "distance entre les axes",
+       "es": "distancia entre ejes",
+       "de": "Abstand der Achsen",
+       "pt": "distância entre os eixos",
+       "ru": "расстояние между осями"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.5,
+      "nenegativna": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "I_0 = \\dfrac{m l^2}{12}",
+       "en": "I_0 = \\dfrac{m l^2}{12}",
+       "it": "I_0 = \\dfrac{m l^2}{12}",
+       "fr": "J_0 = \\dfrac{m l^2}{12}",
+       "es": "I_0 = \\dfrac{m l^2}{12}",
+       "de": "J_0 = \\dfrac{m l^2}{12}",
+       "pt": "I_0 = \\dfrac{m l^2}{12}",
+       "ru": "J_0 = \\dfrac{m l^2}{12}"
+      },
+      "trazi": "I0",
+      "resenja": {
+       "I0": "m*l*l/12",
+       "m": "12*I0/(l*l)",
+       "l": "sqrt(12*I0/m)"
+      }
+     },
+     {
+      "latex": {
+       "sr": "I_0 = \\dfrac{m r^2}{2}",
+       "en": "I_0 = \\dfrac{m r^2}{2}",
+       "it": "I_0 = \\dfrac{m r^2}{2}",
+       "fr": "J_0 = \\dfrac{m r^2}{2}",
+       "es": "I_0 = \\dfrac{m r^2}{2}",
+       "de": "J_0 = \\dfrac{m r^2}{2}",
+       "pt": "I_0 = \\dfrac{m r^2}{2}",
+       "ru": "J_0 = \\dfrac{m r^2}{2}"
+      },
+      "trazi": "I0",
+      "resenja": {
+       "I0": "m*r*r/2",
+       "m": "2*I0/(r*r)",
+       "r": "sqrt(2*I0/m)"
+      }
+     },
+     {
+      "latex": {
+       "sr": "I_0 = \\dfrac{m r^2}{4} + \\dfrac{m h^2}{12}",
+       "en": "I_0 = \\dfrac{m r^2}{4} + \\dfrac{m h^2}{12}",
+       "it": "I_0 = \\dfrac{m r^2}{4} + \\dfrac{m h^2}{12}",
+       "fr": "J_0 = \\dfrac{m r^2}{4} + \\dfrac{m h^2}{12}",
+       "es": "I_0 = \\dfrac{m r^2}{4} + \\dfrac{m h^2}{12}",
+       "de": "J_0 = \\dfrac{m r^2}{4} + \\dfrac{m h^2}{12}",
+       "pt": "I_0 = \\dfrac{m r^2}{4} + \\dfrac{m h^2}{12}",
+       "ru": "J_0 = \\dfrac{m r^2}{4} + \\dfrac{m h^2}{12}"
+      },
+      "trazi": "I0",
+      "resenja": {
+       "I0": "m*r*r/4 + m*h*h/12",
+       "m": "I0/(r*r/4 + h*h/12)",
+       "r": "sqrt(4*(I0/m - h*h/12))",
+       "h": "sqrt(12*(I0/m - r*r/4))"
+      }
+     },
+     {
+      "latex": {
+       "sr": "I_0 = \\dfrac{2}{5} m r^2",
+       "en": "I_0 = \\dfrac{2}{5} m r^2",
+       "it": "I_0 = \\dfrac{2}{5} m r^2",
+       "fr": "J_0 = \\dfrac{2}{5} m r^2",
+       "es": "I_0 = \\dfrac{2}{5} m r^2",
+       "de": "J_0 = \\dfrac{2}{5} m r^2",
+       "pt": "I_0 = \\dfrac{2}{5} m r^2",
+       "ru": "J_0 = \\dfrac{2}{5} m r^2"
+      },
+      "trazi": "I0",
+      "resenja": {
+       "I0": "2*m*r*r/5",
+       "m": "5*I0/(2*r*r)",
+       "r": "sqrt(5*I0/(2*m))"
+      }
+     },
+     {
+      "latex": {
+       "sr": "I_0 = m r^2",
+       "en": "I_0 = m r^2",
+       "it": "I_0 = m r^2",
+       "fr": "J_0 = m r^2",
+       "es": "I_0 = m r^2",
+       "de": "J_0 = m r^2",
+       "pt": "I_0 = m r^2",
+       "ru": "J_0 = m r^2"
+      },
+      "trazi": "I0",
+      "resenja": {
+       "I0": "m*r*r",
+       "m": "I0/(r*r)",
+       "r": "sqrt(I0/m)"
+      }
+     },
+     {
+      "latex": {
+       "sr": "I = I_0 + m d^2",
+       "en": "I = I_0 + m d^2",
+       "it": "I = I_0 + m d^2",
+       "fr": "J = J_0 + m d^2",
+       "es": "I = I_0 + m d^2",
+       "de": "J = J_0 + m d^2",
+       "pt": "I = I_0 + m d^2",
+       "ru": "J = J_0 + m d^2"
+      },
+      "trazi": "I",
+      "resenja": {
+       "I": "I0 + m*d*d",
+       "I0": "I - m*d*d",
+       "m": "(I - I0)/(d*d)",
+       "d": "sqrt((I - I0)/m)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "zakon_rotacije",
+   "simbol": "α",
+   "naziv": {
+    "sr": "Osnovni zakon rotacije",
+    "en": "Newton’s second law for rotation",
+    "it": "Seconda legge della dinamica rotazionale",
+    "fr": "Principe fondamental de la rotation",
+    "es": "Segunda ley para la rotación",
+    "de": "Grundgesetz der Rotation",
+    "pt": "Segunda lei para a rotação",
+    "ru": "Основной закон динамики вращения"
+   },
+   "opis": {
+    "sr": "Moment sile i ugaono ubrzanje",
+    "en": "Torque and angular acceleration",
+    "it": "Momento e accelerazione angolare",
+    "fr": "Moment et accélération angulaire",
+    "es": "Momento y aceleración angular",
+    "de": "Drehmoment und Winkelbeschleunigung",
+    "pt": "Torque e aceleração angular",
+    "ru": "Момент силы и угловое ускорение"
+   },
+   "kljucne_reci": {
+    "sr": "zakon rotacije moment sile ugaono ubrzanje moment inercije",
+    "en": "rotational dynamics torque angular acceleration moment of inertia",
+    "it": "dinamica rotazionale momento accelerazione angolare",
+    "fr": "dynamique de rotation moment acceleration angulaire",
+    "es": "dinamica de rotacion momento aceleracion angular",
+    "de": "rotation drehmoment winkelbeschleunigung tragheitsmoment",
+    "pt": "dinamica de rotacao torque aceleracao angular",
+    "ru": "динамика вращения момент силы угловое ускорение"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Osnovni zakon rotacije",
+      "en": "Newton’s second law for rotation",
+      "it": "Seconda legge per la rotazione",
+      "fr": "Principe fondamental de la rotation",
+      "es": "Segunda ley para la rotación",
+      "de": "Grundgesetz der Rotation",
+      "pt": "Segunda lei para a rotação",
+      "ru": "Основной закон динамики вращения"
+     },
+     "latex": {
+      "sr": "\\alpha = \\frac{M}{I}, \\quad M = I\\,\\alpha",
+      "en": "\\alpha = \\frac{\\tau}{I}, \\quad \\tau = I\\,\\alpha",
+      "it": "\\alpha = \\frac{\\tau}{I}, \\quad \\tau = I\\,\\alpha",
+      "fr": "\\alpha = \\frac{\\mathcal{M}}{J}, \\quad \\mathcal{M} = J\\,\\alpha",
+      "es": "\\alpha = \\frac{\\tau}{I}, \\quad \\tau = I\\,\\alpha",
+      "de": "\\alpha = \\frac{M}{J}, \\quad M = J\\,\\alpha",
+      "pt": "\\alpha = \\frac{\\tau}{I}, \\quad \\tau = I\\,\\alpha",
+      "ru": "\\varepsilon = \\frac{M}{J}, \\quad M = J\\,\\varepsilon"
+     },
+     "objasnjenje": {
+      "sr": "Analogno sa F = ma: moment sile ima ulogu sile, a moment inercije ulogu mase.",
+      "en": "Analogous to F = ma: torque plays the role of force and moment of inertia the role of mass.",
+      "it": "Analogo a F = ma: il momento fa da forza e il momento d’inerzia da massa.",
+      "fr": "Analogue à F = ma : le moment joue le rôle de la force et le moment d’inertie celui de la masse.",
+      "es": "Análogo a F = ma: el momento hace de fuerza y el momento de inercia de masa.",
+      "de": "Analog zu F = ma: Das Drehmoment entspricht der Kraft, das Trägheitsmoment der Masse.",
+      "pt": "Análogo a F = ma: o torque faz o papel da força e o momento de inércia o da massa.",
+      "ru": "Аналог F = ma: момент силы играет роль силы, а момент инерции — роль массы."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Mo": {
+      "oznaka": {
+       "sr": "M",
+       "en": "\\tau",
+       "it": "\\tau",
+       "fr": "\\mathcal{M}",
+       "es": "\\tau",
+       "de": "M",
+       "pt": "\\tau",
+       "ru": "M"
+      },
+      "naziv": {
+       "sr": "moment sile",
+       "en": "torque",
+       "it": "momento della forza",
+       "fr": "moment de force",
+       "es": "momento de fuerza",
+       "de": "Drehmoment",
+       "pt": "torque",
+       "ru": "момент силы"
+      },
+      "vrsta": "moment"
+     },
+     "I": {
+      "oznaka": {
+       "sr": "I",
+       "en": "I",
+       "it": "I",
+       "fr": "J",
+       "es": "I",
+       "de": "J",
+       "pt": "I",
+       "ru": "J"
+      },
+      "naziv": {
+       "sr": "moment inercije",
+       "en": "moment of inertia",
+       "it": "momento d’inerzia",
+       "fr": "moment d’inertie",
+       "es": "momento de inercia",
+       "de": "Trägheitsmoment",
+       "pt": "momento de inércia",
+       "ru": "момент инерции"
+      },
+      "vrsta": "momentInercije",
+      "pocetna": 0.5,
+      "poz": true
+     },
+     "eps": {
+      "oznaka": {
+       "sr": "\\alpha",
+       "en": "\\alpha",
+       "it": "\\alpha",
+       "fr": "\\alpha",
+       "es": "\\alpha",
+       "de": "\\alpha",
+       "pt": "\\alpha",
+       "ru": "\\varepsilon"
+      },
+      "naziv": {
+       "sr": "ugaono ubrzanje",
+       "en": "angular acceleration",
+       "it": "accelerazione angolare",
+       "fr": "accélération angulaire",
+       "es": "aceleración angular",
+       "de": "Winkelbeschleunigung",
+       "pt": "aceleração angular",
+       "ru": "угловое ускорение"
+      },
+      "vrsta": "ugaonoUbrzanje",
+      "pocetna": 4
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "M = I \\alpha",
+       "en": "\\tau = I \\alpha",
+       "it": "\\tau = I \\alpha",
+       "fr": "\\mathcal{M} = J \\alpha",
+       "es": "\\tau = I \\alpha",
+       "de": "M = J \\alpha",
+       "pt": "\\tau = I \\alpha",
+       "ru": "M = J \\varepsilon"
+      },
+      "trazi": "Mo",
+      "resenja": {
+       "Mo": "I*eps",
+       "I": "Mo/eps",
+       "eps": "Mo/I"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "energija_rotacije",
+   "simbol": "Eₖ",
+   "naziv": {
+    "sr": "Energija i snaga pri obrtanju",
+    "en": "Energy and power in rotation",
+    "it": "Energia e potenza nella rotazione",
+    "fr": "Énergie et puissance en rotation",
+    "es": "Energía y potencia en la rotación",
+    "de": "Energie und Leistung bei Drehung",
+    "pt": "Energia e potência na rotação",
+    "ru": "Энергия и мощность при вращении"
+   },
+   "opis": {
+    "sr": "Jω²/2, kotrljanje",
+    "en": "Iω²/2, rolling",
+    "it": "Iω²/2, rotolamento",
+    "fr": "Jω²/2, roulement",
+    "es": "Iω²/2, rodadura",
+    "de": "Jω²/2, Rollen",
+    "pt": "Iω²/2, rolamento",
+    "ru": "Jω²/2, качение"
+   },
+   "kljucne_reci": {
+    "sr": "kineticka energija obrtanja rotacije kotrljanje rad snaga moment",
+    "en": "rotational kinetic energy rolling work power torque",
+    "it": "energia cinetica di rotazione rotolamento lavoro potenza",
+    "fr": "energie cinetique de rotation roulement travail puissance",
+    "es": "energia cinetica de rotacion rodadura trabajo potencia",
+    "de": "rotationsenergie rollen arbeit leistung drehmoment",
+    "pt": "energia cinetica de rotacao rolamento trabalho potencia",
+    "ru": "кинетическая энергия вращения качение работа мощность"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Kinetička energija obrtanja",
+      "en": "Rotational kinetic energy",
+      "it": "Energia cinetica di rotazione",
+      "fr": "Énergie cinétique de rotation",
+      "es": "Energía cinética de rotación",
+      "de": "Rotationsenergie",
+      "pt": "Energia cinética de rotação",
+      "ru": "Кинетическая энергия вращения"
+     },
+     "latex": {
+      "sr": "E_k = \\frac{I \\omega^2}{2}",
+      "en": "E_k = \\frac{I \\omega^2}{2}",
+      "it": "E_c = \\frac{I \\omega^2}{2}",
+      "fr": "E_c = \\frac{J \\omega^2}{2}",
+      "es": "E_c = \\frac{I \\omega^2}{2}",
+      "de": "E_{\\mathrm{rot}} = \\frac{J \\omega^2}{2}",
+      "pt": "E_c = \\frac{I \\omega^2}{2}",
+      "ru": "E_{\\text{к}} = \\frac{J \\omega^2}{2}"
+     },
+     "objasnjenje": {
+      "sr": "Analogno sa mv²/2.",
+      "en": "Analogous to mv²/2.",
+      "it": "Analogo a mv²/2.",
+      "fr": "Analogue à mv²/2.",
+      "es": "Análogo a mv²/2.",
+      "de": "Analog zu mv²/2.",
+      "pt": "Análogo a mv²/2.",
+      "ru": "Аналог mv²/2."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Rad i snaga",
+      "en": "Work and power",
+      "it": "Lavoro e potenza",
+      "fr": "Travail et puissance",
+      "es": "Trabajo y potencia",
+      "de": "Arbeit und Leistung",
+      "pt": "Trabalho e potência",
+      "ru": "Работа и мощность"
+     },
+     "latex": {
+      "sr": "A = M\\,\\varphi, \\quad P = M\\,\\omega",
+      "en": "W = \\tau\\,\\varphi, \\quad P = \\tau\\,\\omega",
+      "it": "L = \\tau\\,\\varphi, \\quad P = \\tau\\,\\omega",
+      "fr": "W = \\mathcal{M}\\,\\varphi, \\quad P = \\mathcal{M}\\,\\omega",
+      "es": "W = \\tau\\,\\varphi, \\quad P = \\tau\\,\\omega",
+      "de": "W = M\\,\\varphi, \\quad P = M\\,\\omega",
+      "pt": "W = \\tau\\,\\varphi, \\quad P = \\tau\\,\\omega",
+      "ru": "A = M\\,\\varphi, \\quad P = M\\,\\omega"
+     },
+     "objasnjenje": {
+      "sr": "Npr. snaga motora je proizvod obrtnog momenta i ugaone brzine.",
+      "en": "E.g. engine power is torque times angular velocity.",
+      "it": "Es. la potenza del motore è coppia per velocità angolare.",
+      "fr": "Ex. la puissance d’un moteur est le couple multiplié par la vitesse angulaire.",
+      "es": "P. ej., la potencia del motor es par por velocidad angular.",
+      "de": "Z. B. ist die Motorleistung Drehmoment mal Winkelgeschwindigkeit.",
+      "pt": "Ex.: a potência do motor é torque vezes velocidade angular.",
+      "ru": "Например, мощность двигателя — момент, умноженный на угловую скорость."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Kotrljanje",
+      "en": "Rolling",
+      "it": "Rotolamento",
+      "fr": "Roulement",
+      "es": "Rodadura",
+      "de": "Rollen",
+      "pt": "Rolamento",
+      "ru": "Качение"
+     },
+     "latex": {
+      "sr": "E = \\frac{m v^2}{2} + \\frac{I_0 \\omega^2}{2}, \\quad v = \\sqrt{\\frac{2 g h}{1 + k}}",
+      "en": "E = \\frac{m v^2}{2} + \\frac{I_0 \\omega^2}{2}, \\quad v = \\sqrt{\\frac{2 g h}{1 + k}}",
+      "it": "E = \\frac{m v^2}{2} + \\frac{I_0 \\omega^2}{2}, \\quad v = \\sqrt{\\frac{2 g h}{1 + k}}",
+      "fr": "E = \\frac{m v^2}{2} + \\frac{J_0 \\omega^2}{2}, \\quad v = \\sqrt{\\frac{2 g h}{1 + k}}",
+      "es": "E = \\frac{m v^2}{2} + \\frac{I_0 \\omega^2}{2}, \\quad v = \\sqrt{\\frac{2 g h}{1 + k}}",
+      "de": "E = \\frac{m v^2}{2} + \\frac{J_0 \\omega^2}{2}, \\quad v = \\sqrt{\\frac{2 g h}{1 + k}}",
+      "pt": "E = \\frac{m v^2}{2} + \\frac{I_0 \\omega^2}{2}, \\quad v = \\sqrt{\\frac{2 g h}{1 + k}}",
+      "ru": "E = \\frac{m v^2}{2} + \\frac{J_0 \\omega^2}{2}, \\quad v = \\sqrt{\\frac{2 g h}{1 + k}}"
+     },
+     "objasnjenje": {
+      "sr": "Telo koje se kotrlja ima energiju kretanja težišta i energiju obrtanja. k = I₀/(mr²): niz strmu ravan kugla stiže brže od valjka, a valjak brže od prstena.",
+      "en": "A rolling body has both translational and rotational energy. k = I₀/(mr²): down a slope a sphere beats a cylinder, and a cylinder beats a ring.",
+      "it": "Un corpo che rotola ha energia di traslazione e di rotazione. k = I₀/(mr²): lungo un piano la sfera batte il cilindro e il cilindro l’anello.",
+      "fr": "Un corps qui roule a une énergie de translation et de rotation. k = J₀/(mr²) : sur une pente la boule devance le cylindre, et le cylindre l’anneau.",
+      "es": "Un cuerpo que rueda tiene energía de traslación y de rotación. k = I₀/(mr²): en una pendiente la esfera gana al cilindro y el cilindro al aro.",
+      "de": "Ein rollender Körper hat Translations- und Rotationsenergie. k = J₀/(mr²): Eine Kugel rollt schneller als ein Zylinder, dieser schneller als ein Ring.",
+      "pt": "Um corpo que rola tem energia de translação e de rotação. k = I₀/(mr²): num plano a esfera ganha do cilindro e o cilindro do anel.",
+      "ru": "Катящееся тело имеет энергию поступательного движения и вращения. k = J₀/(mr²): шар скатывается быстрее цилиндра, а цилиндр — быстрее кольца."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Ek": {
+      "oznaka": {
+       "sr": "E_k",
+       "en": "E_k",
+       "it": "E_c",
+       "fr": "E_c",
+       "es": "E_c",
+       "de": "E_{\\mathrm{rot}}",
+       "pt": "E_c",
+       "ru": "E_{\\text{к}}"
+      },
+      "naziv": {
+       "sr": "kinetička energija obrtanja",
+       "en": "rotational kinetic energy",
+       "it": "energia cinetica di rotazione",
+       "fr": "énergie cinétique de rotation",
+       "es": "energía cinética de rotación",
+       "de": "Rotationsenergie",
+       "pt": "energia cinética de rotação",
+       "ru": "кинетическая энергия вращения"
+      },
+      "vrsta": "energija",
+      "nenegativna": true
+     },
+     "I": {
+      "oznaka": {
+       "sr": "I",
+       "en": "I",
+       "it": "I",
+       "fr": "J",
+       "es": "I",
+       "de": "J",
+       "pt": "I",
+       "ru": "J"
+      },
+      "naziv": {
+       "sr": "moment inercije",
+       "en": "moment of inertia",
+       "it": "momento d’inerzia",
+       "fr": "moment d’inertie",
+       "es": "momento de inercia",
+       "de": "Trägheitsmoment",
+       "pt": "momento de inércia",
+       "ru": "момент инерции"
+      },
+      "vrsta": "momentInercije",
+      "pocetna": 0.5,
+      "poz": true
+     },
+     "om": {
+      "oznaka": "\\omega",
+      "naziv": {
+       "sr": "ugaona brzina",
+       "en": "angular velocity",
+       "it": "velocità angolare",
+       "fr": "vitesse angulaire",
+       "es": "velocidad angular",
+       "de": "Winkelgeschwindigkeit",
+       "pt": "velocidade angular",
+       "ru": "угловая скорость"
+      },
+      "vrsta": "ugaonaBrzina",
+      "pocetna": 10,
+      "nenegativna": true
+     },
+     "A": {
+      "oznaka": {
+       "sr": "A",
+       "en": "W",
+       "it": "L",
+       "fr": "W",
+       "es": "W",
+       "de": "W",
+       "pt": "W",
+       "ru": "A"
+      },
+      "naziv": {
+       "sr": "rad",
+       "en": "work",
+       "it": "lavoro",
+       "fr": "travail",
+       "es": "trabajo",
+       "de": "Arbeit",
+       "pt": "trabalho",
+       "ru": "работа"
+      },
+      "vrsta": "energija"
+     },
+     "Mo": {
+      "oznaka": {
+       "sr": "M",
+       "en": "\\tau",
+       "it": "\\tau",
+       "fr": "\\mathcal{M}",
+       "es": "\\tau",
+       "de": "M",
+       "pt": "\\tau",
+       "ru": "M"
+      },
+      "naziv": {
+       "sr": "moment sile",
+       "en": "torque",
+       "it": "momento della forza",
+       "fr": "moment de force",
+       "es": "momento de fuerza",
+       "de": "Drehmoment",
+       "pt": "torque",
+       "ru": "момент силы"
+      },
+      "vrsta": "moment",
+      "pocetna": 20
+     },
+     "fi": {
+      "oznaka": "\\varphi",
+      "naziv": {
+       "sr": "ugao obrtanja",
+       "en": "angle of rotation",
+       "it": "angolo di rotazione",
+       "fr": "angle de rotation",
+       "es": "ángulo girado",
+       "de": "Drehwinkel",
+       "pt": "ângulo de rotação",
+       "ru": "угол поворота"
+      },
+      "vrsta": "ugao",
+      "pocetna": 6.283185307179586,
+      "jed": "obr"
+     },
+     "P": {
+      "oznaka": "P",
+      "naziv": {
+       "sr": "snaga",
+       "en": "power",
+       "it": "potenza",
+       "fr": "puissance",
+       "es": "potencia",
+       "de": "Leistung",
+       "pt": "potência",
+       "ru": "мощность"
+      },
+      "vrsta": "snaga"
+     },
+     "v": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina težišta",
+       "en": "velocity of the centre of mass",
+       "it": "velocità del baricentro",
+       "fr": "vitesse du centre de masse",
+       "es": "velocidad del centro de masas",
+       "de": "Schwerpunktgeschwindigkeit",
+       "pt": "velocidade do centro de massa",
+       "ru": "скорость центра масс"
+      },
+      "vrsta": "brzina",
+      "nenegativna": true
+     },
+     "g": {
+      "oznaka": "g",
+      "naziv": {
+       "sr": "ubrzanje Zemljine teže",
+       "en": "gravitational acceleration",
+       "it": "accelerazione di gravità",
+       "fr": "intensité de la pesanteur",
+       "es": "aceleración de la gravedad",
+       "de": "Fallbeschleunigung",
+       "pt": "aceleração da gravidade",
+       "ru": "ускорение свободного падения"
+      },
+      "vrsta": "ubrzanje",
+      "pocetna": 9.81,
+      "poz": true
+     },
+     "hv": {
+      "oznaka": "h",
+      "naziv": {
+       "sr": "visinska razlika",
+       "en": "height difference",
+       "it": "dislivello",
+       "fr": "dénivellation",
+       "es": "desnivel",
+       "de": "Höhenunterschied",
+       "pt": "desnível",
+       "ru": "разность высот"
+      },
+      "vrsta": "duzina",
+      "pocetna": 1,
+      "nenegativna": true
+     },
+     "kf": {
+      "oznaka": "k",
+      "naziv": {
+       "sr": "faktor oblika (kugla 0,4; valjak 0,5; prsten 1)",
+       "en": "shape factor (sphere 0.4; cylinder 0.5; ring 1)",
+       "it": "fattore di forma (sfera 0,4; cilindro 0,5; anello 1)",
+       "fr": "facteur de forme (boule 0,4 ; cylindre 0,5 ; anneau 1)",
+       "es": "factor de forma (esfera 0,4; cilindro 0,5; aro 1)",
+       "de": "Formfaktor (Kugel 0,4; Zylinder 0,5; Ring 1)",
+       "pt": "fator de forma (esfera 0,4; cilindro 0,5; anel 1)",
+       "ru": "коэффициент формы (шар 0,4; цилиндр 0,5; кольцо 1)"
+      },
+      "vrsta": "bez",
+      "pocetna": 0.4,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "E_k = \\dfrac{I \\omega^2}{2}",
+       "en": "E_k = \\dfrac{I \\omega^2}{2}",
+       "it": "E_c = \\dfrac{I \\omega^2}{2}",
+       "fr": "E_c = \\dfrac{J \\omega^2}{2}",
+       "es": "E_c = \\dfrac{I \\omega^2}{2}",
+       "de": "E_{\\mathrm{rot}} = \\dfrac{J \\omega^2}{2}",
+       "pt": "E_c = \\dfrac{I \\omega^2}{2}",
+       "ru": "E_{\\text{к}} = \\dfrac{J \\omega^2}{2}"
+      },
+      "trazi": "Ek",
+      "resenja": {
+       "Ek": "I*om*om/2",
+       "I": "2*Ek/(om*om)",
+       "om": "sqrt(2*Ek/I)"
+      }
+     },
+     {
+      "latex": {
+       "sr": "A = M \\varphi",
+       "en": "W = \\tau \\varphi",
+       "it": "L = \\tau \\varphi",
+       "fr": "W = \\mathcal{M} \\varphi",
+       "es": "W = \\tau \\varphi",
+       "de": "W = M \\varphi",
+       "pt": "W = \\tau \\varphi",
+       "ru": "A = M \\varphi"
+      },
+      "trazi": "A",
+      "resenja": {
+       "A": "Mo*fi",
+       "Mo": "A/fi",
+       "fi": "A/Mo"
+      }
+     },
+     {
+      "latex": {
+       "sr": "P = M \\omega",
+       "en": "P = \\tau \\omega",
+       "it": "P = \\tau \\omega",
+       "fr": "P = \\mathcal{M} \\omega",
+       "es": "P = \\tau \\omega",
+       "de": "P = M \\omega",
+       "pt": "P = \\tau \\omega",
+       "ru": "P = M \\omega"
+      },
+      "trazi": "P",
+      "resenja": {
+       "P": "Mo*om",
+       "Mo": "P/om",
+       "om": "P/Mo"
+      }
+     },
+     {
+      "latex": "v = \\sqrt{\\dfrac{2 g h}{1 + k}}",
+      "trazi": "v",
+      "resenja": {
+       "v": "sqrt(2*g*hv/(1 + kf))",
+       "hv": "v*v*(1 + kf)/(2*g)",
+       "kf": "2*g*hv/(v*v) - 1",
+       "g": "v*v*(1 + kf)/(2*hv)"
+      },
+      "napomene": {
+       "v": {
+        "sr": "Kotrljanje bez klizanja niz visinsku razliku h, iz mirovanja.",
+        "en": "Rolling without slipping down a height h, starting from rest.",
+        "it": "Rotolamento senza strisciare lungo un dislivello h, da fermo.",
+        "fr": "Roulement sans glissement sur une dénivellation h, depuis le repos.",
+        "es": "Rodadura sin deslizar por un desnivel h, desde el reposo.",
+        "de": "Rollen ohne Gleiten über die Höhe h, aus der Ruhe.",
+        "pt": "Rolamento sem deslizar por um desnível h, a partir do repouso.",
+        "ru": "Качение без проскальзывания с высоты h из состояния покоя."
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "moment_impulsa",
+   "simbol": "L",
+   "naziv": {
+    "sr": "Moment impulsa",
+    "en": "Angular momentum",
+    "it": "Momento angolare",
+    "fr": "Moment cinétique",
+    "es": "Momento angular",
+    "de": "Drehimpuls",
+    "pt": "Momento angular",
+    "ru": "Момент импульса"
+   },
+   "opis": {
+    "sr": "Lω, zakon održanja",
+    "en": "Iω, conservation",
+    "it": "Iω, conservazione",
+    "fr": "Jω, conservation",
+    "es": "Iω, conservación",
+    "de": "Jω, Erhaltung",
+    "pt": "Iω, conservação",
+    "ru": "Jω, закон сохранения"
+   },
+   "kljucne_reci": {
+    "sr": "moment impulsa zakon odrzanja momenta impulsa piruet klizac obrtanje",
+    "en": "angular momentum conservation pirouette skater spin",
+    "it": "momento angolare conservazione pattinatrice piroetta",
+    "fr": "moment cinetique conservation patineuse pirouette",
+    "es": "momento angular conservacion patinadora pirueta",
+    "de": "drehimpuls drehimpulserhaltung pirouette eiskunstlauf",
+    "pt": "momento angular conservacao patinadora pirueta",
+    "ru": "момент импульса закон сохранения фигуристка вращение"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Moment impulsa",
+      "en": "Angular momentum",
+      "it": "Momento angolare",
+      "fr": "Moment cinétique",
+      "es": "Momento angular",
+      "de": "Drehimpuls",
+      "pt": "Momento angular",
+      "ru": "Момент импульса"
+     },
+     "latex": {
+      "sr": "L = I\\,\\omega, \\quad L = r\\,m\\,v \\sin\\varphi",
+      "en": "L = I\\,\\omega, \\quad L = r\\,m\\,v \\sin\\varphi",
+      "it": "L = I\\,\\omega, \\quad L = r\\,m\\,v \\sin\\varphi",
+      "fr": "L = J\\,\\omega, \\quad L = r\\,m\\,v \\sin\\varphi",
+      "es": "L = I\\,\\omega, \\quad L = r\\,m\\,v \\sin\\varphi",
+      "de": "L = J\\,\\omega, \\quad L = r\\,m\\,v \\sin\\varphi",
+      "pt": "L = I\\,\\omega, \\quad L = r\\,m\\,v \\sin\\varphi",
+      "ru": "L = J\\,\\omega, \\quad L = r\\,m\\,v \\sin\\varphi"
+     },
+     "objasnjenje": {
+      "sr": "Prvo za telo koje se obrće, drugo za telo (tačku) koje se kreće brzinom v na rastojanju r od ose.",
+      "en": "First for a rotating body, second for a point mass moving with velocity v at distance r from the axis.",
+      "it": "Prima per un corpo rotante, seconda per un punto materiale con velocità v a distanza r dall’asse.",
+      "fr": "La première pour un corps en rotation, la seconde pour un point de vitesse v à la distance r de l’axe.",
+      "es": "La primera para un cuerpo que gira, la segunda para un punto con velocidad v a distancia r del eje.",
+      "de": "Erstens für einen rotierenden Körper, zweitens für einen Massenpunkt mit Geschwindigkeit v im Abstand r.",
+      "pt": "A primeira para um corpo em rotação, a segunda para um ponto com velocidade v à distância r do eixo.",
+      "ru": "Первая — для вращающегося тела, вторая — для точки со скоростью v на расстоянии r от оси."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Moment impulsa i moment sile",
+      "en": "Angular momentum and torque",
+      "it": "Momento angolare e momento della forza",
+      "fr": "Moment cinétique et moment de force",
+      "es": "Momento angular y momento de fuerza",
+      "de": "Drehimpuls und Drehmoment",
+      "pt": "Momento angular e torque",
+      "ru": "Момент импульса и момент силы"
+     },
+     "latex": {
+      "sr": "M\\,\\Delta t = \\Delta L",
+      "en": "\\tau\\,\\Delta t = \\Delta L",
+      "it": "\\tau\\,\\Delta t = \\Delta L",
+      "fr": "\\mathcal{M}\\,\\Delta t = \\Delta L",
+      "es": "\\tau\\,\\Delta t = \\Delta L",
+      "de": "M\\,\\Delta t = \\Delta L",
+      "pt": "\\tau\\,\\Delta t = \\Delta L",
+      "ru": "M\\,\\Delta t = \\Delta L"
+     },
+     "objasnjenje": {
+      "sr": "Analogno sa FΔt = Δp.",
+      "en": "Analogous to FΔt = Δp.",
+      "it": "Analogo a FΔt = Δp.",
+      "fr": "Analogue à FΔt = Δp.",
+      "es": "Análogo a FΔt = Δp.",
+      "de": "Analog zu FΔt = Δp.",
+      "pt": "Análogo a FΔt = Δp.",
+      "ru": "Аналог FΔt = Δp."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zakon održanja momenta impulsa",
+      "en": "Conservation of angular momentum",
+      "it": "Conservazione del momento angolare",
+      "fr": "Conservation du moment cinétique",
+      "es": "Conservación del momento angular",
+      "de": "Drehimpulserhaltung",
+      "pt": "Conservação do momento angular",
+      "ru": "Закон сохранения момента импульса"
+     },
+     "latex": {
+      "sr": "I_1 \\omega_1 = I_2 \\omega_2",
+      "en": "I_1 \\omega_1 = I_2 \\omega_2",
+      "it": "I_1 \\omega_1 = I_2 \\omega_2",
+      "fr": "J_1 \\omega_1 = J_2 \\omega_2",
+      "es": "I_1 \\omega_1 = I_2 \\omega_2",
+      "de": "J_1 \\omega_1 = J_2 \\omega_2",
+      "pt": "I_1 \\omega_1 = I_2 \\omega_2",
+      "ru": "J_1 \\omega_1 = J_2 \\omega_2"
+     },
+     "objasnjenje": {
+      "sr": "Bez spoljašnjeg momenta sile: kada klizačica privuče ruke, moment inercije se smanji, a obrtanje ubrza.",
+      "en": "With no external torque: when a skater pulls in her arms, the moment of inertia drops and she spins faster.",
+      "it": "Senza momenti esterni: quando la pattinatrice raccoglie le braccia ruota più veloce.",
+      "fr": "Sans moment extérieur : la patineuse qui ramène les bras tourne plus vite.",
+      "es": "Sin momento externo: cuando la patinadora recoge los brazos gira más rápido.",
+      "de": "Ohne äußeres Drehmoment: Zieht die Eiskunstläuferin die Arme an, dreht sie sich schneller.",
+      "pt": "Sem torque externo: quando a patinadora recolhe os braços, gira mais rápido.",
+      "ru": "Без внешнего момента: когда фигуристка прижимает руки, она вращается быстрее."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Lm": {
+      "oznaka": "L",
+      "naziv": {
+       "sr": "moment impulsa",
+       "en": "angular momentum",
+       "it": "momento angolare",
+       "fr": "moment cinétique",
+       "es": "momento angular",
+       "de": "Drehimpuls",
+       "pt": "momento angular",
+       "ru": "момент импульса"
+      },
+      "vrsta": "momentImpulsa"
+     },
+     "I": {
+      "oznaka": {
+       "sr": "I",
+       "en": "I",
+       "it": "I",
+       "fr": "J",
+       "es": "I",
+       "de": "J",
+       "pt": "I",
+       "ru": "J"
+      },
+      "naziv": {
+       "sr": "moment inercije",
+       "en": "moment of inertia",
+       "it": "momento d’inerzia",
+       "fr": "moment d’inertie",
+       "es": "momento de inercia",
+       "de": "Trägheitsmoment",
+       "pt": "momento de inércia",
+       "ru": "момент инерции"
+      },
+      "vrsta": "momentInercije",
+      "pocetna": 0.5,
+      "poz": true
+     },
+     "om": {
+      "oznaka": "\\omega",
+      "naziv": {
+       "sr": "ugaona brzina",
+       "en": "angular velocity",
+       "it": "velocità angolare",
+       "fr": "vitesse angulaire",
+       "es": "velocidad angular",
+       "de": "Winkelgeschwindigkeit",
+       "pt": "velocidade angular",
+       "ru": "угловая скорость"
+      },
+      "vrsta": "ugaonaBrzina",
+      "pocetna": 10,
+      "nenegativna": true
+     },
+     "rv": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "rastojanje od ose",
+       "en": "distance from the axis",
+       "it": "distanza dall’asse",
+       "fr": "distance à l’axe",
+       "es": "distancia al eje",
+       "de": "Abstand zur Achse",
+       "pt": "distância ao eixo",
+       "ru": "расстояние до оси"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.5,
+      "poz": true
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 2,
+      "poz": true
+     },
+     "vv": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina tela",
+       "en": "velocity of the body",
+       "it": "velocità del corpo",
+       "fr": "vitesse du corps",
+       "es": "velocidad del cuerpo",
+       "de": "Geschwindigkeit des Körpers",
+       "pt": "velocidade do corpo",
+       "ru": "скорость тела"
+      },
+      "vrsta": "brzina",
+      "pocetna": 3
+     },
+     "fv": {
+      "oznaka": "\\varphi",
+      "naziv": {
+       "sr": "ugao između r i v",
+       "en": "angle between r and v",
+       "it": "angolo tra r e v",
+       "fr": "angle entre r et v",
+       "es": "ángulo entre r y v",
+       "de": "Winkel zwischen r und v",
+       "pt": "ângulo entre r e v",
+       "ru": "угол между r и v"
+      },
+      "vrsta": "ugao",
+      "pocetna": 1.5707963267948966,
+      "jed": "°"
+     },
+     "dL": {
+      "oznaka": "\\Delta L",
+      "naziv": {
+       "sr": "promena momenta impulsa",
+       "en": "change in angular momentum",
+       "it": "variazione del momento angolare",
+       "fr": "variation du moment cinétique",
+       "es": "variación del momento angular",
+       "de": "Drehimpulsänderung",
+       "pt": "variação do momento angular",
+       "ru": "изменение момента импульса"
+      },
+      "vrsta": "momentImpulsa"
+     },
+     "Mo": {
+      "oznaka": {
+       "sr": "M",
+       "en": "\\tau",
+       "it": "\\tau",
+       "fr": "\\mathcal{M}",
+       "es": "\\tau",
+       "de": "M",
+       "pt": "\\tau",
+       "ru": "M"
+      },
+      "naziv": {
+       "sr": "moment sile",
+       "en": "torque",
+       "it": "momento della forza",
+       "fr": "moment de force",
+       "es": "momento de fuerza",
+       "de": "Drehmoment",
+       "pt": "torque",
+       "ru": "момент силы"
+      },
+      "vrsta": "moment",
+      "pocetna": 5
+     },
+     "dt": {
+      "oznaka": "\\Delta t",
+      "naziv": {
+       "sr": "trajanje",
+       "en": "duration",
+       "it": "durata",
+       "fr": "durée",
+       "es": "duración",
+       "de": "Dauer",
+       "pt": "duração",
+       "ru": "время действия"
+      },
+      "vrsta": "vreme",
+      "pocetna": 2,
+      "poz": true
+     },
+     "om2": {
+      "oznaka": "\\omega_2",
+      "naziv": {
+       "sr": "ugaona brzina posle",
+       "en": "angular velocity after",
+       "it": "velocità angolare dopo",
+       "fr": "vitesse angulaire après",
+       "es": "velocidad angular después",
+       "de": "Winkelgeschwindigkeit nachher",
+       "pt": "velocidade angular depois",
+       "ru": "угловая скорость после"
+      },
+      "vrsta": "ugaonaBrzina"
+     },
+     "I1": {
+      "oznaka": {
+       "sr": "I_1",
+       "en": "I_1",
+       "it": "I_1",
+       "fr": "J_1",
+       "es": "I_1",
+       "de": "J_1",
+       "pt": "I_1",
+       "ru": "J_1"
+      },
+      "naziv": {
+       "sr": "moment inercije pre",
+       "en": "moment of inertia before",
+       "it": "momento d’inerzia prima",
+       "fr": "moment d’inertie avant",
+       "es": "momento de inercia antes",
+       "de": "Trägheitsmoment vorher",
+       "pt": "momento de inércia antes",
+       "ru": "момент инерции до"
+      },
+      "vrsta": "momentInercije",
+      "pocetna": 3,
+      "poz": true
+     },
+     "om1": {
+      "oznaka": "\\omega_1",
+      "naziv": {
+       "sr": "ugaona brzina pre",
+       "en": "angular velocity before",
+       "it": "velocità angolare prima",
+       "fr": "vitesse angulaire avant",
+       "es": "velocidad angular antes",
+       "de": "Winkelgeschwindigkeit vorher",
+       "pt": "velocidade angular antes",
+       "ru": "угловая скорость до"
+      },
+      "vrsta": "ugaonaBrzina",
+      "pocetna": 6.283185307179586,
+      "jed": "rad/s"
+     },
+     "I2": {
+      "oznaka": {
+       "sr": "I_2",
+       "en": "I_2",
+       "it": "I_2",
+       "fr": "J_2",
+       "es": "I_2",
+       "de": "J_2",
+       "pt": "I_2",
+       "ru": "J_2"
+      },
+      "naziv": {
+       "sr": "moment inercije posle",
+       "en": "moment of inertia after",
+       "it": "momento d’inerzia dopo",
+       "fr": "moment d’inertie après",
+       "es": "momento de inercia después",
+       "de": "Trägheitsmoment nachher",
+       "pt": "momento de inércia depois",
+       "ru": "момент инерции после"
+      },
+      "vrsta": "momentInercije",
+      "pocetna": 1,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "L = I \\omega",
+       "en": "L = I \\omega",
+       "it": "L = I \\omega",
+       "fr": "L = J \\omega",
+       "es": "L = I \\omega",
+       "de": "L = J \\omega",
+       "pt": "L = I \\omega",
+       "ru": "L = J \\omega"
+      },
+      "trazi": "Lm",
+      "resenja": {
+       "Lm": "I*om",
+       "I": "Lm/om",
+       "om": "Lm/I"
+      }
+     },
+     {
+      "latex": "L = r m v \\sin\\varphi",
+      "trazi": "Lm",
+      "promenljive": [
+       "Lm",
+       "rv",
+       "m",
+       "vv",
+       "fv"
+      ],
+      "resenja": {
+       "Lm": "rv*m*vv*sin(fv)",
+       "rv": "Lm/(m*vv*sin(fv))",
+       "m": "Lm/(rv*vv*sin(fv))",
+       "vv": "Lm/(rv*m*sin(fv))"
+      }
+     },
+     {
+      "latex": {
+       "sr": "M \\Delta t = \\Delta L",
+       "en": "\\tau \\Delta t = \\Delta L",
+       "it": "\\tau \\Delta t = \\Delta L",
+       "fr": "\\mathcal{M} \\Delta t = \\Delta L",
+       "es": "\\tau \\Delta t = \\Delta L",
+       "de": "M \\Delta t = \\Delta L",
+       "pt": "\\tau \\Delta t = \\Delta L",
+       "ru": "M \\Delta t = \\Delta L"
+      },
+      "trazi": "dL",
+      "resenja": {
+       "dL": "Mo*dt",
+       "Mo": "dL/dt",
+       "dt": "dL/Mo"
+      }
+     },
+     {
+      "latex": {
+       "sr": "I_1 \\omega_1 = I_2 \\omega_2",
+       "en": "I_1 \\omega_1 = I_2 \\omega_2",
+       "it": "I_1 \\omega_1 = I_2 \\omega_2",
+       "fr": "J_1 \\omega_1 = J_2 \\omega_2",
+       "es": "I_1 \\omega_1 = I_2 \\omega_2",
+       "de": "J_1 \\omega_1 = J_2 \\omega_2",
+       "pt": "I_1 \\omega_1 = I_2 \\omega_2",
+       "ru": "J_1 \\omega_1 = J_2 \\omega_2"
+      },
+      "trazi": "om2",
+      "resenja": {
+       "om2": "I1*om1/I2",
+       "om1": "I2*om2/I1",
+       "I1": "I2*om2/om1",
+       "I2": "I1*om1/om2"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

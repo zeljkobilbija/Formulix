@@ -1,0 +1,2199 @@
+{
+ "oblast": "toplota",
+ "teme": [
+  {
+   "id": "sirenje",
+   "simbol": "α",
+   "naziv": {
+    "sr": "Toplotno širenje",
+    "en": "Thermal expansion",
+    "it": "Dilatazione termica",
+    "fr": "Dilatation thermique",
+    "es": "Dilatación térmica",
+    "de": "Wärmeausdehnung",
+    "pt": "Dilatação térmica",
+    "ru": "Тепловое расширение"
+   },
+   "opis": {
+    "sr": "Linearno i zapreminsko",
+    "en": "Linear and volume",
+    "it": "Lineare e cubica",
+    "fr": "Linéaire et volumique",
+    "es": "Lineal y volumétrica",
+    "de": "Längen- und Volumenausdehnung",
+    "pt": "Linear e volumétrica",
+    "ru": "Линейное и объёмное"
+   },
+   "kljucne_reci": {
+    "sr": "toplotno sirenje linearno zapreminsko sina most koeficijent sirenja",
+    "en": "thermal expansion linear volume rail bridge expansion coefficient",
+    "it": "dilatazione termica lineare cubica binario ponte",
+    "fr": "dilatation thermique lineaire volumique rail pont",
+    "es": "dilatacion termica lineal volumetrica riel puente",
+    "de": "warmeausdehnung langenausdehnung volumenausdehnung schiene brucke",
+    "pt": "dilatacao termica linear volumetrica trilho ponte",
+    "ru": "тепловое расширение линейное объёмное рельс мост"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Linearno širenje",
+      "en": "Linear expansion",
+      "it": "Dilatazione lineare",
+      "fr": "Dilatation linéaire",
+      "es": "Dilatación lineal",
+      "de": "Längenausdehnung",
+      "pt": "Dilatação linear",
+      "ru": "Линейное расширение"
+     },
+     "latex": "\\Delta l = \\alpha\\, l\\, \\Delta T",
+     "objasnjenje": {
+      "sr": "Za čelik α ≈ 12 · 10⁻⁶ K⁻¹: šina od 30 m se na 40 °C razlike produži oko 1,4 cm.",
+      "en": "For steel α ≈ 12 · 10⁻⁶ K⁻¹: a 30 m rail lengthens by about 1.4 cm over 40 °C.",
+      "it": "Per l’acciaio α ≈ 12 · 10⁻⁶ K⁻¹: un binario di 30 m si allunga di circa 1,4 cm per 40 °C.",
+      "fr": "Pour l’acier α ≈ 12 · 10⁻⁶ K⁻¹ : un rail de 30 m s’allonge d’environ 1,4 cm pour 40 °C.",
+      "es": "Para el acero α ≈ 12 · 10⁻⁶ K⁻¹: un riel de 30 m se alarga unos 1,4 cm con 40 °C.",
+      "de": "Für Stahl α ≈ 12 · 10⁻⁶ K⁻¹: eine 30-m-Schiene wird bei 40 °C etwa 1,4 cm länger.",
+      "pt": "Para o aço α ≈ 12 · 10⁻⁶ K⁻¹: um trilho de 30 m alonga cerca de 1,4 cm com 40 °C.",
+      "ru": "Для стали α ≈ 12 · 10⁻⁶ К⁻¹: рельс длиной 30 м удлиняется на 1,4 см при 40 °C."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zapreminsko širenje",
+      "en": "Volume expansion",
+      "it": "Dilatazione cubica",
+      "fr": "Dilatation volumique",
+      "es": "Dilatación volumétrica",
+      "de": "Volumenausdehnung",
+      "pt": "Dilatação volumétrica",
+      "ru": "Объёмное расширение"
+     },
+     "latex": "\\Delta V = \\beta\\, V\\, \\Delta T, \\quad \\beta = 3\\alpha",
+     "objasnjenje": {
+      "sr": "β = 3α važi za čvrsta tela; tečnosti imaju sopstveni β.",
+      "en": "β = 3α holds for solids; liquids have their own β.",
+      "it": "β = 3α vale per i solidi; i liquidi hanno un proprio β.",
+      "fr": "β = 3α vaut pour les solides ; les liquides ont leur propre β.",
+      "es": "β = 3α vale para sólidos; los líquidos tienen su propio β.",
+      "de": "β = 3α gilt für Festkörper; Flüssigkeiten haben ein eigenes β.",
+      "pt": "β = 3α vale para sólidos; os líquidos têm seu próprio β.",
+      "ru": "β = 3α для твёрдых тел; у жидкостей свой β."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "dl": {
+      "oznaka": "\\Delta l",
+      "naziv": {
+       "sr": "produženje",
+       "en": "change in length",
+       "it": "allungamento",
+       "fr": "allongement",
+       "es": "dilatación lineal",
+       "de": "Längenänderung",
+       "pt": "dilatação linear",
+       "ru": "удлинение"
+      },
+      "vrsta": "duzina",
+      "jed": "mm"
+     },
+     "alfa": {
+      "oznaka": "\\alpha",
+      "naziv": {
+       "sr": "koeficijent linearnog širenja",
+       "en": "coefficient of linear expansion",
+       "it": "coefficiente di dilatazione lineare",
+       "fr": "coefficient de dilatation linéaire",
+       "es": "coeficiente de dilatación lineal",
+       "de": "Längenausdehnungskoeffizient",
+       "pt": "coeficiente de dilatação linear",
+       "ru": "коэффициент линейного расширения"
+      },
+      "vrsta": "koefSirenja",
+      "pocetna": 1.2e-05,
+      "jed": "10⁻⁶/K",
+      "poz": true
+     },
+     "l": {
+      "oznaka": "l",
+      "naziv": {
+       "sr": "početna dužina",
+       "en": "initial length",
+       "it": "lunghezza iniziale",
+       "fr": "longueur initiale",
+       "es": "longitud inicial",
+       "de": "Anfangslänge",
+       "pt": "comprimento inicial",
+       "ru": "начальная длина"
+      },
+      "vrsta": "duzina",
+      "pocetna": 30,
+      "poz": true
+     },
+     "dT": {
+      "oznaka": "\\Delta T",
+      "naziv": {
+       "sr": "promena temperature",
+       "en": "change in temperature",
+       "it": "variazione di temperatura",
+       "fr": "variation de température",
+       "es": "variación de temperatura",
+       "de": "Temperaturänderung",
+       "pt": "variação de temperatura",
+       "ru": "изменение температуры"
+      },
+      "vrsta": "tempRazlika",
+      "pocetna": 40,
+      "jed": "°C"
+     },
+     "dV": {
+      "oznaka": "\\Delta V",
+      "naziv": {
+       "sr": "povećanje zapremine",
+       "en": "change in volume",
+       "it": "variazione di volume",
+       "fr": "variation de volume",
+       "es": "variación de volumen",
+       "de": "Volumenänderung",
+       "pt": "variação de volume",
+       "ru": "изменение объёма"
+      },
+      "vrsta": "zapremina",
+      "jed": "mL"
+     },
+     "beta": {
+      "oznaka": "\\beta",
+      "naziv": {
+       "sr": "koeficijent zapreminskog širenja",
+       "en": "coefficient of volume expansion",
+       "it": "coefficiente di dilatazione cubica",
+       "fr": "coefficient de dilatation volumique",
+       "es": "coeficiente de dilatación volumétrica",
+       "de": "Volumenausdehnungskoeffizient",
+       "pt": "coeficiente de dilatação volumétrica",
+       "ru": "коэффициент объёмного расширения"
+      },
+      "vrsta": "koefSirenja",
+      "pocetna": 0.00021,
+      "jed": "10⁻⁶/K",
+      "poz": true
+     },
+     "V": {
+      "oznaka": "V",
+      "naziv": {
+       "sr": "zapremina",
+       "en": "volume",
+       "it": "volume",
+       "fr": "volume",
+       "es": "volumen",
+       "de": "Volumen",
+       "pt": "volume",
+       "ru": "объём"
+      },
+      "vrsta": "zapremina",
+      "pocetna": 0.001,
+      "jed": "L",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "\\Delta l = \\alpha l \\Delta T",
+      "trazi": "dl",
+      "resenja": {
+       "dl": "alfa*l*dT",
+       "alfa": "dl/(l*dT)",
+       "l": "dl/(alfa*dT)",
+       "dT": "dl/(alfa*l)"
+      }
+     },
+     {
+      "latex": "\\Delta V = \\beta V \\Delta T",
+      "trazi": "dV",
+      "resenja": {
+       "dV": "beta*V*dT",
+       "beta": "dV/(V*dT)",
+       "V": "dV/(beta*dT)",
+       "dT": "dV/(beta*V)"
+      },
+      "napomene": {
+       "dV": {
+        "sr": "Podrazumevano: voda (β ≈ 210 · 10⁻⁶ K⁻¹).",
+        "en": "Default: water (β ≈ 210 · 10⁻⁶ K⁻¹).",
+        "it": "Predefinito: acqua (β ≈ 210 · 10⁻⁶ K⁻¹).",
+        "fr": "Par défaut : eau (β ≈ 210 · 10⁻⁶ K⁻¹).",
+        "es": "Por defecto: agua (β ≈ 210 · 10⁻⁶ K⁻¹).",
+        "de": "Voreinstellung: Wasser (β ≈ 210 · 10⁻⁶ K⁻¹).",
+        "pt": "Padrão: água (β ≈ 210 · 10⁻⁶ K⁻¹).",
+        "ru": "По умолчанию: вода (β ≈ 210 · 10⁻⁶ К⁻¹)."
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "kolicina_toplote",
+   "simbol": "Q",
+   "naziv": {
+    "sr": "Količina toplote",
+    "en": "Heat",
+    "it": "Quantità di calore",
+    "fr": "Quantité de chaleur",
+    "es": "Cantidad de calor",
+    "de": "Wärmemenge",
+    "pt": "Quantidade de calor",
+    "ru": "Количество теплоты"
+   },
+   "opis": {
+    "sr": "Zagrevanje, topljenje, sagorevanje",
+    "en": "Heating, melting, combustion",
+    "it": "Riscaldamento, fusione, combustione",
+    "fr": "Chauffage, fusion, combustion",
+    "es": "Calentamiento, fusión, combustión",
+    "de": "Erwärmen, Schmelzen, Verbrennen",
+    "pt": "Aquecimento, fusão, combustão",
+    "ru": "Нагревание, плавление, сгорание"
+   },
+   "kljucne_reci": {
+    "sr": "kolicina toplote specificni toplotni kapacitet zagrevanje vode topljenje leda isparavanje sagorevanje grejac bojler",
+    "en": "heat specific heat capacity heating water melting ice vaporization combustion heater kettle",
+    "it": "calore specifico riscaldamento acqua fusione ghiaccio evaporazione combustione",
+    "fr": "chaleur capacite thermique chauffage eau fusion glace vaporisation combustion",
+    "es": "calor especifico calentamiento agua fusion hielo vaporizacion combustion",
+    "de": "warme spezifische warmekapazitat erwarmen wasser schmelzen eis verdampfen verbrennen heizwert",
+    "pt": "calor especifico aquecimento agua fusao gelo vaporizacao combustao",
+    "ru": "количество теплоты удельная теплоёмкость нагревание плавление льда парообразование сгорание"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Zagrevanje",
+      "en": "Heating",
+      "it": "Riscaldamento",
+      "fr": "Chauffage",
+      "es": "Calentamiento",
+      "de": "Erwärmen",
+      "pt": "Aquecimento",
+      "ru": "Нагревание"
+     },
+     "latex": "Q = m\\, c\\, \\Delta T",
+     "objasnjenje": {
+      "sr": "Za vodu c ≈ 4186 J/(kg·K): za 1 L vode i 1 °C treba oko 4,2 kJ. Za gas razlikujemo cₚ (stalan pritisak) i cᵥ (stalna zapremina).",
+      "en": "For water c ≈ 4186 J/(kg·K): 1 L of water needs about 4.2 kJ per 1 °C. For gases cₚ (constant pressure) and cᵥ (constant volume) differ.",
+      "it": "Per l’acqua c ≈ 4186 J/(kg·K): 1 L d’acqua richiede circa 4,2 kJ per 1 °C. Per i gas si distinguono cₚ e cᵥ.",
+      "fr": "Pour l’eau c ≈ 4186 J/(kg·K) : 1 L d’eau demande environ 4,2 kJ par °C. Pour les gaz on distingue cₚ et cᵥ.",
+      "es": "Para el agua c ≈ 4186 J/(kg·K): 1 L de agua necesita unos 4,2 kJ por °C. En gases se distinguen cₚ y cᵥ.",
+      "de": "Für Wasser c ≈ 4186 J/(kg·K): 1 L Wasser braucht pro °C etwa 4,2 kJ. Bei Gasen unterscheidet man cₚ und cᵥ.",
+      "pt": "Para a água c ≈ 4186 J/(kg·K): 1 L de água precisa de cerca de 4,2 kJ por °C. Em gases distinguem-se cₚ e cᵥ.",
+      "ru": "Для воды c ≈ 4186 Дж/(кг·К): для 1 л воды на 1 °C нужно около 4,2 кДж. Для газов различают cₚ и cᵥ."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Promena agregatnog stanja i sagorevanje",
+      "en": "Change of state and combustion",
+      "it": "Cambiamento di stato e combustione",
+      "fr": "Changement d’état et combustion",
+      "es": "Cambio de estado y combustión",
+      "de": "Phasenübergang und Verbrennung",
+      "pt": "Mudança de estado e combustão",
+      "ru": "Фазовые переходы и сгорание"
+     },
+     "latex": {
+      "sr": "Q = q\\, m",
+      "en": "Q = L\\, m",
+      "it": "Q = \\lambda\\, m",
+      "fr": "Q = L\\, m",
+      "es": "Q = L\\, m",
+      "de": "Q = q\\, m",
+      "pt": "Q = L\\, m",
+      "ru": "Q = \\lambda\\, m"
+     },
+     "objasnjenje": {
+      "sr": "Topljenje leda: 334 kJ/kg; isparavanje vode: 2260 kJ/kg; sagorevanje benzina ≈ 46 MJ/kg.",
+      "en": "Melting ice: 334 kJ/kg; boiling water: 2260 kJ/kg; burning petrol ≈ 46 MJ/kg.",
+      "it": "Fusione del ghiaccio: 334 kJ/kg; evaporazione dell’acqua: 2260 kJ/kg; benzina ≈ 46 MJ/kg.",
+      "fr": "Fusion de la glace : 334 kJ/kg ; vaporisation de l’eau : 2260 kJ/kg ; essence ≈ 46 MJ/kg.",
+      "es": "Fusión del hielo: 334 kJ/kg; vaporización del agua: 2260 kJ/kg; gasolina ≈ 46 MJ/kg.",
+      "de": "Schmelzen von Eis: 334 kJ/kg; Verdampfen von Wasser: 2260 kJ/kg; Benzin ≈ 46 MJ/kg.",
+      "pt": "Fusão do gelo: 334 kJ/kg; vaporização da água: 2260 kJ/kg; gasolina ≈ 46 MJ/kg.",
+      "ru": "Плавление льда: 334 кДж/кг; парообразование воды: 2260 кДж/кг; бензин ≈ 46 МДж/кг."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Toplotna snaga",
+      "en": "Heating power",
+      "it": "Potenza termica",
+      "fr": "Puissance thermique",
+      "es": "Potencia térmica",
+      "de": "Wärmeleistung",
+      "pt": "Potência térmica",
+      "ru": "Тепловая мощность"
+     },
+     "latex": "P = \\frac{Q}{\\Delta t}",
+     "objasnjenje": {
+      "sr": "Grejač snage P za vreme Δt preda toplotu Q (ako nema gubitaka).",
+      "en": "A heater of power P delivers heat Q in time Δt (without losses).",
+      "it": "Un riscaldatore di potenza P fornisce il calore Q nel tempo Δt (senza perdite).",
+      "fr": "Un chauffage de puissance P fournit la chaleur Q en Δt (sans pertes).",
+      "es": "Un calentador de potencia P entrega el calor Q en Δt (sin pérdidas).",
+      "de": "Ein Heizer der Leistung P gibt in Δt die Wärme Q ab (ohne Verluste).",
+      "pt": "Um aquecedor de potência P fornece o calor Q em Δt (sem perdas).",
+      "ru": "Нагреватель мощностью P за время Δt отдаёт теплоту Q (без потерь)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Q": {
+      "oznaka": "Q",
+      "naziv": {
+       "sr": "količina toplote",
+       "en": "heat",
+       "it": "calore",
+       "fr": "chaleur",
+       "es": "calor",
+       "de": "Wärme",
+       "pt": "calor",
+       "ru": "количество теплоты"
+      },
+      "vrsta": "energija",
+      "jed": "kJ"
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 1,
+      "poz": true
+     },
+     "c": {
+      "oznaka": "c",
+      "naziv": {
+       "sr": "specifični toplotni kapacitet",
+       "en": "specific heat capacity",
+       "it": "calore specifico",
+       "fr": "capacité thermique massique",
+       "es": "calor específico",
+       "de": "spezifische Wärmekapazität",
+       "pt": "calor específico",
+       "ru": "удельная теплоёмкость"
+      },
+      "vrsta": "specToplota",
+      "pocetna": 4186,
+      "poz": true
+     },
+     "dT": {
+      "oznaka": "\\Delta T",
+      "naziv": {
+       "sr": "promena temperature",
+       "en": "change in temperature",
+       "it": "variazione di temperatura",
+       "fr": "variation de température",
+       "es": "variación de temperatura",
+       "de": "Temperaturänderung",
+       "pt": "variação de temperatura",
+       "ru": "изменение температуры"
+      },
+      "vrsta": "tempRazlika",
+      "pocetna": 80,
+      "jed": "°C"
+     },
+     "q": {
+      "oznaka": {
+       "sr": "q",
+       "en": "L",
+       "it": "\\lambda",
+       "fr": "L",
+       "es": "L",
+       "de": "q",
+       "pt": "L",
+       "ru": "\\lambda"
+      },
+      "naziv": {
+       "sr": "specifična toplota (topljenja, isparavanja, sagorevanja)",
+       "en": "specific latent heat (or heat of combustion)",
+       "it": "calore latente specifico (o potere calorifico)",
+       "fr": "chaleur latente massique (ou pouvoir calorifique)",
+       "es": "calor latente específico (o poder calorífico)",
+       "de": "spezifische Umwandlungswärme (oder Heizwert)",
+       "pt": "calor latente específico (ou poder calorífico)",
+       "ru": "удельная теплота (плавления, парообразования, сгорания)"
+      },
+      "vrsta": "specLatentna",
+      "pocetna": 334000.0,
+      "jed": "kJ/kg",
+      "poz": true
+     },
+     "P": {
+      "oznaka": "P",
+      "naziv": {
+       "sr": "snaga grejača",
+       "en": "heater power",
+       "it": "potenza del riscaldatore",
+       "fr": "puissance du chauffage",
+       "es": "potencia del calentador",
+       "de": "Heizleistung",
+       "pt": "potência do aquecedor",
+       "ru": "мощность нагревателя"
+      },
+      "vrsta": "snaga",
+      "pocetna": 2000,
+      "jed": "kW",
+      "poz": true
+     },
+     "t": {
+      "oznaka": "t",
+      "naziv": {
+       "sr": "vreme",
+       "en": "time",
+       "it": "tempo",
+       "fr": "temps",
+       "es": "tiempo",
+       "de": "Zeit",
+       "pt": "tempo",
+       "ru": "время"
+      },
+      "vrsta": "vreme",
+      "jed": "min",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "Q = m c \\Delta T",
+      "trazi": "Q",
+      "resenja": {
+       "Q": "m*c*dT",
+       "m": "Q/(c*dT)",
+       "c": "Q/(m*dT)",
+       "dT": "Q/(m*c)"
+      }
+     },
+     {
+      "latex": {
+       "sr": "Q = q m",
+       "en": "Q = L m",
+       "it": "Q = \\lambda m",
+       "fr": "Q = L m",
+       "es": "Q = L m",
+       "de": "Q = q m",
+       "pt": "Q = L m",
+       "ru": "Q = \\lambda m"
+      },
+      "trazi": "Q",
+      "resenja": {
+       "Q": "q*m",
+       "q": "Q/m",
+       "m": "Q/q"
+      }
+     },
+     {
+      "latex": "t = \\dfrac{Q}{P}",
+      "trazi": "t",
+      "resenja": {
+       "t": "Q/P",
+       "Q": "P*t",
+       "P": "Q/t"
+      },
+      "napomene": {
+       "t": {
+        "sr": "Npr. koliko dugo kuvalo zagreva vodu (bez gubitaka).",
+        "en": "E.g. how long a kettle takes to heat the water (no losses).",
+        "it": "Es. quanto tempo impiega un bollitore (senza perdite).",
+        "fr": "Ex. durée de chauffe d’une bouilloire (sans pertes).",
+        "es": "P. ej., cuánto tarda un hervidor (sin pérdidas).",
+        "de": "Z. B. wie lange ein Wasserkocher braucht (ohne Verluste).",
+        "pt": "Ex.: quanto tempo uma chaleira leva (sem perdas).",
+        "ru": "Например, сколько греется чайник (без потерь)."
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "gasni_zakoni",
+   "simbol": "pV",
+   "naziv": {
+    "sr": "Jednačina stanja gasa",
+    "en": "Ideal gas law",
+    "it": "Equazione di stato dei gas",
+    "fr": "Loi des gaz parfaits",
+    "es": "Ecuación de los gases ideales",
+    "de": "Zustandsgleichung idealer Gase",
+    "pt": "Equação dos gases ideais",
+    "ru": "Уравнение состояния газа"
+   },
+   "opis": {
+    "sr": "pV = nRT, gasni zakoni",
+    "en": "pV = nRT, gas laws",
+    "it": "pV = nRT, leggi dei gas",
+    "fr": "pV = nRT, lois des gaz",
+    "es": "pV = nRT, leyes de los gases",
+    "de": "pV = nRT, Gasgesetze",
+    "pt": "pV = nRT, leis dos gases",
+    "ru": "pV = νRT, газовые законы"
+   },
+   "kljucne_reci": {
+    "sr": "jednacina stanja idealan gas gasni zakoni izoterma izobara izohora boyle mariotte gej lisak sarl dalton parcijalni pritisak",
+    "en": "ideal gas law gas laws isothermal isobaric isochoric boyle charles gay lussac dalton partial pressure",
+    "it": "equazione di stato gas perfetto boyle charles gay lussac dalton pressione parziale",
+    "fr": "loi des gaz parfaits boyle mariotte charles gay lussac dalton pression partielle",
+    "es": "gases ideales boyle mariotte charles gay lussac dalton presion parcial",
+    "de": "ideales gas zustandsgleichung boyle mariotte gay lussac dalton partialdruck",
+    "pt": "gases ideais clapeyron boyle charles gay lussac dalton pressao parcial",
+    "ru": "уравнение менделеева клапейрона идеальный газ бойля мариотта гей люссака шарля дальтона парциальное давление"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Jednačina stanja idealnog gasa",
+      "en": "Ideal gas equation",
+      "it": "Equazione di stato",
+      "fr": "Équation d’état",
+      "es": "Ecuación de estado",
+      "de": "Zustandsgleichung",
+      "pt": "Equação de estado",
+      "ru": "Уравнение Менделеева — Клапейрона"
+     },
+     "latex": "p V = \\frac{m}{M} R T",
+     "objasnjenje": {
+      "sr": "T je apsolutna temperatura u kelvinima; R = 8,314 J/(mol·K); m/M je broj molova.",
+      "en": "T is the absolute temperature in kelvin; R = 8.314 J/(mol·K); m/M is the amount in moles.",
+      "it": "T è la temperatura assoluta in kelvin; R = 8,314 J/(mol·K); m/M è il numero di moli.",
+      "fr": "T est la température absolue en kelvins ; R = 8,314 J/(mol·K) ; m/M est la quantité de matière.",
+      "es": "T es la temperatura absoluta en kelvin; R = 8,314 J/(mol·K); m/M es el número de moles.",
+      "de": "T ist die absolute Temperatur in Kelvin; R = 8,314 J/(mol·K); m/M ist die Stoffmenge.",
+      "pt": "T é a temperatura absoluta em kelvin; R = 8,314 J/(mol·K); m/M é o número de mols.",
+      "ru": "T — абсолютная температура в кельвинах; R = 8,314 Дж/(моль·К); m/M — количество вещества."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Promena stanja",
+      "en": "Change of state",
+      "it": "Trasformazione",
+      "fr": "Transformation",
+      "es": "Cambio de estado",
+      "de": "Zustandsänderung",
+      "pt": "Transformação",
+      "ru": "Изменение состояния"
+     },
+     "latex": "\\frac{p_1 V_1}{T_1} = \\frac{p_2 V_2}{T_2}",
+     "objasnjenje": {
+      "sr": "Za istu količinu gasa. Posebni slučajevi: T = const (Bojl-Mariot), p = const (Gej-Lisak), V = const (Šarl).",
+      "en": "For the same amount of gas. Special cases: T = const (Boyle), p = const (Charles / Gay-Lussac), V = const (Amontons / Gay-Lussac).",
+      "it": "Per la stessa quantità di gas. Casi particolari: T costante (Boyle), p costante (1ª Gay-Lussac), V costante (2ª Gay-Lussac).",
+      "fr": "Pour la même quantité de gaz. Cas particuliers : T constante (Boyle-Mariotte), p constante (Gay-Lussac), V constant (Charles).",
+      "es": "Para la misma cantidad de gas. Casos: T constante (Boyle-Mariotte), p constante (Charles), V constante (Gay-Lussac).",
+      "de": "Für dieselbe Gasmenge. Sonderfälle: T konstant (Boyle-Mariotte), p konstant (Gay-Lussac), V konstant (Amontons).",
+      "pt": "Para a mesma quantidade de gás. Casos: T constante (Boyle), p constante (Charles), V constante (Gay-Lussac).",
+      "ru": "Для одной и той же массы газа. Частные случаи: T = const (Бойль — Мариотт), p = const (Гей-Люссак), V = const (Шарль)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Daltonov zakon",
+      "en": "Dalton’s law",
+      "it": "Legge di Dalton",
+      "fr": "Loi de Dalton",
+      "es": "Ley de Dalton",
+      "de": "Daltonsches Gesetz",
+      "pt": "Lei de Dalton",
+      "ru": "Закон Дальтона"
+     },
+     "latex": "p = p_1 + p_2 + \\cdots + p_n",
+     "objasnjenje": {
+      "sr": "Pritisak smeše gasova je zbir parcijalnih pritisaka.",
+      "en": "The pressure of a gas mixture is the sum of the partial pressures.",
+      "it": "La pressione di una miscela è la somma delle pressioni parziali.",
+      "fr": "La pression d’un mélange est la somme des pressions partielles.",
+      "es": "La presión de una mezcla es la suma de las presiones parciales.",
+      "de": "Der Druck eines Gasgemischs ist die Summe der Partialdrücke.",
+      "pt": "A pressão de uma mistura é a soma das pressões parciais.",
+      "ru": "Давление смеси равно сумме парциальных давлений."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "p": {
+      "oznaka": "p",
+      "naziv": {
+       "sr": "pritisak",
+       "en": "pressure",
+       "it": "pressione",
+       "fr": "pression",
+       "es": "presión",
+       "de": "Druck",
+       "pt": "pressão",
+       "ru": "давление"
+      },
+      "vrsta": "pritisak",
+      "jed": "kPa",
+      "poz": true
+     },
+     "V": {
+      "oznaka": "V",
+      "naziv": {
+       "sr": "zapremina",
+       "en": "volume",
+       "it": "volume",
+       "fr": "volume",
+       "es": "volumen",
+       "de": "Volumen",
+       "pt": "volume",
+       "ru": "объём"
+      },
+      "vrsta": "zapremina",
+      "pocetna": 0.0224,
+      "jed": "L",
+      "poz": true
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 0.032,
+      "jed": "g",
+      "poz": true
+     },
+     "M": {
+      "oznaka": "M",
+      "naziv": {
+       "sr": "molarna masa",
+       "en": "molar mass",
+       "it": "massa molare",
+       "fr": "masse molaire",
+       "es": "masa molar",
+       "de": "molare Masse",
+       "pt": "massa molar",
+       "ru": "молярная масса"
+      },
+      "vrsta": "molarnaMasa",
+      "pocetna": 0.032,
+      "poz": true
+     },
+     "R": {
+      "oznaka": "R",
+      "naziv": {
+       "sr": "univerzalna gasna konstanta",
+       "en": "molar gas constant",
+       "it": "costante dei gas",
+       "fr": "constante des gaz parfaits",
+       "es": "constante de los gases",
+       "de": "universelle Gaskonstante",
+       "pt": "constante dos gases",
+       "ru": "универсальная газовая постоянная"
+      },
+      "vrsta": "gasKonst",
+      "pocetna": 8.314462618,
+      "poz": true
+     },
+     "Tt": {
+      "oznaka": "T",
+      "naziv": {
+       "sr": "temperatura",
+       "en": "temperature",
+       "it": "temperatura",
+       "fr": "température",
+       "es": "temperatura",
+       "de": "Temperatur",
+       "pt": "temperatura",
+       "ru": "температура"
+      },
+      "vrsta": "temperatura",
+      "pocetna": 273.15,
+      "jed": "°C",
+      "poz": true
+     },
+     "p2": {
+      "oznaka": "p_2",
+      "naziv": {
+       "sr": "pritisak u stanju 2",
+       "en": "pressure in state 2",
+       "it": "pressione nello stato 2",
+       "fr": "pression dans l’état 2",
+       "es": "presión en el estado 2",
+       "de": "Druck im Zustand 2",
+       "pt": "pressão no estado 2",
+       "ru": "давление в состоянии 2"
+      },
+      "vrsta": "pritisak",
+      "jed": "kPa",
+      "poz": true
+     },
+     "p1": {
+      "oznaka": "p_1",
+      "naziv": {
+       "sr": "pritisak u stanju 1",
+       "en": "pressure in state 1",
+       "it": "pressione nello stato 1",
+       "fr": "pression dans l’état 1",
+       "es": "presión en el estado 1",
+       "de": "Druck im Zustand 1",
+       "pt": "pressão no estado 1",
+       "ru": "давление в состоянии 1"
+      },
+      "vrsta": "pritisak",
+      "pocetna": 101325,
+      "jed": "kPa",
+      "poz": true
+     },
+     "V1": {
+      "oznaka": "V_1",
+      "naziv": {
+       "sr": "zapremina u stanju 1",
+       "en": "volume in state 1",
+       "it": "volume nello stato 1",
+       "fr": "volume dans l’état 1",
+       "es": "volumen en el estado 1",
+       "de": "Volumen im Zustand 1",
+       "pt": "volume no estado 1",
+       "ru": "объём в состоянии 1"
+      },
+      "vrsta": "zapremina",
+      "pocetna": 0.01,
+      "jed": "L",
+      "poz": true
+     },
+     "T1": {
+      "oznaka": "T_1",
+      "naziv": {
+       "sr": "temperatura u stanju 1",
+       "en": "temperature in state 1",
+       "it": "temperatura nello stato 1",
+       "fr": "température dans l’état 1",
+       "es": "temperatura en el estado 1",
+       "de": "Temperatur im Zustand 1",
+       "pt": "temperatura no estado 1",
+       "ru": "температура в состоянии 1"
+      },
+      "vrsta": "temperatura",
+      "pocetna": 293.15,
+      "jed": "°C",
+      "poz": true
+     },
+     "V2": {
+      "oznaka": "V_2",
+      "naziv": {
+       "sr": "zapremina u stanju 2",
+       "en": "volume in state 2",
+       "it": "volume nello stato 2",
+       "fr": "volume dans l’état 2",
+       "es": "volumen en el estado 2",
+       "de": "Volumen im Zustand 2",
+       "pt": "volume no estado 2",
+       "ru": "объём в состоянии 2"
+      },
+      "vrsta": "zapremina",
+      "pocetna": 0.005,
+      "jed": "L",
+      "poz": true
+     },
+     "T2": {
+      "oznaka": "T_2",
+      "naziv": {
+       "sr": "temperatura u stanju 2",
+       "en": "temperature in state 2",
+       "it": "temperatura nello stato 2",
+       "fr": "température dans l’état 2",
+       "es": "temperatura en el estado 2",
+       "de": "Temperatur im Zustand 2",
+       "pt": "temperatura no estado 2",
+       "ru": "температура в состоянии 2"
+      },
+      "vrsta": "temperatura",
+      "pocetna": 333.15,
+      "jed": "°C",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "p V = \\dfrac{m}{M} R T",
+      "trazi": "p",
+      "promenljive": [
+       "p",
+       "V",
+       "m",
+       "M",
+       "R",
+       "Tt"
+      ],
+      "resenja": {
+       "p": "m*R*Tt/(M*V)",
+       "V": "m*R*Tt/(M*p)",
+       "m": "p*V*M/(R*Tt)",
+       "M": "m*R*Tt/(p*V)",
+       "Tt": "p*V*M/(m*R)"
+      }
+     },
+     {
+      "latex": "\\dfrac{p_1 V_1}{T_1} = \\dfrac{p_2 V_2}{T_2}",
+      "trazi": "p2",
+      "resenja": {
+       "p2": "p1*V1*T2/(T1*V2)",
+       "V2": "p1*V1*T2/(T1*p2)",
+       "T2": "p2*V2*T1/(p1*V1)",
+       "p1": "p2*V2*T1/(T2*V1)",
+       "V1": "p2*V2*T1/(T2*p1)",
+       "T1": "p1*V1*T2/(p2*V2)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "prvi_zakon",
+   "simbol": "ΔU",
+   "naziv": {
+    "sr": "Prvi zakon termodinamike",
+    "en": "First law of thermodynamics",
+    "it": "Primo principio della termodinamica",
+    "fr": "Premier principe de la thermodynamique",
+    "es": "Primer principio de la termodinámica",
+    "de": "Erster Hauptsatz der Thermodynamik",
+    "pt": "Primeira lei da termodinâmica",
+    "ru": "Первый закон термодинамики"
+   },
+   "opis": {
+    "sr": "Unutrašnja energija, cₚ i cᵥ",
+    "en": "Internal energy, cₚ and cᵥ",
+    "it": "Energia interna, cₚ e cᵥ",
+    "fr": "Énergie interne, cₚ et cᵥ",
+    "es": "Energía interna, cₚ y cᵥ",
+    "de": "Innere Energie, cₚ und cᵥ",
+    "pt": "Energia interna, cₚ e cᵥ",
+    "ru": "Внутренняя энергия, cₚ и cᵥ"
+   },
+   "kljucne_reci": {
+    "sr": "prvi zakon termodinamike unutrasnja energija toplota rad gasa cp cv",
+    "en": "first law of thermodynamics internal energy heat work cp cv",
+    "it": "primo principio termodinamica energia interna calore lavoro",
+    "fr": "premier principe thermodynamique energie interne chaleur travail",
+    "es": "primer principio termodinamica energia interna calor trabajo",
+    "de": "erster hauptsatz innere energie warme arbeit",
+    "pt": "primeira lei termodinamica energia interna calor trabalho",
+    "ru": "первое начало термодинамики внутренняя энергия теплота работа"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Prvi zakon termodinamike",
+      "en": "First law",
+      "it": "Primo principio",
+      "fr": "Premier principe",
+      "es": "Primer principio",
+      "de": "Erster Hauptsatz",
+      "pt": "Primeira lei",
+      "ru": "Первый закон"
+     },
+     "latex": {
+      "sr": "\\Delta U = A + Q, \\quad A = -p\\,\\Delta V",
+      "en": "\\Delta U = W + Q, \\quad W = -p\\,\\Delta V",
+      "it": "\\Delta U = L + Q, \\quad L = -p\\,\\Delta V",
+      "fr": "\\Delta U = W + Q, \\quad W = -p\\,\\Delta V",
+      "es": "\\Delta U = W + Q, \\quad W = -p\\,\\Delta V",
+      "de": "\\Delta U = W + Q, \\quad W = -p\\,\\Delta V",
+      "pt": "\\Delta U = W + Q, \\quad W = -p\\,\\Delta V",
+      "ru": "\\Delta U = A + Q, \\quad A = -p\\,\\Delta V"
+     },
+     "objasnjenje": {
+      "sr": "Unutrašnja energija gasa raste za dovedenu toplotu Q i za rad A koji okolina izvrši nad gasom. Kada se gas širi, A je negativan.",
+      "en": "The internal energy rises by the heat Q supplied and by the work W done on the gas. When the gas expands, W is negative.",
+      "it": "L’energia interna aumenta del calore Q fornito e del lavoro L compiuto sul gas. Se il gas si espande, L è negativo.",
+      "fr": "L’énergie interne augmente de la chaleur Q reçue et du travail W reçu par le gaz. Lors d’une détente, W est négatif.",
+      "es": "La energía interna aumenta con el calor Q recibido y el trabajo W realizado sobre el gas. Si el gas se expande, W es negativo.",
+      "de": "Die innere Energie steigt um die zugeführte Wärme Q und die am Gas verrichtete Arbeit W. Dehnt sich das Gas aus, ist W negativ.",
+      "pt": "A energia interna aumenta com o calor Q recebido e o trabalho W realizado sobre o gás. Se o gás se expande, W é negativo.",
+      "ru": "Внутренняя энергия растёт на подведённую теплоту Q и работу A внешних сил над газом. При расширении газа A отрицательна."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Unutrašnja energija i specifične toplote",
+      "en": "Internal energy and specific heats",
+      "it": "Energia interna e calori specifici",
+      "fr": "Énergie interne et capacités thermiques",
+      "es": "Energía interna y calores específicos",
+      "de": "Innere Energie und spezifische Wärmen",
+      "pt": "Energia interna e calores específicos",
+      "ru": "Внутренняя энергия и теплоёмкости"
+     },
+     "latex": "\\Delta U = m\\, c_v\\, \\Delta T, \\quad c_p - c_v = \\frac{R}{M}, \\quad \\kappa = \\frac{c_p}{c_v}",
+     "objasnjenje": {
+      "sr": "Za jednoatomni gas κ = 5/3, za dvoatomni (vazduh) κ = 7/5.",
+      "en": "For a monatomic gas κ = 5/3, for a diatomic one (air) κ = 7/5.",
+      "it": "Per un gas monoatomico κ = 5/3, per uno biatomico (aria) κ = 7/5.",
+      "fr": "Pour un gaz monoatomique κ = 5/3, pour un gaz diatomique (air) κ = 7/5.",
+      "es": "Para un gas monoatómico κ = 5/3, para uno diatómico (aire) κ = 7/5.",
+      "de": "Für ein einatomiges Gas κ = 5/3, für ein zweiatomiges (Luft) κ = 7/5.",
+      "pt": "Para um gás monoatômico κ = 5/3, para um diatômico (ar) κ = 7/5.",
+      "ru": "Для одноатомного газа κ = 5/3, для двухатомного (воздух) κ = 7/5."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "dU": {
+      "oznaka": "\\Delta U",
+      "naziv": {
+       "sr": "promena unutrašnje energije",
+       "en": "change in internal energy",
+       "it": "variazione di energia interna",
+       "fr": "variation d’énergie interne",
+       "es": "variación de energía interna",
+       "de": "Änderung der inneren Energie",
+       "pt": "variação da energia interna",
+       "ru": "изменение внутренней энергии"
+      },
+      "vrsta": "energija"
+     },
+     "A": {
+      "oznaka": {
+       "sr": "A",
+       "en": "W",
+       "it": "L",
+       "fr": "W",
+       "es": "W",
+       "de": "W",
+       "pt": "W",
+       "ru": "A"
+      },
+      "naziv": {
+       "sr": "rad izvršen nad gasom",
+       "en": "work done on the gas",
+       "it": "lavoro compiuto sul gas",
+       "fr": "travail reçu par le gaz",
+       "es": "trabajo realizado sobre el gas",
+       "de": "am Gas verrichtete Arbeit",
+       "pt": "trabalho realizado sobre o gás",
+       "ru": "работа внешних сил над газом"
+      },
+      "vrsta": "energija",
+      "pocetna": -200
+     },
+     "Qd": {
+      "oznaka": "Q",
+      "naziv": {
+       "sr": "dovedena toplota",
+       "en": "heat added",
+       "it": "calore fornito",
+       "fr": "chaleur reçue",
+       "es": "calor suministrado",
+       "de": "zugeführte Wärme",
+       "pt": "calor fornecido",
+       "ru": "подведённое тепло"
+      },
+      "vrsta": "energija",
+      "pocetna": 500
+     },
+     "p": {
+      "oznaka": "p",
+      "naziv": {
+       "sr": "pritisak",
+       "en": "pressure",
+       "it": "pressione",
+       "fr": "pression",
+       "es": "presión",
+       "de": "Druck",
+       "pt": "pressão",
+       "ru": "давление"
+      },
+      "vrsta": "pritisak",
+      "pocetna": 100000.0,
+      "jed": "kPa"
+     },
+     "dV": {
+      "oznaka": "\\Delta V",
+      "naziv": {
+       "sr": "promena zapremine",
+       "en": "change in volume",
+       "it": "variazione di volume",
+       "fr": "variation de volume",
+       "es": "variación de volumen",
+       "de": "Volumenänderung",
+       "pt": "variação de volume",
+       "ru": "изменение объёма"
+      },
+      "vrsta": "zapremina",
+      "pocetna": 0.002,
+      "jed": "L"
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 0.01,
+      "poz": true,
+      "jed": "g"
+     },
+     "cv": {
+      "oznaka": "c_v",
+      "naziv": {
+       "sr": "specifična toplota pri stalnoj zapremini",
+       "en": "specific heat at constant volume",
+       "it": "calore specifico a volume costante",
+       "fr": "capacité thermique massique à volume constant",
+       "es": "calor específico a volumen constante",
+       "de": "spezifische Wärme bei konstantem Volumen",
+       "pt": "calor específico a volume constante",
+       "ru": "удельная теплоёмкость при постоянном объёме"
+      },
+      "vrsta": "specToplota",
+      "pocetna": 718,
+      "poz": true
+     },
+     "dT": {
+      "oznaka": "\\Delta T",
+      "naziv": {
+       "sr": "promena temperature",
+       "en": "change in temperature",
+       "it": "variazione di temperatura",
+       "fr": "variation de température",
+       "es": "variación de temperatura",
+       "de": "Temperaturänderung",
+       "pt": "variação de temperatura",
+       "ru": "изменение температуры"
+      },
+      "vrsta": "tempRazlika",
+      "pocetna": 50,
+      "jed": "°C"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "\\Delta U = A + Q",
+       "en": "\\Delta U = W + Q",
+       "it": "\\Delta U = L + Q",
+       "fr": "\\Delta U = W + Q",
+       "es": "\\Delta U = W + Q",
+       "de": "\\Delta U = W + Q",
+       "pt": "\\Delta U = W + Q",
+       "ru": "\\Delta U = A + Q"
+      },
+      "trazi": "dU",
+      "resenja": {
+       "dU": "A + Qd",
+       "A": "dU - Qd",
+       "Qd": "dU - A"
+      }
+     },
+     {
+      "latex": {
+       "sr": "A = -p \\Delta V",
+       "en": "W = -p \\Delta V",
+       "it": "L = -p \\Delta V",
+       "fr": "W = -p \\Delta V",
+       "es": "W = -p \\Delta V",
+       "de": "W = -p \\Delta V",
+       "pt": "W = -p \\Delta V",
+       "ru": "A = -p \\Delta V"
+      },
+      "trazi": "A",
+      "resenja": {
+       "A": "-p*dV",
+       "p": "-A/dV",
+       "dV": "-A/p"
+      }
+     },
+     {
+      "latex": "\\Delta U = m c_v \\Delta T",
+      "trazi": "dU",
+      "resenja": {
+       "dU": "m*cv*dT",
+       "m": "dU/(cv*dT)",
+       "cv": "dU/(m*dT)",
+       "dT": "dU/(m*cv)"
+      },
+      "napomene": {
+       "dU": {
+        "sr": "Podrazumevano: vazduh, cᵥ ≈ 718 J/(kg·K).",
+        "en": "Default: air, cᵥ ≈ 718 J/(kg·K).",
+        "it": "Predefinito: aria, cᵥ ≈ 718 J/(kg·K).",
+        "fr": "Par défaut : air, cᵥ ≈ 718 J/(kg·K).",
+        "es": "Por defecto: aire, cᵥ ≈ 718 J/(kg·K).",
+        "de": "Voreinstellung: Luft, cᵥ ≈ 718 J/(kg·K).",
+        "pt": "Padrão: ar, cᵥ ≈ 718 J/(kg·K).",
+        "ru": "По умолчанию: воздух, cᵥ ≈ 718 Дж/(кг·К)."
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "adijabata",
+   "simbol": "κ",
+   "naziv": {
+    "sr": "Adijabatski proces",
+    "en": "Adiabatic process",
+    "it": "Trasformazione adiabatica",
+    "fr": "Transformation adiabatique",
+    "es": "Proceso adiabático",
+    "de": "Adiabatische Zustandsänderung",
+    "pt": "Processo adiabático",
+    "ru": "Адиабатный процесс"
+   },
+   "opis": {
+    "sr": "Bez razmene toplote",
+    "en": "No heat exchange",
+    "it": "Senza scambio di calore",
+    "fr": "Sans échange de chaleur",
+    "es": "Sin intercambio de calor",
+    "de": "Ohne Wärmeaustausch",
+    "pt": "Sem troca de calor",
+    "ru": "Без теплообмена"
+   },
+   "kljucne_reci": {
+    "sr": "adijabata adijabatski proces sabijanje sirenje gasa dizel pumpa",
+    "en": "adiabatic process compression expansion diesel pump poisson",
+    "it": "adiabatica compressione espansione diesel poisson",
+    "fr": "adiabatique compression detente diesel laplace",
+    "es": "adiabatico compresion expansion diesel poisson",
+    "de": "adiabatisch kompression expansion diesel poisson",
+    "pt": "adiabatico compressao expansao diesel poisson",
+    "ru": "адиабата сжатие расширение газа дизель пуассон"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Pritisak i zapremina",
+      "en": "Pressure and volume",
+      "it": "Pressione e volume",
+      "fr": "Pression et volume",
+      "es": "Presión y volumen",
+      "de": "Druck und Volumen",
+      "pt": "Pressão e volume",
+      "ru": "Давление и объём"
+     },
+     "latex": "p_1 V_1^{\\kappa} = p_2 V_2^{\\kappa}",
+     "objasnjenje": {
+      "sr": "Gas ne razmenjuje toplotu sa okolinom (brz proces ili dobra izolacija).",
+      "en": "The gas exchanges no heat with its surroundings (fast process or good insulation).",
+      "it": "Il gas non scambia calore con l’esterno (processo rapido o buon isolamento).",
+      "fr": "Le gaz n’échange pas de chaleur avec l’extérieur (processus rapide ou bonne isolation).",
+      "es": "El gas no intercambia calor con el exterior (proceso rápido o buen aislamiento).",
+      "de": "Das Gas tauscht keine Wärme mit der Umgebung aus (schneller Vorgang oder gute Isolierung).",
+      "pt": "O gás não troca calor com o exterior (processo rápido ou bom isolamento).",
+      "ru": "Газ не обменивается теплотой с окружением (быстрый процесс или хорошая изоляция)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Temperatura i zapremina",
+      "en": "Temperature and volume",
+      "it": "Temperatura e volume",
+      "fr": "Température et volume",
+      "es": "Temperatura y volumen",
+      "de": "Temperatur und Volumen",
+      "pt": "Temperatura e volume",
+      "ru": "Температура и объём"
+     },
+     "latex": "T_1 V_1^{\\kappa - 1} = T_2 V_2^{\\kappa - 1}",
+     "objasnjenje": {
+      "sr": "Pri sabijanju gas se zagreva (dizel motor, pumpa za bicikl), a pri širenju hladi.",
+      "en": "Compression heats the gas (diesel engine, bicycle pump); expansion cools it.",
+      "it": "La compressione riscalda il gas (motore diesel, pompa), l’espansione lo raffredda.",
+      "fr": "La compression échauffe le gaz (moteur diesel, pompe), la détente le refroidit.",
+      "es": "La compresión calienta el gas (motor diésel, bomba), la expansión lo enfría.",
+      "de": "Beim Verdichten erwärmt sich das Gas (Dieselmotor, Luftpumpe), beim Ausdehnen kühlt es ab.",
+      "pt": "A compressão aquece o gás (motor diesel, bomba), a expansão o resfria.",
+      "ru": "При сжатии газ нагревается (дизель, насос), при расширении охлаждается."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "p2": {
+      "oznaka": "p_2",
+      "naziv": {
+       "sr": "pritisak u stanju 2",
+       "en": "pressure in state 2",
+       "it": "pressione nello stato 2",
+       "fr": "pression dans l’état 2",
+       "es": "presión en el estado 2",
+       "de": "Druck im Zustand 2",
+       "pt": "pressão no estado 2",
+       "ru": "давление в состоянии 2"
+      },
+      "vrsta": "pritisak",
+      "jed": "kPa",
+      "poz": true
+     },
+     "p1": {
+      "oznaka": "p_1",
+      "naziv": {
+       "sr": "pritisak u stanju 1",
+       "en": "pressure in state 1",
+       "it": "pressione nello stato 1",
+       "fr": "pression dans l’état 1",
+       "es": "presión en el estado 1",
+       "de": "Druck im Zustand 1",
+       "pt": "pressão no estado 1",
+       "ru": "давление в состоянии 1"
+      },
+      "vrsta": "pritisak",
+      "pocetna": 101325,
+      "jed": "kPa",
+      "poz": true
+     },
+     "V1": {
+      "oznaka": "V_1",
+      "naziv": {
+       "sr": "zapremina u stanju 1",
+       "en": "volume in state 1",
+       "it": "volume nello stato 1",
+       "fr": "volume dans l’état 1",
+       "es": "volumen en el estado 1",
+       "de": "Volumen im Zustand 1",
+       "pt": "volume no estado 1",
+       "ru": "объём в состоянии 1"
+      },
+      "vrsta": "zapremina",
+      "pocetna": 0.001,
+      "jed": "L",
+      "poz": true
+     },
+     "V2": {
+      "oznaka": "V_2",
+      "naziv": {
+       "sr": "zapremina u stanju 2",
+       "en": "volume in state 2",
+       "it": "volume nello stato 2",
+       "fr": "volume dans l’état 2",
+       "es": "volumen en el estado 2",
+       "de": "Volumen im Zustand 2",
+       "pt": "volume no estado 2",
+       "ru": "объём в состоянии 2"
+      },
+      "vrsta": "zapremina",
+      "pocetna": 0.0001,
+      "jed": "L",
+      "poz": true
+     },
+     "kapa": {
+      "oznaka": "\\kappa",
+      "naziv": {
+       "sr": "odnos specifičnih toplota",
+       "en": "heat capacity ratio",
+       "it": "rapporto dei calori specifici",
+       "fr": "indice adiabatique",
+       "es": "coeficiente adiabático",
+       "de": "Isentropenexponent",
+       "pt": "coeficiente de Poisson",
+       "ru": "показатель адиабаты"
+      },
+      "vrsta": "bez",
+      "pocetna": 1.4,
+      "poz": true
+     },
+     "T2": {
+      "oznaka": "T_2",
+      "naziv": {
+       "sr": "temperatura u stanju 2",
+       "en": "temperature in state 2",
+       "it": "temperatura nello stato 2",
+       "fr": "température dans l’état 2",
+       "es": "temperatura en el estado 2",
+       "de": "Temperatur im Zustand 2",
+       "pt": "temperatura no estado 2",
+       "ru": "температура в состоянии 2"
+      },
+      "vrsta": "temperatura",
+      "jed": "°C",
+      "poz": true
+     },
+     "T1": {
+      "oznaka": "T_1",
+      "naziv": {
+       "sr": "temperatura u stanju 1",
+       "en": "temperature in state 1",
+       "it": "temperatura nello stato 1",
+       "fr": "température dans l’état 1",
+       "es": "temperatura en el estado 1",
+       "de": "Temperatur im Zustand 1",
+       "pt": "temperatura no estado 1",
+       "ru": "температура в состоянии 1"
+      },
+      "vrsta": "temperatura",
+      "pocetna": 293.15,
+      "jed": "°C",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "p_1 V_1^{\\kappa} = p_2 V_2^{\\kappa}",
+      "trazi": "p2",
+      "resenja": {
+       "p2": "p1*pow(V1/V2, kapa)",
+       "p1": "p2*pow(V2/V1, kapa)",
+       "V2": "V1*pow(p1/p2, 1/kapa)",
+       "V1": "V2*pow(p2/p1, 1/kapa)",
+       "kapa": "ln(p2/p1)/ln(V1/V2)"
+      }
+     },
+     {
+      "latex": "T_1 V_1^{\\kappa-1} = T_2 V_2^{\\kappa-1}",
+      "trazi": "T2",
+      "resenja": {
+       "T2": "T1*pow(V1/V2, kapa - 1)",
+       "T1": "T2*pow(V2/V1, kapa - 1)",
+       "V2": "V1*pow(T1/T2, 1/(kapa - 1))",
+       "V1": "V2*pow(T2/T1, 1/(kapa - 1))",
+       "kapa": "1 + ln(T2/T1)/ln(V1/V2)"
+      },
+      "napomene": {
+       "T2": {
+        "sr": "Primer: vazduh sabijen 10 puta (kao u dizel motoru).",
+        "en": "Example: air compressed 10 times (as in a diesel engine).",
+        "it": "Esempio: aria compressa 10 volte (come in un motore diesel).",
+        "fr": "Exemple : air comprimé 10 fois (comme dans un diesel).",
+        "es": "Ejemplo: aire comprimido 10 veces (como en un diésel).",
+        "de": "Beispiel: Luft 10-fach verdichtet (wie im Dieselmotor).",
+        "pt": "Exemplo: ar comprimido 10 vezes (como num diesel).",
+        "ru": "Пример: воздух сжат в 10 раз (как в дизеле)."
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "toplotni_motori",
+   "simbol": "η",
+   "naziv": {
+    "sr": "Toplotni motori i Karnoov ciklus",
+    "en": "Heat engines and the Carnot cycle",
+    "it": "Macchine termiche e ciclo di Carnot",
+    "fr": "Moteurs thermiques et cycle de Carnot",
+    "es": "Máquinas térmicas y ciclo de Carnot",
+    "de": "Wärmekraftmaschinen und Carnot-Prozess",
+    "pt": "Máquinas térmicas e ciclo de Carnot",
+    "ru": "Тепловые двигатели и цикл Карно"
+   },
+   "opis": {
+    "sr": "Stepen korisnog dejstva",
+    "en": "Efficiency",
+    "it": "Rendimento",
+    "fr": "Rendement",
+    "es": "Rendimiento",
+    "de": "Wirkungsgrad",
+    "pt": "Rendimento",
+    "ru": "КПД"
+   },
+   "kljucne_reci": {
+    "sr": "toplotni motor karnoov ciklus stepen korisnog dejstva drugi zakon termodinamike",
+    "en": "heat engine carnot cycle efficiency second law thermodynamics",
+    "it": "macchina termica ciclo di carnot rendimento secondo principio",
+    "fr": "moteur thermique cycle de carnot rendement second principe",
+    "es": "maquina termica ciclo de carnot rendimiento segundo principio",
+    "de": "warmekraftmaschine carnot prozess wirkungsgrad zweiter hauptsatz",
+    "pt": "maquina termica ciclo de carnot rendimento segunda lei",
+    "ru": "тепловой двигатель цикл карно кпд второй закон термодинамики"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Stepen korisnog dejstva",
+      "en": "Efficiency",
+      "it": "Rendimento",
+      "fr": "Rendement",
+      "es": "Rendimiento",
+      "de": "Wirkungsgrad",
+      "pt": "Rendimento",
+      "ru": "КПД"
+     },
+     "latex": {
+      "sr": "\\eta = \\frac{A}{Q_1} = 1 - \\frac{Q_2}{Q_1}",
+      "en": "\\eta = \\frac{W}{Q_H} = 1 - \\frac{Q_C}{Q_H}",
+      "it": "\\eta = \\frac{L}{Q_1} = 1 - \\frac{Q_2}{Q_1}",
+      "fr": "\\eta = \\frac{W}{Q_1} = 1 - \\frac{Q_2}{Q_1}",
+      "es": "\\eta = \\frac{W}{Q_1} = 1 - \\frac{Q_2}{Q_1}",
+      "de": "\\eta = \\frac{W}{Q_{\\mathrm{zu}}} = 1 - \\frac{Q_{\\mathrm{ab}}}{Q_{\\mathrm{zu}}}",
+      "pt": "\\eta = \\frac{W}{Q_1} = 1 - \\frac{Q_2}{Q_1}",
+      "ru": "\\eta = \\frac{A}{Q_1} = 1 - \\frac{Q_2}{Q_1}"
+     },
+     "objasnjenje": {
+      "sr": "Motor uzima toplotu od toplijeg tela, deo pretvara u rad, a ostatak predaje hladnijem telu.",
+      "en": "The engine takes heat from the hot reservoir, turns part into work and gives the rest to the cold one.",
+      "it": "Il motore preleva calore dalla sorgente calda, ne trasforma una parte in lavoro e cede il resto a quella fredda.",
+      "fr": "Le moteur prend de la chaleur à la source chaude, en transforme une partie en travail et cède le reste à la source froide.",
+      "es": "La máquina toma calor del foco caliente, convierte una parte en trabajo y cede el resto al frío.",
+      "de": "Die Maschine nimmt Wärme vom warmen Reservoir, wandelt einen Teil in Arbeit um und gibt den Rest ans kalte ab.",
+      "pt": "A máquina retira calor da fonte quente, transforma parte em trabalho e cede o resto à fria.",
+      "ru": "Двигатель берёт теплоту у нагревателя, часть превращает в работу, остальное отдаёт холодильнику."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Karnoov ciklus",
+      "en": "Carnot cycle",
+      "it": "Ciclo di Carnot",
+      "fr": "Cycle de Carnot",
+      "es": "Ciclo de Carnot",
+      "de": "Carnot-Prozess",
+      "pt": "Ciclo de Carnot",
+      "ru": "Цикл Карно"
+     },
+     "latex": {
+      "sr": "\\frac{Q_1}{T_1} = \\frac{Q_2}{T_2}, \\quad \\eta_C = 1 - \\frac{T_2}{T_1}",
+      "en": "\\frac{Q_H}{T_H} = \\frac{Q_C}{T_C}, \\quad \\eta_C = 1 - \\frac{T_C}{T_H}",
+      "it": "\\frac{Q_1}{T_1} = \\frac{Q_2}{T_2}, \\quad \\eta_C = 1 - \\frac{T_2}{T_1}",
+      "fr": "\\frac{Q_1}{T_1} = \\frac{Q_2}{T_2}, \\quad \\eta_C = 1 - \\frac{T_2}{T_1}",
+      "es": "\\frac{Q_1}{T_1} = \\frac{Q_2}{T_2}, \\quad \\eta_C = 1 - \\frac{T_2}{T_1}",
+      "de": "\\frac{Q_{\\mathrm{zu}}}{T_1} = \\frac{Q_{\\mathrm{ab}}}{T_2}, \\quad \\eta_C = 1 - \\frac{T_2}{T_1}",
+      "pt": "\\frac{Q_1}{T_1} = \\frac{Q_2}{T_2}, \\quad \\eta_C = 1 - \\frac{T_2}{T_1}",
+      "ru": "\\frac{Q_1}{T_1} = \\frac{Q_2}{T_2}, \\quad \\eta_C = 1 - \\frac{T_2}{T_1}"
+     },
+     "objasnjenje": {
+      "sr": "Najveći mogući stepen korisnog dejstva između dve temperature (u kelvinima).",
+      "en": "The highest possible efficiency between two temperatures (in kelvin).",
+      "it": "Il massimo rendimento possibile tra due temperature (in kelvin).",
+      "fr": "Le rendement maximal possible entre deux températures (en kelvins).",
+      "es": "El máximo rendimiento posible entre dos temperaturas (en kelvin).",
+      "de": "Der größtmögliche Wirkungsgrad zwischen zwei Temperaturen (in Kelvin).",
+      "pt": "O máximo rendimento possível entre duas temperaturas (em kelvin).",
+      "ru": "Наибольший возможный КПД между двумя температурами (в кельвинах)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "eta": {
+      "oznaka": "\\eta",
+      "naziv": {
+       "sr": "stepen korisnog dejstva",
+       "en": "efficiency",
+       "it": "rendimento",
+       "fr": "rendement",
+       "es": "rendimiento",
+       "de": "Wirkungsgrad",
+       "pt": "rendimento",
+       "ru": "КПД"
+      },
+      "vrsta": "udeo"
+     },
+     "Wr": {
+      "oznaka": {
+       "sr": "A",
+       "en": "W",
+       "it": "L",
+       "fr": "W",
+       "es": "W",
+       "de": "W",
+       "pt": "W",
+       "ru": "A"
+      },
+      "naziv": {
+       "sr": "koristan rad",
+       "en": "useful work",
+       "it": "lavoro utile",
+       "fr": "travail utile",
+       "es": "trabajo útil",
+       "de": "Nutzarbeit",
+       "pt": "trabalho útil",
+       "ru": "полезная работа"
+      },
+      "vrsta": "energija",
+      "pocetna": 300,
+      "jed": "J"
+     },
+     "Q1": {
+      "oznaka": {
+       "sr": "Q_1",
+       "en": "Q_H",
+       "it": "Q_1",
+       "fr": "Q_1",
+       "es": "Q_1",
+       "de": "Q_{\\mathrm{zu}}",
+       "pt": "Q_1",
+       "ru": "Q_1"
+      },
+      "naziv": {
+       "sr": "toplota od toplijeg tela",
+       "en": "heat from the hot reservoir",
+       "it": "calore dalla sorgente calda",
+       "fr": "chaleur reçue de la source chaude",
+       "es": "calor del foco caliente",
+       "de": "vom warmen Reservoir aufgenommene Wärme",
+       "pt": "calor da fonte quente",
+       "ru": "теплота от нагревателя"
+      },
+      "vrsta": "energija",
+      "pocetna": 1000,
+      "jed": "J",
+      "poz": true
+     },
+     "Q2": {
+      "oznaka": {
+       "sr": "Q_2",
+       "en": "Q_C",
+       "it": "Q_2",
+       "fr": "Q_2",
+       "es": "Q_2",
+       "de": "Q_{\\mathrm{ab}}",
+       "pt": "Q_2",
+       "ru": "Q_2"
+      },
+      "naziv": {
+       "sr": "toplota predata hladnijem telu",
+       "en": "heat to the cold reservoir",
+       "it": "calore ceduto alla sorgente fredda",
+       "fr": "chaleur cédée à la source froide",
+       "es": "calor cedido al foco frío",
+       "de": "an das kalte Reservoir abgegebene Wärme",
+       "pt": "calor cedido à fonte fria",
+       "ru": "теплота, отданная холодильнику"
+      },
+      "vrsta": "energija",
+      "pocetna": 700,
+      "jed": "J",
+      "nenegativna": true
+     },
+     "Tv": {
+      "oznaka": {
+       "sr": "T_1",
+       "en": "T_H",
+       "it": "T_1",
+       "fr": "T_1",
+       "es": "T_1",
+       "de": "T_1",
+       "pt": "T_1",
+       "ru": "T_1"
+      },
+      "naziv": {
+       "sr": "temperatura toplijeg tela",
+       "en": "temperature of the hot reservoir",
+       "it": "temperatura della sorgente calda",
+       "fr": "température de la source chaude",
+       "es": "temperatura del foco caliente",
+       "de": "Temperatur des warmen Reservoirs",
+       "pt": "temperatura da fonte quente",
+       "ru": "температура нагревателя"
+      },
+      "vrsta": "temperatura",
+      "pocetna": 773.15,
+      "jed": "°C",
+      "poz": true
+     },
+     "Tn": {
+      "oznaka": {
+       "sr": "T_2",
+       "en": "T_C",
+       "it": "T_2",
+       "fr": "T_2",
+       "es": "T_2",
+       "de": "T_2",
+       "pt": "T_2",
+       "ru": "T_2"
+      },
+      "naziv": {
+       "sr": "temperatura hladnijeg tela",
+       "en": "temperature of the cold reservoir",
+       "it": "temperatura della sorgente fredda",
+       "fr": "température de la source froide",
+       "es": "temperatura del foco frío",
+       "de": "Temperatur des kalten Reservoirs",
+       "pt": "temperatura da fonte fria",
+       "ru": "температура холодильника"
+      },
+      "vrsta": "temperatura",
+      "pocetna": 293.15,
+      "jed": "°C",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "\\eta = \\dfrac{A}{Q_1}",
+       "en": "\\eta = \\dfrac{W}{Q_H}",
+       "it": "\\eta = \\dfrac{L}{Q_1}",
+       "fr": "\\eta = \\dfrac{W}{Q_1}",
+       "es": "\\eta = \\dfrac{W}{Q_1}",
+       "de": "\\eta = \\dfrac{W}{Q_{\\mathrm{zu}}}",
+       "pt": "\\eta = \\dfrac{W}{Q_1}",
+       "ru": "\\eta = \\dfrac{A}{Q_1}"
+      },
+      "trazi": "eta",
+      "resenja": {
+       "eta": "Wr/Q1",
+       "Wr": "eta*Q1",
+       "Q1": "Wr/eta"
+      }
+     },
+     {
+      "latex": {
+       "sr": "\\eta = 1 - \\dfrac{Q_2}{Q_1}",
+       "en": "\\eta = 1 - \\dfrac{Q_C}{Q_H}",
+       "it": "\\eta = 1 - \\dfrac{Q_2}{Q_1}",
+       "fr": "\\eta = 1 - \\dfrac{Q_2}{Q_1}",
+       "es": "\\eta = 1 - \\dfrac{Q_2}{Q_1}",
+       "de": "\\eta = 1 - \\dfrac{Q_{\\mathrm{ab}}}{Q_{\\mathrm{zu}}}",
+       "pt": "\\eta = 1 - \\dfrac{Q_2}{Q_1}",
+       "ru": "\\eta = 1 - \\dfrac{Q_2}{Q_1}"
+      },
+      "trazi": "eta",
+      "resenja": {
+       "eta": "1 - Q2/Q1",
+       "Q2": "(1 - eta)*Q1",
+       "Q1": "Q2/(1 - eta)"
+      }
+     },
+     {
+      "latex": {
+       "sr": "\\eta_C = 1 - \\dfrac{T_2}{T_1}",
+       "en": "\\eta_C = 1 - \\dfrac{T_C}{T_H}",
+       "it": "\\eta_C = 1 - \\dfrac{T_2}{T_1}",
+       "fr": "\\eta_C = 1 - \\dfrac{T_2}{T_1}",
+       "es": "\\eta_C = 1 - \\dfrac{T_2}{T_1}",
+       "de": "\\eta_C = 1 - \\dfrac{T_2}{T_1}",
+       "pt": "\\eta_C = 1 - \\dfrac{T_2}{T_1}",
+       "ru": "\\eta_C = 1 - \\dfrac{T_2}{T_1}"
+      },
+      "trazi": "eta",
+      "resenja": {
+       "eta": "1 - Tn/Tv",
+       "Tn": "(1 - eta)*Tv",
+       "Tv": "Tn/(1 - eta)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "provodjenje",
+   "simbol": "λ",
+   "naziv": {
+    "sr": "Provođenje toplote",
+    "en": "Heat conduction",
+    "it": "Conduzione del calore",
+    "fr": "Conduction thermique",
+    "es": "Conducción del calor",
+    "de": "Wärmeleitung",
+    "pt": "Condução de calor",
+    "ru": "Теплопроводность"
+   },
+   "opis": {
+    "sr": "Toplotni gubici kroz zid",
+    "en": "Heat loss through a wall",
+    "it": "Dispersione attraverso una parete",
+    "fr": "Pertes à travers un mur",
+    "es": "Pérdidas a través de una pared",
+    "de": "Wärmeverlust durch eine Wand",
+    "pt": "Perdas através de uma parede",
+    "ru": "Потери тепла через стену"
+   },
+   "kljucne_reci": {
+    "sr": "provodjenje toplote toplotna provodljivost zid izolacija prozor gubici",
+    "en": "heat conduction thermal conductivity wall insulation window heat loss",
+    "it": "conduzione calore conducibilita parete isolamento finestra",
+    "fr": "conduction thermique conductivite mur isolation fenetre",
+    "es": "conduccion calor conductividad pared aislamiento ventana",
+    "de": "warmeleitung warmeleitfahigkeit wand dammung fenster",
+    "pt": "conducao calor condutividade parede isolamento janela",
+    "ru": "теплопроводность стена утепление окно потери тепла"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Furijeov zakon",
+      "en": "Fourier’s law",
+      "it": "Legge di Fourier",
+      "fr": "Loi de Fourier",
+      "es": "Ley de Fourier",
+      "de": "Fouriersches Gesetz",
+      "pt": "Lei de Fourier",
+      "ru": "Закон Фурье"
+     },
+     "latex": {
+      "sr": "P = \\frac{Q}{\\Delta t} = \\lambda\\, S\\, \\frac{\\Delta T}{\\Delta x}",
+      "en": "P = \\frac{Q}{\\Delta t} = k\\, S\\, \\frac{\\Delta T}{\\Delta x}",
+      "it": "P = \\frac{Q}{\\Delta t} = \\lambda\\, S\\, \\frac{\\Delta T}{\\Delta x}",
+      "fr": "P = \\frac{Q}{\\Delta t} = \\lambda\\, S\\, \\frac{\\Delta T}{\\Delta x}",
+      "es": "P = \\frac{Q}{\\Delta t} = k\\, S\\, \\frac{\\Delta T}{\\Delta x}",
+      "de": "P = \\frac{Q}{\\Delta t} = \\lambda\\, S\\, \\frac{\\Delta T}{\\Delta x}",
+      "pt": "P = \\frac{Q}{\\Delta t} = k\\, S\\, \\frac{\\Delta T}{\\Delta x}",
+      "ru": "P = \\frac{Q}{\\Delta t} = \\lambda\\, S\\, \\frac{\\Delta T}{\\Delta x}"
+     },
+     "objasnjenje": {
+      "sr": "Toplota koja u sekundi prođe kroz zid površine S i debljine Δx. Staklo ≈ 1, cigla ≈ 0,6, stiropor ≈ 0,035 W/(m·K).",
+      "en": "Heat per second through a wall of area S and thickness Δx. Glass ≈ 1, brick ≈ 0.6, polystyrene ≈ 0.035 W/(m·K).",
+      "it": "Calore al secondo attraverso una parete di area S e spessore Δx. Vetro ≈ 1, mattone ≈ 0,6, polistirolo ≈ 0,035 W/(m·K).",
+      "fr": "Chaleur par seconde à travers un mur d’aire S et d’épaisseur Δx. Verre ≈ 1, brique ≈ 0,6, polystyrène ≈ 0,035 W/(m·K).",
+      "es": "Calor por segundo a través de una pared de área S y espesor Δx. Vidrio ≈ 1, ladrillo ≈ 0,6, poliestireno ≈ 0,035 W/(m·K).",
+      "de": "Wärme pro Sekunde durch eine Wand der Fläche S und Dicke Δx. Glas ≈ 1, Ziegel ≈ 0,6, Styropor ≈ 0,035 W/(m·K).",
+      "pt": "Calor por segundo através de uma parede de área S e espessura Δx. Vidro ≈ 1, tijolo ≈ 0,6, isopor ≈ 0,035 W/(m·K).",
+      "ru": "Теплота за секунду через стену площадью S и толщиной Δx. Стекло ≈ 1, кирпич ≈ 0,6, пенопласт ≈ 0,035 Вт/(м·К)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Pt": {
+      "oznaka": "P",
+      "naziv": {
+       "sr": "toplotna snaga (protok toplote)",
+       "en": "heat flow rate",
+       "it": "flusso di calore",
+       "fr": "flux thermique",
+       "es": "flujo de calor",
+       "de": "Wärmestrom",
+       "pt": "fluxo de calor",
+       "ru": "тепловой поток"
+      },
+      "vrsta": "snaga"
+     },
+     "lam": {
+      "oznaka": {
+       "sr": "\\lambda",
+       "en": "k",
+       "it": "\\lambda",
+       "fr": "\\lambda",
+       "es": "k",
+       "de": "\\lambda",
+       "pt": "k",
+       "ru": "\\lambda"
+      },
+      "naziv": {
+       "sr": "toplotna provodljivost",
+       "en": "thermal conductivity",
+       "it": "conducibilità termica",
+       "fr": "conductivité thermique",
+       "es": "conductividad térmica",
+       "de": "Wärmeleitfähigkeit",
+       "pt": "condutividade térmica",
+       "ru": "теплопроводность"
+      },
+      "vrsta": "toplProvodljivost",
+      "pocetna": 0.6,
+      "poz": true
+     },
+     "S": {
+      "oznaka": "S",
+      "naziv": {
+       "sr": "površina",
+       "en": "area",
+       "it": "area",
+       "fr": "aire",
+       "es": "área",
+       "de": "Fläche",
+       "pt": "área",
+       "ru": "площадь"
+      },
+      "vrsta": "povrsina",
+      "pocetna": 10,
+      "poz": true
+     },
+     "dT": {
+      "oznaka": "\\Delta T",
+      "naziv": {
+       "sr": "promena temperature",
+       "en": "change in temperature",
+       "it": "variazione di temperatura",
+       "fr": "variation de température",
+       "es": "variación de temperatura",
+       "de": "Temperaturänderung",
+       "pt": "variação de temperatura",
+       "ru": "изменение температуры"
+      },
+      "vrsta": "tempRazlika",
+      "pocetna": 20,
+      "jed": "°C"
+     },
+     "dx": {
+      "oznaka": "\\Delta x",
+      "naziv": {
+       "sr": "debljina",
+       "en": "thickness",
+       "it": "spessore",
+       "fr": "épaisseur",
+       "es": "espesor",
+       "de": "Dicke",
+       "pt": "espessura",
+       "ru": "толщина"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.25,
+      "jed": "cm",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "P = \\lambda S \\dfrac{\\Delta T}{\\Delta x}",
+       "en": "P = k S \\dfrac{\\Delta T}{\\Delta x}",
+       "it": "P = \\lambda S \\dfrac{\\Delta T}{\\Delta x}",
+       "fr": "P = \\lambda S \\dfrac{\\Delta T}{\\Delta x}",
+       "es": "P = k S \\dfrac{\\Delta T}{\\Delta x}",
+       "de": "P = \\lambda S \\dfrac{\\Delta T}{\\Delta x}",
+       "pt": "P = k S \\dfrac{\\Delta T}{\\Delta x}",
+       "ru": "P = \\lambda S \\dfrac{\\Delta T}{\\Delta x}"
+      },
+      "trazi": "Pt",
+      "resenja": {
+       "Pt": "lam*S*dT/dx",
+       "lam": "Pt*dx/(S*dT)",
+       "S": "Pt*dx/(lam*dT)",
+       "dT": "Pt*dx/(lam*S)",
+       "dx": "lam*S*dT/Pt"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "kineticka_teorija",
+   "simbol": "kT",
+   "naziv": {
+    "sr": "Kinetička teorija gasova",
+    "en": "Kinetic theory of gases",
+    "it": "Teoria cinetica dei gas",
+    "fr": "Théorie cinétique des gaz",
+    "es": "Teoría cinética de los gases",
+    "de": "Kinetische Gastheorie",
+    "pt": "Teoria cinética dos gases",
+    "ru": "Молекулярно-кинетическая теория"
+   },
+   "opis": {
+    "sr": "Molekuli, pritisak, temperatura",
+    "en": "Molecules, pressure, temperature",
+    "it": "Molecole, pressione, temperatura",
+    "fr": "Molécules, pression, température",
+    "es": "Moléculas, presión, temperatura",
+    "de": "Moleküle, Druck, Temperatur",
+    "pt": "Moléculas, pressão, temperatura",
+    "ru": "Молекулы, давление, температура"
+   },
+   "kljucne_reci": {
+    "sr": "kineticka teorija gasova molekuli brzina molekula srednja kineticka energija bolcmanova konstanta",
+    "en": "kinetic theory gases molecules molecular speed rms mean kinetic energy boltzmann",
+    "it": "teoria cinetica molecole velocita quadratica media boltzmann",
+    "fr": "theorie cinetique molecules vitesse quadratique boltzmann",
+    "es": "teoria cinetica moleculas velocidad cuadratica media boltzmann",
+    "de": "kinetische gastheorie molekule geschwindigkeit boltzmann",
+    "pt": "teoria cinetica moleculas velocidade quadratica media boltzmann",
+    "ru": "молекулярно кинетическая теория молекулы скорость средняя кинетическая энергия больцман"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Pritisak i temperatura",
+      "en": "Pressure and temperature",
+      "it": "Pressione e temperatura",
+      "fr": "Pression et température",
+      "es": "Presión y temperatura",
+      "de": "Druck und Temperatur",
+      "pt": "Pressão e temperatura",
+      "ru": "Давление и температура"
+     },
+     "latex": "p = n k T, \\quad n = \\frac{N}{V}, \\quad k = \\frac{R}{N_A}",
+     "objasnjenje": {
+      "sr": "n je broj molekula u jedinici zapremine; k = 1,38 · 10⁻²³ J/K.",
+      "en": "n is the number of molecules per unit volume; k = 1.38 · 10⁻²³ J/K.",
+      "it": "n è il numero di molecole per unità di volume; k = 1,38 · 10⁻²³ J/K.",
+      "fr": "n est le nombre de molécules par unité de volume ; k = 1,38 · 10⁻²³ J/K.",
+      "es": "n es el número de moléculas por unidad de volumen; k = 1,38 · 10⁻²³ J/K.",
+      "de": "n ist die Teilchenzahl pro Volumen; k = 1,38 · 10⁻²³ J/K.",
+      "pt": "n é o número de moléculas por unidade de volume; k = 1,38 · 10⁻²³ J/K.",
+      "ru": "n — число молекул в единице объёма; k = 1,38 · 10⁻²³ Дж/К."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Pritisak i brzina molekula",
+      "en": "Pressure and molecular speed",
+      "it": "Pressione e velocità molecolare",
+      "fr": "Pression et vitesse moléculaire",
+      "es": "Presión y velocidad molecular",
+      "de": "Druck und Molekülgeschwindigkeit",
+      "pt": "Pressão e velocidade molecular",
+      "ru": "Давление и скорость молекул"
+     },
+     "latex": "p = \\frac{1}{3} n m_1 \\overline{v^2} = \\frac{1}{3} \\rho\\, \\overline{v^2}",
+     "objasnjenje": {
+      "sr": "m₁ je masa jednog molekula, a ρ gustina gasa.",
+      "en": "m₁ is the mass of one molecule and ρ the gas density.",
+      "it": "m₁ è la massa di una molecola e ρ la densità del gas.",
+      "fr": "m₁ est la masse d’une molécule et ρ la masse volumique du gaz.",
+      "es": "m₁ es la masa de una molécula y ρ la densidad del gas.",
+      "de": "m₁ ist die Masse eines Moleküls, ρ die Gasdichte.",
+      "pt": "m₁ é a massa de uma molécula e ρ a massa específica do gás.",
+      "ru": "m₁ — масса одной молекулы, ρ — плотность газа."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Energija i brzina molekula",
+      "en": "Energy and speed of molecules",
+      "it": "Energia e velocità delle molecole",
+      "fr": "Énergie et vitesse des molécules",
+      "es": "Energía y velocidad de las moléculas",
+      "de": "Energie und Geschwindigkeit der Moleküle",
+      "pt": "Energia e velocidade das moléculas",
+      "ru": "Энергия и скорость молекул"
+     },
+     "latex": {
+      "sr": "\\overline{E}_k = \\frac{3}{2} k T, \\quad v_{\\mathrm{rms}} = \\sqrt{\\frac{3 R T}{M}}",
+      "en": "\\overline{E}_k = \\frac{3}{2} k T, \\quad v_{\\mathrm{rms}} = \\sqrt{\\frac{3 R T}{M}}",
+      "it": "\\overline{E}_k = \\frac{3}{2} k T, \\quad v_{\\mathrm{rms}} = \\sqrt{\\frac{3 R T}{M}}",
+      "fr": "\\overline{E}_k = \\frac{3}{2} k T, \\quad v_{\\mathrm{rms}} = \\sqrt{\\frac{3 R T}{M}}",
+      "es": "\\overline{E}_k = \\frac{3}{2} k T, \\quad v_{\\mathrm{rms}} = \\sqrt{\\frac{3 R T}{M}}",
+      "de": "\\overline{E}_k = \\frac{3}{2} k T, \\quad v_{\\mathrm{rms}} = \\sqrt{\\frac{3 R T}{M}}",
+      "pt": "\\overline{E}_k = \\frac{3}{2} k T, \\quad v_{\\mathrm{rms}} = \\sqrt{\\frac{3 R T}{M}}",
+      "ru": "\\overline{E}_{\\text{к}} = \\frac{3}{2} k T, \\quad v_{\\mathrm{rms}} = \\sqrt{\\frac{3 R T}{M}}"
+     },
+     "objasnjenje": {
+      "sr": "Srednja kinetička energija zavisi samo od temperature. Molekuli vazduha na sobnoj temperaturi imaju oko 500 m/s.",
+      "en": "Mean kinetic energy depends only on temperature. Air molecules at room temperature move at about 500 m/s.",
+      "it": "L’energia cinetica media dipende solo dalla temperatura. Le molecole d’aria a temperatura ambiente vanno a circa 500 m/s.",
+      "fr": "L’énergie cinétique moyenne ne dépend que de la température. Les molécules d’air vont à environ 500 m/s.",
+      "es": "La energía cinética media depende solo de la temperatura. Las moléculas del aire van a unos 500 m/s.",
+      "de": "Die mittlere kinetische Energie hängt nur von der Temperatur ab. Luftmoleküle haben etwa 500 m/s.",
+      "pt": "A energia cinética média depende só da temperatura. As moléculas do ar têm cerca de 500 m/s.",
+      "ru": "Средняя кинетическая энергия зависит только от температуры. Молекулы воздуха движутся со скоростью около 500 м/с."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Ek": {
+      "oznaka": {
+       "sr": "\\overline{E}_k",
+       "en": "\\overline{E}_k",
+       "it": "\\overline{E}_k",
+       "fr": "\\overline{E}_k",
+       "es": "\\overline{E}_k",
+       "de": "\\overline{E}_k",
+       "pt": "\\overline{E}_k",
+       "ru": "\\overline{E}_{\\text{к}}"
+      },
+      "naziv": {
+       "sr": "srednja kinetička energija molekula",
+       "en": "mean kinetic energy of a molecule",
+       "it": "energia cinetica media di una molecola",
+       "fr": "énergie cinétique moyenne d’une molécule",
+       "es": "energía cinética media de una molécula",
+       "de": "mittlere kinetische Energie eines Moleküls",
+       "pt": "energia cinética média de uma molécula",
+       "ru": "средняя кинетическая энергия молекулы"
+      },
+      "vrsta": "energija",
+      "poz": true
+     },
+     "k": {
+      "oznaka": "k",
+      "naziv": {
+       "sr": "Bolcmanova konstanta",
+       "en": "Boltzmann constant",
+       "it": "costante di Boltzmann",
+       "fr": "constante de Boltzmann",
+       "es": "constante de Boltzmann",
+       "de": "Boltzmann-Konstante",
+       "pt": "constante de Boltzmann",
+       "ru": "постоянная Больцмана"
+      },
+      "vrsta": "boltzmann",
+      "pocetna": 1.380649e-23,
+      "poz": true
+     },
+     "Tt": {
+      "oznaka": "T",
+      "naziv": {
+       "sr": "temperatura",
+       "en": "temperature",
+       "it": "temperatura",
+       "fr": "température",
+       "es": "temperatura",
+       "de": "Temperatur",
+       "pt": "temperatura",
+       "ru": "температура"
+      },
+      "vrsta": "temperatura",
+      "pocetna": 293.15,
+      "jed": "°C",
+      "poz": true
+     },
+     "v": {
+      "oznaka": "v_{\\mathrm{rms}}",
+      "naziv": {
+       "sr": "srednja kvadratna brzina molekula",
+       "en": "root-mean-square speed",
+       "it": "velocità quadratica media",
+       "fr": "vitesse quadratique moyenne",
+       "es": "velocidad cuadrática media",
+       "de": "mittlere quadratische Geschwindigkeit",
+       "pt": "velocidade quadrática média",
+       "ru": "среднеквадратичная скорость"
+      },
+      "vrsta": "brzina",
+      "poz": true
+     },
+     "R": {
+      "oznaka": "R",
+      "naziv": {
+       "sr": "univerzalna gasna konstanta",
+       "en": "molar gas constant",
+       "it": "costante dei gas",
+       "fr": "constante des gaz parfaits",
+       "es": "constante de los gases",
+       "de": "universelle Gaskonstante",
+       "pt": "constante dos gases",
+       "ru": "универсальная газовая постоянная"
+      },
+      "vrsta": "gasKonst",
+      "pocetna": 8.314462618,
+      "poz": true
+     },
+     "M": {
+      "oznaka": "M",
+      "naziv": {
+       "sr": "molarna masa gasa",
+       "en": "molar mass of the gas",
+       "it": "massa molare del gas",
+       "fr": "masse molaire du gaz",
+       "es": "masa molar del gas",
+       "de": "molare Masse des Gases",
+       "pt": "massa molar do gás",
+       "ru": "молярная масса газа"
+      },
+      "vrsta": "molarnaMasa",
+      "pocetna": 0.029,
+      "poz": true
+     },
+     "p": {
+      "oznaka": "p",
+      "naziv": {
+       "sr": "pritisak",
+       "en": "pressure",
+       "it": "pressione",
+       "fr": "pression",
+       "es": "presión",
+       "de": "Druck",
+       "pt": "pressão",
+       "ru": "давление"
+      },
+      "vrsta": "pritisak",
+      "jed": "kPa",
+      "poz": true
+     },
+     "n": {
+      "oznaka": "n",
+      "naziv": {
+       "sr": "broj molekula u jedinici zapremine",
+       "en": "number density",
+       "it": "densità numerica",
+       "fr": "densité particulaire",
+       "es": "densidad de partículas",
+       "de": "Teilchenzahldichte",
+       "pt": "densidade de partículas",
+       "ru": "концентрация молекул"
+      },
+      "vrsta": "koncentracija",
+      "pocetna": 2.5e+25,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "\\overline{E}_k = \\dfrac{3}{2} k T",
+       "en": "\\overline{E}_k = \\dfrac{3}{2} k T",
+       "it": "\\overline{E}_k = \\dfrac{3}{2} k T",
+       "fr": "\\overline{E}_k = \\dfrac{3}{2} k T",
+       "es": "\\overline{E}_k = \\dfrac{3}{2} k T",
+       "de": "\\overline{E}_k = \\dfrac{3}{2} k T",
+       "pt": "\\overline{E}_k = \\dfrac{3}{2} k T",
+       "ru": "\\overline{E}_{\\text{к}} = \\dfrac{3}{2} k T"
+      },
+      "trazi": "Ek",
+      "promenljive": [
+       "Ek",
+       "k",
+       "Tt"
+      ],
+      "resenja": {
+       "Ek": "1.5*k*Tt",
+       "Tt": "Ek/(1.5*k)"
+      }
+     },
+     {
+      "latex": "v_{\\mathrm{rms}} = \\sqrt{\\dfrac{3 R T}{M}}",
+      "trazi": "v",
+      "promenljive": [
+       "v",
+       "R",
+       "Tt",
+       "M"
+      ],
+      "resenja": {
+       "v": "sqrt(3*R*Tt/M)",
+       "Tt": "v*v*M/(3*R)",
+       "M": "3*R*Tt/(v*v)"
+      }
+     },
+     {
+      "latex": "p = n k T",
+      "trazi": "p",
+      "promenljive": [
+       "p",
+       "n",
+       "k",
+       "Tt"
+      ],
+      "resenja": {
+       "p": "n*k*Tt",
+       "n": "p/(k*Tt)",
+       "Tt": "p/(n*k)"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

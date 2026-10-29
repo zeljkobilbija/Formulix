@@ -224,7 +224,15 @@
     moment: [['N·m', 1], ['kN·m', 1e3]],
     torzija: [['N·m/rad', 1]],
     impuls: [['kg·m/s', 1], ['N·s', 1]],
-    gravKonst: [['N·m²/kg²', 1]]
+    gravKonst: [['N·m²/kg²', 1]],
+    energija: [['J', 1], ['kJ', 1e3], ['MJ', 1e6], ['Wh', 3600], ['kWh', 3.6e6], ['cal', 4.184], ['kcal', 4184], ['eV', 1.602176634e-19]],
+    snaga: [['W', 1], ['kW', 1e3], ['MW', 1e6]],
+    udeo: [['%', 0.01]],
+    viskoznost: [['Pa·s', 1], ['mPa·s', 1e-3]],
+    povrsinskiNapon: [['N/m', 1], ['mN/m', 1e-3]],
+    stisljivost: [['1/GPa', 1e-9], ['1/Pa', 1], ['1/bar', 1e-5]],
+    momentInercije: [['kg·m²', 1], ['g·cm²', 1e-7]],
+    momentImpulsa: [['kg·m²/s', 1], ['J·s', 1]]
   };
   var JED_NATPIS = {
     obr: { sr: 'obr', en: 'rev', it: 'giri', fr: 'tr', es: 'rev', de: 'U', pt: 'rot', ru: 'об' },
@@ -238,7 +246,10 @@
     't/h': 'т/ч', kg: 'кг', g: 'г', t: 'т', 'kg/m³': 'кг/м³', 'g/cm³': 'г/см³', 'kg/L': 'кг/л', K: 'К',
     N: 'Н', kN: 'кН', mN: 'мН', 'N/m': 'Н/м', 'N/cm': 'Н/см', 'kN/m': 'кН/м', Pa: 'Па', kPa: 'кПа',
     MPa: 'МПа', GPa: 'ГПа', bar: 'бар', 'N·m': 'Н·м', 'kN·m': 'кН·м', 'N·m/rad': 'Н·м/рад',
-    'kg·m/s': 'кг·м/с', 'N·s': 'Н·с', 'N·m²/kg²': 'Н·м²/кг²' };
+    'kg·m/s': 'кг·м/с', 'N·s': 'Н·с', 'N·m²/kg²': 'Н·м²/кг²',
+    J: 'Дж', kJ: 'кДж', MJ: 'МДж', Wh: 'Вт·ч', kWh: 'кВт·ч', cal: 'кал', kcal: 'ккал', eV: 'эВ',
+    W: 'Вт', kW: 'кВт', MW: 'МВт', 'Pa·s': 'Па·с', 'mPa·s': 'мПа·с', 'mN/m': 'мН/м',
+    '1/GPa': '1/ГПа', '1/Pa': '1/Па', '1/bar': '1/бар', 'kg·m²': 'кг·м²', 'g·cm²': 'г·см²', 'kg·m²/s': 'кг·м²/с', 'J·s': 'Дж·с' };
   function natpisJed(id) {
     if (JED_NATPIS[id]) return tekst(JED_NATPIS[id]);
     if (JEZIK === 'ru' && JED_RU[id]) return JED_RU[id];
@@ -468,8 +479,9 @@
     function izborJedinica(id, naPromenu) {
       var lista = jedinice(id);
       if (lista.length < 2) {
-        var s = el('span', 'jedinica', natpisJed(lista[0][0]));
-        return s;
+        var natpis = natpisJed(lista[0][0]);
+        // Neimenovana veličina (npr. koeficijent trenja): bez oznake jedinice
+        return el('span', natpis ? 'jedinica' : 'jedinica prazna', natpis);
       }
       var sel = el('select', 'jedinica');
       lista.forEach(function (j, i) {

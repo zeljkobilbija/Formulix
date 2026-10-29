@@ -1,0 +1,1380 @@
+{
+ "oblast": "fluidi",
+ "teme": [
+  {
+   "id": "hidrostatika",
+   "simbol": "p",
+   "naziv": {
+    "sr": "Hidrostatički pritisak",
+    "en": "Hydrostatic pressure",
+    "it": "Pressione idrostatica",
+    "fr": "Pression hydrostatique",
+    "es": "Presión hidrostática",
+    "de": "Hydrostatischer Druck",
+    "pt": "Pressão hidrostática",
+    "ru": "Гидростатическое давление"
+   },
+   "opis": {
+    "sr": "Pritisak na dubini, stišljivost",
+    "en": "Pressure at depth, compressibility",
+    "it": "Pressione in profondità, comprimibilità",
+    "fr": "Pression en profondeur, compressibilité",
+    "es": "Presión en profundidad, compresibilidad",
+    "de": "Druck in der Tiefe, Kompressibilität",
+    "pt": "Pressão em profundidade, compressibilidade",
+    "ru": "Давление на глубине, сжимаемость"
+   },
+   "kljucne_reci": {
+    "sr": "hidrostaticki pritisak dubina voda ronjenje atmosferski pritisak stisljivost",
+    "en": "hydrostatic pressure depth water diving atmospheric pressure compressibility",
+    "it": "pressione idrostatica profondita acqua immersione stevino comprimibilita",
+    "fr": "pression hydrostatique profondeur eau plongee compressibilite",
+    "es": "presion hidrostatica profundidad agua buceo compresibilidad",
+    "de": "hydrostatischer druck schweredruck tiefe wasser tauchen kompressibilitat",
+    "pt": "pressao hidrostatica profundidade agua mergulho stevin compressibilidade",
+    "ru": "гидростатическое давление глубина вода сжимаемость"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect class=\"lik\" x=\"60\" y=\"44\" width=\"180\" height=\"130\" fill-opacity=\"0.8\" stroke=\"none\"/><path class=\"ivica\" d=\"M60,14 L60,174 L240,174 L240,14\"/><line class=\"lik-l\" x1=\"60\" y1=\"44\" x2=\"240\" y2=\"44\"/><circle class=\"tac\" cx=\"170\" cy=\"130\" r=\"5\"/><line class=\"pom\" x1=\"170\" y1=\"44\" x2=\"170\" y2=\"130\"/><text x=\"178\" y=\"94\">h</text><text x=\"178\" y=\"148\">p</text><text x=\"248\" y=\"48\">p<tspan class=\"sub\" dy=\"5\">0</tspan></text><text x=\"84\" y=\"160\">ρ</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Pritisak na dubini",
+      "en": "Pressure at depth",
+      "it": "Pressione in profondità",
+      "fr": "Pression en profondeur",
+      "es": "Presión en profundidad",
+      "de": "Druck in der Tiefe",
+      "pt": "Pressão em profundidade",
+      "ru": "Давление на глубине"
+     },
+     "latex": "p = p_0 + \\rho g h",
+     "objasnjenje": {
+      "sr": "p₀ je pritisak na površini (vazduh ≈ 101 kPa); svakih 10 m vode dodaje oko 1 bar.",
+      "en": "p₀ is the pressure at the surface (air ≈ 101 kPa); every 10 m of water adds about 1 bar.",
+      "it": "p₀ è la pressione in superficie (aria ≈ 101 kPa); ogni 10 m d’acqua aggiungono circa 1 bar.",
+      "fr": "p₀ est la pression à la surface (air ≈ 101 kPa) ; chaque 10 m d’eau ajoutent environ 1 bar.",
+      "es": "p₀ es la presión en la superficie (aire ≈ 101 kPa); cada 10 m de agua añaden cerca de 1 bar.",
+      "de": "p₀ ist der Druck an der Oberfläche (Luft ≈ 101 kPa); je 10 m Wasser kommt etwa 1 bar hinzu.",
+      "pt": "p₀ é a pressão na superfície (ar ≈ 101 kPa); cada 10 m de água somam cerca de 1 bar.",
+      "ru": "p₀ — давление на поверхности (воздух ≈ 101 кПа); каждые 10 м воды добавляют около 1 бар."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Stišljivost",
+      "en": "Compressibility",
+      "it": "Comprimibilità",
+      "fr": "Compressibilité",
+      "es": "Compresibilidad",
+      "de": "Kompressibilität",
+      "pt": "Compressibilidade",
+      "ru": "Сжимаемость"
+     },
+     "latex": "\\frac{\\Delta V}{V} = -\\chi\\,\\Delta p",
+     "objasnjenje": {
+      "sr": "Relativna promena zapremine pri promeni pritiska; za vodu χ ≈ 0,46 GPa⁻¹, pa je skoro nestišljiva.",
+      "en": "Relative change of volume with pressure; for water χ ≈ 0.46 GPa⁻¹, so it is almost incompressible.",
+      "it": "Variazione relativa di volume con la pressione; per l’acqua χ ≈ 0,46 GPa⁻¹, quasi incomprimibile.",
+      "fr": "Variation relative de volume avec la pression ; pour l’eau χ ≈ 0,46 GPa⁻¹, presque incompressible.",
+      "es": "Variación relativa de volumen con la presión; para el agua χ ≈ 0,46 GPa⁻¹, casi incompresible.",
+      "de": "Relative Volumenänderung bei Druckänderung; für Wasser χ ≈ 0,46 GPa⁻¹, also fast inkompressibel.",
+      "pt": "Variação relativa de volume com a pressão; para a água χ ≈ 0,46 GPa⁻¹, quase incompressível.",
+      "ru": "Относительное изменение объёма при изменении давления; для воды χ ≈ 0,46 ГПа⁻¹ — почти несжимаема."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "ph": {
+      "oznaka": "p_h",
+      "naziv": {
+       "sr": "hidrostatički pritisak",
+       "en": "hydrostatic pressure",
+       "it": "pressione idrostatica",
+       "fr": "pression hydrostatique",
+       "es": "presión hidrostática",
+       "de": "hydrostatischer Druck",
+       "pt": "pressão hidrostática",
+       "ru": "гидростатическое давление"
+      },
+      "vrsta": "pritisak",
+      "jed": "kPa",
+      "nenegativna": true
+     },
+     "p": {
+      "oznaka": "p",
+      "naziv": {
+       "sr": "pritisak na dubini h",
+       "en": "pressure at depth h",
+       "it": "pressione alla profondità h",
+       "fr": "pression à la profondeur h",
+       "es": "presión a la profundidad h",
+       "de": "Druck in der Tiefe h",
+       "pt": "pressão na profundidade h",
+       "ru": "давление на глубине h"
+      },
+      "vrsta": "pritisak",
+      "jed": "kPa",
+      "poz": true
+     },
+     "p0": {
+      "oznaka": "p_0",
+      "naziv": {
+       "sr": "pritisak na površini",
+       "en": "pressure at the surface",
+       "it": "pressione in superficie",
+       "fr": "pression à la surface",
+       "es": "presión en la superficie",
+       "de": "Druck an der Oberfläche",
+       "pt": "pressão na superfície",
+       "ru": "давление на поверхности"
+      },
+      "vrsta": "pritisak",
+      "pocetna": 101325,
+      "jed": "kPa",
+      "poz": true
+     },
+     "rho": {
+      "oznaka": "\\rho",
+      "naziv": {
+       "sr": "gustina tečnosti",
+       "en": "density of the liquid",
+       "it": "densità del liquido",
+       "fr": "masse volumique du liquide",
+       "es": "densidad del líquido",
+       "de": "Dichte der Flüssigkeit",
+       "pt": "massa específica do líquido",
+       "ru": "плотность жидкости"
+      },
+      "vrsta": "gustina",
+      "pocetna": 1000,
+      "poz": true
+     },
+     "g": {
+      "oznaka": "g",
+      "naziv": {
+       "sr": "ubrzanje Zemljine teže",
+       "en": "gravitational acceleration",
+       "it": "accelerazione di gravità",
+       "fr": "intensité de la pesanteur",
+       "es": "aceleración de la gravedad",
+       "de": "Fallbeschleunigung",
+       "pt": "aceleração da gravidade",
+       "ru": "ускорение свободного падения"
+      },
+      "vrsta": "ubrzanje",
+      "pocetna": 9.81,
+      "poz": true
+     },
+     "h": {
+      "oznaka": "h",
+      "naziv": {
+       "sr": "dubina",
+       "en": "depth",
+       "it": "profondità",
+       "fr": "profondeur",
+       "es": "profundidad",
+       "de": "Tiefe",
+       "pt": "profundidade",
+       "ru": "глубина"
+      },
+      "vrsta": "duzina",
+      "pocetna": 10,
+      "nenegativna": true
+     },
+     "dV": {
+      "oznaka": "\\Delta V",
+      "naziv": {
+       "sr": "smanjenje zapremine",
+       "en": "decrease in volume",
+       "it": "diminuzione di volume",
+       "fr": "diminution de volume",
+       "es": "disminución de volumen",
+       "de": "Volumenabnahme",
+       "pt": "diminuição de volume",
+       "ru": "уменьшение объёма"
+      },
+      "vrsta": "zapremina",
+      "jed": "L"
+     },
+     "chi": {
+      "oznaka": "\\chi",
+      "naziv": {
+       "sr": "stišljivost",
+       "en": "compressibility",
+       "it": "comprimibilità",
+       "fr": "compressibilité",
+       "es": "compresibilidad",
+       "de": "Kompressibilität",
+       "pt": "compressibilidade",
+       "ru": "сжимаемость"
+      },
+      "vrsta": "stisljivost",
+      "pocetna": 4.6e-10,
+      "poz": true
+     },
+     "V0": {
+      "oznaka": "V",
+      "naziv": {
+       "sr": "početna zapremina",
+       "en": "initial volume",
+       "it": "volume iniziale",
+       "fr": "volume initial",
+       "es": "volumen inicial",
+       "de": "Anfangsvolumen",
+       "pt": "volume inicial",
+       "ru": "начальный объём"
+      },
+      "vrsta": "zapremina",
+      "pocetna": 1,
+      "jed": "L",
+      "poz": true
+     },
+     "dp": {
+      "oznaka": "\\Delta p",
+      "naziv": {
+       "sr": "povećanje pritiska",
+       "en": "increase in pressure",
+       "it": "aumento di pressione",
+       "fr": "augmentation de pression",
+       "es": "aumento de presión",
+       "de": "Druckerhöhung",
+       "pt": "aumento de pressão",
+       "ru": "увеличение давления"
+      },
+      "vrsta": "pritisak",
+      "pocetna": 10000000.0,
+      "jed": "MPa"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "p = p_0 + \\rho g h",
+      "trazi": "p",
+      "resenja": {
+       "p": "p0 + rho*g*h",
+       "p0": "p - rho*g*h",
+       "rho": "(p - p0)/(g*h)",
+       "h": "(p - p0)/(rho*g)"
+      },
+      "promenljive": [
+       "p",
+       "p0",
+       "rho",
+       "g",
+       "h"
+      ]
+     },
+     {
+      "latex": "p_h = \\rho g h",
+      "trazi": "ph",
+      "resenja": {
+       "ph": "rho*g*h",
+       "rho": "ph/(g*h)",
+       "h": "ph/(rho*g)"
+      },
+      "promenljive": [
+       "ph",
+       "rho",
+       "g",
+       "h"
+      ]
+     },
+     {
+      "latex": "\\Delta V = \\chi\\, V \\Delta p",
+      "trazi": "dV",
+      "resenja": {
+       "dV": "chi*V0*dp",
+       "chi": "dV/(V0*dp)",
+       "V0": "dV/(chi*dp)",
+       "dp": "dV/(chi*V0)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "potisak",
+   "simbol": "A",
+   "naziv": {
+    "sr": "Potisak (Arhimedov zakon)",
+    "en": "Buoyancy (Archimedes’ principle)",
+    "it": "Spinta di Archimede",
+    "fr": "Poussée d’Archimède",
+    "es": "Empuje (principio de Arquímedes)",
+    "de": "Auftrieb (Archimedisches Prinzip)",
+    "pt": "Empuxo (princípio de Arquimedes)",
+    "ru": "Закон Архимеда"
+   },
+   "opis": {
+    "sr": "Sila potiska, plivanje",
+    "en": "Buoyant force, floating",
+    "it": "Spinta, galleggiamento",
+    "fr": "Poussée, flottaison",
+    "es": "Empuje, flotación",
+    "de": "Auftriebskraft, Schwimmen",
+    "pt": "Empuxo, flutuação",
+    "ru": "Выталкивающая сила, плавание"
+   },
+   "kljucne_reci": {
+    "sr": "potisak arhimedov zakon plivanje tonjenje uronjeno telo brod led",
+    "en": "buoyancy archimedes principle floating sinking submerged ship ice",
+    "it": "spinta archimede galleggiamento affondamento nave ghiaccio",
+    "fr": "poussee archimede flottaison immerge bateau glace",
+    "es": "empuje arquimedes flotacion hundimiento barco hielo",
+    "de": "auftrieb archimedes schwimmen sinken eingetaucht schiff eis",
+    "pt": "empuxo arquimedes flutuacao afundar navio gelo",
+    "ru": "архимедова сила выталкивающая плавание тел корабль лёд"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect class=\"lik\" x=\"40\" y=\"60\" width=\"220\" height=\"116\" fill-opacity=\"0.8\" stroke=\"none\"/><path class=\"ivica\" d=\"M40,20 L40,176 L260,176 L260,20\"/><line class=\"lik-l\" x1=\"40\" y1=\"60\" x2=\"260\" y2=\"60\"/><rect class=\"lik2\" x=\"120\" y=\"88\" width=\"60\" height=\"50\" rx=\"4\"/><line class=\"lik-l\" x1=\"150.0\" y1=\"112.0\" x2=\"150.0\" y2=\"39.0\"/><path class=\"tac\" d=\"M150.0,28.0 L155.0,39.0 L145.0,39.0 Z\"/><text x=\"158\" y=\"40\">F</text><line class=\"lik-l\" x1=\"150.0\" y1=\"116.0\" x2=\"150.0\" y2=\"155.0\"/><path class=\"tac\" d=\"M150.0,166.0 L145.0,155.0 L155.0,155.0 Z\"/><text x=\"158\" y=\"162\">mg</text><text x=\"54\" y=\"160\">ρ</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Sila potiska",
+      "en": "Buoyant force",
+      "it": "Spinta di Archimede",
+      "fr": "Poussée d’Archimède",
+      "es": "Empuje",
+      "de": "Auftriebskraft",
+      "pt": "Empuxo",
+      "ru": "Выталкивающая сила"
+     },
+     "latex": {
+      "sr": "F_{\\mathrm{p}} = \\rho\\, g\\, V",
+      "en": "F_{\\mathrm{b}} = \\rho\\, g\\, V",
+      "it": "F_{\\mathrm{A}} = \\rho\\, g\\, V",
+      "fr": "F_{\\mathrm{A}} = \\rho\\, g\\, V",
+      "es": "F_{\\mathrm{E}} = \\rho\\, g\\, V",
+      "de": "F_{\\mathrm{A}} = \\rho\\, g\\, V",
+      "pt": "F_{\\mathrm{E}} = \\rho\\, g\\, V",
+      "ru": "F_{\\mathrm{A}} = \\rho\\, g\\, V"
+     },
+     "objasnjenje": {
+      "sr": "Jednaka je težini tečnosti koju telo istisne; ρ je gustina tečnosti, a V zapremina uronjenog dela tela.",
+      "en": "Equal to the weight of the displaced liquid; ρ is the density of the liquid and V the submerged volume.",
+      "it": "È uguale al peso del liquido spostato; ρ è la densità del liquido e V il volume immerso.",
+      "fr": "Égale au poids du liquide déplacé ; ρ est la masse volumique du liquide et V le volume immergé.",
+      "es": "Es igual al peso del líquido desalojado; ρ es la densidad del líquido y V el volumen sumergido.",
+      "de": "Gleich der Gewichtskraft der verdrängten Flüssigkeit; ρ ist ihre Dichte, V das eingetauchte Volumen.",
+      "pt": "É igual ao peso do líquido deslocado; ρ é a massa específica do líquido e V o volume submerso.",
+      "ru": "Равна весу вытесненной жидкости; ρ — плотность жидкости, V — объём погружённой части."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Plivanje",
+      "en": "Floating",
+      "it": "Galleggiamento",
+      "fr": "Flottaison",
+      "es": "Flotación",
+      "de": "Schwimmen",
+      "pt": "Flutuação",
+      "ru": "Плавание тел"
+     },
+     "latex": {
+      "sr": "V_{\\text{u}} / V = \\frac{\\rho_{\\text{t}}}{\\rho}",
+      "en": "V_{\\text{sub}} / V = \\frac{\\rho_{\\text{b}}}{\\rho}",
+      "it": "V_{\\text{imm}} / V = \\frac{\\rho_{\\text{c}}}{\\rho}",
+      "fr": "V_{\\text{imm}} / V = \\frac{\\rho_{\\text{c}}}{\\rho}",
+      "es": "V_{\\text{sum}} / V = \\frac{\\rho_{\\text{c}}}{\\rho}",
+      "de": "V_{\\text{ein}} / V = \\frac{\\rho_{\\text{K}}}{\\rho}",
+      "pt": "V_{\\text{sub}} / V = \\frac{\\rho_{\\text{c}}}{\\rho}",
+      "ru": "V_{\\text{погр}} / V = \\frac{\\rho_{\\text{т}}}{\\rho}"
+     },
+     "objasnjenje": {
+      "sr": "Telo pliva ako je ređe od tečnosti; uronjeni deo je odnos gustina (led u vodi ≈ 92 %).",
+      "en": "A body floats if it is less dense than the liquid; the submerged fraction is the density ratio (ice in water ≈ 92 %).",
+      "it": "Un corpo galleggia se è meno denso del liquido; la parte immersa è il rapporto delle densità (ghiaccio ≈ 92 %).",
+      "fr": "Un corps flotte s’il est moins dense que le liquide ; la fraction immergée est le rapport des masses volumiques (glace ≈ 92 %).",
+      "es": "Un cuerpo flota si es menos denso que el líquido; la fracción sumergida es la razón de densidades (hielo ≈ 92 %).",
+      "de": "Ein Körper schwimmt, wenn seine Dichte kleiner ist; der eingetauchte Anteil ist das Dichteverhältnis (Eis ≈ 92 %).",
+      "pt": "Um corpo flutua se for menos denso que o líquido; a fração submersa é a razão das densidades (gelo ≈ 92 %).",
+      "ru": "Тело плавает, если его плотность меньше плотности жидкости; погружённая доля равна отношению плотностей (лёд ≈ 92 %)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Fp": {
+      "oznaka": {
+       "sr": "F_{\\mathrm{p}}",
+       "en": "F_{\\mathrm{b}}",
+       "it": "F_{\\mathrm{A}}",
+       "fr": "F_{\\mathrm{A}}",
+       "es": "F_{\\mathrm{E}}",
+       "de": "F_{\\mathrm{A}}",
+       "pt": "F_{\\mathrm{E}}",
+       "ru": "F_{\\mathrm{A}}"
+      },
+      "naziv": {
+       "sr": "sila potiska",
+       "en": "buoyant force",
+       "it": "spinta di Archimede",
+       "fr": "poussée d’Archimède",
+       "es": "empuje",
+       "de": "Auftriebskraft",
+       "pt": "empuxo",
+       "ru": "выталкивающая сила"
+      },
+      "vrsta": "sila",
+      "poz": true
+     },
+     "rho": {
+      "oznaka": "\\rho",
+      "naziv": {
+       "sr": "gustina tečnosti",
+       "en": "density of the liquid",
+       "it": "densità del liquido",
+       "fr": "masse volumique du liquide",
+       "es": "densidad del líquido",
+       "de": "Dichte der Flüssigkeit",
+       "pt": "massa específica do líquido",
+       "ru": "плотность жидкости"
+      },
+      "vrsta": "gustina",
+      "pocetna": 1000,
+      "poz": true
+     },
+     "g": {
+      "oznaka": "g",
+      "naziv": {
+       "sr": "ubrzanje Zemljine teže",
+       "en": "gravitational acceleration",
+       "it": "accelerazione di gravità",
+       "fr": "intensité de la pesanteur",
+       "es": "aceleración de la gravedad",
+       "de": "Fallbeschleunigung",
+       "pt": "aceleração da gravidade",
+       "ru": "ускорение свободного падения"
+      },
+      "vrsta": "ubrzanje",
+      "pocetna": 9.81,
+      "poz": true
+     },
+     "V": {
+      "oznaka": "V",
+      "naziv": {
+       "sr": "zapremina uronjenog dela",
+       "en": "submerged volume",
+       "it": "volume immerso",
+       "fr": "volume immergé",
+       "es": "volumen sumergido",
+       "de": "eingetauchtes Volumen",
+       "pt": "volume submerso",
+       "ru": "объём погружённой части"
+      },
+      "vrsta": "zapremina",
+      "pocetna": 0.002,
+      "jed": "L",
+      "poz": true
+     },
+     "ud": {
+      "oznaka": {
+       "sr": "V_{\\text{u}} / V",
+       "en": "V_{\\text{sub}} / V",
+       "it": "V_{\\text{imm}} / V",
+       "fr": "V_{\\text{imm}} / V",
+       "es": "V_{\\text{sum}} / V",
+       "de": "V_{\\text{ein}} / V",
+       "pt": "V_{\\text{sub}} / V",
+       "ru": "V_{\\text{погр}} / V"
+      },
+      "naziv": {
+       "sr": "uronjeni deo zapremine",
+       "en": "submerged fraction",
+       "it": "frazione immersa",
+       "fr": "fraction immergée",
+       "es": "fracción sumergida",
+       "de": "eingetauchter Anteil",
+       "pt": "fração submersa",
+       "ru": "погружённая доля"
+      },
+      "vrsta": "udeo",
+      "poz": true
+     },
+     "rhot": {
+      "oznaka": {
+       "sr": "\\rho_{\\text{t}}",
+       "en": "\\rho_{\\text{b}}",
+       "it": "\\rho_{\\text{c}}",
+       "fr": "\\rho_{\\text{c}}",
+       "es": "\\rho_{\\text{c}}",
+       "de": "\\rho_{\\text{K}}",
+       "pt": "\\rho_{\\text{c}}",
+       "ru": "\\rho_{\\text{т}}"
+      },
+      "naziv": {
+       "sr": "gustina tela",
+       "en": "density of the body",
+       "it": "densità del corpo",
+       "fr": "masse volumique du corps",
+       "es": "densidad del cuerpo",
+       "de": "Dichte des Körpers",
+       "pt": "massa específica do corpo",
+       "ru": "плотность тела"
+      },
+      "vrsta": "gustina",
+      "pocetna": 917,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "F_{\\mathrm{p}} = \\rho g V",
+       "en": "F_{\\mathrm{b}} = \\rho g V",
+       "it": "F_{\\mathrm{A}} = \\rho g V",
+       "fr": "F_{\\mathrm{A}} = \\rho g V",
+       "es": "F_{\\mathrm{E}} = \\rho g V",
+       "de": "F_{\\mathrm{A}} = \\rho g V",
+       "pt": "F_{\\mathrm{E}} = \\rho g V",
+       "ru": "F_{\\mathrm{A}} = \\rho g V"
+      },
+      "trazi": "Fp",
+      "resenja": {
+       "Fp": "rho*g*V",
+       "rho": "Fp/(g*V)",
+       "V": "Fp/(rho*g)"
+      },
+      "promenljive": [
+       "Fp",
+       "rho",
+       "g",
+       "V"
+      ]
+     },
+     {
+      "latex": {
+       "sr": "V_{\\text{u}} / V = \\dfrac{\\rho_{\\text{t}}}{\\rho}",
+       "en": "V_{\\text{sub}} / V = \\dfrac{\\rho_{\\text{b}}}{\\rho}",
+       "it": "V_{\\text{imm}} / V = \\dfrac{\\rho_{\\text{c}}}{\\rho}",
+       "fr": "V_{\\text{imm}} / V = \\dfrac{\\rho_{\\text{c}}}{\\rho}",
+       "es": "V_{\\text{sum}} / V = \\dfrac{\\rho_{\\text{c}}}{\\rho}",
+       "de": "V_{\\text{ein}} / V = \\dfrac{\\rho_{\\text{K}}}{\\rho}",
+       "pt": "V_{\\text{sub}} / V = \\dfrac{\\rho_{\\text{c}}}{\\rho}",
+       "ru": "V_{\\text{погр}} / V = \\dfrac{\\rho_{\\text{т}}}{\\rho}"
+      },
+      "trazi": "ud",
+      "resenja": {
+       "ud": "rhot/rho",
+       "rhot": "ud*rho",
+       "rho": "rhot/ud"
+      },
+      "napomene": {
+       "ud": {
+        "sr": "Ako je rezultat veći od 100 %, telo tone.",
+        "en": "If the result is above 100 %, the body sinks.",
+        "it": "Se il risultato supera il 100 %, il corpo affonda.",
+        "fr": "Si le résultat dépasse 100 %, le corps coule.",
+        "es": "Si el resultado supera el 100 %, el cuerpo se hunde.",
+        "de": "Liegt das Ergebnis über 100 %, sinkt der Körper.",
+        "pt": "Se o resultado passar de 100 %, o corpo afunda.",
+        "ru": "Если результат больше 100 %, тело тонет."
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "bernuli",
+   "simbol": "v",
+   "naziv": {
+    "sr": "Bernulijeva jednačina",
+    "en": "Bernoulli’s equation",
+    "it": "Equazione di Bernoulli",
+    "fr": "Équation de Bernoulli",
+    "es": "Ecuación de Bernoulli",
+    "de": "Bernoulli-Gleichung",
+    "pt": "Equação de Bernoulli",
+    "ru": "Уравнение Бернулли"
+   },
+   "opis": {
+    "sr": "Strujanje, Toričelijev zakon",
+    "en": "Flow, Torricelli’s law",
+    "it": "Flusso, legge di Torricelli",
+    "fr": "Écoulement, loi de Torricelli",
+    "es": "Flujo, ley de Torricelli",
+    "de": "Strömung, Torricelli",
+    "pt": "Escoamento, lei de Torricelli",
+    "ru": "Течение, формула Торричелли"
+   },
+   "kljucne_reci": {
+    "sr": "bernulijeva jednacina strujanje tecnosti cev pritisak brzina toricelijev zakon isticanje",
+    "en": "bernoulli equation fluid flow pipe pressure velocity torricelli outflow",
+    "it": "equazione di bernoulli flusso tubo pressione velocita torricelli efflusso",
+    "fr": "equation de bernoulli ecoulement tuyau pression vitesse torricelli",
+    "es": "ecuacion de bernoulli flujo tuberia presion velocidad torricelli",
+    "de": "bernoulli gleichung stromung rohr druck geschwindigkeit torricelli ausfluss",
+    "pt": "equacao de bernoulli escoamento cano pressao velocidade torricelli",
+    "ru": "уравнение бернулли течение труба давление скорость торричелли"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M14,40 L120,40 C150,40 160,64 190,64 L286,64 L286,106 L190,106 C160,106 150,130 120,130 L14,130 Z\"/><line class=\"lik-l\" x1=\"36.0\" y1=\"85.0\" x2=\"85.0\" y2=\"85.0\"/><path class=\"tac\" d=\"M96.0,85.0 L85.0,90.0 L85.0,80.0 Z\"/><line class=\"lik-l\" x1=\"206.0\" y1=\"85.0\" x2=\"265.0\" y2=\"85.0\"/><path class=\"tac\" d=\"M276.0,85.0 L265.0,90.0 L265.0,80.0 Z\"/><text x=\"52\" y=\"76\">v<tspan class=\"sub\" dy=\"5\">1</tspan></text><text x=\"224\" y=\"58\" >v<tspan class=\"sub\" dy=\"5\">2</tspan></text><text x=\"52\" y=\"122\">p<tspan class=\"sub\" dy=\"5\">1</tspan></text><text x=\"224\" y=\"130\">p<tspan class=\"sub\" dy=\"5\">2</tspan></text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Bernulijeva jednačina",
+      "en": "Bernoulli’s equation",
+      "it": "Equazione di Bernoulli",
+      "fr": "Équation de Bernoulli",
+      "es": "Ecuación de Bernoulli",
+      "de": "Bernoulli-Gleichung",
+      "pt": "Equação de Bernoulli",
+      "ru": "Уравнение Бернулли"
+     },
+     "latex": "p_1 + \\frac{\\rho v_1^2}{2} + \\rho g h_1 = p_2 + \\frac{\\rho v_2^2}{2} + \\rho g h_2",
+     "objasnjenje": {
+      "sr": "Za nestišljivu tečnost bez trenja: gde tečnost teče brže, pritisak je manji.",
+      "en": "For an incompressible, frictionless liquid: where it flows faster, the pressure is lower.",
+      "it": "Per un liquido incomprimibile e senza attrito: dove scorre più veloce la pressione è minore.",
+      "fr": "Pour un liquide incompressible sans frottement : là où il va plus vite, la pression est plus faible.",
+      "es": "Para un líquido incompresible sin rozamiento: donde fluye más rápido, la presión es menor.",
+      "de": "Für eine reibungsfreie, inkompressible Flüssigkeit: wo sie schneller strömt, ist der Druck kleiner.",
+      "pt": "Para um líquido incompressível sem atrito: onde escoa mais rápido, a pressão é menor.",
+      "ru": "Для несжимаемой жидкости без трения: где течение быстрее, давление меньше."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Isticanje kroz otvor (Toričeli)",
+      "en": "Outflow through a hole (Torricelli)",
+      "it": "Efflusso da un foro (Torricelli)",
+      "fr": "Écoulement par un orifice (Torricelli)",
+      "es": "Salida por un orificio (Torricelli)",
+      "de": "Ausfluss aus einer Öffnung (Torricelli)",
+      "pt": "Escoamento por um orifício (Torricelli)",
+      "ru": "Истечение из отверстия (Торричелли)"
+     },
+     "latex": "v = \\sqrt{2 g h}",
+     "objasnjenje": {
+      "sr": "Tečnost ističe iz otvora na dubini h ispod površine brzinom kao da je slobodno pala sa visine h.",
+      "en": "Liquid leaves a hole at depth h with the speed of a free fall from height h.",
+      "it": "Il liquido esce da un foro a profondità h con la velocità di una caduta libera da h.",
+      "fr": "Le liquide sort d’un orifice à la profondeur h avec la vitesse d’une chute libre de hauteur h.",
+      "es": "El líquido sale por un orificio a profundidad h con la velocidad de una caída libre desde h.",
+      "de": "Die Flüssigkeit tritt aus einer Öffnung in der Tiefe h so schnell aus wie nach freiem Fall aus h.",
+      "pt": "O líquido sai por um orifício à profundidade h com a velocidade de uma queda livre de h.",
+      "ru": "Жидкость вытекает из отверстия на глубине h со скоростью свободного падения с высоты h."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "p2": {
+      "oznaka": "p_2",
+      "naziv": {
+       "sr": "pritisak u preseku 2",
+       "en": "pressure at section 2",
+       "it": "pressione nella sezione 2",
+       "fr": "pression dans la section 2",
+       "es": "presión en la sección 2",
+       "de": "Druck im Querschnitt 2",
+       "pt": "pressão na seção 2",
+       "ru": "давление в сечении 2"
+      },
+      "vrsta": "pritisak",
+      "jed": "kPa",
+      "nenegativna": true
+     },
+     "p1": {
+      "oznaka": "p_1",
+      "naziv": {
+       "sr": "pritisak u preseku 1",
+       "en": "pressure at section 1",
+       "it": "pressione nella sezione 1",
+       "fr": "pression dans la section 1",
+       "es": "presión en la sección 1",
+       "de": "Druck im Querschnitt 1",
+       "pt": "pressão na seção 1",
+       "ru": "давление в сечении 1"
+      },
+      "vrsta": "pritisak",
+      "pocetna": 200000.0,
+      "jed": "kPa"
+     },
+     "rho": {
+      "oznaka": "\\rho",
+      "naziv": {
+       "sr": "gustina tečnosti",
+       "en": "density of the liquid",
+       "it": "densità del liquido",
+       "fr": "masse volumique du liquide",
+       "es": "densidad del líquido",
+       "de": "Dichte der Flüssigkeit",
+       "pt": "massa específica do líquido",
+       "ru": "плотность жидкости"
+      },
+      "vrsta": "gustina",
+      "pocetna": 1000,
+      "poz": true
+     },
+     "v1": {
+      "oznaka": "v_1",
+      "naziv": {
+       "sr": "brzina u preseku 1",
+       "en": "velocity at section 1",
+       "it": "velocità nella sezione 1",
+       "fr": "vitesse dans la section 1",
+       "es": "velocidad en la sección 1",
+       "de": "Geschwindigkeit im Querschnitt 1",
+       "pt": "velocidade na seção 1",
+       "ru": "скорость в сечении 1"
+      },
+      "vrsta": "brzina",
+      "pocetna": 2
+     },
+     "v2": {
+      "oznaka": "v_2",
+      "naziv": {
+       "sr": "brzina u preseku 2",
+       "en": "velocity at section 2",
+       "it": "velocità nella sezione 2",
+       "fr": "vitesse dans la section 2",
+       "es": "velocidad en la sección 2",
+       "de": "Geschwindigkeit im Querschnitt 2",
+       "pt": "velocidade na seção 2",
+       "ru": "скорость в сечении 2"
+      },
+      "vrsta": "brzina",
+      "pocetna": 5
+     },
+     "v": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina isticanja",
+       "en": "outflow velocity",
+       "it": "velocità di efflusso",
+       "fr": "vitesse d’écoulement",
+       "es": "velocidad de salida",
+       "de": "Ausflussgeschwindigkeit",
+       "pt": "velocidade de escoamento",
+       "ru": "скорость истечения"
+      },
+      "vrsta": "brzina",
+      "nenegativna": true
+     },
+     "g": {
+      "oznaka": "g",
+      "naziv": {
+       "sr": "ubrzanje Zemljine teže",
+       "en": "gravitational acceleration",
+       "it": "accelerazione di gravità",
+       "fr": "intensité de la pesanteur",
+       "es": "aceleración de la gravedad",
+       "de": "Fallbeschleunigung",
+       "pt": "aceleração da gravidade",
+       "ru": "ускорение свободного падения"
+      },
+      "vrsta": "ubrzanje",
+      "pocetna": 9.81,
+      "poz": true
+     },
+     "hv": {
+      "oznaka": "h",
+      "naziv": {
+       "sr": "dubina otvora ispod površine",
+       "en": "depth of the hole below the surface",
+       "it": "profondità del foro",
+       "fr": "profondeur de l’orifice",
+       "es": "profundidad del orificio",
+       "de": "Tiefe der Öffnung",
+       "pt": "profundidade do orifício",
+       "ru": "глубина отверстия"
+      },
+      "vrsta": "duzina",
+      "pocetna": 2,
+      "nenegativna": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "p_1 + \\dfrac{\\rho v_1^2}{2} = p_2 + \\dfrac{\\rho v_2^2}{2}",
+      "trazi": "p2",
+      "resenja": {
+       "p2": "p1 + rho*(v1*v1 - v2*v2)/2",
+       "p1": "p2 - rho*(v1*v1 - v2*v2)/2",
+       "v2": "sqrt(v1*v1 + 2*(p1 - p2)/rho)",
+       "v1": "sqrt(v2*v2 - 2*(p1 - p2)/rho)",
+       "rho": "2*(p2 - p1)/(v1*v1 - v2*v2)"
+      },
+      "napomene": {
+       "p2": {
+        "sr": "Vodoravna cev (h₁ = h₂).",
+        "en": "Horizontal pipe (h₁ = h₂).",
+        "it": "Tubo orizzontale (h₁ = h₂).",
+        "fr": "Tuyau horizontal (h₁ = h₂).",
+        "es": "Tubería horizontal (h₁ = h₂).",
+        "de": "Waagerechtes Rohr (h₁ = h₂).",
+        "pt": "Cano horizontal (h₁ = h₂).",
+        "ru": "Горизонтальная труба (h₁ = h₂)."
+       }
+      }
+     },
+     {
+      "latex": "v = \\sqrt{2 g h}",
+      "trazi": "v",
+      "resenja": {
+       "v": "sqrt(2*g*hv)",
+       "hv": "v*v/(2*g)",
+       "g": "v*v/(2*hv)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "otpor",
+   "simbol": "η",
+   "naziv": {
+    "sr": "Otpor sredine",
+    "en": "Drag",
+    "it": "Resistenza del mezzo",
+    "fr": "Résistance du fluide",
+    "es": "Resistencia del fluido",
+    "de": "Strömungswiderstand",
+    "pt": "Resistência do fluido",
+    "ru": "Сопротивление среды"
+   },
+   "opis": {
+    "sr": "Stoksov zakon, otpor vazduha",
+    "en": "Stokes’ law, air drag",
+    "it": "Legge di Stokes, resistenza dell’aria",
+    "fr": "Loi de Stokes, traînée",
+    "es": "Ley de Stokes, resistencia del aire",
+    "de": "Stokessches Gesetz, Luftwiderstand",
+    "pt": "Lei de Stokes, arrasto do ar",
+    "ru": "Закон Стокса, сопротивление воздуха"
+   },
+   "kljucne_reci": {
+    "sr": "otpor sredine stoksov zakon viskoznost otpor vazduha koeficijent otpora",
+    "en": "drag stokes law viscosity air resistance drag coefficient",
+    "it": "resistenza stokes viscosita resistenza aerodinamica",
+    "fr": "trainee loi de stokes viscosite resistance de l air",
+    "es": "resistencia stokes viscosidad arrastre aerodinamico",
+    "de": "stromungswiderstand stokes viskositat luftwiderstand cw wert",
+    "pt": "arrasto stokes viscosidade resistencia do ar",
+    "ru": "сопротивление стокс вязкость сопротивление воздуха"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Stoksov zakon (sporo kretanje)",
+      "en": "Stokes’ law (slow motion)",
+      "it": "Legge di Stokes (moto lento)",
+      "fr": "Loi de Stokes (mouvement lent)",
+      "es": "Ley de Stokes (movimiento lento)",
+      "de": "Stokessches Gesetz (langsam)",
+      "pt": "Lei de Stokes (movimento lento)",
+      "ru": "Закон Стокса (медленное движение)"
+     },
+     "latex": "F = 6 \\pi r \\eta v",
+     "objasnjenje": {
+      "sr": "Sila otpora na malu kuglicu koja se sporo kreće kroz viskoznu tečnost (voda: η ≈ 1 mPa·s).",
+      "en": "Drag on a small sphere moving slowly through a viscous fluid (water: η ≈ 1 mPa·s).",
+      "it": "Forza su una piccola sfera che si muove lentamente in un fluido viscoso (acqua: η ≈ 1 mPa·s).",
+      "fr": "Force sur une petite bille se déplaçant lentement dans un fluide visqueux (eau : η ≈ 1 mPa·s).",
+      "es": "Fuerza sobre una pequeña esfera que se mueve lentamente en un fluido viscoso (agua: η ≈ 1 mPa·s).",
+      "de": "Widerstand einer kleinen Kugel, die sich langsam in einer zähen Flüssigkeit bewegt (Wasser: η ≈ 1 mPa·s).",
+      "pt": "Força sobre uma pequena esfera que se move lentamente num fluido viscoso (água: η ≈ 1 mPa·s).",
+      "ru": "Сила сопротивления маленькому шарику в вязкой жидкости (вода: η ≈ 1 мПа·с)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Otpor pri većim brzinama",
+      "en": "Drag at higher speeds",
+      "it": "Resistenza ad alta velocità",
+      "fr": "Traînée à grande vitesse",
+      "es": "Resistencia a altas velocidades",
+      "de": "Widerstand bei höheren Geschwindigkeiten",
+      "pt": "Arrasto em velocidades maiores",
+      "ru": "Сопротивление при больших скоростях"
+     },
+     "latex": {
+      "sr": "F = \\frac{1}{2}\\, c\\, \\rho\\, S\\, v^2",
+      "en": "F = \\frac{1}{2}\\, C_{\\mathrm{d}}\\, \\rho\\, S\\, v^2",
+      "it": "F = \\frac{1}{2}\\, C_{\\mathrm{x}}\\, \\rho\\, S\\, v^2",
+      "fr": "F = \\frac{1}{2}\\, C_{\\mathrm{x}}\\, \\rho\\, S\\, v^2",
+      "es": "F = \\frac{1}{2}\\, C_{\\mathrm{D}}\\, \\rho\\, S\\, v^2",
+      "de": "F = \\frac{1}{2}\\, c_{\\mathrm{w}}\\, \\rho\\, S\\, v^2",
+      "pt": "F = \\frac{1}{2}\\, C_{\\mathrm{D}}\\, \\rho\\, S\\, v^2",
+      "ru": "F = \\frac{1}{2}\\, C_{\\mathrm{x}}\\, \\rho\\, S\\, v^2"
+     },
+     "objasnjenje": {
+      "sr": "Raste sa kvadratom brzine; za automobil koeficijent je oko 0,3, a gustina vazduha 1,2 kg/m³.",
+      "en": "Grows with the square of speed; a car has a coefficient of about 0.3; air density is 1.2 kg/m³.",
+      "it": "Cresce con il quadrato della velocità; per un’auto il coefficiente è circa 0,3; aria 1,2 kg/m³.",
+      "fr": "Croît avec le carré de la vitesse ; une voiture a un coefficient d’environ 0,3 ; air 1,2 kg/m³.",
+      "es": "Crece con el cuadrado de la velocidad; un coche tiene un coeficiente de unos 0,3; aire 1,2 kg/m³.",
+      "de": "Wächst mit dem Quadrat der Geschwindigkeit; ein Auto hat einen Beiwert von etwa 0,3; Luft 1,2 kg/m³.",
+      "pt": "Cresce com o quadrado da velocidade; um carro tem coeficiente de cerca de 0,3; ar 1,2 kg/m³.",
+      "ru": "Растёт с квадратом скорости; у автомобиля коэффициент около 0,3; плотность воздуха 1,2 кг/м³."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Fs": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "sila otpora (Stoks)",
+       "en": "drag force (Stokes)",
+       "it": "forza viscosa (Stokes)",
+       "fr": "force de frottement (Stokes)",
+       "es": "fuerza viscosa (Stokes)",
+       "de": "Reibungskraft (Stokes)",
+       "pt": "força viscosa (Stokes)",
+       "ru": "сила сопротивления (Стокс)"
+      },
+      "vrsta": "sila",
+      "jed": "mN",
+      "nenegativna": true
+     },
+     "r": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "poluprečnik kuglice",
+       "en": "radius of the sphere",
+       "it": "raggio della sfera",
+       "fr": "rayon de la bille",
+       "es": "radio de la esfera",
+       "de": "Kugelradius",
+       "pt": "raio da esfera",
+       "ru": "радиус шарика"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.005,
+      "jed": "mm",
+      "poz": true
+     },
+     "eta": {
+      "oznaka": "\\eta",
+      "naziv": {
+       "sr": "viskoznost",
+       "en": "viscosity",
+       "it": "viscosità",
+       "fr": "viscosité",
+       "es": "viscosidad",
+       "de": "Viskosität",
+       "pt": "viscosidade",
+       "ru": "вязкость"
+      },
+      "vrsta": "viskoznost",
+      "pocetna": 1.4,
+      "jed": "Pa·s",
+      "poz": true
+     },
+     "vk": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina kuglice",
+       "en": "velocity of the sphere",
+       "it": "velocità della sfera",
+       "fr": "vitesse de la bille",
+       "es": "velocidad de la esfera",
+       "de": "Geschwindigkeit der Kugel",
+       "pt": "velocidade da esfera",
+       "ru": "скорость шарика"
+      },
+      "vrsta": "brzina",
+      "pocetna": 0.05,
+      "jed": "m/s"
+     },
+     "Fu": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "sila otpora vazduha",
+       "en": "air drag force",
+       "it": "resistenza aerodinamica",
+       "fr": "traînée",
+       "es": "resistencia aerodinámica",
+       "de": "Luftwiderstandskraft",
+       "pt": "força de arrasto",
+       "ru": "сила лобового сопротивления"
+      },
+      "vrsta": "sila"
+     },
+     "cw": {
+      "oznaka": {
+       "sr": "c",
+       "en": "C_{\\mathrm{d}}",
+       "it": "C_{\\mathrm{x}}",
+       "fr": "C_{\\mathrm{x}}",
+       "es": "C_{\\mathrm{D}}",
+       "de": "c_{\\mathrm{w}}",
+       "pt": "C_{\\mathrm{D}}",
+       "ru": "C_{\\mathrm{x}}"
+      },
+      "naziv": {
+       "sr": "koeficijent otpora",
+       "en": "drag coefficient",
+       "it": "coefficiente di resistenza",
+       "fr": "coefficient de traînée",
+       "es": "coeficiente de arrastre",
+       "de": "Widerstandsbeiwert",
+       "pt": "coeficiente de arrasto",
+       "ru": "коэффициент сопротивления"
+      },
+      "vrsta": "bez",
+      "pocetna": 0.3,
+      "poz": true
+     },
+     "rhov": {
+      "oznaka": "\\rho",
+      "naziv": {
+       "sr": "gustina vazduha",
+       "en": "density of air",
+       "it": "densità dell’aria",
+       "fr": "masse volumique de l’air",
+       "es": "densidad del aire",
+       "de": "Luftdichte",
+       "pt": "massa específica do ar",
+       "ru": "плотность воздуха"
+      },
+      "vrsta": "gustina",
+      "pocetna": 1.2,
+      "poz": true
+     },
+     "S": {
+      "oznaka": "S",
+      "naziv": {
+       "sr": "čeona površina",
+       "en": "frontal area",
+       "it": "area frontale",
+       "fr": "maître-couple",
+       "es": "área frontal",
+       "de": "Stirnfläche",
+       "pt": "área frontal",
+       "ru": "площадь сечения"
+      },
+      "vrsta": "povrsina",
+      "pocetna": 2.2,
+      "poz": true
+     },
+     "vv": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina",
+       "en": "velocity",
+       "it": "velocità",
+       "fr": "vitesse",
+       "es": "velocidad",
+       "de": "Geschwindigkeit",
+       "pt": "velocidade",
+       "ru": "скорость"
+      },
+      "vrsta": "brzina",
+      "pocetna": 27.77777777777778,
+      "jed": "km/h"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "F = 6 \\pi r \\eta v",
+      "trazi": "Fs",
+      "resenja": {
+       "Fs": "6*PI*r*eta*vk",
+       "r": "Fs/(6*PI*eta*vk)",
+       "eta": "Fs/(6*PI*r*vk)",
+       "vk": "Fs/(6*PI*r*eta)"
+      }
+     },
+     {
+      "latex": {
+       "sr": "F = \\dfrac{1}{2} c \\rho S v^2",
+       "en": "F = \\dfrac{1}{2} C_{\\mathrm{d}} \\rho S v^2",
+       "it": "F = \\dfrac{1}{2} C_{\\mathrm{x}} \\rho S v^2",
+       "fr": "F = \\dfrac{1}{2} C_{\\mathrm{x}} \\rho S v^2",
+       "es": "F = \\dfrac{1}{2} C_{\\mathrm{D}} \\rho S v^2",
+       "de": "F = \\dfrac{1}{2} c_{\\mathrm{w}} \\rho S v^2",
+       "pt": "F = \\dfrac{1}{2} C_{\\mathrm{D}} \\rho S v^2",
+       "ru": "F = \\dfrac{1}{2} C_{\\mathrm{x}} \\rho S v^2"
+      },
+      "trazi": "Fu",
+      "promenljive": [
+       "Fu",
+       "cw",
+       "rhov",
+       "S",
+       "vv"
+      ],
+      "resenja": {
+       "Fu": "cw*rhov*S*vv*vv/2",
+       "cw": "2*Fu/(rhov*S*vv*vv)",
+       "S": "2*Fu/(cw*rhov*vv*vv)",
+       "vv": "sqrt(2*Fu/(cw*rhov*S))"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "povrsinski_napon",
+   "simbol": "γ",
+   "naziv": {
+    "sr": "Površinski napon",
+    "en": "Surface tension",
+    "it": "Tensione superficiale",
+    "fr": "Tension superficielle",
+    "es": "Tensión superficial",
+    "de": "Oberflächenspannung",
+    "pt": "Tensão superficial",
+    "ru": "Поверхностное натяжение"
+   },
+   "opis": {
+    "sr": "Kapi i mehurovi",
+    "en": "Drops and bubbles",
+    "it": "Gocce e bolle",
+    "fr": "Gouttes et bulles",
+    "es": "Gotas y burbujas",
+    "de": "Tropfen und Blasen",
+    "pt": "Gotas e bolhas",
+    "ru": "Капли и пузыри"
+   },
+   "kljucne_reci": {
+    "sr": "povrsinski napon kap mehur sapunica natpritisak tecnost",
+    "en": "surface tension drop bubble soap excess pressure liquid",
+    "it": "tensione superficiale goccia bolla sapone sovrapressione",
+    "fr": "tension superficielle goutte bulle savon surpression",
+    "es": "tension superficial gota burbuja jabon sobrepresion",
+    "de": "oberflachenspannung tropfen seifenblase uberdruck",
+    "pt": "tensao superficial gota bolha sabao sobrepressao",
+    "ru": "поверхностное натяжение капля пузырь мыльный избыточное давление"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Sila površinskog napona",
+      "en": "Surface tension force",
+      "it": "Forza di tensione superficiale",
+      "fr": "Force de tension superficielle",
+      "es": "Fuerza de tensión superficial",
+      "de": "Kraft der Oberflächenspannung",
+      "pt": "Força de tensão superficial",
+      "ru": "Сила поверхностного натяжения"
+     },
+     "latex": {
+      "sr": "F = \\gamma\\, l",
+      "en": "F = \\gamma\\, l",
+      "it": "F = \\gamma\\, l",
+      "fr": "F = \\gamma\\, l",
+      "es": "F = \\gamma\\, l",
+      "de": "F = \\sigma\\, l",
+      "pt": "F = \\gamma\\, l",
+      "ru": "F = \\sigma\\, l"
+     },
+     "objasnjenje": {
+      "sr": "Deluje duž ivice dužine l; za vodu iznosi oko 0,073 N/m.",
+      "en": "Acts along an edge of length l; for water it is about 0.073 N/m.",
+      "it": "Agisce lungo un bordo di lunghezza l; per l’acqua vale circa 0,073 N/m.",
+      "fr": "Agit le long d’un bord de longueur l ; pour l’eau elle vaut environ 0,073 N/m.",
+      "es": "Actúa a lo largo de un borde de longitud l; para el agua vale unos 0,073 N/m.",
+      "de": "Wirkt entlang eines Randes der Länge l; für Wasser etwa 0,073 N/m.",
+      "pt": "Atua ao longo de uma borda de comprimento l; para a água vale cerca de 0,073 N/m.",
+      "ru": "Действует вдоль границы длиной l; для воды около 0,073 Н/м."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Natpritisak u kapi i mehuru",
+      "en": "Excess pressure in a drop and a bubble",
+      "it": "Sovrapressione in goccia e bolla",
+      "fr": "Surpression dans une goutte et une bulle",
+      "es": "Sobrepresión en gota y burbuja",
+      "de": "Überdruck in Tropfen und Blase",
+      "pt": "Sobrepressão em gota e bolha",
+      "ru": "Избыточное давление в капле и пузыре"
+     },
+     "latex": {
+      "sr": "\\Delta p_1 = \\frac{2\\gamma}{r}, \\quad \\Delta p_2 = \\frac{4\\gamma}{r}",
+      "en": "\\Delta p_1 = \\frac{2\\gamma}{r}, \\quad \\Delta p_2 = \\frac{4\\gamma}{r}",
+      "it": "\\Delta p_1 = \\frac{2\\gamma}{r}, \\quad \\Delta p_2 = \\frac{4\\gamma}{r}",
+      "fr": "\\Delta p_1 = \\frac{2\\gamma}{r}, \\quad \\Delta p_2 = \\frac{4\\gamma}{r}",
+      "es": "\\Delta p_1 = \\frac{2\\gamma}{r}, \\quad \\Delta p_2 = \\frac{4\\gamma}{r}",
+      "de": "\\Delta p_1 = \\frac{2\\sigma}{r}, \\quad \\Delta p_2 = \\frac{4\\sigma}{r}",
+      "pt": "\\Delta p_1 = \\frac{2\\gamma}{r}, \\quad \\Delta p_2 = \\frac{4\\gamma}{r}",
+      "ru": "\\Delta p_1 = \\frac{2\\sigma}{r}, \\quad \\Delta p_2 = \\frac{4\\sigma}{r}"
+     },
+     "objasnjenje": {
+      "sr": "Δp₁ za kap tečnosti (jedna površina), Δp₂ za mehur od sapunice (dve površine). Manja kap ima veći pritisak.",
+      "en": "Δp₁ for a liquid drop (one surface), Δp₂ for a soap bubble (two surfaces). A smaller drop has a higher pressure.",
+      "it": "Δp₁ per una goccia (una superficie), Δp₂ per una bolla di sapone (due superfici). Una goccia più piccola ha pressione maggiore.",
+      "fr": "Δp₁ pour une goutte (une surface), Δp₂ pour une bulle de savon (deux surfaces). Une goutte plus petite a une pression plus élevée.",
+      "es": "Δp₁ para una gota (una superficie), Δp₂ para una pompa de jabón (dos superficies). Una gota más pequeña tiene mayor presión.",
+      "de": "Δp₁ für einen Tropfen (eine Oberfläche), Δp₂ für eine Seifenblase (zwei Oberflächen). Kleinere Tropfen haben höheren Druck.",
+      "pt": "Δp₁ para uma gota (uma superfície), Δp₂ para uma bolha de sabão (duas superfícies). Uma gota menor tem pressão maior.",
+      "ru": "Δp₁ — для капли (одна поверхность), Δp₂ — для мыльного пузыря (две поверхности). У меньшей капли давление больше."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "F": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "sila površinskog napona",
+       "en": "surface tension force",
+       "it": "forza di tensione superficiale",
+       "fr": "force de tension superficielle",
+       "es": "fuerza de tensión superficial",
+       "de": "Oberflächenspannungskraft",
+       "pt": "força de tensão superficial",
+       "ru": "сила поверхностного натяжения"
+      },
+      "vrsta": "sila",
+      "jed": "mN"
+     },
+     "gam": {
+      "oznaka": {
+       "sr": "\\gamma",
+       "en": "\\gamma",
+       "it": "\\gamma",
+       "fr": "\\gamma",
+       "es": "\\gamma",
+       "de": "\\sigma",
+       "pt": "\\gamma",
+       "ru": "\\sigma"
+      },
+      "naziv": {
+       "sr": "površinski napon",
+       "en": "surface tension",
+       "it": "tensione superficiale",
+       "fr": "tension superficielle",
+       "es": "tensión superficial",
+       "de": "Oberflächenspannung",
+       "pt": "tensão superficial",
+       "ru": "поверхностное натяжение"
+      },
+      "vrsta": "povrsinskiNapon",
+      "pocetna": 0.0728,
+      "jed": "mN/m",
+      "poz": true
+     },
+     "l": {
+      "oznaka": "l",
+      "naziv": {
+       "sr": "dužina ivice",
+       "en": "length of the edge",
+       "it": "lunghezza del bordo",
+       "fr": "longueur du bord",
+       "es": "longitud del borde",
+       "de": "Randlänge",
+       "pt": "comprimento da borda",
+       "ru": "длина границы"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.05,
+      "jed": "cm",
+      "poz": true
+     },
+     "dpk": {
+      "oznaka": "\\Delta p_1",
+      "naziv": {
+       "sr": "natpritisak u kapi",
+       "en": "excess pressure in a drop",
+       "it": "sovrapressione nella goccia",
+       "fr": "surpression dans une goutte",
+       "es": "sobrepresión en la gota",
+       "de": "Überdruck im Tropfen",
+       "pt": "sobrepressão na gota",
+       "ru": "избыточное давление в капле"
+      },
+      "vrsta": "pritisak"
+     },
+     "dpm": {
+      "oznaka": "\\Delta p_2",
+      "naziv": {
+       "sr": "natpritisak u mehuru",
+       "en": "excess pressure in a bubble",
+       "it": "sovrapressione nella bolla",
+       "fr": "surpression dans une bulle",
+       "es": "sobrepresión en la burbuja",
+       "de": "Überdruck in der Seifenblase",
+       "pt": "sobrepressão na bolha",
+       "ru": "избыточное давление в пузыре"
+      },
+      "vrsta": "pritisak"
+     },
+     "rk": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "poluprečnik kapi / mehura",
+       "en": "radius of the drop / bubble",
+       "it": "raggio della goccia / bolla",
+       "fr": "rayon de la goutte / bulle",
+       "es": "radio de la gota / burbuja",
+       "de": "Radius des Tropfens / der Blase",
+       "pt": "raio da gota / bolha",
+       "ru": "радиус капли / пузыря"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.001,
+      "jed": "mm",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "F = \\gamma l",
+       "en": "F = \\gamma l",
+       "it": "F = \\gamma l",
+       "fr": "F = \\gamma l",
+       "es": "F = \\gamma l",
+       "de": "F = \\sigma l",
+       "pt": "F = \\gamma l",
+       "ru": "F = \\sigma l"
+      },
+      "trazi": "F",
+      "resenja": {
+       "F": "gam*l",
+       "gam": "F/l",
+       "l": "F/gam"
+      }
+     },
+     {
+      "latex": {
+       "sr": "\\Delta p_1 = \\dfrac{2\\gamma}{r}",
+       "en": "\\Delta p_1 = \\dfrac{2\\gamma}{r}",
+       "it": "\\Delta p_1 = \\dfrac{2\\gamma}{r}",
+       "fr": "\\Delta p_1 = \\dfrac{2\\gamma}{r}",
+       "es": "\\Delta p_1 = \\dfrac{2\\gamma}{r}",
+       "de": "\\Delta p_1 = \\dfrac{2\\sigma}{r}",
+       "pt": "\\Delta p_1 = \\dfrac{2\\gamma}{r}",
+       "ru": "\\Delta p_1 = \\dfrac{2\\sigma}{r}"
+      },
+      "trazi": "dpk",
+      "resenja": {
+       "dpk": "2*gam/rk",
+       "gam": "dpk*rk/2",
+       "rk": "2*gam/dpk"
+      }
+     },
+     {
+      "latex": {
+       "sr": "\\Delta p_2 = \\dfrac{4\\gamma}{r}",
+       "en": "\\Delta p_2 = \\dfrac{4\\gamma}{r}",
+       "it": "\\Delta p_2 = \\dfrac{4\\gamma}{r}",
+       "fr": "\\Delta p_2 = \\dfrac{4\\gamma}{r}",
+       "es": "\\Delta p_2 = \\dfrac{4\\gamma}{r}",
+       "de": "\\Delta p_2 = \\dfrac{4\\sigma}{r}",
+       "pt": "\\Delta p_2 = \\dfrac{4\\gamma}{r}",
+       "ru": "\\Delta p_2 = \\dfrac{4\\sigma}{r}"
+      },
+      "trazi": "dpm",
+      "resenja": {
+       "dpm": "4*gam/rk",
+       "gam": "dpm*rk/4",
+       "rk": "4*gam/dpm"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}
