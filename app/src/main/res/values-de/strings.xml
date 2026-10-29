@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="podnaslov">Mathe für die Hosentasche</string>
+    <string name="podnaslov">Mathe und Physik für die Hosentasche</string>
     <string name="pretraga_hint">Formeln suchen… (z. B. Kegel, Integral)</string>
     <string name="obrisi_pretragu">Suche löschen</string>
     <string name="oblasti">Themen</string>
@@ -21,6 +21,30 @@
     <string name="opis_analiticka_geometrija">Geraden, Kegelschnitte</string>
     <string name="oblast_kombinatorika">Kombinatorik</string>
     <string name="opis_kombinatorika">Wahrscheinlichkeit, Folgen</string>
+    <string name="oblast_fizika">Physik</string>
+    <string name="opis_fizika">Bewegung, Kräfte, Energie</string>
+    <string name="oblast_kretanje">Bewegung</string>
+    <string name="opis_kretanje">Geschwindigkeit, Beschleunigung</string>
+    <string name="oblast_sile">Kräfte</string>
+    <string name="opis_sile">Newtonsche Gesetze, Reibung</string>
+    <string name="oblast_energija">Arbeit und Energie</string>
+    <string name="opis_energija">Arbeit, Leistung, Energie</string>
+    <string name="oblast_fluidi">Fluide</string>
+    <string name="opis_fluidi">Druck, Auftrieb</string>
+    <string name="oblast_rotacija">Rotation</string>
+    <string name="opis_rotacija">Trägheitsmoment</string>
+    <string name="oblast_toplota">Wärme</string>
+    <string name="opis_toplota">Gase, Thermodynamik</string>
+    <string name="oblast_elektricitet">Elektrizität</string>
+    <string name="opis_elektricitet">Strom, Widerstand, Kondensatoren</string>
+    <string name="oblast_magnetizam">Magnetismus</string>
+    <string name="opis_magnetizam">Feld, Induktion</string>
+    <string name="oblast_talasi">Schwingungen und Wellen</string>
+    <string name="opis_talasi">Pendel, Wellen, Optik</string>
+    <string name="oblast_moderna_fizika">Moderne Physik</string>
+    <string name="opis_moderna_fizika">Photonen, Atome, Kerne</string>
+    <string name="oblast_konstante">Konstanten</string>
+    <string name="opis_konstante">Naturkonstanten und Daten</string>
     <string name="rezultati">Ergebnisse</string>
     <string name="nazad">Zurück</string>
     <string name="uskoro_oblast">Die Formeln für dieses Thema folgen bald.</string>

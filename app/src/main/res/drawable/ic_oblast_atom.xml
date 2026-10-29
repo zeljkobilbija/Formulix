@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="44dp" android:height="44dp"
+    android:viewportWidth="42" android:viewportHeight="42">
+    <!-- Atom: tri orbite i jezgro -->
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="2.2"
+        android:pathData="M4,21 a17,6.5 0 1,0 34,0 a17,6.5 0 1,0 -34,0"/>
+    <group android:rotation="60" android:pivotX="21" android:pivotY="21">
+        <path android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="2.2"
+            android:pathData="M4,21 a17,6.5 0 1,0 34,0 a17,6.5 0 1,0 -34,0"/>
+    </group>
+    <group android:rotation="120" android:pivotX="21" android:pivotY="21">
+        <path android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="2.2"
+            android:pathData="M4,21 a17,6.5 0 1,0 34,0 a17,6.5 0 1,0 -34,0"/>
+    </group>
+    <path android:fillColor="#FFFFFF" android:pathData="M21,17.5 a3.5,3.5 0 1,0 0,7 a3.5,3.5 0 1,0 0,-7"/>
+</vector>

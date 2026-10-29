@@ -48,7 +48,7 @@ public final class Sadrzaj {
     /** Sve teme iz svih oblasti koje imaju sadržaj (za pretragu). */
     public static List<Tema> sveTeme(Context c) {
         List<Tema> sve = new ArrayList<>();
-        for (Oblast o : Oblasti.SVE) sve.addAll(teme(c, o.id));
+        for (Oblast o : Oblasti.saTemama()) sve.addAll(teme(c, o.id));
         return sve;
     }
 

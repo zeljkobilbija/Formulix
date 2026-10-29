@@ -26,6 +26,9 @@
             android:name=".OblastActivity"
             android:exported="false" />
         <activity
+            android:name=".GrupaActivity"
+            android:exported="false" />
+        <activity
             android:name=".TemaActivity"
             android:exported="false" />
     </application>

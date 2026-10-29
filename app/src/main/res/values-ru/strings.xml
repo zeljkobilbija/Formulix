@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="podnaslov">Математика в кармане</string>
+    <string name="podnaslov">Математика и физика в кармане</string>
     <string name="pretraga_hint">Поиск формул… (напр. конус, интеграл)</string>
     <string name="obrisi_pretragu">Очистить поиск</string>
     <string name="oblasti">Разделы</string>
@@ -21,6 +21,30 @@
     <string name="opis_analiticka_geometrija">Прямые, кривые 2-го порядка</string>
     <string name="oblast_kombinatorika">Комбинаторика</string>
     <string name="opis_kombinatorika">Вероятность, последовательности</string>
+    <string name="oblast_fizika">Физика</string>
+    <string name="opis_fizika">Движение, силы, энергия</string>
+    <string name="oblast_kretanje">Кинематика</string>
+    <string name="opis_kretanje">Скорость, ускорение</string>
+    <string name="oblast_sile">Силы</string>
+    <string name="opis_sile">Законы Ньютона, трение</string>
+    <string name="oblast_energija">Работа и энергия</string>
+    <string name="opis_energija">Работа, мощность, энергия</string>
+    <string name="oblast_fluidi">Жидкости и газы</string>
+    <string name="opis_fluidi">Давление, выталкивающая сила</string>
+    <string name="oblast_rotacija">Вращение</string>
+    <string name="opis_rotacija">Момент инерции</string>
+    <string name="oblast_toplota">Теплота</string>
+    <string name="opis_toplota">Газы, термодинамика</string>
+    <string name="oblast_elektricitet">Электричество</string>
+    <string name="opis_elektricitet">Ток, сопротивление, конденсаторы</string>
+    <string name="oblast_magnetizam">Магнетизм</string>
+    <string name="opis_magnetizam">Поле, индукция</string>
+    <string name="oblast_talasi">Колебания и волны</string>
+    <string name="opis_talasi">Маятник, волны, оптика</string>
+    <string name="oblast_moderna_fizika">Современная физика</string>
+    <string name="opis_moderna_fizika">Фотоны, атомы, ядра</string>
+    <string name="oblast_konstante">Константы</string>
+    <string name="opis_konstante">Физические постоянные и данные</string>
     <string name="rezultati">Результаты</string>
     <string name="nazad">Назад</string>
     <string name="uskoro_oblast">Формулы этого раздела скоро появятся.</string>

@@ -9,6 +9,20 @@
     <color name="analiza">#2F6B2F</color>
     <color name="analiticka_geometrija">#1E5F8A</color>
     <color name="kombinatorika">#7A4B12</color>
+    <color name="fizika">#C62828</color>
+
+    <!-- Boje oblasti fizike -->
+    <color name="f_kretanje">#1565C0</color>
+    <color name="f_sile">#6A1B9A</color>
+    <color name="f_energija">#C43E00</color>
+    <color name="f_fluidi">#00796B</color>
+    <color name="f_rotacija">#4527A0</color>
+    <color name="f_toplota">#B71C1C</color>
+    <color name="f_elektricitet">#9A6700</color>
+    <color name="f_magnetizam">#2E7D32</color>
+    <color name="f_talasi">#0868A8</color>
+    <color name="f_moderna_fizika">#5D4037</color>
+    <color name="f_konstante">#455A64</color>
 
     <!-- Opste -->
     <color name="pozadina">#F4F5F8</color>

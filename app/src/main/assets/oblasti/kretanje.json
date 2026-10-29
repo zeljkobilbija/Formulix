@@ -1,0 +1,2121 @@
+{
+ "oblast": "kretanje",
+ "teme": [
+  {
+   "id": "ravnomerno",
+   "simbol": "v",
+   "naziv": {
+    "sr": "Ravnomerno kretanje",
+    "en": "Uniform motion",
+    "it": "Moto rettilineo uniforme",
+    "fr": "Mouvement uniforme",
+    "es": "Movimiento uniforme",
+    "de": "Gleichförmige Bewegung",
+    "pt": "Movimento uniforme",
+    "ru": "Равномерное движение"
+   },
+   "opis": {
+    "sr": "Stalna brzina",
+    "en": "Constant velocity",
+    "it": "Velocità costante",
+    "fr": "Vitesse constante",
+    "es": "Velocidad constante",
+    "de": "Konstante Geschwindigkeit",
+    "pt": "Velocidade constante",
+    "ru": "Постоянная скорость"
+   },
+   "kljucne_reci": {
+    "sr": "ravnomerno pravolinijsko kretanje brzina put vreme srednja brzina",
+    "en": "uniform motion constant speed velocity distance time average speed",
+    "it": "moto uniforme velocita spazio tempo velocita media",
+    "fr": "mouvement rectiligne uniforme vitesse distance temps vitesse moyenne",
+    "es": "movimiento rectilineo uniforme mru velocidad distancia tiempo velocidad media",
+    "de": "gleichformige bewegung geschwindigkeit weg zeit durchschnittsgeschwindigkeit",
+    "pt": "movimento uniforme mu velocidade distancia tempo velocidade media",
+    "ru": "равномерное прямолинейное движение скорость путь время средняя скорость"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Zakon puta",
+      "en": "Position–time law",
+      "it": "Legge oraria",
+      "fr": "Équation horaire",
+      "es": "Ecuación de posición",
+      "de": "Weg-Zeit-Gesetz",
+      "pt": "Função horária",
+      "ru": "Закон движения"
+     },
+     "latex": "s = s_0 + v\\,t",
+     "objasnjenje": {
+      "sr": "Položaj tela posle vremena t, kada se kreće stalnom brzinom v; s₀ je početni položaj.",
+      "en": "Position after time t when moving at constant velocity v; s₀ is the initial position.",
+      "it": "Posizione dopo il tempo t a velocità costante v; s₀ è la posizione iniziale.",
+      "fr": "Position après un temps t à vitesse constante v ; s₀ est la position initiale.",
+      "es": "Posición tras un tiempo t a velocidad constante v; s₀ es la posición inicial.",
+      "de": "Position nach der Zeit t bei konstanter Geschwindigkeit v; s₀ ist die Anfangsposition.",
+      "pt": "Posição após o tempo t com velocidade constante v; s₀ é a posição inicial.",
+      "ru": "Положение тела через время t при постоянной скорости v; s₀ — начальное положение."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Srednja brzina",
+      "en": "Average velocity",
+      "it": "Velocità media",
+      "fr": "Vitesse moyenne",
+      "es": "Velocidad media",
+      "de": "Durchschnittsgeschwindigkeit",
+      "pt": "Velocidade média",
+      "ru": "Средняя скорость"
+     },
+     "latex": "\\bar v = \\frac{\\Delta s}{\\Delta t}, \\quad s = s_0 + \\bar v\\,t",
+     "objasnjenje": {
+      "sr": "Ukupni pređeni put podeljen ukupnim vremenom; važi i kada brzina nije stalna.",
+      "en": "Total distance divided by total time; valid even when the velocity changes.",
+      "it": "Spazio totale diviso il tempo totale; vale anche se la velocità varia.",
+      "fr": "Distance totale divisée par la durée totale ; valable même si la vitesse varie.",
+      "es": "Distancia total dividida entre el tiempo total; vale aunque la velocidad cambie.",
+      "de": "Gesamtweg geteilt durch Gesamtzeit; gilt auch bei veränderlicher Geschwindigkeit.",
+      "pt": "Distância total dividida pelo tempo total; vale mesmo com velocidade variável.",
+      "ru": "Весь путь, делённый на всё время; верно и при переменной скорости."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "pos": {
+      "oznaka": "s",
+      "naziv": {
+       "sr": "položaj",
+       "en": "position",
+       "it": "posizione",
+       "fr": "position",
+       "es": "posición",
+       "de": "Position",
+       "pt": "posição",
+       "ru": "положение"
+      },
+      "vrsta": "duzina"
+     },
+     "s0": {
+      "oznaka": "s_0",
+      "naziv": {
+       "sr": "početni položaj",
+       "en": "initial position",
+       "it": "posizione iniziale",
+       "fr": "position initiale",
+       "es": "posición inicial",
+       "de": "Anfangsposition",
+       "pt": "posição inicial",
+       "ru": "начальное положение"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0
+     },
+     "v": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina",
+       "en": "velocity",
+       "it": "velocità",
+       "fr": "vitesse",
+       "es": "velocidad",
+       "de": "Geschwindigkeit",
+       "pt": "velocidade",
+       "ru": "скорость"
+      },
+      "vrsta": "brzina",
+      "pocetna": 20,
+      "jed": "km/h"
+     },
+     "t": {
+      "oznaka": "t",
+      "naziv": {
+       "sr": "vreme",
+       "en": "time",
+       "it": "tempo",
+       "fr": "temps",
+       "es": "tiempo",
+       "de": "Zeit",
+       "pt": "tempo",
+       "ru": "время"
+      },
+      "vrsta": "vreme",
+      "pocetna": 10,
+      "poz": true
+     },
+     "s": {
+      "oznaka": "s",
+      "naziv": {
+       "sr": "pređeni put",
+       "en": "distance",
+       "it": "spazio percorso",
+       "fr": "distance parcourue",
+       "es": "distancia recorrida",
+       "de": "zurückgelegter Weg",
+       "pt": "distância percorrida",
+       "ru": "пройденный путь"
+      },
+      "vrsta": "duzina",
+      "pocetna": 1000,
+      "jed": "km"
+     },
+     "vsr": {
+      "oznaka": "\\bar v",
+      "naziv": {
+       "sr": "srednja brzina",
+       "en": "average velocity",
+       "it": "velocità media",
+       "fr": "vitesse moyenne",
+       "es": "velocidad media",
+       "de": "Durchschnittsgeschwindigkeit",
+       "pt": "velocidade média",
+       "ru": "средняя скорость"
+      },
+      "vrsta": "brzina",
+      "jed": "km/h"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "s = s_0 + v t",
+      "trazi": "pos",
+      "resenja": {
+       "pos": "s0 + v*t",
+       "s0": "pos - v*t",
+       "v": "(pos - s0)/t",
+       "t": "(pos - s0)/v"
+      }
+     },
+     {
+      "latex": "\\bar v = \\dfrac{s}{t}",
+      "trazi": "vsr",
+      "resenja": {
+       "vsr": "s/t",
+       "s": "vsr*t",
+       "t": "s/vsr"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "ubrzano",
+   "simbol": "a",
+   "naziv": {
+    "sr": "Ravnomerno ubrzano kretanje",
+    "en": "Uniformly accelerated motion",
+    "it": "Moto uniformemente accelerato",
+    "fr": "Mouvement uniformément accéléré",
+    "es": "Movimiento uniformemente acelerado",
+    "de": "Gleichmäßig beschleunigte Bewegung",
+    "pt": "Movimento uniformemente variado",
+    "ru": "Равноускоренное движение"
+   },
+   "opis": {
+    "sr": "Stalno ubrzanje",
+    "en": "Constant acceleration",
+    "it": "Accelerazione costante",
+    "fr": "Accélération constante",
+    "es": "Aceleración constante",
+    "de": "Konstante Beschleunigung",
+    "pt": "Aceleração constante",
+    "ru": "Постоянное ускорение"
+   },
+   "kljucne_reci": {
+    "sr": "ubrzano usporeno kretanje ubrzanje kocenje brzina put zaustavni put",
+    "en": "accelerated motion acceleration braking deceleration suvat stopping distance",
+    "it": "moto accelerato accelerazione frenata decelerazione",
+    "fr": "mouvement accelere acceleration freinage deceleration",
+    "es": "movimiento acelerado mrua aceleracion frenado desaceleracion",
+    "de": "beschleunigte bewegung beschleunigung bremsen bremsweg",
+    "pt": "movimento acelerado muv aceleracao frenagem torricelli",
+    "ru": "равноускоренное движение ускорение торможение тормозной путь"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Brzina",
+      "en": "Velocity",
+      "it": "Velocità",
+      "fr": "Vitesse",
+      "es": "Velocidad",
+      "de": "Geschwindigkeit",
+      "pt": "Velocidade",
+      "ru": "Скорость"
+     },
+     "latex": "v = v_0 + a\\,t",
+     "objasnjenje": {
+      "sr": "Brzina posle vremena t; za usporavanje (kočenje) a je negativno.",
+      "en": "Velocity after time t; a is negative when slowing down.",
+      "it": "Velocità dopo il tempo t; in frenata a è negativa.",
+      "fr": "Vitesse après un temps t ; a est négative lors d’un freinage.",
+      "es": "Velocidad tras un tiempo t; al frenar a es negativa.",
+      "de": "Geschwindigkeit nach der Zeit t; beim Bremsen ist a negativ.",
+      "pt": "Velocidade após o tempo t; na frenagem a é negativa.",
+      "ru": "Скорость через время t; при торможении a отрицательно."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zakon puta",
+      "en": "Position–time law",
+      "it": "Legge oraria",
+      "fr": "Équation horaire",
+      "es": "Ecuación de posición",
+      "de": "Weg-Zeit-Gesetz",
+      "pt": "Função horária",
+      "ru": "Закон движения"
+     },
+     "latex": "s = s_0 + v_0 t + \\frac{a t^2}{2}",
+     "objasnjenje": {
+      "sr": "Položaj tela posle vremena t pri stalnom ubrzanju a.",
+      "en": "Position after time t at constant acceleration a.",
+      "it": "Posizione dopo il tempo t con accelerazione costante a.",
+      "fr": "Position après un temps t avec une accélération constante a.",
+      "es": "Posición tras un tiempo t con aceleración constante a.",
+      "de": "Position nach der Zeit t bei konstanter Beschleunigung a.",
+      "pt": "Posição após o tempo t com aceleração constante a.",
+      "ru": "Положение тела через время t при постоянном ускорении a."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Brzina i put (bez vremena)",
+      "en": "Velocity and distance (no time)",
+      "it": "Velocità e spazio (senza tempo)",
+      "fr": "Vitesse et distance (sans le temps)",
+      "es": "Velocidad y distancia (sin tiempo)",
+      "de": "Geschwindigkeit und Weg (ohne Zeit)",
+      "pt": "Equação de Torricelli",
+      "ru": "Скорость и путь (без времени)"
+     },
+     "latex": "v^2 = v_0^2 + 2 a s",
+     "objasnjenje": {
+      "sr": "Korisno za zaustavni put: kada se telo zaustavi, v = 0.",
+      "en": "Useful for stopping distance: when the body stops, v = 0.",
+      "it": "Utile per lo spazio di frenata: quando il corpo si ferma, v = 0.",
+      "fr": "Utile pour la distance d’arrêt : à l’arrêt, v = 0.",
+      "es": "Útil para la distancia de frenado: al detenerse, v = 0.",
+      "de": "Nützlich für den Bremsweg: beim Stillstand ist v = 0.",
+      "pt": "Útil para a distância de frenagem: ao parar, v = 0.",
+      "ru": "Удобно для тормозного пути: при остановке v = 0."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Ubrzanje",
+      "en": "Acceleration",
+      "it": "Accelerazione",
+      "fr": "Accélération",
+      "es": "Aceleración",
+      "de": "Beschleunigung",
+      "pt": "Aceleração",
+      "ru": "Ускорение"
+     },
+     "latex": "a = \\frac{\\Delta v}{\\Delta t}",
+     "objasnjenje": {
+      "sr": "Promena brzine u jedinici vremena.",
+      "en": "Change of velocity per unit time.",
+      "it": "Variazione di velocità nell’unità di tempo.",
+      "fr": "Variation de la vitesse par unité de temps.",
+      "es": "Cambio de velocidad por unidad de tiempo.",
+      "de": "Geschwindigkeitsänderung pro Zeiteinheit.",
+      "pt": "Variação da velocidade por unidade de tempo.",
+      "ru": "Изменение скорости за единицу времени."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "v": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina",
+       "en": "velocity",
+       "it": "velocità",
+       "fr": "vitesse",
+       "es": "velocidad",
+       "de": "Geschwindigkeit",
+       "pt": "velocidade",
+       "ru": "скорость"
+      },
+      "vrsta": "brzina",
+      "jed": "km/h"
+     },
+     "v0": {
+      "oznaka": "v_0",
+      "naziv": {
+       "sr": "početna brzina",
+       "en": "initial velocity",
+       "it": "velocità iniziale",
+       "fr": "vitesse initiale",
+       "es": "velocidad inicial",
+       "de": "Anfangsgeschwindigkeit",
+       "pt": "velocidade inicial",
+       "ru": "начальная скорость"
+      },
+      "vrsta": "brzina",
+      "pocetna": 0,
+      "jed": "km/h"
+     },
+     "a": {
+      "oznaka": "a",
+      "naziv": {
+       "sr": "ubrzanje",
+       "en": "acceleration",
+       "it": "accelerazione",
+       "fr": "accélération",
+       "es": "aceleración",
+       "de": "Beschleunigung",
+       "pt": "aceleração",
+       "ru": "ускорение"
+      },
+      "vrsta": "ubrzanje",
+      "pocetna": 2
+     },
+     "t": {
+      "oznaka": "t",
+      "naziv": {
+       "sr": "vreme",
+       "en": "time",
+       "it": "tempo",
+       "fr": "temps",
+       "es": "tiempo",
+       "de": "Zeit",
+       "pt": "tempo",
+       "ru": "время"
+      },
+      "vrsta": "vreme",
+      "pocetna": 5,
+      "poz": true
+     },
+     "s": {
+      "oznaka": "s",
+      "naziv": {
+       "sr": "pređeni put",
+       "en": "distance",
+       "it": "spazio percorso",
+       "fr": "distance parcourue",
+       "es": "distancia recorrida",
+       "de": "zurückgelegter Weg",
+       "pt": "distância percorrida",
+       "ru": "пройденный путь"
+      },
+      "vrsta": "duzina"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "v = v_0 + a t",
+      "trazi": "v",
+      "resenja": {
+       "v": "v0 + a*t",
+       "v0": "v - a*t",
+       "a": "(v - v0)/t",
+       "t": "(v - v0)/a"
+      }
+     },
+     {
+      "latex": "s = v_0 t + \\dfrac{a t^2}{2}",
+      "trazi": "s",
+      "resenja": {
+       "s": "v0*t + a*t*t/2",
+       "v0": "(s - a*t*t/2)/t",
+       "a": "2*(s - v0*t)/(t*t)",
+       "t": "kvPoz(a/2, v0, -s)"
+      },
+      "napomene": {
+       "s": {
+        "sr": "s je put od početnog položaja (s₀ = 0).",
+        "en": "s is measured from the starting point (s₀ = 0).",
+        "it": "s è misurato dal punto di partenza (s₀ = 0).",
+        "fr": "s est mesuré depuis le point de départ (s₀ = 0).",
+        "es": "s se mide desde el punto de partida (s₀ = 0).",
+        "de": "s wird vom Startpunkt gemessen (s₀ = 0).",
+        "pt": "s é medido a partir do ponto de partida (s₀ = 0).",
+        "ru": "s отсчитывается от начальной точки (s₀ = 0)."
+       }
+      }
+     },
+     {
+      "latex": "v^2 = v_0^2 + 2 a s",
+      "trazi": "s",
+      "resenja": {
+       "v": "sqrt(v0*v0 + 2*a*s)",
+       "v0": "sqrt(v*v - 2*a*s)",
+       "a": "(v*v - v0*v0)/(2*s)",
+       "s": "(v*v - v0*v0)/(2*a)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "slobodni_pad",
+   "simbol": "g",
+   "naziv": {
+    "sr": "Slobodan pad i vertikalni hitac",
+    "en": "Free fall and vertical throw",
+    "it": "Caduta libera e lancio verticale",
+    "fr": "Chute libre et lancer vertical",
+    "es": "Caída libre y tiro vertical",
+    "de": "Freier Fall und senkrechter Wurf",
+    "pt": "Queda livre e lançamento vertical",
+    "ru": "Свободное падение и бросок вверх"
+   },
+   "opis": {
+    "sr": "Kretanje sa ubrzanjem g",
+    "en": "Motion with acceleration g",
+    "it": "Moto con accelerazione g",
+    "fr": "Mouvement d’accélération g",
+    "es": "Movimiento con aceleración g",
+    "de": "Bewegung mit Beschleunigung g",
+    "pt": "Movimento com aceleração g",
+    "ru": "Движение с ускорением g"
+   },
+   "kljucne_reci": {
+    "sr": "slobodan pad vertikalni hitac navise visina gravitacija g 9.81",
+    "en": "free fall vertical throw upward height gravity g 9.81",
+    "it": "caduta libera lancio verticale altezza gravita",
+    "fr": "chute libre lancer vertical hauteur pesanteur",
+    "es": "caida libre tiro vertical lanzamiento altura gravedad",
+    "de": "freier fall senkrechter wurf hohe schwerkraft",
+    "pt": "queda livre lancamento vertical altura gravidade",
+    "ru": "свободное падение бросок вверх высота гравитация"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Slobodan pad",
+      "en": "Free fall",
+      "it": "Caduta libera",
+      "fr": "Chute libre",
+      "es": "Caída libre",
+      "de": "Freier Fall",
+      "pt": "Queda livre",
+      "ru": "Свободное падение"
+     },
+     "latex": "v = g\\,t, \\quad h = \\frac{g t^2}{2}, \\quad v = \\sqrt{2 g h}",
+     "objasnjenje": {
+      "sr": "Telo pušteno iz mirovanja, bez otpora vazduha; g ≈ 9,81 m/s².",
+      "en": "Body released from rest, no air resistance; g ≈ 9.81 m/s².",
+      "it": "Corpo lasciato da fermo, senza attrito dell’aria; g ≈ 9,81 m/s².",
+      "fr": "Corps lâché sans vitesse initiale, sans frottement de l’air ; g ≈ 9,81 m/s².",
+      "es": "Cuerpo soltado desde el reposo, sin rozamiento del aire; g ≈ 9,81 m/s².",
+      "de": "Körper aus der Ruhe losgelassen, ohne Luftwiderstand; g ≈ 9,81 m/s².",
+      "pt": "Corpo solto do repouso, sem resistência do ar; g ≈ 9,81 m/s².",
+      "ru": "Тело отпущено без начальной скорости, без сопротивления воздуха; g ≈ 9,81 м/с²."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Vertikalni hitac naviše",
+      "en": "Upward vertical throw",
+      "it": "Lancio verticale verso l’alto",
+      "fr": "Lancer vertical vers le haut",
+      "es": "Tiro vertical hacia arriba",
+      "de": "Senkrechter Wurf nach oben",
+      "pt": "Lançamento vertical para cima",
+      "ru": "Бросок вертикально вверх"
+     },
+     "latex": "v = v_0 - g\\,t, \\quad h = v_0 t - \\frac{g t^2}{2}",
+     "objasnjenje": {
+      "sr": "Telo izbačeno naviše početnom brzinom v₀; h je visina iznad tačke izbačaja.",
+      "en": "Body thrown upward with initial velocity v₀; h is the height above the launch point.",
+      "it": "Corpo lanciato verso l’alto con velocità v₀; h è l’altezza sopra il punto di lancio.",
+      "fr": "Corps lancé vers le haut à la vitesse v₀ ; h est la hauteur au-dessus du point de lancement.",
+      "es": "Cuerpo lanzado hacia arriba con velocidad v₀; h es la altura sobre el punto de lanzamiento.",
+      "de": "Körper mit v₀ nach oben geworfen; h ist die Höhe über dem Abwurfpunkt.",
+      "pt": "Corpo lançado para cima com velocidade v₀; h é a altura acima do ponto de lançamento.",
+      "ru": "Тело брошено вверх со скоростью v₀; h — высота над точкой броска."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Najveća visina i vreme penjanja",
+      "en": "Maximum height and rise time",
+      "it": "Altezza massima e tempo di salita",
+      "fr": "Hauteur maximale et durée de montée",
+      "es": "Altura máxima y tiempo de subida",
+      "de": "Maximale Höhe und Steigzeit",
+      "pt": "Altura máxima e tempo de subida",
+      "ru": "Максимальная высота и время подъёма"
+     },
+     "latex": "H = \\frac{v_0^2}{2g}, \\quad t_p = \\frac{v_0}{g}",
+     "objasnjenje": {
+      "sr": "U najvišoj tački brzina je nula; ukupno vreme leta je 2t_p.",
+      "en": "At the highest point the velocity is zero; total flight time is 2t_p.",
+      "it": "Nel punto più alto la velocità è nulla; il tempo di volo totale è 2t_p.",
+      "fr": "Au point le plus haut la vitesse est nulle ; la durée totale du vol est 2t_p.",
+      "es": "En el punto más alto la velocidad es cero; el tiempo total de vuelo es 2t_p.",
+      "de": "Im höchsten Punkt ist die Geschwindigkeit null; die gesamte Flugzeit ist 2t_p.",
+      "pt": "No ponto mais alto a velocidade é zero; o tempo total de voo é 2t_p.",
+      "ru": "В верхней точке скорость равна нулю; полное время полёта 2t_p."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "g": {
+      "oznaka": "g",
+      "naziv": {
+       "sr": "ubrzanje Zemljine teže",
+       "en": "gravitational acceleration",
+       "it": "accelerazione di gravità",
+       "fr": "intensité de la pesanteur",
+       "es": "aceleración de la gravedad",
+       "de": "Fallbeschleunigung",
+       "pt": "aceleração da gravidade",
+       "ru": "ускорение свободного падения"
+      },
+      "vrsta": "ubrzanje",
+      "pocetna": 9.81,
+      "poz": true
+     },
+     "t": {
+      "oznaka": "t",
+      "naziv": {
+       "sr": "vreme",
+       "en": "time",
+       "it": "tempo",
+       "fr": "temps",
+       "es": "tiempo",
+       "de": "Zeit",
+       "pt": "tempo",
+       "ru": "время"
+      },
+      "vrsta": "vreme",
+      "pocetna": 2,
+      "poz": true
+     },
+     "h": {
+      "oznaka": "h",
+      "naziv": {
+       "sr": "visina pada",
+       "en": "fall height",
+       "it": "altezza di caduta",
+       "fr": "hauteur de chute",
+       "es": "altura de caída",
+       "de": "Fallhöhe",
+       "pt": "altura de queda",
+       "ru": "высота падения"
+      },
+      "vrsta": "duzina",
+      "pocetna": 20,
+      "poz": true
+     },
+     "v": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina",
+       "en": "velocity",
+       "it": "velocità",
+       "fr": "vitesse",
+       "es": "velocidad",
+       "de": "Geschwindigkeit",
+       "pt": "velocidade",
+       "ru": "скорость"
+      },
+      "vrsta": "brzina"
+     },
+     "v0": {
+      "oznaka": "v_0",
+      "naziv": {
+       "sr": "početna brzina",
+       "en": "initial velocity",
+       "it": "velocità iniziale",
+       "fr": "vitesse initiale",
+       "es": "velocidad inicial",
+       "de": "Anfangsgeschwindigkeit",
+       "pt": "velocidade inicial",
+       "ru": "начальная скорость"
+      },
+      "vrsta": "brzina",
+      "pocetna": 15
+     },
+     "H": {
+      "oznaka": "H",
+      "naziv": {
+       "sr": "najveća visina",
+       "en": "maximum height",
+       "it": "altezza massima",
+       "fr": "hauteur maximale",
+       "es": "altura máxima",
+       "de": "maximale Höhe",
+       "pt": "altura máxima",
+       "ru": "максимальная высота"
+      },
+      "vrsta": "duzina",
+      "poz": true
+     },
+     "tp": {
+      "oznaka": "t_p",
+      "naziv": {
+       "sr": "vreme penjanja",
+       "en": "rise time",
+       "it": "tempo di salita",
+       "fr": "durée de la montée",
+       "es": "tiempo de subida",
+       "de": "Steigzeit",
+       "pt": "tempo de subida",
+       "ru": "время подъёма"
+      },
+      "vrsta": "vreme",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "h = \\dfrac{g t^2}{2}",
+      "trazi": "h",
+      "resenja": {
+       "h": "g*t*t/2",
+       "t": "sqrt(2*h/g)",
+       "g": "2*h/(t*t)"
+      }
+     },
+     {
+      "latex": "v = g t",
+      "trazi": "v",
+      "resenja": {
+       "v": "g*t",
+       "t": "v/g",
+       "g": "v/t"
+      }
+     },
+     {
+      "latex": "v = \\sqrt{2 g h}",
+      "trazi": "v",
+      "resenja": {
+       "v": "sqrt(2*g*h)",
+       "h": "v*v/(2*g)",
+       "g": "v*v/(2*h)"
+      }
+     },
+     {
+      "latex": "H = \\dfrac{v_0^2}{2g}",
+      "trazi": "H",
+      "resenja": {
+       "H": "v0*v0/(2*g)",
+       "v0": "sqrt(2*g*H)",
+       "g": "v0*v0/(2*H)"
+      }
+     },
+     {
+      "latex": "t_p = \\dfrac{v_0}{g}",
+      "trazi": "tp",
+      "resenja": {
+       "tp": "v0/g",
+       "v0": "g*tp",
+       "g": "v0/tp"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "kosi_hitac",
+   "simbol": "α",
+   "naziv": {
+    "sr": "Kosi hitac",
+    "en": "Projectile motion",
+    "it": "Moto del proiettile",
+    "fr": "Mouvement d’un projectile",
+    "es": "Tiro oblicuo",
+    "de": "Schräger Wurf",
+    "pt": "Lançamento oblíquo",
+    "ru": "Бросок под углом"
+   },
+   "opis": {
+    "sr": "Domet, visina, vreme leta",
+    "en": "Range, height, flight time",
+    "it": "Gittata, altezza, tempo di volo",
+    "fr": "Portée, hauteur, durée du vol",
+    "es": "Alcance, altura, tiempo de vuelo",
+    "de": "Wurfweite, Höhe, Flugzeit",
+    "pt": "Alcance, altura, tempo de voo",
+    "ru": "Дальность, высота, время полёта"
+   },
+   "kljucne_reci": {
+    "sr": "kosi hitac horizontalni hitac domet putanja parabola ugao izbacaja",
+    "en": "projectile motion horizontal throw range trajectory parabola launch angle",
+    "it": "moto parabolico proiettile lancio orizzontale gittata traiettoria",
+    "fr": "mouvement parabolique projectile tir horizontal portee trajectoire",
+    "es": "tiro parabolico oblicuo horizontal alcance trayectoria",
+    "de": "schrager wurf waagerechter wurf wurfweite flugbahn parabel",
+    "pt": "lancamento obliquo horizontal alcance trajetoria parabola",
+    "ru": "бросок под углом горизонтальный бросок дальность траектория парабола"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"14\" y1=\"160\" x2=\"290\" y2=\"160\"/><path class=\"osa-s\" d=\"M290,160 l-7,-4 v8 Z\"/><line class=\"osa\" x1=\"30\" y1=\"172\" x2=\"30\" y2=\"14\"/><path class=\"osa-s\" d=\"M30,14 l-4,7 h8 Z\"/><text class=\"tem\" x=\"280\" y=\"178\">x</text><text class=\"tem\" x=\"38\" y=\"22\">y</text><path class=\"kriva\" d=\"M30,160 Q150,-80 270,160\"/><line class=\"pom\" x1=\"150\" y1=\"40\" x2=\"150\" y2=\"160\"/><line class=\"lik-l\" x1=\"30.0\" y1=\"160.0\" x2=\"59.9\" y2=\"100.1\"/><path class=\"tac\" d=\"M64.9,90.3 L64.4,102.3 L55.5,97.9 Z\"/><path class=\"ugao\" d=\"M60,160 A30,30 0 0,0 43.4,133.2\"/><text x=\"64\" y=\"151\">α</text><text x=\"74\" y=\"96\">v<tspan class=\"sub\" dy=\"5\">0</tspan></text><text x=\"158\" y=\"106\">H</text><line class=\"osa\" x1=\"30\" y1=\"182\" x2=\"270\" y2=\"182\"/><line class=\"osa\" x1=\"30\" y1=\"176\" x2=\"30\" y2=\"188\"/><line class=\"osa\" x1=\"270\" y1=\"176\" x2=\"270\" y2=\"188\"/><text x=\"143\" y=\"198\">D</text><circle class=\"tac\" cx=\"150\" cy=\"40\" r=\"4\"/></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Koordinate",
+      "en": "Coordinates",
+      "it": "Coordinate",
+      "fr": "Coordonnées",
+      "es": "Coordenadas",
+      "de": "Koordinaten",
+      "pt": "Coordenadas",
+      "ru": "Координаты"
+     },
+     "latex": "x = v_0 \\cos\\alpha \\; t, \\quad y = v_0 \\sin\\alpha \\; t - \\frac{g t^2}{2}",
+     "objasnjenje": {
+      "sr": "Vodoravno se telo kreće ravnomerno, a vertikalno kao vertikalni hitac.",
+      "en": "Horizontally the motion is uniform; vertically it is a vertical throw.",
+      "it": "In orizzontale il moto è uniforme, in verticale è un lancio verticale.",
+      "fr": "Horizontalement le mouvement est uniforme, verticalement c’est un lancer vertical.",
+      "es": "En horizontal el movimiento es uniforme y en vertical es un tiro vertical.",
+      "de": "Waagerecht gleichförmig, senkrecht wie ein senkrechter Wurf.",
+      "pt": "Na horizontal o movimento é uniforme; na vertical é um lançamento vertical.",
+      "ru": "По горизонтали движение равномерное, по вертикали — как бросок вверх."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Putanja (parabola)",
+      "en": "Trajectory (parabola)",
+      "it": "Traiettoria (parabola)",
+      "fr": "Trajectoire (parabole)",
+      "es": "Trayectoria (parábola)",
+      "de": "Flugbahn (Parabel)",
+      "pt": "Trajetória (parábola)",
+      "ru": "Траектория (парабола)"
+     },
+     "latex": {
+      "sr": "y = x \\operatorname{tg}\\alpha - \\frac{g\\,x^2}{2 v_0^2 \\cos^2\\alpha}",
+      "en": "y = x \\tan\\alpha - \\frac{g\\,x^2}{2 v_0^2 \\cos^2\\alpha}",
+      "it": "y = x \\tan\\alpha - \\frac{g\\,x^2}{2 v_0^2 \\cos^2\\alpha}",
+      "fr": "y = x \\tan\\alpha - \\frac{g\\,x^2}{2 v_0^2 \\cos^2\\alpha}",
+      "es": "y = x \\tan\\alpha - \\frac{g\\,x^2}{2 v_0^2 \\cos^2\\alpha}",
+      "de": "y = x \\tan\\alpha - \\frac{g\\,x^2}{2 v_0^2 \\cos^2\\alpha}",
+      "pt": "y = x \\tan\\alpha - \\frac{g\\,x^2}{2 v_0^2 \\cos^2\\alpha}",
+      "ru": "y = x \\operatorname{tg}\\alpha - \\frac{g\\,x^2}{2 v_0^2 \\cos^2\\alpha}"
+     },
+     "objasnjenje": {
+      "sr": "Visina tela u zavisnosti od vodoravnog rastojanja x.",
+      "en": "Height of the body as a function of horizontal distance x.",
+      "it": "Altezza del corpo in funzione della distanza orizzontale x.",
+      "fr": "Hauteur du corps en fonction de la distance horizontale x.",
+      "es": "Altura del cuerpo en función de la distancia horizontal x.",
+      "de": "Höhe des Körpers in Abhängigkeit von der waagerechten Entfernung x.",
+      "pt": "Altura do corpo em função da distância horizontal x.",
+      "ru": "Высота тела в зависимости от горизонтального расстояния x."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Domet, najveća visina, vreme leta",
+      "en": "Range, maximum height, flight time",
+      "it": "Gittata, altezza massima, tempo di volo",
+      "fr": "Portée, hauteur maximale, durée du vol",
+      "es": "Alcance, altura máxima, tiempo de vuelo",
+      "de": "Wurfweite, maximale Höhe, Flugzeit",
+      "pt": "Alcance, altura máxima, tempo de voo",
+      "ru": "Дальность, наибольшая высота, время полёта"
+     },
+     "latex": "D = \\frac{v_0^2 \\sin 2\\alpha}{g}, \\quad H = \\frac{v_0^2 \\sin^2\\alpha}{2g}, \\quad t_L = \\frac{2 v_0 \\sin\\alpha}{g}",
+     "objasnjenje": {
+      "sr": "Za izbačaj i pad na istoj visini. Najveći domet je za α = 45°; uglovi α i 90° − α daju isti domet.",
+      "en": "For launch and landing at the same height. Maximum range at α = 45°; angles α and 90° − α give the same range.",
+      "it": "Per lancio e arrivo alla stessa quota. Gittata massima per α = 45°; α e 90° − α danno la stessa gittata.",
+      "fr": "Départ et arrivée à la même hauteur. Portée maximale pour α = 45° ; α et 90° − α donnent la même portée.",
+      "es": "Lanzamiento y caída a la misma altura. Alcance máximo con α = 45°; α y 90° − α dan el mismo alcance.",
+      "de": "Abwurf und Landung auf gleicher Höhe. Größte Wurfweite bei α = 45°; α und 90° − α ergeben dieselbe Weite.",
+      "pt": "Lançamento e queda na mesma altura. Alcance máximo para α = 45°; α e 90° − α dão o mesmo alcance.",
+      "ru": "Старт и падение на одной высоте. Наибольшая дальность при α = 45°; углы α и 90° − α дают одинаковую дальность."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Horizontalni hitac",
+      "en": "Horizontal throw",
+      "it": "Lancio orizzontale",
+      "fr": "Lancer horizontal",
+      "es": "Tiro horizontal",
+      "de": "Waagerechter Wurf",
+      "pt": "Lançamento horizontal",
+      "ru": "Горизонтальный бросок"
+     },
+     "latex": "x = v_0 t, \\quad y = h - \\frac{g t^2}{2}, \\quad D = v_0 \\sqrt{\\frac{2h}{g}}",
+     "objasnjenje": {
+      "sr": "Telo bačeno vodoravno sa visine h (α = 0).",
+      "en": "Body thrown horizontally from height h (α = 0).",
+      "it": "Corpo lanciato orizzontalmente dall’altezza h (α = 0).",
+      "fr": "Corps lancé horizontalement depuis la hauteur h (α = 0).",
+      "es": "Cuerpo lanzado horizontalmente desde la altura h (α = 0).",
+      "de": "Körper waagerecht aus der Höhe h geworfen (α = 0).",
+      "pt": "Corpo lançado horizontalmente da altura h (α = 0).",
+      "ru": "Тело брошено горизонтально с высоты h (α = 0)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "v0": {
+      "oznaka": "v_0",
+      "naziv": {
+       "sr": "početna brzina",
+       "en": "initial velocity",
+       "it": "velocità iniziale",
+       "fr": "vitesse initiale",
+       "es": "velocidad inicial",
+       "de": "Anfangsgeschwindigkeit",
+       "pt": "velocidade inicial",
+       "ru": "начальная скорость"
+      },
+      "vrsta": "brzina",
+      "pocetna": 20
+     },
+     "alfa": {
+      "oznaka": "\\alpha",
+      "naziv": {
+       "sr": "ugao izbačaja",
+       "en": "launch angle",
+       "it": "angolo di lancio",
+       "fr": "angle de tir",
+       "es": "ángulo de lanzamiento",
+       "de": "Abwurfwinkel",
+       "pt": "ângulo de lançamento",
+       "ru": "угол бросания"
+      },
+      "vrsta": "ugao",
+      "pocetna": 0.785398163397,
+      "jed": "°",
+      "poz": true
+     },
+     "g": {
+      "oznaka": "g",
+      "naziv": {
+       "sr": "ubrzanje Zemljine teže",
+       "en": "gravitational acceleration",
+       "it": "accelerazione di gravità",
+       "fr": "intensité de la pesanteur",
+       "es": "aceleración de la gravedad",
+       "de": "Fallbeschleunigung",
+       "pt": "aceleração da gravidade",
+       "ru": "ускорение свободного падения"
+      },
+      "vrsta": "ubrzanje",
+      "pocetna": 9.81,
+      "poz": true
+     },
+     "D": {
+      "oznaka": "D",
+      "naziv": {
+       "sr": "domet",
+       "en": "range",
+       "it": "gittata",
+       "fr": "portée",
+       "es": "alcance",
+       "de": "Wurfweite",
+       "pt": "alcance",
+       "ru": "дальность полёта"
+      },
+      "vrsta": "duzina",
+      "poz": true
+     },
+     "H": {
+      "oznaka": "H",
+      "naziv": {
+       "sr": "najveća visina",
+       "en": "maximum height",
+       "it": "altezza massima",
+       "fr": "hauteur maximale",
+       "es": "altura máxima",
+       "de": "maximale Höhe",
+       "pt": "altura máxima",
+       "ru": "максимальная высота"
+      },
+      "vrsta": "duzina",
+      "poz": true
+     },
+     "tL": {
+      "oznaka": "t_L",
+      "naziv": {
+       "sr": "vreme leta",
+       "en": "flight time",
+       "it": "tempo di volo",
+       "fr": "durée du vol",
+       "es": "tiempo de vuelo",
+       "de": "Flugzeit",
+       "pt": "tempo de voo",
+       "ru": "время полёта"
+      },
+      "vrsta": "vreme",
+      "poz": true
+     },
+     "h": {
+      "oznaka": "h",
+      "naziv": {
+       "sr": "visina pada",
+       "en": "fall height",
+       "it": "altezza di caduta",
+       "fr": "hauteur de chute",
+       "es": "altura de caída",
+       "de": "Fallhöhe",
+       "pt": "altura de queda",
+       "ru": "высота падения"
+      },
+      "vrsta": "duzina",
+      "pocetna": 20,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "D = \\dfrac{v_0^2 \\sin 2\\alpha}{g}",
+      "trazi": "D",
+      "resenja": {
+       "D": "v0*v0*sin(2*alfa)/g",
+       "v0": "sqrt(D*g/sin(2*alfa))",
+       "alfa": "asin(D*g/(v0*v0))/2",
+       "g": "v0*v0*sin(2*alfa)/D"
+      },
+      "napomene": {
+       "alfa": {
+        "sr": "Prikazan je manji ugao; isti domet daje i 90° − α.",
+        "en": "The smaller angle is shown; 90° − α gives the same range.",
+        "it": "È mostrato l’angolo minore; anche 90° − α dà la stessa gittata.",
+        "fr": "L’angle le plus petit est affiché ; 90° − α donne la même portée.",
+        "es": "Se muestra el ángulo menor; 90° − α da el mismo alcance.",
+        "de": "Angezeigt ist der kleinere Winkel; 90° − α ergibt dieselbe Weite.",
+        "pt": "É mostrado o ângulo menor; 90° − α dá o mesmo alcance.",
+        "ru": "Показан меньший угол; та же дальность и при 90° − α."
+       }
+      }
+     },
+     {
+      "latex": "H = \\dfrac{v_0^2 \\sin^2\\alpha}{2g}",
+      "trazi": "H",
+      "resenja": {
+       "H": "v0*v0*sin(alfa)*sin(alfa)/(2*g)",
+       "v0": "sqrt(2*g*H)/sin(alfa)",
+       "alfa": "asin(sqrt(2*g*H)/v0)",
+       "g": "v0*v0*sin(alfa)*sin(alfa)/(2*H)"
+      }
+     },
+     {
+      "latex": "t_L = \\dfrac{2 v_0 \\sin\\alpha}{g}",
+      "trazi": "tL",
+      "resenja": {
+       "tL": "2*v0*sin(alfa)/g",
+       "v0": "g*tL/(2*sin(alfa))",
+       "alfa": "asin(g*tL/(2*v0))",
+       "g": "2*v0*sin(alfa)/tL"
+      }
+     },
+     {
+      "latex": "D = v_0 \\sqrt{\\dfrac{2h}{g}}",
+      "trazi": "D",
+      "resenja": {
+       "D": "v0*sqrt(2*h/g)",
+       "v0": "D/sqrt(2*h/g)",
+       "h": "g*D*D/(2*v0*v0)",
+       "g": "2*h*v0*v0/(D*D)"
+      },
+      "napomene": {
+       "D": {
+        "sr": "Horizontalni hitac sa visine h.",
+        "en": "Horizontal throw from height h.",
+        "it": "Lancio orizzontale dall’altezza h.",
+        "fr": "Lancer horizontal depuis la hauteur h.",
+        "es": "Tiro horizontal desde la altura h.",
+        "de": "Waagerechter Wurf aus der Höhe h.",
+        "pt": "Lançamento horizontal da altura h.",
+        "ru": "Горизонтальный бросок с высоты h."
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "kruzno",
+   "simbol": "ω",
+   "naziv": {
+    "sr": "Kružno kretanje",
+    "en": "Circular motion",
+    "it": "Moto circolare",
+    "fr": "Mouvement circulaire",
+    "es": "Movimiento circular",
+    "de": "Kreisbewegung",
+    "pt": "Movimento circular",
+    "ru": "Движение по окружности"
+   },
+   "opis": {
+    "sr": "Period, ugaona brzina",
+    "en": "Period, angular velocity",
+    "it": "Periodo, velocità angolare",
+    "fr": "Période, vitesse angulaire",
+    "es": "Período, velocidad angular",
+    "de": "Periode, Winkelgeschwindigkeit",
+    "pt": "Período, velocidade angular",
+    "ru": "Период, угловая скорость"
+   },
+   "kljucne_reci": {
+    "sr": "kruzno kretanje period frekvencija ugaona brzina obodna brzina centripetalno radijalno ubrzanje obrtaji",
+    "en": "circular motion period frequency angular velocity speed centripetal acceleration rpm",
+    "it": "moto circolare uniforme periodo frequenza velocita angolare accelerazione centripeta",
+    "fr": "mouvement circulaire uniforme periode frequence vitesse angulaire acceleration centripete",
+    "es": "movimiento circular uniforme mcu periodo frecuencia velocidad angular aceleracion centripeta",
+    "de": "kreisbewegung umlaufzeit frequenz winkelgeschwindigkeit zentripetalbeschleunigung drehzahl",
+    "pt": "movimento circular uniforme mcu periodo frequencia velocidade angular aceleracao centripeta",
+    "ru": "движение по окружности период частота угловая скорость центростремительное ускорение"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><circle class=\"lik\" cx=\"118\" cy=\"112\" r=\"82\"/><line class=\"lik-l\" x1=\"118\" y1=\"112\" x2=\"200\" y2=\"112\"/><text x=\"154.0\" y=\"134\">r</text><line class=\"pom\" x1=\"118\" y1=\"112\" x2=\"165.0\" y2=\"44.8\"/><path class=\"ugao\" d=\"M142,112 A24,24 0 0,0 131.8,92.3\"/><text x=\"147.9\" y=\"102.4\">φ</text><line class=\"lik-l\" x1=\"165.0\" y1=\"44.8\" x2=\"147.8\" y2=\"69.4\"/><path class=\"tac\" d=\"M141.5,78.4 L143.7,66.5 L151.9,72.3 Z\"/><text x=\"155.5\" y=\"82.4\">a<tspan class=\"sub\" dy=\"5\">r</tspan></text><line class=\"lik-l\" x1=\"165.0\" y1=\"44.8\" x2=\"116.7\" y2=\"11.0\"/><path class=\"tac\" d=\"M107.7,4.7 L119.6,6.9 L113.8,15.1 Z\"/><text x=\"89.7\" y=\"8.7\">v</text><circle class=\"tac\" cx=\"165.0\" cy=\"44.8\" r=\"5\"/><circle class=\"tac\" cx=\"118\" cy=\"112\" r=\"3.5\"/><text x=\"100\" y=\"132\" class=\"tem\">O</text><path class=\"ugao\" d=\"M254,96 A40,40 0 0,0 236,52\"/><path class=\"tac\" d=\"M236,52 l0.5,11 l8,-7 Z\"/><text x=\"258\" y=\"70\">ω</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Period i frekvencija",
+      "en": "Period and frequency",
+      "it": "Periodo e frequenza",
+      "fr": "Période et fréquence",
+      "es": "Período y frecuencia",
+      "de": "Periode und Frequenz",
+      "pt": "Período e frequência",
+      "ru": "Период и частота"
+     },
+     "latex": {
+      "sr": "f = \\frac{1}{T}, \\quad \\omega = 2\\pi f = \\frac{2\\pi}{T}",
+      "en": "f = \\frac{1}{T}, \\quad \\omega = 2\\pi f = \\frac{2\\pi}{T}",
+      "it": "f = \\frac{1}{T}, \\quad \\omega = 2\\pi f = \\frac{2\\pi}{T}",
+      "fr": "f = \\frac{1}{T}, \\quad \\omega = 2\\pi f = \\frac{2\\pi}{T}",
+      "es": "f = \\frac{1}{T}, \\quad \\omega = 2\\pi f = \\frac{2\\pi}{T}",
+      "de": "f = \\frac{1}{T}, \\quad \\omega = 2\\pi f = \\frac{2\\pi}{T}",
+      "pt": "f = \\frac{1}{T}, \\quad \\omega = 2\\pi f = \\frac{2\\pi}{T}",
+      "ru": "\\nu = \\frac{1}{T}, \\quad \\omega = 2\\pi \\nu = \\frac{2\\pi}{T}"
+     },
+     "objasnjenje": {
+      "sr": "T je vreme jednog obrta, f broj obrta u sekundi, ω ugaona brzina u rad/s.",
+      "en": "T is the time of one revolution, f the revolutions per second, ω the angular velocity in rad/s.",
+      "it": "T è il tempo di un giro, f i giri al secondo, ω la velocità angolare in rad/s.",
+      "fr": "T est la durée d’un tour, f le nombre de tours par seconde, ω la vitesse angulaire en rad/s.",
+      "es": "T es el tiempo de una vuelta, f las vueltas por segundo, ω la velocidad angular en rad/s.",
+      "de": "T ist die Dauer eines Umlaufs, f die Umläufe pro Sekunde, ω die Winkelgeschwindigkeit in rad/s.",
+      "pt": "T é o tempo de uma volta, f as voltas por segundo, ω a velocidade angular em rad/s.",
+      "ru": "T — время одного оборота, ν — число оборотов в секунду, ω — угловая скорость в рад/с."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Obodna brzina",
+      "en": "Linear speed",
+      "it": "Velocità tangenziale",
+      "fr": "Vitesse linéaire",
+      "es": "Velocidad lineal",
+      "de": "Bahngeschwindigkeit",
+      "pt": "Velocidade linear",
+      "ru": "Линейная скорость"
+     },
+     "latex": "v = \\omega r = \\frac{2\\pi r}{T}",
+     "objasnjenje": {
+      "sr": "Brzina tačke na kružnici poluprečnika r; usmerena je po tangenti.",
+      "en": "Speed of a point on a circle of radius r; it points along the tangent.",
+      "it": "Velocità di un punto sulla circonferenza di raggio r; è diretta lungo la tangente.",
+      "fr": "Vitesse d’un point du cercle de rayon r ; elle est tangente au cercle.",
+      "es": "Velocidad de un punto de la circunferencia de radio r; es tangente.",
+      "de": "Geschwindigkeit eines Punktes auf dem Kreis mit Radius r; sie zeigt tangential.",
+      "pt": "Velocidade de um ponto na circunferência de raio r; é tangente.",
+      "ru": "Скорость точки на окружности радиуса r; направлена по касательной."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Radijalno (centripetalno) ubrzanje",
+      "en": "Centripetal acceleration",
+      "it": "Accelerazione centripeta",
+      "fr": "Accélération centripète",
+      "es": "Aceleración centrípeta",
+      "de": "Zentripetalbeschleunigung",
+      "pt": "Aceleração centrípeta",
+      "ru": "Центростремительное ускорение"
+     },
+     "latex": "a_r = \\frac{v^2}{r} = \\omega^2 r = \\omega v",
+     "objasnjenje": {
+      "sr": "Usmereno je ka središtu kružnice.",
+      "en": "It points toward the centre of the circle.",
+      "it": "È diretta verso il centro della circonferenza.",
+      "fr": "Elle est dirigée vers le centre du cercle.",
+      "es": "Está dirigida hacia el centro de la circunferencia.",
+      "de": "Sie zeigt zum Kreismittelpunkt.",
+      "pt": "É dirigida para o centro da circunferência.",
+      "ru": "Направлено к центру окружности."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Tangencijalno i ukupno ubrzanje",
+      "en": "Tangential and total acceleration",
+      "it": "Accelerazione tangenziale e totale",
+      "fr": "Accélération tangentielle et totale",
+      "es": "Aceleración tangencial y total",
+      "de": "Tangential- und Gesamtbeschleunigung",
+      "pt": "Aceleração tangencial e total",
+      "ru": "Касательное и полное ускорение"
+     },
+     "latex": {
+      "sr": "a_t = r\\,\\alpha, \\quad a = \\sqrt{a_r^2 + a_t^2}",
+      "en": "a_t = r\\,\\alpha, \\quad a = \\sqrt{a_r^2 + a_t^2}",
+      "it": "a_t = r\\,\\alpha, \\quad a = \\sqrt{a_r^2 + a_t^2}",
+      "fr": "a_t = r\\,\\alpha, \\quad a = \\sqrt{a_r^2 + a_t^2}",
+      "es": "a_t = r\\,\\alpha, \\quad a = \\sqrt{a_r^2 + a_t^2}",
+      "de": "a_t = r\\,\\alpha, \\quad a = \\sqrt{a_r^2 + a_t^2}",
+      "pt": "a_t = r\\,\\alpha, \\quad a = \\sqrt{a_r^2 + a_t^2}",
+      "ru": "a_t = r\\,\\varepsilon, \\quad a = \\sqrt{a_r^2 + a_t^2}"
+     },
+     "objasnjenje": {
+      "sr": "Kada se brzina obrtanja menja; α je ugaono ubrzanje.",
+      "en": "When the rotation speed changes; α is the angular acceleration.",
+      "it": "Quando la velocità di rotazione varia; α è l’accelerazione angolare.",
+      "fr": "Quand la vitesse de rotation varie ; α est l’accélération angulaire.",
+      "es": "Cuando cambia la velocidad de giro; α es la aceleración angular.",
+      "de": "Wenn sich die Drehgeschwindigkeit ändert; α ist die Winkelbeschleunigung.",
+      "pt": "Quando a velocidade de rotação varia; α é a aceleração angular.",
+      "ru": "Когда скорость вращения меняется; ε — угловое ускорение."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "T": {
+      "oznaka": "T",
+      "naziv": {
+       "sr": "period (vreme jednog obrta)",
+       "en": "period",
+       "it": "periodo",
+       "fr": "période",
+       "es": "período",
+       "de": "Umlaufzeit (Periode)",
+       "pt": "período",
+       "ru": "период"
+      },
+      "vrsta": "vreme",
+      "pocetna": 2,
+      "poz": true
+     },
+     "f": {
+      "oznaka": {
+       "sr": "f",
+       "en": "f",
+       "it": "f",
+       "fr": "f",
+       "es": "f",
+       "de": "f",
+       "pt": "f",
+       "ru": "\\nu"
+      },
+      "naziv": {
+       "sr": "frekvencija",
+       "en": "frequency",
+       "it": "frequenza",
+       "fr": "fréquence",
+       "es": "frecuencia",
+       "de": "Frequenz",
+       "pt": "frequência",
+       "ru": "частота"
+      },
+      "vrsta": "frekvencija",
+      "poz": true
+     },
+     "om": {
+      "oznaka": "\\omega",
+      "naziv": {
+       "sr": "ugaona brzina",
+       "en": "angular velocity",
+       "it": "velocità angolare",
+       "fr": "vitesse angulaire",
+       "es": "velocidad angular",
+       "de": "Winkelgeschwindigkeit",
+       "pt": "velocidade angular",
+       "ru": "угловая скорость"
+      },
+      "vrsta": "ugaonaBrzina"
+     },
+     "r": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "poluprečnik",
+       "en": "radius",
+       "it": "raggio",
+       "fr": "rayon",
+       "es": "radio",
+       "de": "Radius",
+       "pt": "raio",
+       "ru": "радиус"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.5,
+      "poz": true
+     },
+     "v": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina",
+       "en": "velocity",
+       "it": "velocità",
+       "fr": "vitesse",
+       "es": "velocidad",
+       "de": "Geschwindigkeit",
+       "pt": "velocidade",
+       "ru": "скорость"
+      },
+      "vrsta": "brzina"
+     },
+     "ar": {
+      "oznaka": "a_r",
+      "naziv": {
+       "sr": "radijalno (centripetalno) ubrzanje",
+       "en": "centripetal acceleration",
+       "it": "accelerazione centripeta",
+       "fr": "accélération centripète",
+       "es": "aceleración centrípeta",
+       "de": "Zentripetalbeschleunigung",
+       "pt": "aceleração centrípeta",
+       "ru": "центростремительное ускорение"
+      },
+      "vrsta": "ubrzanje"
+     },
+     "at": {
+      "oznaka": "a_t",
+      "naziv": {
+       "sr": "tangencijalno ubrzanje",
+       "en": "tangential acceleration",
+       "it": "accelerazione tangenziale",
+       "fr": "accélération tangentielle",
+       "es": "aceleración tangencial",
+       "de": "Tangentialbeschleunigung",
+       "pt": "aceleração tangencial",
+       "ru": "касательное ускорение"
+      },
+      "vrsta": "ubrzanje",
+      "pocetna": 1
+     },
+     "au": {
+      "oznaka": "a",
+      "naziv": {
+       "sr": "ukupno ubrzanje",
+       "en": "total acceleration",
+       "it": "accelerazione totale",
+       "fr": "accélération totale",
+       "es": "aceleración total",
+       "de": "Gesamtbeschleunigung",
+       "pt": "aceleração total",
+       "ru": "полное ускорение"
+      },
+      "vrsta": "ubrzanje"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "\\omega = \\dfrac{2\\pi}{T}",
+      "trazi": "om",
+      "resenja": {
+       "om": "2*PI/T",
+       "T": "2*PI/om"
+      }
+     },
+     {
+      "latex": {
+       "sr": "f = \\dfrac{1}{T}",
+       "en": "f = \\dfrac{1}{T}",
+       "it": "f = \\dfrac{1}{T}",
+       "fr": "f = \\dfrac{1}{T}",
+       "es": "f = \\dfrac{1}{T}",
+       "de": "f = \\dfrac{1}{T}",
+       "pt": "f = \\dfrac{1}{T}",
+       "ru": "\\nu = \\dfrac{1}{T}"
+      },
+      "trazi": "f",
+      "resenja": {
+       "f": "1/T",
+       "T": "1/f"
+      }
+     },
+     {
+      "latex": "v = \\omega r",
+      "trazi": "v",
+      "resenja": {
+       "v": "om*r",
+       "om": "v/r",
+       "r": "v/om"
+      }
+     },
+     {
+      "latex": "a_r = \\dfrac{v^2}{r}",
+      "trazi": "ar",
+      "resenja": {
+       "ar": "v*v/r",
+       "v": "sqrt(ar*r)",
+       "r": "v*v/ar"
+      }
+     },
+     {
+      "latex": "a_r = \\omega^2 r",
+      "trazi": "ar",
+      "resenja": {
+       "ar": "om*om*r",
+       "om": "sqrt(ar/r)",
+       "r": "ar/(om*om)"
+      }
+     },
+     {
+      "latex": "a = \\sqrt{a_r^2 + a_t^2}",
+      "trazi": "au",
+      "resenja": {
+       "au": "sqrt(ar*ar + at*at)",
+       "ar": "sqrt(au*au - at*at)",
+       "at": "sqrt(au*au - ar*ar)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "ugaono",
+   "simbol": "φ",
+   "naziv": {
+    "sr": "Ubrzano obrtanje",
+    "en": "Accelerated rotation",
+    "it": "Rotazione accelerata",
+    "fr": "Rotation accélérée",
+    "es": "Rotación acelerada",
+    "de": "Beschleunigte Drehung",
+    "pt": "Rotação acelerada",
+    "ru": "Равноускоренное вращение"
+   },
+   "opis": {
+    "sr": "Ugao, ugaono ubrzanje",
+    "en": "Angle, angular acceleration",
+    "it": "Angolo, accelerazione angolare",
+    "fr": "Angle, accélération angulaire",
+    "es": "Ángulo, aceleración angular",
+    "de": "Winkel, Winkelbeschleunigung",
+    "pt": "Ângulo, aceleração angular",
+    "ru": "Угол, угловое ускорение"
+   },
+   "kljucne_reci": {
+    "sr": "ugaono ubrzanje ugao obrtanja radijan luk obrtanje tocak",
+    "en": "angular acceleration angle of rotation radian arc wheel",
+    "it": "accelerazione angolare angolo radiante arco ruota",
+    "fr": "acceleration angulaire angle radian arc roue",
+    "es": "aceleracion angular angulo radian arco rueda",
+    "de": "winkelbeschleunigung drehwinkel bogenmass bogen rad",
+    "pt": "aceleracao angular angulo radiano arco roda",
+    "ru": "угловое ускорение угол поворота радиан дуга колесо"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Ugao i luk",
+      "en": "Angle and arc",
+      "it": "Angolo e arco",
+      "fr": "Angle et arc",
+      "es": "Ángulo y arco",
+      "de": "Winkel und Bogen",
+      "pt": "Ângulo e arco",
+      "ru": "Угол и дуга"
+     },
+     "latex": "\\varphi = \\frac{l}{r}",
+     "objasnjenje": {
+      "sr": "Ugao u radijanima je dužina luka podeljena poluprečnikom; jedan obrt je 2π rad.",
+      "en": "Angle in radians is arc length divided by radius; one turn is 2π rad.",
+      "it": "L’angolo in radianti è l’arco diviso il raggio; un giro vale 2π rad.",
+      "fr": "L’angle en radians est l’arc divisé par le rayon ; un tour vaut 2π rad.",
+      "es": "El ángulo en radianes es el arco dividido por el radio; una vuelta son 2π rad.",
+      "de": "Winkel im Bogenmaß ist Bogenlänge durch Radius; eine Umdrehung sind 2π rad.",
+      "pt": "O ângulo em radianos é o arco dividido pelo raio; uma volta são 2π rad.",
+      "ru": "Угол в радианах — длина дуги, делённая на радиус; один оборот — 2π рад."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Stalna ugaona brzina",
+      "en": "Constant angular velocity",
+      "it": "Velocità angolare costante",
+      "fr": "Vitesse angulaire constante",
+      "es": "Velocidad angular constante",
+      "de": "Konstante Winkelgeschwindigkeit",
+      "pt": "Velocidade angular constante",
+      "ru": "Постоянная угловая скорость"
+     },
+     "latex": "\\varphi = \\omega\\,t",
+     "objasnjenje": {
+      "sr": "Ugao za koji se telo obrne za vreme t.",
+      "en": "Angle turned in time t.",
+      "it": "Angolo percorso nel tempo t.",
+      "fr": "Angle parcouru pendant le temps t.",
+      "es": "Ángulo girado en el tiempo t.",
+      "de": "In der Zeit t überstrichener Winkel.",
+      "pt": "Ângulo percorrido no tempo t.",
+      "ru": "Угол поворота за время t."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Stalno ugaono ubrzanje",
+      "en": "Constant angular acceleration",
+      "it": "Accelerazione angolare costante",
+      "fr": "Accélération angulaire constante",
+      "es": "Aceleración angular constante",
+      "de": "Konstante Winkelbeschleunigung",
+      "pt": "Aceleração angular constante",
+      "ru": "Постоянное угловое ускорение"
+     },
+     "latex": {
+      "sr": "\\omega = \\omega_0 + \\alpha t, \\quad \\varphi = \\omega_0 t + \\frac{\\alpha t^2}{2}, \\quad \\omega^2 = \\omega_0^2 + 2 \\alpha \\varphi",
+      "en": "\\omega = \\omega_0 + \\alpha t, \\quad \\varphi = \\omega_0 t + \\frac{\\alpha t^2}{2}, \\quad \\omega^2 = \\omega_0^2 + 2 \\alpha \\varphi",
+      "it": "\\omega = \\omega_0 + \\alpha t, \\quad \\varphi = \\omega_0 t + \\frac{\\alpha t^2}{2}, \\quad \\omega^2 = \\omega_0^2 + 2 \\alpha \\varphi",
+      "fr": "\\omega = \\omega_0 + \\alpha t, \\quad \\varphi = \\omega_0 t + \\frac{\\alpha t^2}{2}, \\quad \\omega^2 = \\omega_0^2 + 2 \\alpha \\varphi",
+      "es": "\\omega = \\omega_0 + \\alpha t, \\quad \\varphi = \\omega_0 t + \\frac{\\alpha t^2}{2}, \\quad \\omega^2 = \\omega_0^2 + 2 \\alpha \\varphi",
+      "de": "\\omega = \\omega_0 + \\alpha t, \\quad \\varphi = \\omega_0 t + \\frac{\\alpha t^2}{2}, \\quad \\omega^2 = \\omega_0^2 + 2 \\alpha \\varphi",
+      "pt": "\\omega = \\omega_0 + \\alpha t, \\quad \\varphi = \\omega_0 t + \\frac{\\alpha t^2}{2}, \\quad \\omega^2 = \\omega_0^2 + 2 \\alpha \\varphi",
+      "ru": "\\omega = \\omega_0 + \\varepsilon t, \\quad \\varphi = \\omega_0 t + \\frac{\\varepsilon t^2}{2}, \\quad \\omega^2 = \\omega_0^2 + 2 \\varepsilon \\varphi"
+     },
+     "objasnjenje": {
+      "sr": "Iste formule kao za ravnomerno ubrzano kretanje, sa ugaonim veličinama.",
+      "en": "Same formulas as for uniformly accelerated motion, with angular quantities.",
+      "it": "Stesse formule del moto uniformemente accelerato, con grandezze angolari.",
+      "fr": "Mêmes formules que pour le mouvement uniformément accéléré, avec des grandeurs angulaires.",
+      "es": "Mismas fórmulas que el movimiento uniformemente acelerado, con magnitudes angulares.",
+      "de": "Dieselben Formeln wie bei der beschleunigten Bewegung, mit Winkelgrößen.",
+      "pt": "Mesmas fórmulas do movimento uniformemente variado, com grandezas angulares.",
+      "ru": "Те же формулы, что и для равноускоренного движения, с угловыми величинами."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Ugaono ubrzanje",
+      "en": "Angular acceleration",
+      "it": "Accelerazione angolare",
+      "fr": "Accélération angulaire",
+      "es": "Aceleración angular",
+      "de": "Winkelbeschleunigung",
+      "pt": "Aceleração angular",
+      "ru": "Угловое ускорение"
+     },
+     "latex": {
+      "sr": "\\alpha = \\frac{\\Delta\\omega}{\\Delta t}, \\quad a_t = r\\,\\alpha",
+      "en": "\\alpha = \\frac{\\Delta\\omega}{\\Delta t}, \\quad a_t = r\\,\\alpha",
+      "it": "\\alpha = \\frac{\\Delta\\omega}{\\Delta t}, \\quad a_t = r\\,\\alpha",
+      "fr": "\\alpha = \\frac{\\Delta\\omega}{\\Delta t}, \\quad a_t = r\\,\\alpha",
+      "es": "\\alpha = \\frac{\\Delta\\omega}{\\Delta t}, \\quad a_t = r\\,\\alpha",
+      "de": "\\alpha = \\frac{\\Delta\\omega}{\\Delta t}, \\quad a_t = r\\,\\alpha",
+      "pt": "\\alpha = \\frac{\\Delta\\omega}{\\Delta t}, \\quad a_t = r\\,\\alpha",
+      "ru": "\\varepsilon = \\frac{\\Delta\\omega}{\\Delta t}, \\quad a_t = r\\,\\varepsilon"
+     },
+     "objasnjenje": {
+      "sr": "Promena ugaone brzine u jedinici vremena; a_t je tangencijalno ubrzanje tačke na poluprečniku r.",
+      "en": "Change of angular velocity per unit time; a_t is the tangential acceleration of a point at radius r.",
+      "it": "Variazione della velocità angolare nell’unità di tempo; a_t è l’accelerazione tangenziale a distanza r.",
+      "fr": "Variation de la vitesse angulaire par unité de temps ; a_t est l’accélération tangentielle au rayon r.",
+      "es": "Cambio de la velocidad angular por unidad de tiempo; a_t es la aceleración tangencial a la distancia r.",
+      "de": "Änderung der Winkelgeschwindigkeit pro Zeit; a_t ist die Tangentialbeschleunigung im Abstand r.",
+      "pt": "Variação da velocidade angular por unidade de tempo; a_t é a aceleração tangencial no raio r.",
+      "ru": "Изменение угловой скорости за единицу времени; a_t — касательное ускорение точки на радиусе r."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "r": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "poluprečnik",
+       "en": "radius",
+       "it": "raggio",
+       "fr": "rayon",
+       "es": "radio",
+       "de": "Radius",
+       "pt": "raio",
+       "ru": "радиус"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.3,
+      "poz": true
+     },
+     "fi": {
+      "oznaka": "\\varphi",
+      "naziv": {
+       "sr": "ugao obrtanja",
+       "en": "angle of rotation",
+       "it": "angolo di rotazione",
+       "fr": "angle de rotation",
+       "es": "ángulo girado",
+       "de": "Drehwinkel",
+       "pt": "ângulo de rotação",
+       "ru": "угол поворота"
+      },
+      "vrsta": "ugao",
+      "jed": "rad"
+     },
+     "l": {
+      "oznaka": "l",
+      "naziv": {
+       "sr": "dužina luka",
+       "en": "arc length",
+       "it": "lunghezza dell’arco",
+       "fr": "longueur de l’arc",
+       "es": "longitud del arco",
+       "de": "Bogenlänge",
+       "pt": "comprimento do arco",
+       "ru": "длина дуги"
+      },
+      "vrsta": "duzina",
+      "pocetna": 1
+     },
+     "om": {
+      "oznaka": "\\omega",
+      "naziv": {
+       "sr": "ugaona brzina",
+       "en": "angular velocity",
+       "it": "velocità angolare",
+       "fr": "vitesse angulaire",
+       "es": "velocidad angular",
+       "de": "Winkelgeschwindigkeit",
+       "pt": "velocidade angular",
+       "ru": "угловая скорость"
+      },
+      "vrsta": "ugaonaBrzina"
+     },
+     "om0": {
+      "oznaka": "\\omega_0",
+      "naziv": {
+       "sr": "početna ugaona brzina",
+       "en": "initial angular velocity",
+       "it": "velocità angolare iniziale",
+       "fr": "vitesse angulaire initiale",
+       "es": "velocidad angular inicial",
+       "de": "Anfangswinkelgeschwindigkeit",
+       "pt": "velocidade angular inicial",
+       "ru": "начальная угловая скорость"
+      },
+      "vrsta": "ugaonaBrzina",
+      "pocetna": 0
+     },
+     "eps": {
+      "oznaka": {
+       "sr": "\\alpha",
+       "en": "\\alpha",
+       "it": "\\alpha",
+       "fr": "\\alpha",
+       "es": "\\alpha",
+       "de": "\\alpha",
+       "pt": "\\alpha",
+       "ru": "\\varepsilon"
+      },
+      "naziv": {
+       "sr": "ugaono ubrzanje",
+       "en": "angular acceleration",
+       "it": "accelerazione angolare",
+       "fr": "accélération angulaire",
+       "es": "aceleración angular",
+       "de": "Winkelbeschleunigung",
+       "pt": "aceleração angular",
+       "ru": "угловое ускорение"
+      },
+      "vrsta": "ugaonoUbrzanje",
+      "pocetna": 2
+     },
+     "t": {
+      "oznaka": "t",
+      "naziv": {
+       "sr": "vreme",
+       "en": "time",
+       "it": "tempo",
+       "fr": "temps",
+       "es": "tiempo",
+       "de": "Zeit",
+       "pt": "tempo",
+       "ru": "время"
+      },
+      "vrsta": "vreme",
+      "pocetna": 3,
+      "poz": true
+     },
+     "at": {
+      "oznaka": "a_t",
+      "naziv": {
+       "sr": "tangencijalno ubrzanje",
+       "en": "tangential acceleration",
+       "it": "accelerazione tangenziale",
+       "fr": "accélération tangentielle",
+       "es": "aceleración tangencial",
+       "de": "Tangentialbeschleunigung",
+       "pt": "aceleração tangencial",
+       "ru": "касательное ускорение"
+      },
+      "vrsta": "ubrzanje"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "l = r \\varphi",
+      "trazi": "fi",
+      "resenja": {
+       "fi": "l/r",
+       "l": "r*fi",
+       "r": "l/fi"
+      }
+     },
+     {
+      "latex": {
+       "sr": "\\omega = \\omega_0 + \\alpha t",
+       "en": "\\omega = \\omega_0 + \\alpha t",
+       "it": "\\omega = \\omega_0 + \\alpha t",
+       "fr": "\\omega = \\omega_0 + \\alpha t",
+       "es": "\\omega = \\omega_0 + \\alpha t",
+       "de": "\\omega = \\omega_0 + \\alpha t",
+       "pt": "\\omega = \\omega_0 + \\alpha t",
+       "ru": "\\omega = \\omega_0 + \\varepsilon t"
+      },
+      "trazi": "om",
+      "resenja": {
+       "om": "om0 + eps*t",
+       "om0": "om - eps*t",
+       "eps": "(om - om0)/t",
+       "t": "(om - om0)/eps"
+      }
+     },
+     {
+      "latex": {
+       "sr": "\\varphi = \\omega_0 t + \\dfrac{\\alpha t^2}{2}",
+       "en": "\\varphi = \\omega_0 t + \\dfrac{\\alpha t^2}{2}",
+       "it": "\\varphi = \\omega_0 t + \\dfrac{\\alpha t^2}{2}",
+       "fr": "\\varphi = \\omega_0 t + \\dfrac{\\alpha t^2}{2}",
+       "es": "\\varphi = \\omega_0 t + \\dfrac{\\alpha t^2}{2}",
+       "de": "\\varphi = \\omega_0 t + \\dfrac{\\alpha t^2}{2}",
+       "pt": "\\varphi = \\omega_0 t + \\dfrac{\\alpha t^2}{2}",
+       "ru": "\\varphi = \\omega_0 t + \\dfrac{\\varepsilon t^2}{2}"
+      },
+      "trazi": "fi",
+      "resenja": {
+       "fi": "om0*t + eps*t*t/2",
+       "om0": "(fi - eps*t*t/2)/t",
+       "eps": "2*(fi - om0*t)/(t*t)",
+       "t": "kvPoz(eps/2, om0, -fi)"
+      }
+     },
+     {
+      "latex": {
+       "sr": "\\omega^2 = \\omega_0^2 + 2 \\alpha \\varphi",
+       "en": "\\omega^2 = \\omega_0^2 + 2 \\alpha \\varphi",
+       "it": "\\omega^2 = \\omega_0^2 + 2 \\alpha \\varphi",
+       "fr": "\\omega^2 = \\omega_0^2 + 2 \\alpha \\varphi",
+       "es": "\\omega^2 = \\omega_0^2 + 2 \\alpha \\varphi",
+       "de": "\\omega^2 = \\omega_0^2 + 2 \\alpha \\varphi",
+       "pt": "\\omega^2 = \\omega_0^2 + 2 \\alpha \\varphi",
+       "ru": "\\omega^2 = \\omega_0^2 + 2 \\varepsilon \\varphi"
+      },
+      "trazi": "om",
+      "resenja": {
+       "om": "sqrt(om0*om0 + 2*eps*fi)",
+       "om0": "sqrt(om*om - 2*eps*fi)",
+       "eps": "(om*om - om0*om0)/(2*fi)",
+       "fi": "(om*om - om0*om0)/(2*eps)"
+      }
+     },
+     {
+      "latex": {
+       "sr": "a_t = r \\alpha",
+       "en": "a_t = r \\alpha",
+       "it": "a_t = r \\alpha",
+       "fr": "a_t = r \\alpha",
+       "es": "a_t = r \\alpha",
+       "de": "a_t = r \\alpha",
+       "pt": "a_t = r \\alpha",
+       "ru": "a_t = r \\varepsilon"
+      },
+      "trazi": "at",
+      "resenja": {
+       "at": "r*eps",
+       "r": "at/eps",
+       "eps": "at/r"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "protok",
+   "simbol": "Φ",
+   "naziv": {
+    "sr": "Protok",
+    "en": "Flow rate",
+    "it": "Portata",
+    "fr": "Débit",
+    "es": "Caudal",
+    "de": "Durchfluss",
+    "pt": "Vazão",
+    "ru": "Расход"
+   },
+   "opis": {
+    "sr": "Zapreminski i maseni, gustina",
+    "en": "Volume and mass, density",
+    "it": "Volumetrica e massica, densità",
+    "fr": "Volumique et massique, masse volumique",
+    "es": "Volumétrico y másico, densidad",
+    "de": "Volumen- und Massenstrom, Dichte",
+    "pt": "Volumétrica e mássica, densidade",
+    "ru": "Объёмный и массовый, плотность"
+   },
+   "kljucne_reci": {
+    "sr": "protok zapreminski maseni gustina cev jednacina kontinuiteta tecnost",
+    "en": "flow rate volume mass density pipe continuity equation liquid",
+    "it": "portata volumetrica massica densita tubo equazione di continuita",
+    "fr": "debit volumique massique masse volumique tuyau equation de continuite",
+    "es": "caudal volumetrico masico densidad tuberia ecuacion de continuidad",
+    "de": "durchfluss volumenstrom massenstrom dichte rohr kontinuitatsgleichung",
+    "pt": "vazao volumetrica massica densidade cano equacao da continuidade",
+    "ru": "расход объёмный массовый плотность труба уравнение неразрывности"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Zapreminski protok",
+      "en": "Volume flow rate",
+      "it": "Portata volumetrica",
+      "fr": "Débit volumique",
+      "es": "Caudal volumétrico",
+      "de": "Volumenstrom",
+      "pt": "Vazão volumétrica",
+      "ru": "Объёмный расход"
+     },
+     "latex": "\\Phi_V = \\frac{\\Delta V}{\\Delta t} = S\\,v",
+     "objasnjenje": {
+      "sr": "Zapremina tečnosti koja prođe kroz presek S za jedinicu vremena, pri brzini v.",
+      "en": "Volume passing through cross-section S per unit time at velocity v.",
+      "it": "Volume che attraversa la sezione S nell’unità di tempo, alla velocità v.",
+      "fr": "Volume traversant la section S par unité de temps, à la vitesse v.",
+      "es": "Volumen que atraviesa la sección S por unidad de tiempo, a la velocidad v.",
+      "de": "Volumen, das pro Zeit bei der Geschwindigkeit v durch den Querschnitt S fließt.",
+      "pt": "Volume que atravessa a seção S por unidade de tempo, à velocidade v.",
+      "ru": "Объём, проходящий через сечение S за единицу времени при скорости v."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Maseni protok",
+      "en": "Mass flow rate",
+      "it": "Portata massica",
+      "fr": "Débit massique",
+      "es": "Caudal másico",
+      "de": "Massenstrom",
+      "pt": "Vazão mássica",
+      "ru": "Массовый расход"
+     },
+     "latex": "\\Phi_m = \\frac{\\Delta m}{\\Delta t} = \\rho\\,\\Phi_V",
+     "objasnjenje": {
+      "sr": "Masa koja prođe kroz presek za jedinicu vremena.",
+      "en": "Mass passing through the cross-section per unit time.",
+      "it": "Massa che attraversa la sezione nell’unità di tempo.",
+      "fr": "Masse traversant la section par unité de temps.",
+      "es": "Masa que atraviesa la sección por unidad de tiempo.",
+      "de": "Masse, die pro Zeit durch den Querschnitt fließt.",
+      "pt": "Massa que atravessa a seção por unidade de tempo.",
+      "ru": "Масса, проходящая через сечение за единицу времени."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Gustina",
+      "en": "Density",
+      "it": "Densità",
+      "fr": "Masse volumique",
+      "es": "Densidad",
+      "de": "Dichte",
+      "pt": "Massa específica",
+      "ru": "Плотность"
+     },
+     "latex": "\\rho = \\frac{m}{V}",
+     "objasnjenje": {
+      "sr": "Voda ima gustinu oko 1000 kg/m³ (1 g/cm³).",
+      "en": "Water has a density of about 1000 kg/m³ (1 g/cm³).",
+      "it": "L’acqua ha densità di circa 1000 kg/m³ (1 g/cm³).",
+      "fr": "L’eau a une masse volumique d’environ 1000 kg/m³ (1 g/cm³).",
+      "es": "El agua tiene una densidad de unos 1000 kg/m³ (1 g/cm³).",
+      "de": "Wasser hat eine Dichte von etwa 1000 kg/m³ (1 g/cm³).",
+      "pt": "A água tem massa específica de cerca de 1000 kg/m³ (1 g/cm³).",
+      "ru": "Плотность воды около 1000 кг/м³ (1 г/см³)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Jednačina kontinuiteta",
+      "en": "Continuity equation",
+      "it": "Equazione di continuità",
+      "fr": "Équation de continuité",
+      "es": "Ecuación de continuidad",
+      "de": "Kontinuitätsgleichung",
+      "pt": "Equação da continuidade",
+      "ru": "Уравнение неразрывности"
+     },
+     "latex": "S_1 v_1 = S_2 v_2",
+     "objasnjenje": {
+      "sr": "Kod nestišljive tečnosti protok je isti u svakom preseku cevi: gde je cev uža, tečnost teče brže.",
+      "en": "For an incompressible liquid the flow rate is the same in every cross-section: where the pipe is narrower, the liquid flows faster.",
+      "it": "Per un liquido incomprimibile la portata è uguale in ogni sezione: dove il tubo è più stretto il liquido scorre più veloce.",
+      "fr": "Pour un liquide incompressible le débit est le même dans chaque section : là où le tuyau est plus étroit, le liquide va plus vite.",
+      "es": "En un líquido incompresible el caudal es igual en cada sección: donde el tubo es más estrecho, el líquido va más rápido.",
+      "de": "Bei einer inkompressiblen Flüssigkeit ist der Durchfluss in jedem Querschnitt gleich: Wo das Rohr enger ist, fließt sie schneller.",
+      "pt": "Num líquido incompressível a vazão é igual em cada seção: onde o cano é mais estreito, o líquido flui mais rápido.",
+      "ru": "Для несжимаемой жидкости расход одинаков в любом сечении: где труба уже, жидкость течёт быстрее."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "fV": {
+      "oznaka": "\\Phi_V",
+      "naziv": {
+       "sr": "zapreminski protok",
+       "en": "volume flow rate",
+       "it": "portata volumetrica",
+       "fr": "débit volumique",
+       "es": "caudal volumétrico",
+       "de": "Volumenstrom",
+       "pt": "vazão volumétrica",
+       "ru": "объёмный расход"
+      },
+      "vrsta": "zapreminskiProtok",
+      "jed": "L/s",
+      "poz": true
+     },
+     "V": {
+      "oznaka": "V",
+      "naziv": {
+       "sr": "zapremina",
+       "en": "volume",
+       "it": "volume",
+       "fr": "volume",
+       "es": "volumen",
+       "de": "Volumen",
+       "pt": "volume",
+       "ru": "объём"
+      },
+      "vrsta": "zapremina",
+      "pocetna": 0.01,
+      "jed": "L",
+      "poz": true
+     },
+     "t": {
+      "oznaka": "t",
+      "naziv": {
+       "sr": "vreme",
+       "en": "time",
+       "it": "tempo",
+       "fr": "temps",
+       "es": "tiempo",
+       "de": "Zeit",
+       "pt": "tempo",
+       "ru": "время"
+      },
+      "vrsta": "vreme",
+      "pocetna": 5,
+      "poz": true
+     },
+     "S": {
+      "oznaka": "S",
+      "naziv": {
+       "sr": "površina preseka",
+       "en": "cross-sectional area",
+       "it": "area della sezione",
+       "fr": "aire de la section",
+       "es": "área de la sección",
+       "de": "Querschnittsfläche",
+       "pt": "área da seção",
+       "ru": "площадь сечения"
+      },
+      "vrsta": "povrsina",
+      "pocetna": 0.0005,
+      "jed": "cm²",
+      "poz": true
+     },
+     "v": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina",
+       "en": "velocity",
+       "it": "velocità",
+       "fr": "vitesse",
+       "es": "velocidad",
+       "de": "Geschwindigkeit",
+       "pt": "velocidade",
+       "ru": "скорость"
+      },
+      "vrsta": "brzina",
+      "pocetna": 2
+     },
+     "fm": {
+      "oznaka": "\\Phi_m",
+      "naziv": {
+       "sr": "maseni protok",
+       "en": "mass flow rate",
+       "it": "portata massica",
+       "fr": "débit massique",
+       "es": "caudal másico",
+       "de": "Massenstrom",
+       "pt": "vazão mássica",
+       "ru": "массовый расход"
+      },
+      "vrsta": "maseniProtok",
+      "poz": true
+     },
+     "rho": {
+      "oznaka": "\\rho",
+      "naziv": {
+       "sr": "gustina",
+       "en": "density",
+       "it": "densità",
+       "fr": "masse volumique",
+       "es": "densidad",
+       "de": "Dichte",
+       "pt": "massa específica",
+       "ru": "плотность"
+      },
+      "vrsta": "gustina",
+      "pocetna": 1000,
+      "poz": true
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 2,
+      "jed": "kg",
+      "poz": true
+     },
+     "S1": {
+      "oznaka": "S_1",
+      "naziv": {
+       "sr": "presek 1",
+       "en": "cross-section 1",
+       "it": "sezione 1",
+       "fr": "section 1",
+       "es": "sección 1",
+       "de": "Querschnitt 1",
+       "pt": "seção 1",
+       "ru": "сечение 1"
+      },
+      "vrsta": "povrsina",
+      "pocetna": 0.0005,
+      "jed": "cm²",
+      "poz": true
+     },
+     "v1": {
+      "oznaka": "v_1",
+      "naziv": {
+       "sr": "brzina u preseku 1",
+       "en": "velocity at section 1",
+       "it": "velocità nella sezione 1",
+       "fr": "vitesse dans la section 1",
+       "es": "velocidad en la sección 1",
+       "de": "Geschwindigkeit im Querschnitt 1",
+       "pt": "velocidade na seção 1",
+       "ru": "скорость в сечении 1"
+      },
+      "vrsta": "brzina",
+      "pocetna": 2
+     },
+     "S2": {
+      "oznaka": "S_2",
+      "naziv": {
+       "sr": "presek 2",
+       "en": "cross-section 2",
+       "it": "sezione 2",
+       "fr": "section 2",
+       "es": "sección 2",
+       "de": "Querschnitt 2",
+       "pt": "seção 2",
+       "ru": "сечение 2"
+      },
+      "vrsta": "povrsina",
+      "pocetna": 0.0002,
+      "jed": "cm²",
+      "poz": true
+     },
+     "v2": {
+      "oznaka": "v_2",
+      "naziv": {
+       "sr": "brzina u preseku 2",
+       "en": "velocity at section 2",
+       "it": "velocità nella sezione 2",
+       "fr": "vitesse dans la section 2",
+       "es": "velocidad en la sección 2",
+       "de": "Geschwindigkeit im Querschnitt 2",
+       "pt": "velocidade na seção 2",
+       "ru": "скорость в сечении 2"
+      },
+      "vrsta": "brzina"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "\\Phi_V = \\dfrac{V}{t}",
+      "trazi": "fV",
+      "resenja": {
+       "fV": "V/t",
+       "V": "fV*t",
+       "t": "V/fV"
+      }
+     },
+     {
+      "latex": "\\Phi_V = S v",
+      "trazi": "fV",
+      "resenja": {
+       "fV": "S*v",
+       "S": "fV/v",
+       "v": "fV/S"
+      }
+     },
+     {
+      "latex": "\\Phi_m = \\rho\\, \\Phi_V",
+      "trazi": "fm",
+      "resenja": {
+       "fm": "rho*fV",
+       "rho": "fm/fV",
+       "fV": "fm/rho"
+      }
+     },
+     {
+      "latex": "\\rho = \\dfrac{m}{V}",
+      "trazi": "rho",
+      "resenja": {
+       "rho": "m/V",
+       "m": "rho*V",
+       "V": "m/rho"
+      }
+     },
+     {
+      "latex": "S_1 v_1 = S_2 v_2",
+      "trazi": "v2",
+      "resenja": {
+       "v2": "S1*v1/S2",
+       "S2": "S1*v1/v2",
+       "v1": "S2*v2/S1",
+       "S1": "S2*v2/v1"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

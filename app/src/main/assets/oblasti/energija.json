@@ -1,0 +1,1384 @@
+{
+ "oblast": "energija",
+ "teme": [
+  {
+   "id": "rad",
+   "simbol": "A",
+   "naziv": {
+    "sr": "Mehanički rad",
+    "en": "Work",
+    "it": "Lavoro",
+    "fr": "Travail",
+    "es": "Trabajo",
+    "de": "Arbeit",
+    "pt": "Trabalho",
+    "ru": "Механическая работа"
+   },
+   "opis": {
+    "sr": "Rad sile, rad gasa",
+    "en": "Work of a force, work of a gas",
+    "it": "Lavoro di una forza e di un gas",
+    "fr": "Travail d’une force, d’un gaz",
+    "es": "Trabajo de una fuerza y de un gas",
+    "de": "Arbeit einer Kraft, Volumenarbeit",
+    "pt": "Trabalho de uma força e de um gás",
+    "ru": "Работа силы, работа газа"
+   },
+   "kljucne_reci": {
+    "sr": "rad sile mehanicki rad dzul ugao rad gasa",
+    "en": "work of a force joule angle work done by gas",
+    "it": "lavoro di una forza joule lavoro di un gas",
+    "fr": "travail d une force joule travail d un gaz",
+    "es": "trabajo de una fuerza julio trabajo de un gas",
+    "de": "arbeit kraft weg joule volumenarbeit",
+    "pt": "trabalho de uma forca joule trabalho de um gas",
+    "ru": "работа силы джоуль работа газа"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line class=\"osa\" x1=\"10\" y1=\"120\" x2=\"290\" y2=\"120\"/><rect class=\"lik2\" x=\"40\" y=\"80\" width=\"60\" height=\"40\" rx=\"3\"/><rect class=\"lik\" x=\"190\" y=\"80\" width=\"60\" height=\"40\" rx=\"3\" stroke-dasharray=\"6 5\" fill-opacity=\"0.35\"/><line class=\"lik-l\" x1=\"100.0\" y1=\"100.0\" x2=\"156.5\" y2=\"60.4\"/><path class=\"tac\" d=\"M165.5,54.1 L159.4,64.5 L153.7,56.3 Z\"/><text x=\"169.5\" y=\"56.1\">F</text><line class=\"pom\" x1=\"100\" y1=\"100\" x2=\"186\" y2=\"100\"/><path class=\"ugao\" d=\"M134,100 A34,34 0 0,0 127.9,80.5\"/><text x=\"140\" y=\"94\">φ</text><line class=\"lik-l\" x1=\"70.0\" y1=\"145.0\" x2=\"209.0\" y2=\"145.0\"/><path class=\"tac\" d=\"M220.0,145.0 L209.0,150.0 L209.0,140.0 Z\"/><line class=\"osa\" x1=\"70\" y1=\"138\" x2=\"70\" y2=\"152\"/><text x=\"140\" y=\"166\">s</text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Rad sile",
+      "en": "Work of a force",
+      "it": "Lavoro di una forza",
+      "fr": "Travail d’une force",
+      "es": "Trabajo de una fuerza",
+      "de": "Arbeit einer Kraft",
+      "pt": "Trabalho de uma força",
+      "ru": "Работа силы"
+     },
+     "latex": {
+      "sr": "A = \\vec F \\cdot \\vec s = F s \\cos\\varphi",
+      "en": "W = \\vec F \\cdot \\vec s = F s \\cos\\varphi",
+      "it": "L = \\vec F \\cdot \\vec s = F s \\cos\\varphi",
+      "fr": "W = \\vec F \\cdot \\vec s = F s \\cos\\varphi",
+      "es": "W = \\vec F \\cdot \\vec s = F s \\cos\\varphi",
+      "de": "W = \\vec F \\cdot \\vec s = F s \\cos\\varphi",
+      "pt": "W = \\vec F \\cdot \\vec s = F s \\cos\\varphi",
+      "ru": "A = \\vec F \\cdot \\vec s = F s \\cos\\varphi"
+     },
+     "objasnjenje": {
+      "sr": "Samo komponenta sile u smeru kretanja vrši rad; 1 J = 1 N·m. Za φ = 90° rad je nula, a za φ > 90° negativan (npr. trenje).",
+      "en": "Only the force component along the motion does work; 1 J = 1 N·m. For φ = 90° the work is zero; for φ > 90° it is negative (e.g. friction).",
+      "it": "Solo la componente della forza lungo il moto compie lavoro; 1 J = 1 N·m. Per φ = 90° il lavoro è nullo, per φ > 90° è negativo (es. attrito).",
+      "fr": "Seule la composante de la force dans le sens du mouvement travaille ; 1 J = 1 N·m. Pour φ = 90° le travail est nul, pour φ > 90° il est négatif (frottement).",
+      "es": "Solo la componente de la fuerza en la dirección del movimiento realiza trabajo; 1 J = 1 N·m. Con φ = 90° es nulo y con φ > 90° negativo (rozamiento).",
+      "de": "Nur die Kraftkomponente in Bewegungsrichtung verrichtet Arbeit; 1 J = 1 N·m. Bei φ = 90° ist sie null, bei φ > 90° negativ (z. B. Reibung).",
+      "pt": "Só a componente da força na direção do movimento realiza trabalho; 1 J = 1 N·m. Para φ = 90° é nulo e para φ > 90° negativo (atrito).",
+      "ru": "Работу совершает только составляющая силы вдоль перемещения; 1 Дж = 1 Н·м. При φ = 90° работа равна нулю, при φ > 90° отрицательна (трение)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Rad gasa (stalan pritisak)",
+      "en": "Work of a gas (constant pressure)",
+      "it": "Lavoro di un gas (pressione costante)",
+      "fr": "Travail d’un gaz (pression constante)",
+      "es": "Trabajo de un gas (presión constante)",
+      "de": "Volumenarbeit (konstanter Druck)",
+      "pt": "Trabalho de um gás (pressão constante)",
+      "ru": "Работа газа (постоянное давление)"
+     },
+     "latex": {
+      "sr": "A = -p\\,\\Delta V",
+      "en": "W = -p\\,\\Delta V",
+      "it": "L = -p\\,\\Delta V",
+      "fr": "W = -p\\,\\Delta V",
+      "es": "W = -p\\,\\Delta V",
+      "de": "W = -p\\,\\Delta V",
+      "pt": "W = -p\\,\\Delta V",
+      "ru": "A = -p\\,\\Delta V"
+     },
+     "objasnjenje": {
+      "sr": "Rad koji okolina izvrši nad gasom; kada se gas širi (ΔV > 0), rad je negativan, jer gas predaje energiju okolini.",
+      "en": "Work done on the gas by the surroundings; when the gas expands (ΔV > 0) it is negative, since the gas gives energy away.",
+      "it": "Lavoro compiuto sul gas dall’esterno; quando il gas si espande (ΔV > 0) è negativo.",
+      "fr": "Travail reçu par le gaz ; lors d’une détente (ΔV > 0) il est négatif.",
+      "es": "Trabajo realizado sobre el gas; cuando el gas se expande (ΔV > 0) es negativo.",
+      "de": "Am Gas verrichtete Arbeit; dehnt sich das Gas aus (ΔV > 0), ist sie negativ.",
+      "pt": "Trabalho realizado sobre o gás; quando ele se expande (ΔV > 0) é negativo.",
+      "ru": "Работа внешних сил над газом; при расширении (ΔV > 0) она отрицательна."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "A": {
+      "oznaka": {
+       "sr": "A",
+       "en": "W",
+       "it": "L",
+       "fr": "W",
+       "es": "W",
+       "de": "W",
+       "pt": "W",
+       "ru": "A"
+      },
+      "naziv": {
+       "sr": "rad",
+       "en": "work",
+       "it": "lavoro",
+       "fr": "travail",
+       "es": "trabajo",
+       "de": "Arbeit",
+       "pt": "trabalho",
+       "ru": "работа"
+      },
+      "vrsta": "energija"
+     },
+     "F": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "sila",
+       "en": "force",
+       "it": "forza",
+       "fr": "force",
+       "es": "fuerza",
+       "de": "Kraft",
+       "pt": "força",
+       "ru": "сила"
+      },
+      "vrsta": "sila",
+      "pocetna": 100
+     },
+     "s": {
+      "oznaka": "s",
+      "naziv": {
+       "sr": "pređeni put",
+       "en": "displacement",
+       "it": "spostamento",
+       "fr": "déplacement",
+       "es": "desplazamiento",
+       "de": "Weg",
+       "pt": "deslocamento",
+       "ru": "перемещение"
+      },
+      "vrsta": "duzina",
+      "pocetna": 10
+     },
+     "fi": {
+      "oznaka": "\\varphi",
+      "naziv": {
+       "sr": "ugao između sile i puta",
+       "en": "angle between force and path",
+       "it": "angolo tra forza e spostamento",
+       "fr": "angle entre force et déplacement",
+       "es": "ángulo entre fuerza y desplazamiento",
+       "de": "Winkel zwischen Kraft und Weg",
+       "pt": "ângulo entre força e deslocamento",
+       "ru": "угол между силой и перемещением"
+      },
+      "vrsta": "ugao",
+      "pocetna": 0.5235987755982988,
+      "jed": "°"
+     },
+     "p": {
+      "oznaka": "p",
+      "naziv": {
+       "sr": "pritisak",
+       "en": "pressure",
+       "it": "pressione",
+       "fr": "pression",
+       "es": "presión",
+       "de": "Druck",
+       "pt": "pressão",
+       "ru": "давление"
+      },
+      "vrsta": "pritisak",
+      "pocetna": 100000.0,
+      "jed": "kPa"
+     },
+     "dV": {
+      "oznaka": "\\Delta V",
+      "naziv": {
+       "sr": "promena zapremine",
+       "en": "change in volume",
+       "it": "variazione di volume",
+       "fr": "variation de volume",
+       "es": "variación de volumen",
+       "de": "Volumenänderung",
+       "pt": "variação de volume",
+       "ru": "изменение объёма"
+      },
+      "vrsta": "zapremina",
+      "pocetna": 0.002,
+      "jed": "L"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "A = F s \\cos\\varphi",
+       "en": "W = F s \\cos\\varphi",
+       "it": "L = F s \\cos\\varphi",
+       "fr": "W = F s \\cos\\varphi",
+       "es": "W = F s \\cos\\varphi",
+       "de": "W = F s \\cos\\varphi",
+       "pt": "W = F s \\cos\\varphi",
+       "ru": "A = F s \\cos\\varphi"
+      },
+      "trazi": "A",
+      "resenja": {
+       "A": "F*s*cos(fi)",
+       "F": "A/(s*cos(fi))",
+       "s": "A/(F*cos(fi))",
+       "fi": "acos(A/(F*s))"
+      }
+     },
+     {
+      "latex": {
+       "sr": "A = p\\,\\Delta V",
+       "en": "W = p\\,\\Delta V",
+       "it": "L = p\\,\\Delta V",
+       "fr": "W = p\\,\\Delta V",
+       "es": "W = p\\,\\Delta V",
+       "de": "W = p\\,\\Delta V",
+       "pt": "W = p\\,\\Delta V",
+       "ru": "A = p\\,\\Delta V"
+      },
+      "trazi": "A",
+      "resenja": {
+       "A": "p*dV",
+       "p": "A/dV",
+       "dV": "A/p"
+      },
+      "napomene": {
+       "A": {
+        "sr": "Prikazan je rad koji gas izvrši pri širenju (bez znaka minus).",
+        "en": "Shown is the work done by the gas as it expands (without the minus sign).",
+        "it": "È mostrato il lavoro compiuto dal gas nell’espansione (senza segno meno).",
+        "fr": "Travail fourni par le gaz lors de la détente (sans le signe moins).",
+        "es": "Se muestra el trabajo realizado por el gas al expandirse (sin signo menos).",
+        "de": "Angezeigt ist die vom Gas bei der Ausdehnung verrichtete Arbeit (ohne Minuszeichen).",
+        "pt": "É mostrado o trabalho realizado pelo gás na expansão (sem sinal de menos).",
+        "ru": "Показана работа самого газа при расширении (без знака минус)."
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "kineticka",
+   "simbol": "Eₖ",
+   "naziv": {
+    "sr": "Kinetička energija",
+    "en": "Kinetic energy",
+    "it": "Energia cinetica",
+    "fr": "Énergie cinétique",
+    "es": "Energía cinética",
+    "de": "Kinetische Energie",
+    "pt": "Energia cinética",
+    "ru": "Кинетическая энергия"
+   },
+   "opis": {
+    "sr": "Energija kretanja",
+    "en": "Energy of motion",
+    "it": "Energia del movimento",
+    "fr": "Énergie du mouvement",
+    "es": "Energía del movimiento",
+    "de": "Bewegungsenergie",
+    "pt": "Energia do movimento",
+    "ru": "Энергия движения"
+   },
+   "kljucne_reci": {
+    "sr": "kineticka energija energija kretanja brzina masa",
+    "en": "kinetic energy energy of motion speed mass",
+    "it": "energia cinetica movimento velocita massa",
+    "fr": "energie cinetique mouvement vitesse masse",
+    "es": "energia cinetica movimiento velocidad masa",
+    "de": "kinetische energie bewegungsenergie geschwindigkeit masse",
+    "pt": "energia cinetica movimento velocidade massa",
+    "ru": "кинетическая энергия движения скорость масса"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Kinetička energija",
+      "en": "Kinetic energy",
+      "it": "Energia cinetica",
+      "fr": "Énergie cinétique",
+      "es": "Energía cinética",
+      "de": "Kinetische Energie",
+      "pt": "Energia cinética",
+      "ru": "Кинетическая энергия"
+     },
+     "latex": {
+      "sr": "E_k = \\frac{m v^2}{2}",
+      "en": "E_k = \\frac{m v^2}{2}",
+      "it": "E_c = \\frac{m v^2}{2}",
+      "fr": "E_c = \\frac{m v^2}{2}",
+      "es": "E_c = \\frac{m v^2}{2}",
+      "de": "E_{\\mathrm{kin}} = \\frac{m v^2}{2}",
+      "pt": "E_c = \\frac{m v^2}{2}",
+      "ru": "E_{\\text{к}} = \\frac{m v^2}{2}"
+     },
+     "objasnjenje": {
+      "sr": "Dvostruko veća brzina znači četiri puta veću energiju; zato zaustavni put brzo raste sa brzinom.",
+      "en": "Doubling the speed quadruples the energy; that is why stopping distance grows fast with speed.",
+      "it": "Velocità doppia significa energia quadrupla; per questo lo spazio di frenata cresce in fretta.",
+      "fr": "Une vitesse doublée quadruple l’énergie ; c’est pourquoi la distance de freinage croît vite.",
+      "es": "El doble de velocidad cuadruplica la energía; por eso la distancia de frenado crece rápido.",
+      "de": "Doppelte Geschwindigkeit bedeutet vierfache Energie; daher wächst der Bremsweg so schnell.",
+      "pt": "Velocidade dobrada quadruplica a energia; por isso a distância de frenagem cresce rápido.",
+      "ru": "Вдвое большая скорость — вчетверо большая энергия; поэтому тормозной путь быстро растёт."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Ek": {
+      "oznaka": {
+       "sr": "E_k",
+       "en": "E_k",
+       "it": "E_c",
+       "fr": "E_c",
+       "es": "E_c",
+       "de": "E_{\\mathrm{kin}}",
+       "pt": "E_c",
+       "ru": "E_{\\text{к}}"
+      },
+      "naziv": {
+       "sr": "kinetička energija",
+       "en": "kinetic energy",
+       "it": "energia cinetica",
+       "fr": "énergie cinétique",
+       "es": "energía cinética",
+       "de": "kinetische Energie",
+       "pt": "energia cinética",
+       "ru": "кинетическая энергия"
+      },
+      "vrsta": "energija",
+      "jed": "kJ",
+      "nenegativna": true
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 1000,
+      "poz": true
+     },
+     "v": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina",
+       "en": "velocity",
+       "it": "velocità",
+       "fr": "vitesse",
+       "es": "velocidad",
+       "de": "Geschwindigkeit",
+       "pt": "velocidade",
+       "ru": "скорость"
+      },
+      "vrsta": "brzina",
+      "pocetna": 13.88888888888889,
+      "jed": "km/h",
+      "nenegativna": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "E_k = \\dfrac{m v^2}{2}",
+       "en": "E_k = \\dfrac{m v^2}{2}",
+       "it": "E_c = \\dfrac{m v^2}{2}",
+       "fr": "E_c = \\dfrac{m v^2}{2}",
+       "es": "E_c = \\dfrac{m v^2}{2}",
+       "de": "E_{\\mathrm{kin}} = \\dfrac{m v^2}{2}",
+       "pt": "E_c = \\dfrac{m v^2}{2}",
+       "ru": "E_{\\text{к}} = \\dfrac{m v^2}{2}"
+      },
+      "trazi": "Ek",
+      "resenja": {
+       "Ek": "m*v*v/2",
+       "m": "2*Ek/(v*v)",
+       "v": "sqrt(2*Ek/m)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "potencijalna",
+   "simbol": "Eₚ",
+   "naziv": {
+    "sr": "Potencijalna energija",
+    "en": "Potential energy",
+    "it": "Energia potenziale",
+    "fr": "Énergie potentielle",
+    "es": "Energía potencial",
+    "de": "Potentielle Energie",
+    "pt": "Energia potencial",
+    "ru": "Потенциальная энергия"
+   },
+   "opis": {
+    "sr": "Visina, opruga, gravitacija",
+    "en": "Height, spring, gravitation",
+    "it": "Altezza, molla, gravitazione",
+    "fr": "Hauteur, ressort, gravitation",
+    "es": "Altura, resorte, gravitación",
+    "de": "Höhe, Feder, Gravitation",
+    "pt": "Altura, mola, gravitação",
+    "ru": "Высота, пружина, тяготение"
+   },
+   "kljucne_reci": {
+    "sr": "potencijalna energija visina elasticna energija opruga gravitaciona",
+    "en": "potential energy height elastic energy spring gravitational",
+    "it": "energia potenziale altezza elastica molla gravitazionale",
+    "fr": "energie potentielle hauteur elastique ressort gravitation",
+    "es": "energia potencial altura elastica resorte gravitatoria",
+    "de": "potentielle energie lageenergie hohe spannenergie feder",
+    "pt": "energia potencial altura elastica mola gravitacional",
+    "ru": "потенциальная энергия высота упругая пружина гравитационная"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "U blizini Zemlje",
+      "en": "Near the Earth’s surface",
+      "it": "Vicino alla superficie terrestre",
+      "fr": "Près de la surface terrestre",
+      "es": "Cerca de la superficie terrestre",
+      "de": "Nahe der Erdoberfläche",
+      "pt": "Perto da superfície terrestre",
+      "ru": "Вблизи поверхности Земли"
+     },
+     "latex": {
+      "sr": "E_p = m g h",
+      "en": "E_p = m g h",
+      "it": "E_p = m g h",
+      "fr": "E_p = m g h",
+      "es": "E_p = m g h",
+      "de": "E_{\\mathrm{pot}} = m g h",
+      "pt": "E_p = m g h",
+      "ru": "E_{\\text{п}} = m g h"
+     },
+     "objasnjenje": {
+      "sr": "h je visina iznad izabranog nultog nivoa (npr. poda).",
+      "en": "h is the height above a chosen zero level (e.g. the floor).",
+      "it": "h è l’altezza sopra un livello zero scelto (es. il pavimento).",
+      "fr": "h est la hauteur au-dessus d’un niveau zéro choisi (le sol).",
+      "es": "h es la altura sobre un nivel cero elegido (el suelo).",
+      "de": "h ist die Höhe über einem gewählten Nullniveau (z. B. Boden).",
+      "pt": "h é a altura acima de um nível zero escolhido (o chão).",
+      "ru": "h — высота над выбранным нулевым уровнем (например, полом)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Elastična energija opruge",
+      "en": "Elastic energy of a spring",
+      "it": "Energia elastica di una molla",
+      "fr": "Énergie élastique d’un ressort",
+      "es": "Energía elástica de un resorte",
+      "de": "Spannenergie einer Feder",
+      "pt": "Energia elástica de uma mola",
+      "ru": "Энергия сжатой пружины"
+     },
+     "latex": {
+      "sr": "E_{\\mathrm{el}} = \\frac{k x^2}{2}",
+      "en": "E_{\\mathrm{el}} = \\frac{k x^2}{2}",
+      "it": "E_{\\mathrm{el}} = \\frac{k x^2}{2}",
+      "fr": "E_{\\mathrm{el}} = \\frac{k x^2}{2}",
+      "es": "E_{\\mathrm{el}} = \\frac{k x^2}{2}",
+      "de": "E_{\\mathrm{Spann}} = \\frac{k x^2}{2}",
+      "pt": "E_{\\mathrm{el}} = \\frac{k x^2}{2}",
+      "ru": "E_{\\text{упр}} = \\frac{k x^2}{2}"
+     },
+     "objasnjenje": {
+      "sr": "Energija istegnute ili sabijene opruge; x je izduženje u odnosu na neopterećenu oprugu.",
+      "en": "Energy of a stretched or compressed spring; x is the extension from its relaxed length.",
+      "it": "Energia di una molla allungata o compressa; x è la deformazione dalla lunghezza a riposo.",
+      "fr": "Énergie d’un ressort étiré ou comprimé ; x est l’allongement par rapport au repos.",
+      "es": "Energía de un resorte estirado o comprimido; x es la deformación desde el reposo.",
+      "de": "Energie einer gedehnten oder gestauchten Feder; x ist die Auslenkung.",
+      "pt": "Energia de uma mola esticada ou comprimida; x é a deformação a partir do repouso.",
+      "ru": "Энергия растянутой или сжатой пружины; x — деформация."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Gravitaciona (daleko od Zemlje)",
+      "en": "Gravitational (far from the Earth)",
+      "it": "Gravitazionale (lontano dalla Terra)",
+      "fr": "De gravitation (loin de la Terre)",
+      "es": "Gravitatoria (lejos de la Tierra)",
+      "de": "Gravitation (fern der Erde)",
+      "pt": "Gravitacional (longe da Terra)",
+      "ru": "Гравитационная (вдали от Земли)"
+     },
+     "latex": {
+      "sr": "E_p = -G\\,\\frac{m M}{r}",
+      "en": "E_p = -G\\,\\frac{m M}{r}",
+      "it": "E_p = -G\\,\\frac{m M}{r}",
+      "fr": "E_p = -G\\,\\frac{m M}{r}",
+      "es": "E_p = -G\\,\\frac{m M}{r}",
+      "de": "E_{\\mathrm{pot}} = -G\\,\\frac{m M}{r}",
+      "pt": "E_p = -G\\,\\frac{m M}{r}",
+      "ru": "E_{\\text{п}} = -G\\,\\frac{m M}{r}"
+     },
+     "objasnjenje": {
+      "sr": "Nula je u beskonačnosti, pa je energija negativna; koristi se za satelite i planete.",
+      "en": "Zero at infinity, so the energy is negative; used for satellites and planets.",
+      "it": "È nulla all’infinito, quindi negativa; si usa per satelliti e pianeti.",
+      "fr": "Nulle à l’infini, donc négative ; utilisée pour satellites et planètes.",
+      "es": "Es cero en el infinito, por eso negativa; se usa para satélites y planetas.",
+      "de": "Im Unendlichen null, daher negativ; für Satelliten und Planeten.",
+      "pt": "É zero no infinito, por isso negativa; usada para satélites e planetas.",
+      "ru": "Равна нулю на бесконечности, поэтому отрицательна; для спутников и планет."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Ep": {
+      "oznaka": {
+       "sr": "E_p",
+       "en": "E_p",
+       "it": "E_p",
+       "fr": "E_p",
+       "es": "E_p",
+       "de": "E_{\\mathrm{pot}}",
+       "pt": "E_p",
+       "ru": "E_{\\text{п}}"
+      },
+      "naziv": {
+       "sr": "potencijalna energija",
+       "en": "potential energy",
+       "it": "energia potenziale",
+       "fr": "énergie potentielle",
+       "es": "energía potencial",
+       "de": "potentielle Energie",
+       "pt": "energia potencial",
+       "ru": "потенциальная энергия"
+      },
+      "vrsta": "energija"
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 2,
+      "poz": true
+     },
+     "g": {
+      "oznaka": "g",
+      "naziv": {
+       "sr": "ubrzanje Zemljine teže",
+       "en": "gravitational acceleration",
+       "it": "accelerazione di gravità",
+       "fr": "intensité de la pesanteur",
+       "es": "aceleración de la gravedad",
+       "de": "Fallbeschleunigung",
+       "pt": "aceleração da gravidade",
+       "ru": "ускорение свободного падения"
+      },
+      "vrsta": "ubrzanje",
+      "pocetna": 9.81,
+      "poz": true
+     },
+     "h": {
+      "oznaka": "h",
+      "naziv": {
+       "sr": "visina",
+       "en": "height",
+       "it": "altezza",
+       "fr": "hauteur",
+       "es": "altura",
+       "de": "Höhe",
+       "pt": "altura",
+       "ru": "высота"
+      },
+      "vrsta": "duzina",
+      "pocetna": 10
+     },
+     "Ee": {
+      "oznaka": {
+       "sr": "E_{\\mathrm{el}}",
+       "en": "E_{\\mathrm{el}}",
+       "it": "E_{\\mathrm{el}}",
+       "fr": "E_{\\mathrm{el}}",
+       "es": "E_{\\mathrm{el}}",
+       "de": "E_{\\mathrm{Spann}}",
+       "pt": "E_{\\mathrm{el}}",
+       "ru": "E_{\\text{упр}}"
+      },
+      "naziv": {
+       "sr": "elastična energija",
+       "en": "elastic energy",
+       "it": "energia elastica",
+       "fr": "énergie élastique",
+       "es": "energía elástica",
+       "de": "Spannenergie",
+       "pt": "energia elástica",
+       "ru": "энергия упругой деформации"
+      },
+      "vrsta": "energija",
+      "nenegativna": true
+     },
+     "k": {
+      "oznaka": "k",
+      "naziv": {
+       "sr": "konstanta opruge",
+       "en": "spring constant",
+       "it": "costante elastica",
+       "fr": "raideur du ressort",
+       "es": "constante del resorte",
+       "de": "Federkonstante",
+       "pt": "constante elástica",
+       "ru": "жёсткость пружины"
+      },
+      "vrsta": "krutost",
+      "pocetna": 500,
+      "poz": true
+     },
+     "x": {
+      "oznaka": "x",
+      "naziv": {
+       "sr": "izduženje opruge",
+       "en": "spring extension",
+       "it": "allungamento della molla",
+       "fr": "allongement du ressort",
+       "es": "alargamiento del resorte",
+       "de": "Auslenkung der Feder",
+       "pt": "deformação da mola",
+       "ru": "удлинение пружины"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.1,
+      "jed": "cm"
+     },
+     "Epg": {
+      "oznaka": {
+       "sr": "E_p",
+       "en": "E_p",
+       "it": "E_p",
+       "fr": "E_p",
+       "es": "E_p",
+       "de": "E_{\\mathrm{pot}}",
+       "pt": "E_p",
+       "ru": "E_{\\text{п}}"
+      },
+      "naziv": {
+       "sr": "gravitaciona potencijalna energija",
+       "en": "gravitational potential energy",
+       "it": "energia potenziale gravitazionale",
+       "fr": "énergie potentielle de gravitation",
+       "es": "energía potencial gravitatoria",
+       "de": "Gravitationsenergie",
+       "pt": "energia potencial gravitacional",
+       "ru": "гравитационная потенциальная энергия"
+      },
+      "vrsta": "energija"
+     },
+     "Gk": {
+      "oznaka": "G",
+      "naziv": {
+       "sr": "gravitaciona konstanta",
+       "en": "gravitational constant",
+       "it": "costante di gravitazione",
+       "fr": "constante gravitationnelle",
+       "es": "constante de gravitación",
+       "de": "Gravitationskonstante",
+       "pt": "constante gravitacional",
+       "ru": "гравитационная постоянная"
+      },
+      "vrsta": "gravKonst",
+      "pocetna": 6.6743e-11,
+      "poz": true
+     },
+     "M": {
+      "oznaka": "M",
+      "naziv": {
+       "sr": "masa planete",
+       "en": "mass of the planet",
+       "it": "massa del pianeta",
+       "fr": "masse de la planète",
+       "es": "masa del planeta",
+       "de": "Masse des Planeten",
+       "pt": "massa do planeta",
+       "ru": "масса планеты"
+      },
+      "vrsta": "masa",
+      "pocetna": 5.972e+24,
+      "poz": true
+     },
+     "r": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "rastojanje od središta planete",
+       "en": "distance from the planet’s centre",
+       "it": "distanza dal centro del pianeta",
+       "fr": "distance au centre de la planète",
+       "es": "distancia al centro del planeta",
+       "de": "Abstand zum Planetenmittelpunkt",
+       "pt": "distância ao centro do planeta",
+       "ru": "расстояние до центра планеты"
+      },
+      "vrsta": "duzina",
+      "pocetna": 6771000.0,
+      "jed": "km",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "E_p = m g h",
+       "en": "E_p = m g h",
+       "it": "E_p = m g h",
+       "fr": "E_p = m g h",
+       "es": "E_p = m g h",
+       "de": "E_{\\mathrm{pot}} = m g h",
+       "pt": "E_p = m g h",
+       "ru": "E_{\\text{п}} = m g h"
+      },
+      "trazi": "Ep",
+      "resenja": {
+       "Ep": "m*g*h",
+       "m": "Ep/(g*h)",
+       "h": "Ep/(m*g)",
+       "g": "Ep/(m*h)"
+      }
+     },
+     {
+      "latex": {
+       "sr": "E_{\\mathrm{el}} = \\dfrac{k x^2}{2}",
+       "en": "E_{\\mathrm{el}} = \\dfrac{k x^2}{2}",
+       "it": "E_{\\mathrm{el}} = \\dfrac{k x^2}{2}",
+       "fr": "E_{\\mathrm{el}} = \\dfrac{k x^2}{2}",
+       "es": "E_{\\mathrm{el}} = \\dfrac{k x^2}{2}",
+       "de": "E_{\\mathrm{Spann}} = \\dfrac{k x^2}{2}",
+       "pt": "E_{\\mathrm{el}} = \\dfrac{k x^2}{2}",
+       "ru": "E_{\\text{упр}} = \\dfrac{k x^2}{2}"
+      },
+      "trazi": "Ee",
+      "resenja": {
+       "Ee": "k*x*x/2",
+       "k": "2*Ee/(x*x)",
+       "x": "sqrt(2*Ee/k)"
+      }
+     },
+     {
+      "latex": {
+       "sr": "E_p = -G \\dfrac{m M}{r}",
+       "en": "E_p = -G \\dfrac{m M}{r}",
+       "it": "E_p = -G \\dfrac{m M}{r}",
+       "fr": "E_p = -G \\dfrac{m M}{r}",
+       "es": "E_p = -G \\dfrac{m M}{r}",
+       "de": "E_{\\mathrm{pot}} = -G \\dfrac{m M}{r}",
+       "pt": "E_p = -G \\dfrac{m M}{r}",
+       "ru": "E_{\\text{п}} = -G \\dfrac{m M}{r}"
+      },
+      "trazi": "Epg",
+      "promenljive": [
+       "Epg",
+       "Gk",
+       "m",
+       "M",
+       "r"
+      ],
+      "resenja": {
+       "Epg": "-Gk*m*M/r",
+       "m": "-Epg*r/(Gk*M)",
+       "r": "-Gk*m*M/Epg"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "odrzanje",
+   "simbol": "E",
+   "naziv": {
+    "sr": "Zakon održanja energije",
+    "en": "Conservation of energy",
+    "it": "Conservazione dell’energia",
+    "fr": "Conservation de l’énergie",
+    "es": "Conservación de la energía",
+    "de": "Energieerhaltung",
+    "pt": "Conservação da energia",
+    "ru": "Закон сохранения энергии"
+   },
+   "opis": {
+    "sr": "Rad i promena energije",
+    "en": "Work and change of energy",
+    "it": "Lavoro e variazione di energia",
+    "fr": "Travail et variation d’énergie",
+    "es": "Trabajo y variación de energía",
+    "de": "Arbeit und Energieänderung",
+    "pt": "Trabalho e variação de energia",
+    "ru": "Работа и изменение энергии"
+   },
+   "kljucne_reci": {
+    "sr": "zakon odrzanja energije mehanicka energija rad promena energije zaustavni put kocenje",
+    "en": "conservation of energy mechanical energy work energy theorem stopping distance braking",
+    "it": "conservazione energia meccanica teorema lavoro energia frenata",
+    "fr": "conservation energie mecanique theoreme energie cinetique freinage",
+    "es": "conservacion energia mecanica teorema trabajo energia frenado",
+    "de": "energieerhaltung mechanische energie arbeitssatz bremsweg",
+    "pt": "conservacao energia mecanica teorema trabalho energia frenagem",
+    "ru": "закон сохранения энергии механическая энергия работа торможение тормозной путь"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Rad i promena energije",
+      "en": "Work and change of energy",
+      "it": "Lavoro e variazione di energia",
+      "fr": "Travail et variation d’énergie",
+      "es": "Trabajo y variación de energía",
+      "de": "Arbeit und Energieänderung",
+      "pt": "Trabalho e variação de energia",
+      "ru": "Работа и изменение энергии"
+     },
+     "latex": {
+      "sr": "A = \\Delta E_k + \\Delta E_p + \\Delta E_{\\mathrm{el}}",
+      "en": "W = \\Delta E_k + \\Delta E_p + \\Delta E_{\\mathrm{el}}",
+      "it": "L = \\Delta E_c + \\Delta E_p + \\Delta E_{\\mathrm{el}}",
+      "fr": "W = \\Delta E_c + \\Delta E_p + \\Delta E_{\\mathrm{el}}",
+      "es": "W = \\Delta E_c + \\Delta E_p + \\Delta E_{\\mathrm{el}}",
+      "de": "W = \\Delta E_{\\mathrm{kin}} + \\Delta E_{\\mathrm{pot}} + \\Delta E_{\\mathrm{Spann}}",
+      "pt": "W = \\Delta E_c + \\Delta E_p + \\Delta E_{\\mathrm{el}}",
+      "ru": "A = \\Delta E_{\\text{к}} + \\Delta E_{\\text{п}} + \\Delta E_{\\text{упр}}"
+     },
+     "objasnjenje": {
+      "sr": "Rad spoljašnjih sila (bez sile teže i opruge) jednak je promeni ukupne mehaničke energije.",
+      "en": "Work of external forces (other than gravity and springs) equals the change in total mechanical energy.",
+      "it": "Il lavoro delle forze esterne (esclusi peso e molle) è uguale alla variazione dell’energia meccanica.",
+      "fr": "Le travail des forces extérieures (hors poids et ressorts) égale la variation de l’énergie mécanique.",
+      "es": "El trabajo de las fuerzas externas (sin peso ni resortes) es igual a la variación de la energía mecánica.",
+      "de": "Die Arbeit äußerer Kräfte (außer Gewicht und Federn) ist gleich der Änderung der mechanischen Energie.",
+      "pt": "O trabalho das forças externas (exceto peso e molas) é igual à variação da energia mecânica.",
+      "ru": "Работа внешних сил (кроме силы тяжести и упругости) равна изменению механической энергии."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Bez trenja",
+      "en": "Without friction",
+      "it": "Senza attrito",
+      "fr": "Sans frottement",
+      "es": "Sin rozamiento",
+      "de": "Ohne Reibung",
+      "pt": "Sem atrito",
+      "ru": "Без трения"
+     },
+     "latex": "\\frac{m v_0^2}{2} + m g h_0 = \\frac{m v^2}{2} + m g h, \\quad v = \\sqrt{v_0^2 + 2 g\\,(h_0 - h)}",
+     "objasnjenje": {
+      "sr": "Mehanička energija se ne menja; brzina zavisi samo od razlike visina, a ne od oblika putanje.",
+      "en": "Mechanical energy is constant; speed depends only on the height difference, not on the path.",
+      "it": "L’energia meccanica si conserva; la velocità dipende solo dal dislivello, non dal percorso.",
+      "fr": "L’énergie mécanique se conserve ; la vitesse ne dépend que de la dénivellation, pas du chemin.",
+      "es": "La energía mecánica se conserva; la velocidad depende solo del desnivel, no del camino.",
+      "de": "Die mechanische Energie bleibt erhalten; die Geschwindigkeit hängt nur vom Höhenunterschied ab.",
+      "pt": "A energia mecânica se conserva; a velocidade depende só do desnível, não do caminho.",
+      "ru": "Механическая энергия сохраняется; скорость зависит только от разности высот, а не от пути."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zaustavni put",
+      "en": "Stopping distance",
+      "it": "Spazio di frenata",
+      "fr": "Distance de freinage",
+      "es": "Distancia de frenado",
+      "de": "Bremsweg",
+      "pt": "Distância de frenagem",
+      "ru": "Тормозной путь"
+     },
+     "latex": "F\\,s = \\frac{m v^2}{2}",
+     "objasnjenje": {
+      "sr": "Sila kočenja na putu s troši celu kinetičku energiju.",
+      "en": "The braking force over distance s removes all the kinetic energy.",
+      "it": "La forza frenante sullo spazio s dissipa tutta l’energia cinetica.",
+      "fr": "La force de freinage sur la distance s dissipe toute l’énergie cinétique.",
+      "es": "La fuerza de frenado a lo largo de s disipa toda la energía cinética.",
+      "de": "Die Bremskraft auf dem Weg s baut die gesamte kinetische Energie ab.",
+      "pt": "A força de frenagem ao longo de s dissipa toda a energia cinética.",
+      "ru": "Сила торможения на пути s гасит всю кинетическую энергию."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "v": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina",
+       "en": "velocity",
+       "it": "velocità",
+       "fr": "vitesse",
+       "es": "velocidad",
+       "de": "Geschwindigkeit",
+       "pt": "velocidade",
+       "ru": "скорость"
+      },
+      "vrsta": "brzina",
+      "nenegativna": true,
+      "pocetna": 13.88888888888889,
+      "jed": "km/h"
+     },
+     "v0": {
+      "oznaka": "v_0",
+      "naziv": {
+       "sr": "početna brzina",
+       "en": "initial velocity",
+       "it": "velocità iniziale",
+       "fr": "vitesse initiale",
+       "es": "velocidad inicial",
+       "de": "Anfangsgeschwindigkeit",
+       "pt": "velocidade inicial",
+       "ru": "начальная скорость"
+      },
+      "vrsta": "brzina",
+      "pocetna": 0
+     },
+     "g": {
+      "oznaka": "g",
+      "naziv": {
+       "sr": "ubrzanje Zemljine teže",
+       "en": "gravitational acceleration",
+       "it": "accelerazione di gravità",
+       "fr": "intensité de la pesanteur",
+       "es": "aceleración de la gravedad",
+       "de": "Fallbeschleunigung",
+       "pt": "aceleração da gravidade",
+       "ru": "ускорение свободного падения"
+      },
+      "vrsta": "ubrzanje",
+      "pocetna": 9.81,
+      "poz": true
+     },
+     "h": {
+      "oznaka": "h",
+      "naziv": {
+       "sr": "visinska razlika",
+       "en": "height difference",
+       "it": "dislivello",
+       "fr": "dénivellation",
+       "es": "desnivel",
+       "de": "Höhenunterschied",
+       "pt": "desnível",
+       "ru": "разность высот"
+      },
+      "vrsta": "duzina",
+      "pocetna": 5
+     },
+     "sz": {
+      "oznaka": "s",
+      "naziv": {
+       "sr": "zaustavni put",
+       "en": "stopping distance",
+       "it": "spazio di frenata",
+       "fr": "distance de freinage",
+       "es": "distancia de frenado",
+       "de": "Bremsweg",
+       "pt": "distância de frenagem",
+       "ru": "тормозной путь"
+      },
+      "vrsta": "duzina",
+      "jed": "m",
+      "poz": true
+     },
+     "Fk": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "sila kočenja",
+       "en": "braking force",
+       "it": "forza frenante",
+       "fr": "force de freinage",
+       "es": "fuerza de frenado",
+       "de": "Bremskraft",
+       "pt": "força de frenagem",
+       "ru": "сила торможения"
+      },
+      "vrsta": "sila",
+      "pocetna": 8000,
+      "poz": true
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 1000,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "v = \\sqrt{v_0^2 + 2 g h}",
+      "trazi": "v",
+      "resenja": {
+       "v": "sqrt(v0*v0 + 2*g*h)",
+       "v0": "sqrt(v*v - 2*g*h)",
+       "h": "(v*v - v0*v0)/(2*g)",
+       "g": "(v*v - v0*v0)/(2*h)"
+      },
+      "napomene": {
+       "v": {
+        "sr": "h je visinska razlika za koju se telo spustilo (bez trenja).",
+        "en": "h is the height the body has dropped (no friction).",
+        "it": "h è il dislivello di cui il corpo è sceso (senza attrito).",
+        "fr": "h est la hauteur de descente (sans frottement).",
+        "es": "h es la altura que ha descendido (sin rozamiento).",
+        "de": "h ist der Höhenunterschied nach unten (ohne Reibung).",
+        "pt": "h é a altura que o corpo desceu (sem atrito).",
+        "ru": "h — высота, на которую тело опустилось (без трения)."
+       }
+      }
+     },
+     {
+      "latex": "F s = \\dfrac{m v^2}{2}",
+      "trazi": "sz",
+      "resenja": {
+       "sz": "m*v*v/(2*Fk)",
+       "Fk": "m*v*v/(2*sz)",
+       "m": "2*Fk*sz/(v*v)",
+       "v": "sqrt(2*Fk*sz/m)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "snaga",
+   "simbol": "P",
+   "naziv": {
+    "sr": "Snaga i stepen korisnog dejstva",
+    "en": "Power and efficiency",
+    "it": "Potenza e rendimento",
+    "fr": "Puissance et rendement",
+    "es": "Potencia y rendimiento",
+    "de": "Leistung und Wirkungsgrad",
+    "pt": "Potência e rendimento",
+    "ru": "Мощность и КПД"
+   },
+   "opis": {
+    "sr": "Vat, kilovat-sat, η",
+    "en": "Watt, kilowatt-hour, η",
+    "it": "Watt, kilowattora, η",
+    "fr": "Watt, kilowattheure, η",
+    "es": "Vatio, kilovatio-hora, η",
+    "de": "Watt, Kilowattstunde, η",
+    "pt": "Watt, quilowatt-hora, η",
+    "ru": "Ватт, киловатт-час, КПД"
+   },
+   "kljucne_reci": {
+    "sr": "snaga vat kilovat cas stepen korisnog dejstva efikasnost motor potrosnja struje",
+    "en": "power watt kilowatt hour efficiency engine motor energy consumption",
+    "it": "potenza watt kilowattora rendimento efficienza motore consumo",
+    "fr": "puissance watt kilowattheure rendement moteur consommation",
+    "es": "potencia vatio kilovatio hora rendimiento eficiencia motor consumo",
+    "de": "leistung watt kilowattstunde wirkungsgrad motor verbrauch",
+    "pt": "potencia watt quilowatt hora rendimento eficiencia motor consumo",
+    "ru": "мощность ватт киловатт час кпд двигатель расход энергии"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Snaga",
+      "en": "Power",
+      "it": "Potenza",
+      "fr": "Puissance",
+      "es": "Potencia",
+      "de": "Leistung",
+      "pt": "Potência",
+      "ru": "Мощность"
+     },
+     "latex": {
+      "sr": "P = \\frac{A}{\\Delta t} = \\vec F \\cdot \\vec v = F v \\cos\\varphi",
+      "en": "P = \\frac{W}{\\Delta t} = \\vec F \\cdot \\vec v = F v \\cos\\varphi",
+      "it": "P = \\frac{L}{\\Delta t} = \\vec F \\cdot \\vec v = F v \\cos\\varphi",
+      "fr": "P = \\frac{W}{\\Delta t} = \\vec F \\cdot \\vec v = F v \\cos\\varphi",
+      "es": "P = \\frac{W}{\\Delta t} = \\vec F \\cdot \\vec v = F v \\cos\\varphi",
+      "de": "P = \\frac{W}{\\Delta t} = \\vec F \\cdot \\vec v = F v \\cos\\varphi",
+      "pt": "P = \\frac{W}{\\Delta t} = \\vec F \\cdot \\vec v = F v \\cos\\varphi",
+      "ru": "P = \\frac{A}{\\Delta t} = \\vec F \\cdot \\vec v = F v \\cos\\varphi"
+     },
+     "objasnjenje": {
+      "sr": "Rad izvršen u jedinici vremena; 1 W = 1 J/s. 1 kWh = 3,6 MJ.",
+      "en": "Work done per unit time; 1 W = 1 J/s. 1 kWh = 3.6 MJ.",
+      "it": "Lavoro compiuto nell’unità di tempo; 1 W = 1 J/s. 1 kWh = 3,6 MJ.",
+      "fr": "Travail effectué par unité de temps ; 1 W = 1 J/s. 1 kWh = 3,6 MJ.",
+      "es": "Trabajo realizado por unidad de tiempo; 1 W = 1 J/s. 1 kWh = 3,6 MJ.",
+      "de": "Arbeit pro Zeiteinheit; 1 W = 1 J/s. 1 kWh = 3,6 MJ.",
+      "pt": "Trabalho realizado por unidade de tempo; 1 W = 1 J/s. 1 kWh = 3,6 MJ.",
+      "ru": "Работа за единицу времени; 1 Вт = 1 Дж/с. 1 кВт·ч = 3,6 МДж."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Stepen korisnog dejstva",
+      "en": "Efficiency",
+      "it": "Rendimento",
+      "fr": "Rendement",
+      "es": "Rendimiento",
+      "de": "Wirkungsgrad",
+      "pt": "Rendimento",
+      "ru": "Коэффициент полезного действия"
+     },
+     "latex": {
+      "sr": "\\eta = \\frac{P_{\\mathrm{k}}}{P_{\\mathrm{u}}}",
+      "en": "\\eta = \\frac{P_{\\mathrm{out}}}{P_{\\mathrm{in}}}",
+      "it": "\\eta = \\frac{P_{\\mathrm{u}}}{P_{\\mathrm{a}}}",
+      "fr": "\\eta = \\frac{P_{\\mathrm{u}}}{P_{\\mathrm{a}}}",
+      "es": "\\eta = \\frac{P_{\\mathrm{u}}}{P_{\\mathrm{a}}}",
+      "de": "\\eta = \\frac{P_{\\mathrm{ab}}}{P_{\\mathrm{zu}}}",
+      "pt": "\\eta = \\frac{P_{\\mathrm{u}}}{P_{\\mathrm{t}}}",
+      "ru": "\\eta = \\frac{P_{\\text{пол}}}{P_{\\text{затр}}}"
+     },
+     "objasnjenje": {
+      "sr": "Koliki deo uložene snage (energije) se korisno iskoristi; uvek je manji od 1 (100 %).",
+      "en": "Fraction of the input power (energy) that is usefully used; always less than 1 (100 %).",
+      "it": "Frazione della potenza (energia) assorbita che viene usata utilmente; sempre minore di 1 (100 %).",
+      "fr": "Part de la puissance (énergie) absorbée qui est utile ; toujours inférieur à 1 (100 %).",
+      "es": "Fracción de la potencia (energía) absorbida que se aprovecha; siempre menor que 1 (100 %).",
+      "de": "Anteil der zugeführten Leistung (Energie), der genutzt wird; immer kleiner als 1 (100 %).",
+      "pt": "Fração da potência (energia) fornecida que é aproveitada; sempre menor que 1 (100 %).",
+      "ru": "Доля затраченной мощности (энергии), которая используется полезно; всегда меньше 1 (100 %)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "P": {
+      "oznaka": "P",
+      "naziv": {
+       "sr": "snaga",
+       "en": "power",
+       "it": "potenza",
+       "fr": "puissance",
+       "es": "potencia",
+       "de": "Leistung",
+       "pt": "potência",
+       "ru": "мощность"
+      },
+      "vrsta": "snaga",
+      "jed": "kW"
+     },
+     "A": {
+      "oznaka": {
+       "sr": "A",
+       "en": "W",
+       "it": "L",
+       "fr": "W",
+       "es": "W",
+       "de": "W",
+       "pt": "W",
+       "ru": "A"
+      },
+      "naziv": {
+       "sr": "rad",
+       "en": "work",
+       "it": "lavoro",
+       "fr": "travail",
+       "es": "trabajo",
+       "de": "Arbeit",
+       "pt": "trabalho",
+       "ru": "работа"
+      },
+      "vrsta": "energija",
+      "pocetna": 3600000.0,
+      "jed": "kWh"
+     },
+     "t": {
+      "oznaka": "t",
+      "naziv": {
+       "sr": "vreme",
+       "en": "time",
+       "it": "tempo",
+       "fr": "temps",
+       "es": "tiempo",
+       "de": "Zeit",
+       "pt": "tempo",
+       "ru": "время"
+      },
+      "vrsta": "vreme",
+      "pocetna": 3600,
+      "jed": "h",
+      "poz": true
+     },
+     "F": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "sila",
+       "en": "force",
+       "it": "forza",
+       "fr": "force",
+       "es": "fuerza",
+       "de": "Kraft",
+       "pt": "força",
+       "ru": "сила"
+      },
+      "vrsta": "sila",
+      "pocetna": 2000
+     },
+     "v": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina",
+       "en": "velocity",
+       "it": "velocità",
+       "fr": "vitesse",
+       "es": "velocidad",
+       "de": "Geschwindigkeit",
+       "pt": "velocidade",
+       "ru": "скорость"
+      },
+      "vrsta": "brzina",
+      "pocetna": 25,
+      "jed": "km/h",
+      "nenegativna": true
+     },
+     "eta": {
+      "oznaka": "\\eta",
+      "naziv": {
+       "sr": "stepen korisnog dejstva",
+       "en": "efficiency",
+       "it": "rendimento",
+       "fr": "rendement",
+       "es": "rendimiento",
+       "de": "Wirkungsgrad",
+       "pt": "rendimento",
+       "ru": "коэффициент полезного действия"
+      },
+      "vrsta": "udeo",
+      "pocetna": 0.8,
+      "poz": true
+     },
+     "Pk": {
+      "oznaka": {
+       "sr": "P_{\\mathrm{k}}",
+       "en": "P_{\\mathrm{out}}",
+       "it": "P_{\\mathrm{u}}",
+       "fr": "P_{\\mathrm{u}}",
+       "es": "P_{\\mathrm{u}}",
+       "de": "P_{\\mathrm{ab}}",
+       "pt": "P_{\\mathrm{u}}",
+       "ru": "P_{\\text{пол}}"
+      },
+      "naziv": {
+       "sr": "korisna snaga",
+       "en": "useful power",
+       "it": "potenza utile",
+       "fr": "puissance utile",
+       "es": "potencia útil",
+       "de": "Nutzleistung",
+       "pt": "potência útil",
+       "ru": "полезная мощность"
+      },
+      "vrsta": "snaga",
+      "jed": "kW"
+     },
+     "Pu": {
+      "oznaka": {
+       "sr": "P_{\\mathrm{u}}",
+       "en": "P_{\\mathrm{in}}",
+       "it": "P_{\\mathrm{a}}",
+       "fr": "P_{\\mathrm{a}}",
+       "es": "P_{\\mathrm{a}}",
+       "de": "P_{\\mathrm{zu}}",
+       "pt": "P_{\\mathrm{t}}",
+       "ru": "P_{\\text{затр}}"
+      },
+      "naziv": {
+       "sr": "uložena snaga",
+       "en": "input power",
+       "it": "potenza assorbita",
+       "fr": "puissance absorbée",
+       "es": "potencia absorbida",
+       "de": "zugeführte Leistung",
+       "pt": "potência fornecida",
+       "ru": "затраченная мощность"
+      },
+      "vrsta": "snaga",
+      "pocetna": 2000,
+      "jed": "kW",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "P = \\dfrac{A}{t}",
+       "en": "P = \\dfrac{W}{t}",
+       "it": "P = \\dfrac{L}{t}",
+       "fr": "P = \\dfrac{W}{t}",
+       "es": "P = \\dfrac{W}{t}",
+       "de": "P = \\dfrac{W}{t}",
+       "pt": "P = \\dfrac{W}{t}",
+       "ru": "P = \\dfrac{A}{t}"
+      },
+      "trazi": "P",
+      "resenja": {
+       "P": "A/t",
+       "A": "P*t",
+       "t": "A/P"
+      }
+     },
+     {
+      "latex": "P = F v",
+      "trazi": "P",
+      "resenja": {
+       "P": "F*v",
+       "F": "P/v",
+       "v": "P/F"
+      }
+     },
+     {
+      "latex": {
+       "sr": "\\eta = \\dfrac{P_{\\mathrm{k}}}{P_{\\mathrm{u}}}",
+       "en": "\\eta = \\dfrac{P_{\\mathrm{out}}}{P_{\\mathrm{in}}}",
+       "it": "\\eta = \\dfrac{P_{\\mathrm{u}}}{P_{\\mathrm{a}}}",
+       "fr": "\\eta = \\dfrac{P_{\\mathrm{u}}}{P_{\\mathrm{a}}}",
+       "es": "\\eta = \\dfrac{P_{\\mathrm{u}}}{P_{\\mathrm{a}}}",
+       "de": "\\eta = \\dfrac{P_{\\mathrm{ab}}}{P_{\\mathrm{zu}}}",
+       "pt": "\\eta = \\dfrac{P_{\\mathrm{u}}}{P_{\\mathrm{t}}}",
+       "ru": "\\eta = \\dfrac{P_{\\text{пол}}}{P_{\\text{затр}}}"
+      },
+      "trazi": "Pk",
+      "resenja": {
+       "eta": "Pk/Pu",
+       "Pk": "eta*Pu",
+       "Pu": "Pk/eta"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="podnaslov">La matematica in tasca</string>
+    <string name="podnaslov">Matematica e fisica in tasca</string>
     <string name="pretraga_hint">Cerca formule… (es. cono, integrale)</string>
     <string name="obrisi_pretragu">Cancella ricerca</string>
     <string name="oblasti">Argomenti</string>
@@ -21,6 +21,30 @@
     <string name="opis_analiticka_geometrija">Retta, coniche</string>
     <string name="oblast_kombinatorika">Calcolo combinatorio</string>
     <string name="opis_kombinatorika">Probabilità, successioni</string>
+    <string name="oblast_fizika">Fisica</string>
+    <string name="opis_fizika">Moto, forze, energia</string>
+    <string name="oblast_kretanje">Moto</string>
+    <string name="opis_kretanje">Velocità, accelerazione</string>
+    <string name="oblast_sile">Forze</string>
+    <string name="opis_sile">Leggi di Newton, attrito</string>
+    <string name="oblast_energija">Lavoro ed energia</string>
+    <string name="opis_energija">Lavoro, potenza, energia</string>
+    <string name="oblast_fluidi">Fluidi</string>
+    <string name="opis_fluidi">Pressione, spinta</string>
+    <string name="oblast_rotacija">Rotazione</string>
+    <string name="opis_rotacija">Momento d’inerzia</string>
+    <string name="oblast_toplota">Calore</string>
+    <string name="opis_toplota">Gas, termodinamica</string>
+    <string name="oblast_elektricitet">Elettricità</string>
+    <string name="opis_elektricitet">Corrente, resistenza, condensatori</string>
+    <string name="oblast_magnetizam">Magnetismo</string>
+    <string name="opis_magnetizam">Campo, induzione</string>
+    <string name="oblast_talasi">Oscillazioni e onde</string>
+    <string name="opis_talasi">Pendolo, onde, ottica</string>
+    <string name="oblast_moderna_fizika">Fisica moderna</string>
+    <string name="opis_moderna_fizika">Fotoni, atomi, nuclei</string>
+    <string name="oblast_konstante">Costanti</string>
+    <string name="opis_konstante">Costanti fisiche e dati</string>
     <string name="rezultati">Risultati</string>
     <string name="nazad">Indietro</string>
     <string name="uskoro_oblast">Le formule di questo argomento arriveranno presto.</string>

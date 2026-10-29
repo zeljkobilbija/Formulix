@@ -1,0 +1,949 @@
+{
+ "oblast": "konstante",
+ "teme": [
+  {
+   "id": "mehanika",
+   "simbol": "g",
+   "naziv": {
+    "sr": "Mehanika i astronomija",
+    "en": "Mechanics and astronomy",
+    "it": "Meccanica e astronomia",
+    "fr": "Mécanique et astronomie",
+    "es": "Mecánica y astronomía",
+    "de": "Mechanik und Astronomie",
+    "pt": "Mecânica e astronomia",
+    "ru": "Механика и астрономия"
+   },
+   "opis": {
+    "sr": "g, G, Zemlja, Sunce, Mesec",
+    "en": "g, G, Earth, Sun, Moon",
+    "it": "g, G, Terra, Sole, Luna",
+    "fr": "g, G, Terre, Soleil, Lune",
+    "es": "g, G, Tierra, Sol, Luna",
+    "de": "g, G, Erde, Sonne, Mond",
+    "pt": "g, G, Terra, Sol, Lua",
+    "ru": "g, G, Земля, Солнце, Луна"
+   },
+   "kljucne_reci": {
+    "sr": "ubrzanje zemljine teže gravitaciona konstanta poluprečnik zemlje (srednji) masa zemlje masa sunca masa meseca udaljenost zemlja – sunce (astronomska jedinica) udaljenost zemlja – mesec (srednja) konstanta constant",
+    "en": "gravitational acceleration gravitational constant earth's radius (mean) mass of the earth mass of the sun mass of the moon earth – sun distance (astronomical unit) earth – moon distance (mean) konstanta constant",
+    "it": "accelerazione di gravità costante di gravitazione universale raggio terrestre (medio) massa della terra massa del sole massa della luna distanza terra – sole (unità astronomica) distanza terra – luna (media) konstanta constant",
+    "fr": "intensité de la pesanteur constante gravitationnelle rayon de la terre (moyen) masse de la terre masse du soleil masse de la lune distance terre – soleil (unité astronomique) distance terre – lune (moyenne) konstanta constant",
+    "es": "aceleración de la gravedad constante de gravitación universal radio de la tierra (medio) masa de la tierra masa del sol masa de la luna distancia tierra – sol (unidad astronómica) distancia tierra – luna (media) konstanta constant",
+    "de": "fallbeschleunigung gravitationskonstante erdradius (mittlerer) masse der erde masse der sonne masse des mondes abstand erde – sonne (astronomische einheit) abstand erde – mond (mittlerer) konstanta constant",
+    "pt": "aceleração da gravidade constante gravitacional raio da terra (médio) massa da terra massa do sol massa da lua distância terra – sol (unidade astronômica) distância terra – lua (média) konstanta constant",
+    "ru": "ускорение свободного падения гравитационная постоянная радиус земли (средний) масса земли масса солнца масса луны расстояние земля – солнце (астрономическая единица) расстояние земля – луна (среднее) konstanta constant"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Ubrzanje Zemljine teže",
+      "en": "Gravitational acceleration",
+      "it": "Accelerazione di gravità",
+      "fr": "Intensité de la pesanteur",
+      "es": "Aceleración de la gravedad",
+      "de": "Fallbeschleunigung",
+      "pt": "Aceleração da gravidade",
+      "ru": "Ускорение свободного падения"
+     },
+     "latex": {
+      "sr": "g_n = 9{,}806\\,65\\,\\mathrm{m}/\\mathrm{s}^{2}",
+      "en": "g_n = 9.806\\,65\\,\\mathrm{m}/\\mathrm{s}^{2}",
+      "it": "g_n = 9{,}806\\,65\\,\\mathrm{m}/\\mathrm{s}^{2}",
+      "fr": "g_n = 9{,}806\\,65\\,\\mathrm{m}/\\mathrm{s}^{2}",
+      "es": "g_n = 9{,}806\\,65\\,\\mathrm{m}/\\mathrm{s}^{2}",
+      "de": "g_n = 9{,}806\\,65\\,\\mathrm{m}/\\mathrm{s}^{2}",
+      "pt": "g_n = 9{,}806\\,65\\,\\mathrm{m}/\\mathrm{s}^{2}",
+      "ru": "g_n = 9{,}806\\,65\\,\\text{м}/\\text{с}^{2}"
+     },
+     "objasnjenje": {
+      "sr": "Tačna vrednost, po definiciji SI. Standardna vrednost; u proračunima se obično uzima g ≈ 9,81 m/s².",
+      "en": "Exact value, by definition of the SI. Standard value; calculations usually use g ≈ 9.81 m/s².",
+      "it": "Valore esatto, per definizione del SI. Valore standard; nei calcoli si usa di solito g ≈ 9,81 m/s².",
+      "fr": "Valeur exacte, par définition du SI. Valeur normale ; dans les calculs on prend souvent g ≈ 9,81 m/s².",
+      "es": "Valor exacto, por definición del SI. Valor estándar; en los cálculos se suele usar g ≈ 9,81 m/s².",
+      "de": "Exakter Wert, per Definition des SI. Normwert; in Rechnungen meist g ≈ 9,81 m/s².",
+      "pt": "Valor exato, por definição do SI. Valor padrão; nos cálculos usa-se em geral g ≈ 9,81 m/s².",
+      "ru": "Точное значение по определению СИ. Нормальное значение; в расчётах обычно g ≈ 9,81 м/с²."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Gravitaciona konstanta",
+      "en": "Gravitational constant",
+      "it": "Costante di gravitazione universale",
+      "fr": "Constante gravitationnelle",
+      "es": "Constante de gravitación universal",
+      "de": "Gravitationskonstante",
+      "pt": "Constante gravitacional",
+      "ru": "Гравитационная постоянная"
+     },
+     "latex": {
+      "sr": "G = 6{,}674\\,30 \\cdot 10^{-11}\\,\\mathrm{N}\\cdot \\mathrm{m}^{2}/\\mathrm{kg}^{2}",
+      "en": "G = 6.674\\,30 \\cdot 10^{-11}\\,\\mathrm{N}\\cdot \\mathrm{m}^{2}/\\mathrm{kg}^{2}",
+      "it": "G = 6{,}674\\,30 \\cdot 10^{-11}\\,\\mathrm{N}\\cdot \\mathrm{m}^{2}/\\mathrm{kg}^{2}",
+      "fr": "G = 6{,}674\\,30 \\cdot 10^{-11}\\,\\mathrm{N}\\cdot \\mathrm{m}^{2}/\\mathrm{kg}^{2}",
+      "es": "G = 6{,}674\\,30 \\cdot 10^{-11}\\,\\mathrm{N}\\cdot \\mathrm{m}^{2}/\\mathrm{kg}^{2}",
+      "de": "G = 6{,}674\\,30 \\cdot 10^{-11}\\,\\mathrm{N}\\cdot \\mathrm{m}^{2}/\\mathrm{kg}^{2}",
+      "pt": "G = 6{,}674\\,30 \\cdot 10^{-11}\\,\\mathrm{N}\\cdot \\mathrm{m}^{2}/\\mathrm{kg}^{2}",
+      "ru": "G = 6{,}674\\,30 \\cdot 10^{-11}\\,\\text{Н}\\cdot \\text{м}^{2}/\\text{кг}^{2}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Poluprečnik Zemlje (srednji)",
+      "en": "Earth's radius (mean)",
+      "it": "Raggio terrestre (medio)",
+      "fr": "Rayon de la Terre (moyen)",
+      "es": "Radio de la Tierra (medio)",
+      "de": "Erdradius (mittlerer)",
+      "pt": "Raio da Terra (médio)",
+      "ru": "Радиус Земли (средний)"
+     },
+     "latex": {
+      "sr": "R_Z = 6371\\,\\mathrm{km}",
+      "en": "R_Z = 6371\\,\\mathrm{km}",
+      "it": "R_Z = 6371\\,\\mathrm{km}",
+      "fr": "R_Z = 6371\\,\\mathrm{km}",
+      "es": "R_Z = 6371\\,\\mathrm{km}",
+      "de": "R_Z = 6371\\,\\mathrm{km}",
+      "pt": "R_Z = 6371\\,\\mathrm{km}",
+      "ru": "R_Z = 6371\\,\\text{км}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Masa Zemlje",
+      "en": "Mass of the Earth",
+      "it": "Massa della Terra",
+      "fr": "Masse de la Terre",
+      "es": "Masa de la Tierra",
+      "de": "Masse der Erde",
+      "pt": "Massa da Terra",
+      "ru": "Масса Земли"
+     },
+     "latex": {
+      "sr": "M_Z = 5{,}972 \\cdot 10^{24}\\,\\mathrm{kg}",
+      "en": "M_Z = 5.972 \\cdot 10^{24}\\,\\mathrm{kg}",
+      "it": "M_Z = 5{,}972 \\cdot 10^{24}\\,\\mathrm{kg}",
+      "fr": "M_Z = 5{,}972 \\cdot 10^{24}\\,\\mathrm{kg}",
+      "es": "M_Z = 5{,}972 \\cdot 10^{24}\\,\\mathrm{kg}",
+      "de": "M_Z = 5{,}972 \\cdot 10^{24}\\,\\mathrm{kg}",
+      "pt": "M_Z = 5{,}972 \\cdot 10^{24}\\,\\mathrm{kg}",
+      "ru": "M_Z = 5{,}972 \\cdot 10^{24}\\,\\text{кг}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Masa Sunca",
+      "en": "Mass of the Sun",
+      "it": "Massa del Sole",
+      "fr": "Masse du Soleil",
+      "es": "Masa del Sol",
+      "de": "Masse der Sonne",
+      "pt": "Massa do Sol",
+      "ru": "Масса Солнца"
+     },
+     "latex": {
+      "sr": "M_S = 1{,}989 \\cdot 10^{30}\\,\\mathrm{kg}",
+      "en": "M_S = 1.989 \\cdot 10^{30}\\,\\mathrm{kg}",
+      "it": "M_S = 1{,}989 \\cdot 10^{30}\\,\\mathrm{kg}",
+      "fr": "M_S = 1{,}989 \\cdot 10^{30}\\,\\mathrm{kg}",
+      "es": "M_S = 1{,}989 \\cdot 10^{30}\\,\\mathrm{kg}",
+      "de": "M_S = 1{,}989 \\cdot 10^{30}\\,\\mathrm{kg}",
+      "pt": "M_S = 1{,}989 \\cdot 10^{30}\\,\\mathrm{kg}",
+      "ru": "M_S = 1{,}989 \\cdot 10^{30}\\,\\text{кг}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Masa Meseca",
+      "en": "Mass of the Moon",
+      "it": "Massa della Luna",
+      "fr": "Masse de la Lune",
+      "es": "Masa de la Luna",
+      "de": "Masse des Mondes",
+      "pt": "Massa da Lua",
+      "ru": "Масса Луны"
+     },
+     "latex": {
+      "sr": "M_M = 7{,}342 \\cdot 10^{22}\\,\\mathrm{kg}",
+      "en": "M_M = 7.342 \\cdot 10^{22}\\,\\mathrm{kg}",
+      "it": "M_M = 7{,}342 \\cdot 10^{22}\\,\\mathrm{kg}",
+      "fr": "M_M = 7{,}342 \\cdot 10^{22}\\,\\mathrm{kg}",
+      "es": "M_M = 7{,}342 \\cdot 10^{22}\\,\\mathrm{kg}",
+      "de": "M_M = 7{,}342 \\cdot 10^{22}\\,\\mathrm{kg}",
+      "pt": "M_M = 7{,}342 \\cdot 10^{22}\\,\\mathrm{kg}",
+      "ru": "M_M = 7{,}342 \\cdot 10^{22}\\,\\text{кг}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Udaljenost Zemlja – Sunce (astronomska jedinica)",
+      "en": "Earth – Sun distance (astronomical unit)",
+      "it": "Distanza Terra – Sole (unità astronomica)",
+      "fr": "Distance Terre – Soleil (unité astronomique)",
+      "es": "Distancia Tierra – Sol (unidad astronómica)",
+      "de": "Abstand Erde – Sonne (Astronomische Einheit)",
+      "pt": "Distância Terra – Sol (unidade astronômica)",
+      "ru": "Расстояние Земля – Солнце (астрономическая единица)"
+     },
+     "latex": {
+      "sr": "1\\,\\mathrm{AJ} = 1{,}495\\,978\\,707 \\cdot 10^{8}\\,\\mathrm{km}",
+      "en": "1\\,\\mathrm{AU} = 1.495\\,978\\,707 \\cdot 10^{8}\\,\\mathrm{km}",
+      "it": "1\\,\\mathrm{UA} = 1{,}495\\,978\\,707 \\cdot 10^{8}\\,\\mathrm{km}",
+      "fr": "1\\,\\mathrm{UA} = 1{,}495\\,978\\,707 \\cdot 10^{8}\\,\\mathrm{km}",
+      "es": "1\\,\\mathrm{UA} = 1{,}495\\,978\\,707 \\cdot 10^{8}\\,\\mathrm{km}",
+      "de": "1\\,\\mathrm{AE} = 1{,}495\\,978\\,707 \\cdot 10^{8}\\,\\mathrm{km}",
+      "pt": "1\\,\\mathrm{UA} = 1{,}495\\,978\\,707 \\cdot 10^{8}\\,\\mathrm{km}",
+      "ru": "1\\,\\text{а.е.} = 1{,}495\\,978\\,707 \\cdot 10^{8}\\,\\text{км}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Udaljenost Zemlja – Mesec (srednja)",
+      "en": "Earth – Moon distance (mean)",
+      "it": "Distanza Terra – Luna (media)",
+      "fr": "Distance Terre – Lune (moyenne)",
+      "es": "Distancia Tierra – Luna (media)",
+      "de": "Abstand Erde – Mond (mittlerer)",
+      "pt": "Distância Terra – Lua (média)",
+      "ru": "Расстояние Земля – Луна (среднее)"
+     },
+     "latex": {
+      "sr": "d = 384\\,400\\,\\mathrm{km}",
+      "en": "d = 384\\,400\\,\\mathrm{km}",
+      "it": "d = 384\\,400\\,\\mathrm{km}",
+      "fr": "d = 384\\,400\\,\\mathrm{km}",
+      "es": "d = 384\\,400\\,\\mathrm{km}",
+      "de": "d = 384\\,400\\,\\mathrm{km}",
+      "pt": "d = 384\\,400\\,\\mathrm{km}",
+      "ru": "d = 384\\,400\\,\\text{км}"
+     }
+    }
+   ]
+  },
+  {
+   "id": "supstance",
+   "simbol": "ρ",
+   "naziv": {
+    "sr": "Supstance i gasovi",
+    "en": "Substances and gases",
+    "it": "Sostanze e gas",
+    "fr": "Substances et gaz",
+    "es": "Sustancias y gases",
+    "de": "Stoffe und Gase",
+    "pt": "Substâncias e gases",
+    "ru": "Вещества и газы"
+   },
+   "opis": {
+    "sr": "Voda, vazduh, R, Nₐ, k",
+    "en": "Water, air, R, Nₐ, k",
+    "it": "Acqua, aria, R, Nₐ, k",
+    "fr": "Eau, air, R, Nₐ, k",
+    "es": "Agua, aire, R, Nₐ, k",
+    "de": "Wasser, Luft, R, Nₐ, k",
+    "pt": "Água, ar, R, Nₐ, k",
+    "ru": "Вода, воздух, R, Nₐ, k"
+   },
+   "kljucne_reci": {
+    "sr": "gustina vode normalni atmosferski pritisak specifični toplotni kapacitet vode indeks prelamanja vode univerzalna gasna konstanta avogadrova konstanta bolcmanova konstanta molarna masa vazduha odnos specifičnih toplota gasa konstanta constant",
+    "en": "density of water standard atmospheric pressure specific heat capacity of water refractive index of water molar gas constant avogadro constant boltzmann constant molar mass of air heat capacity ratio of a gas konstanta constant",
+    "it": "densità dell’acqua pressione atmosferica normale calore specifico dell’acqua indice di rifrazione dell’acqua costante universale dei gas costante di avogadro costante di boltzmann massa molare dell’aria rapporto dei calori specifici konstanta constant",
+    "fr": "masse volumique de l’eau pression atmosphérique normale capacité thermique massique de l’eau indice de réfraction de l’eau constante des gaz parfaits constante d’avogadro constante de boltzmann masse molaire de l’air indice adiabatique d’un gaz konstanta constant",
+    "es": "densidad del agua presión atmosférica normal calor específico del agua índice de refracción del agua constante universal de los gases constante de avogadro constante de boltzmann masa molar del aire coeficiente adiabático de un gas konstanta constant",
+    "de": "dichte von wasser normaler luftdruck spezifische wärmekapazität von wasser brechungsindex von wasser universelle gaskonstante avogadro-konstante boltzmann-konstante molare masse der luft isentropenexponent eines gases konstanta constant",
+    "pt": "massa específica da água pressão atmosférica normal calor específico da água índice de refração da água constante universal dos gases constante de avogadro constante de boltzmann massa molar do ar coeficiente de poisson de um gás konstanta constant",
+    "ru": "плотность воды нормальное атмосферное давление удельная теплоёмкость воды показатель преломления воды универсальная газовая постоянная постоянная авогадро постоянная больцмана молярная масса воздуха показатель адиабаты газа konstanta constant"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Gustina vode",
+      "en": "Density of water",
+      "it": "Densità dell’acqua",
+      "fr": "Masse volumique de l’eau",
+      "es": "Densidad del agua",
+      "de": "Dichte von Wasser",
+      "pt": "Massa específica da água",
+      "ru": "Плотность воды"
+     },
+     "latex": {
+      "sr": "\\rho_{\\mathrm{H_2O}} \\approx 1000\\,\\mathrm{kg}/\\mathrm{m}^{3}",
+      "en": "\\rho_{\\mathrm{H_2O}} \\approx 1000\\,\\mathrm{kg}/\\mathrm{m}^{3}",
+      "it": "\\rho_{\\mathrm{H_2O}} \\approx 1000\\,\\mathrm{kg}/\\mathrm{m}^{3}",
+      "fr": "\\rho_{\\mathrm{H_2O}} \\approx 1000\\,\\mathrm{kg}/\\mathrm{m}^{3}",
+      "es": "\\rho_{\\mathrm{H_2O}} \\approx 1000\\,\\mathrm{kg}/\\mathrm{m}^{3}",
+      "de": "\\rho_{\\mathrm{H_2O}} \\approx 1000\\,\\mathrm{kg}/\\mathrm{m}^{3}",
+      "pt": "\\rho_{\\mathrm{H_2O}} \\approx 1000\\,\\mathrm{kg}/\\mathrm{m}^{3}",
+      "ru": "\\rho_{\\mathrm{H_2O}} \\approx 1000\\,\\text{кг}/\\text{м}^{3}"
+     },
+     "objasnjenje": {
+      "sr": "Na 4 °C; 1 g/cm³ = 1 kg/L.",
+      "en": "At 4 °C; 1 g/cm³ = 1 kg/L.",
+      "it": "A 4 °C; 1 g/cm³ = 1 kg/L.",
+      "fr": "À 4 °C ; 1 g/cm³ = 1 kg/L.",
+      "es": "A 4 °C; 1 g/cm³ = 1 kg/L.",
+      "de": "Bei 4 °C; 1 g/cm³ = 1 kg/L.",
+      "pt": "A 4 °C; 1 g/cm³ = 1 kg/L.",
+      "ru": "При 4 °C; 1 г/см³ = 1 кг/л."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Normalni atmosferski pritisak",
+      "en": "Standard atmospheric pressure",
+      "it": "Pressione atmosferica normale",
+      "fr": "Pression atmosphérique normale",
+      "es": "Presión atmosférica normal",
+      "de": "Normaler Luftdruck",
+      "pt": "Pressão atmosférica normal",
+      "ru": "Нормальное атмосферное давление"
+     },
+     "latex": {
+      "sr": "p_0 = 101\\,325\\,\\mathrm{Pa}, \\quad = 101{,}325\\,\\mathrm{kPa}",
+      "en": "p_0 = 101\\,325\\,\\mathrm{Pa}, \\quad = 101.325\\,\\mathrm{kPa}",
+      "it": "p_0 = 101\\,325\\,\\mathrm{Pa}, \\quad = 101{,}325\\,\\mathrm{kPa}",
+      "fr": "p_0 = 101\\,325\\,\\mathrm{Pa}, \\quad = 101{,}325\\,\\mathrm{kPa}",
+      "es": "p_0 = 101\\,325\\,\\mathrm{Pa}, \\quad = 101{,}325\\,\\mathrm{kPa}",
+      "de": "p_0 = 101\\,325\\,\\mathrm{Pa}, \\quad = 101{,}325\\,\\mathrm{kPa}",
+      "pt": "p_0 = 101\\,325\\,\\mathrm{Pa}, \\quad = 101{,}325\\,\\mathrm{kPa}",
+      "ru": "p_0 = 101\\,325\\,\\text{Па}, \\quad = 101{,}325\\,\\text{кПа}"
+     },
+     "objasnjenje": {
+      "sr": "Tačna vrednost, po definiciji SI. Na nivou mora; često se zaokružuje na 100 kPa.",
+      "en": "Exact value, by definition of the SI. At sea level; often rounded to 100 kPa.",
+      "it": "Valore esatto, per definizione del SI. Al livello del mare; spesso arrotondata a 100 kPa.",
+      "fr": "Valeur exacte, par définition du SI. Au niveau de la mer ; souvent arrondie à 100 kPa.",
+      "es": "Valor exacto, por definición del SI. Al nivel del mar; a menudo se redondea a 100 kPa.",
+      "de": "Exakter Wert, per Definition des SI. Auf Meereshöhe; oft auf 100 kPa gerundet.",
+      "pt": "Valor exato, por definição do SI. Ao nível do mar; muitas vezes arredondada para 100 kPa.",
+      "ru": "Точное значение по определению СИ. На уровне моря; часто округляют до 100 кПа."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Specifični toplotni kapacitet vode",
+      "en": "Specific heat capacity of water",
+      "it": "Calore specifico dell’acqua",
+      "fr": "Capacité thermique massique de l’eau",
+      "es": "Calor específico del agua",
+      "de": "Spezifische Wärmekapazität von Wasser",
+      "pt": "Calor específico da água",
+      "ru": "Удельная теплоёмкость воды"
+     },
+     "latex": {
+      "sr": "c_{\\mathrm{H_2O}} \\approx 4186\\,\\mathrm{J}/(\\mathrm{kg}\\cdot \\mathrm{K})",
+      "en": "c_{\\mathrm{H_2O}} \\approx 4186\\,\\mathrm{J}/(\\mathrm{kg}\\cdot \\mathrm{K})",
+      "it": "c_{\\mathrm{H_2O}} \\approx 4186\\,\\mathrm{J}/(\\mathrm{kg}\\cdot \\mathrm{K})",
+      "fr": "c_{\\mathrm{H_2O}} \\approx 4186\\,\\mathrm{J}/(\\mathrm{kg}\\cdot \\mathrm{K})",
+      "es": "c_{\\mathrm{H_2O}} \\approx 4186\\,\\mathrm{J}/(\\mathrm{kg}\\cdot \\mathrm{K})",
+      "de": "c_{\\mathrm{H_2O}} \\approx 4186\\,\\mathrm{J}/(\\mathrm{kg}\\cdot \\mathrm{K})",
+      "pt": "c_{\\mathrm{H_2O}} \\approx 4186\\,\\mathrm{J}/(\\mathrm{kg}\\cdot \\mathrm{K})",
+      "ru": "c_{\\mathrm{H_2O}} \\approx 4186\\,\\text{Дж}/(\\text{кг}\\cdot \\text{К})"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Indeks prelamanja vode",
+      "en": "Refractive index of water",
+      "it": "Indice di rifrazione dell’acqua",
+      "fr": "Indice de réfraction de l’eau",
+      "es": "Índice de refracción del agua",
+      "de": "Brechungsindex von Wasser",
+      "pt": "Índice de refração da água",
+      "ru": "Показатель преломления воды"
+     },
+     "latex": {
+      "sr": "n \\approx 1{,}33",
+      "en": "n \\approx 1.33",
+      "it": "n \\approx 1{,}33",
+      "fr": "n \\approx 1{,}33",
+      "es": "n \\approx 1{,}33",
+      "de": "n \\approx 1{,}33",
+      "pt": "n \\approx 1{,}33",
+      "ru": "n \\approx 1{,}33"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Univerzalna gasna konstanta",
+      "en": "Molar gas constant",
+      "it": "Costante universale dei gas",
+      "fr": "Constante des gaz parfaits",
+      "es": "Constante universal de los gases",
+      "de": "Universelle Gaskonstante",
+      "pt": "Constante universal dos gases",
+      "ru": "Универсальная газовая постоянная"
+     },
+     "latex": {
+      "sr": "R = 8{,}314\\,462\\,618\\,\\mathrm{J}/(\\mathrm{mol}\\cdot \\mathrm{K})",
+      "en": "R = 8.314\\,462\\,618\\,\\mathrm{J}/(\\mathrm{mol}\\cdot \\mathrm{K})",
+      "it": "R = 8{,}314\\,462\\,618\\,\\mathrm{J}/(\\mathrm{mol}\\cdot \\mathrm{K})",
+      "fr": "R = 8{,}314\\,462\\,618\\,\\mathrm{J}/(\\mathrm{mol}\\cdot \\mathrm{K})",
+      "es": "R = 8{,}314\\,462\\,618\\,\\mathrm{J}/(\\mathrm{mol}\\cdot \\mathrm{K})",
+      "de": "R = 8{,}314\\,462\\,618\\,\\mathrm{J}/(\\mathrm{mol}\\cdot \\mathrm{K})",
+      "pt": "R = 8{,}314\\,462\\,618\\,\\mathrm{J}/(\\mathrm{mol}\\cdot \\mathrm{K})",
+      "ru": "R = 8{,}314\\,462\\,618\\,\\text{Дж}/(\\text{моль}\\cdot \\text{К})"
+     },
+     "objasnjenje": {
+      "sr": "Tačna vrednost, po definiciji SI. R = Nₐ·k. U kilomolovima: 8314 J/(kmol·K).",
+      "en": "Exact value, by definition of the SI. R = Nₐ·k. Per kilomole: 8314 J/(kmol·K).",
+      "it": "Valore esatto, per definizione del SI. R = Nₐ·k. Per kilomole: 8314 J/(kmol·K).",
+      "fr": "Valeur exacte, par définition du SI. R = Nₐ·k. Par kilomole : 8314 J/(kmol·K).",
+      "es": "Valor exacto, por definición del SI. R = Nₐ·k. Por kilomol: 8314 J/(kmol·K).",
+      "de": "Exakter Wert, per Definition des SI. R = Nₐ·k. Pro Kilomol: 8314 J/(kmol·K).",
+      "pt": "Valor exato, por definição do SI. R = Nₐ·k. Por quilomol: 8314 J/(kmol·K).",
+      "ru": "Точное значение по определению СИ. R = Nₐ·k. На киломоль: 8314 Дж/(кмоль·К)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Avogadrova konstanta",
+      "en": "Avogadro constant",
+      "it": "Costante di Avogadro",
+      "fr": "Constante d’Avogadro",
+      "es": "Constante de Avogadro",
+      "de": "Avogadro-Konstante",
+      "pt": "Constante de Avogadro",
+      "ru": "Постоянная Авогадро"
+     },
+     "latex": {
+      "sr": "N_A = 6{,}022\\,140\\,76 \\cdot 10^{23}\\,\\mathrm{mol}^{-1}",
+      "en": "N_A = 6.022\\,140\\,76 \\cdot 10^{23}\\,\\mathrm{mol}^{-1}",
+      "it": "N_A = 6{,}022\\,140\\,76 \\cdot 10^{23}\\,\\mathrm{mol}^{-1}",
+      "fr": "N_A = 6{,}022\\,140\\,76 \\cdot 10^{23}\\,\\mathrm{mol}^{-1}",
+      "es": "N_A = 6{,}022\\,140\\,76 \\cdot 10^{23}\\,\\mathrm{mol}^{-1}",
+      "de": "N_A = 6{,}022\\,140\\,76 \\cdot 10^{23}\\,\\mathrm{mol}^{-1}",
+      "pt": "N_A = 6{,}022\\,140\\,76 \\cdot 10^{23}\\,\\mathrm{mol}^{-1}",
+      "ru": "N_A = 6{,}022\\,140\\,76 \\cdot 10^{23}\\,\\text{моль}^{-1}"
+     },
+     "objasnjenje": {
+      "sr": "Tačna vrednost, po definiciji SI.",
+      "en": "Exact value, by definition of the SI.",
+      "it": "Valore esatto, per definizione del SI.",
+      "fr": "Valeur exacte, par définition du SI.",
+      "es": "Valor exacto, por definición del SI.",
+      "de": "Exakter Wert, per Definition des SI.",
+      "pt": "Valor exato, por definição do SI.",
+      "ru": "Точное значение по определению СИ."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Bolcmanova konstanta",
+      "en": "Boltzmann constant",
+      "it": "Costante di Boltzmann",
+      "fr": "Constante de Boltzmann",
+      "es": "Constante de Boltzmann",
+      "de": "Boltzmann-Konstante",
+      "pt": "Constante de Boltzmann",
+      "ru": "Постоянная Больцмана"
+     },
+     "latex": {
+      "sr": "k = 1{,}380\\,649 \\cdot 10^{-23}\\,\\mathrm{J}/\\mathrm{K}",
+      "en": "k = 1.380\\,649 \\cdot 10^{-23}\\,\\mathrm{J}/\\mathrm{K}",
+      "it": "k = 1{,}380\\,649 \\cdot 10^{-23}\\,\\mathrm{J}/\\mathrm{K}",
+      "fr": "k = 1{,}380\\,649 \\cdot 10^{-23}\\,\\mathrm{J}/\\mathrm{K}",
+      "es": "k = 1{,}380\\,649 \\cdot 10^{-23}\\,\\mathrm{J}/\\mathrm{K}",
+      "de": "k = 1{,}380\\,649 \\cdot 10^{-23}\\,\\mathrm{J}/\\mathrm{K}",
+      "pt": "k = 1{,}380\\,649 \\cdot 10^{-23}\\,\\mathrm{J}/\\mathrm{K}",
+      "ru": "k = 1{,}380\\,649 \\cdot 10^{-23}\\,\\text{Дж}/\\text{К}"
+     },
+     "objasnjenje": {
+      "sr": "Tačna vrednost, po definiciji SI.",
+      "en": "Exact value, by definition of the SI.",
+      "it": "Valore esatto, per definizione del SI.",
+      "fr": "Valeur exacte, par définition du SI.",
+      "es": "Valor exacto, por definición del SI.",
+      "de": "Exakter Wert, per Definition des SI.",
+      "pt": "Valor exato, por definição do SI.",
+      "ru": "Точное значение по определению СИ."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Molarna masa vazduha",
+      "en": "Molar mass of air",
+      "it": "Massa molare dell’aria",
+      "fr": "Masse molaire de l’air",
+      "es": "Masa molar del aire",
+      "de": "Molare Masse der Luft",
+      "pt": "Massa molar do ar",
+      "ru": "Молярная масса воздуха"
+     },
+     "latex": {
+      "sr": "M = 0{,}028\\,97\\,\\mathrm{kg}/\\mathrm{mol}, \\quad = 28{,}97\\,\\mathrm{g}/\\mathrm{mol}",
+      "en": "M = 0.028\\,97\\,\\mathrm{kg}/\\mathrm{mol}, \\quad = 28.97\\,\\mathrm{g}/\\mathrm{mol}",
+      "it": "M = 0{,}028\\,97\\,\\mathrm{kg}/\\mathrm{mol}, \\quad = 28{,}97\\,\\mathrm{g}/\\mathrm{mol}",
+      "fr": "M = 0{,}028\\,97\\,\\mathrm{kg}/\\mathrm{mol}, \\quad = 28{,}97\\,\\mathrm{g}/\\mathrm{mol}",
+      "es": "M = 0{,}028\\,97\\,\\mathrm{kg}/\\mathrm{mol}, \\quad = 28{,}97\\,\\mathrm{g}/\\mathrm{mol}",
+      "de": "M = 0{,}028\\,97\\,\\mathrm{kg}/\\mathrm{mol}, \\quad = 28{,}97\\,\\mathrm{g}/\\mathrm{mol}",
+      "pt": "M = 0{,}028\\,97\\,\\mathrm{kg}/\\mathrm{mol}, \\quad = 28{,}97\\,\\mathrm{g}/\\mathrm{mol}",
+      "ru": "M = 0{,}028\\,97\\,\\text{кг}/\\text{моль}, \\quad = 28{,}97\\,\\text{г}/\\text{моль}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Odnos specifičnih toplota gasa",
+      "en": "Heat capacity ratio of a gas",
+      "it": "Rapporto dei calori specifici",
+      "fr": "Indice adiabatique d’un gaz",
+      "es": "Coeficiente adiabático de un gas",
+      "de": "Isentropenexponent eines Gases",
+      "pt": "Coeficiente de Poisson de um gás",
+      "ru": "Показатель адиабаты газа"
+     },
+     "latex": {
+      "sr": "\\kappa = \\frac{5}{3} \\;\\text{(jednoatomni)}, \\quad \\kappa = \\frac{7}{5} \\;\\text{(dvoatomni)}",
+      "en": "\\kappa = \\frac{5}{3} \\;\\text{(monatomic)}, \\quad \\kappa = \\frac{7}{5} \\;\\text{(diatomic)}",
+      "it": "\\kappa = \\frac{5}{3} \\;\\text{(monoatomico)}, \\quad \\kappa = \\frac{7}{5} \\;\\text{(biatomico)}",
+      "fr": "\\kappa = \\frac{5}{3} \\;\\text{(monoatomique)}, \\quad \\kappa = \\frac{7}{5} \\;\\text{(diatomique)}",
+      "es": "\\kappa = \\frac{5}{3} \\;\\text{(monoatómico)}, \\quad \\kappa = \\frac{7}{5} \\;\\text{(diatómico)}",
+      "de": "\\kappa = \\frac{5}{3} \\;\\text{(einatomig)}, \\quad \\kappa = \\frac{7}{5} \\;\\text{(zweiatomig)}",
+      "pt": "\\kappa = \\frac{5}{3} \\;\\text{(monoatômico)}, \\quad \\kappa = \\frac{7}{5} \\;\\text{(diatômico)}",
+      "ru": "\\kappa = \\frac{5}{3} \\;\\text{(одноатомный)}, \\quad \\kappa = \\frac{7}{5} \\;\\text{(двухатомный)}"
+     },
+     "objasnjenje": {
+      "sr": "κ = cₚ / cᵥ; koristi se za adijabatske procese.",
+      "en": "κ = cₚ / cᵥ; used for adiabatic processes.",
+      "it": "κ = cₚ / cᵥ; si usa nelle trasformazioni adiabatiche.",
+      "fr": "κ = cₚ / cᵥ ; utilisé pour les transformations adiabatiques.",
+      "es": "κ = cₚ / cᵥ; se usa en procesos adiabáticos.",
+      "de": "κ = cₚ / cᵥ; für adiabatische Prozesse.",
+      "pt": "κ = cₚ / cᵥ; usado em processos adiabáticos.",
+      "ru": "κ = cₚ / cᵥ; используется для адиабатных процессов."
+     }
+    }
+   ]
+  },
+  {
+   "id": "elektromagnetizam",
+   "simbol": "e",
+   "naziv": {
+    "sr": "Elektricitet i magnetizam",
+    "en": "Electricity and magnetism",
+    "it": "Elettricità e magnetismo",
+    "fr": "Électricité et magnétisme",
+    "es": "Electricidad y magnetismo",
+    "de": "Elektrizität und Magnetismus",
+    "pt": "Eletricidade e magnetismo",
+    "ru": "Электричество и магнетизм"
+   },
+   "opis": {
+    "sr": "e, ε₀, μ₀, Kulonova konstanta",
+    "en": "e, ε₀, μ₀, Coulomb constant",
+    "it": "e, ε₀, μ₀, costante di Coulomb",
+    "fr": "e, ε₀, μ₀, constante de Coulomb",
+    "es": "e, ε₀, μ₀, constante de Coulomb",
+    "de": "e, ε₀, μ₀, Coulomb-Konstante",
+    "pt": "e, ε₀, μ₀, constante de Coulomb",
+    "ru": "e, ε₀, μ₀, постоянная Кулона"
+   },
+   "kljucne_reci": {
+    "sr": "elementarno naelektrisanje električna konstanta (permitivnost vakuuma) magnetna konstanta (permeabilnost vakuuma) kulonova konstanta konstanta constant",
+    "en": "elementary charge electric constant (vacuum permittivity) magnetic constant (vacuum permeability) coulomb constant konstanta constant",
+    "it": "carica elementare costante dielettrica del vuoto permeabilità magnetica del vuoto costante di coulomb konstanta constant",
+    "fr": "charge élémentaire permittivité du vide perméabilité du vide constante de coulomb konstanta constant",
+    "es": "carga elemental permitividad del vacío permeabilidad del vacío constante de coulomb konstanta constant",
+    "de": "elementarladung elektrische feldkonstante magnetische feldkonstante coulomb-konstante konstanta constant",
+    "pt": "carga elementar permissividade do vácuo permeabilidade do vácuo constante de coulomb konstanta constant",
+    "ru": "элементарный заряд электрическая постоянная магнитная постоянная постоянная кулона konstanta constant"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Elementarno naelektrisanje",
+      "en": "Elementary charge",
+      "it": "Carica elementare",
+      "fr": "Charge élémentaire",
+      "es": "Carga elemental",
+      "de": "Elementarladung",
+      "pt": "Carga elementar",
+      "ru": "Элементарный заряд"
+     },
+     "latex": {
+      "sr": "e = 1{,}602\\,176\\,634 \\cdot 10^{-19}\\,\\mathrm{C}",
+      "en": "e = 1.602\\,176\\,634 \\cdot 10^{-19}\\,\\mathrm{C}",
+      "it": "e = 1{,}602\\,176\\,634 \\cdot 10^{-19}\\,\\mathrm{C}",
+      "fr": "e = 1{,}602\\,176\\,634 \\cdot 10^{-19}\\,\\mathrm{C}",
+      "es": "e = 1{,}602\\,176\\,634 \\cdot 10^{-19}\\,\\mathrm{C}",
+      "de": "e = 1{,}602\\,176\\,634 \\cdot 10^{-19}\\,\\mathrm{C}",
+      "pt": "e = 1{,}602\\,176\\,634 \\cdot 10^{-19}\\,\\mathrm{C}",
+      "ru": "e = 1{,}602\\,176\\,634 \\cdot 10^{-19}\\,\\text{Кл}"
+     },
+     "objasnjenje": {
+      "sr": "Tačna vrednost, po definiciji SI.",
+      "en": "Exact value, by definition of the SI.",
+      "it": "Valore esatto, per definizione del SI.",
+      "fr": "Valeur exacte, par définition du SI.",
+      "es": "Valor exacto, por definición del SI.",
+      "de": "Exakter Wert, per Definition des SI.",
+      "pt": "Valor exato, por definição do SI.",
+      "ru": "Точное значение по определению СИ."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Električna konstanta (permitivnost vakuuma)",
+      "en": "Electric constant (vacuum permittivity)",
+      "it": "Costante dielettrica del vuoto",
+      "fr": "Permittivité du vide",
+      "es": "Permitividad del vacío",
+      "de": "Elektrische Feldkonstante",
+      "pt": "Permissividade do vácuo",
+      "ru": "Электрическая постоянная"
+     },
+     "latex": {
+      "sr": "\\varepsilon_0 = 8{,}854\\,187\\,818\\,8 \\cdot 10^{-12}\\,\\mathrm{F}/\\mathrm{m}",
+      "en": "\\varepsilon_0 = 8.854\\,187\\,818\\,8 \\cdot 10^{-12}\\,\\mathrm{F}/\\mathrm{m}",
+      "it": "\\varepsilon_0 = 8{,}854\\,187\\,818\\,8 \\cdot 10^{-12}\\,\\mathrm{F}/\\mathrm{m}",
+      "fr": "\\varepsilon_0 = 8{,}854\\,187\\,818\\,8 \\cdot 10^{-12}\\,\\mathrm{F}/\\mathrm{m}",
+      "es": "\\varepsilon_0 = 8{,}854\\,187\\,818\\,8 \\cdot 10^{-12}\\,\\mathrm{F}/\\mathrm{m}",
+      "de": "\\varepsilon_0 = 8{,}854\\,187\\,818\\,8 \\cdot 10^{-12}\\,\\mathrm{F}/\\mathrm{m}",
+      "pt": "\\varepsilon_0 = 8{,}854\\,187\\,818\\,8 \\cdot 10^{-12}\\,\\mathrm{F}/\\mathrm{m}",
+      "ru": "\\varepsilon_0 = 8{,}854\\,187\\,818\\,8 \\cdot 10^{-12}\\,\\text{Ф}/\\text{м}"
+     },
+     "objasnjenje": {
+      "sr": "F/m = A·s/(V·m) = C²/(N·m²).",
+      "en": "F/m = A·s/(V·m) = C²/(N·m²).",
+      "it": "F/m = A·s/(V·m) = C²/(N·m²).",
+      "fr": "F/m = A·s/(V·m) = C²/(N·m²).",
+      "es": "F/m = A·s/(V·m) = C²/(N·m²).",
+      "de": "F/m = A·s/(V·m) = C²/(N·m²).",
+      "pt": "F/m = A·s/(V·m) = C²/(N·m²).",
+      "ru": "Ф/м = А·с/(В·м) = Кл²/(Н·м²)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Magnetna konstanta (permeabilnost vakuuma)",
+      "en": "Magnetic constant (vacuum permeability)",
+      "it": "Permeabilità magnetica del vuoto",
+      "fr": "Perméabilité du vide",
+      "es": "Permeabilidad del vacío",
+      "de": "Magnetische Feldkonstante",
+      "pt": "Permeabilidade do vácuo",
+      "ru": "Магнитная постоянная"
+     },
+     "latex": {
+      "sr": "\\mu_0 = 1{,}256\\,637\\,061\\,27 \\cdot 10^{-6}\\,\\mathrm{N}/\\mathrm{A}^{2}",
+      "en": "\\mu_0 = 1.256\\,637\\,061\\,27 \\cdot 10^{-6}\\,\\mathrm{N}/\\mathrm{A}^{2}",
+      "it": "\\mu_0 = 1{,}256\\,637\\,061\\,27 \\cdot 10^{-6}\\,\\mathrm{N}/\\mathrm{A}^{2}",
+      "fr": "\\mu_0 = 1{,}256\\,637\\,061\\,27 \\cdot 10^{-6}\\,\\mathrm{N}/\\mathrm{A}^{2}",
+      "es": "\\mu_0 = 1{,}256\\,637\\,061\\,27 \\cdot 10^{-6}\\,\\mathrm{N}/\\mathrm{A}^{2}",
+      "de": "\\mu_0 = 1{,}256\\,637\\,061\\,27 \\cdot 10^{-6}\\,\\mathrm{N}/\\mathrm{A}^{2}",
+      "pt": "\\mu_0 = 1{,}256\\,637\\,061\\,27 \\cdot 10^{-6}\\,\\mathrm{N}/\\mathrm{A}^{2}",
+      "ru": "\\mu_0 = 1{,}256\\,637\\,061\\,27 \\cdot 10^{-6}\\,\\text{Н}/\\text{А}^{2}"
+     },
+     "objasnjenje": {
+      "sr": "Približno 4π · 10⁻⁷ V·s/(A·m).",
+      "en": "Approximately 4π · 10⁻⁷ V·s/(A·m).",
+      "it": "Circa 4π · 10⁻⁷ V·s/(A·m).",
+      "fr": "Environ 4π · 10⁻⁷ V·s/(A·m).",
+      "es": "Aproximadamente 4π · 10⁻⁷ V·s/(A·m).",
+      "de": "Etwa 4π · 10⁻⁷ V·s/(A·m).",
+      "pt": "Aproximadamente 4π · 10⁻⁷ V·s/(A·m).",
+      "ru": "Приблизительно 4π · 10⁻⁷ В·с/(А·м)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Kulonova konstanta",
+      "en": "Coulomb constant",
+      "it": "Costante di Coulomb",
+      "fr": "Constante de Coulomb",
+      "es": "Constante de Coulomb",
+      "de": "Coulomb-Konstante",
+      "pt": "Constante de Coulomb",
+      "ru": "Постоянная Кулона"
+     },
+     "latex": {
+      "sr": "\\dfrac{1}{4\\pi\\varepsilon_0} = 8{,}987\\,551\\,786\\,2 \\cdot 10^{9}\\,\\mathrm{N}\\cdot \\mathrm{m}^{2}/\\mathrm{C}^{2}",
+      "en": "\\dfrac{1}{4\\pi\\varepsilon_0} = 8.987\\,551\\,786\\,2 \\cdot 10^{9}\\,\\mathrm{N}\\cdot \\mathrm{m}^{2}/\\mathrm{C}^{2}",
+      "it": "\\dfrac{1}{4\\pi\\varepsilon_0} = 8{,}987\\,551\\,786\\,2 \\cdot 10^{9}\\,\\mathrm{N}\\cdot \\mathrm{m}^{2}/\\mathrm{C}^{2}",
+      "fr": "\\dfrac{1}{4\\pi\\varepsilon_0} = 8{,}987\\,551\\,786\\,2 \\cdot 10^{9}\\,\\mathrm{N}\\cdot \\mathrm{m}^{2}/\\mathrm{C}^{2}",
+      "es": "\\dfrac{1}{4\\pi\\varepsilon_0} = 8{,}987\\,551\\,786\\,2 \\cdot 10^{9}\\,\\mathrm{N}\\cdot \\mathrm{m}^{2}/\\mathrm{C}^{2}",
+      "de": "\\dfrac{1}{4\\pi\\varepsilon_0} = 8{,}987\\,551\\,786\\,2 \\cdot 10^{9}\\,\\mathrm{N}\\cdot \\mathrm{m}^{2}/\\mathrm{C}^{2}",
+      "pt": "\\dfrac{1}{4\\pi\\varepsilon_0} = 8{,}987\\,551\\,786\\,2 \\cdot 10^{9}\\,\\mathrm{N}\\cdot \\mathrm{m}^{2}/\\mathrm{C}^{2}",
+      "ru": "\\dfrac{1}{4\\pi\\varepsilon_0} = 8{,}987\\,551\\,786\\,2 \\cdot 10^{9}\\,\\text{Н}\\cdot \\text{м}^{2}/\\text{Кл}^{2}"
+     },
+     "objasnjenje": {
+      "sr": "Iz Kulonovog zakona F = e₁e₂/(4πε₀r²).",
+      "en": "From Coulomb's law F = e₁e₂/(4πε₀r²).",
+      "it": "Dalla legge di Coulomb F = e₁e₂/(4πε₀r²).",
+      "fr": "De la loi de Coulomb F = e₁e₂/(4πε₀r²).",
+      "es": "De la ley de Coulomb F = e₁e₂/(4πε₀r²).",
+      "de": "Aus dem Coulombschen Gesetz F = e₁e₂/(4πε₀r²).",
+      "pt": "Da lei de Coulomb F = e₁e₂/(4πε₀r²).",
+      "ru": "Из закона Кулона F = e₁e₂/(4πε₀r²)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "atomi",
+   "simbol": "h",
+   "naziv": {
+    "sr": "Svetlost, atomi i čestice",
+    "en": "Light, atoms and particles",
+    "it": "Luce, atomi e particelle",
+    "fr": "Lumière, atomes et particules",
+    "es": "Luz, átomos y partículas",
+    "de": "Licht, Atome und Teilchen",
+    "pt": "Luz, átomos e partículas",
+    "ru": "Свет, атомы и частицы"
+   },
+   "opis": {
+    "sr": "c, h, mase čestica",
+    "en": "c, h, particle masses",
+    "it": "c, h, masse delle particelle",
+    "fr": "c, h, masses des particules",
+    "es": "c, h, masas de partículas",
+    "de": "c, h, Teilchenmassen",
+    "pt": "c, h, massas das partículas",
+    "ru": "c, h, массы частиц"
+   },
+   "kljucne_reci": {
+    "sr": "brzina svetlosti u vakuumu plankova konstanta redukovana plankova konstanta štefan-bolcmanova konstanta vinova konstanta atomska jedinica mase masa elektrona masa protona masa neutrona konstanta constant",
+    "en": "speed of light in vacuum planck constant reduced planck constant stefan–boltzmann constant wien's displacement constant atomic mass unit electron mass proton mass neutron mass konstanta constant",
+    "it": "velocità della luce nel vuoto costante di planck costante di planck ridotta costante di stefan-boltzmann costante di wien unità di massa atomica massa dell’elettrone massa del protone massa del neutrone konstanta constant",
+    "fr": "vitesse de la lumière dans le vide constante de planck constante de planck réduite constante de stefan-boltzmann constante de wien unité de masse atomique masse de l’électron masse du proton masse du neutron konstanta constant",
+    "es": "velocidad de la luz en el vacío constante de planck constante de planck reducida constante de stefan-boltzmann constante de wien unidad de masa atómica masa del electrón masa del protón masa del neutrón konstanta constant",
+    "de": "lichtgeschwindigkeit im vakuum plancksches wirkungsquantum reduziertes plancksches wirkungsquantum stefan-boltzmann-konstante wiensche konstante atomare masseneinheit elektronenmasse protonenmasse neutronenmasse konstanta constant",
+    "pt": "velocidade da luz no vácuo constante de planck constante de planck reduzida constante de stefan-boltzmann constante de wien unidade de massa atômica massa do elétron massa do próton massa do nêutron konstanta constant",
+    "ru": "скорость света в вакууме постоянная планка приведённая постоянная планка постоянная стефана — больцмана постоянная вина атомная единица массы масса электрона масса протона масса нейтрона konstanta constant"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Brzina svetlosti u vakuumu",
+      "en": "Speed of light in vacuum",
+      "it": "Velocità della luce nel vuoto",
+      "fr": "Vitesse de la lumière dans le vide",
+      "es": "Velocidad de la luz en el vacío",
+      "de": "Lichtgeschwindigkeit im Vakuum",
+      "pt": "Velocidade da luz no vácuo",
+      "ru": "Скорость света в вакууме"
+     },
+     "latex": {
+      "sr": "c_0 = 299\\,792\\,458\\,\\mathrm{m}/\\mathrm{s}",
+      "en": "c_0 = 299\\,792\\,458\\,\\mathrm{m}/\\mathrm{s}",
+      "it": "c_0 = 299\\,792\\,458\\,\\mathrm{m}/\\mathrm{s}",
+      "fr": "c_0 = 299\\,792\\,458\\,\\mathrm{m}/\\mathrm{s}",
+      "es": "c_0 = 299\\,792\\,458\\,\\mathrm{m}/\\mathrm{s}",
+      "de": "c_0 = 299\\,792\\,458\\,\\mathrm{m}/\\mathrm{s}",
+      "pt": "c_0 = 299\\,792\\,458\\,\\mathrm{m}/\\mathrm{s}",
+      "ru": "c_0 = 299\\,792\\,458\\,\\text{м}/\\text{с}"
+     },
+     "objasnjenje": {
+      "sr": "Tačna vrednost, po definiciji SI. Približno 3,0 · 10⁸ m/s; c₀ = 1/√(ε₀μ₀).",
+      "en": "Exact value, by definition of the SI. About 3.0 · 10⁸ m/s; c₀ = 1/√(ε₀μ₀).",
+      "it": "Valore esatto, per definizione del SI. Circa 3,0 · 10⁸ m/s; c₀ = 1/√(ε₀μ₀).",
+      "fr": "Valeur exacte, par définition du SI. Environ 3,0 · 10⁸ m/s ; c₀ = 1/√(ε₀μ₀).",
+      "es": "Valor exacto, por definición del SI. Unos 3,0 · 10⁸ m/s; c₀ = 1/√(ε₀μ₀).",
+      "de": "Exakter Wert, per Definition des SI. Etwa 3,0 · 10⁸ m/s; c₀ = 1/√(ε₀μ₀).",
+      "pt": "Valor exato, por definição do SI. Cerca de 3,0 · 10⁸ m/s; c₀ = 1/√(ε₀μ₀).",
+      "ru": "Точное значение по определению СИ. Около 3,0 · 10⁸ м/с; c₀ = 1/√(ε₀μ₀)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Plankova konstanta",
+      "en": "Planck constant",
+      "it": "Costante di Planck",
+      "fr": "Constante de Planck",
+      "es": "Constante de Planck",
+      "de": "Plancksches Wirkungsquantum",
+      "pt": "Constante de Planck",
+      "ru": "Постоянная Планка"
+     },
+     "latex": {
+      "sr": "h = 6{,}626\\,070\\,15 \\cdot 10^{-34}\\,\\mathrm{J}\\cdot \\mathrm{s}, \\quad = 4{,}135\\,667\\,696 \\cdot 10^{-15}\\,\\mathrm{eV}\\cdot \\mathrm{s}",
+      "en": "h = 6.626\\,070\\,15 \\cdot 10^{-34}\\,\\mathrm{J}\\cdot \\mathrm{s}, \\quad = 4.135\\,667\\,696 \\cdot 10^{-15}\\,\\mathrm{eV}\\cdot \\mathrm{s}",
+      "it": "h = 6{,}626\\,070\\,15 \\cdot 10^{-34}\\,\\mathrm{J}\\cdot \\mathrm{s}, \\quad = 4{,}135\\,667\\,696 \\cdot 10^{-15}\\,\\mathrm{eV}\\cdot \\mathrm{s}",
+      "fr": "h = 6{,}626\\,070\\,15 \\cdot 10^{-34}\\,\\mathrm{J}\\cdot \\mathrm{s}, \\quad = 4{,}135\\,667\\,696 \\cdot 10^{-15}\\,\\mathrm{eV}\\cdot \\mathrm{s}",
+      "es": "h = 6{,}626\\,070\\,15 \\cdot 10^{-34}\\,\\mathrm{J}\\cdot \\mathrm{s}, \\quad = 4{,}135\\,667\\,696 \\cdot 10^{-15}\\,\\mathrm{eV}\\cdot \\mathrm{s}",
+      "de": "h = 6{,}626\\,070\\,15 \\cdot 10^{-34}\\,\\mathrm{J}\\cdot \\mathrm{s}, \\quad = 4{,}135\\,667\\,696 \\cdot 10^{-15}\\,\\mathrm{eV}\\cdot \\mathrm{s}",
+      "pt": "h = 6{,}626\\,070\\,15 \\cdot 10^{-34}\\,\\mathrm{J}\\cdot \\mathrm{s}, \\quad = 4{,}135\\,667\\,696 \\cdot 10^{-15}\\,\\mathrm{eV}\\cdot \\mathrm{s}",
+      "ru": "h = 6{,}626\\,070\\,15 \\cdot 10^{-34}\\,\\text{Дж}\\cdot \\text{с}, \\quad = 4{,}135\\,667\\,696 \\cdot 10^{-15}\\,\\text{эВ}\\cdot \\text{с}"
+     },
+     "objasnjenje": {
+      "sr": "Tačna vrednost, po definiciji SI.",
+      "en": "Exact value, by definition of the SI.",
+      "it": "Valore esatto, per definizione del SI.",
+      "fr": "Valeur exacte, par définition du SI.",
+      "es": "Valor exacto, por definición del SI.",
+      "de": "Exakter Wert, per Definition des SI.",
+      "pt": "Valor exato, por definição do SI.",
+      "ru": "Точное значение по определению СИ."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Redukovana Plankova konstanta",
+      "en": "Reduced Planck constant",
+      "it": "Costante di Planck ridotta",
+      "fr": "Constante de Planck réduite",
+      "es": "Constante de Planck reducida",
+      "de": "Reduziertes Plancksches Wirkungsquantum",
+      "pt": "Constante de Planck reduzida",
+      "ru": "Приведённая постоянная Планка"
+     },
+     "latex": {
+      "sr": "\\hbar = \\dfrac{h}{2\\pi} = 1{,}054\\,571\\,817 \\cdot 10^{-34}\\,\\mathrm{J}\\cdot \\mathrm{s}",
+      "en": "\\hbar = \\dfrac{h}{2\\pi} = 1.054\\,571\\,817 \\cdot 10^{-34}\\,\\mathrm{J}\\cdot \\mathrm{s}",
+      "it": "\\hbar = \\dfrac{h}{2\\pi} = 1{,}054\\,571\\,817 \\cdot 10^{-34}\\,\\mathrm{J}\\cdot \\mathrm{s}",
+      "fr": "\\hbar = \\dfrac{h}{2\\pi} = 1{,}054\\,571\\,817 \\cdot 10^{-34}\\,\\mathrm{J}\\cdot \\mathrm{s}",
+      "es": "\\hbar = \\dfrac{h}{2\\pi} = 1{,}054\\,571\\,817 \\cdot 10^{-34}\\,\\mathrm{J}\\cdot \\mathrm{s}",
+      "de": "\\hbar = \\dfrac{h}{2\\pi} = 1{,}054\\,571\\,817 \\cdot 10^{-34}\\,\\mathrm{J}\\cdot \\mathrm{s}",
+      "pt": "\\hbar = \\dfrac{h}{2\\pi} = 1{,}054\\,571\\,817 \\cdot 10^{-34}\\,\\mathrm{J}\\cdot \\mathrm{s}",
+      "ru": "\\hbar = \\dfrac{h}{2\\pi} = 1{,}054\\,571\\,817 \\cdot 10^{-34}\\,\\text{Дж}\\cdot \\text{с}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Štefan-Bolcmanova konstanta",
+      "en": "Stefan–Boltzmann constant",
+      "it": "Costante di Stefan-Boltzmann",
+      "fr": "Constante de Stefan-Boltzmann",
+      "es": "Constante de Stefan-Boltzmann",
+      "de": "Stefan-Boltzmann-Konstante",
+      "pt": "Constante de Stefan-Boltzmann",
+      "ru": "Постоянная Стефана — Больцмана"
+     },
+     "latex": {
+      "sr": "\\sigma = 5{,}670\\,374\\,419 \\cdot 10^{-8}\\,\\mathrm{W}/(\\mathrm{m}^{2}\\cdot \\mathrm{K}^{4})",
+      "en": "\\sigma = 5.670\\,374\\,419 \\cdot 10^{-8}\\,\\mathrm{W}/(\\mathrm{m}^{2}\\cdot \\mathrm{K}^{4})",
+      "it": "\\sigma = 5{,}670\\,374\\,419 \\cdot 10^{-8}\\,\\mathrm{W}/(\\mathrm{m}^{2}\\cdot \\mathrm{K}^{4})",
+      "fr": "\\sigma = 5{,}670\\,374\\,419 \\cdot 10^{-8}\\,\\mathrm{W}/(\\mathrm{m}^{2}\\cdot \\mathrm{K}^{4})",
+      "es": "\\sigma = 5{,}670\\,374\\,419 \\cdot 10^{-8}\\,\\mathrm{W}/(\\mathrm{m}^{2}\\cdot \\mathrm{K}^{4})",
+      "de": "\\sigma = 5{,}670\\,374\\,419 \\cdot 10^{-8}\\,\\mathrm{W}/(\\mathrm{m}^{2}\\cdot \\mathrm{K}^{4})",
+      "pt": "\\sigma = 5{,}670\\,374\\,419 \\cdot 10^{-8}\\,\\mathrm{W}/(\\mathrm{m}^{2}\\cdot \\mathrm{K}^{4})",
+      "ru": "\\sigma = 5{,}670\\,374\\,419 \\cdot 10^{-8}\\,\\text{Вт}/(\\text{м}^{2}\\cdot \\text{К}^{4})"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Vinova konstanta",
+      "en": "Wien's displacement constant",
+      "it": "Costante di Wien",
+      "fr": "Constante de Wien",
+      "es": "Constante de Wien",
+      "de": "Wiensche Konstante",
+      "pt": "Constante de Wien",
+      "ru": "Постоянная Вина"
+     },
+     "latex": {
+      "sr": "k_W = 2{,}897\\,771\\,955 \\cdot 10^{-3}\\,\\mathrm{m}\\cdot \\mathrm{K}",
+      "en": "k_W = 2.897\\,771\\,955 \\cdot 10^{-3}\\,\\mathrm{m}\\cdot \\mathrm{K}",
+      "it": "k_W = 2{,}897\\,771\\,955 \\cdot 10^{-3}\\,\\mathrm{m}\\cdot \\mathrm{K}",
+      "fr": "k_W = 2{,}897\\,771\\,955 \\cdot 10^{-3}\\,\\mathrm{m}\\cdot \\mathrm{K}",
+      "es": "k_W = 2{,}897\\,771\\,955 \\cdot 10^{-3}\\,\\mathrm{m}\\cdot \\mathrm{K}",
+      "de": "k_W = 2{,}897\\,771\\,955 \\cdot 10^{-3}\\,\\mathrm{m}\\cdot \\mathrm{K}",
+      "pt": "k_W = 2{,}897\\,771\\,955 \\cdot 10^{-3}\\,\\mathrm{m}\\cdot \\mathrm{K}",
+      "ru": "k_W = 2{,}897\\,771\\,955 \\cdot 10^{-3}\\,\\text{м}\\cdot \\text{К}"
+     },
+     "objasnjenje": {
+      "sr": "λₘₐₓ · T = const.",
+      "en": "λₘₐₓ · T = const.",
+      "it": "λₘₐₓ · T = const.",
+      "fr": "λₘₐₓ · T = const.",
+      "es": "λₘₐₓ · T = const.",
+      "de": "λₘₐₓ · T = const.",
+      "pt": "λₘₐₓ · T = const.",
+      "ru": "λₘₐₓ · T = const."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Atomska jedinica mase",
+      "en": "Atomic mass unit",
+      "it": "Unità di massa atomica",
+      "fr": "Unité de masse atomique",
+      "es": "Unidad de masa atómica",
+      "de": "Atomare Masseneinheit",
+      "pt": "Unidade de massa atômica",
+      "ru": "Атомная единица массы"
+     },
+     "latex": {
+      "sr": "u = 1{,}660\\,539\\,068\\,92 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 931{,}494\\,103\\,72\\,\\mathrm{MeV}/c^{2}",
+      "en": "u = 1.660\\,539\\,068\\,92 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 931.494\\,103\\,72\\,\\mathrm{MeV}/c^{2}",
+      "it": "u = 1{,}660\\,539\\,068\\,92 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 931{,}494\\,103\\,72\\,\\mathrm{MeV}/c^{2}",
+      "fr": "u = 1{,}660\\,539\\,068\\,92 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 931{,}494\\,103\\,72\\,\\mathrm{MeV}/c^{2}",
+      "es": "u = 1{,}660\\,539\\,068\\,92 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 931{,}494\\,103\\,72\\,\\mathrm{MeV}/c^{2}",
+      "de": "u = 1{,}660\\,539\\,068\\,92 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 931{,}494\\,103\\,72\\,\\mathrm{MeV}/c^{2}",
+      "pt": "u = 1{,}660\\,539\\,068\\,92 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 931{,}494\\,103\\,72\\,\\mathrm{MeV}/c^{2}",
+      "ru": "u = 1{,}660\\,539\\,068\\,92 \\cdot 10^{-27}\\,\\text{кг}, \\quad = 931{,}494\\,103\\,72\\,\\text{МэВ}/c^{2}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Masa elektrona",
+      "en": "Electron mass",
+      "it": "Massa dell’elettrone",
+      "fr": "Masse de l’électron",
+      "es": "Masa del electrón",
+      "de": "Elektronenmasse",
+      "pt": "Massa do elétron",
+      "ru": "Масса электрона"
+     },
+     "latex": {
+      "sr": "m_e = 9{,}109\\,383\\,713\\,9 \\cdot 10^{-31}\\,\\mathrm{kg}, \\quad = 0{,}510\\,998\\,950\\,69\\,\\mathrm{MeV}/c^{2}",
+      "en": "m_e = 9.109\\,383\\,713\\,9 \\cdot 10^{-31}\\,\\mathrm{kg}, \\quad = 0.510\\,998\\,950\\,69\\,\\mathrm{MeV}/c^{2}",
+      "it": "m_e = 9{,}109\\,383\\,713\\,9 \\cdot 10^{-31}\\,\\mathrm{kg}, \\quad = 0{,}510\\,998\\,950\\,69\\,\\mathrm{MeV}/c^{2}",
+      "fr": "m_e = 9{,}109\\,383\\,713\\,9 \\cdot 10^{-31}\\,\\mathrm{kg}, \\quad = 0{,}510\\,998\\,950\\,69\\,\\mathrm{MeV}/c^{2}",
+      "es": "m_e = 9{,}109\\,383\\,713\\,9 \\cdot 10^{-31}\\,\\mathrm{kg}, \\quad = 0{,}510\\,998\\,950\\,69\\,\\mathrm{MeV}/c^{2}",
+      "de": "m_e = 9{,}109\\,383\\,713\\,9 \\cdot 10^{-31}\\,\\mathrm{kg}, \\quad = 0{,}510\\,998\\,950\\,69\\,\\mathrm{MeV}/c^{2}",
+      "pt": "m_e = 9{,}109\\,383\\,713\\,9 \\cdot 10^{-31}\\,\\mathrm{kg}, \\quad = 0{,}510\\,998\\,950\\,69\\,\\mathrm{MeV}/c^{2}",
+      "ru": "m_e = 9{,}109\\,383\\,713\\,9 \\cdot 10^{-31}\\,\\text{кг}, \\quad = 0{,}510\\,998\\,950\\,69\\,\\text{МэВ}/c^{2}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Masa protona",
+      "en": "Proton mass",
+      "it": "Massa del protone",
+      "fr": "Masse du proton",
+      "es": "Masa del protón",
+      "de": "Protonenmasse",
+      "pt": "Massa do próton",
+      "ru": "Масса протона"
+     },
+     "latex": {
+      "sr": "m_p = 1{,}672\\,621\\,925\\,95 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 1{,}007\\,276\\,466\\,88\\,\\mathrm{u}, \\quad = 938{,}272\\,089\\,43\\,\\mathrm{MeV}/c^{2}",
+      "en": "m_p = 1.672\\,621\\,925\\,95 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 1.007\\,276\\,466\\,88\\,\\mathrm{u}, \\quad = 938.272\\,089\\,43\\,\\mathrm{MeV}/c^{2}",
+      "it": "m_p = 1{,}672\\,621\\,925\\,95 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 1{,}007\\,276\\,466\\,88\\,\\mathrm{u}, \\quad = 938{,}272\\,089\\,43\\,\\mathrm{MeV}/c^{2}",
+      "fr": "m_p = 1{,}672\\,621\\,925\\,95 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 1{,}007\\,276\\,466\\,88\\,\\mathrm{u}, \\quad = 938{,}272\\,089\\,43\\,\\mathrm{MeV}/c^{2}",
+      "es": "m_p = 1{,}672\\,621\\,925\\,95 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 1{,}007\\,276\\,466\\,88\\,\\mathrm{u}, \\quad = 938{,}272\\,089\\,43\\,\\mathrm{MeV}/c^{2}",
+      "de": "m_p = 1{,}672\\,621\\,925\\,95 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 1{,}007\\,276\\,466\\,88\\,\\mathrm{u}, \\quad = 938{,}272\\,089\\,43\\,\\mathrm{MeV}/c^{2}",
+      "pt": "m_p = 1{,}672\\,621\\,925\\,95 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 1{,}007\\,276\\,466\\,88\\,\\mathrm{u}, \\quad = 938{,}272\\,089\\,43\\,\\mathrm{MeV}/c^{2}",
+      "ru": "m_p = 1{,}672\\,621\\,925\\,95 \\cdot 10^{-27}\\,\\text{кг}, \\quad = 1{,}007\\,276\\,466\\,88\\,\\text{а.е.м.}, \\quad = 938{,}272\\,089\\,43\\,\\text{МэВ}/c^{2}"
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Masa neutrona",
+      "en": "Neutron mass",
+      "it": "Massa del neutrone",
+      "fr": "Masse du neutron",
+      "es": "Masa del neutrón",
+      "de": "Neutronenmasse",
+      "pt": "Massa do nêutron",
+      "ru": "Масса нейтрона"
+     },
+     "latex": {
+      "sr": "m_n = 1{,}674\\,927\\,500\\,56 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 1{,}008\\,664\\,916\\,06\\,\\mathrm{u}, \\quad = 939{,}565\\,421\\,94\\,\\mathrm{MeV}/c^{2}",
+      "en": "m_n = 1.674\\,927\\,500\\,56 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 1.008\\,664\\,916\\,06\\,\\mathrm{u}, \\quad = 939.565\\,421\\,94\\,\\mathrm{MeV}/c^{2}",
+      "it": "m_n = 1{,}674\\,927\\,500\\,56 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 1{,}008\\,664\\,916\\,06\\,\\mathrm{u}, \\quad = 939{,}565\\,421\\,94\\,\\mathrm{MeV}/c^{2}",
+      "fr": "m_n = 1{,}674\\,927\\,500\\,56 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 1{,}008\\,664\\,916\\,06\\,\\mathrm{u}, \\quad = 939{,}565\\,421\\,94\\,\\mathrm{MeV}/c^{2}",
+      "es": "m_n = 1{,}674\\,927\\,500\\,56 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 1{,}008\\,664\\,916\\,06\\,\\mathrm{u}, \\quad = 939{,}565\\,421\\,94\\,\\mathrm{MeV}/c^{2}",
+      "de": "m_n = 1{,}674\\,927\\,500\\,56 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 1{,}008\\,664\\,916\\,06\\,\\mathrm{u}, \\quad = 939{,}565\\,421\\,94\\,\\mathrm{MeV}/c^{2}",
+      "pt": "m_n = 1{,}674\\,927\\,500\\,56 \\cdot 10^{-27}\\,\\mathrm{kg}, \\quad = 1{,}008\\,664\\,916\\,06\\,\\mathrm{u}, \\quad = 939{,}565\\,421\\,94\\,\\mathrm{MeV}/c^{2}",
+      "ru": "m_n = 1{,}674\\,927\\,500\\,56 \\cdot 10^{-27}\\,\\text{кг}, \\quad = 1{,}008\\,664\\,916\\,06\\,\\text{а.е.м.}, \\quad = 939{,}565\\,421\\,94\\,\\text{МэВ}/c^{2}"
+     }
+    }
+   ]
+  }
+ ]
+}

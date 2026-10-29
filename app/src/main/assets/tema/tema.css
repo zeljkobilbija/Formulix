@@ -131,3 +131,63 @@ main {
 .crtez .kriva { fill: none; stroke: var(--lik-linija); stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
 .crtez .osa-s { fill: var(--tekst2); }
 .crtez text.sub { font-size: 13px; }
+
+/* Kalkulator za fiziku: izbor formule i nepoznate, jedinice */
+.resavac .telo { display: flex; flex-direction: column; gap: 12px; }
+.resavac .grupa-naslov {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  opacity: .85;
+  margin-bottom: -4px;
+}
+.cipovi { display: flex; flex-wrap: wrap; gap: 8px; }
+.cip {
+  border: none;
+  border-radius: 999px;
+  min-height: 40px;
+  max-width: 100%;
+  padding: 6px 14px;
+  background: rgba(255, 255, 255, .16);
+  color: #FFFFFF;
+  font: inherit;
+  font-size: 15px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+.cip .katex { color: inherit; }
+.cip.aktivan { background: #FFFFFF; color: var(--akcenat); }
+html.tamno .cip.aktivan { color: #16181D; }
+.resavac .ulaz label { flex: 0 1 40%; }
+.jedinica {
+  flex: 0 0 auto;
+  width: 92px;
+  max-width: 30%;
+  height: 48px;
+  border: none;
+  border-radius: 12px;
+  padding: 0 6px;
+  background: rgba(255, 255, 255, .92);
+  color: #16181D;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  outline: none;
+}
+span.jedinica {
+  display: flex;
+  align-items: center;
+  min-width: 44px;
+  justify-content: center;
+  background: rgba(255, 255, 255, .16);
+  color: #FFFFFF;
+}
+.fizrez { gap: 6px; padding: 12px; }
+.fizrez .red { display: flex; align-items: center; gap: 10px; }
+.fizrez .oznaka { font-size: 18px; flex: 0 0 auto; }
+.fizrez .oznaka .katex { color: #FFFFFF; }
+.fizrez .vrednost { flex: 1; min-width: 0; font-size: 22px; }
+.fizrez .jedinica { height: 40px; }
+.napomena { margin: 0; font-size: 13.5px; line-height: 1.4; opacity: .92; }

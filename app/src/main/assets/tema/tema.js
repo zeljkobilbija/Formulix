@@ -15,6 +15,9 @@
     greska: { sr: 'Tema nije pronađena.', en: 'Topic not found.', it: 'Argomento non trovato.', fr: 'Sujet introuvable.', es: 'Tema no encontrado.', de: 'Thema nicht gefunden.', pt: 'Tema não encontrado.', ru: 'Тема не найдена.' },
     naOsi: { sr: 'na osi', en: 'on an axis', it: 'su un asse', fr: 'sur un axe', es: 'sobre un eje', de: 'auf einer Achse', pt: 'sobre um eixo', ru: 'на оси' },
     nema: { sr: 'nema', en: 'none', it: 'nessuno', fr: 'aucun', es: 'ninguno', de: 'keine', pt: 'nenhum', ru: 'нет' },
+    formula: { sr: 'Formula', en: 'Formula', it: 'Formula', fr: 'Formule', es: 'Fórmula', de: 'Formel', pt: 'Fórmula', ru: 'Формула' },
+    trazi: { sr: 'Šta se traži', en: 'Solve for', it: 'Incognita', fr: 'Inconnue', es: 'Incógnita', de: 'Gesucht', pt: 'Incógnita', ru: 'Найти' },
+    nemaResenja: { sr: 'Za ove vrednosti nema rešenja.', en: 'No solution for these values.', it: 'Nessuna soluzione per questi valori.', fr: 'Pas de solution pour ces valeurs.', es: 'No hay solución para estos valores.', de: 'Für diese Werte gibt es keine Lösung.', pt: 'Sem solução para estes valores.', ru: 'Для этих значений нет решения.' },
     nijedan: { sr: 'nijedan od navedenih', en: 'none of these', it: 'nessuno di questi', fr: 'aucun de ces nombres', es: 'ninguno de estos', de: 'keiner davon', pt: 'nenhum destes', ru: 'ни на одно из них' }
   };
 
@@ -165,15 +168,89 @@
     deljivost: deljivost, kvadratna: kvadratna };
 
   // Izrazi dolaze iz naših JSON fajlova (assets), ne od korisnika.
-  function prevedi(izraz, promenljive) {
-    var imena = promenljive.concat(Object.keys(FUNKCIJE));
+  function prevedi(izraz, promenljive, funkcije) {
+    funkcije = funkcije || FUNKCIJE;
+    // Funkcija istog imena kao promenljiva se preskače (promenljiva ima prednost)
+    var fimena = Object.keys(funkcije).filter(function (k) { return promenljive.indexOf(k) < 0; });
+    var imena = promenljive.concat(fimena);
     /* eslint-disable no-new-func */
     var f = new Function(imena.join(','), '"use strict"; return (' + izraz + ');');
     return function (vrednosti) {
       var args = promenljive.map(function (k) { return vrednosti[k]; })
-        .concat(Object.keys(FUNKCIJE).map(function (k) { return FUNKCIJE[k]; }));
+        .concat(fimena.map(function (k) { return funkcije[k]; }));
       try { return f.apply(null, args); } catch (e) { return NaN; }
     };
+  }
+
+  // ---------- fizika: funkcije, jedinice ----------
+  // Najmanji pozitivan koren od A·x² + B·x + C = 0 (npr. vreme iz s = v₀t + at²/2)
+  function kvPoz(A, B, C) {
+    if (![A, B, C].every(isFinite)) return NaN;
+    if (Math.abs(A) < 1e-15) { var x0 = -C / B; return x0 > 0 ? x0 : NaN; }
+    var D = B * B - 4 * A * C;
+    if (D < 0) return NaN;
+    var k = Math.sqrt(D), r = [(-B - k) / (2 * A), (-B + k) / (2 * A)]
+      .filter(function (x) { return x > 1e-12; });
+    return r.length ? Math.min.apply(null, r) : NaN;
+  }
+  var FIZ = Object.assign({}, FUNKCIJE, {
+    sin: Math.sin, cos: Math.cos, tan: Math.tan, asin: Math.asin, acos: Math.acos,
+    atan: Math.atan, atan2: Math.atan2, exp: Math.exp, ln: Math.log, log10: Math.log10,
+    cbrt: Math.cbrt, kvPoz: kvPoz
+  });
+
+  // Jedinice: [id, faktor do SI, pomak]; SI = x·faktor + pomak. Prva je osnovna.
+  var PI = Math.PI;
+  var JED = {
+    bez: [['', 1]],
+    duzina: [['m', 1], ['km', 1e3], ['cm', 1e-2], ['mm', 1e-3]],
+    vreme: [['s', 1], ['min', 60], ['h', 3600], ['ms', 1e-3]],
+    brzina: [['m/s', 1], ['km/h', 1 / 3.6]],
+    ubrzanje: [['m/s²', 1], ['cm/s²', 1e-2]],
+    ugao: [['°', PI / 180], ['rad', 1], ['obr', 2 * PI]],
+    ugaonaBrzina: [['rad/s', 1], ['°/s', PI / 180], ['obr/min', 2 * PI / 60]],
+    ugaonoUbrzanje: [['rad/s²', 1], ['°/s²', PI / 180]],
+    frekvencija: [['Hz', 1], ['obr/min', 1 / 60], ['kHz', 1e3]],
+    povrsina: [['m²', 1], ['dm²', 1e-2], ['cm²', 1e-4], ['mm²', 1e-6]],
+    zapremina: [['m³', 1], ['L', 1e-3], ['cm³', 1e-6], ['mL', 1e-6]],
+    zapreminskiProtok: [['m³/s', 1], ['L/s', 1e-3], ['L/min', 1e-3 / 60], ['m³/h', 1 / 3600]],
+    maseniProtok: [['kg/s', 1], ['g/s', 1e-3], ['kg/h', 1 / 3600], ['t/h', 1 / 3.6]],
+    masa: [['kg', 1], ['g', 1e-3], ['t', 1e3]],
+    gustina: [['kg/m³', 1], ['g/cm³', 1e3], ['kg/L', 1e3]],
+    temperatura: [['K', 1, 0], ['°C', 1, 273.15]],
+    sila: [['N', 1], ['kN', 1e3], ['mN', 1e-3]],
+    krutost: [['N/m', 1], ['N/cm', 100], ['kN/m', 1e3]],
+    pritisak: [['Pa', 1], ['kPa', 1e3], ['MPa', 1e6], ['GPa', 1e9], ['bar', 1e5]],
+    moment: [['N·m', 1], ['kN·m', 1e3]],
+    torzija: [['N·m/rad', 1]],
+    impuls: [['kg·m/s', 1], ['N·s', 1]],
+    gravKonst: [['N·m²/kg²', 1]]
+  };
+  var JED_NATPIS = {
+    obr: { sr: 'obr', en: 'rev', it: 'giri', fr: 'tr', es: 'rev', de: 'U', pt: 'rot', ru: 'об' },
+    'obr/min': { sr: 'obr/min', en: 'rpm', it: 'giri/min', fr: 'tr/min', es: 'rpm', de: 'U/min', pt: 'rpm', ru: 'об/мин' }
+  };
+  var JED_RU = { m: 'м', km: 'км', cm: 'см', mm: 'мм', s: 'с', min: 'мин', h: 'ч', ms: 'мс',
+    'm/s': 'м/с', 'km/h': 'км/ч', 'm/s²': 'м/с²', 'cm/s²': 'см/с²', rad: 'рад', 'rad/s': 'рад/с',
+    '°/s': '°/с', 'rad/s²': 'рад/с²', '°/s²': '°/с²', Hz: 'Гц', kHz: 'кГц', 'm²': 'м²', 'dm²': 'дм²',
+    'cm²': 'см²', 'mm²': 'мм²', 'm³': 'м³', L: 'л', 'cm³': 'см³', mL: 'мл', 'm³/s': 'м³/с',
+    'L/s': 'л/с', 'L/min': 'л/мин', 'm³/h': 'м³/ч', 'kg/s': 'кг/с', 'g/s': 'г/с', 'kg/h': 'кг/ч',
+    't/h': 'т/ч', kg: 'кг', g: 'г', t: 'т', 'kg/m³': 'кг/м³', 'g/cm³': 'г/см³', 'kg/L': 'кг/л', K: 'К',
+    N: 'Н', kN: 'кН', mN: 'мН', 'N/m': 'Н/м', 'N/cm': 'Н/см', 'kN/m': 'кН/м', Pa: 'Па', kPa: 'кПа',
+    MPa: 'МПа', GPa: 'ГПа', bar: 'бар', 'N·m': 'Н·м', 'kN·m': 'кН·м', 'N·m/rad': 'Н·м/рад',
+    'kg·m/s': 'кг·м/с', 'N·s': 'Н·с', 'N·m²/kg²': 'Н·м²/кг²' };
+  function natpisJed(id) {
+    if (JED_NATPIS[id]) return tekst(JED_NATPIS[id]);
+    if (JEZIK === 'ru' && JED_RU[id]) return JED_RU[id];
+    return id;
+  }
+  function uSI(x, j) { return x * j[1] + (j[2] || 0); }
+  function izSI(x, j) { return (x - (j[2] || 0)) / j[1]; }
+  // Broj za polje za unos: bez razdvajanja hiljada, decimalni separator jezika
+  function zaPolje(x) {
+    if (typeof x !== 'number' || !isFinite(x)) return '';
+    var t = String(Number(x.toPrecision(8)));
+    return t.replace('.', DEC);
   }
 
   // ---------- boje ----------
@@ -359,6 +436,140 @@
     izracunaj();
   }
 
+  // Kalkulator za fiziku: korisnik bira formulu i nepoznatu, uz svaku veličinu bira jedinicu.
+  // Računa se u SI; vrednosti ostaju zapamćene pri promeni formule ili nepoznate.
+  function prikaziResavac(kal) {
+    var vel = kal.velicine || {};
+    var vr = {}, jedIdx = {};
+    Object.keys(vel).forEach(function (id) {
+      var v = vel[id], lista = JED[v.vrsta] || JED.bez;
+      vr[id] = v.pocetna !== undefined ? v.pocetna : NaN;
+      jedIdx[id] = 0;
+      if (v.jed) lista.forEach(function (j, i) { if (j[0] === v.jed) jedIdx[id] = i; });
+    });
+    function jedinice(id) { return JED[(vel[id] || {}).vrsta] || JED.bez; }
+    function jed(id) { return jedinice(id)[jedIdx[id]]; }
+
+    var jednacine = (kal.jednacine || []).map(function (j) {
+      var imena = j.promenljive || Object.keys(j.resenja);
+      var f = {};
+      Object.keys(j.resenja).forEach(function (n) { f[n] = prevedi(j.resenja[n], imena, FIZ); });
+      return { def: j, imena: imena, f: f, nep: j.trazi || Object.keys(j.resenja)[0] };
+    });
+    if (!jednacine.length) return;
+    var tekuca = 0;
+
+    var k = el('section', 'kalkulator resavac');
+    k.appendChild(el('h2', null, tekst(UI.izracunaj)));
+    var telo = el('div', 'telo');
+    k.appendChild(telo);
+    dodaj(k);
+
+    function izborJedinica(id, naPromenu) {
+      var lista = jedinice(id);
+      if (lista.length < 2) {
+        var s = el('span', 'jedinica', natpisJed(lista[0][0]));
+        return s;
+      }
+      var sel = el('select', 'jedinica');
+      lista.forEach(function (j, i) {
+        var o = el('option', null, natpisJed(j[0]));
+        o.value = i;
+        sel.appendChild(o);
+      });
+      sel.value = jedIdx[id];
+      sel.addEventListener('change', function () { jedIdx[id] = Number(sel.value); naPromenu(); });
+      return sel;
+    }
+
+    function cipovi(naslov, stavke) {
+      telo.appendChild(el('div', 'grupa-naslov', tekst(naslov)));
+      var red = el('div', 'cipovi');
+      stavke.forEach(function (st) {
+        var b = el('button', 'cip' + (st.aktivan ? ' aktivan' : ''));
+        b.type = 'button';
+        latex(b, st.latex, false);
+        b.addEventListener('click', st.klik);
+        red.appendChild(b);
+      });
+      telo.appendChild(red);
+    }
+
+    function crtaj() {
+      telo.innerHTML = '';
+      var e = jednacine[tekuca];
+      if (jednacine.length > 1) {
+        cipovi(UI.formula, jednacine.map(function (j, i) {
+          return { latex: tekst(j.def.latex), aktivan: i === tekuca, klik: function () { tekuca = i; crtaj(); } };
+        }));
+      }
+      cipovi(UI.trazi, Object.keys(e.def.resenja).map(function (id) {
+        return { latex: tekst(vel[id].oznaka), aktivan: id === e.nep, klik: function () { e.nep = id; crtaj(); } };
+      }));
+
+      var polja = {};
+      e.imena.filter(function (id) { return id !== e.nep; }).forEach(function (id) {
+        var v = vel[id];
+        var red = el('div', 'ulaz');
+        var lab = el('label');
+        lab.htmlFor = 'f_' + id;
+        var s = el('span', 'oznaka'); latex(s, tekst(v.oznaka) + ' =', false); lab.appendChild(s);
+        lab.appendChild(el('span', 'ime', tekst(v.naziv)));
+        var inp = el('input');
+        inp.id = 'f_' + id;
+        inp.type = 'text';
+        inp.inputMode = 'decimal';
+        inp.autocomplete = 'off';
+        inp.value = zaPolje(izSI(vr[id], jed(id)));
+        function procitajPolje() {
+          var x = procitaj(inp.value);
+          vr[id] = isFinite(x) ? uSI(x, jed(id)) : NaN;
+          racunaj();
+        }
+        inp.addEventListener('input', procitajPolje);
+        polja[id] = inp;
+        red.appendChild(lab);
+        red.appendChild(inp);
+        // Promena jedinice: uneti broj ostaje, menja se njegovo značenje (72 → 72 km/h)
+        red.appendChild(izborJedinica(id, procitajPolje));
+        telo.appendChild(red);
+      });
+
+      var nv = vel[e.nep];
+      var rez = el('div', 'rezultat siroko fizrez');
+      rez.appendChild(el('span', 'ime', tekst(nv.naziv)));
+      var red = el('div', 'red');
+      var oz = el('span', 'oznaka'); latex(oz, tekst(nv.oznaka) + ' =', false);
+      var vrednost = el('span', 'vrednost');
+      red.appendChild(oz);
+      red.appendChild(vrednost);
+      red.appendChild(izborJedinica(e.nep, prikaziRezultat));
+      rez.appendChild(red);
+      telo.appendChild(rez);
+      var poruka = el('p', 'napomena');
+      telo.appendChild(poruka);
+
+      var rezultat = NaN;
+      function prikaziRezultat() {
+        vrednost.textContent = isFinite(rezultat) ? broj(izSI(rezultat, jed(e.nep))) : '–';
+      }
+      function racunaj() {
+        var ok = e.imena.every(function (id) { return id === e.nep || isFinite(vr[id]); });
+        var x = ok ? e.f[e.nep](vr) : NaN;
+        if (typeof x !== 'number' || (nv.poz && !(x > 0)) || (nv.nenegativna && !(x >= 0))) x = NaN;
+        if (isFinite(x) && Math.abs(x) < 1e-13 * (1 + Math.abs(x))) x = 0;
+        rezultat = x;
+        if (isFinite(x)) vr[e.nep] = x;
+        prikaziRezultat();
+        var nap = e.def.napomene && e.def.napomene[e.nep];
+        poruka.textContent = ok && !isFinite(x) ? tekst(UI.nemaResenja) : (nap ? tekst(nap) : '');
+        poruka.style.display = poruka.textContent ? '' : 'none';
+      }
+      racunaj();
+    }
+    crtaj();
+  }
+
   function greska() {
     main.appendChild(el('p', 'opis', tekst(UI.greska)));
   }
@@ -372,7 +583,10 @@
       prikaziFormule(tema);
       uklopi();
       if (document.fonts && document.fonts.ready) document.fonts.ready.then(uklopi);
-      if (tema.kalkulator) prikaziKalkulator(tema.kalkulator);
+      if (tema.kalkulator) {
+        if (tema.kalkulator.tip === 'resi') prikaziResavac(tema.kalkulator);
+        else prikaziKalkulator(tema.kalkulator);
+      }
     })
     .catch(greska);
 })();

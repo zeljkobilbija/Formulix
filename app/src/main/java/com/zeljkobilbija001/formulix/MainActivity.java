@@ -111,6 +111,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void otvoriOblast(Oblast o) {
-        startActivity(OblastActivity.namera(this, o.id));
+        if (o.grupa) startActivity(GrupaActivity.namera(this, o.id));
+        else startActivity(OblastActivity.namera(this, o.id));
     }
 }

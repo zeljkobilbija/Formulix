@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="podnaslov">Les maths dans ta poche</string>
+    <string name="podnaslov">Maths et physique dans ta poche</string>
     <string name="pretraga_hint">Rechercher des formules… (ex. cône, intégrale)</string>
     <string name="obrisi_pretragu">Effacer la recherche</string>
     <string name="oblasti">Domaines</string>
@@ -21,6 +21,30 @@
     <string name="opis_analiticka_geometrija">Droites, coniques</string>
     <string name="oblast_kombinatorika">Dénombrement</string>
     <string name="opis_kombinatorika">Probabilités, suites</string>
+    <string name="oblast_fizika">Physique</string>
+    <string name="opis_fizika">Mouvement, forces, énergie</string>
+    <string name="oblast_kretanje">Mouvement</string>
+    <string name="opis_kretanje">Vitesse, accélération</string>
+    <string name="oblast_sile">Forces</string>
+    <string name="opis_sile">Lois de Newton, frottement</string>
+    <string name="oblast_energija">Travail et énergie</string>
+    <string name="opis_energija">Travail, puissance, énergie</string>
+    <string name="oblast_fluidi">Fluides</string>
+    <string name="opis_fluidi">Pression, poussée</string>
+    <string name="oblast_rotacija">Rotation</string>
+    <string name="opis_rotacija">Moment d’inertie</string>
+    <string name="oblast_toplota">Chaleur</string>
+    <string name="opis_toplota">Gaz, thermodynamique</string>
+    <string name="oblast_elektricitet">Électricité</string>
+    <string name="opis_elektricitet">Courant, résistance, condensateurs</string>
+    <string name="oblast_magnetizam">Magnétisme</string>
+    <string name="opis_magnetizam">Champ, induction</string>
+    <string name="oblast_talasi">Oscillations et ondes</string>
+    <string name="opis_talasi">Pendule, ondes, optique</string>
+    <string name="oblast_moderna_fizika">Physique moderne</string>
+    <string name="opis_moderna_fizika">Photons, atomes, noyaux</string>
+    <string name="oblast_konstante">Constantes</string>
+    <string name="opis_konstante">Constantes physiques et données</string>
     <string name="rezultati">Résultats</string>
     <string name="nazad">Retour</string>
     <string name="uskoro_oblast">Les formules de ce domaine arrivent bientôt.</string>

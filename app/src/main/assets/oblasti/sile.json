@@ -1,0 +1,2482 @@
+{
+ "oblast": "sile",
+ "teme": [
+  {
+   "id": "njutnovi_zakoni",
+   "simbol": "F",
+   "naziv": {
+    "sr": "Njutnovi zakoni",
+    "en": "Newton’s laws",
+    "it": "Leggi di Newton",
+    "fr": "Lois de Newton",
+    "es": "Leyes de Newton",
+    "de": "Newtonsche Gesetze",
+    "pt": "Leis de Newton",
+    "ru": "Законы Ньютона"
+   },
+   "opis": {
+    "sr": "Sila, masa, ubrzanje",
+    "en": "Force, mass, acceleration",
+    "it": "Forza, massa, accelerazione",
+    "fr": "Force, masse, accélération",
+    "es": "Fuerza, masa, aceleración",
+    "de": "Kraft, Masse, Beschleunigung",
+    "pt": "Força, massa, aceleração",
+    "ru": "Сила, масса, ускорение"
+   },
+   "kljucne_reci": {
+    "sr": "njutnov zakon sila masa ubrzanje tezina inercija akcija reakcija",
+    "en": "newton law force mass acceleration weight inertia action reaction",
+    "it": "legge di newton forza massa accelerazione peso inerzia azione reazione",
+    "fr": "loi de newton force masse acceleration poids inertie action reaction",
+    "es": "ley de newton fuerza masa aceleracion peso inercia accion reaccion",
+    "de": "newtonsches gesetz kraft masse beschleunigung gewicht tragheit actio reactio",
+    "pt": "lei de newton forca massa aceleracao peso inercia acao reacao",
+    "ru": "закон ньютона сила масса ускорение вес инерция действие противодействие"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Prvi zakon (inercija)",
+      "en": "First law (inertia)",
+      "it": "Primo principio (inerzia)",
+      "fr": "Première loi (inertie)",
+      "es": "Primera ley (inercia)",
+      "de": "Erstes Gesetz (Trägheit)",
+      "pt": "Primeira lei (inércia)",
+      "ru": "Первый закон (инерция)"
+     },
+     "latex": "\\sum \\vec F = 0 \\;\\Rightarrow\\; \\vec v = \\text{const.}",
+     "objasnjenje": {
+      "sr": "Ako je zbir sila nula, telo miruje ili se kreće ravnomerno pravolinijski.",
+      "en": "If the net force is zero, a body stays at rest or moves uniformly in a straight line.",
+      "it": "Se la forza risultante è nulla, il corpo resta fermo o si muove di moto rettilineo uniforme.",
+      "fr": "Si la somme des forces est nulle, le corps reste immobile ou a un mouvement rectiligne uniforme.",
+      "es": "Si la fuerza neta es cero, el cuerpo sigue en reposo o con movimiento rectilíneo uniforme.",
+      "de": "Ist die Gesamtkraft null, bleibt der Körper in Ruhe oder bewegt sich gleichförmig geradlinig.",
+      "pt": "Se a força resultante é nula, o corpo fica em repouso ou em movimento retilíneo uniforme.",
+      "ru": "Если сумма сил равна нулю, тело покоится или движется равномерно и прямолинейно."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Drugi zakon",
+      "en": "Second law",
+      "it": "Secondo principio",
+      "fr": "Deuxième loi",
+      "es": "Segunda ley",
+      "de": "Zweites Gesetz",
+      "pt": "Segunda lei",
+      "ru": "Второй закон"
+     },
+     "latex": "\\vec a = \\frac{\\vec F}{m}, \\quad F = m\\,a",
+     "objasnjenje": {
+      "sr": "Ubrzanje je srazmerno ukupnoj sili, a obrnuto srazmerno masi; 1 N = 1 kg·m/s².",
+      "en": "Acceleration is proportional to the net force and inversely proportional to mass; 1 N = 1 kg·m/s².",
+      "it": "L’accelerazione è proporzionale alla forza risultante e inversamente proporzionale alla massa; 1 N = 1 kg·m/s².",
+      "fr": "L’accélération est proportionnelle à la force résultante et inversement proportionnelle à la masse ; 1 N = 1 kg·m/s².",
+      "es": "La aceleración es proporcional a la fuerza neta e inversamente proporcional a la masa; 1 N = 1 kg·m/s².",
+      "de": "Die Beschleunigung ist proportional zur Gesamtkraft und umgekehrt proportional zur Masse; 1 N = 1 kg·m/s².",
+      "pt": "A aceleração é proporcional à força resultante e inversamente proporcional à massa; 1 N = 1 kg·m/s².",
+      "ru": "Ускорение пропорционально равнодействующей силе и обратно пропорционально массе; 1 Н = 1 кг·м/с²."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Treći zakon (akcija i reakcija)",
+      "en": "Third law (action and reaction)",
+      "it": "Terzo principio (azione e reazione)",
+      "fr": "Troisième loi (action et réaction)",
+      "es": "Tercera ley (acción y reacción)",
+      "de": "Drittes Gesetz (actio = reactio)",
+      "pt": "Terceira lei (ação e reação)",
+      "ru": "Третий закон (действие и противодействие)"
+     },
+     "latex": "\\vec F_{12} = -\\vec F_{21}",
+     "objasnjenje": {
+      "sr": "Dva tela deluju jedno na drugo silama istog intenziteta, a suprotnog smera.",
+      "en": "Two bodies act on each other with forces of equal magnitude and opposite direction.",
+      "it": "Due corpi si scambiano forze di uguale intensità e verso opposto.",
+      "fr": "Deux corps exercent l’un sur l’autre des forces de même intensité et de sens opposés.",
+      "es": "Dos cuerpos se ejercen fuerzas de igual módulo y sentido contrario.",
+      "de": "Zwei Körper üben aufeinander gleich große, entgegengesetzte Kräfte aus.",
+      "pt": "Dois corpos exercem um sobre o outro forças de mesma intensidade e sentidos opostos.",
+      "ru": "Два тела действуют друг на друга силами, равными по модулю и противоположными по направлению."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Težina (sila teže)",
+      "en": "Weight",
+      "it": "Forza peso",
+      "fr": "Poids",
+      "es": "Peso",
+      "de": "Gewichtskraft",
+      "pt": "Peso",
+      "ru": "Сила тяжести"
+     },
+     "latex": {
+      "sr": "F_g = m\\,g",
+      "en": "F_g = m\\,g",
+      "it": "F_g = m\\,g",
+      "fr": "F_g = m\\,g",
+      "es": "F_g = m\\,g",
+      "de": "F_g = m\\,g",
+      "pt": "F_g = m\\,g",
+      "ru": "F_{\\text{т}} = m\\,g"
+     },
+     "objasnjenje": {
+      "sr": "Sila kojom Zemlja privlači telo mase m; g ≈ 9,81 m/s².",
+      "en": "Force with which the Earth pulls a body of mass m; g ≈ 9.81 m/s².",
+      "it": "Forza con cui la Terra attira un corpo di massa m; g ≈ 9,81 m/s².",
+      "fr": "Force avec laquelle la Terre attire un corps de masse m ; g ≈ 9,81 m/s².",
+      "es": "Fuerza con que la Tierra atrae un cuerpo de masa m; g ≈ 9,81 m/s².",
+      "de": "Kraft, mit der die Erde einen Körper der Masse m anzieht; g ≈ 9,81 m/s².",
+      "pt": "Força com que a Terra atrai um corpo de massa m; g ≈ 9,81 m/s².",
+      "ru": "Сила, с которой Земля притягивает тело массой m; g ≈ 9,81 м/с²."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "F": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "sila",
+       "en": "force",
+       "it": "forza",
+       "fr": "force",
+       "es": "fuerza",
+       "de": "Kraft",
+       "pt": "força",
+       "ru": "сила"
+      },
+      "vrsta": "sila"
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 10,
+      "poz": true
+     },
+     "a": {
+      "oznaka": "a",
+      "naziv": {
+       "sr": "ubrzanje",
+       "en": "acceleration",
+       "it": "accelerazione",
+       "fr": "accélération",
+       "es": "aceleración",
+       "de": "Beschleunigung",
+       "pt": "aceleração",
+       "ru": "ускорение"
+      },
+      "vrsta": "ubrzanje",
+      "pocetna": 2
+     },
+     "Fg": {
+      "oznaka": {
+       "sr": "F_g",
+       "en": "F_g",
+       "it": "F_g",
+       "fr": "F_g",
+       "es": "F_g",
+       "de": "F_g",
+       "pt": "F_g",
+       "ru": "F_{\\text{т}}"
+      },
+      "naziv": {
+       "sr": "težina (sila teže)",
+       "en": "weight",
+       "it": "forza peso",
+       "fr": "poids",
+       "es": "peso",
+       "de": "Gewichtskraft",
+       "pt": "peso",
+       "ru": "сила тяжести"
+      },
+      "vrsta": "sila",
+      "poz": true
+     },
+     "g": {
+      "oznaka": "g",
+      "naziv": {
+       "sr": "ubrzanje Zemljine teže",
+       "en": "gravitational acceleration",
+       "it": "accelerazione di gravità",
+       "fr": "intensité de la pesanteur",
+       "es": "aceleración de la gravedad",
+       "de": "Fallbeschleunigung",
+       "pt": "aceleração da gravidade",
+       "ru": "ускорение свободного падения"
+      },
+      "vrsta": "ubrzanje",
+      "pocetna": 9.81,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "F = m a",
+      "trazi": "F",
+      "resenja": {
+       "F": "m*a",
+       "m": "F/a",
+       "a": "F/m"
+      }
+     },
+     {
+      "latex": {
+       "sr": "F_g = m g",
+       "en": "F_g = m g",
+       "it": "F_g = m g",
+       "fr": "F_g = m g",
+       "es": "F_g = m g",
+       "de": "F_g = m g",
+       "pt": "F_g = m g",
+       "ru": "F_{\\text{т}} = m g"
+      },
+      "trazi": "Fg",
+      "resenja": {
+       "Fg": "m*g",
+       "m": "Fg/g",
+       "g": "Fg/m"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "gravitacija",
+   "simbol": "G",
+   "naziv": {
+    "sr": "Gravitacija",
+    "en": "Gravitation",
+    "it": "Gravitazione",
+    "fr": "Gravitation",
+    "es": "Gravitación",
+    "de": "Gravitation",
+    "pt": "Gravitação",
+    "ru": "Гравитация"
+   },
+   "opis": {
+    "sr": "Njutnov zakon gravitacije",
+    "en": "Newton’s law of gravitation",
+    "it": "Legge di gravitazione",
+    "fr": "Loi de la gravitation",
+    "es": "Ley de gravitación",
+    "de": "Gravitationsgesetz",
+    "pt": "Lei da gravitação",
+    "ru": "Закон всемирного тяготения"
+   },
+   "kljucne_reci": {
+    "sr": "gravitacija gravitaciona sila privlacenje planeta zemlja ubrzanje na povrsini",
+    "en": "gravitation gravity gravitational force attraction planet earth surface gravity",
+    "it": "gravitazione forza gravitazionale attrazione pianeta terra",
+    "fr": "gravitation attraction universelle planete terre pesanteur",
+    "es": "gravitacion fuerza gravitatoria atraccion planeta tierra",
+    "de": "gravitation gravitationskraft anziehung planet erde",
+    "pt": "gravitacao forca gravitacional atracao planeta terra",
+    "ru": "гравитация всемирное тяготение притяжение планета земля"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Zakon gravitacije",
+      "en": "Law of gravitation",
+      "it": "Legge di gravitazione universale",
+      "fr": "Loi de la gravitation universelle",
+      "es": "Ley de gravitación universal",
+      "de": "Gravitationsgesetz",
+      "pt": "Lei da gravitação universal",
+      "ru": "Закон всемирного тяготения"
+     },
+     "latex": "F = G\\,\\frac{m_1 m_2}{r^2}",
+     "objasnjenje": {
+      "sr": "Dva tela se privlače silom srazmernom proizvodu masa, a obrnuto srazmernom kvadratu rastojanja; G = 6,674 · 10⁻¹¹ N·m²/kg².",
+      "en": "Two bodies attract with a force proportional to the product of their masses and inversely proportional to the squared distance; G = 6.674 · 10⁻¹¹ N·m²/kg².",
+      "it": "Due corpi si attraggono con forza proporzionale al prodotto delle masse e inversamente al quadrato della distanza; G = 6,674 · 10⁻¹¹ N·m²/kg².",
+      "fr": "Deux corps s’attirent avec une force proportionnelle au produit des masses et inversement au carré de la distance ; G = 6,674 · 10⁻¹¹ N·m²/kg².",
+      "es": "Dos cuerpos se atraen con una fuerza proporcional al producto de las masas e inversa al cuadrado de la distancia; G = 6,674 · 10⁻¹¹ N·m²/kg².",
+      "de": "Zwei Körper ziehen sich mit einer Kraft an, die proportional zum Produkt der Massen und umgekehrt proportional zum Abstandsquadrat ist; G = 6,674 · 10⁻¹¹ N·m²/kg².",
+      "pt": "Dois corpos se atraem com força proporcional ao produto das massas e inversa ao quadrado da distância; G = 6,674 · 10⁻¹¹ N·m²/kg².",
+      "ru": "Два тела притягиваются с силой, пропорциональной произведению масс и обратно пропорциональной квадрату расстояния; G = 6,674 · 10⁻¹¹ Н·м²/кг²."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Ubrzanje na površini planete",
+      "en": "Surface gravity of a planet",
+      "it": "Gravità sulla superficie di un pianeta",
+      "fr": "Pesanteur à la surface d’une planète",
+      "es": "Gravedad en la superficie de un planeta",
+      "de": "Fallbeschleunigung an der Planetenoberfläche",
+      "pt": "Gravidade na superfície de um planeta",
+      "ru": "Ускорение свободного падения на планете"
+     },
+     "latex": "m g = G\\,\\frac{m M}{R^2} \\;\\Rightarrow\\; g = \\frac{G M}{R^2}",
+     "objasnjenje": {
+      "sr": "Za Zemlju: M = 5,97 · 10²⁴ kg, R = 6371 km, pa je g ≈ 9,8 m/s².",
+      "en": "For the Earth: M = 5.97 · 10²⁴ kg, R = 6371 km, so g ≈ 9.8 m/s².",
+      "it": "Per la Terra: M = 5,97 · 10²⁴ kg, R = 6371 km, quindi g ≈ 9,8 m/s².",
+      "fr": "Pour la Terre : M = 5,97 · 10²⁴ kg, R = 6371 km, donc g ≈ 9,8 m/s².",
+      "es": "Para la Tierra: M = 5,97 · 10²⁴ kg, R = 6371 km, así que g ≈ 9,8 m/s².",
+      "de": "Für die Erde: M = 5,97 · 10²⁴ kg, R = 6371 km, also g ≈ 9,8 m/s².",
+      "pt": "Para a Terra: M = 5,97 · 10²⁴ kg, R = 6371 km, logo g ≈ 9,8 m/s².",
+      "ru": "Для Земли: M = 5,97 · 10²⁴ кг, R = 6371 км, поэтому g ≈ 9,8 м/с²."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "F": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "sila",
+       "en": "force",
+       "it": "forza",
+       "fr": "force",
+       "es": "fuerza",
+       "de": "Kraft",
+       "pt": "força",
+       "ru": "сила"
+      },
+      "vrsta": "sila"
+     },
+     "Gk": {
+      "oznaka": "G",
+      "naziv": {
+       "sr": "gravitaciona konstanta",
+       "en": "gravitational constant",
+       "it": "costante di gravitazione",
+       "fr": "constante gravitationnelle",
+       "es": "constante de gravitación",
+       "de": "Gravitationskonstante",
+       "pt": "constante gravitacional",
+       "ru": "гравитационная постоянная"
+      },
+      "vrsta": "gravKonst",
+      "pocetna": 6.6743e-11,
+      "poz": true
+     },
+     "m1": {
+      "oznaka": "m_1",
+      "naziv": {
+       "sr": "masa prvog tela",
+       "en": "mass of body 1",
+       "it": "massa del corpo 1",
+       "fr": "masse du corps 1",
+       "es": "masa del cuerpo 1",
+       "de": "Masse von Körper 1",
+       "pt": "massa do corpo 1",
+       "ru": "масса первого тела"
+      },
+      "vrsta": "masa",
+      "pocetna": 70,
+      "poz": true
+     },
+     "m2": {
+      "oznaka": "m_2",
+      "naziv": {
+       "sr": "masa drugog tela",
+       "en": "mass of body 2",
+       "it": "massa del corpo 2",
+       "fr": "masse du corps 2",
+       "es": "masa del cuerpo 2",
+       "de": "Masse von Körper 2",
+       "pt": "massa do corpo 2",
+       "ru": "масса второго тела"
+      },
+      "vrsta": "masa",
+      "pocetna": 5.972e+24,
+      "poz": true
+     },
+     "r": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "rastojanje između središta",
+       "en": "distance between centres",
+       "it": "distanza tra i centri",
+       "fr": "distance entre les centres",
+       "es": "distancia entre centros",
+       "de": "Abstand der Mittelpunkte",
+       "pt": "distância entre os centros",
+       "ru": "расстояние между центрами"
+      },
+      "vrsta": "duzina",
+      "pocetna": 6371000.0,
+      "jed": "km",
+      "poz": true
+     },
+     "M": {
+      "oznaka": "M",
+      "naziv": {
+       "sr": "masa planete",
+       "en": "mass of the planet",
+       "it": "massa del pianeta",
+       "fr": "masse de la planète",
+       "es": "masa del planeta",
+       "de": "Masse des Planeten",
+       "pt": "massa do planeta",
+       "ru": "масса планеты"
+      },
+      "vrsta": "masa",
+      "pocetna": 5.972e+24,
+      "poz": true
+     },
+     "R": {
+      "oznaka": "R",
+      "naziv": {
+       "sr": "poluprečnik planete",
+       "en": "radius of the planet",
+       "it": "raggio del pianeta",
+       "fr": "rayon de la planète",
+       "es": "radio del planeta",
+       "de": "Radius des Planeten",
+       "pt": "raio do planeta",
+       "ru": "радиус планеты"
+      },
+      "vrsta": "duzina",
+      "pocetna": 6371000.0,
+      "jed": "km",
+      "poz": true
+     },
+     "gp": {
+      "oznaka": "g",
+      "naziv": {
+       "sr": "ubrzanje na površini",
+       "en": "surface gravity",
+       "it": "gravità in superficie",
+       "fr": "pesanteur à la surface",
+       "es": "gravedad en la superficie",
+       "de": "Fallbeschleunigung an der Oberfläche",
+       "pt": "gravidade na superfície",
+       "ru": "ускорение на поверхности"
+      },
+      "vrsta": "ubrzanje",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "F = G \\dfrac{m_1 m_2}{r^2}",
+      "trazi": "F",
+      "promenljive": [
+       "F",
+       "Gk",
+       "m1",
+       "m2",
+       "r"
+      ],
+      "resenja": {
+       "F": "Gk*m1*m2/(r*r)",
+       "m1": "F*r*r/(Gk*m2)",
+       "m2": "F*r*r/(Gk*m1)",
+       "r": "sqrt(Gk*m1*m2/F)"
+      }
+     },
+     {
+      "latex": "g = \\dfrac{G M}{R^2}",
+      "trazi": "gp",
+      "promenljive": [
+       "gp",
+       "Gk",
+       "M",
+       "R"
+      ],
+      "resenja": {
+       "gp": "Gk*M/(R*R)",
+       "M": "gp*R*R/Gk",
+       "R": "sqrt(Gk*M/gp)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "trenje",
+   "simbol": "μ",
+   "naziv": {
+    "sr": "Trenje",
+    "en": "Friction",
+    "it": "Attrito",
+    "fr": "Frottement",
+    "es": "Rozamiento",
+    "de": "Reibung",
+    "pt": "Atrito",
+    "ru": "Трение"
+   },
+   "opis": {
+    "sr": "Koeficijent trenja",
+    "en": "Coefficient of friction",
+    "it": "Coefficiente d’attrito",
+    "fr": "Coefficient de frottement",
+    "es": "Coeficiente de rozamiento",
+    "de": "Reibungszahl",
+    "pt": "Coeficiente de atrito",
+    "ru": "Коэффициент трения"
+   },
+   "kljucne_reci": {
+    "sr": "trenje sila trenja koeficijent trenja klizanje mirovanje statičko staticko",
+    "en": "friction force coefficient kinetic static sliding",
+    "it": "attrito radente statico dinamico coefficiente",
+    "fr": "frottement statique dynamique glissement coefficient",
+    "es": "rozamiento friccion estatico dinamico coeficiente",
+    "de": "reibung haftreibung gleitreibung reibungszahl",
+    "pt": "atrito estatico cinetico coeficiente",
+    "ru": "трение скольжения покоя коэффициент трения"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Trenje klizanja",
+      "en": "Kinetic friction",
+      "it": "Attrito dinamico",
+      "fr": "Frottement de glissement",
+      "es": "Rozamiento dinámico",
+      "de": "Gleitreibung",
+      "pt": "Atrito cinético",
+      "ru": "Трение скольжения"
+     },
+     "latex": {
+      "sr": "F_{\\mathrm{tr}} = \\mu\\,F_N",
+      "en": "F_{\\mathrm{f}} = \\mu\\,F_N",
+      "it": "F_{\\mathrm{a}} = \\mu\\,F_N",
+      "fr": "F_{\\mathrm{f}} = \\mu\\,F_N",
+      "es": "F_{\\mathrm{r}} = \\mu\\,F_N",
+      "de": "F_{\\mathrm{R}} = \\mu\\,F_N",
+      "pt": "F_{\\mathrm{at}} = \\mu\\,F_N",
+      "ru": "F_{\\text{тр}} = \\mu\\,N"
+     },
+     "objasnjenje": {
+      "sr": "Sila trenja je srazmerna sili kojom telo pritiska podlogu; na vodoravnoj podlozi Fₙ = mg.",
+      "en": "Friction is proportional to the normal force; on a horizontal surface Fₙ = mg.",
+      "it": "L’attrito è proporzionale alla forza normale; su un piano orizzontale Fₙ = mg.",
+      "fr": "Le frottement est proportionnel à la force normale ; sur un plan horizontal Fₙ = mg.",
+      "es": "El rozamiento es proporcional a la fuerza normal; sobre una superficie horizontal Fₙ = mg.",
+      "de": "Die Reibung ist proportional zur Normalkraft; auf waagerechter Fläche ist Fₙ = mg.",
+      "pt": "O atrito é proporcional à força normal; numa superfície horizontal Fₙ = mg.",
+      "ru": "Сила трения пропорциональна силе нормального давления; на горизонтальной поверхности N = mg."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Trenje mirovanja (najveće)",
+      "en": "Static friction (maximum)",
+      "it": "Attrito statico (massimo)",
+      "fr": "Frottement statique (maximal)",
+      "es": "Rozamiento estático (máximo)",
+      "de": "Haftreibung (maximal)",
+      "pt": "Atrito estático (máximo)",
+      "ru": "Трение покоя (наибольшее)"
+     },
+     "latex": {
+      "sr": "F_{\\mathrm{tr,\\max}} = \\mu_s\\,F_N",
+      "en": "F_{\\mathrm{f,\\max}} = \\mu_s\\,F_N",
+      "it": "F_{\\mathrm{a,\\max}} = \\mu_s\\,F_N",
+      "fr": "F_{\\mathrm{f,\\max}} = \\mu_s\\,F_N",
+      "es": "F_{\\mathrm{r,\\max}} = \\mu_s\\,F_N",
+      "de": "F_{\\mathrm{R,\\max}} = \\mu_s\\,F_N",
+      "pt": "F_{\\mathrm{at,\\max}} = \\mu_s\\,F_N",
+      "ru": "F_{\\text{тр,max}} = \\mu_0\\,N"
+     },
+     "objasnjenje": {
+      "sr": "Telo ostaje u mirovanju dok spoljašnja sila ne pređe ovu vrednost; obično je μₛ > μ.",
+      "en": "The body stays at rest until the applied force exceeds this value; usually μₛ > μ.",
+      "it": "Il corpo resta fermo finché la forza applicata non supera questo valore; di solito μₛ > μ.",
+      "fr": "Le corps reste immobile tant que la force appliquée ne dépasse pas cette valeur ; en général μₛ > μ.",
+      "es": "El cuerpo sigue en reposo hasta que la fuerza aplicada supera este valor; normalmente μₛ > μ.",
+      "de": "Der Körper bleibt in Ruhe, bis die Kraft diesen Wert übersteigt; meist ist μₛ > μ.",
+      "pt": "O corpo fica em repouso até a força aplicada exceder este valor; em geral μₛ > μ.",
+      "ru": "Тело покоится, пока внешняя сила не превысит это значение; обычно μ₀ > μ."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Ftr": {
+      "oznaka": {
+       "sr": "F_{\\mathrm{tr}}",
+       "en": "F_{\\mathrm{f}}",
+       "it": "F_{\\mathrm{a}}",
+       "fr": "F_{\\mathrm{f}}",
+       "es": "F_{\\mathrm{r}}",
+       "de": "F_{\\mathrm{R}}",
+       "pt": "F_{\\mathrm{at}}",
+       "ru": "F_{\\text{тр}}"
+      },
+      "naziv": {
+       "sr": "sila trenja",
+       "en": "friction force",
+       "it": "forza d’attrito",
+       "fr": "force de frottement",
+       "es": "fuerza de rozamiento",
+       "de": "Reibungskraft",
+       "pt": "força de atrito",
+       "ru": "сила трения"
+      },
+      "vrsta": "sila",
+      "nenegativna": true
+     },
+     "mu": {
+      "oznaka": "\\mu",
+      "naziv": {
+       "sr": "koeficijent trenja",
+       "en": "coefficient of friction",
+       "it": "coefficiente d’attrito",
+       "fr": "coefficient de frottement",
+       "es": "coeficiente de rozamiento",
+       "de": "Reibungszahl",
+       "pt": "coeficiente de atrito",
+       "ru": "коэффициент трения"
+      },
+      "vrsta": "bez",
+      "pocetna": 0.3,
+      "nenegativna": true
+     },
+     "FN": {
+      "oznaka": {
+       "sr": "F_N",
+       "en": "F_N",
+       "it": "F_N",
+       "fr": "F_N",
+       "es": "F_N",
+       "de": "F_N",
+       "pt": "F_N",
+       "ru": "N"
+      },
+      "naziv": {
+       "sr": "normalna sila (pritisak na podlogu)",
+       "en": "normal force",
+       "it": "forza normale",
+       "fr": "force normale",
+       "es": "fuerza normal",
+       "de": "Normalkraft",
+       "pt": "força normal",
+       "ru": "сила нормального давления"
+      },
+      "vrsta": "sila",
+      "pocetna": 100,
+      "poz": true
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 10,
+      "poz": true
+     },
+     "g": {
+      "oznaka": "g",
+      "naziv": {
+       "sr": "ubrzanje Zemljine teže",
+       "en": "gravitational acceleration",
+       "it": "accelerazione di gravità",
+       "fr": "intensité de la pesanteur",
+       "es": "aceleración de la gravedad",
+       "de": "Fallbeschleunigung",
+       "pt": "aceleração da gravidade",
+       "ru": "ускорение свободного падения"
+      },
+      "vrsta": "ubrzanje",
+      "pocetna": 9.81,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": {
+       "sr": "F_{\\mathrm{tr}} = \\mu F_N",
+       "en": "F_{\\mathrm{f}} = \\mu F_N",
+       "it": "F_{\\mathrm{a}} = \\mu F_N",
+       "fr": "F_{\\mathrm{f}} = \\mu F_N",
+       "es": "F_{\\mathrm{r}} = \\mu F_N",
+       "de": "F_{\\mathrm{R}} = \\mu F_N",
+       "pt": "F_{\\mathrm{at}} = \\mu F_N",
+       "ru": "F_{\\text{тр}} = \\mu N"
+      },
+      "trazi": "Ftr",
+      "resenja": {
+       "Ftr": "mu*FN",
+       "mu": "Ftr/FN",
+       "FN": "Ftr/mu"
+      }
+     },
+     {
+      "latex": {
+       "sr": "F_{\\mathrm{tr}} = \\mu m g",
+       "en": "F_{\\mathrm{f}} = \\mu m g",
+       "it": "F_{\\mathrm{a}} = \\mu m g",
+       "fr": "F_{\\mathrm{f}} = \\mu m g",
+       "es": "F_{\\mathrm{r}} = \\mu m g",
+       "de": "F_{\\mathrm{R}} = \\mu m g",
+       "pt": "F_{\\mathrm{at}} = \\mu m g",
+       "ru": "F_{\\text{тр}} = \\mu m g"
+      },
+      "trazi": "Ftr",
+      "resenja": {
+       "Ftr": "mu*m*g",
+       "mu": "Ftr/(m*g)",
+       "m": "Ftr/(mu*g)"
+      },
+      "promenljive": [
+       "Ftr",
+       "mu",
+       "m",
+       "g"
+      ],
+      "napomene": {
+       "Ftr": {
+        "sr": "Telo na vodoravnoj podlozi.",
+        "en": "Body on a horizontal surface.",
+        "it": "Corpo su un piano orizzontale.",
+        "fr": "Corps sur un plan horizontal.",
+        "es": "Cuerpo sobre una superficie horizontal.",
+        "de": "Körper auf waagerechter Fläche.",
+        "pt": "Corpo numa superfície horizontal.",
+        "ru": "Тело на горизонтальной поверхности."
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "strma_ravan",
+   "simbol": "α",
+   "naziv": {
+    "sr": "Strma ravan",
+    "en": "Inclined plane",
+    "it": "Piano inclinato",
+    "fr": "Plan incliné",
+    "es": "Plano inclinado",
+    "de": "Schiefe Ebene",
+    "pt": "Plano inclinado",
+    "ru": "Наклонная плоскость"
+   },
+   "opis": {
+    "sr": "Komponente težine, ubrzanje",
+    "en": "Weight components, acceleration",
+    "it": "Componenti del peso, accelerazione",
+    "fr": "Composantes du poids, accélération",
+    "es": "Componentes del peso, aceleración",
+    "de": "Komponenten der Gewichtskraft, Beschleunigung",
+    "pt": "Componentes do peso, aceleração",
+    "ru": "Составляющие силы тяжести, ускорение"
+   },
+   "kljucne_reci": {
+    "sr": "strma ravan kosa ravan nagib klizanje niz strmu ravan",
+    "en": "inclined plane slope ramp sliding down",
+    "it": "piano inclinato rampa scivolamento",
+    "fr": "plan incline pente glissement",
+    "es": "plano inclinado rampa deslizamiento",
+    "de": "schiefe ebene hang rampe gleiten",
+    "pt": "plano inclinado rampa deslizamento",
+    "ru": "наклонная плоскость скольжение уклон"
+   },
+   "crtez": {
+    "sr": "<svg viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M24,178 L276,178 L276,32.5 Z\"/><path class=\"ugao\" d=\"M64,178 A40,40 0 0,0 58.6,158.0\"/><text x=\"72\" y=\"171\">α</text><path class=\"lik2\" d=\"M136.6,113.0 L171.2,93.0 L158.2,70.5 L123.6,90.5 Z\"/><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"147.4\" y2=\"150.7\"/><path class=\"tac\" d=\"M147.4,161.7 L142.4,150.7 L152.4,150.7 Z\"/><text x=\"153.4\" y=\"169.7\">mg</text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"114.5\" y2=\"110.7\"/><path class=\"tac\" d=\"M105.0,116.2 L112.0,106.4 L117.0,115.1 Z\"/><text x=\"71.0\" y=\"120.2\">F<tspan class=\"sub\" dy=\"5\">∥</tspan></text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"123.9\" y2=\"51.0\"/><path class=\"tac\" d=\"M118.4,41.5 L128.2,48.5 L119.6,53.5 Z\"/><text x=\"124.4\" y=\"43.5\">F<tspan class=\"sub\" dy=\"5\">N</tspan></text></svg>",
+    "en": "<svg viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M24,178 L276,178 L276,32.5 Z\"/><path class=\"ugao\" d=\"M64,178 A40,40 0 0,0 58.6,158.0\"/><text x=\"72\" y=\"171\">α</text><path class=\"lik2\" d=\"M136.6,113.0 L171.2,93.0 L158.2,70.5 L123.6,90.5 Z\"/><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"147.4\" y2=\"150.7\"/><path class=\"tac\" d=\"M147.4,161.7 L142.4,150.7 L152.4,150.7 Z\"/><text x=\"153.4\" y=\"169.7\">mg</text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"114.5\" y2=\"110.7\"/><path class=\"tac\" d=\"M105.0,116.2 L112.0,106.4 L117.0,115.1 Z\"/><text x=\"71.0\" y=\"120.2\">F<tspan class=\"sub\" dy=\"5\">∥</tspan></text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"123.9\" y2=\"51.0\"/><path class=\"tac\" d=\"M118.4,41.5 L128.2,48.5 L119.6,53.5 Z\"/><text x=\"124.4\" y=\"43.5\">F<tspan class=\"sub\" dy=\"5\">N</tspan></text></svg>",
+    "it": "<svg viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M24,178 L276,178 L276,32.5 Z\"/><path class=\"ugao\" d=\"M64,178 A40,40 0 0,0 58.6,158.0\"/><text x=\"72\" y=\"171\">α</text><path class=\"lik2\" d=\"M136.6,113.0 L171.2,93.0 L158.2,70.5 L123.6,90.5 Z\"/><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"147.4\" y2=\"150.7\"/><path class=\"tac\" d=\"M147.4,161.7 L142.4,150.7 L152.4,150.7 Z\"/><text x=\"153.4\" y=\"169.7\">mg</text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"114.5\" y2=\"110.7\"/><path class=\"tac\" d=\"M105.0,116.2 L112.0,106.4 L117.0,115.1 Z\"/><text x=\"71.0\" y=\"120.2\">F<tspan class=\"sub\" dy=\"5\">∥</tspan></text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"123.9\" y2=\"51.0\"/><path class=\"tac\" d=\"M118.4,41.5 L128.2,48.5 L119.6,53.5 Z\"/><text x=\"124.4\" y=\"43.5\">F<tspan class=\"sub\" dy=\"5\">N</tspan></text></svg>",
+    "fr": "<svg viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M24,178 L276,178 L276,32.5 Z\"/><path class=\"ugao\" d=\"M64,178 A40,40 0 0,0 58.6,158.0\"/><text x=\"72\" y=\"171\">α</text><path class=\"lik2\" d=\"M136.6,113.0 L171.2,93.0 L158.2,70.5 L123.6,90.5 Z\"/><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"147.4\" y2=\"150.7\"/><path class=\"tac\" d=\"M147.4,161.7 L142.4,150.7 L152.4,150.7 Z\"/><text x=\"153.4\" y=\"169.7\">mg</text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"114.5\" y2=\"110.7\"/><path class=\"tac\" d=\"M105.0,116.2 L112.0,106.4 L117.0,115.1 Z\"/><text x=\"71.0\" y=\"120.2\">F<tspan class=\"sub\" dy=\"5\">∥</tspan></text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"123.9\" y2=\"51.0\"/><path class=\"tac\" d=\"M118.4,41.5 L128.2,48.5 L119.6,53.5 Z\"/><text x=\"124.4\" y=\"43.5\">F<tspan class=\"sub\" dy=\"5\">N</tspan></text></svg>",
+    "es": "<svg viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M24,178 L276,178 L276,32.5 Z\"/><path class=\"ugao\" d=\"M64,178 A40,40 0 0,0 58.6,158.0\"/><text x=\"72\" y=\"171\">α</text><path class=\"lik2\" d=\"M136.6,113.0 L171.2,93.0 L158.2,70.5 L123.6,90.5 Z\"/><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"147.4\" y2=\"150.7\"/><path class=\"tac\" d=\"M147.4,161.7 L142.4,150.7 L152.4,150.7 Z\"/><text x=\"153.4\" y=\"169.7\">mg</text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"114.5\" y2=\"110.7\"/><path class=\"tac\" d=\"M105.0,116.2 L112.0,106.4 L117.0,115.1 Z\"/><text x=\"71.0\" y=\"120.2\">F<tspan class=\"sub\" dy=\"5\">∥</tspan></text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"123.9\" y2=\"51.0\"/><path class=\"tac\" d=\"M118.4,41.5 L128.2,48.5 L119.6,53.5 Z\"/><text x=\"124.4\" y=\"43.5\">F<tspan class=\"sub\" dy=\"5\">N</tspan></text></svg>",
+    "de": "<svg viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M24,178 L276,178 L276,32.5 Z\"/><path class=\"ugao\" d=\"M64,178 A40,40 0 0,0 58.6,158.0\"/><text x=\"72\" y=\"171\">α</text><path class=\"lik2\" d=\"M136.6,113.0 L171.2,93.0 L158.2,70.5 L123.6,90.5 Z\"/><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"147.4\" y2=\"150.7\"/><path class=\"tac\" d=\"M147.4,161.7 L142.4,150.7 L152.4,150.7 Z\"/><text x=\"153.4\" y=\"169.7\">mg</text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"114.5\" y2=\"110.7\"/><path class=\"tac\" d=\"M105.0,116.2 L112.0,106.4 L117.0,115.1 Z\"/><text x=\"71.0\" y=\"120.2\">F<tspan class=\"sub\" dy=\"5\">∥</tspan></text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"123.9\" y2=\"51.0\"/><path class=\"tac\" d=\"M118.4,41.5 L128.2,48.5 L119.6,53.5 Z\"/><text x=\"124.4\" y=\"43.5\">F<tspan class=\"sub\" dy=\"5\">N</tspan></text></svg>",
+    "pt": "<svg viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M24,178 L276,178 L276,32.5 Z\"/><path class=\"ugao\" d=\"M64,178 A40,40 0 0,0 58.6,158.0\"/><text x=\"72\" y=\"171\">α</text><path class=\"lik2\" d=\"M136.6,113.0 L171.2,93.0 L158.2,70.5 L123.6,90.5 Z\"/><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"147.4\" y2=\"150.7\"/><path class=\"tac\" d=\"M147.4,161.7 L142.4,150.7 L152.4,150.7 Z\"/><text x=\"153.4\" y=\"169.7\">mg</text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"114.5\" y2=\"110.7\"/><path class=\"tac\" d=\"M105.0,116.2 L112.0,106.4 L117.0,115.1 Z\"/><text x=\"71.0\" y=\"120.2\">F<tspan class=\"sub\" dy=\"5\">∥</tspan></text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"123.9\" y2=\"51.0\"/><path class=\"tac\" d=\"M118.4,41.5 L128.2,48.5 L119.6,53.5 Z\"/><text x=\"124.4\" y=\"43.5\">F<tspan class=\"sub\" dy=\"5\">N</tspan></text></svg>",
+    "ru": "<svg viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path class=\"lik\" d=\"M24,178 L276,178 L276,32.5 Z\"/><path class=\"ugao\" d=\"M64,178 A40,40 0 0,0 58.6,158.0\"/><text x=\"72\" y=\"171\">α</text><path class=\"lik2\" d=\"M136.6,113.0 L171.2,93.0 L158.2,70.5 L123.6,90.5 Z\"/><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"147.4\" y2=\"150.7\"/><path class=\"tac\" d=\"M147.4,161.7 L142.4,150.7 L152.4,150.7 Z\"/><text x=\"153.4\" y=\"169.7\">mg</text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"114.5\" y2=\"110.7\"/><path class=\"tac\" d=\"M105.0,116.2 L112.0,106.4 L117.0,115.1 Z\"/><text x=\"71.0\" y=\"120.2\">F<tspan class=\"sub\" dy=\"5\">∥</tspan></text><line class=\"lik-l\" x1=\"147.4\" y1=\"91.7\" x2=\"123.9\" y2=\"51.0\"/><path class=\"tac\" d=\"M118.4,41.5 L128.2,48.5 L119.6,53.5 Z\"/><text x=\"124.4\" y=\"43.5\">F<tspan class=\"sub\" dy=\"5\">N</tspan></text></svg>"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Komponente težine",
+      "en": "Components of weight",
+      "it": "Componenti del peso",
+      "fr": "Composantes du poids",
+      "es": "Componentes del peso",
+      "de": "Komponenten der Gewichtskraft",
+      "pt": "Componentes do peso",
+      "ru": "Составляющие силы тяжести"
+     },
+     "latex": {
+      "sr": "F_\\parallel = m g \\sin\\alpha, \\quad F_N = m g \\cos\\alpha",
+      "en": "F_\\parallel = m g \\sin\\alpha, \\quad F_N = m g \\cos\\alpha",
+      "it": "F_\\parallel = m g \\sin\\alpha, \\quad F_N = m g \\cos\\alpha",
+      "fr": "F_\\parallel = m g \\sin\\alpha, \\quad F_N = m g \\cos\\alpha",
+      "es": "F_\\parallel = m g \\sin\\alpha, \\quad F_N = m g \\cos\\alpha",
+      "de": "F_\\parallel = m g \\sin\\alpha, \\quad F_N = m g \\cos\\alpha",
+      "pt": "F_\\parallel = m g \\sin\\alpha, \\quad F_N = m g \\cos\\alpha",
+      "ru": "F_\\parallel = m g \\sin\\alpha, \\quad N = m g \\cos\\alpha"
+     },
+     "objasnjenje": {
+      "sr": "F∥ vuče telo niz strmu ravan, a Fₙ ga pritiska uz podlogu.",
+      "en": "F∥ pulls the body down the slope; Fₙ presses it against the surface.",
+      "it": "F∥ tira il corpo lungo il piano; Fₙ lo preme contro la superficie.",
+      "fr": "F∥ entraîne le corps le long de la pente ; Fₙ le presse contre le plan.",
+      "es": "F∥ arrastra el cuerpo pendiente abajo; Fₙ lo presiona contra la superficie.",
+      "de": "F∥ zieht den Körper hangabwärts, Fₙ drückt ihn auf die Unterlage.",
+      "pt": "F∥ puxa o corpo plano abaixo; Fₙ o pressiona contra a superfície.",
+      "ru": "F∥ тянет тело вниз по склону, N прижимает его к поверхности."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Ubrzanje niz strmu ravan",
+      "en": "Acceleration down the slope",
+      "it": "Accelerazione lungo il piano",
+      "fr": "Accélération le long de la pente",
+      "es": "Aceleración pendiente abajo",
+      "de": "Beschleunigung hangabwärts",
+      "pt": "Aceleração plano abaixo",
+      "ru": "Ускорение вниз по склону"
+     },
+     "latex": "a = g\\,(\\sin\\alpha - \\mu \\cos\\alpha)",
+     "objasnjenje": {
+      "sr": "Bez trenja (μ = 0): a = g sin α. Ako je a ≤ 0, telo miruje (ako je trenje dovoljno).",
+      "en": "Without friction (μ = 0): a = g sin α. If a ≤ 0, the body stays at rest (if friction is sufficient).",
+      "it": "Senza attrito (μ = 0): a = g sin α. Se a ≤ 0, il corpo resta fermo (se l’attrito basta).",
+      "fr": "Sans frottement (μ = 0) : a = g sin α. Si a ≤ 0, le corps reste immobile (si le frottement suffit).",
+      "es": "Sin rozamiento (μ = 0): a = g sen α. Si a ≤ 0, el cuerpo queda en reposo (si el rozamiento basta).",
+      "de": "Ohne Reibung (μ = 0): a = g sin α. Ist a ≤ 0, bleibt der Körper in Ruhe (bei ausreichender Reibung).",
+      "pt": "Sem atrito (μ = 0): a = g sen α. Se a ≤ 0, o corpo fica em repouso (se o atrito bastar).",
+      "ru": "Без трения (μ = 0): a = g sin α. Если a ≤ 0, тело покоится (при достаточном трении)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "a": {
+      "oznaka": "a",
+      "naziv": {
+       "sr": "ubrzanje",
+       "en": "acceleration",
+       "it": "accelerazione",
+       "fr": "accélération",
+       "es": "aceleración",
+       "de": "Beschleunigung",
+       "pt": "aceleração",
+       "ru": "ускорение"
+      },
+      "vrsta": "ubrzanje"
+     },
+     "g": {
+      "oznaka": "g",
+      "naziv": {
+       "sr": "ubrzanje Zemljine teže",
+       "en": "gravitational acceleration",
+       "it": "accelerazione di gravità",
+       "fr": "intensité de la pesanteur",
+       "es": "aceleración de la gravedad",
+       "de": "Fallbeschleunigung",
+       "pt": "aceleração da gravidade",
+       "ru": "ускорение свободного падения"
+      },
+      "vrsta": "ubrzanje",
+      "pocetna": 9.81,
+      "poz": true
+     },
+     "alfa": {
+      "oznaka": "\\alpha",
+      "naziv": {
+       "sr": "ugao nagiba",
+       "en": "angle of incline",
+       "it": "angolo d’inclinazione",
+       "fr": "angle d’inclinaison",
+       "es": "ángulo de inclinación",
+       "de": "Neigungswinkel",
+       "pt": "ângulo de inclinação",
+       "ru": "угол наклона"
+      },
+      "vrsta": "ugao",
+      "pocetna": 0.5235987755982988,
+      "jed": "°"
+     },
+     "mu": {
+      "oznaka": "\\mu",
+      "naziv": {
+       "sr": "koeficijent trenja",
+       "en": "coefficient of friction",
+       "it": "coefficiente d’attrito",
+       "fr": "coefficient de frottement",
+       "es": "coeficiente de rozamiento",
+       "de": "Reibungszahl",
+       "pt": "coeficiente de atrito",
+       "ru": "коэффициент трения"
+      },
+      "vrsta": "bez",
+      "pocetna": 0.2,
+      "nenegativna": true
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 10,
+      "poz": true
+     },
+     "F": {
+      "oznaka": "F_\\parallel",
+      "naziv": {
+       "sr": "sila niz strmu ravan",
+       "en": "force along the slope",
+       "it": "forza lungo il piano",
+       "fr": "force le long de la pente",
+       "es": "fuerza a lo largo del plano",
+       "de": "Hangabtriebskraft",
+       "pt": "força ao longo do plano",
+       "ru": "скатывающая сила"
+      },
+      "vrsta": "sila"
+     },
+     "FN": {
+      "oznaka": {
+       "sr": "F_N",
+       "en": "F_N",
+       "it": "F_N",
+       "fr": "F_N",
+       "es": "F_N",
+       "de": "F_N",
+       "pt": "F_N",
+       "ru": "N"
+      },
+      "naziv": {
+       "sr": "normalna sila (pritisak na podlogu)",
+       "en": "normal force",
+       "it": "forza normale",
+       "fr": "force normale",
+       "es": "fuerza normal",
+       "de": "Normalkraft",
+       "pt": "força normal",
+       "ru": "сила нормального давления"
+      },
+      "vrsta": "sila",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "a = g (\\sin\\alpha - \\mu \\cos\\alpha)",
+      "trazi": "a",
+      "promenljive": [
+       "a",
+       "g",
+       "alfa",
+       "mu"
+      ],
+      "resenja": {
+       "a": "g*(sin(alfa) - mu*cos(alfa))",
+       "mu": "(sin(alfa) - a/g)/cos(alfa)",
+       "g": "a/(sin(alfa) - mu*cos(alfa))"
+      }
+     },
+     {
+      "latex": "F_\\parallel = m g \\sin\\alpha",
+      "trazi": "F",
+      "promenljive": [
+       "F",
+       "m",
+       "g",
+       "alfa"
+      ],
+      "resenja": {
+       "F": "m*g*sin(alfa)",
+       "m": "F/(g*sin(alfa))",
+       "alfa": "asin(F/(m*g))"
+      }
+     },
+     {
+      "latex": {
+       "sr": "F_N = m g \\cos\\alpha",
+       "en": "F_N = m g \\cos\\alpha",
+       "it": "F_N = m g \\cos\\alpha",
+       "fr": "F_N = m g \\cos\\alpha",
+       "es": "F_N = m g \\cos\\alpha",
+       "de": "F_N = m g \\cos\\alpha",
+       "pt": "F_N = m g \\cos\\alpha",
+       "ru": "N = m g \\cos\\alpha"
+      },
+      "trazi": "FN",
+      "promenljive": [
+       "FN",
+       "m",
+       "g",
+       "alfa"
+      ],
+      "resenja": {
+       "FN": "m*g*cos(alfa)",
+       "m": "FN/(g*cos(alfa))",
+       "alfa": "acos(FN/(m*g))"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "opruga",
+   "simbol": "k",
+   "naziv": {
+    "sr": "Opruga (Hukov zakon)",
+    "en": "Spring (Hooke’s law)",
+    "it": "Molla (legge di Hooke)",
+    "fr": "Ressort (loi de Hooke)",
+    "es": "Resorte (ley de Hooke)",
+    "de": "Feder (Hookesches Gesetz)",
+    "pt": "Mola (lei de Hooke)",
+    "ru": "Пружина (закон Гука)"
+   },
+   "opis": {
+    "sr": "Elastična sila, spajanje opruga",
+    "en": "Elastic force, springs combined",
+    "it": "Forza elastica, molle combinate",
+    "fr": "Force de rappel, ressorts associés",
+    "es": "Fuerza elástica, resortes combinados",
+    "de": "Federkraft, Federschaltungen",
+    "pt": "Força elástica, associação de molas",
+    "ru": "Сила упругости, соединение пружин"
+   },
+   "kljucne_reci": {
+    "sr": "opruga hukov zakon elasticna sila konstanta opruge izduzenje redna paralelna veza",
+    "en": "spring hooke law elastic force spring constant extension series parallel",
+    "it": "molla legge di hooke forza elastica costante elastica serie parallelo",
+    "fr": "ressort loi de hooke force de rappel raideur serie parallele",
+    "es": "resorte ley de hooke fuerza elastica constante serie paralelo",
+    "de": "feder hooke federkraft federkonstante reihe parallel",
+    "pt": "mola lei de hooke forca elastica constante serie paralelo",
+    "ru": "пружина закон гука сила упругости жесткость последовательно параллельно"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Hukov zakon",
+      "en": "Hooke’s law",
+      "it": "Legge di Hooke",
+      "fr": "Loi de Hooke",
+      "es": "Ley de Hooke",
+      "de": "Hookesches Gesetz",
+      "pt": "Lei de Hooke",
+      "ru": "Закон Гука"
+     },
+     "latex": "F = k\\,x",
+     "objasnjenje": {
+      "sr": "Sila potrebna da se opruga izduži (ili sabije) za x; k je konstanta opruge u N/m.",
+      "en": "Force needed to stretch (or compress) a spring by x; k is the spring constant in N/m.",
+      "it": "Forza necessaria per allungare (o comprimere) la molla di x; k è la costante elastica in N/m.",
+      "fr": "Force nécessaire pour allonger (ou comprimer) le ressort de x ; k est la raideur en N/m.",
+      "es": "Fuerza necesaria para estirar (o comprimir) el resorte una longitud x; k es la constante en N/m.",
+      "de": "Kraft, um die Feder um x zu dehnen (oder zu stauchen); k ist die Federkonstante in N/m.",
+      "pt": "Força necessária para esticar (ou comprimir) a mola de x; k é a constante elástica em N/m.",
+      "ru": "Сила, необходимая, чтобы растянуть (или сжать) пружину на x; k — жёсткость в Н/м."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Paralelno vezane opruge",
+      "en": "Springs in parallel",
+      "it": "Molle in parallelo",
+      "fr": "Ressorts en parallèle",
+      "es": "Resortes en paralelo",
+      "de": "Parallel geschaltete Federn",
+      "pt": "Molas em paralelo",
+      "ru": "Параллельное соединение"
+     },
+     "latex": "k = k_1 + k_2 + \\cdots",
+     "objasnjenje": {
+      "sr": "Opruge jedna pored druge zajedno nose teret: sistem je krući.",
+      "en": "Springs side by side share the load: the system is stiffer.",
+      "it": "Molle affiancate si dividono il carico: il sistema è più rigido.",
+      "fr": "Ressorts côte à côte se partagent la charge : le système est plus raide.",
+      "es": "Resortes uno al lado del otro comparten la carga: el sistema es más rígido.",
+      "de": "Nebeneinander tragen die Federn gemeinsam: das System ist steifer.",
+      "pt": "Molas lado a lado dividem a carga: o sistema fica mais rígido.",
+      "ru": "Пружины рядом делят нагрузку: система жёстче."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Redno vezane opruge",
+      "en": "Springs in series",
+      "it": "Molle in serie",
+      "fr": "Ressorts en série",
+      "es": "Resortes en serie",
+      "de": "In Reihe geschaltete Federn",
+      "pt": "Molas em série",
+      "ru": "Последовательное соединение"
+     },
+     "latex": "\\frac{1}{k} = \\frac{1}{k_1} + \\frac{1}{k_2} + \\cdots",
+     "objasnjenje": {
+      "sr": "Opruge jedna za drugom: sistem je mekši od svake pojedinačne opruge.",
+      "en": "Springs one after another: the system is softer than each spring alone.",
+      "it": "Molle una dopo l’altra: il sistema è più morbido di ciascuna molla.",
+      "fr": "Ressorts l’un après l’autre : le système est plus souple que chaque ressort.",
+      "es": "Resortes uno tras otro: el sistema es más blando que cada resorte.",
+      "de": "Federn hintereinander: das System ist weicher als jede einzelne Feder.",
+      "pt": "Molas uma após a outra: o sistema é mais macio que cada mola.",
+      "ru": "Пружины одна за другой: система мягче каждой пружины."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "F": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "sila",
+       "en": "force",
+       "it": "forza",
+       "fr": "force",
+       "es": "fuerza",
+       "de": "Kraft",
+       "pt": "força",
+       "ru": "сила"
+      },
+      "vrsta": "sila"
+     },
+     "k": {
+      "oznaka": "k",
+      "naziv": {
+       "sr": "konstanta opruge",
+       "en": "spring constant",
+       "it": "costante elastica",
+       "fr": "raideur du ressort",
+       "es": "constante del resorte",
+       "de": "Federkonstante",
+       "pt": "constante elástica",
+       "ru": "жёсткость пружины"
+      },
+      "vrsta": "krutost",
+      "pocetna": 200,
+      "poz": true
+     },
+     "x": {
+      "oznaka": "x",
+      "naziv": {
+       "sr": "izduženje opruge",
+       "en": "spring extension",
+       "it": "allungamento della molla",
+       "fr": "allongement du ressort",
+       "es": "alargamiento del resorte",
+       "de": "Auslenkung der Feder",
+       "pt": "deformação da mola",
+       "ru": "удлинение пружины"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.05,
+      "jed": "cm"
+     },
+     "kuk": {
+      "oznaka": "k",
+      "naziv": {
+       "sr": "ukupna konstanta",
+       "en": "total spring constant",
+       "it": "costante totale",
+       "fr": "raideur totale",
+       "es": "constante total",
+       "de": "Gesamtfederkonstante",
+       "pt": "constante total",
+       "ru": "общая жёсткость"
+      },
+      "vrsta": "krutost",
+      "poz": true
+     },
+     "k1": {
+      "oznaka": "k_1",
+      "naziv": {
+       "sr": "konstanta prve opruge",
+       "en": "spring constant 1",
+       "it": "costante della molla 1",
+       "fr": "raideur du ressort 1",
+       "es": "constante del resorte 1",
+       "de": "Federkonstante 1",
+       "pt": "constante da mola 1",
+       "ru": "жёсткость первой пружины"
+      },
+      "vrsta": "krutost",
+      "pocetna": 100,
+      "poz": true
+     },
+     "k2": {
+      "oznaka": "k_2",
+      "naziv": {
+       "sr": "konstanta druge opruge",
+       "en": "spring constant 2",
+       "it": "costante della molla 2",
+       "fr": "raideur du ressort 2",
+       "es": "constante del resorte 2",
+       "de": "Federkonstante 2",
+       "pt": "constante da mola 2",
+       "ru": "жёсткость второй пружины"
+      },
+      "vrsta": "krutost",
+      "pocetna": 300,
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "F = k x",
+      "trazi": "F",
+      "resenja": {
+       "F": "k*x",
+       "k": "F/x",
+       "x": "F/k"
+      }
+     },
+     {
+      "latex": "k = k_1 + k_2",
+      "trazi": "kuk",
+      "resenja": {
+       "kuk": "k1 + k2",
+       "k1": "kuk - k2",
+       "k2": "kuk - k1"
+      }
+     },
+     {
+      "latex": "\\dfrac{1}{k} = \\dfrac{1}{k_1} + \\dfrac{1}{k_2}",
+      "trazi": "kuk",
+      "resenja": {
+       "kuk": "k1*k2/(k1 + k2)",
+       "k1": "1/(1/kuk - 1/k2)",
+       "k2": "1/(1/kuk - 1/k1)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "naprezanje",
+   "simbol": "p",
+   "naziv": {
+    "sr": "Pritisak i deformacija",
+    "en": "Pressure and deformation",
+    "it": "Pressione e deformazione",
+    "fr": "Pression et déformation",
+    "es": "Presión y deformación",
+    "de": "Druck und Verformung",
+    "pt": "Pressão e deformação",
+    "ru": "Давление и деформация"
+   },
+   "opis": {
+    "sr": "p = F/S, Jangov modul",
+    "en": "p = F/S, Young’s modulus",
+    "it": "p = F/S, modulo di Young",
+    "fr": "p = F/S, module de Young",
+    "es": "p = F/S, módulo de Young",
+    "de": "p = F/S, Elastizitätsmodul",
+    "pt": "p = F/S, módulo de Young",
+    "ru": "p = F/S, модуль Юнга"
+   },
+   "kljucne_reci": {
+    "sr": "pritisak sila povrsina pascal deformacija istezanje jangov modul elasticnosti napon sipka zica",
+    "en": "pressure force area pascal deformation stretching young modulus stress strain rod wire",
+    "it": "pressione forza area pascal deformazione modulo di young sforzo filo",
+    "fr": "pression force surface pascal deformation module de young contrainte fil",
+    "es": "presion fuerza area pascal deformacion modulo de young tension alambre",
+    "de": "druck kraft flache pascal verformung dehnung elastizitatsmodul spannung draht",
+    "pt": "pressao forca area pascal deformacao modulo de young tensao fio",
+    "ru": "давление сила площадь паскаль деформация модуль юнга напряжение проволока"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Pritisak",
+      "en": "Pressure",
+      "it": "Pressione",
+      "fr": "Pression",
+      "es": "Presión",
+      "de": "Druck",
+      "pt": "Pressão",
+      "ru": "Давление"
+     },
+     "latex": "p = \\frac{F}{S}",
+     "objasnjenje": {
+      "sr": "Sila koja deluje normalno na površinu S, podeljena tom površinom; 1 Pa = 1 N/m².",
+      "en": "Force acting perpendicular to area S divided by that area; 1 Pa = 1 N/m².",
+      "it": "Forza perpendicolare alla superficie S divisa per S; 1 Pa = 1 N/m².",
+      "fr": "Force perpendiculaire à la surface S divisée par S ; 1 Pa = 1 N/m².",
+      "es": "Fuerza perpendicular a la superficie S dividida por S; 1 Pa = 1 N/m².",
+      "de": "Senkrecht auf die Fläche S wirkende Kraft geteilt durch S; 1 Pa = 1 N/m².",
+      "pt": "Força perpendicular à superfície S dividida por S; 1 Pa = 1 N/m².",
+      "ru": "Сила, перпендикулярная площади S, делённая на S; 1 Па = 1 Н/м²."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Istezanje šipke ili žice",
+      "en": "Stretching a rod or wire",
+      "it": "Allungamento di una barra o di un filo",
+      "fr": "Allongement d’une barre ou d’un fil",
+      "es": "Alargamiento de una barra o un alambre",
+      "de": "Dehnung eines Stabes oder Drahtes",
+      "pt": "Alongamento de uma barra ou fio",
+      "ru": "Растяжение стержня или проволоки"
+     },
+     "latex": "\\frac{\\Delta l}{l} = \\frac{1}{E}\\,\\frac{F}{S}",
+     "objasnjenje": {
+      "sr": "Relativno izduženje je srazmerno naponu F/S; E je modul elastičnosti materijala (čelik ≈ 200 GPa).",
+      "en": "Relative elongation is proportional to stress F/S; E is the material’s Young’s modulus (steel ≈ 200 GPa).",
+      "it": "L’allungamento relativo è proporzionale allo sforzo F/S; E è il modulo di Young (acciaio ≈ 200 GPa).",
+      "fr": "L’allongement relatif est proportionnel à la contrainte F/S ; E est le module de Young (acier ≈ 200 GPa).",
+      "es": "El alargamiento relativo es proporcional a la tensión F/S; E es el módulo de Young (acero ≈ 200 GPa).",
+      "de": "Die relative Dehnung ist proportional zur Spannung F/S; E ist der Elastizitätsmodul (Stahl ≈ 200 GPa).",
+      "pt": "O alongamento relativo é proporcional à tensão F/S; E é o módulo de Young (aço ≈ 200 GPa).",
+      "ru": "Относительное удлинение пропорционально напряжению F/S; E — модуль Юнга (сталь ≈ 200 ГПа)."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "p": {
+      "oznaka": "p",
+      "naziv": {
+       "sr": "pritisak",
+       "en": "pressure",
+       "it": "pressione",
+       "fr": "pression",
+       "es": "presión",
+       "de": "Druck",
+       "pt": "pressão",
+       "ru": "давление"
+      },
+      "vrsta": "pritisak",
+      "jed": "kPa"
+     },
+     "F": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "sila",
+       "en": "force",
+       "it": "forza",
+       "fr": "force",
+       "es": "fuerza",
+       "de": "Kraft",
+       "pt": "força",
+       "ru": "сила"
+      },
+      "vrsta": "sila",
+      "pocetna": 500
+     },
+     "S": {
+      "oznaka": "S",
+      "naziv": {
+       "sr": "površina",
+       "en": "area",
+       "it": "area",
+       "fr": "aire",
+       "es": "área",
+       "de": "Fläche",
+       "pt": "área",
+       "ru": "площадь"
+      },
+      "vrsta": "povrsina",
+      "pocetna": 0.01,
+      "jed": "cm²",
+      "poz": true
+     },
+     "dl": {
+      "oznaka": "\\Delta l",
+      "naziv": {
+       "sr": "izduženje",
+       "en": "elongation",
+       "it": "allungamento",
+       "fr": "allongement",
+       "es": "alargamiento",
+       "de": "Verlängerung",
+       "pt": "alongamento",
+       "ru": "удлинение"
+      },
+      "vrsta": "duzina",
+      "jed": "mm"
+     },
+     "l": {
+      "oznaka": "l",
+      "naziv": {
+       "sr": "početna dužina",
+       "en": "initial length",
+       "it": "lunghezza iniziale",
+       "fr": "longueur initiale",
+       "es": "longitud inicial",
+       "de": "Anfangslänge",
+       "pt": "comprimento inicial",
+       "ru": "начальная длина"
+      },
+      "vrsta": "duzina",
+      "pocetna": 2,
+      "poz": true
+     },
+     "E": {
+      "oznaka": "E",
+      "naziv": {
+       "sr": "modul elastičnosti (Jangov)",
+       "en": "Young's modulus",
+       "it": "modulo di Young",
+       "fr": "module de Young",
+       "es": "módulo de Young",
+       "de": "Elastizitätsmodul",
+       "pt": "módulo de Young",
+       "ru": "модуль Юнга"
+      },
+      "vrsta": "pritisak",
+      "pocetna": 200000000000.0,
+      "jed": "GPa",
+      "poz": true
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "p = \\dfrac{F}{S}",
+      "trazi": "p",
+      "resenja": {
+       "p": "F/S",
+       "F": "p*S",
+       "S": "F/p"
+      }
+     },
+     {
+      "latex": "\\Delta l = \\dfrac{F\\, l}{E\\, S}",
+      "trazi": "dl",
+      "resenja": {
+       "dl": "F*l/(E*S)",
+       "F": "dl*E*S/l",
+       "l": "dl*E*S/F",
+       "E": "F*l/(dl*S)",
+       "S": "F*l/(E*dl)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "moment_sile",
+   "simbol": "M",
+   "naziv": {
+    "sr": "Moment sile i poluga",
+    "en": "Torque and lever",
+    "it": "Momento e leva",
+    "fr": "Moment et levier",
+    "es": "Momento y palanca",
+    "de": "Drehmoment und Hebel",
+    "pt": "Momento e alavanca",
+    "ru": "Момент силы и рычаг"
+   },
+   "opis": {
+    "sr": "Krak, ravnoteža poluge",
+    "en": "Lever arm, lever balance",
+    "it": "Braccio, equilibrio della leva",
+    "fr": "Bras de levier, équilibre",
+    "es": "Brazo, equilibrio de la palanca",
+    "de": "Hebelarm, Hebelgesetz",
+    "pt": "Braço, equilíbrio da alavanca",
+    "ru": "Плечо, равновесие рычага"
+   },
+   "kljucne_reci": {
+    "sr": "moment sile krak poluga ravnoteza obrtni moment torzija",
+    "en": "torque moment of force lever arm balance equilibrium torsion",
+    "it": "momento della forza braccio leva equilibrio torsione",
+    "fr": "moment de force bras de levier equilibre torsion",
+    "es": "momento de fuerza par brazo palanca equilibrio torsion",
+    "de": "drehmoment hebelarm hebelgesetz gleichgewicht torsion",
+    "pt": "momento torque braco alavanca equilibrio torcao",
+    "ru": "момент силы плечо рычаг равновесие кручение"
+   },
+   "crtez": "<svg viewBox=\"0 0 300 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect class=\"lik\" x=\"20\" y=\"88\" width=\"260\" height=\"10\" rx=\"4\"/><path class=\"lik2\" d=\"M110,98 L96,132 L124,132 Z\"/><line class=\"osa\" x1=\"80\" y1=\"133\" x2=\"140\" y2=\"133\"/><line class=\"lik-l\" x1=\"32.0\" y1=\"30.0\" x2=\"32.0\" y2=\"75.0\"/><path class=\"tac\" d=\"M32.0,86.0 L27.0,75.0 L37.0,75.0 Z\"/><text x=\"40.0\" y=\"44.0\">F<tspan class=\"sub\" dy=\"5\">1</tspan></text><line class=\"lik-l\" x1=\"268.0\" y1=\"40.0\" x2=\"268.0\" y2=\"75.0\"/><path class=\"tac\" d=\"M268.0,86.0 L263.0,75.0 L273.0,75.0 Z\"/><text x=\"242.0\" y=\"54.0\">F<tspan class=\"sub\" dy=\"5\">2</tspan></text><line class=\"osa\" x1=\"32\" y1=\"156\" x2=\"110\" y2=\"156\"/><line class=\"osa\" x1=\"32\" y1=\"150\" x2=\"32\" y2=\"162\"/><line class=\"osa\" x1=\"110\" y1=\"150\" x2=\"110\" y2=\"162\"/><line class=\"osa\" x1=\"110\" y1=\"170\" x2=\"268\" y2=\"170\"/><line class=\"osa\" x1=\"110\" y1=\"164\" x2=\"110\" y2=\"176\"/><line class=\"osa\" x1=\"268\" y1=\"164\" x2=\"268\" y2=\"176\"/><line class=\"pom\" x1=\"32\" y1=\"98\" x2=\"32\" y2=\"150\"/><line class=\"pom\" x1=\"268\" y1=\"98\" x2=\"268\" y2=\"164\"/><text x=\"64.0\" y=\"150.0\">r<tspan class=\"sub\" dy=\"5\">1</tspan></text><text x=\"182.0\" y=\"188.0\">r<tspan class=\"sub\" dy=\"5\">2</tspan></text></svg>",
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Moment sile",
+      "en": "Torque",
+      "it": "Momento della forza",
+      "fr": "Moment de la force",
+      "es": "Momento de la fuerza",
+      "de": "Drehmoment",
+      "pt": "Momento da força",
+      "ru": "Момент силы"
+     },
+     "latex": "\\vec M = \\vec r \\times \\vec F, \\quad M = r F \\sin\\varphi = r' F",
+     "objasnjenje": {
+      "sr": "r je rastojanje od ose do napadne tačke sile, a r′ = r sin φ je krak sile (normalno rastojanje od ose do pravca sile).",
+      "en": "r is the distance from the axis to where the force acts; r′ = r sin φ is the lever arm (perpendicular distance to the line of force).",
+      "it": "r è la distanza dall’asse al punto di applicazione; r′ = r sin φ è il braccio della forza.",
+      "fr": "r est la distance de l’axe au point d’application ; r′ = r sin φ est le bras de levier.",
+      "es": "r es la distancia del eje al punto de aplicación; r′ = r sen φ es el brazo de la fuerza.",
+      "de": "r ist der Abstand von der Achse zum Angriffspunkt; r′ = r sin φ ist der Hebelarm.",
+      "pt": "r é a distância do eixo ao ponto de aplicação; r′ = r sen φ é o braço da força.",
+      "ru": "r — расстояние от оси до точки приложения силы; r′ = r sin φ — плечо силы."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Ravnoteža poluge",
+      "en": "Lever balance",
+      "it": "Equilibrio della leva",
+      "fr": "Équilibre du levier",
+      "es": "Equilibrio de la palanca",
+      "de": "Hebelgesetz",
+      "pt": "Equilíbrio da alavanca",
+      "ru": "Равновесие рычага"
+     },
+     "latex": "F_1 r_1 = F_2 r_2",
+     "objasnjenje": {
+      "sr": "Poluga je u ravnoteži kada su momenti sila sa obe strane ose jednaki.",
+      "en": "A lever balances when the torques on both sides of the pivot are equal.",
+      "it": "La leva è in equilibrio quando i momenti ai due lati del fulcro sono uguali.",
+      "fr": "Le levier est en équilibre quand les moments des deux côtés du pivot sont égaux.",
+      "es": "La palanca está en equilibrio cuando los momentos a ambos lados del apoyo son iguales.",
+      "de": "Der Hebel ist im Gleichgewicht, wenn die Drehmomente auf beiden Seiten gleich sind.",
+      "pt": "A alavanca está em equilíbrio quando os momentos dos dois lados do apoio são iguais.",
+      "ru": "Рычаг в равновесии, когда моменты сил по обе стороны оси равны."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Uvrtanje (torzija)",
+      "en": "Torsion",
+      "it": "Torsione",
+      "fr": "Torsion",
+      "es": "Torsión",
+      "de": "Torsion",
+      "pt": "Torção",
+      "ru": "Кручение"
+     },
+     "latex": "M = D\\,\\varphi",
+     "objasnjenje": {
+      "sr": "Moment potreban da se žica ili opruga uvrne za ugao φ; D je torziona konstanta.",
+      "en": "Torque needed to twist a wire or spring by angle φ; D is the torsion constant.",
+      "it": "Momento necessario per torcere un filo di un angolo φ; D è la costante di torsione.",
+      "fr": "Moment nécessaire pour tordre un fil d’un angle φ ; D est la constante de torsion.",
+      "es": "Momento necesario para torcer un alambre un ángulo φ; D es la constante de torsión.",
+      "de": "Drehmoment, um einen Draht um den Winkel φ zu verdrillen; D ist das Richtmoment.",
+      "pt": "Momento necessário para torcer um fio de um ângulo φ; D é a constante de torção.",
+      "ru": "Момент, необходимый для закручивания проволоки на угол φ; D — крутильная жёсткость."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Mo": {
+      "oznaka": "M",
+      "naziv": {
+       "sr": "moment sile",
+       "en": "torque",
+       "it": "momento della forza",
+       "fr": "moment de la force",
+       "es": "momento de la fuerza",
+       "de": "Drehmoment",
+       "pt": "momento da força",
+       "ru": "момент силы"
+      },
+      "vrsta": "moment"
+     },
+     "rk": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "krak (rastojanje od ose)",
+       "en": "lever arm (distance from axis)",
+       "it": "braccio (distanza dall’asse)",
+       "fr": "bras de levier (distance à l’axe)",
+       "es": "brazo (distancia al eje)",
+       "de": "Hebelarm (Abstand zur Achse)",
+       "pt": "braço (distância ao eixo)",
+       "ru": "плечо (расстояние до оси)"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.3,
+      "poz": true
+     },
+     "F": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "sila",
+       "en": "force",
+       "it": "forza",
+       "fr": "force",
+       "es": "fuerza",
+       "de": "Kraft",
+       "pt": "força",
+       "ru": "сила"
+      },
+      "vrsta": "sila",
+      "pocetna": 50
+     },
+     "fi": {
+      "oznaka": "\\varphi",
+      "naziv": {
+       "sr": "ugao između r i F",
+       "en": "angle between r and F",
+       "it": "angolo tra r e F",
+       "fr": "angle entre r et F",
+       "es": "ángulo entre r y F",
+       "de": "Winkel zwischen r und F",
+       "pt": "ângulo entre r e F",
+       "ru": "угол между r и F"
+      },
+      "vrsta": "ugao",
+      "pocetna": 1.5707963267948966,
+      "jed": "°"
+     },
+     "F1": {
+      "oznaka": "F_1",
+      "naziv": {
+       "sr": "prva sila",
+       "en": "force 1",
+       "it": "forza 1",
+       "fr": "force 1",
+       "es": "fuerza 1",
+       "de": "Kraft 1",
+       "pt": "força 1",
+       "ru": "первая сила"
+      },
+      "vrsta": "sila",
+      "pocetna": 200
+     },
+     "r1": {
+      "oznaka": "r_1",
+      "naziv": {
+       "sr": "krak prve sile",
+       "en": "lever arm 1",
+       "it": "braccio 1",
+       "fr": "bras de levier 1",
+       "es": "brazo 1",
+       "de": "Hebelarm 1",
+       "pt": "braço 1",
+       "ru": "плечо первой силы"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0.5,
+      "poz": true
+     },
+     "F2": {
+      "oznaka": "F_2",
+      "naziv": {
+       "sr": "druga sila",
+       "en": "force 2",
+       "it": "forza 2",
+       "fr": "force 2",
+       "es": "fuerza 2",
+       "de": "Kraft 2",
+       "pt": "força 2",
+       "ru": "вторая сила"
+      },
+      "vrsta": "sila"
+     },
+     "r2": {
+      "oznaka": "r_2",
+      "naziv": {
+       "sr": "krak druge sile",
+       "en": "lever arm 2",
+       "it": "braccio 2",
+       "fr": "bras de levier 2",
+       "es": "brazo 2",
+       "de": "Hebelarm 2",
+       "pt": "braço 2",
+       "ru": "плечо второй силы"
+      },
+      "vrsta": "duzina",
+      "pocetna": 1.5,
+      "poz": true
+     },
+     "D": {
+      "oznaka": "D",
+      "naziv": {
+       "sr": "torziona konstanta",
+       "en": "torsion constant",
+       "it": "costante di torsione",
+       "fr": "constante de torsion",
+       "es": "constante de torsión",
+       "de": "Richtmoment",
+       "pt": "constante de torção",
+       "ru": "крутильная жёсткость"
+      },
+      "vrsta": "torzija",
+      "pocetna": 0.02,
+      "poz": true
+     },
+     "fiu": {
+      "oznaka": "\\varphi",
+      "naziv": {
+       "sr": "ugao uvrtanja",
+       "en": "angle of twist",
+       "it": "angolo di torsione",
+       "fr": "angle de torsion",
+       "es": "ángulo de torsión",
+       "de": "Verdrillwinkel",
+       "pt": "ângulo de torção",
+       "ru": "угол закручивания"
+      },
+      "vrsta": "ugao",
+      "pocetna": 0.5235987755982988,
+      "jed": "°"
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "M = r F \\sin\\varphi",
+      "trazi": "Mo",
+      "promenljive": [
+       "Mo",
+       "rk",
+       "F",
+       "fi"
+      ],
+      "resenja": {
+       "Mo": "rk*F*sin(fi)",
+       "rk": "Mo/(F*sin(fi))",
+       "F": "Mo/(rk*sin(fi))"
+      }
+     },
+     {
+      "latex": "F_1 r_1 = F_2 r_2",
+      "trazi": "F2",
+      "resenja": {
+       "F2": "F1*r1/r2",
+       "F1": "F2*r2/r1",
+       "r1": "F2*r2/F1",
+       "r2": "F1*r1/F2"
+      }
+     },
+     {
+      "latex": "M = D \\varphi",
+      "trazi": "Mo",
+      "resenja": {
+       "Mo": "D*fiu",
+       "D": "Mo/fiu",
+       "fiu": "Mo/D"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "teziste",
+   "simbol": "T",
+   "naziv": {
+    "sr": "Težište",
+    "en": "Centre of mass",
+    "it": "Baricentro",
+    "fr": "Centre de masse",
+    "es": "Centro de masas",
+    "de": "Schwerpunkt",
+    "pt": "Centro de massa",
+    "ru": "Центр масс"
+   },
+   "opis": {
+    "sr": "Položaj težišta sistema tela",
+    "en": "Centre of mass of several bodies",
+    "it": "Baricentro di un sistema di corpi",
+    "fr": "Centre de masse d’un système",
+    "es": "Centro de masas de un sistema",
+    "de": "Schwerpunkt mehrerer Körper",
+    "pt": "Centro de massa de um sistema",
+    "ru": "Центр масс системы тел"
+   },
+   "kljucne_reci": {
+    "sr": "teziste centar mase sistem tela ravnoteza",
+    "en": "centre of mass center of gravity system of bodies balance",
+    "it": "baricentro centro di massa sistema di corpi",
+    "fr": "centre de masse centre de gravite systeme",
+    "es": "centro de masas centro de gravedad sistema",
+    "de": "schwerpunkt massenmittelpunkt",
+    "pt": "centro de massa centro de gravidade sistema",
+    "ru": "центр масс центр тяжести система тел"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Težište",
+      "en": "Centre of mass",
+      "it": "Baricentro",
+      "fr": "Centre de masse",
+      "es": "Centro de masas",
+      "de": "Schwerpunkt",
+      "pt": "Centro de massa",
+      "ru": "Центр масс"
+     },
+     "latex": "x_T = \\frac{m_1 x_1 + m_2 x_2 + m_3 x_3 + \\cdots}{m_1 + m_2 + m_3 + \\cdots}",
+     "objasnjenje": {
+      "sr": "Isto važi i za koordinate y i z. Težište je bliže težem telu.",
+      "en": "The same holds for the y and z coordinates. The centre of mass is closer to the heavier body.",
+      "it": "Lo stesso vale per le coordinate y e z. Il baricentro è più vicino al corpo più pesante.",
+      "fr": "Idem pour les coordonnées y et z. Le centre de masse est plus proche du corps le plus lourd.",
+      "es": "Lo mismo vale para las coordenadas y y z. El centro de masas está más cerca del cuerpo más pesado.",
+      "de": "Ebenso für y und z. Der Schwerpunkt liegt näher am schwereren Körper.",
+      "pt": "O mesmo vale para y e z. O centro de massa fica mais perto do corpo mais pesado.",
+      "ru": "То же для координат y и z. Центр масс ближе к более тяжёлому телу."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "xT": {
+      "oznaka": "x_T",
+      "naziv": {
+       "sr": "položaj težišta",
+       "en": "centre of mass position",
+       "it": "posizione del baricentro",
+       "fr": "position du centre de masse",
+       "es": "posición del centro de masas",
+       "de": "Lage des Schwerpunkts",
+       "pt": "posição do centro de massa",
+       "ru": "положение центра масс"
+      },
+      "vrsta": "duzina"
+     },
+     "m1": {
+      "oznaka": "m_1",
+      "naziv": {
+       "sr": "masa prvog tela",
+       "en": "mass of body 1",
+       "it": "massa del corpo 1",
+       "fr": "masse du corps 1",
+       "es": "masa del cuerpo 1",
+       "de": "Masse von Körper 1",
+       "pt": "massa do corpo 1",
+       "ru": "масса первого тела"
+      },
+      "vrsta": "masa",
+      "pocetna": 2,
+      "poz": true
+     },
+     "x1": {
+      "oznaka": "x_1",
+      "naziv": {
+       "sr": "položaj prvog tela",
+       "en": "position of body 1",
+       "it": "posizione del corpo 1",
+       "fr": "position du corps 1",
+       "es": "posición del cuerpo 1",
+       "de": "Lage von Körper 1",
+       "pt": "posição do corpo 1",
+       "ru": "положение первого тела"
+      },
+      "vrsta": "duzina",
+      "pocetna": 0
+     },
+     "m2": {
+      "oznaka": "m_2",
+      "naziv": {
+       "sr": "masa drugog tela",
+       "en": "mass of body 2",
+       "it": "massa del corpo 2",
+       "fr": "masse du corps 2",
+       "es": "masa del cuerpo 2",
+       "de": "Masse von Körper 2",
+       "pt": "massa do corpo 2",
+       "ru": "масса второго тела"
+      },
+      "vrsta": "masa",
+      "pocetna": 3,
+      "poz": true
+     },
+     "x2": {
+      "oznaka": "x_2",
+      "naziv": {
+       "sr": "položaj drugog tela",
+       "en": "position of body 2",
+       "it": "posizione del corpo 2",
+       "fr": "position du corps 2",
+       "es": "posición del cuerpo 2",
+       "de": "Lage von Körper 2",
+       "pt": "posição do corpo 2",
+       "ru": "положение второго тела"
+      },
+      "vrsta": "duzina",
+      "pocetna": 1
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "x_T = \\dfrac{m_1 x_1 + m_2 x_2}{m_1 + m_2}",
+      "trazi": "xT",
+      "resenja": {
+       "xT": "(m1*x1 + m2*x2)/(m1 + m2)",
+       "x1": "(xT*(m1 + m2) - m2*x2)/m1",
+       "x2": "(xT*(m1 + m2) - m1*x1)/m2",
+       "m1": "m2*(x2 - xT)/(xT - x1)",
+       "m2": "m1*(xT - x1)/(x2 - xT)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "centripetalna",
+   "simbol": "Fᵣ",
+   "naziv": {
+    "sr": "Centripetalna sila",
+    "en": "Centripetal force",
+    "it": "Forza centripeta",
+    "fr": "Force centripète",
+    "es": "Fuerza centrípeta",
+    "de": "Zentripetalkraft",
+    "pt": "Força centrípeta",
+    "ru": "Центростремительная сила"
+   },
+   "opis": {
+    "sr": "Sila pri kružnom kretanju",
+    "en": "Force in circular motion",
+    "it": "Forza nel moto circolare",
+    "fr": "Force du mouvement circulaire",
+    "es": "Fuerza en el movimiento circular",
+    "de": "Kraft bei der Kreisbewegung",
+    "pt": "Força no movimento circular",
+    "ru": "Сила при движении по окружности"
+   },
+   "kljucne_reci": {
+    "sr": "centripetalna sila kruzno kretanje krivina zavoj radijalna sila",
+    "en": "centripetal force circular motion curve turn radial force",
+    "it": "forza centripeta moto circolare curva",
+    "fr": "force centripete mouvement circulaire virage",
+    "es": "fuerza centripeta movimiento circular curva",
+    "de": "zentripetalkraft kreisbewegung kurve radialkraft",
+    "pt": "forca centripeta movimento circular curva",
+    "ru": "центростремительная сила движение по окружности поворот"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Centripetalna sila",
+      "en": "Centripetal force",
+      "it": "Forza centripeta",
+      "fr": "Force centripète",
+      "es": "Fuerza centrípeta",
+      "de": "Zentripetalkraft",
+      "pt": "Força centrípeta",
+      "ru": "Центростремительная сила"
+     },
+     "latex": "F_r = m\\,a_r = m \\frac{v^2}{r} = m\\,\\omega^2 r",
+     "objasnjenje": {
+      "sr": "Ukupna sila usmerena ka središtu kružnice, potrebna da telo ide po krugu.",
+      "en": "Net force pointing to the centre, needed to keep the body on the circle.",
+      "it": "Forza risultante diretta verso il centro, necessaria per mantenere il corpo sulla circonferenza.",
+      "fr": "Force résultante dirigée vers le centre, nécessaire pour rester sur le cercle.",
+      "es": "Fuerza neta hacia el centro, necesaria para mantener el cuerpo en la circunferencia.",
+      "de": "Zum Mittelpunkt gerichtete Gesamtkraft, die den Körper auf der Kreisbahn hält.",
+      "pt": "Força resultante dirigida ao centro, necessária para manter o corpo na circunferência.",
+      "ru": "Равнодействующая, направленная к центру, удерживающая тело на окружности."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "Fr": {
+      "oznaka": "F_r",
+      "naziv": {
+       "sr": "centripetalna sila",
+       "en": "centripetal force",
+       "it": "forza centripeta",
+       "fr": "force centripète",
+       "es": "fuerza centrípeta",
+       "de": "Zentripetalkraft",
+       "pt": "força centrípeta",
+       "ru": "центростремительная сила"
+      },
+      "vrsta": "sila",
+      "poz": true
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 1000,
+      "poz": true
+     },
+     "v": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina",
+       "en": "velocity",
+       "it": "velocità",
+       "fr": "vitesse",
+       "es": "velocidad",
+       "de": "Geschwindigkeit",
+       "pt": "velocidade",
+       "ru": "скорость"
+      },
+      "vrsta": "brzina",
+      "pocetna": 20,
+      "jed": "km/h"
+     },
+     "rc": {
+      "oznaka": "r",
+      "naziv": {
+       "sr": "poluprečnik kružnice",
+       "en": "radius of the circle",
+       "it": "raggio della circonferenza",
+       "fr": "rayon du cercle",
+       "es": "radio de la circunferencia",
+       "de": "Kreisradius",
+       "pt": "raio da circunferência",
+       "ru": "радиус окружности"
+      },
+      "vrsta": "duzina",
+      "pocetna": 50,
+      "poz": true
+     },
+     "om": {
+      "oznaka": "\\omega",
+      "naziv": {
+       "sr": "ugaona brzina",
+       "en": "angular velocity",
+       "it": "velocità angolare",
+       "fr": "vitesse angulaire",
+       "es": "velocidad angular",
+       "de": "Winkelgeschwindigkeit",
+       "pt": "velocidade angular",
+       "ru": "угловая скорость"
+      },
+      "vrsta": "ugaonaBrzina",
+      "pocetna": 2
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "F_r = m \\dfrac{v^2}{r}",
+      "trazi": "Fr",
+      "resenja": {
+       "Fr": "m*v*v/rc",
+       "m": "Fr*rc/(v*v)",
+       "v": "sqrt(Fr*rc/m)",
+       "rc": "m*v*v/Fr"
+      }
+     },
+     {
+      "latex": "F_r = m \\omega^2 r",
+      "trazi": "Fr",
+      "resenja": {
+       "Fr": "m*om*om*rc",
+       "m": "Fr/(om*om*rc)",
+       "om": "sqrt(Fr/(m*rc))",
+       "rc": "Fr/(m*om*om)"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "impuls",
+   "simbol": "p",
+   "naziv": {
+    "sr": "Impuls i sudari",
+    "en": "Momentum and collisions",
+    "it": "Quantità di moto e urti",
+    "fr": "Quantité de mouvement et chocs",
+    "es": "Cantidad de movimiento y choques",
+    "de": "Impuls und Stöße",
+    "pt": "Quantidade de movimento e colisões",
+    "ru": "Импульс и удары"
+   },
+   "opis": {
+    "sr": "p = mv, impuls sile",
+    "en": "p = mv, impulse",
+    "it": "p = mv, impulso",
+    "fr": "p = mv, impulsion",
+    "es": "p = mv, impulso",
+    "de": "p = mv, Kraftstoß",
+    "pt": "p = mv, impulso",
+    "ru": "p = mv, импульс силы"
+   },
+   "kljucne_reci": {
+    "sr": "impuls kolicina kretanja impuls sile zakon odrzanja impulsa sudar neelastican reaktivna sila raketa",
+    "en": "momentum impulse conservation of momentum collision inelastic thrust rocket",
+    "it": "quantita di moto impulso conservazione urto anelastico spinta razzo",
+    "fr": "quantite de mouvement impulsion conservation choc inelastique poussee fusee",
+    "es": "cantidad de movimiento momento lineal impulso conservacion choque inelastico empuje cohete",
+    "de": "impuls kraftstoss impulserhaltung stoss unelastisch schub rakete",
+    "pt": "quantidade de movimento momento linear impulso conservacao colisao inelastica empuxo foguete",
+    "ru": "импульс количество движения импульс силы закон сохранения удар неупругий реактивная сила ракета"
+   },
+   "formule": [
+    {
+     "naslov": {
+      "sr": "Impuls tela",
+      "en": "Momentum",
+      "it": "Quantità di moto",
+      "fr": "Quantité de mouvement",
+      "es": "Cantidad de movimiento",
+      "de": "Impuls",
+      "pt": "Quantidade de movimento",
+      "ru": "Импульс тела"
+     },
+     "latex": "\\vec p = m\\,\\vec v",
+     "objasnjenje": {
+      "sr": "Vektor istog smera kao brzina; jedinica kg·m/s.",
+      "en": "A vector in the direction of velocity; unit kg·m/s.",
+      "it": "Vettore con la stessa direzione della velocità; unità kg·m/s.",
+      "fr": "Vecteur de même direction que la vitesse ; unité kg·m/s.",
+      "es": "Vector con la dirección de la velocidad; unidad kg·m/s.",
+      "de": "Vektor in Richtung der Geschwindigkeit; Einheit kg·m/s.",
+      "pt": "Vetor na direção da velocidade; unidade kg·m/s.",
+      "ru": "Вектор, направленный как скорость; единица кг·м/с."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Impuls sile",
+      "en": "Impulse",
+      "it": "Impulso",
+      "fr": "Impulsion",
+      "es": "Impulso",
+      "de": "Kraftstoß",
+      "pt": "Impulso",
+      "ru": "Импульс силы"
+     },
+     "latex": "\\vec F\\,\\Delta t = \\Delta \\vec p",
+     "objasnjenje": {
+      "sr": "Sila koja deluje vreme Δt menja impuls tela; zato vazdušni jastuk produžava Δt i smanjuje silu.",
+      "en": "A force acting for time Δt changes the momentum; an airbag lengthens Δt and so reduces the force.",
+      "it": "Una forza che agisce per Δt cambia la quantità di moto; l’airbag allunga Δt e riduce la forza.",
+      "fr": "Une force agissant pendant Δt modifie la quantité de mouvement ; l’airbag allonge Δt et réduit la force.",
+      "es": "Una fuerza que actúa durante Δt cambia la cantidad de movimiento; el airbag alarga Δt y reduce la fuerza.",
+      "de": "Eine Kraft, die Δt lang wirkt, ändert den Impuls; der Airbag verlängert Δt und verringert die Kraft.",
+      "pt": "Uma força atuando durante Δt muda a quantidade de movimento; o airbag aumenta Δt e reduz a força.",
+      "ru": "Сила, действующая время Δt, меняет импульс; подушка безопасности увеличивает Δt и уменьшает силу."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Zakon održanja impulsa",
+      "en": "Conservation of momentum",
+      "it": "Conservazione della quantità di moto",
+      "fr": "Conservation de la quantité de mouvement",
+      "es": "Conservación de la cantidad de movimiento",
+      "de": "Impulserhaltung",
+      "pt": "Conservação da quantidade de movimento",
+      "ru": "Закон сохранения импульса"
+     },
+     "latex": "m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2', \\quad v' = \\frac{m_1 v_1 + m_2 v_2}{m_1 + m_2}",
+     "objasnjenje": {
+      "sr": "Bez spoljašnjih sila ukupni impuls se ne menja. Drugi izraz: savršeno neelastičan sudar (tela se slepe).",
+      "en": "Without external forces the total momentum is constant. Second formula: perfectly inelastic collision (bodies stick together).",
+      "it": "Senza forze esterne la quantità di moto totale si conserva. Seconda formula: urto perfettamente anelastico.",
+      "fr": "Sans forces extérieures la quantité de mouvement totale se conserve. Seconde formule : choc parfaitement mou.",
+      "es": "Sin fuerzas externas la cantidad de movimiento total se conserva. Segunda fórmula: choque perfectamente inelástico.",
+      "de": "Ohne äußere Kräfte bleibt der Gesamtimpuls erhalten. Zweite Formel: vollkommen unelastischer Stoß.",
+      "pt": "Sem forças externas a quantidade de movimento total se conserva. Segunda fórmula: colisão perfeitamente inelástica.",
+      "ru": "Без внешних сил полный импульс сохраняется. Вторая формула — абсолютно неупругий удар (тела слипаются)."
+     }
+    },
+    {
+     "naslov": {
+      "sr": "Reaktivna sila (raketa)",
+      "en": "Thrust (rocket)",
+      "it": "Spinta (razzo)",
+      "fr": "Poussée (fusée)",
+      "es": "Empuje (cohete)",
+      "de": "Schubkraft (Rakete)",
+      "pt": "Empuxo (foguete)",
+      "ru": "Реактивная сила (ракета)"
+     },
+     "latex": "\\vec F = -\\Phi_m\\,\\Delta\\vec v",
+     "objasnjenje": {
+      "sr": "Gas koji ističe masenim protokom Φₘ relativnom brzinom Δv gura raketu suprotno od smera isticanja.",
+      "en": "Gas ejected at mass flow rate Φₘ with relative speed Δv pushes the rocket the opposite way.",
+      "it": "Il gas espulso con portata Φₘ e velocità relativa Δv spinge il razzo in verso opposto.",
+      "fr": "Le gaz éjecté avec un débit Φₘ à la vitesse relative Δv pousse la fusée en sens inverse.",
+      "es": "El gas expulsado con caudal Φₘ a velocidad relativa Δv empuja el cohete en sentido contrario.",
+      "de": "Das mit Massenstrom Φₘ und Relativgeschwindigkeit Δv ausströmende Gas treibt die Rakete entgegengesetzt an.",
+      "pt": "O gás expelido com vazão Φₘ e velocidade relativa Δv empurra o foguete no sentido oposto.",
+      "ru": "Газ, вытекающий с массовым расходом Φₘ и относительной скоростью Δv, толкает ракету в обратную сторону."
+     }
+    }
+   ],
+   "kalkulator": {
+    "tip": "resi",
+    "velicine": {
+     "pi": {
+      "oznaka": "p",
+      "naziv": {
+       "sr": "impuls (količina kretanja)",
+       "en": "momentum",
+       "it": "quantità di moto",
+       "fr": "quantité de mouvement",
+       "es": "cantidad de movimiento",
+       "de": "Impuls",
+       "pt": "quantidade de movimento",
+       "ru": "импульс"
+      },
+      "vrsta": "impuls"
+     },
+     "m": {
+      "oznaka": "m",
+      "naziv": {
+       "sr": "masa",
+       "en": "mass",
+       "it": "massa",
+       "fr": "masse",
+       "es": "masa",
+       "de": "Masse",
+       "pt": "massa",
+       "ru": "масса"
+      },
+      "vrsta": "masa",
+      "pocetna": 0.15,
+      "poz": true
+     },
+     "v": {
+      "oznaka": "v",
+      "naziv": {
+       "sr": "brzina",
+       "en": "velocity",
+       "it": "velocità",
+       "fr": "vitesse",
+       "es": "velocidad",
+       "de": "Geschwindigkeit",
+       "pt": "velocidade",
+       "ru": "скорость"
+      },
+      "vrsta": "brzina",
+      "pocetna": 40
+     },
+     "F": {
+      "oznaka": "F",
+      "naziv": {
+       "sr": "sila",
+       "en": "force",
+       "it": "forza",
+       "fr": "force",
+       "es": "fuerza",
+       "de": "Kraft",
+       "pt": "força",
+       "ru": "сила"
+      },
+      "vrsta": "sila"
+     },
+     "dt": {
+      "oznaka": "\\Delta t",
+      "naziv": {
+       "sr": "trajanje dejstva",
+       "en": "duration",
+       "it": "durata",
+       "fr": "durée",
+       "es": "duración",
+       "de": "Einwirkdauer",
+       "pt": "duração",
+       "ru": "время действия"
+      },
+      "vrsta": "vreme",
+      "pocetna": 0.01,
+      "jed": "ms",
+      "poz": true
+     },
+     "dp": {
+      "oznaka": "\\Delta p",
+      "naziv": {
+       "sr": "promena impulsa",
+       "en": "change in momentum",
+       "it": "variazione della quantità di moto",
+       "fr": "variation de la quantité de mouvement",
+       "es": "variación de la cantidad de movimiento",
+       "de": "Impulsänderung",
+       "pt": "variação da quantidade de movimento",
+       "ru": "изменение импульса"
+      },
+      "vrsta": "impuls",
+      "pocetna": 6
+     },
+     "vz": {
+      "oznaka": "v'",
+      "naziv": {
+       "sr": "zajednička brzina posle sudara",
+       "en": "common velocity after collision",
+       "it": "velocità comune dopo l’urto",
+       "fr": "vitesse commune après le choc",
+       "es": "velocidad común tras el choque",
+       "de": "gemeinsame Geschwindigkeit nach dem Stoß",
+       "pt": "velocidade comum após a colisão",
+       "ru": "общая скорость после удара"
+      },
+      "vrsta": "brzina"
+     },
+     "m1": {
+      "oznaka": "m_1",
+      "naziv": {
+       "sr": "masa prvog tela",
+       "en": "mass of body 1",
+       "it": "massa del corpo 1",
+       "fr": "masse du corps 1",
+       "es": "masa del cuerpo 1",
+       "de": "Masse von Körper 1",
+       "pt": "massa do corpo 1",
+       "ru": "масса первого тела"
+      },
+      "vrsta": "masa",
+      "pocetna": 1000,
+      "poz": true
+     },
+     "v1": {
+      "oznaka": "v_1",
+      "naziv": {
+       "sr": "brzina prvog tela",
+       "en": "velocity of body 1",
+       "it": "velocità del corpo 1",
+       "fr": "vitesse du corps 1",
+       "es": "velocidad del cuerpo 1",
+       "de": "Geschwindigkeit von Körper 1",
+       "pt": "velocidade do corpo 1",
+       "ru": "скорость первого тела"
+      },
+      "vrsta": "brzina",
+      "pocetna": 20
+     },
+     "m2": {
+      "oznaka": "m_2",
+      "naziv": {
+       "sr": "masa drugog tela",
+       "en": "mass of body 2",
+       "it": "massa del corpo 2",
+       "fr": "masse du corps 2",
+       "es": "masa del cuerpo 2",
+       "de": "Masse von Körper 2",
+       "pt": "massa do corpo 2",
+       "ru": "масса второго тела"
+      },
+      "vrsta": "masa",
+      "pocetna": 1500,
+      "poz": true
+     },
+     "v2": {
+      "oznaka": "v_2",
+      "naziv": {
+       "sr": "brzina drugog tela",
+       "en": "velocity of body 2",
+       "it": "velocità del corpo 2",
+       "fr": "vitesse du corps 2",
+       "es": "velocidad del cuerpo 2",
+       "de": "Geschwindigkeit von Körper 2",
+       "pt": "velocidade do corpo 2",
+       "ru": "скорость второго тела"
+      },
+      "vrsta": "brzina",
+      "pocetna": 0
+     },
+     "fm": {
+      "oznaka": "\\Phi_m",
+      "naziv": {
+       "sr": "maseni protok",
+       "en": "mass flow rate",
+       "it": "portata massica",
+       "fr": "débit massique",
+       "es": "caudal másico",
+       "de": "Massenstrom",
+       "pt": "vazão mássica",
+       "ru": "массовый расход"
+      },
+      "vrsta": "maseniProtok",
+      "pocetna": 2,
+      "poz": true
+     },
+     "dv": {
+      "oznaka": "\\Delta v",
+      "naziv": {
+       "sr": "brzina isticanja (relativna)",
+       "en": "exhaust velocity (relative)",
+       "it": "velocità di efflusso (relativa)",
+       "fr": "vitesse d’éjection (relative)",
+       "es": "velocidad de salida (relativa)",
+       "de": "Ausströmgeschwindigkeit (relativ)",
+       "pt": "velocidade de ejeção (relativa)",
+       "ru": "скорость истечения (относительная)"
+      },
+      "vrsta": "brzina",
+      "pocetna": 2500
+     }
+    },
+    "jednacine": [
+     {
+      "latex": "p = m v",
+      "trazi": "pi",
+      "resenja": {
+       "pi": "m*v",
+       "m": "pi/v",
+       "v": "pi/m"
+      }
+     },
+     {
+      "latex": "F \\Delta t = \\Delta p",
+      "trazi": "F",
+      "resenja": {
+       "F": "dp/dt",
+       "dt": "dp/F",
+       "dp": "F*dt"
+      }
+     },
+     {
+      "latex": "v' = \\dfrac{m_1 v_1 + m_2 v_2}{m_1 + m_2}",
+      "trazi": "vz",
+      "resenja": {
+       "vz": "(m1*v1 + m2*v2)/(m1 + m2)",
+       "v1": "(vz*(m1 + m2) - m2*v2)/m1",
+       "v2": "(vz*(m1 + m2) - m1*v1)/m2",
+       "m1": "m2*(v2 - vz)/(vz - v1)",
+       "m2": "m1*(vz - v1)/(v2 - vz)"
+      }
+     },
+     {
+      "latex": "F = \\Phi_m \\Delta v",
+      "trazi": "F",
+      "resenja": {
+       "F": "fm*dv",
+       "fm": "F/dv",
+       "dv": "F/fm"
+      },
+      "napomene": {
+       "F": {
+        "sr": "Prikazana je jačina reaktivne sile.",
+        "en": "Magnitude of the thrust is shown.",
+        "it": "È mostrato il modulo della spinta.",
+        "fr": "L’intensité de la poussée est affichée.",
+        "es": "Se muestra el módulo del empuje.",
+        "de": "Angezeigt ist der Betrag der Schubkraft.",
+        "pt": "É mostrado o módulo do empuxo.",
+        "ru": "Показан модуль реактивной силы."
+       }
+      }
+     }
+    ]
+   }
+  }
+ ]
+}
