@@ -44,7 +44,8 @@ public class OblastActivity extends AppCompatActivity {
         List<Tema> teme = Sadrzaj.teme(this, oblast.id);
         RecyclerView lista = findViewById(R.id.listaTema);
         TemaAdapter adapter = new TemaAdapter(false,
-                t -> startActivity(TemaActivity.namera(this, t.oblastId, t.id)));
+                (t, krug) -> KrugPrelaz.otvori(this, krug, boja,
+                        () -> startActivity(TemaActivity.namera(this, t.oblastId, t.id))));
         lista.setLayoutManager(new GridLayoutManager(this, 2));
         lista.setAdapter(adapter);
         adapter.postavi(teme);

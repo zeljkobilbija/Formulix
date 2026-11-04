@@ -305,7 +305,7 @@ public class KrugoviLayout extends ViewGroup {
         g.setStroke(Math.round(dp), ColorUtils.setAlphaComponent(Color.WHITE, izabran ? 200 : 110));
         krug.setBackground(g);
 
-        krug.setElevation(izabran ? 14 * dp : 2 * dp);
+        krug.setElevation(izabran ? 14 * dp : 5 * dp);
         ((TextView) krug.findViewById(R.id.simbol)).setTextColor(tekst);
         ((TextView) krug.findViewById(R.id.naziv)).setTextColor(tekst);
         ((TextView) krug.findViewById(R.id.opis)).setTextColor(tekst);

@@ -43,13 +43,13 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        // Topla pozadina i iza status bara, pa ikonice status bara i navigacije svetle
+        // Pastelna pozadina i iza status bara, pa ikonice status bara i navigacije tamne
         View koren = findViewById(R.id.main);
         koren.setBackground(new ToplaPozadina(getResources().getDisplayMetrics().density));
         WindowCompat.getInsetsController(getWindow(), getWindow().getDecorView())
-                .setAppearanceLightStatusBars(false);
+                .setAppearanceLightStatusBars(true);
         WindowCompat.getInsetsController(getWindow(), getWindow().getDecorView())
-                .setAppearanceLightNavigationBars(false);
+                .setAppearanceLightNavigationBars(true);
 
         // Sadržaj ne ide ispod status bara i navigacije
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         postaviKrugove();
 
         rezultatiAdapter = new TemaAdapter(true,
-                t -> startActivity(TemaActivity.namera(this, t.oblastId, t.id)));
+                (t, v) -> startActivity(TemaActivity.namera(this, t.oblastId, t.id)));
         rezultati.setLayoutManager(new LinearLayoutManager(this));
         rezultati.setAdapter(rezultatiAdapter);
 

@@ -16,13 +16,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Teme u dva oblika: kvadratne bele kartice (ekran oblasti)
+ * Teme u dva oblika: pastelni krugovi u dve kolone (ekran oblasti)
  * ili redovi liste (rezultati pretrage na početnom ekranu).
  */
 public class TemaAdapter extends RecyclerView.Adapter<TemaAdapter.Drzac> {
 
     public interface KlikNaTemu {
-        void naTemu(Tema tema);
+        /** krug: okrugla površina stavke (za prelaz), ili cela stavka u listi. */
+        void naTemu(Tema tema, View krug);
     }
 
     private final List<Tema> teme = new ArrayList<>();
@@ -43,7 +44,7 @@ public class TemaAdapter extends RecyclerView.Adapter<TemaAdapter.Drzac> {
     @NonNull
     @Override
     public Drzac onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        int raspored = kaoLista ? R.layout.item_rezultat : R.layout.item_tema;
+        int raspored = kaoLista ? R.layout.item_rezultat : R.layout.item_krug_mreza;
         View v = LayoutInflater.from(parent.getContext()).inflate(raspored, parent, false);
         return new Drzac(v);
     }
@@ -62,18 +63,22 @@ public class TemaAdapter extends RecyclerView.Adapter<TemaAdapter.Drzac> {
             h.simbol.setVisibility(View.GONE);
             h.simbolSlika.setVisibility(View.VISIBLE);
             h.simbolSlika.setImageResource(ikona);
-            h.simbolSlika.setImageTintList(ColorStateList.valueOf(boja));
+            h.simbolSlika.setImageTintList(ColorStateList.valueOf(kaoLista ? boja : Boje.tamna(boja)));
         } else {
             h.simbolSlika.setVisibility(View.GONE);
             h.simbol.setVisibility(View.VISIBLE);
             h.simbol.setText(t.simbol);
-            h.simbol.setTextColor(boja);
+            h.simbol.setTextColor(kaoLista ? boja : Boje.tamna(boja));
             h.simbol.setTextSize(t.simbol.length() > 2 ? (kaoLista ? 15 : 22) : (kaoLista ? 22 : 34));
         }
-        GradientDrawable pozadina = new GradientDrawable();
-        pozadina.setCornerRadius(h.itemView.getResources().getDisplayMetrics().density * 14);
-        pozadina.setColor(Boje.providna(boja, 0x24));
-        h.simbolPozadina.setBackground(pozadina);
+        if (h.simbolPozadina instanceof KrugView) {
+            ((KrugView) h.simbolPozadina).postaviBoju(boja);
+        } else {
+            GradientDrawable pozadina = new GradientDrawable();
+            pozadina.setCornerRadius(h.itemView.getResources().getDisplayMetrics().density * 14);
+            pozadina.setColor(Boje.providna(boja, 0x24));
+            h.simbolPozadina.setBackground(pozadina);
+        }
 
         h.naziv.setText(t.naziv);
         if (kaoLista && o != null) {
@@ -81,7 +86,9 @@ public class TemaAdapter extends RecyclerView.Adapter<TemaAdapter.Drzac> {
         } else {
             h.opis.setText(t.opis);
         }
-        h.itemView.setOnClickListener(v -> slusalac.naTemu(t));
+        View krug = kaoLista ? h.itemView : h.simbolPozadina;
+        h.itemView.setOnClickListener(v -> slusalac.naTemu(t, krug));
+        h.simbolPozadina.setOnClickListener(v -> slusalac.naTemu(t, krug));
     }
 
     @Override

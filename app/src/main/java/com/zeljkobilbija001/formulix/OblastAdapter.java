@@ -15,11 +15,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Prikazuje kartice oblasti u mreži. */
+/** Prikazuje oblasti kao pastelne krugove u mreži od dve kolone. */
 public class OblastAdapter extends RecyclerView.Adapter<OblastAdapter.Drzac> {
 
     public interface KlikNaOblast {
-        void naOblast(Oblast oblast);
+        void naOblast(Oblast oblast, View krug);
     }
 
     private final List<Oblast> oblasti = new ArrayList<>();
@@ -41,19 +41,17 @@ public class OblastAdapter extends RecyclerView.Adapter<OblastAdapter.Drzac> {
     @Override
     public Drzac onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_oblast, parent, false);
+                .inflate(R.layout.item_krug_mreza, parent, false);
         return new Drzac(v);
     }
 
     @Override
     public void onBindViewHolder(@NonNull Drzac h, int position) {
         Oblast o = oblasti.get(position);
-        // Pastelna kartica sa tamnim tekstom, kao krugovi na početnom ekranu
+        // Pastelni krug sa tamnim simbolom, kao krugovi na početnom ekranu
         int boja = ContextCompat.getColor(h.itemView.getContext(), o.boja);
         int tekst = Boje.tamna(boja);
-        h.kartica.setCardBackgroundColor(Boje.pastel(boja));
-        h.naziv.setTextColor(tekst);
-        h.opis.setTextColor(tekst);
+        h.krug.postaviBoju(boja);
         h.simbol.setTextColor(tekst);
         h.simbolSlika.setImageTintList(ColorStateList.valueOf(tekst));
         h.naziv.setText(o.naziv);
@@ -69,7 +67,8 @@ public class OblastAdapter extends RecyclerView.Adapter<OblastAdapter.Drzac> {
             h.simbol.setText(o.simbol);
         }
 
-        h.kartica.setOnClickListener(v -> slusalac.naOblast(o));
+        h.itemView.setOnClickListener(v -> slusalac.naOblast(o, h.krug));
+        h.krug.setOnClickListener(v -> slusalac.naOblast(o, h.krug));
     }
 
     @Override
@@ -78,7 +77,7 @@ public class OblastAdapter extends RecyclerView.Adapter<OblastAdapter.Drzac> {
     }
 
     static class Drzac extends RecyclerView.ViewHolder {
-        final KvadratnaKartica kartica;
+        final KrugView krug;
         final TextView simbol;
         final ImageView simbolSlika;
         final TextView naziv;
@@ -86,7 +85,7 @@ public class OblastAdapter extends RecyclerView.Adapter<OblastAdapter.Drzac> {
 
         Drzac(@NonNull View v) {
             super(v);
-            kartica = v.findViewById(R.id.kartica);
+            krug = v.findViewById(R.id.simbolPozadina);
             simbol = v.findViewById(R.id.simbol);
             simbolSlika = v.findViewById(R.id.simbolSlika);
             naziv = v.findViewById(R.id.naziv);

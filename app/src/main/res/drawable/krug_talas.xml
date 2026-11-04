@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Talas pri dodiru, ograničen na krug -->
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
-    android:color="#40FFF3E4">
+    android:color="#262B2A3A">
     <item android:id="@android:id/mask">
         <shape android:shape="oval">
             <solid android:color="#FFFFFFFF" />

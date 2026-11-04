@@ -12,7 +12,7 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-/** Ekran grupe oblasti: mreža obojenih kartica (npr. Fizika → Kretanje, Sile…). */
+/** Ekran grupe oblasti: pastelni krugovi u dve kolone (npr. Fizika → Kretanje, Sile…). */
 public class GrupaActivity extends AppCompatActivity {
 
     private static final String EXTRA_GRUPA = "grupa";
@@ -42,7 +42,8 @@ public class GrupaActivity extends AppCompatActivity {
         RecyclerView lista = findViewById(R.id.listaTema);
         lista.setLayoutManager(new GridLayoutManager(this, 2));
         lista.setAdapter(new OblastAdapter(Oblasti.podoblasti(grupa.id),
-                o -> startActivity(OblastActivity.namera(this, o.id))));
+                (o, krug) -> KrugPrelaz.otvori(this, krug, ContextCompat.getColor(this, o.boja),
+                        () -> startActivity(OblastActivity.namera(this, o.id)))));
         findViewById(R.id.uskoro).setVisibility(View.GONE);
 
         Reklame.prikaziBaner(this, findViewById(R.id.reklamaKontejner));

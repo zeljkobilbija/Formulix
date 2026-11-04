@@ -14,12 +14,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 /**
- * Topla pozadina početnog ekrana (dizajn "Topli stakleni"): eliptični sjaj
- * ispod sredine ekrana koji prelazi u tamno braon, i mekana svetla mrlja gore levo.
+ * Pastelna pozadina početnog ekrana: eliptični svetli mint sjaj
+ * ispod sredine ekrana koji prelazi u mint i tirkizno-mint, i bela mrlja gore levo.
  */
 public class ToplaPozadina extends Drawable {
 
-    private static final int[] BOJE = {0xFFE8913A, 0xFF9A5A2C, 0xFF5A3A2A, 0xFF2F2019};
+    private static final int[] BOJE = {0xFFF3FCF7, 0xFFE2F5EC, 0xFFD3EEE6, 0xFFC9E6E6};
     private static final float[] POLOZAJI = {0f, 0.38f, 0.70f, 1f};
 
     private final float gustina;
@@ -48,7 +48,7 @@ public class ToplaPozadina extends Drawable {
         mrljaY = b.top + 70 * gustina;
         mrljaR = 170 * gustina;
         mrlja.setShader(new RadialGradient(mrljaX, mrljaY, mrljaR,
-                new int[]{0x2EFFD6AA, 0x00FFD6AA}, null, Shader.TileMode.CLAMP));
+                new int[]{0x99FFFFFF, 0x00FFFFFF}, null, Shader.TileMode.CLAMP));
     }
 
     @Override
