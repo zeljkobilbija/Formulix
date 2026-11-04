@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--
-      AdMob ID-jevi. Ovo su Google-ovi PROBNI ID-jevi: prikazuju oznaku "Test Ad"
-      i bezbedno se mogu koristiti tokom razvoja.
-      Pre objavljivanja na Play prodavnici zameni ih svojim ID-jevima iz AdMob konzole:
-        admob_app_id    → Apps → tvoja aplikacija → App settings → App ID (ca-app-pub-…~…)
-        admob_banner_id → Ad units → baner → Ad unit ID (ca-app-pub-…/…)
+      Pravi AdMob ID-jevi za Formulix (koristi ih RELEASE verzija).
+      Debug verzija ih zamenjuje probnim iz src/debug/res/values/admob.xml.
     -->
-    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="admob_banner_id" translatable="false">ca-app-pub-3940256099942544/9214589741</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-7920431183682527~2874768206</string>
+    <string name="admob_banner_id" translatable="false">ca-app-pub-7920431183682527/4742171614</string>
 </resources>
