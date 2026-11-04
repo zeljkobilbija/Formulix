@@ -52,4 +52,7 @@
     <string name="nazad">Indietro</string>
     <string name="uskoro_oblast">Le formule di questo argomento arriveranno presto.</string>
     <string name="privatnost">Impostazioni privacy</string>
+    <string name="podeli">Condividi l\'app</string>
+    <string name="podeli_naslov">Condividi con</string>
+    <string name="podeli_poruka">Guarda Formulix – formule di matematica, fisica e chimica in tasca: %s</string>
 </resources>

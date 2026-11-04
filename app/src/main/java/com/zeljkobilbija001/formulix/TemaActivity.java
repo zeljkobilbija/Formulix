@@ -61,7 +61,7 @@ public class TemaActivity extends AppCompatActivity {
         findViewById(R.id.nazad).setOnClickListener(v -> finish());
 
         WebView web = findViewById(R.id.web);
-        web.setBackgroundColor(ContextCompat.getColor(this, R.color.pozadina));
+        web.setBackgroundColor(Boje.pozadinaEkrana(this, boja));
         WebSettings s = web.getSettings();
         s.setJavaScriptEnabled(true);
         s.setAllowFileAccess(false);
@@ -100,6 +100,7 @@ public class TemaActivity extends AppCompatActivity {
                 .appendQueryParameter("jezik", Jezik.trenutni(this))
                 .appendQueryParameter("tamno", tamno ? "1" : "0")
                 .appendQueryParameter("boja", Boje.hex(boja))
+                .appendQueryParameter("pozadina", Boje.hex(Boje.pozadinaEkrana(this, boja)))
                 .build();
         if (savedInstanceState == null) {
             web.loadUrl(adresa.toString());

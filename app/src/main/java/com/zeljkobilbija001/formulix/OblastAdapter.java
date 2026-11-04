@@ -7,6 +7,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import android.content.res.ColorStateList;
+
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -46,7 +48,14 @@ public class OblastAdapter extends RecyclerView.Adapter<OblastAdapter.Drzac> {
     @Override
     public void onBindViewHolder(@NonNull Drzac h, int position) {
         Oblast o = oblasti.get(position);
-        h.kartica.setCardBackgroundColor(ContextCompat.getColor(h.itemView.getContext(), o.boja));
+        // Pastelna kartica sa tamnim tekstom, kao krugovi na početnom ekranu
+        int boja = ContextCompat.getColor(h.itemView.getContext(), o.boja);
+        int tekst = Boje.tamna(boja);
+        h.kartica.setCardBackgroundColor(Boje.pastel(boja));
+        h.naziv.setTextColor(tekst);
+        h.opis.setTextColor(tekst);
+        h.simbol.setTextColor(tekst);
+        h.simbolSlika.setImageTintList(ColorStateList.valueOf(tekst));
         h.naziv.setText(o.naziv);
         h.opis.setText(o.opis);
 

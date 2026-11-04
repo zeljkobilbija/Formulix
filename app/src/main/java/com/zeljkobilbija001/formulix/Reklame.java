@@ -33,6 +33,9 @@ public final class Reklame {
 
     private static final AtomicBoolean SDK_POKRENUT = new AtomicBoolean(false);
 
+    /** Standard za sve aplikacije: kontejner banera je visok 70 dp (vidi podsetnik). */
+    private static final int VISINA_BANERA_DP = 70;
+
     private Reklame() { }
 
     /** Da li smemo da tražimo reklame (saglasnost data ili nije potrebna). */
@@ -98,7 +101,7 @@ public final class Reklame {
             if (a.isFinishing() || a.isDestroyed() || kontejner.getChildCount() > 0) return;
             AdView baner = new AdView(a);
             baner.setAdUnitId(a.getString(R.string.admob_banner_id));
-            baner.setAdSize(AdSize.getLargeAnchoredAdaptiveBannerAdSize(a, sirinaDp(a, kontejner)));
+            baner.setAdSize(AdSize.getInlineAdaptiveBannerAdSize(sirinaDp(a, kontejner), VISINA_BANERA_DP));
             kontejner.addView(baner);
             baner.loadAd(new AdRequest.Builder().build());
 

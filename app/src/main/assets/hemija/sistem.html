@@ -18,6 +18,7 @@
   koren.lang = jezik;
   if (p.get('tamno') === '1') koren.classList.add('tamno');
   koren.style.setProperty('--akcenat', p.get('boja') || '#00838F');
+  if (p.get('pozadina')) koren.style.setProperty('--pozadina', p.get('pozadina'));
   fetch('../oblasti/hemija.json')
     .then(function (r) { return r.json(); })
     .then(function (d) {

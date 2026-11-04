@@ -52,4 +52,7 @@
     <string name="nazad">Voltar</string>
     <string name="uskoro_oblast">As fórmulas deste tema chegam em breve.</string>
     <string name="privatnost">Configurações de privacidade</string>
+    <string name="podeli">Partilhar a app</string>
+    <string name="podeli_naslov">Partilhar via</string>
+    <string name="podeli_poruka">Vê o Formulix – fórmulas de matemática, física e química no bolso: %s</string>
 </resources>

@@ -53,4 +53,7 @@
     <string name="nazad">Back</string>
     <string name="uskoro_oblast">Formulas for this topic are coming soon.</string>
     <string name="privatnost">Privacy settings</string>
+    <string name="podeli">Share the app</string>
+    <string name="podeli_naslov">Share via</string>
+    <string name="podeli_poruka">Check out Formulix – math, physics and chemistry formulas in your pocket: %s</string>
 </resources>

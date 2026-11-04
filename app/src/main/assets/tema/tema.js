@@ -324,6 +324,8 @@
   koren_el.lang = JEZIK;
   if (TAMNO) koren_el.classList.add('tamno');
   koren_el.style.setProperty('--akcenat', BOJA);
+  // Pozadina u blagoj nijansi boje oblasti (šalje je aplikacija)
+  if (p.get('pozadina')) koren_el.style.setProperty('--pozadina', p.get('pozadina'));
   if (TAMNO) koren_el.style.setProperty('--akcenat-tekst', svetlije(BOJA, 0.5));
   // Svetla ispuna figura na crtežima (u tamnoj temi providna boja oblasti)
   koren_el.style.setProperty('--lik-ispuna', TAMNO ? BOJA + '40' : svetlije(BOJA, 0.86));

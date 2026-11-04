@@ -33,6 +33,11 @@
     <color name="ivica">#DADDE3</color>
     <color name="zvezdica">#E3A008</color>
 
+    <!-- Početni ekran: topli stakleni dizajn (isti u svetloj i tamnoj temi) -->
+    <color name="topla_tekst">#FFF8EF</color>
+    <color name="topla_tekst_2">#FFE2C4</color>
+    <color name="krug_izabran_tekst">#4A2F22</color>
+
     <!-- Splash i ikonica -->
     <color name="splash_pozadina">#2E5BBA</color>
     <color name="ic_launcher_background">#FFFFFF</color>

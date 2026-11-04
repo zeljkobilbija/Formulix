@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Jedan mehurić oblasti na početnom ekranu (veličine postavlja KrugoviLayout) -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/krug"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="@drawable/krug_talas">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/simbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            
+            android:textStyle="bold"
+            tools:text="∫" />
+
+        <ImageView
+            android:id="@+id/simbolSlika"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:importantForAccessibility="no"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/naziv"
+            android:layout_width="96dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingMultiplier="0.92"
+            android:maxLines="2"
+            
+            tools:text="Analiza" />
+
+        <!-- Samo kod izabranog kruga -->
+        <TextView
+            android:id="@+id/opis"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:alpha="0.8"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:maxLines="2"
+            android:visibility="gone"
+            tools:text="Izvodi, integrali" />
+
+        <ImageView
+            android:id="@+id/strelica"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="6dp"
+            android:importantForAccessibility="no"
+            android:rotation="180"
+            android:src="@drawable/ic_nazad"
+            android:visibility="gone"
+            app:tint="@color/krug_izabran_tekst" />
+    </LinearLayout>
+</FrameLayout>
