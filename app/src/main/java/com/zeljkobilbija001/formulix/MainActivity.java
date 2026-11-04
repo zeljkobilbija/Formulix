@@ -105,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
             {"kombinatorika", 0.18f, 0.75f, 1.00f},
             {"fizika", 0.50f, 0.85f, 1.20f},
             {Hemija.OBLAST, 0.84f, 0.88f, 1.00f},
+            {Oblasti.KONVERTER, 0.62f, 0.45f, 1.00f},
     };
 
     private void postaviKrugove() {
@@ -190,6 +191,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void otvoriOblast(Oblast o) {
         if (Hemija.OBLAST.equals(o.id)) startActivity(SistemActivity.namera(this));
+        else if (Oblasti.KONVERTER.equals(o.id)) startActivity(KonverterActivity.namera(this));
         else if (o.grupa) startActivity(GrupaActivity.namera(this, o.id));
         else startActivity(OblastActivity.namera(this, o.id));
     }

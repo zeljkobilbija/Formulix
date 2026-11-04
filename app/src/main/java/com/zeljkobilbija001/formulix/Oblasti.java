@@ -31,8 +31,13 @@ public final class Oblasti {
             new Oblast("fizika", R.string.oblast_fizika, R.string.opis_fizika,
                     "", R.drawable.ic_oblast_atom, R.color.fizika, true),
             new Oblast(Hemija.OBLAST, R.string.oblast_hemija, R.string.opis_hemija,
-                    "", R.drawable.ic_oblast_hemija, R.color.hemija)
+                    "", R.drawable.ic_oblast_hemija, R.color.hemija),
+            new Oblast("jedinice", R.string.oblast_jedinice, R.string.opis_jedinice,
+                    "⇄", 0, R.color.jedinice)
     ));
+
+    /** Ekran za konverziju jedinica (nema teme, pa se ne pretražuje). */
+    public static final String KONVERTER = "jedinice";
 
     /** Oblasti fizike (ekran koji otvara kartica "Fizika"). Sadržaj: assets/oblasti/<id>.json */
     public static final List<Oblast> FIZIKA = Collections.unmodifiableList(Arrays.asList(
@@ -70,7 +75,7 @@ public final class Oblasti {
         List<Oblast> sve = new ArrayList<>();
         for (Oblast o : SVE) {
             if (o.grupa) sve.addAll(podoblasti(o.id));
-            else sve.add(o);
+            else if (!KONVERTER.equals(o.id)) sve.add(o);
         }
         return sve;
     }

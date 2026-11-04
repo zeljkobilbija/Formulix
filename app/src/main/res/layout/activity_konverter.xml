@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ekran "Jedinice": kategorije (krugovi), unos vrednosti i jedinice, svi preračuni -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/koren"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pozadina"
+    android:orientation="vertical"
+    tools:context=".KonverterActivity">
+
+    <include layout="@layout/zaglavlje" />
+
+    <!-- Kategorije: pastelni krugovi u jednom redu koji se pomera -->
+    <HorizontalScrollView
+        android:id="@+id/kategorijeTraka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/kategorije"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="horizontal"
+            android:paddingStart="10dp"
+            android:paddingTop="14dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="6dp" />
+    </HorizontalScrollView>
+
+    <!-- Unos: vrednost i jedinica iz koje se pretvara -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="16dp"
+        app:cardBackgroundColor="@color/povrsina"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="2dp"
+        app:strokeWidth="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/vrednost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@null"
+                android:digits="0123456789.,-eE"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/vrednost"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal|numberSigned"
+                android:maxLines="1"
+                android:textColor="@color/tekst"
+                android:textColorHint="@color/tekst_sekundarni"
+                android:textSize="32sp" />
+
+            <LinearLayout
+                android:id="@+id/izborJedinice"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/polje_staklo"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="12dp">
+
+                <TextView
+                    android:id="@+id/jedinicaIz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="16sp"
+                    tools:text="ft · foot" />
+
+                <ImageView
+                    android:id="@+id/strelicaIzbora"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="6dp"
+                    android:importantForAccessibility="no"
+                    android:rotation="-90"
+                    android:src="@drawable/ic_nazad" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Svi preračuni -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rezultati"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingStart="12dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="12dp" />
+
+    <!-- Mesto za AdMob baner -->
+    <FrameLayout
+        android:id="@+id/reklamaKontejner"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+</LinearLayout>

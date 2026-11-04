@@ -57,13 +57,7 @@ public final class Boje {
      * a donji deo ekrana (baner) iznad navigacije.
      */
     public static void obojenoZaglavlje(Activity a, View koren, View zaglavlje, int boja) {
-        zaglavlje.setBackgroundColor(pastel(boja));
-        int tekst = tamna(boja);
-        ((TextView) zaglavlje.findViewById(R.id.naslov)).setTextColor(tekst);
-        ((TextView) zaglavlje.findViewById(R.id.podnaslov)).setTextColor(tekst);
-        ColorStateList ikonice = ColorStateList.valueOf(tekst);
-        ((ImageView) zaglavlje.findViewById(R.id.nazad)).setImageTintList(ikonice);
-        ((ImageView) zaglavlje.findViewById(R.id.dugmePodeli)).setImageTintList(ikonice);
+        oboji(koren, zaglavlje, boja);
         View podeli = zaglavlje.findViewById(R.id.dugmePodeli);
         if (podeli != null) podeli.setOnClickListener(v -> Deljenje.podeliAplikaciju(a));
         WindowCompat.getInsetsController(a.getWindow(), a.getWindow().getDecorView())
@@ -77,6 +71,17 @@ public final class Boje {
                     zaglavlje.getPaddingRight(), zaglavlje.getPaddingBottom());
             return insets;
         });
-        koren.setBackgroundColor(pozadinaEkrana(a, boja));
+    }
+
+    /** Samo boje zaglavlja i pozadine (npr. kada ekran promeni kategoriju). */
+    public static void oboji(View koren, View zaglavlje, int boja) {
+        zaglavlje.setBackgroundColor(pastel(boja));
+        int tekst = tamna(boja);
+        ((TextView) zaglavlje.findViewById(R.id.naslov)).setTextColor(tekst);
+        ((TextView) zaglavlje.findViewById(R.id.podnaslov)).setTextColor(tekst);
+        ColorStateList ikonice = ColorStateList.valueOf(tekst);
+        ((ImageView) zaglavlje.findViewById(R.id.nazad)).setImageTintList(ikonice);
+        ((ImageView) zaglavlje.findViewById(R.id.dugmePodeli)).setImageTintList(ikonice);
+        koren.setBackgroundColor(pozadinaEkrana(koren.getContext(), boja));
     }
 }

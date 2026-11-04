@@ -40,6 +40,10 @@
         <activity
             android:name=".TemaActivity"
             android:exported="false" />
+        <activity
+            android:name=".KonverterActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
