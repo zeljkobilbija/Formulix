@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">Formulix</string>
-    <string name="podnaslov">Math and physics in your pocket</string>
+    <string name="podnaslov">Math, physics and chemistry in your pocket</string>
     <string name="pretraga_hint">Search formulas… (e.g. cone, integral)</string>
     <string name="obrisi_pretragu">Clear search</string>
     <string name="oblasti">Topics</string>

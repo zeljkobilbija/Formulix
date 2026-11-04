@@ -5,7 +5,12 @@ import io
 import os
 import sys
 
-JEZICI = ["values", "values-sr", "values-de", "values-es", "values-fr", "values-it", "values-pt", "values-ru"]
+JEZICI = ["values", "values-sr", "values-b+sr+Latn", "values-de", "values-es", "values-fr", "values-it", "values-pt", "values-ru"]
+
+# Kolona prevoda za svaki folder (srpski i za values-sr i za values-b+sr+Latn,
+# jer Android values-sr tretira kao ćirilicu i ne koristi ga za sr-Latn)
+KOLONA = {"values": 0, "values-sr": 1, "values-b+sr+Latn": 1, "values-de": 2, "values-es": 3,
+          "values-fr": 4, "values-it": 5, "values-pt": 6, "values-ru": 7}
 
 TEKSTOVI = """
 oblast_jedinice|Units|Jedinice|Einheiten|Unidades|Unités|Unità|Unidades|Единицы
@@ -179,9 +184,10 @@ def main(res):
         linije = ['<?xml version="1.0" encoding="utf-8"?>',
                   "<!-- Generisano: alati/jedinice/gen_strings.py (ne menjati ručno) -->",
                   "<resources>"]
+        k = KOLONA[folder]
         for r in redovi:
             assert len(r) == 9, r
-            linije.append('    <string name="%s">%s</string>' % (r[0], xml(r[1 + i])))
+            linije.append('    <string name="%s">%s</string>' % (r[0], xml(r[1 + k])))
         linije.append("</resources>")
         put = os.path.join(res, folder, "strings_jedinice.xml")
         with io.open(put, "w", encoding="utf-8", newline="\n") as f:

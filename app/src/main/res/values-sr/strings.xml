@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="podnaslov">Matematika i fizika na dlanu</string>
+    <string name="podnaslov">Matematika, fizika i hemija na dlanu</string>
     <string name="pretraga_hint">Pretraži formule… (npr. kupa, integral)</string>
     <string name="obrisi_pretragu">Obriši pretragu</string>
     <string name="oblasti">Oblasti</string>

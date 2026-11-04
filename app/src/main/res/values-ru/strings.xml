@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="podnaslov">Математика и физика в кармане</string>
+    <string name="podnaslov">Математика, физика и химия в кармане</string>
     <string name="pretraga_hint">Поиск формул… (напр. конус, интеграл)</string>
     <string name="obrisi_pretragu">Очистить поиск</string>
     <string name="oblasti">Разделы</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="podnaslov">Matematica e fisica in tasca</string>
+    <string name="podnaslov">Matematica, fisica e chimica in tasca</string>
     <string name="pretraga_hint">Cerca formule… (es. cono, integrale)</string>
     <string name="obrisi_pretragu">Cancella ricerca</string>
     <string name="oblasti">Argomenti</string>
