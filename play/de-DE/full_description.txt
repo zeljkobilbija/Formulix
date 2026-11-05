@@ -1,0 +1,18 @@
+Formulix ist eine übersichtliche und farbenfrohe Formelsammlung für Schule, Studium und Alltag. Wähle ein Thema, finde die passende Formel und berechne das Ergebnis sofort.
+
+INHALT
+• Mathematik – Arithmetik, Algebra, ebene Geometrie, Stereometrie, Trigonometrie, Analysis, analytische Geometrie und Kombinatorik
+• Physik – Bewegung, Kräfte, Energie, Fluide, Rotation, Wärme, Elektrizität, Magnetismus, Wellen, moderne Physik und Naturkonstanten
+• Chemie – interaktives Periodensystem mit allen 118 Elementen
+• Einheiten – Umrechner zwischen metrischen und imperialen Einheiten: Länge, Fläche, Volumen, Temperatur, Masse, Geschwindigkeit, Druck, Energie, Leistung, Stromstärke, Spannung, Widerstand, Ladung, Magnetfeld, Verbrauch, Winkel und Daten
+
+FUNKTIONEN
+• Klar dargestellte Formeln mit Zeichnungen von Figuren und Körpern
+• Integrierter Rechner: bekannte Werte eingeben und die gesuchte Größe wählen
+• Schnelle Suche in allen Themen (z. B. „Kegel Volumen“, „Integral“)
+• Der Umrechner zeigt das Ergebnis in allen Einheiten gleichzeitig
+• Funktioniert offline, ohne Konto
+• Sanftes Pastell-Design, angenehm für die Augen
+• Auf Deutsch, Englisch, Serbisch, Spanisch, Französisch, Italienisch, Portugiesisch und Russisch
+
+Ideal für Schüler, Studierende, Lehrkräfte, Ingenieure und alle, die die richtige Formel schnell zur Hand haben möchten.

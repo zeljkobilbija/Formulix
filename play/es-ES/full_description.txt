@@ -1,0 +1,18 @@
+Formulix es un formulario claro y colorido para el colegio, la universidad y el día a día. Elige un tema, encuentra la fórmula que necesitas y calcula el resultado al instante.
+
+CONTENIDO
+• Matemáticas – aritmética, álgebra, geometría plana y del espacio, trigonometría, cálculo, geometría analítica y combinatoria
+• Física – movimiento, fuerzas, energía, fluidos, rotación, calor, electricidad, magnetismo, ondas, física moderna y constantes físicas
+• Química – tabla periódica interactiva con los 118 elementos
+• Unidades – conversor entre unidades métricas e imperiales: longitud, área, volumen, temperatura, masa, velocidad, presión, energía, potencia, corriente, tensión, resistencia, carga, campo magnético, consumo de combustible, ángulos y datos
+
+FUNCIONES
+• Fórmulas escritas con claridad, con dibujos de figuras y cuerpos
+• Calculadora integrada: introduce los valores conocidos y elige qué calcular
+• Búsqueda rápida en todos los temas (p. ej. «volumen del cono», «integral»)
+• El conversor muestra el resultado en todas las unidades a la vez
+• Funciona sin conexión y sin cuenta
+• Diseño en suaves tonos pastel, agradable para la vista
+• En español, inglés, serbio, alemán, francés, italiano, portugués y ruso
+
+Ideal para estudiantes, profesores, ingenieros y cualquiera que quiera tener la fórmula correcta a mano.

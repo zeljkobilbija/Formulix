@@ -1,0 +1,18 @@
+Formulix je pregledan i šaren priručnik formula za školu, fakultet i svakodnevni život. Izaberi oblast, pronađi formulu koja ti treba i odmah izračunaj rezultat.
+
+ŠTA SADRŽI
+• Matematika – aritmetika, algebra, planimetrija, stereometrija, trigonometrija, analiza, analitička geometrija i kombinatorika
+• Fizika – kretanje, sile, energija, fluidi, rotacija, toplota, elektricitet, magnetizam, talasi, moderna fizika i fizičke konstante
+• Hemija – interaktivni periodni sistem sa svih 118 elemenata
+• Jedinice – konverter metričkih i anglosaksonskih mera: dužina, površina, zapremina, temperatura, masa, brzina, pritisak, energija, snaga, struja, napon, otpor, naelektrisanje, magnetno polje, potrošnja goriva, uglovi i podaci
+
+MOGUĆNOSTI
+• Jasno napisane formule, sa crtežima figura i tela
+• Ugrađeni kalkulator: upiši poznate vrednosti i izaberi šta tražiš
+• Brza pretraga kroz sve oblasti (npr. „zapremina kupe“, „integral“)
+• Konverter prikazuje rezultat u svim jedinicama odjednom
+• Radi bez interneta, bez naloga
+• Blag pastelni dizajn koji ne zamara oči
+• Na srpskom, engleskom, nemačkom, španskom, francuskom, italijanskom, portugalskom i ruskom
+
+Idealno za učenike, studente, nastavnike, inženjere i sve kojima treba prava formula pri ruci.
