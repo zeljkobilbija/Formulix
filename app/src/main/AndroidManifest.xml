@@ -19,6 +19,7 @@
 
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true"
             android:theme="@style/Theme.Formulix.Splash"
             android:windowSoftInputMode="adjustResize">
@@ -30,18 +31,23 @@
         </activity>
         <activity
             android:name=".OblastActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".GrupaActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".SistemActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".TemaActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".KonverterActivity"
+            android:screenOrientation="portrait"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
